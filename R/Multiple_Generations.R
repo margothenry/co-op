@@ -105,7 +105,7 @@ if(is.na(numGenes)){
     c_hyper[c_hyper == "NaN"] <- 0
   }
   
-  df <- tibble( paper = paper, environment = environment, c_hyper = round(c_hyper, 3), p_chisq, estimate = round(estimate, 3) ,N_genes.notParallel= num_non_parallel_genes, N_genes.parallel=num_parallel_genes, parallel_genes)
+  df <- tibble( paper = paper, environment = environment,generations, c_hyper = round(c_hyper, 3), p_chisq, estimate = round(estimate, 3) ,N_genes.notParallel= num_non_parallel_genes, N_genes.parallel=num_parallel_genes, parallel_genes)
   
   filename2 <- file.path(getwd(), "data-out", paste(paper, "_Analysis.csv", sep=""))
   
