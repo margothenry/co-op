@@ -1,0 +1,252 @@
+﻿id,type,location,Gene,description,change,annotation,total count,M9mutS1 ,M9mutS2 ,M9mutS3 ,M9pMA1-1 ,M9pMA1-2 ,M9pMA1-3 ,M9pMA7-1 ,M9pMA7-2 ,M9pMA7-3 ,NaClmutS-15 ,NaClmutS-17 ,NaClmutS-20 ,NaClpMA1-11 ,NaClpMA1-15 ,NaClpMA1-19 ,NaClpMA7-11 ,NaClpMA7-12 ,NaClpMA7-15 ,xylApMA7-1,xyIApMA1-1 ,xyIApmutS1 
+SNP-6545-C,SNP,6545,yaaJ,predicted transporter,T->C,D472G,8,1,1,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,1
+DEL-63419-1,DEL,63419,rapA/polB,"RNA polymerase remodeling/recycling factor ATPase; RNA polymerase-associated, ATP-dependent RNA translocase/DNA polymerase II",1 bp,,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+SNP-70289-T,SNP,70289,araB/araC,L-ribulokinase/DNA-binding transcriptional dual regulator,G->T,intergenic (-241/-98),17,1,1,1,1,1,1,0,1,0,1,1,1,1,1,0,1,1,1,1,1,1
+SNP-70371-C,SNP,70371,araB/araC,L-ribulokinase/DNA-binding transcriptional dual regulator,T->C,intergenic (-323/-16),17,1,1,1,1,1,1,0,1,0,1,1,1,1,1,0,1,1,1,1,1,1
+SNP-70434-T,SNP,70434,araC,DNA-binding transcriptional dual regulator,C->T,48,17,1,1,1,1,1,1,0,1,0,1,1,1,1,1,0,1,1,1,1,1,1
+SNP-95687-G,SNP,95687,murF,UDP-N-acetylmuramoyl-tripeptide:D-alanyl-D- alanine ligase,A->G,1038,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+SNP-119603-T,SNP,119603,ampE,predicted inner membrane protein,C->T,T108M,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+SNP-121161-T,SNP,121161,aroP,aromatic amino acid transporter,C->T,A131T,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+SNP-122430-C,SNP,122430,pdhR,DNA-binding transcriptional dual regulator,T->C,339,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+SNP-167633-A,SNP,167633,fhuA,ferrichrome outer membrane transporter,G->A,150,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+SNP-207331-T,SNP,207331,dnaE,DNA polymerase III alpha subunit,A->T,I736F,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+SNP-213206-C,SNP,213206,tilS,tRNA(Ile)-lysidine synthetase,T->C,876,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+SNP-218462-G,SNP,218462,proS,prolyl-tRNA synthetase,A->G,V105A,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+MCDEL-238070-238865,MCDEL,238070,yafT/ykfM/yafU,,795 bp,,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+SNP-256562-G,SNP,256562,frsA,fermentation-respiration switch protein; PTS Enzyme IIA(Glc)-binding protein; pNP-butyrate esterase activity,A->G,36,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+DEL-257908-776,DEL,257908,crl,"sigma factor-binding protein, stimulates RNA polymerase holoenzyme formation;regulator; Surface structures; transcriptional regulator of cryptic csgA gene for curli surface fibers",776 bp,,20,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+MCDEL-257908-258683,MCDEL,257908,crl,,775 bp,,20,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+MCDEL-260039-260289,MCDEL,260039,phoE,,250 bp,,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+MOB-272989-IS186-7,MOB,272989,ykfC,CP4-6 prophage; conserved protein;Phage or Prophage Related,IS186 -1 7 bp,,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+INS-287221-G,INS,287221,yagH,CP4-6 prophage; predicted xylosidase/arabinosidase,->G,coding (433/1611 nt),8,1,1,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,1
+SNP-291325-G,SNP,291325,insA,IS1 repressor TnpA,A->G,C8R,3,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1
+SNP-292068-T,SNP,292068,yagJ,CP4-6 prophage; predicted protein;Phage or Prophage Related,C->T,pseudogene (665/828 nt),1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+SNP-296927-G,SNP,296927,intF,CP4-6 prophage; predicted phage integrase,A->G,V57A,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+SNP-334213-C,SNP,334213,yahB,predicted DNA-bindng transcriptional regulator,T->C,D74G,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+SNP-357296-T,SNP,357296,codA,cytosine/isoguanine deaminase,A->T,N376Y,8,1,1,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,1
+SNP-360045-T,SNP,360045,cynX,predicted cyanate transporter,C->T,54,6,1,0,1,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,1
+INS-380012-G,INS,380012,frmR/yaiO,regulator protein that represses frmRAB operon/outer membrane protein,->G,intergenic (-131/+57),1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+SNP-388558-G,SNP,388558,tauD,"taurine dioxygenase, 2-oxoglutarate-dependent",A->G,H255R,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+DEL-388670-1,DEL,388670,tauD/hemB,"taurine dioxygenase, 2-oxoglutarate-dependent/5-aminolevulinate dehydratase (porphobilinogen synthase)",1 bp,,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+SNP-388747-G,SNP,388747,tauD/hemB,"taurine dioxygenase, 2-oxoglutarate-dependent/5-aminolevulinate dehydratase (porphobilinogen synthase)",A->G,intergenic (+101/+6),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+MCDEL-401069-401378,MCDEL,401069,,,309 bp,,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+SNP-458090-C,SNP,458090,clpX,ATPase and specificity subunit of ClpX-ClpP ATP-dependent serine protease,T->C,V222A,8,1,1,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,1
+SNP-485348-G,SNP,485348,acrA,multidrug efflux system,A->G,V91A,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+SNP-512483-G,SNP,512483,glsA,glutaminase 1,A->G,843,8,1,1,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,1
+MCDEL-537470-537648,MCDEL,537470,ybbW,,178 bp,,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+SNP-542643-C,SNP,542643,glxK,glycerate kinase II,T->C,756,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+SNP-559167-A,SNP,559167,sfmC,"pilin chaperone, periplasmic",G->A,S65N,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+MCDEL-568600-568975,MCDEL,568600,emrE/ybcK,,375 bp,,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+SNP-568648-G,SNP,568648,emrE/ybcK,DLP12 prophage; multidrug resistance protein/DLP12 prophage; predicted recombinase,A->G,intergenic (+1/-254),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+MCDEL-574251-574511,MCDEL,574251,quuD,,260 bp,,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+MCDEL-582980-584596,MCDEL,582980,tfaX/appY,,1616 bp,,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+MCDEL-585584-585831,MCDEL,585584,ompT,,247 bp,,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+SNP-636097-T,SNP,636097,ybdN,conserved protein,C->T,R158H,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+SNP-640714-T,SNP,640714,ahpF,"alkyl hydroperoxide reductase, F52a subunit, FAD/NAD(P)-binding",C->T,A321V,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+SNP-651941-T,SNP,651941,citC/dpiB,[citrate [pro-3S]-lyase] ligase/sensory histidine kinase in two-component regulatory system with citB,C->T,intergenic (-85/-294),8,1,1,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,1
+MCDEL-651959-652219,MCDEL,651959,,,260 bp,,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+SNP-661254-G,SNP,661254,ybeF,predicted DNA-binding transcriptional regulator,A->G,V42A,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+SNP-668066-A,SNP,668066,mrdA,transpeptidase involved in peptidoglycan synthesis (penicillin-binding protein 2),T->A,Q51L,10,0,0,0,1,0,0,1,0,0,1,1,1,1,1,1,0,1,1,0,0,0
+SNP-690292-G,SNP,690292,lnt,apolipoprotein N-acyltransferase,A->G,V197A,8,1,1,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,1
+SNP-695519-G,SNP,695519,ubiF,"2-octaprenyl-3-methyl-6-methoxy-1,4-benzoquinol oxygenase",A->G,H140R,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+SNP-702144-T,SNP,702144,nagA,N-acetylglucosamine-6-phosphate deacetylase,G->T,A203E,9,1,0,0,0,0,0,0,1,0,0,1,0,1,1,1,1,1,1,0,0,0
+MCDEL-707957-708288,MCDEL,707957,,,331 bp,,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+SNP-751182-T,SNP,751182,ybgQ,predicted outer membrane protein,C->T,A330T,8,1,1,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,1
+SNP-828187-C,SNP,828187,ybhF,fused predicted transporter subunits of ABC superfamily: ATP-binding components,T->C,795,8,1,1,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,1
+INS-834638-T,INS,834638,dinG,ATP-dependent DNA helicase,->T,coding (1569/2151 nt),8,1,1,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,1
+SNP-879373-G,SNP,879373,yliI,soluble aldose sugar dehydrogenase,A->G,Y211C,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+SNP-897890-G,SNP,897890,potI,putrescine transporter subunit: membrane component of ABC superfamily,A->G,807,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+MCDEL-900578-900779,MCDEL,900578,,,201 bp,,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+INS-915199-G,INS,915199,ybjE/aqpZ,predicted transporter/aquaporin Z,->G,intergenic (-342/+153),8,1,1,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,1
+SNP-938856-T,SNP,938856,rarA,DNA-dependent ATPase involved in processing recombination intermediates at replication forks,C->T,P288L,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+SNP-963255-A,SNP,963255,rpsA,30S ribosomal subunit protein S1,C->A,Q421K,7,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,1,1,1,0,0,0
+SNP-1019737-C,SNP,1019737,ompA,outer membrane protein A (3a;II*;G;d),T->C,Y106C,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+SNP-1063399-G,SNP,1063399,cbpA,"curved DNA-binding protein, DnaJ homologue that functions as a co-chaperone of DnaK",A->G,V126A,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+DEL-1072608-1,DEL,1072608,rutB,ureidoacrylate amidohydrolase,1 bp,,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+SNP-1082189-G,SNP,1082189,efeU/efeO,ferrous iron permease (pseudogene)/inactive ferrous ion transporter EfeUOB,A->G,intergenic (+4/-54),6,1,0,1,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,1
+MCDEL-1103283-1103809,MCDEL,1103283,,,526 bp,,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+INS-1112243-G,INS,1112243,opgH,membrane glycosyltransferase,->G,coding (1381/2544 nt),1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+SNP-1142243-C,SNP,1142243,rne,fused ribonucleaseE: endoribonuclease/RNA-binding protein/RNA degradosome binding protein,G->C,Q709E,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+SNP-1172592-T,SNP,1172592,mfd,transcription-repair coupling factor,C->T,R458H,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+MCDEL-1197368-1197876,MCDEL,1197368,ymfD/ymfE,,508 bp,,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+SNP-1225506-A,SNP,1225506,minC,cell division inhibitor,G->A,A192V,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+SNP-1248978-T,SNP,1248978,dhaM,fused predicted dihydroxyacetone-specific PTS enzymes: HPr component/EI component,C->T,G46D,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+SNP-1281664-T,SNP,1281664,narG,"nitrate reductase 1, alpha subunit",C->T,R601C,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+MCDEL-1299312-1300824,MCDEL,1299312,,,1512 bp,,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+DEL-1299499-1199,DEL,1299499,ychE/oppA,predicted inner membrane protein/oligopeptide transporter subunit,1199 bp,,9,1,1,1,0,0,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,1
+MCDEL-1299499-1300697,MCDEL,1299499,,,1198 bp,,9,1,1,1,0,0,0,1,0,0,0,1,1,1,1,0,0,0,0,1,0,1
+SNP-1372465-G,SNP,1372465,ycjN,predicted sugar transporter subunit: periplasmic-binding component of ABC superfamily,A->G,Y186C,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+DEL-1409243-1,DEL,1409243,ydaN/dbpA,"predicted Zn(II) transporter/ATP-dependent RNA helicase, specific for 23S rRNA",1 bp,,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+MOB-1418340-IS5-4,MOB,1418340,kilR/sieB,"Rac prophage; inhibitor of ftsZ, killing protein/Rac prophage; phage superinfection exclusion protein",IS5 1 4 bp,,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+SNP-1429895-C,SNP,1429895,stfR,Rac prophage; predicted tail fiber protein,T->C,S283P,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+INS-1447970-G,INS,1447970,feaB,phenylacetaldehyde dehydrogenase,->G,coding (452/1500 nt),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+MCDEL-1465042-1465360,MCDEL,1465042,paaY/ynbG,,318 bp,,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+DEL-1479682-1,DEL,1479682,ynbC,predicted hydrolase,1 bp,,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+SNP-1486102-T,SNP,1486102,hrpA,predicted ATP-dependent helicase,G->T,Q1014H,2,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+SNP-1511532-G,SNP,1511532,ydcR/ydcS,"fused predicted DNA-binding transcriptional regulator/predicted amino transferase/polyhydroxybutyrate (PHB) synthase, ABC transporter periplasmic binding protein homolog",A->G,intergenic (+123/-122),8,1,1,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,1
+MCDEL-1529899-1530600,MCDEL,1529899,rhsE/ydcD/yncI,,701 bp,,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+SNP-1554168-G,SNP,1554168,maeA,"malate dehydrogenase, (decarboxylating, NAD-requiring) (malic enzyme)",A->G,V501A,8,1,1,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,1
+MCDEL-1570757-1571917,MCDEL,1570757,gadB,,1160 bp,,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+SNP-1571929-A,SNP,1571929,gadB,"glutamate decarboxylase B, PLP-dependent",G->A,117,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+SNP-1577188-C,SNP,1577188,yddB,predicted porin protein,T->C,432,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+SNP-1593260-C,SNP,1593260,yneO,"pseudogene, AidA homolog",T->C,pseudogene (4728/5323 nt),1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+INS-1594124-C,INS,1594124,yneO,"pseudogene, AidA homolog",->C,pseudogene (3864/5323 nt),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+MCDEL-1638651-1639043,MCDEL,1638651,cspI/rzpQ,,392 bp,,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+SNP-1686562-G,SNP,1686562,fumC,"fumarate hydratase (fumarase C),aerobic Class II",A->G,27,2,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+SNP-1707011-C,SNP,1707011,rsxC,electron transport complex protein required for the reduction of SoxR; predicted membrane-associated NADH oxidoreductase,T->C,93,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+SNP-1749263-G,SNP,1749263,ydhT,conserved protein,A->G,297,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+SNP-1788969-C,SNP,1788969,aroH,"3-deoxy-D-arabino-heptulosonate-7-phosphate synthase, tryptophan repressible",T->C,S179P,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+SNP-1805854-A,SNP,1805854,ydiY,"predicted outer membrane protein, acid-inducible",G->A,A77V,8,1,1,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,1
+SNP-1851662-C,SNP,1851662,ansA,cytoplasmic L-asparaginase I,T->C,V268A,8,1,1,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,1
+SNP-1860181-A,SNP,1860181,ydjK,predicted transporter,G->A,P17S,4,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0
+DEL-1862064-1,DEL,1862064,msrB,methionine sulfoxide reductase B,1 bp,,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+SNP-1862077-A,SNP,1862077,msrB,methionine sulfoxide reductase B,C->A,C118F,7,1,0,1,0,0,0,0,0,0,0,0,1,1,0,0,1,1,1,0,0,0
+SNP-1869499-T,SNP,1869499,yeaH,UPF0229 family protein,C->T,A182V,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+SNP-1875142-T,SNP,1875142,yeaM,predicted DNA-binding transcriptional regulator,C->T,435,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+SNP-1929404-C,SNP,1929404,yebE,"inner membrane protein, DUF533 family",T->C,T102A,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+SNP-1935004-C,SNP,1935004,zwf,glucose-6-phosphate 1-dehydrogenase,T->C,1311,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+SNP-1964615-T,SNP,1964615,flhA,predicted flagellar export pore protein,C->T,G146R,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+SNP-1966115-G,SNP,1966115,flhB,"flagellin export apparatus, substrate specificity protein",A->G,I26T,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+MCDEL-1978503-1979278,MCDEL,1978503,insB1/insA,,775 bp,,20,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DEL-1978503-776,DEL,1978503,insB1insA,"insB1, insA",776 bp,,20,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+MOB-1979486-IS5-4,MOB,1979486,insA/uspC,IS1 repressor TnpA/universal stress protein,IS5 1 4 bp,,7,1,1,1,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,1
+SNP-2014140-C,SNP,2014140,fliF,flagellar basal-body MS-ring and collar protein,T->C,912,8,1,1,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,1
+MCDEL-2033544-2034097,MCDEL,2033544,rseX/yedS,,553 bp,,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+SNP-2047223-T,SNP,2047223,yeeJ,putative adhesin,C->T,2286,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+MCDEL-2056611-2056944,MCDEL,2056611,yeeN,,333 bp,,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+MCDEL-2057496-2057818,MCDEL,2057496,yeeN,,322 bp,,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+SNP-2083727-G,SNP,2083727,sbcB,exonuclease I,A->G,972,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+SNP-2115029-C,SNP,2115029,wcaM,colanic acid biosynthesis protein,T->C,I290V,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+SNP-2160092-C,SNP,2160092,mdtC,"multidrug efflux system, subunit C",T->C,1707,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+DEL-2173361-2,DEL,2173361,gatC,"pseudogene, galactitol-specific enzyme IIC component of PTS;transport; Transport of small molecules: Carbohydrates, organic acids, alcohols; PTS system galactitol-specific enzyme IIC",2 bp,,20,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+MCDEL-2192112-2192518,MCDEL,2192112,yehD/yehE,,406 bp,,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+INS-2240749-C,INS,2240749,galS,DNA-binding transcriptional repressor,->C,coding (920/1041 nt),8,1,1,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,1
+MCDEL-2249559-2249749,MCDEL,2249559,yeiE/yeiH,,190 bp,,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+MCDEL-2306761-2306945,MCDEL,2306761,,,184 bp,,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+MCDEL-2385631-2385962,MCDEL,2385631,yfbK/yfbL,,331 bp,,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+SNP-2399423-T,SNP,2399423,nuoG,"NADH:ubiquinone oxidoreductase, chain G",C->T,R248H,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+SNP-2428394-C,SNP,2428394,ubiX,3-octaprenyl-4-hydroxybenzoate carboxy-lyase,T->C,Q78R,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+INS-2462880-C,INS,2462880,fadL/yfdF,long-chain fatty acid outer membrane transporter/predicted protein,->C,intergenic (+234/-132),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+MCDEL-2470048-2470617,MCDEL,2470048,gtrS,,569 bp,,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+SNP-2471628-A,SNP,2471628,yfdL,"pseudogene, CPS-53 (KpLE1) prophage;Phage or Prophage Related",G->A,pseudogene (495/579 nt),1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+SNP-2517306-G,SNP,2517306,yfeA,predicted diguanylate cyclase,A->G,V176A,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+INS-2524499-C,INS,2524499,xapA,purine nucleoside phosphorylase II,->C,coding (380/834 nt),1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+SNP-2648354-T,SNP,2648354,yfhM,conserved protein,C->T,A1312T,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+INS-2698343-C,INS,2698343,pgpC,conserved protein,->C,coding (208/636 nt),1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+SNP-2752101-C,SNP,2752101,recN,recombination and repair protein,T->C,S103P,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+SNP-2755062-C,SNP,2755062,smpB,trans-translation protein,T->C,V56A,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+MCDEL-2774731-2775091,MCDEL,2774731,yfjW,,360 bp,,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+SNP-2782165-C,SNP,2782165,ypjA,adhesin-like autotransporter,T->C,T188A,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+SNP-2795334-G,SNP,2795334,gabP,gamma-aminobutyrate transporter,A->G,K361R,6,1,0,1,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,1
+SNP-2804611-G,SNP,2804611,nrdF/proV,"ribonucleoside-diphosphate reductase 2, beta subunit, ferritin-like protein/glycine betaine transporter subunit",A->G,intergenic (+150/-204),1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+SNP-2804848-T,SNP,2804848,proV,glycine betaine transporter subunit,A->T,K12*,4,1,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+SNP-2856125-C,SNP,2856125,fhlA,DNA-binding transcriptional activator,T->C,1788,8,1,1,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,1
+MCDEL-2857080-2859676,MCDEL,2857080,mutS,,2596 bp,,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+MCDEL-2857090-2859664,MCDEL,2857090,mutS,,2574 bp,,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+MCDEL-2857099-2859670,MCDEL,2857099,mutS,,2571 bp,,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+MCDEL-2857099-2859684,MCDEL,2857099,mutS,,2585 bp,,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+MCDEL-2857099-2859661,MCDEL,2857099,mutS,,2562 bp,,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+MCDEL-2857108-2859653,MCDEL,2857108,mutS,,2545 bp,,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+MCDEL-2857108-2859661,MCDEL,2857108,mutS,,2553 bp,,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+MCDEL-2857112-2859654,MCDEL,2857112,mutS,,2542 bp,,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+INS-2867920-C,INS,2867920,nlpD,"activator of AmiC murein hydrolase activity, lipoprotein",->C,coding (834/1140 nt),8,1,1,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,1
+SNP-2893232-G,SNP,2893232,ygcN,predicted oxidoreductase with FAD/NAD(P)-binding domain,A->G,576,8,1,1,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,1
+MCDEL-2903501-2903963,MCDEL,2903501,,,462 bp,,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+MCDEL-2904346-2904755,MCDEL,2904346,queE,,409 bp,,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+SNP-2909667-A,SNP,2909667,pyrG/mazG,CTP synthetase/nucleoside triphosphate pyrophosphohydrolase,G->A,intergenic (-1/+227),8,1,1,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,1
+SNP-2915916-G,SNP,2915916,barA,"hybrid sensory histidine kinase, in two-component regulatory system with UvrY",A->G,Q287R,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+SNP-2936998-C,SNP,2936998,fucI,L-fucose isomerase,T->C,V472A,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+MCDEL-2990881-2991334,MCDEL,2990881,ygeF/ygeG,,453 bp,,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+SNP-2994744-T,SNP,2994744,ygeK,pseudogene; putative 2-component transcriptional regulator,C->T,pseudogene (349/633 nt),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+MCDEL-2994901-2996094,MCDEL,2994901,ygeK/ygeN/ygeO,,1193 bp,,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+SNP-3031528-G,SNP,3031528,uacT,uric acid permease,C->G,D54E,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+SNP-3056013-C,SNP,3056013,zapA/fau,"FtsZ stabilizer/conserved protein, 5-formyltetrahydrofolate cyclo-ligase family",T->C,intergenic (+72/-228),1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+SNP-3066645-A,SNP,3066645,ygfI,predicted DNA-binding transcriptional regulator,G->A,R177C,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+SNP-3115047-C,SNP,3115047,yghJ,predicted inner membrane lipoprotein,T->C,S1356G,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+INS-3185114-C,INS,3185114,yqiC,conserved protein,->C,coding (275/291 nt),1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+SNP-3229346-A,SNP,3229346,ygjK,alpha-glucosidase,G->A,459,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+SNP-3235907-A,SNP,3235907,rlmG/ygjP,"23S rRNA m(2)G1835 methyltransferase, SAM-dependent/predicted metal dependent hydrolase",G->A,intergenic (-32/-53),1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+MCDEL-3252644-3252899,MCDEL,3252644,yhaH,,255 bp,,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+MCDEL-3268640-3269671,MCDEL,3268640,yhaC,,1031 bp,,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+SNP-3272486-G,SNP,3272486,garR,tartronate semialdehyde reductase,A->G,V89A,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+SNP-3281698-T,SNP,3281698,agaA/agaS,"pseudogene, predicted truncated N-acetylgalactosamine-6-phosphate deacetylase; putative N-acetylgalactosamine-6-phosphate deacetylase/tagatose-6-phosphate ketose/aldose isomerase",C->T,intergenic (+73/-278),1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+MCDEL-3283943-3284215,MCDEL,3283943,kbaY/agaB,,272 bp,,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+SNP-3316742-G,SNP,3316742,nusA,transcription termination/antitermination L factor,A->G,V262A,8,1,1,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,1
+SNP-3322452-G,SNP,3322452,secG,preprotein translocase membrane subunit,A->G,54,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+SNP-3335178-A,SNP,3335178,sfsB,DNA-binding transcriptional activator of maltose metabolism,G->A,270,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+SNP-3356161-C,SNP,3356161,gltB,"glutamate synthase, large subunit",T->C,1437,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+MCDEL-3360788-3361224,MCDEL,3360788,gltF,,436 bp,,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+SNP-3406577-G,SNP,3406577,accC,"acetyl-CoA carboxylase, biotin carboxylase subunit",A->G,N221D,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+SNP-3421999-T,SNP,3421999,yhdY,predicted amino-acid transporter subunit,C->T,675,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+MCDEL-3423698-3424577,MCDEL,3423698,rrfD/rrlD,,879 bp,,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+MCDEL-3423707-3424577,MCDEL,3423707,rrfD/rrlD,,870 bp,,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+MCDEL-3423710-3424589,MCDEL,3423710,rrfD/rrlD,,879 bp,,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+MCDEL-3423716-3424615,MCDEL,3423716,rrfD/rrlD,,899 bp,,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+MCDEL-3423717-3424580,MCDEL,3423717,rrfD/rrlD,,863 bp,,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+MCDEL-3423718-3424586,MCDEL,3423718,rrfD/rrlD,,868 bp,,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+MCDEL-3423723-3424571,MCDEL,3423723,rrfD/rrlD,,848 bp,,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+MCDEL-3423724-3424575,MCDEL,3423724,rrfD/rrlD,,851 bp,,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+MCDEL-3423725-3424561,MCDEL,3423725,rrfD/rrlD,,836 bp,,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+MCDEL-3423727-3424581,MCDEL,3423727,rrfD/rrlD,,854 bp,,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+MCDEL-3423728-3424577,MCDEL,3423728,rrfD/rrlD,,849 bp,,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+MCDEL-3423730-3424568,MCDEL,3423730,rrfD/rrlD,,838 bp,,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+MCDEL-3423731-3424568,MCDEL,3423731,rrfD/rrlD,,837 bp,,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+MCDEL-3423735-3424566,MCDEL,3423735,rrfD/rrlD,,831 bp,,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+MCDEL-3423735-3424559,MCDEL,3423735,rrfD/rrlD,,824 bp,,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+MCDEL-3423741-3424566,MCDEL,3423741,rrfD/rrlD,,825 bp,,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+MCDEL-3423742-3424576,MCDEL,3423742,rrfD/rrlD,,834 bp,,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+MCDEL-3423748-3424600,MCDEL,3423748,rrfD/rrlD,,852 bp,,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+MCDEL-3423749-3424575,MCDEL,3423749,rrfD/rrlD,,826 bp,,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+MCDEL-3423758-3424567,MCDEL,3423758,rrfD/rrlD,,809 bp,,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+MCDEL-3423759-3424571,MCDEL,3423759,rrfD/rrlD,,812 bp,,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+INS-3439595-T,INS,3439595,yhdN/rplQ,"conserved protein, DUF1992 family/50S ribosomal subunit protein L17",->T,intergenic (-86/+21),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+SNP-3463689-G,SNP,3463689,gspK,"general secretory pathway component, cryptic",A->G,T256A,8,1,1,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,1
+SNP-3524448-T,SNP,3524448,mrcA,fused penicillin-binding protein 1a: murein transglycosylase/murein transpeptidase,C->T,1578,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+SNP-3527161-G,SNP,3527161,yrfF,inner membrane protein,A->G,693,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+SNP-3539383-C,SNP,3539383,yhgF,predicted transcriptional accessory protein,T->C,F667L,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+INS-3560455-G,INS,3560455,glpR,"pseudogene, DNA-binding transcriptional repressor;regulator; Energy metabolism, carbon: Anaerobic respiration; repressor of the glp operon",->G,pseudogene (151/758 nt),20,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+SNP-3664472-C,SNP,3664472,gadW,transcriptional activator of gadA and gadBC; repressor of gadX,T->C,147,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+MCDEL-3730727-3730730,MCDEL,3730727,xylA,,3 bp,,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+SNP-3730727-C,SNP,3730727,xylA,D-xylose isomerase,A->C,Y13*,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1
+DEL-3730727-4,DEL,3730727,xylA,D-xylose isomerase,4 bp,,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+SNP-3730732-T,SNP,3730732,xylA,D-xylose isomerase,G->T,R12S,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+SNP-3746535-T,SNP,3746535,yiaO,"L-dehydroascorbate transporter, periplasmic binding protein for TRAP (TRipartite ATP-independent Periplasmic) family transporter YiaMNO",C->T,R148C,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+MCDEL-3757835-3758052,MCDEL,3757835,selB,,217 bp,,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+MCDEL-3796937-3797780,MCDEL,3796937,waaC/waaL,,843 bp,,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+MCDEL-3798507-3799582,MCDEL,3798507,waaU/waaZ,,1075 bp,,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+MCDEL-3800744-3801438,MCDEL,3800744,waaY/waaJ,,694 bp,,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+MCDEL-3804125-3805214,MCDEL,3804125,waaB/waaS/waaP,,1089 bp,,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+SNP-3809231-G,SNP,3809231,waaA,3-deoxy-D-manno-octulosonic-acid transferase (KDO transferase),A->G,H231R,8,1,1,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,1
+DEL-3815801-1,DEL,3815801,pyrE/rph,orotate phosphoribosyltransferase/ribonuclease PH (defective);enzyme; Degradation of RNA; RNase PH,1 bp,,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+SNP-3856765-A,SNP,3856765,yidI,inner membrane protein,G->A,351,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+DEL-3860312-1,DEL,3860312,yidL,"predicted transcriptional regulator, AraC family",1 bp,,8,1,1,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,1
+SNP-3899154-G,SNP,3899154,yieK,predicted 6-phosphogluconolactonase,A->G,240,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+SNP-3919558-A,SNP,3919558,atpA,"F1 sector of membrane-bound ATP synthase, alpha subunit",G->A,300,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+SNP-3924370-C,SNP,3924370,mnmG,5-methylaminomethyl-2-thiouridine modification at tRNA U34,T->C,T422A,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+SNP-3987492-C,SNP,3987492,hemY,predicted protoheme IX synthesis protein,G->C,R131G,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+SNP-4046202-G,SNP,4046202,yihG,"inner membrane protein, Predicted acyltransferas",A->G,V134A,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+SNP-4088042-C,SNP,4088042,yiiG,conserved lipoprotein,T->C,1041,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+SNP-4106813-T,SNP,4106813,fieF,ferrous iron and zinc transporter,C->T,345,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+SNP-4138599-C,SNP,4138599,gldA,"glycerol dehydrogenase, NAD",T->C,N146S,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+SNP-4142190-G,SNP,4142190,ptsA,fused predicted PTS enzymes: Hpr component/enzyme I component/enzyme IIA component,A->G,L11P,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+SNP-4147034-G,SNP,4147034,pflC,pyruvate formate lyase II activase,A->G,777,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+SNP-4176257-C,SNP,4176257,tufB,protein chain elongation factor EF-Tu (duplicate of tufA),T->C,V105A,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+INS-4200149-C,INS,4200149,yjaG/hupA,"conserved protein/HU, DNA-binding transcriptional regulator, alpha subunit",->C,intergenic (+55/-132),2,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+MCDEL-4235630-4235860,MCDEL,4235630,,,230 bp,,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+SNP-4288553-T,SNP,4288553,nrfA,"nitrite reductase, formate-dependent, cytochrome",C->T,H264Y,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+SUB-4295964-2-GC,SUB,4295964,gltP/yjcO,glutamate/aspartate:proton symporter/conserved protein,2 bp ->GC,,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+MCDEL-4296158-4296346,MCDEL,4296158,,,188 bp,,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+INS-4296380-CG,INS,4296380,gltP/yjcO,glutamate/aspartate:proton symporter/conserved protein,->CG,intergenic (+586/+56),20,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+SNP-4307499-C,SNP,4307499,alsK,D-allose kinase,T->C,K101E,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+DEL-4309984-1,DEL,4309984,alsA,fused D-allose transporter subunits of ABC superfamily: ATP-binding components,1 bp,,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+MCDEL-4312999-4313310,MCDEL,4312999,,,311 bp,,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+SNP-4318186-T,SNP,4318186,phnK,"carbon-phosphorus lyase complex subunit, putative ATP transporter ATP-binding protein",C->T,579,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+MCDEL-4337873-4338198,MCDEL,4337873,adiY,,325 bp,,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+SNP-4389759-G,SNP,4389759,psd,phosphatidylserine decarboxylase,A->G,V201A,8,1,1,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,1
+SNP-4397414-A,SNP,4397414,mutL,methyl-directed mismatch repair protein,G->A,3,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+DEL-4410045-1,DEL,4410045,rlmB/yjfI,"23S rRNA mG2251 2'-O-ribose methyltransferase, SAM-dependent/conserved protein, DUF2170 family",1 bp,,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+SNP-4419410-G,SNP,4419410,ulaG,L-ascorbate 6-phosphate lactonase,A->G,216,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+INS-4475556-G,INS,4475556,yjgL,predicted protein,->G,coding (120/1815 nt),1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+MCDEL-4476709-4477211,MCDEL,4476709,yjgL,,502 bp,,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+MOB-4543608-IS186-6,MOB,4543608,fimA,major type 1 subunit fimbrin (pilin),IS186 -1 6 bp,,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+SNP-4585833-G,SNP,4585833,hsdR,endonuclease R Type I restriction enzyme,A->G,V310A,8,1,1,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,1
