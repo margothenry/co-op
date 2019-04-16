@@ -9,10 +9,10 @@
 #' @return a table with all the calculated infromation
 #' @export 
 #' @examples 
- singlematrix("Author2018","YPD", "Sac", c("P1", "P2", "P3" ,"P4", "P5"))
+#' singlematrix_c_hyper("Author2018","YPD", "Sac", c("P1", "P2", "P3" ,"P4", "P5"))
 #####################
 
-singlematrix <- function(paper, environment, species, population){
+singlematrix_c_hyper <- function(paper, environment, species, population, numGenes = NA){
   
 # library(tidyverse)
 # library(readr)

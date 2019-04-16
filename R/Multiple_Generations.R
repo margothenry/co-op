@@ -9,10 +9,10 @@
 #' @return a table with all the calculated infromation
 #' @export 
 #' @examples 
- multigen_c_hyper("Author2018","YPD", "Sac", c("0", "100", "500" , "1000"))
+#' multigen_c_hyper("Author2018","YPD", "Sac", c("0", "100", "500" , "1000"))
 #####################
 
-multigen_c_hyper <- function(paper, environment, species, generations){
+multigen_c_hyper <- function(paper, environment, species, generations, numGenes = NA){
 
 # library(tidyverse)
 # library(readr)

@@ -8,7 +8,7 @@
 #' @return a table with all the calculated infromation
 #' @export 
 #' @examples 
-singlegen_c_hyper("Author2018","YPD", "Sac")
+#' singlegen_c_hyper("Author2018","YPD", "Sac")
 #####################
  
 

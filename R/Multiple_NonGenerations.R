@@ -9,10 +9,10 @@
 #' @return a table with all the calculated infromation
 #' @export 
 #' @examples 
-multipressure("Author2018","YPD", "Sac", c("HighTemp", "LowTemp", "OptimalTemp"))
+#'multipressure_c_hyper("Author2018","YPD", "Sac", c("HighTemp", "LowTemp", "OptimalTemp"))
 #####################
 
-multipressure <- function(paper, environment, species, selective_pressure){
+multipressure_c_hyper <- function(paper, environment, species, selective_pressure, numGenes = NA){
   
 # library(tidyverse)
 # library(readr)
