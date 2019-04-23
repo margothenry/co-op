@@ -1,24 +1,5 @@
-#' Calculations for Multiple Selectice Pressure Function
-#'
-#' This function allows you to calculate the pairwise C-score using the hypergeometric approach, a p-value for 'all lineages' contrast using chi-square, and the estimates of the effective proportion of adaptive loci for a data set with  multiplte selective pressure.
-#' 
-#' @param paper the data in csv that you want to analyze, in a folder named data-in
-#' @param environment The environment in which the experiment occured
-#' @param species Specify if the organism is "Sac" or "Ecoli_K12" or "Ecoli_O157-H7", or manually input the gene count of your species
-#' @param slective_pressure a list of the selective pressures in the data. i.e: temperatures, mediums, stressors
-#' @return a table with all the calculated infromation
-#' @export 
-#' @examples 
-#'multipressure_c_hyper("Author2018","YPD", "Sac", c("HighTemp", "LowTemp", "OptimalTemp"))
-#####################
 
-multipressure_c_hyper <- function(paper, environment, species, selective_pressure, numGenes = NA){
-  
-# library(tidyverse)
-# library(readr)
-# library(devtools)
-# library(dgconstraint)
-# library(Hmisc)
+multipressure_c_hyper <- function(paper, environment, species, Selective_pressure, numGenes = NA){
 
 geneNumbers <- read_csv(file.path(getwd(),"data-in/GeneDatabase.csv"))
 
@@ -45,12 +26,12 @@ data.1 <- data %>%
   arrange(Gene) %>%
   drop_na(Gene) %>%
   drop_na(Population) %>%
-  select(selective_pressure,Population, Gene, frequency)
+  select(Selective_pressure,Population, Gene, Frequency)
 
-for(j in selective_pressure) {
+for(j in Selective_pressure) {
   print(j)
   data.j <- data.1 %>% 
-    filter(selective_pressure == j)
+    filter(Selective_pressure == j)
   
   num_genes <- length((unique(data.j$Gene)))
   num_lineages <- length(unique(data.j$Population))
@@ -58,7 +39,7 @@ for(j in selective_pressure) {
   
   for(i in 1:num_lineages) {
     sub <- subset(data.j, data.j$Population == unique(data.j$Population)[i])
-    sub2 <- subset(sub, frequency > 0)
+    sub2 <- subset(sub, Frequency > 0)
     geneRows <- which(row.names(data.array) %in% sub2$Gene)
     data.array[geneRows, i] <- 1
     num_parallel <- data.frame(data.array, Count=rowSums(data.array, na.rm = FALSE, dims = 1), Genes = row.names(data.array))
@@ -98,7 +79,7 @@ for(j in selective_pressure) {
   c_hyper[c_hyper <= 0] <- 0
   c_hyper[c_hyper == "NaN"] <- 0
 }
-  df <- tibble( paper = paper, environment = selective_pressure, c_hyper = round(c_hyper, 3), p_chisq, estimate = round(estimate, 3) ,N_genes.notParallel= num_non_parallel_genes, N_genes.parallel=num_parallel_genes, parallel_genes)
+  df <- tibble( paper = paper, environment = environment, Selective_pressure = Selective_pressure, c_hyper = round(c_hyper, 3), p_chisq, estimate = round(estimate, 3) ,N_genes.notParallel= num_non_parallel_genes, N_genes.parallel=num_parallel_genes, parallel_genes)
   
   filename2 <- file.path(getwd(), "data-out", paste(paper, "_Analysis.csv", sep=""))
   write.csv(df, file=filename2, row.names=FALSE)
