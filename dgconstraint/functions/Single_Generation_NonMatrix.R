@@ -1,16 +1,3 @@
-#' Calculations for a Single Generation Functionin Non-Matrix Form
-#'
-#' This function allows you to calculate the pairwise C-score using the hypergeometric approach, a p-value for 'all lineages' contrast using chi-square, and the estimates of the effective proportion of adaptive loci for a data set with a single generation.
-#' 
-#' @param paper the data in csv that you want to analyze, in a folder named data-in
-#' @param environment The environment in which the experiment occured
-#' @param species Specify if the organism is "Sac" or "Ecoli_K12" or "Ecoli_O157-H7", or manually input the gene count of your species
-#' @return a table with all the calculated infromation
-#' @export 
-#' @examples 
-#'singlegen_c_hyper("Author2018","YPD", "Sac")
-#####################
- 
 
 singlegen_c_hyper <- function(paper, environment, species, numGenes = NA){
   
@@ -24,13 +11,6 @@ if(is.na(numGenes)){
   prompt <- "Your species is unspecified or not in our database. How many genes does it have? \n"
   numGenes <- as.numeric(readline(prompt))
 }
-
-
-# library(tidyverse)
-# library(readr)
-# library(devtools)
-# library(dgconstraint)
-# library(Hmisc)
 
 geneNumbers <- read_csv(file.path(getwd(),"data-in/GeneDatabase.csv"))
 
@@ -46,7 +26,7 @@ data.array <- array(0, dim =c(num_genes, num_lineages), dimnames = list(unique(d
 
 for(i in 1:num_lineages) {
   sub <- subset(data.1, data.1$Population == unique(data.1$Population)[i])
-  sub2 <- subset(sub, frequency > 0)
+  sub2 <- subset(sub, Frequency > 0)
   geneRows <- which(row.names(data.array) %in% sub2$Gene)
   data.array[geneRows, i] <- 1
   num_parallel <- data.frame(data.array, Count=rowSums(data.array, na.rm = FALSE, dims = 1), Genes = row.names(data.array))

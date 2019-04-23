@@ -1,24 +1,5 @@
-#' Calculations for a Single Generation Functionin Matrix Form
-#'
-#' This function allows you to calculate the pairwise C-score using the hypergeometric approach, a p-value for 'all lineages' contrast using chi-square, and the estimates of the effective proportion of adaptive loci for a data set with a single generation.
-#' 
-#' @param paper the data in csv that you want to analyze, in a folder named data-in
-#' @param environment The environment in which the experiment occured
-#' @param species Specify if the organism is "Sac" or "Ecoli_K12" or "Ecoli_O157-H7", or manually input the gene count of your species
-#' @param population a list of populations in the data
-#' @return a table with all the calculated infromation
-#' @export 
-#' @examples 
-#' singlematrix("Author2018","YPD", "Sac", c("P1", "P2", "P3" ,"P4", "P5"))
-#####################
 
-singlematrix_c_hyper <- function(paper, environment, species, population, numGenes = NA){
-  
-# library(tidyverse)
-# library(readr)
-# library(devtools)
-# library(dgconstraint)
-# library(Hmisc)
+singlematrix_c_hyper <- function(paper, environment, species, Population, numGenes = NA){
 
 geneNumbers <- read_csv(file.path(getwd(),"data-in/GeneDatabase.csv"))
 
@@ -37,9 +18,9 @@ if(is.na(numGenes)){
   data.1 <- data %>%
   arrange(Gene) %>%
   drop_na(Gene) %>%
-  drop_na(population)
+  drop_na(Population)
 data.2 <- data.1 %>%
-  select(population)
+  select(Population)
 
 data.matrix <- as.matrix(data.2)
 rownames(data.matrix) <-data.1$Gene
