@@ -30,13 +30,27 @@ if(is.na(numGenes)){
   arrange(Gene) %>%
   drop_na(Gene) %>%
   drop_na(Population)
-data.2 <- data.1 %>%
-  select(Population)
 
-data.matrix <- as.matrix(data.2)
-rownames(data.matrix) <-data.1$Gene
-
-num_parallel <- data.frame(data.matrix, Count=rowSums(data.matrix, na.rm = FALSE, dims = 1), Genes = row.names(data.matrix))
+  if(collapseMutations){
+    multiple_entry_genes <- subset(table(data.1$Gene), table(data.1$Gene) >1)
+    
+    # These are our genes with ony a single mutation
+    single_mutation_genes <- subset(data.1, Gene %nin% names(multiple_entry_genes))  
+    single_mutation_genes <- single_mutation_genes[, c(unique(population), "Gene")]
+    
+    # These are the genes with multiple mutations. It may be the case in the future or in some circumstances that you want to know parallelism at the mutation rather than gene level. In that case don't include this.
+    multiple_mutation_genes <- subset(data.1, Gene %in% names(multiple_entry_genes))  
+    multi_genes_matrix <- data.frame(Gene = names(multiple_entry_genes))
+    for (k in 1:length(multiple_entry_genes)){
+      sub <- subset(data.1, Gene == names(multiple_entry_genes)[k])
+      for (j in unique(population)){
+        multi_genes_matrix[k, j] <- sum(sub[1:nrow(sub), j])
+      }
+    }
+    data.1 <- rbind(single_mutation_genes, multi_genes_matrix)
+    data.1 <- data.1 %>% 
+      arrange(Gene) 
+  }
 
 genes_parallel <- num_parallel %>%
   as_tibble() %>%
