@@ -14,42 +14,45 @@ The `dgconstraint` package provides functions for calculating the constraint met
 
 ## Guide  
 ### Step 1: Setting up    
-* Before you start analyzing, there are a few things you need to do:  
-  + You need to find useful data and save them as "Author2017" in the csv format.  
-  + You need to create a data-in and data-out foulder; data-in will contain the data/papers you would like to analyze, data-out will contain the analysis of the paper 	after all the calculations have been completed.  
-  + You will need to decide which function will work with your data, depending on if it has multiple generations, multiple selective pressures, a single generation in matrix form or a single generation in non-matrix form.
+* Before you start the analysis, you need to ensure that:
+  + Once you have found useful data it needs to be saved in .csv format. We recommend naming files `AuthorYear` but any file name without spaces or special characters is fine. 
+  + You have `data-in` and `data-out` folders in your working directory: `data-in` will contain the data to analyze (i.e., the .csv files), analysis will be written to the `data-out` folder
+  + Decide which function to use with your data:
+    + `single_generation_wide`: sequencing data was obtained from a single generation. Mutation presence/absence is in a separate column for each population. Population information is located in the column header.
+    + `single_generation_long`: sequencing data was obtained from a single generation. Mutation presence/absence is in a single column. Population information is indicated in a single, separate column.
+    + `multiple_wide`: sequencing data was obtained from multiple generations or treatments (indicated in the columnn headers). Mutation presence/absence is in a separate column for each. Population information is located in a single, separate column.
+    + `multiple_long`: sequencing data was obtained from multiple generations or treatments. Mutation presence/absence is in a single column. Generation/treatment is indicated in a single column. Population information is located in a single column.
+  
 
-### Step 2: Working with the data
-Not all of the data that you will come across will be perfect. Some of the data might need to be adapted to work in the following functions.  
-i.e: This following data set does not look like it has any frequencies, but the X's indicate if the gene is present at that time point and so you can replace the X's with 1's and the blank squares with 0 in the dataset to make it run in the function.
+### Step 2: Organizing the wild data
+
+Not all of the data that you will come across will fit the function requirements. 
+
+#### There must be a column labeled **Gene** in the data file
+
+#### Mutation presence/absence must be indicated by 1/0
+The functions require that mutation presence and absence is recorded numerically by 1 (presence) or 0 (absence).
+
+Example 1: This following data set used X's to indicate mutation presence and the blank squares to indicate absence. 
 ```{r, echo=FALSE, out.width = '75%', fig.pos = "H", fig.align="center"}
 knitr::include_graphics("figures/Sandberg_1.png")
 ```
 
-Here the coloured boxes indicates that the gene was present at that time point, and thus replace the coloured boxes with 1's and the blank boxes with 0's. 
+Example 2: Here coloured boxes were used to indicate mutation presence/absence. 
   
-    
-
 ```{r, echo=FALSE, out.width = '75%', fig.pos = "H", fig.align="center"}
 knitr::include_graphics("figures/Creamer.png")
 ```
   
-    
-And in other cases the column names that are needed in the following functions might not be the same as the ones provided in the data. For these two examples on top, you need to have a *Gene* column. For example, instead of the needed name *Gene*, the data might have, gene (non-capitalized), Genes (plural) or genes (both). If that is the case, then you must change the name to *Gene*, either by the code  
+#### Multiple clones from the same population need to be collapsed into one
 
-```{r, echo=TRUE, eval = FALSE}
-names(data)[1] <- Population
-```
-having the column number associated to the name you want to change (i.e., instead of [1]) or by changing it manually in the data. The same follows for *Population*, *Frequency* and *Selective_pressure* in the other functions.  
-
-#### Data manipulation example  
 Not all data will be perfect to work with (in fact almost no data is perfect to work with), here is an example of a dataset that I had to manipulate in order to use the function.
 
 ```{r, echo=FALSE, out.width = '75%', fig.pos = "H", fig.align="center"}
 knitr::include_graphics("figures/Wannier_1.png")
 ```
 
-This dataset is looking like the single generation matrix form, but when reading the paper it indicates that *A1 F1 I1 R1* and *A1 F1 I2 R1* are two clones from the same population. So we would want to combine those two columns as population *A1*, with a 0 when both clones have an *NA* and a 1 when either of the clones have a *1*. Here's what I did to obtain the prefered dataset.  
+This dataset is looking like the single generation matrix form, but when reading the paper it indicates that *A1 F1 I1 R1* and *A1 F1 I2 R1* are two clones from the same population. So we would want to combine those two columns as population *A1*, with a 0 when both clones have an *NA* and a 1 when either of the clones have a *1*. Here's what I did to obtain the preferred dataset.  
 
 ```{r, eval=FALSE}
 data<- data %>% transmutate(A1 = `A1 F1 I1 R1` + `A1 F1 I2 R1`, A2 = `A2 F1 I1 R1`+ `A2 F1 I2 R1`, A3 = `A3 F1 I1 R1`+ `A3 F1 I2 R1`, A4 = `A4 F1 I1 R1`+ `A4 F1 I2 R1`, A5 = `A5 F1 I1 R1`+ `A5 F1 I2 R1`, A6 = `A6 F1 I1 R1`+ `A6 F1 I2 R1`, A7 = `A7 F1 I1 R1`+ `A7 F1 I2 R1`, A8 = `A8 F1 I1 R1`+ `A8 F1 I2 R1`, A9 = `A9 F1 I1 R1`+ `A9 F1 I2 R1`, A10 = `A10 F1 I1 R1`+ `A10 F1 I2 R1`,A11 = `A1 F1 I1 R1`+ `A11 F1 I2 R1`, A12 = `A12 F1 I1 R1`+ `A12 F1 I2 R1`, A13 = `A13 F1 I1 R1`+ `A13 F1 I2 R1`, A14 = `A14 F1 I1 R1`+ `A14 F1 I2 R1`) %>% replace(is.na(.), 0)
@@ -74,11 +77,11 @@ knitr::include_graphics("figures/Wannier_3.png")
 
 The data is now in a way that we can use the function!  
 
-There are other ways to code the data to look the way we want. This is a basic way to do it, but other functions will work aswell. You might have to do this for datasets of the other types of function, but it is all the same idea, refer to the types of functions below to see how the data should look like.    
+There are other ways to code the data to look the way we want. This is a basic way to do it, but other functions will work as well. You might have to do this for datasets of the other types of function, but it is all the same idea, refer to the types of functions below to see how the data should look like.    
 
   
 Another example of setting up the data for analysis:  
-We can see that the column names give us alot of information, the population(i.e A1), the generation(i.e 500), clones(i.e I1 and I2) and the number of replicates(i,e R1). To get the data to look like the form in the muplie generation function, we need a *Population* column, to combine the clones, and to change the column names to what we want the generations to be.    
+We can see that the column names give us a lot of information, the population(i.e A1), the generation(i.e 500), clones(i.e I1 and I2) and the number of replicates(i,e R1). To get the data to look like the form in the multiple generation function, we need a *Population* column, to combine the clones, and to change the column names to what we want the generations to be.    
 
 First I made a new column and called it *Population* and added the proper population to the data. In this case we have 6 populations, and so we will have A1 to A6.    
 i.e .,
@@ -109,7 +112,7 @@ I will use the multiple generations function as an example for the walk-through.
   + set the parameter *paper* = "Author2018"  
   + set the parameter *environment* to the environment used in the experiment, lets say "YPD"  
   + set the parameter *species* to either Sac" or "Ecoli_K12" or "Ecoli_O157-H7", lets say "Sac".  
-  + set the paramter *generations* to the number of generations in the dataset in a vector format, lets say c("0", "100", "500", "1000", "1500")    
+  + set the parameter *generations* to the number of generations in the dataset in a vector format, lets say c("0", "100", "500", "1000", "1500")    
   
 And so your function will look like this:  
 ```{r, eval=FALSE}
@@ -118,7 +121,7 @@ multigen_c_hyper(paper = "Author2018", environment = "YPD", species = "Sac", gen
 
 Your function should be good to go!  
 
-After you ran your code the analysis will be saved into the data-out folder that you already created. It should be called *"Author2018_Analysis.csv"*. Since this is a multiple generation example, you will also have seperate information for each generation, that will include the populations, genes and frequencies at that time point. It will also be saved in the data-out folder under the name "Author2018_g.csv", *g* being either 0, 100, 500, 1000 or 1500 for this example.  
+After you ran your code the analysis will be saved into the data-out folder that you already created. It should be called *"Author2018_Analysis.csv"*. Since this is a multiple generation example, you will also have separate information for each generation, that will include the populations, genes and frequencies at that time point. It will also be saved in the data-out folder under the name "Author2018_g.csv", *g* being either 0, 100, 500, 1000 or 1500 for this example.  
 
 ### Step 5: Solving Errors
 If you come across an error while running your function: 
@@ -152,7 +155,7 @@ If we use the data above as an example, then the function would look like this:
 *multigen_c_hyper("Author2014", "YPD", "Sac", c("0", "140", "240", "335", "415", "505", "585", "665", "745", "825", "910", "1000"))*  
 
 ### Results  
-The package will give you the results in a table with all the information and calculations such as the paper, environment, generations, c-hyper, p-value, estimate, number of popuations, number of non parallel genes, number of parallel genes and a list of the parallel genes.  
+The package will give you the results in a table with all the information and calculations such as the paper, environment, generations, c-hyper, p-value, estimate, number of populations, number of non parallel genes, number of parallel genes and a list of the parallel genes.  
 
 i.e:
 ```{r, echo=FALSE, out.width = '75%', fig.pos = "H", fig.align="center"}
@@ -161,7 +164,7 @@ knitr::include_graphics("figures/Lang_2.png")
 The analysis will be automatically saved into the data-out folder that you created beforehand.
 
 ## Calculations for Multiple Selective Pressure Function  
-This function allows you to calculate the pairwise C-score using the hypergeometric approach, a p-value for 'all lineages' contrast using chi-square, and the estimates of the effective proportion of adaptive loci for a data set with  multiplte selective pressures.  
+This function allows you to calculate the pairwise C-score using the hypergeometric approach, a p-value for 'all lineages' contrast using chi-square, and the estimates of the effective proportion of adaptive loci for a data set with  multiple selective pressures.  
 
 ### Data  
 The data must have more than one selective pressure, a column called *Populations*, a column 	called *Gene*, a column called *Frequency* and a column called *Selective_pressure*.    
@@ -179,7 +182,7 @@ If we use the data above as an example, then the function would look like this:
 *multipressure_c_hyper("Author2017", "YPD", "Ecoli_K12", c("OT", "HT"))*   
 
 ### Results  
-The package will give you the results in a table with all the information and calculations such as the paper, environment, slective_pressure, c-hyper, p-value, estimate, number of non parallel genes, number of parallel genes and a list of the parallel genes.    
+The package will give you the results in a table with all the information and calculations such as the paper, environment, selective_pressure, c-hyper, p-value, estimate, number of non parallel genes, number of parallel genes and a list of the parallel genes.    
 
 i.e:
 ```{r, echo=FALSE, out.width = '75%', fig.pos = "H", fig.align="center"}
