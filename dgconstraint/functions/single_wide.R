@@ -1,5 +1,16 @@
-
-singlematrix_c_hyper <- function(paper, environment, species, Population, numGenes = NA){
+#' Calculations for a Single Wide Dataset
+#'
+#' This function allows you to calculate the pairwise C-score using the hypergeometric approach, a p-value for 'all lineages' contrast using chi-square, and the estimates of the effective proportion of adaptive loci for a data set with a single generation.
+#' 
+#' @param paper the data in csv that you want to analyze, in a folder named data-in
+#' @param environment The environment in which the experiment occured
+#' @param species Specify if the organism is "Sac" or "Ecoli_K12" or "Ecoli_O157-H7", or manually input the gene count of your species
+#' @param population a list of populations in the data
+#' @return a table with all the calculated infromation
+#' @export 
+#' @examples 
+#' single_wide("Author2018","YPD", "Sac", c("P1", "P2", "P3" ,"P4", "P5"))
+single_wide <- function(paper, environment, species, Population, numGenes = NA){
 
 geneNumbers <- read_csv(file.path(getwd(),"data-in/GeneDatabase.csv"))
 

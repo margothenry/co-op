@@ -1,4 +1,4 @@
-#' Calculations for a Single Generation Functionin Non-Matrix Form
+#' Calculations for a Single Long Dataset
 #'
 #' This function allows you to calculate the pairwise C-score using the hypergeometric approach, a p-value for 'all lineages' contrast using chi-square, and the estimates of the effective proportion of adaptive loci for a data set with a single generation.
 #' 
@@ -8,8 +8,9 @@
 #' @return a table with all the calculated infromation
 #' @export 
 #' @examples 
-#'singlegen_c_hyper("Author2018","YPD", "Sac")
-singlegen_c_hyper <- function(paper, environment, species, numGenes = NA){
+#'single_long("Author2018","YPD", "Sac")
+#'
+single_long <- function(paper, environment, species, numGenes = NA){
   
 data <- read_csv(file.path(getwd(), "data-in", paste0(paper, ".csv")))   
 

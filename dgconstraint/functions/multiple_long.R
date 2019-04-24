@@ -1,5 +1,17 @@
-
-multipressure_c_hyper <- function(paper, environment, species, Selective_pressure, numGenes = NA){
+#' Calculations for Multiple Long Dataset
+#'
+#' This function allows you to calculate the pairwise C-score using the hypergeometric approach, a p-value for 'all lineages' contrast using chi-square, and the estimates of the effective proportion of adaptive loci for a data set with  multiplte selective pressure.
+#' 
+#' @param paper the data in csv that you want to analyze, in a folder named data-in
+#' @param environment The environment in which the experiment occured
+#' @param species Specify if the organism is "Sac" or "Ecoli_K12" or "Ecoli_O157-H7", or manually input the gene count of your species
+#' @param slective_pressure a list of the selective pressures in the data. i.e: temperatures, mediums, stressors
+#' @return a table with all the calculated infromation
+#' @export 
+#' @examples 
+#'multiple_wide("Author2018","YPD", "Sac", c("HighTemp", "LowTemp", "OptimalTemp"))
+#'
+multiple_wide <- function(paper, environment, species, selective_pressure, numGenes = NA){
 
 geneNumbers <- read_csv(file.path(getwd(),"data-in/GeneDatabase.csv"))
 
@@ -28,7 +40,7 @@ data.1 <- data %>%
   drop_na(Population) %>%
   select(Selective_pressure,Population, Gene, Frequency)
 
-for(j in Selective_pressure) {
+for(j in selective_pressure) {
   print(j)
   data.j <- data.1 %>% 
     filter(Selective_pressure == j)
