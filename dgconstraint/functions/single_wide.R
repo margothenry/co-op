@@ -6,6 +6,7 @@
 #' @param environment The environment in which the experiment occured
 #' @param species Specify if the organism is "Sac" or "Ecoli_K12" or "Ecoli_O157-H7", or manually input the gene count of your species
 #' @param population a list of populations in the data
+#' #' @param collapseMutations specifys whether to run analysis at the level of the gene or on distinct mutations within a gene. The default is at the gene level, i.e. to collapse all different mutations within a gene to one entry in the analysis.
 #' @return a table with all the calculated infromation
 #' @export 
 #' @examples 
