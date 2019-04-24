@@ -25,28 +25,43 @@ if(is.na(numGenes)){
 
 geneNumbers <- read_csv(file.path(getwd(),"data-in/GeneDatabase.csv"))
 
-  data.1 <- data %>%
+data.1 <- data %>%
   arrange(Gene) %>%
   drop_na(Gene) %>%
-  drop_na(Population)
+  drop_na(population)
 
+num_lineages <- length(unique(population))
 num_genes <- length((unique(data.1$Gene)))
-num_lineages <- length(unique(data.1$Population))
+data.array <- array(0, dim =c(num_genes, num_lineages), dimnames = list(unique(data.1$Gene), unique(population)))
 
-data.array <- array(0, dim =c(num_genes, num_lineages), dimnames = list(unique(data.1$Gene), unique(data.1$Population)))
-
-for(i in 1:num_lineages) {
-  sub <- subset(data.1, data.1$Population == unique(data.1$Population)[i])
-  sub2 <- subset(sub, Frequency > 0)
-  geneRows <- which(row.names(data.array) %in% sub2$Gene)
-  data.array[geneRows, i] <- 1
-  num_parallel <- data.frame(data.array, Count=rowSums(data.array, na.rm = FALSE, dims = 1), Genes = row.names(data.array))
+if(collapseMutations){
+  multiple_entry_genes <- subset(table(data.1$Gene), table(data.1$Gene) >1)
+  
+  # These are our genes with ony a single mutation
+  single_mutation_genes <- subset(data.1, Gene %nin% names(multiple_entry_genes))  
+  single_mutation_genes <- single_mutation_genes[, c(unique(population), "Gene")]
+  
+  # These are the genes with multiple mutations. It may be the case in the future or in some circumstances that you want to know parallelism at the mutation rather than gene level. In that case don't include this.
+  multiple_mutation_genes <- subset(data.1, Gene %in% names(multiple_entry_genes))  
+  multi_genes_matrix <- data.frame(Gene = names(multiple_entry_genes))
+  for (k in 1:length(multiple_entry_genes)){
+    sub <- subset(data.1, Gene == names(multiple_entry_genes)[k])
+    for (j in unique(population)){
+      multi_genes_matrix[k, j] <- sum(sub[1:nrow(sub), j])
+    }
+  }
+  
+  data.1 <- rbind(single_mutation_genes, multi_genes_matrix)
+  data.1 <- data.1 %>% 
+    arrange(Gene) 
 }
+
+
+num_parallel <- data.frame(data.1[, population], Count=rowSums(data.1[, population], na.rm = FALSE, dims = 1),row.names= data.1$Gene)
 
 genes_parallel <- num_parallel %>%
   as_tibble() %>%
   filter(Count > 1)
-
 
 Non_genes_parallel <- num_parallel %>%
   as_tibble() %>%
@@ -55,11 +70,14 @@ Non_genes_parallel <- num_parallel %>%
 num_parallel_genes <- nrow(genes_parallel)
 num_non_parallel_genes <- nrow(Non_genes_parallel)
 total_genes <- num_non_parallel_genes + num_parallel_genes
-parallel_genes <- paste0(genes_parallel$Genes, collapse=", ")
 
-full_matrix <- rbind(data.array, array(0,c(numGenes-total_genes,ncol(data.array))))
+extraGenes <- data.frame(array(0, dim = c(numGenes-total_genes, length(population))))
+names(extraGenes) <- names(num_parallel[, population])
+full_matrix <- rbind(num_parallel[, population], extraGenes)
 
-
+c_hyper <- c()
+p_chisq <- c()
+estimate <- c()
 c_hyper <- append(c_hyper, pairwise_c_hyper(full_matrix))
 p_chisq <- append(p_chisq, allwise_p_chisq(full_matrix, num_permute = 200))
 estimate <- append(estimate, estimate_pa(full_matrix,ndigits = 4, show.plot = T))
