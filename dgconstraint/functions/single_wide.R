@@ -10,7 +10,7 @@
 #' @export 
 #' @examples 
 #' single_wide("Author2018","YPD", "Sac", c("P1", "P2", "P3" ,"P4", "P5"))
-single_wide <- function(paper, environment, species, Population, numGenes = NA){
+single_wide <- function(paper, environment, species, Population, numGenes = NA, collapseMutations = TRUE){
 
 geneNumbers <- read_csv(file.path(getwd(),"data-in/GeneDatabase.csv"))
 
