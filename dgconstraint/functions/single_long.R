@@ -59,7 +59,9 @@ parallel_genes <- paste0(genes_parallel$Genes, collapse=", ")
 
 full_matrix <- rbind(data.array, array(0,c(numGenes-total_genes,ncol(data.array))))
 
-
+c_hyper <- c()
+p_chisq <- c()
+estimate <- c()
 c_hyper <- append(c_hyper, pairwise_c_hyper(full_matrix))
 p_chisq <- append(p_chisq, allwise_p_chisq(full_matrix, num_permute = 200))
 estimate <- append(estimate, estimate_pa(full_matrix,ndigits = 4, show.plot = T))
