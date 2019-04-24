@@ -12,26 +12,30 @@
 #' @examples 
 #' single_wide("Author2018","YPD", "Sac", c("P1", "P2", "P3" ,"P4", "P5"))
 single_wide <- function(paper, environment, species, Population, numGenes = NA, collapseMutations = TRUE){
-
-geneNumbers <- read_csv(file.path(getwd(),"data-in/GeneDatabase.csv"))
-
-data <- read_csv(file.path(getwd(), "data-in", paste0(paper, ".csv")))
-
-if (species %in% geneNumbers$Species){
-  numGenes <- filter(geneNumbers, Species == species)$NumGenes  
-}
-
-if(is.na(numGenes)){
-  prompt <- "Your species is unspecified or not in our database. How many genes does it have? \n"
-  numGenes <- as.numeric(readline(prompt))
-}
- 
-
+  geneNumbers <- read_csv(file.path(getwd(),"data-in/GeneDatabase.csv"))
+  
+  data <- read_csv(file.path(getwd(), "data-in/original", paste0(paper, ".csv")))
+  data<-data %>% replace(is.na(.), 0) %>% 
+    filter(Annotation!= "intergenic") %>% 
+    filter(!str_detect(Annotation,"insH"))
+  
+  if (species %in% geneNumbers$Species){
+    numGenes <- filter(geneNumbers, Species == species)$NumGenes  
+  }
+  
+  if(is.na(numGenes)){
+    prompt <- "Your species is unspecified or not in our database. How many genes does it have? \n"
+    numGenes <- as.numeric(readline(prompt))
+  }
+  
   data.1 <- data %>%
-  arrange(Gene) %>%
-  drop_na(Gene) %>%
-  drop_na(Population)
-
+    arrange(Gene) %>%
+    drop_na(Gene) %>%
+    drop_na(population)
+  
+  num_lineages <- length(unique(population))
+  num_genes <- length((unique(data.1$Gene)))
+  
   if(collapseMutations){
     multiple_entry_genes <- subset(table(data.1$Gene), table(data.1$Gene) >1)
     
@@ -48,11 +52,16 @@ if(is.na(numGenes)){
         multi_genes_matrix[k, j] <- sum(sub[1:nrow(sub), j])
       }
     }
+    
     data.1 <- rbind(single_mutation_genes, multi_genes_matrix)
     data.1 <- data.1 %>% 
       arrange(Gene) 
   }
-
+  
+  data.array <- array(0, dim =c(num_genes, num_lineages), dimnames = list(unique(data.1$Gene), unique(population)))
+  
+  num_parallel <- data.frame(data.array, Count=rowSums(data.array, na.rm = FALSE, dims = 1), Genes = row.names(data.array))
+  
 genes_parallel <- num_parallel %>%
   as_tibble() %>%
   filter(Count > 1)
@@ -68,7 +77,7 @@ num_non_parallel_genes <- nrow(Non_genes_parallel)
 total_genes <- num_non_parallel_genes + num_parallel_genes
 parallel_genes <- paste0(genes_parallel$Genes, collapse=", ")
 
-full_matrix <- rbind(data.matrix, array(0,c(numGenes-total_genes,ncol(data.matrix))))
+full_matrix <- rbind(data.array, array(0,c(numGenes-total_genes,ncol(data.array))))
 
 
 c_hyper <- append(c_hyper, pairwise_c_hyper(full_matrix))
