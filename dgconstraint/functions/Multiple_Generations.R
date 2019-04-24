@@ -1,4 +1,15 @@
-
+#' Calculations for a Multiple Generation Function
+#'
+#' This function allows you to calculate the pairwise C-score using the hypergeometric approach, a p-value for 'all lineages' contrast using chi-square, and the estimates of the effective proportion of adaptive loci for a data set with multiple generations.
+#' 
+#' @param paper the data in csv that you want to analyze, in a folder named data-in
+#' @param environment The environment in which the experiment occured
+#' @param species Specify if the organism is "Sac" or "Ecoli_K12" or "Ecoli_O157-H7", or manually input the gene count of your species
+#' @param generations a list of generations in the data
+#' @return a table with all the calculated infromation
+#' @export 
+#' @examples 
+#' multigen_c_hyper("Author2018","YPD", "Sac", c("0", "100", "500" , "1000"))
 multigen_c_hyper <- function(paper, environment, species, generations, numGenes = NA){
 
 geneNumbers <- read_csv(file.path(getwd(),"data-in/GeneDatabase.csv"))
