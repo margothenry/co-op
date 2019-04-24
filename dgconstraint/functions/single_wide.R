@@ -15,9 +15,7 @@ single_wide <- function(paper, environment, species, Population, numGenes = NA, 
   geneNumbers <- read_csv(file.path(getwd(),"data-in/GeneDatabase.csv"))
   
   data <- read_csv(file.path(getwd(), "data-in/original", paste0(paper, ".csv")))
-  data<-data %>% replace(is.na(.), 0) %>% 
-    filter(Annotation!= "intergenic") %>% 
-    filter(!str_detect(Annotation,"insH"))
+
   
   if (species %in% geneNumbers$Species){
     numGenes <- filter(geneNumbers, Species == species)$NumGenes  
@@ -35,6 +33,7 @@ single_wide <- function(paper, environment, species, Population, numGenes = NA, 
   
   num_lineages <- length(unique(population))
   num_genes <- length((unique(data.1$Gene)))
+  data.array <- array(0, dim =c(num_genes, num_lineages), dimnames = list(unique(data.1$Gene), unique(population)))
   
   if(collapseMutations){
     multiple_entry_genes <- subset(table(data.1$Gene), table(data.1$Gene) >1)
@@ -58,32 +57,32 @@ single_wide <- function(paper, environment, species, Population, numGenes = NA, 
       arrange(Gene) 
   }
   
-  data.array <- array(0, dim =c(num_genes, num_lineages), dimnames = list(unique(data.1$Gene), unique(population)))
   
-  num_parallel <- data.frame(data.array, Count=rowSums(data.array, na.rm = FALSE, dims = 1), Genes = row.names(data.array))
+  num_parallel <- data.frame(data.1[, population], Count=rowSums(data.1[, population], na.rm = FALSE, dims = 1),row.names= data.1$Gene)
   
-genes_parallel <- num_parallel %>%
-  as_tibble() %>%
-  filter(Count > 1)
-
-
-Non_genes_parallel <- num_parallel %>%
-  as_tibble() %>%
-  filter(Count == 1)
-
-
-num_parallel_genes <- nrow(genes_parallel)
-num_non_parallel_genes <- nrow(Non_genes_parallel)
-total_genes <- num_non_parallel_genes + num_parallel_genes
-parallel_genes <- paste0(genes_parallel$Genes, collapse=", ")
-
-full_matrix <- rbind(data.array, array(0,c(numGenes-total_genes,ncol(data.array))))
-
-
-c_hyper <- append(c_hyper, pairwise_c_hyper(full_matrix))
-p_chisq <- append(p_chisq, allwise_p_chisq(full_matrix, num_permute = 200))
-estimate <- append(estimate, estimate_pa(full_matrix,ndigits = 4, show.plot = T))
-
+  genes_parallel <- num_parallel %>%
+    as_tibble() %>%
+    filter(Count > 1)
+  
+  Non_genes_parallel <- num_parallel %>%
+    as_tibble() %>%
+    filter(Count == 1)
+  
+  num_parallel_genes <- nrow(genes_parallel)
+  num_non_parallel_genes <- nrow(Non_genes_parallel)
+  total_genes <- num_non_parallel_genes + num_parallel_genes
+  
+  extraGenes <- data.frame(array(0, dim = c(numGenes-total_genes, length(population))))
+  names(extraGenes) <- names(num_parallel[, population])
+  full_matrix <- rbind(num_parallel[, population], extraGenes)
+  
+  c_hyper <- c()
+  p_chisq <- c()
+  estimate <- c()
+  c_hyper <- append(c_hyper, pairwise_c_hyper(full_matrix))
+  p_chisq <- append(p_chisq, allwise_p_chisq(full_matrix, num_permute = 200))
+  estimate <- append(estimate, estimate_pa(full_matrix,ndigits = 4, show.plot = T))
+  
 c_hyper[c_hyper <= 0] <- 0
 c_hyper[c_hyper == "NaN"] <- 0
 
