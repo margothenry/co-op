@@ -2,7 +2,7 @@
 #'
 #' This function allows you to calculate the pairwise C-score using the hypergeometric approach, a p-value for 'all lineages' contrast using chi-square, and the estimates of the effective proportion of adaptive loci for a data set with a single generation.
 #' 
-#' @param paper the data in csv that you want to analyze, in a folder named data-in
+#' @param paper the data in csv that you want to analyze, in a folder named data_in
 #' @param environment The environment in which the experiment occured
 #' @param species Specify if the organism is "Sac" or "Ecoli_K12" or "Ecoli_O157-H7", or manually input the gene count of your species
 #' @return a table with all the calculated infromation
@@ -10,9 +10,9 @@
 #' @examples 
 #'single_long("Author2018","YPD", "Sac")
 #'
-single_long <- function(paper, environment, species, numGenes = NA){
+single_long <- function(paper, environment, species = NA){
   
-data <- read_csv(file.path(getwd(), "data-in", paste0(paper, ".csv")))   
+data <- read_csv(file.path(getwd(), "data_in", paste0(paper, ".csv")))   
 
 if (species %in% geneNumbers$Species){
   numGenes <- filter(geneNumbers, Species == species)$NumGenes  
@@ -23,7 +23,7 @@ if(is.na(numGenes)){
   numGenes <- as.numeric(readline(prompt))
 }
 
-geneNumbers <- read_csv(file.path(getwd(),"data-in/GeneDatabase.csv"))
+geneNumbers <- read_csv(file.path(getwd(),"data_in/GeneDatabase.csv"))
 
   data.1 <- data %>%
   arrange(Gene) %>%
@@ -72,12 +72,12 @@ c_hyper[c_hyper == "NaN"] <- 0
 
 df <- tibble( paper = paper, environment = environment, c_hyper = round(c_hyper, 3), p_chisq, estimate = round(estimate, 3) ,N_genes.notParallel= num_non_parallel_genes, N_genes.parallel=num_parallel_genes, parallel_genes)
 
-newdir <- file.path(getwd(), "data-out")
+newdir <- file.path(getwd(), "data_out")
 if (!file.exists(newdir)){
   dir.create(newdir, showWarnings = FALSE)
   cat(paste("\n\tCreating new directory: ", newdir), sep="")
 }
 
-filename <- file.path(getwd(), "data-out", paste(paper, "_Analysis.csv", sep=""))
+filename <- file.path(getwd(), "data_out", paste(paper, "_Analysis.csv", sep=""))
 write.csv(df, file=filename, row.names=FALSE)
 }

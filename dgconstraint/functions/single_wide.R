@@ -2,20 +2,20 @@
 #'
 #' This function allows you to calculate the pairwise C-score using the hypergeometric approach, a p-value for 'all lineages' contrast using chi-square, and the estimates of the effective proportion of adaptive loci for a data set with a single generation.
 #' 
-#' @param paper the data in csv that you want to analyze, in a folder named data-in
+#' @param paper the data in csv that you want to analyze, in a folder named data_in
 #' @param environment The environment in which the experiment occured
 #' @param species Specify if the organism is "Sac" or "Ecoli_K12" or "Ecoli_O157-H7", or manually input the gene count of your species
-#' @param population a list of populations in the data
+#' @param population a list of populations in the dataset
 #' #' @param collapseMutations specifys whether to run analysis at the level of the gene or on distinct mutations within a gene. The default is at the gene level, i.e. to collapse all different mutations within a gene to one entry in the analysis.
 #' @return a table with all the calculated infromation
 #' @export 
 #' @examples 
 #' single_wide("Author2018","YPD", "Sac", c("P1", "P2", "P3" ,"P4", "P5"))
-single_wide <- function(paper, environment, species, Population, numGenes = NA, collapseMutations = TRUE){
-  geneNumbers <- read_csv(file.path(getwd(),"data-in/GeneDatabase.csv"))
-  
-  data <- read_csv(file.path(getwd(), "data-in/original", paste0(paper, ".csv")))
 
+single_wide <- function(paper, environment, population, species = NA, collapseMutations = TRUE){
+  geneNumbers <- read_csv(file.path(getwd(),"data_in/GeneDatabase.csv"))
+  
+  data <- read_csv(file.path(getwd(), "data_in/original", paste0(paper, ".csv")))
   
   if (species %in% geneNumbers$Species){
     numGenes <- filter(geneNumbers, Species == species)$NumGenes  
@@ -33,6 +33,8 @@ single_wide <- function(paper, environment, species, Population, numGenes = NA, 
   
   num_lineages <- length(unique(population))
   num_genes <- length((unique(data.1$Gene)))
+  
+  #I don't think this is used atm
   data.array <- array(0, dim =c(num_genes, num_lineages), dimnames = list(unique(data.1$Gene), unique(population)))
   
   if(collapseMutations){
@@ -88,13 +90,13 @@ c_hyper[c_hyper == "NaN"] <- 0
 
 df <- tibble( paper = paper, environment = environment, c_hyper = round(c_hyper, 3), p_chisq, estimate = round(estimate, 3) ,N_genes.notParallel= num_non_parallel_genes, N_genes.parallel=num_parallel_genes, parallel_genes)
 
-newdir <- file.path(getwd(), "data-out")
+newdir <- file.path(getwd(), "data_out")
 if (!file.exists(newdir)){
   dir.create(newdir, showWarnings = FALSE)
   cat(paste("\n\tCreating new directory: ", newdir), sep="")
 }
 
-filename <- file.path(getwd(), "data-out", paste(paper, "_Analysis.csv", sep=""))
+filename <- file.path(getwd(), "data_out", paste(paper, "_Analysis.csv", sep=""))
 write.csv(df, file=filename, row.names=FALSE)
 
 }
