@@ -3,11 +3,8 @@ library(dgconstraint)
 library(tidyverse)
 library(R.utils)
 sourceDirectory(here("R", "functions"))
-<<<<<<< HEAD
 source("dgconstraint/functions/multiple_wide.R")
 source("dgconstraint/functions/multiple_long.R")
-=======
->>>>>>> f68a652e992c312be95315684977402574e8a492
 
 ############################
 #multiple generations
@@ -15,17 +12,22 @@ source("dgconstraint/functions/multiple_long.R")
 
 ### Tenaillon2016
 # This paper originally had two clones sequenced for each timepoint. Collapse the two columns and save the resulting dataset.
-<<<<<<< HEAD
 
 Tenaillon2016 <- read_csv(here("data_in", "raw", "Tenaillon2016_raw.csv"))
 
 #THIS ISN'T WORKING
 Tenaillon2016 <- Tenaillon2016 %>% 
+  rename(gene = Gene, population = Population) %>% 
+  replace(is.na(.), 0) %>% 
+  transmute(gene = gene, population = population, details = Tenaillon2016$Details, "g500" = "g500 I1 R1"+ "g500 I2 R1", "g1000" = "g1000 I1 R1"+ "g1000 I2 R2", "g1500" = "g1500 I1 R1"+ "g1500 I2 R1", "g2000" =  "g2000 I1 R1" + "g2000 I2 R1")
+
+Tenaillon2016 <- Tenaillon2016 %>% 
   remove_empty("rows") %>% 
   transmute(gene = Tenaillon2016$gene, population = Tenaillon2016$population, details = Tenaillon2016$Details, "g500" = "g500 I1 R1"+ "g500 I2 R1", "g1000" = "g1000 I1 R1"+ "g1000 I2 R2", "g1500" = "g1500 I1 R1"+ "g1500 I2 R1", "g2000" =  "g2000 I1 R1" + "g2000 I2 R1", "g5000" = "g5000 I1 R1"+ "g5000 I2 R1", "g10000" = "g10000 I1 R1"+ "g10000 I2 R1", "g15000" = "g15000 I1 R1"+ "g15000 I2 R1", "g20000" = "g20000 I1 R1"+"g20000 I2 R1", "g30000" = "g30000 I1 R1"+"g30000 I2 R1", "g40000" = "g40000 I1 R1"+"g40000 I2 R1", "g50000" = "g50000 I1 R1"+"g50000 I2 R1") %>% 
   replace(is.na(.), 0) %>% 
   filter(Details != "intergenic")
-=======
+
+
 Tenaillon2016 <- read_csv(here("data-in", "Tenaillon2016.csv"))
 Tenaillon2016 <- Tenaillon2016 %>% 
   transmute(Gene = Tenaillon2016$Gene, Population = Tenaillon2016$Population, Details = Tenaillon2016$Details, `500` = `500 I1 R1`+`500 I2 R1`, `1000` = `1000 I1 R1`+`1000 I2 R1`, `1500` =`1500 I1 R1`+`1500 I2 R1`, `2000` = `2000 I1 R1`+`2000 I2 R1`, `5000` = `5000 I1 R1`+`5000 I2 R1`, `10000` = `10000 I1 R1`+`10000 I2 R1`, `15000` = `15000 I1 R1`+`15000 I2 R1`, `20000` = `20000 I1 R1`+`20000 I2 R1`, `30000` = `30000 I1 R1`+`30000 I2 R1`, `40000` = `40000 I1 R1`+`40000 I2 R1`, `50000` = `50000 I1 R1`+`50000 I2 R1`) %>% replace(is.na(.), 0) 
