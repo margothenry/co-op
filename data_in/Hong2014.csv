@@ -1,4 +1,4 @@
-selective_pressure,Population,type,position,mutation,Read freq*,frequency,Gene,amino acid change,note
+selective_pressure,population,type,position,mutation,Read freq*,frequency,gene,amino acid change,note
 Ammonium,c1,nSNP,chr06 96927,G:T,0.98,0.32,GAT1,W321L,NA
 Ammonium,c1,nSNP,chr06 132482,C:G,0.99,0,VTC2,H225D,NA
 Ammonium,c1,nSNP,chr08 416089,C:G,0.99,0,KEL1,G364A,NA

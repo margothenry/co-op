@@ -1,2 +1,2 @@
-paper,environment,c_hyper,p_chisq,estimate,N_genes.notParallel,N_genes.parallel,parallel_genes
-Sandberg2014,glucose minimal media,10.493,0.005,0.061,109,37,"abgB, araG, cas3/cysH, dinQ/arsR, dmsD/clcB, dnaQ, frmR/yaiO, hfq, hns/tdk, hrpB, ilvL/ilvX, isrC, mlaE, mutL, nagA, nagC, pgi/yjbE, pykF, pyrE/rph, rffD, rne, rpoC, secD, tisB/emrD, ybfK/kdpE, ydcD, ydgC, yehC, yehQ, yfdI, yffP/yffQ, yffS, ygaH/mprA, yhhZ, yjjI, ymfE, ynaE/gene=ttcC"
+"paper","environment","c_hyper","p_chisq","estimate","N_genes.notParallel","N_genes.parallel"
+"Sandberg2014","Glucose minimal media",10.493,0.005,0.061,109,37
