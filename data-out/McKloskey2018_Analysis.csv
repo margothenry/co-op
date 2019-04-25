@@ -1,0 +1,2 @@
+paper,environment,c_hyper,p_chisq,estimate,N_genes.notParallel,N_genes.parallel,parallel_genes
+McKloskey2018,M9 minimal medium,21.943,0.005,0.016,38,25,"crp, cysD;iap, fabR, galR, glk;yfeO, icd, insH1, nagA, nagC, nagE, nemR, pntA;ydgH, rcsB, REP161, RIP321, RIP325, rpoC, rpoD, rrfB, rsxC, rttR, sucA, ycdU;serX, ydbA, yidX"

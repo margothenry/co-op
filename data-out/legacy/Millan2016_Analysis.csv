@@ -1,0 +1,5 @@
+paper,environment,generations,c_hyper,p_chisq,estimate,N_genes.notParallel,N_genes.parallel,parallel_genes
+Millan2016,LB broth,4,24.242,0.005,0.001,2,4,"[crl], bla →, NP_417863.1 ←, RNAI"
+Millan2016,LB broth,8,25.22,0.005,0.002,4,5,"[crl], [nmpC]–YP_025295.1, bla →, NP_417863.1 ←, RNAI"
+Millan2016,LB broth,12,32.639,0.005,0.002,5,5,"[nmpC]–YP_025295.1, bla →, NP_417863.1 ←, NP_418733.1 → / → NP_418734.1, RNAI"
+Millan2016,LB broth,16,44.354,0.005,0.002,3,3,"bla →, NP_417863.1 ←, RNAI"

@@ -1,0 +1,2 @@
+paper,environment,c_hyper,p_chisq,estimate,N_genes.notParallel,N_genes.parallel,parallel_genes
+McCloskey2018,M9 minimal medium,23.449,0.005,0.009,20,10,"insH1, nagA, nagE, nemR, phoB, phoR, pstA, pykF, rrfB, yidX"
