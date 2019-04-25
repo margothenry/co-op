@@ -12,7 +12,7 @@
 #'
 single_long <- function(paper, environment, species = NA){
   
-data <- read_csv(file.path(getwd(), "data_in", paste0(paper, ".csv")))   
+data <- read_csv(file.path(getwd(), "data_in", paste0(paper, ".csv")), col_types = cols())   
 
 if (species %in% geneNumbers$Species){
   numGenes <- filter(geneNumbers, Species == species)$NumGenes  
@@ -23,7 +23,7 @@ if(is.na(numGenes)){
   numGenes <- as.numeric(readline(prompt))
 }
 
-geneNumbers <- read_csv(file.path(getwd(),"data_in/GeneDatabase.csv"))
+geneNumbers <- read_csv(file.path(getwd(),"inst/GeneDatabase.csv"), col_types = cols())
 
   data.1 <- data %>%
   arrange(Gene) %>%

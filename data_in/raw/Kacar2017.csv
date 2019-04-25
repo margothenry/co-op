@@ -1,0 +1,70 @@
+﻿g500,g1000,g1500,g2000,Population,Gene,Genome position (Deepak's data),Ancestral nucleotide,Evolved nucleotide,Gene (aa) position,Codon    change,Amino acid change,Nature of the change,20 bp window,Strand 
+0,0.5,0.539,0.055,Lineage 6,nusA*,3251586,T,G,1176 (392),CTG > CGG,Leu to Arg,non-syn,"Flanking region: GATTTCCAACAGCTCTTTCAT
+",-
+0.379,0.933,0.038,0.031,Lineage 6,infB*,3250822,G,T,429 (143),GAA > TAA,Glu to Stop,non-syn (early stop codon),Flanking region: TCAGCAGCTTCACGCTTAGCT,-
+0,0,0.337,0.911,Lineage 6,hupA*,4178938,T,G,300 (10),ATT > AGT,Ile to Ser,non-syn,"Flanking region: ATTGATGTAATTGCAGAGAAA
+",+
+1,0,0,0,Lineage 2,hupA*,4179130,,,(221‑226/273 nt),,,6 bp deletion,"Flanking region: ATTGCCGCAGCTAACGTACCG
+",+
+0,0.0969,0.046,0,Lineage 5,yjaG → / → hupA,4178829,G,T, (+106/‑81),,,Intergenic mutation,"Flanking region: CTATCGGTGCGTGTATGCAGG
+",Intergenic region
+0,0,0.95,0.828,Lineage 4,mreB*,3328413,C,T,408 (136),CGT > TGT,Arg to Cys,non-syn,,-
+0.87,0.97,0.95,0.95,Lineage 1,mreB*,3328543,G,A,438 (146),GCT > ACT,Ala to Thr,non-syn,Flanking region: ATTGCGGCAGCCATCGGTTCT,-
+0.469,0.95,1,1,Lineage 2,mreB*,3328543,G,A,438 (146),GCT > ACT,Ala to Thr,non-syn,Flanking region: ATTGCGGCAGCCATCGGTTCT,-
+0,0,0.971,0.824,Lineage 4,mreB*,3328573,C,T,408 (136 aa),CGT > TGT,Arg to Cys,non-syn,"Flanking region: AAGACTTCACGGGCACCAGCG
+",-
+0.464,0,0,0,Lineage 6,mreB*,3328045,G,A,312 aa,GGC > AGC,Gly to Ser,non-syn,Flanking region: ACTGGAATGCCGGTTTCTTCC,-
+0.95,1,1,1,Lineage 1,thrT/tuf,4154415,,,,,,19 bp duplication,Flanking region: GTTGATGTGGTGATATCACCG,Intergenic region
+0.75,0.69,0.81,0.8,Lineage 2,thrT/tuf,4154415,,,,,,19 bp duplication,Flanking region: GTTGATGTGGTGATATCACCG,Intergenic region
+0,0.27,0.8,0.8,Lineage 3,thrT/tuf,4154425,G,A,(+86/-29),,,Intergenic mutation,Flanking region: TGATATCACCGATTTATCCGT,Intergenic region
+0,0,1,1,Lineage 4,thrT/tuf,4154426,A ,C ,(+87/-28)  [+87/‑28],,,Intergenic mutation,Flanking region: GATATCACCGATTTATCCGTG,Intergenic region
+0,0,0.832,1,Lineage 5,thrT/tuf,4154393,G,T,(+54/-61) [+54/‑61],,,Intergenic mutation,"Flanking region: AACAAGTCGGGCATGTTGCCT
+",Intergenic region
+0,0,0,0.26,Lineage 1,iclR,4201423,C,T,156 (52 aa),CAA> TAA,Gln to stop codon,non-syn (early stop codon),Flanking region: AACCCGGCTTGTTGCGCCAGT,-
+0,0,0.23,0.184,Lineage 1,iclR,4200920,G,.,(657/825 nt),,,1 bp deletion,Flanking region: GGCAACGTAGCCCCAGCGCAT,-
+0,0,0.246,0,Lineage 2,iclR,4201443,C,A,45 aa,GCA > GAA,Ala to Glu,non-syn,"Flanking region: TTCCGTGAGTGCCACACTGCC
+",-
+0,0,1,0,Lineage 3,iclR,4201047,,,(527‑530/825 nt),,,4 bp deletion,"Flanking region: GCGGTGCAGCAGCTTCGTCAC
+",-
+0,0,0.37,0.508,Lineage 3,iclR,4201541,A,C,36 (12 aa),AAA > AAC,Lys to Asn,non-syn,"Flanking region: CAACGGCGGGTTTTCTGCCGC
+",-
+0,0,0.37,0,Lineage 3,iclR,,,deletion,,,,4 bp deletion,,-
+0,0.925,0.95,0.922,Lineage 4,iclR,4201262,T,.,(315/825 nt),,,deletion (ESC?),"Flanking region: GGATAGGGTGAACAATCGCTA
+",-
+0,0.925,0,0.922,Lineage 4,iclR,4201263,T,.,(314/825 nt),,,deletion,Flanking region: GATAGGGTGAACAATCGCTAA,-
+0.933,0.919,1,0.95,Lineage 3,mrdA,650644,G,A,159 (53),CGC> CAC,Arg to His,non-syn,Flanking region: TTCATTAGAGCGGGTCTGGTA,-
+0,0,0.9,0.94,Lineage 6,mrdA,,A,C,1383 (461),ACC> CCC,Thr to Pro,non-syn,,-
+0,0.435,0.026,0.024,Lineage 6,mrdA,648976,A,C,609 aa,GAC > GCC,Asp to Ala,non-syn,"Flanking region: CATAATGTGGTCGAGGATCTG
+",-
+0,0.9,1,0.939,Lineage 6,mrdA,649421,A,C,461 aa,ACC > CCC,Thr to Pro,non-syn,"Flanking region: TGGATTGGGGTCGCTGTCCAG
+",-
+1,0.95,0.95,0.95,Lineage 5,mrdB,647799,T,C,1101 (367),TCG> CCG,Ser to Pro,non-syn,"Flanking region: ACGCTTTTCGACAACATTTTC
+",-
+0.95,0.988,0.95,0.95,Lineage 3,topA,1330893,G,A [ T ],1476 (492),GGT> TGT,Gly to Cys,non-syn,Flanking region: ACGCGGTATCGGTCGTCCGTC,+
+0,0,0,1,Lineage 2,kdpD,704667,,,(1844‑1846/2688 nt),,,3 bp deletion,Flanking region: TTCCCCGGTTCCACCACCACC,-
+0,0,1,0,Lineage 3,kdpD,704667,,,(1844‑1846/2688 nt),,,3 bp deletion,Flanking region: TTCCCCGGTTCCACCACCACC,-
+0,0,1,0,Lineage 4,kdpD,704667,G,.,(1844‑1846/2688 nt),,,3 bp deletion,Flanking region: TTCCCCGGTTCCACCACCACC,-
+0,0,0,1,Lineage 6,kdpD,704667,,,(1844‑1846/2688 nt),,,3 bp deletion,Flanking region: TTCCCCGGTTCCACCACCACC,-
+0.98,0.98,1,1,Lineage 5,kdpD,705132,G,C,1383 (461),GAT> CAT,Asp to His,non-syn,"Flanking region: AAAAAGAGATCGAAACTCACC
+",-
+0,0.776,0,0.95,Lineage 1,pykF,1733016,G,T,54 (18),GAG > TAG,Glu to *,early stop codon,Flanking region: CGAATCTGAAGAGATGTTAGC,+
+0,0,0,0.95,Lineage 1,pykF,,G,T,54 (18),GAG> TAG,Glu to stop,early stop codon,,+
+0,0,0.62,0.984,Lineage 2,pykF,1733523,G,.,(559/1413 nt),,,1 bp deletion,Flanking region: ACAAGGCGTAGACTTTGTTGC,+
+0,0,0.021,0.403,Lineage 3,pykF,1733712,G,A,750 (250 aa),GAA > AAA,Glu to Lys,non-syn,Flanking region: CCTGGGTGTAGAAATCCCGGT,+
+0,0,0,1,Lineage 6,pykF,1733796,A,C,278 aa,ACC > CCC,Thr to Pro,non-syn,"Flanking region: TATCACTGCGACCCAGATGCT
+",+
+0,0,0,1,Lineage 5,pykF,1733542,,,(578‑580/1413 nt),,,3 bp deletion,"Flanking region: GCTGCTTCCTTTATTCGTAAG
+",+
+0,0,0,0.411,Lineage 3,ydhZ ← / → pykF,1732767,A,G, (‑359/‑198),,,Intergenic mutation,"Flanking region: AGCACTTTGGACTGTAGAACT
+",Intergenic region
+0.977,0.985,0.971,0.965,Lineage 6,fadA ,4005178,,,IS150 (+) +3 bp,,,3 bp deletion,Flanking region: TTCCCCGGTTCCACCACCACC,-
+0.973,0.98,0.981,0.994,Lineage 5,fadA ,4005178,,,IS150 (+) +3 bp,,,3 bp deletion,,-
+0,0,0,1,Lineage 1,ftsZ,108162,,, (54‑56/1152 nt),,Δ3 bp,3 bp deletion,,+
+0,0,1,1,Lineage 2,ftsZ,108162,,, (54‑56/1152 nt),,Δ3 bp,3 bp deletion,,+
+0.95,0.95,0.95,0.95,Lineage 6,ftsZ,108162,,, (54‑56/1152 nt),,Δ3 bp,3 bp deletion,,+
+0,1,1,1,Lineage 5,ftsZ,108162,,, (54‑56/1152 nt),,Δ3 bp,3 bp deletion,,+
+0,0,0,1,Lineage 1,accC,3334290,,,(483‑485/1350 nt),,Δ3 bp,3 bp deletion,,+
+0,0,1,1,Lineage 2,accC,3334290,,,(483‑485/1350 nt),,Δ3 bp,3 bp deletion,,+
+0,0.95,0.95,1,Lineage 6,accC,3334290,,,(483‑485/1350 nt),,Δ3 bp,3 bp deletion,,+
+0,0,0.67,1,Lineage 5,accC,3334290,,,(483‑485/1350 nt),,6 bp x 2,duplication,,+
+,,,,,,,,,,,,duplication,,
