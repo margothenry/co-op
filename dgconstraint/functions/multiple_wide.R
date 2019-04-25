@@ -11,7 +11,7 @@
 #' @examples 
 #' multiple_wide("Author2018","YPD", "Sac", c("0", "100", "500" , "1000"))
 #' 
-multiple_wide <- function(paper, generations, environment, species = NA){
+multiple_wide <- function(paper, generations, environment, species = NA, numgenes = NA){
 
 geneNumbers <- read_csv(file.path(getwd(),"dgconstraint/inst/geneDatabase.csv"), col_types = cols())
 
@@ -94,7 +94,7 @@ if(is.na(numgenes)){
     
     c_hyper <- suppressWarnings(append(c_hyper, pairwise_c_hyper(full_matrix)))
     p_chisq <- suppressWarnings(append(p_chisq, allwise_p_chisq(full_matrix, num_permute = 200)))
-    estimate <- suppressWarnings(append(estimate, estimate_pa(full_matrix,ndigits = 4, show.plot = T)))
+    estimate <- suppressWarnings(append(estimate, estimate_pa(full_matrix, ndigits = 4, show.plot = F)))
     
     c_hyper[c_hyper <= 0] <- 0
     c_hyper[c_hyper == "NaN"] <- 0

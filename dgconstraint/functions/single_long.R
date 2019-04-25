@@ -10,20 +10,19 @@
 #' @examples 
 #'single_long("Author2018","YPD", "Sac")
 #'
-single_long <- function(paper, environment, species = NA){
+single_long <- function(paper, environment, species = NA, numgenes = NA){
   
-data <- read_csv(file.path(getwd(), "data_in", paste0(paper, ".csv")), col_types = cols())   
+  geneNumbers <- read_csv(file.path(getwd(),"dgconstraint/inst/geneDatabase.csv"), col_types = cols())
+  data <- read_csv(file.path(getwd(), "data_in", paste0(paper, ".csv")), col_types = cols())   
 
 if (species %in% geneNumbers$Species){
-  numgenes <- filter(geneNumbers, Species == species)$Numgenes  
+  numgenes <- filter(geneNumbers, Species == species)$NumGenes  
 }
 
 if(is.na(numgenes)){
   prompt <- "Your species is unspecified or not in our database. How many genes does it have? \n"
   numgenes <- as.numeric(readline(prompt))
 }
-
-geneNumbers <- read_csv(file.path(getwd(),"inst/geneDatabase.csv"), col_types = cols())
 
   data.1 <- data %>%
   arrange(gene) %>%
@@ -62,9 +61,9 @@ full_matrix <- rbind(data.array, array(0,c(numgenes-total_genes,ncol(data.array)
 c_hyper <- c()
 p_chisq <- c()
 estimate <- c()
-c_hyper <- append(c_hyper, pairwise_c_hyper(full_matrix))
-p_chisq <- append(p_chisq, allwise_p_chisq(full_matrix, num_permute = 200))
-estimate <- append(estimate, estimate_pa(full_matrix,ndigits = 4, show.plot = T))
+c_hyper <- suppressWarnings(append(c_hyper, pairwise_c_hyper(full_matrix)))
+p_chisq <- suppressWarnings(append(p_chisq, allwise_p_chisq(full_matrix, num_permute = 200)))
+estimate <- suppressWarnings(append(estimate, estimate_pa(full_matrix,ndigits = 4, show.plot = F)))
 
 c_hyper[c_hyper <= 0] <- 0
 c_hyper[c_hyper == "NaN"] <- 0
@@ -79,5 +78,8 @@ if (!file.exists(newdir)){
 }
 
 filename <- file.path(getwd(), "data_out", paste(paper, "_Analysis.csv", sep=""))
+cat("\n")
+cat(paste("Writing file: ", filename))
 write.csv(df, file=filename, row.names=FALSE)
+cat("\n")
 }

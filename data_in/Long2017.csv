@@ -1,0 +1,30 @@
+position,mutation,1-0_start,ALE1,ALE2,ALE3,ALE4,ALE5,ALE6,ALE7,ALE8,ALE9,ALE10,count,annotation,gene,gene alt.,description
+3813833,Δ1 bp,NA,0,1,0,0,0,1,0,0,0,0,2,intergenic (‑42/+53),pyrE / rph,NA,orotate phosphoribosyltransferase/defective ribonuclease PH
+4398452,A→C,NA,0,0,0,0,0,1,0,0,0,0,1,N48H (AAC→CAC),hfq,NA,"global sRNA chaperone; HF‑I, host factor for RNA phage Q beta replication"
+1195479,25 gene deletion,NA,0,1,0,0,1,0,0,0,0,0,2,25 gene deletion,e14 prophage,NA,e14 prophage
+134057,2 bp→CT,NA,0,0,0,0,1,0,0,0,0,0,1,coding (2443‑2444/2598 nt),acnB,NA,bifunctional aconitate hydratase 2/2‑methylisocitrate dehydratase
+2259502,G→A,NA,0,0,0,0,1,0,0,0,0,0,1,R296C (CGT→TGT),fruK,NA,fructose‑1‑phosphate kinase
+4210982,G→C,NA,0,0,0,0,1,0,0,0,0,0,1,intergenic (+13/‑81),rrlE/rrfE,NA,23S ribosomal RNA of rrnE operon/5S ribosomal RNA of rrnE operon
+4210996,Δ1 bp,NA,0,0,0,0,1,0,0,0,0,0,1,intergenic (+27/‑67),rrlE/ rrfE,NA,23S ribosomal RNA of rrnE operon/5S ribosomal RNA of rrnE operon
+4158877,C→T,NA,0,1,1,0,0,0,1,1,1,0,4,intergenic (‑64/‑270),sthA/fabR,udhA / fabR,"pyridine nucleotide transhydrogenase, soluble/DNA‑binding transcriptional repressor"
+700601,C→A,NA,0,0,0,0,0,0,0,1,1,0,2,G73C (GGC→TGC),nagC,NA,"DNA‑binding transcriptional dual regulator, repressor of N‑acetylglucosamine"
+4158756,C→T,NA,1,0,0,0,0,0,0,1,1,0,2,G20S (GGC→AGC),sthA,udhA,"pyridine nucleotide transhydrogenase, soluble"
+4103080,C→T,NA,0,0,1,1,0,0,0,0,0,0,1,R205H (CGT→CAT),cpxR,NA,DNA‑binding response regulator in two‑component regulatory system with CpxA
+3990350,A→C,NA,0,0,0,0,0,0,0,1,0,0,1,Q392P (CAG→CCG),cyaA,NA,adenylate cyclase
+202267,C→T,NA,1,0,0,0,0,0,0,0,0,0,1,P56L (CCT→CTT),fabZ,NA,(3R)‑hydroxymyristol acyl carrier protein dehydratase
+3409507,Δ15 bp,NA,0,0,0,0,0,0,0,1,0,0,1,coding (215‑229/297 nt),fis,NA,global DNA‑binding transcriptional dual regulator
+195561,T→G,NA,0,0,0,0,0,0,0,0,0,1,1,L220R (CTC→CGC),ispU,NA,undecaprenyl pyrophosphate synthase
+665274,G→T,NA,0,0,0,0,0,0,1,0,0,0,1,A88E (GCG→GAG),mrdB,rodA,cell wall shape‑determining protein
+1675241,Δ11 bp,NA,0,1,0,0,0,0,1,0,0,0,1,coding (677‑687/1533 nt),pntA,NA,"pyridine nucleotide transhydrogenase, alpha subunit"
+1673703,(AGCCGC)2→3,NA,0,0,0,1,0,0,0,0,0,1,1,coding (682/1389 nt),pntB,NA,"pyridine nucleotide transhydrogenase, beta subunit"
+3958941,T→G,NA,1,0,0,0,0,0,0,0,0,0,1,I81S (ATC→AGC),rep,NA,DNA helicase and single‑stranded DNA‑dependent ATPase
+3438198,G→A,NA,0,0,1,0,0,1,0,0,0,1,1,T285I (ACC→ATC),rpoA,NA,"RNA polymerase, alpha subunit"
+4181297,A→G,NA,1,0,0,0,0,0,0,0,1,0,1,N677S (AAC→AGC),rpoB,NA,"RNA polymerase, beta subunit"
+4186892,C→A,NA,1,0,0,0,0,0,0,0,0,0,1,R1174S (CGT→AGT),rpoC,NA,"RNA polymerase, beta prime subunit"
+2864733,Δ1 bp,NA,0,1,1,1,1,1,1,0,0,0,4,coding (841/993 nt),rpoS,NA,"RNA polymerase, sigma S (sigma 38) factor"
+931811,A→C,NA,0,0,0,1,1,0,0,0,0,0,1,intergenic (‑538/‑7),trxB/ lrp,NA,"thioredoxin reductase, FAD/NAD(P)‑binding/DNA‑binding transcriptional dual regulator, leucine‑binding"
+4057389,#NAME?,NA,0,0,0,0,0,0,0,1,0,0,1,coding (960/1824 nt),typA,bipA,GTP‑binding protein
+2525264,Δ1 bp,NA,0,0,0,1,0,0,0,0,0,0,1,coding (297/999 nt),yfeH,NA,putative inner membrane protein
+4076151,T→G,NA,0,0,1,0,0,0,0,0,0,0,1,L227R (CTG→CGG),yiiD,NA,putative acetyltransferase
+4014129,(GGGTCTG)1→2,NA,0,0,0,0,0,0,0,0,0,1,1,coding (64/816 nt),ysgA,NA,putative hydrolase
+1934273,C→T,NA,0,0,0,0,0,0,0,0,1,0,1,A22A (GCG→GCA),zwf,NA,glucose‑6‑phosphate 1‑dehydrogenase

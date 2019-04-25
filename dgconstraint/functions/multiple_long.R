@@ -11,14 +11,14 @@
 #' @examples 
 #'multiple_wide("Author2018","YPD", "Sac", c("HighTemp", "LowTemp", "OptimalTemp"))
 #'
-multiple_long <- function(paper, selective_pressure, environment, species  = NA){
+multiple_long <- function(paper, selective_pressure, environment, species  = NA, numgenes = NA){
 
 geneNumbers <- read_csv(file.path(getwd(),"dgconstraint/inst/geneDatabase.csv"), col_types = cols())
 
 data <- read_csv(file.path(getwd(), "data_in", paste0(paper, ".csv")), col_types = cols())
 
 if (species %in% geneNumbers$Species){
-  numgenes <- filter(geneNumbers, Species == species)$Numgenes  
+  numgenes <- filter(geneNumbers, Species == species)$NumGenes  
 }
 
 if(is.na(numgenes)){
@@ -86,16 +86,19 @@ for(j in selective_pressure) {
   filename1 <- file.path(getwd(), "data_out", paste0("/", paper, "_", j, ".csv"))
   write.csv(data.j, file=filename1, row.names=FALSE)
   
-  c_hyper <- append(c_hyper, pairwise_c_hyper(full_matrix))
-  p_chisq <- append(p_chisq, allwise_p_chisq(full_matrix, num_permute = 200))
-  estimate <- append(estimate, estimate_pa(full_matrix,ndigits = 4, show.plot = T))
+  c_hyper <- suppressWarnings(append(c_hyper, pairwise_c_hyper(full_matrix)))
+  p_chisq <- suppressWarnings(append(p_chisq, allwise_p_chisq(full_matrix, num_permute = 200)))
+  estimate <- suppressWarnings(append(estimate, estimate_pa(full_matrix,ndigits = 4, show.plot = F)))
   
   c_hyper[c_hyper <= 0] <- 0
   c_hyper[c_hyper == "NaN"] <- 0
 }
   df <- tibble( paper = paper, environment = environment, selective_pressure = selective_pressure, c_hyper = round(c_hyper, 3), p_chisq, estimate = round(estimate, 3) ,N_genes.notParallel= num_non_parallel_genes, N_genes.parallel=num_parallel_genes, parallel_genes)
-  
   filename2 <- file.path(getwd(), "data_out", paste(paper, "_Analysis.csv", sep=""))
+  
+  cat("\n")
+  cat(paste("Writing file: ", filename2))
   write.csv(df, file=filename2, row.names=FALSE)
+  cat("\n")
   }
   

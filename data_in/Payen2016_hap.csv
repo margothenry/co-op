@@ -1,0 +1,11 @@
+gene,Standard name,Chr,Position,Reference,Alternate,AA_change,#mutations,Class,selective_pressure,Ploidy,population,frequency,Found in clone?,Background,Reference_1,Snpeff,Detrimental,Beneficial
+YBR140C,IRA1,chrII,526404,T,C,L75L,24,Synonymous,phosphate,haploid,P5,0.42,N,CENPK,This study,Low,NA,NA
+YBR250W,SPO23,chrII,720006,G,T,S325I,1,Non-synonymous,phosphate,haploid,P5,0.5,Y,CENPK,This study,Moderate,NA,NA
+YEL034W,HYP2,chrV,86108,G,A,E145K,1,Non-synonymous,phosphate,haploid,P5,0.4,N,CENPK,This study,Moderate,NA,NA
+YML123C,PHO84,chrXIII,24202,C,A,L533F,5,Non-synonymous,phosphate,haploid,P5,0.36,N,CENPK,This study,Moderate,ave-CEN-P,NA
+YNL216W,RAP1,chrXIV,243064,T,A,I459N,1,Non-synonymous,phosphate,haploid,P5,0.39,N,CENPK,This study,Moderate,NA,NA
+YPR088C,SRP54,chrXVI,712789,A,G,I80I,1,Synonymous,phosphate,haploid,P5,0.56,N,CENPK,This study,Low,NA,NA
+YBR136W,MEC1,chrII,507748,A,T,Q694L,1,Non-synonymous,phosphate,haploid,P6,0.15,N,CENPK,This study,Moderate,av-MM1N-S,NA
+YDR069C,DOA4,chrIV,585462,G,T,P753H,2,Non-synonymous,phosphate,haploid,P6,0.25,N,CENPK,This study,Moderate,NA,NA
+YDR520C,URC2,chrIV,1481197,T,A,D736V,1,Non-synonymous,phosphate,haploid,P6,0.2,N,CENPK,This study,Moderate,NA,NA
+YML123C,PHO84,chrXIII,25655,G,A,A49V,5,Non-synonymous,phosphate,haploid,P6,0.98,Y,CENPK,This study,Moderate,ave-CEN-P,NA

@@ -1,0 +1,154 @@
+"population","gene","prop"
+"A1","araJ",2
+"A6","arcA",2
+"A1","arcB",2
+"A6","arcC",1
+"A5","blr",2
+"A5","cls",2
+"A1","dhaM",2
+"A5","dinI",1
+"A1","ebgR",2
+"A5","ECB_01081",2
+"A3","ECB_01510",2
+"A6","ECB_01992",1
+"A3","ECB_02013",2
+"A1","ECB_02816",2
+"A3","ECB_02816",2
+"A6","ECB_02816",2
+"A5","ECB_02852",2
+"A3","ECB_03822",2
+"A3","envZ",2
+"A6","envZ",2
+"A5","fabF",2
+"A5","fhlA, ygbA, mutS, pphB, ygbI, ygbJ, ygbK, ygbL, ygbM, ygbN, rpoS, nlpD, pcm, surE, ygbO, ispF, ispD, ftsB, ygbE, cysC, cysN, cysD, iap, insL-5, insK-3, "">insJ-3",2
+"A1","fimA",2
+"A3","fimA",2
+"A3","fis",2
+"A6","frdC",1
+"A3","ggt",2
+"A1","glpE",2
+"A3","glpR",2
+"A6","gltA",1
+"A1","gltB",2
+"A6","gltB, gltD, yhcG, ECB_03080, yhcH, nanK",2
+"A1","gltI",2
+"A6","hrpA, ydcF, aldA, gapC, insA-12, insB-12, cybB, ydcA, hokB, mokB, trg, ydcI, ydcJ, ydcG, ECB_01382, ydcH, rimL, ydcK, tehA, tehB, ydcL, yncK, yncK, ydcM, ydcO, ydcN, "">ydcP",1
+"A6","hsdR",1
+"A5","hsdS",2
+"A1","hslU",2
+"A3","hslU",2
+"A5","hslU",2
+"A6","hslU",2
+"A5","hyfA",2
+"A6","hyfA",1
+"A1","hypF",1
+"A5","iap",2
+"A6","iap",2
+"A1","iclR",2
+"A3","iclR",2
+"A5","iclR",2
+"A1","infB",2
+"A5","infB",2
+"A6","infC",2
+"A1","insB-2",2
+"A3","ldrC",2
+"A6","lysQ",1
+"A1","malT",2
+"A3","malT",2
+"A6","malT",2
+"A6","malT",2
+"A6","malT",2
+"A1","manB, manC, insB-14, insA-14, wbbD, wbbC, wzy, wbbB, wbbA, vioB, vioA, wzx, rmlC, rfbA, rfbD, rfbB, galF, wcaM, wcaL, wcaK, wzxC, wcaJ, "">cpsG",2
+"A3","manB, manC, insB-14, insA-14, wbbD, wbbC, wzy, wbbB, wbbA, vioB, vioA, wzx, rmlC, rfbA, rfbD, rfbB, galF, wcaM, wcaL, wcaK, wzxC, wcaJ, "">cpsG",2
+"A5","manB, manC, insB-14, insA-14, wbbD, wbbC, wzy, wbbB, wbbA, vioB, vioA, wzx, rmlC, rfbA, rfbD, rfbB, galF, wcaM, wcaL, wcaK, wzxC, wcaJ, "">cpsG",2
+"A6","marC, ECB_01487, ECB_01488, marR, marA, marB, eamA",1
+"A5","menC",2
+"A6","menC",1
+"A6","menC",1
+"A6","metH",2
+"A3","metL",2
+"A1","mrdA",2
+"A3","mrdB",2
+"A6","mreC",2
+"A1","nadR",2
+"A3","nadR",2
+"A5","nadR",2
+"A6","nadR",2
+"A1","nagC",2
+"A1","nagC",1
+"A6","narZ",1
+"A3","nmpC, ybcR, ybcS, ybcT, ybcU",2
+"A6","nmpC, ybcR, ybcS, ybcT, ybcU",1
+"A1","nmpC, ybcR, ybcS, ybcT, ybcU, ECB_00510, nohB, ECB_00512, ECB_00513",2
+"A5","nmpC, ybcR, ybcS, ybcT, ybcU, ECB_00510, nohB, ECB_00512, ECB_00513",2
+"A6","nmpC, ybcR, ybcS, ybcT, ybcU, ECB_00510, nohB, ECB_00512, ECB_00513, ECB_00514, ECB_00515, ECB_00516, ECB_00517, appY",1
+"A1","nrdE",1
+"A3","ogrK, yegZ",1
+"A6","oppD",2
+"A1","pcnB",2
+"A6","pfkA",1
+"A1","pflC",2
+"A5","plsB",2
+"A6","prlA",2
+"A6","ptsA, frwC, frwB, pflD, pflC, frwD, yijO, yijP, ppc, argE, argC, argB, argH, oxyR, udhA",1
+"A6","ptsA, frwC, frwB, pflD, pflC, frwD, yijO, yijP, ppc, argE, argC, argB, argH, oxyR, udhA, yijC, yijD, trmA, btuB, murI, rrsB, gltT, rrlB, rrfB, murB, birA, coaA, thrU, tyrU, glyT, thrT, tuf, secE, nusG, rplK, rplA, rplJ, "">rplL",1
+"A5","pykA",2
+"A1","pykF",2
+"A3","pykF",2
+"A5","pykF",2
+"A6","pykF",2
+"A5","rbsD, rbsA, rbsC, rbsB, rbsK, rbsR",2
+"A1","rbsD, rbsA, rbsC, rbsB, rbsK, rbsR, yieO",2
+"A3","rbsD, rbsA, rbsC, rbsB, rbsK, rbsR, yieO",2
+"A6","rbsD, rbsA, rbsC, rbsB, rbsK, rbsR, yieO",2
+"A6","recO",2
+"A6","rhsD",2
+"A3","rihB",1
+"A5","rne",2
+"A6","rplF",1
+"A3","rplS",2
+"A1","rpsD",2
+"A3","rpsG",2
+"A1","rpsM",2
+"A6","sapC",1
+"A3","serV, csrA, alaS, recX, recA, ygaD, mltB, srlA, srlE, srlB, srlD, gutM, srlR, gutQ, ygaA, norV, ygbD, hypF, hydN, ascG, ascF, ascB, hycI, hycH, hycG, hycF, hycE, hycD, hycC, hycB, hycA, hypA, hypB, hypC, hypD, hypE, fhlA, ygbA, mutS, pphB, ygbI, ygbJ, ygbK, ygbL, ygbM, ygbN, rpoS, nlpD, pcm, surE, ygbO, ispF, ispD, ftsB, ygbE, cysC, cysN, cysD, iap, "">insL-5",1
+"A1","spoT",2
+"A6","spoT",2
+"A6","tdk, adhE",2
+"A5","thrA",2
+"A1","topA",2
+"A3","topA",2
+"A5","topA",2
+"A5","uvrA",2
+"A6","valZ, lysY, lysZ",1
+"A3","waaT",2
+"A6","wbbD, wbbC, wzy, wbbB, wbbA, vioB, vioA, wzx, rmlC, rfbA, rfbD, rfbB",2
+"A3","yaaH",2
+"A1","ybaL",2
+"A3","ybaL",2
+"A5","ybaL",2
+"A3","ybcQ",2
+"A3","ybcW, gnsB, ynfN, ECB_01516, cspI, ydfP, ydfQ, ydfR, essQ, ECB_01522, ECB_01523, insE-4, insF-4, ECB_01526",2
+"A5","ybeB",2
+"A3","ybeF",1
+"A3","ybeF",2
+"A5","ybeM",2
+"A5","ycdM",2
+"A5","ydaG",1
+"A3","ydcA, hokB, mokB",1
+"A6","ydjJ",1
+"A6","yeeF",1
+"A1","yegI",2
+"A6","yegM",2
+"A5","yfaQ",2
+"A6","ygaZ",1
+"A6","ygaZ",1
+"A1","yghJ",2
+"A5","ygiN",2
+"A6","yhbP",1
+"A6","yhdG",2
+"A6","yicL",1
+"A6","ylcG",2
+"A1","ynjI",2
+"A3","ytfN",2
+"A3","ytfT",1

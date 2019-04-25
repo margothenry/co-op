@@ -12,13 +12,13 @@
 #' @examples 
 #' single_wide("Author2018","YPD", "Sac", c("P1", "P2", "P3" ,"P4", "P5"))
 
-single_wide <- function(paper, environment, population, species = NA, collapseMutations = TRUE){
-  geneNumbers <- read_csv(file.path(getwd(),"inst/geneDatabase.csv"), col_types = cols())
+single_wide <- function(paper, population, environment, species = NA, collapseMutations = TRUE, numgenes = NA){
+  geneNumbers <- read_csv(file.path(getwd(),"dgconstraint/inst/geneDatabase.csv"), col_types = cols())
   
-  data <- read_csv(file.path(getwd(), "data_in/original", paste0(paper, ".csv")), col_types = cols())
+  data <- read_csv(file.path(getwd(), "data_in", paste0(paper, ".csv")), col_types = cols())
   
   if (species %in% geneNumbers$Species){
-    numgenes <- filter(geneNumbers, Species == species)$Numgenes  
+    numgenes <- filter(geneNumbers, Species == species)$NumGenes  
   }
   
   if(is.na(numgenes)){
@@ -56,22 +56,25 @@ single_wide <- function(paper, environment, population, species = NA, collapseMu
     
     data.1 <- rbind(single_mutation_genes, multi_genes_matrix)
     data.1 <- data.1 %>% 
-      arrange(gene) 
+      arrange(gene) %>% 
+      filter(Reduce(`+`, lapply(., is.na)) != ncol(.))
   }
   
+  #this is from single_long
+  #num_parallel <- data.frame(data.array, Count=rowSums(data.array, na.rm = FALSE, dims = 1), genes = row.names(data.array))
   
-  num_parallel <- data.frame(data.1[, population], Count=rowSums(data.1[, population], na.rm = FALSE, dims = 1),row.names= data.1$gene)
+  num_parallel <- data.frame(data.1[, population], Count=rowSums(data.1[, population], na.rm = FALSE, dims = 1), row.names= data.1$gene)
   
   genes_parallel <- num_parallel %>%
     as_tibble() %>%
     filter(Count > 1)
   
-  Non_genes_parallel <- num_parallel %>%
+  non_genes_parallel <- num_parallel %>%
     as_tibble() %>%
     filter(Count == 1)
   
   num_parallel_genes <- nrow(genes_parallel)
-  num_non_parallel_genes <- nrow(Non_genes_parallel)
+  num_non_parallel_genes <- nrow(non_genes_parallel)
   total_genes <- num_non_parallel_genes + num_parallel_genes
   
   extragenes <- data.frame(array(0, dim = c(numgenes-total_genes, length(population))))
@@ -81,14 +84,14 @@ single_wide <- function(paper, environment, population, species = NA, collapseMu
   c_hyper <- c()
   p_chisq <- c()
   estimate <- c()
-  c_hyper <- append(c_hyper, pairwise_c_hyper(full_matrix))
-  p_chisq <- append(p_chisq, allwise_p_chisq(full_matrix, num_permute = 200))
-  estimate <- append(estimate, estimate_pa(full_matrix,ndigits = 4, show.plot = T))
+  c_hyper <- suppressWarnings(append(c_hyper, pairwise_c_hyper(full_matrix)))
+  p_chisq <- suppressWarnings(append(p_chisq, allwise_p_chisq(full_matrix, num_permute = 200)))
+  estimate <- suppressWarnings(append(estimate, estimate_pa(full_matrix,ndigits = 4, show.plot = T)))
   
 c_hyper[c_hyper <= 0] <- 0
 c_hyper[c_hyper == "NaN"] <- 0
 
-df <- tibble( paper = paper, environment = environment, c_hyper = round(c_hyper, 3), p_chisq, estimate = round(estimate, 3) ,N_genes.notParallel= num_non_parallel_genes, N_genes.parallel=num_parallel_genes, parallel_genes)
+df <- data.frame( paper = paper, environment = environment, c_hyper = round(c_hyper, 3), p_chisq, estimate = round(estimate, 3) ,N_genes.notParallel= num_non_parallel_genes, N_genes.parallel=num_parallel_genes)
 
 newdir <- file.path(getwd(), "data_out")
 if (!file.exists(newdir)){
@@ -97,6 +100,9 @@ if (!file.exists(newdir)){
 }
 
 filename <- file.path(getwd(), "data_out", paste(paper, "_Analysis.csv", sep=""))
+cat("\n")
+cat(paste("Writing file: ", filename))
 write.csv(df, file=filename, row.names=FALSE)
+cat("\n")
 
 }
