@@ -10,7 +10,7 @@
 #' @examples 
 #'single_long("Author2018","YPD", "Sac")
 #'
-single_long <- function(paper, environment, species = NA){
+single_long <- function(paper, environment, species = NA, numgenes = NA){
   
 data <- read_csv(file.path(getwd(), "data_in", paste0(paper, ".csv")), col_types = cols())   
 

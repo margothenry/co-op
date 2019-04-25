@@ -11,14 +11,14 @@
 #' @examples 
 #'multiple_wide("Author2018","YPD", "Sac", c("HighTemp", "LowTemp", "OptimalTemp"))
 #'
-multiple_long <- function(paper, selective_pressure, environment, species  = NA){
+multiple_long <- function(paper, selective_pressure, environment, species  = NA, numgenes = NA){
 
 geneNumbers <- read_csv(file.path(getwd(),"dgconstraint/inst/geneDatabase.csv"), col_types = cols())
 
 data <- read_csv(file.path(getwd(), "data_in", paste0(paper, ".csv")), col_types = cols())
 
 if (species %in% geneNumbers$Species){
-  numgenes <- filter(geneNumbers, Species == species)$Numgenes  
+  numgenes <- filter(geneNumbers, Species == species)$NumGenes  
 }
 
 if(is.na(numgenes)){

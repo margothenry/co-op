@@ -12,7 +12,7 @@
 #' @examples 
 #' single_wide("Author2018","YPD", "Sac", c("P1", "P2", "P3" ,"P4", "P5"))
 
-single_wide <- function(paper, environment, population, species = NA, collapseMutations = TRUE){
+single_wide <- function(paper, environment, population, species = NA, collapseMutations = TRUE, numgenes = NA){
   geneNumbers <- read_csv(file.path(getwd(),"inst/geneDatabase.csv"), col_types = cols())
   
   data <- read_csv(file.path(getwd(), "data_in/original", paste0(paper, ".csv")), col_types = cols())

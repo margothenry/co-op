@@ -11,7 +11,7 @@
 #' @examples 
 #' multiple_wide("Author2018","YPD", "Sac", c("0", "100", "500" , "1000"))
 #' 
-multiple_wide <- function(paper, generations, environment, species = NA){
+multiple_wide <- function(paper, generations, environment, species = NA, numgenes = NA){
 
 geneNumbers <- read_csv(file.path(getwd(),"dgconstraint/inst/geneDatabase.csv"), col_types = cols())
 
