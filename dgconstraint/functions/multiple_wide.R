@@ -13,23 +13,24 @@
 #' 
 multiple_wide <- function(paper, generations, environment, species = NA){
 
-geneNumbers <- read_csv(file.path(getwd(),"dgconstraint/inst/GeneDatabase.csv"), col_types = cols())
+geneNumbers <- read_csv(file.path(getwd(),"dgconstraint/inst/geneDatabase.csv"), col_types = cols())
 
 data <- read_csv(file.path(getwd(), "data_in", paste0(paper, ".csv")), col_types = cols())
 
 if (species %in% geneNumbers$Species){
-  numGenes <- filter(geneNumbers, Species == species)$NumGenes  
+  numgenes <- filter(geneNumbers, Species == species)$NumGenes  
 }
 
-if(is.na(numGenes)){
+if(is.na(numgenes)){
   prompt <- "Your species is unspecified or not in our database. How many genes does it have? \n"
-  numGenes <- as.numeric(readline(prompt))
+  numgenes <- as.numeric(readline(prompt))
 }
   numLineages <- c()
   num_parallel_genes <- c()
   num_non_parallel_genes <- c()
   parallel_genes <- c()
-  c_hyper <- c()
+  c_hyper <-
+    c()
   p_chisq <- c()
   estimate <- c()
   
@@ -38,30 +39,30 @@ if(is.na(numGenes)){
     cat("  ")
     cat(g)
     data.1 <- data %>% 
-      arrange(Gene) %>%
-      drop_na(Gene) %>%
-      drop_na(Population)
+      arrange(gene) %>%
+      drop_na(gene) %>%
+      drop_na(population)
     
     data.g <- data.1 %>% 
-      select(Population, Gene, Prop = g) %>% 
-      filter(Prop >0)
+      select(population, gene, prop = g) %>% 
+      filter(prop >0)
     
     #number of unique genes
-    num_genes <- length((unique(data.g$Gene)))
+    num_genes <- length((unique(data.g$gene)))
     
     #number of lineages
-    num_lineages <- length(unique(data.g$Population))
+    num_lineages <- length(unique(data.g$population))
     numLineages <- append(numLineages, num_lineages)
     
     #making the matrix
-    data.array <- array(0, dim =c(num_genes, num_lineages), dimnames = list(unique(data.g$Gene), unique(data.g$Population)))
+    data.array <- array(0, dim =c(num_genes, num_lineages), dimnames = list(unique(data.g$gene), unique(data.g$population)))
     
     for(i in 1:num_lineages) {
-      sub <- subset(data.g, data.g$Population == unique(data.g$Population)[i])
-      sub2 <- subset(sub, Prop > 0)
-      geneRows <- which(row.names(data.array) %in% sub2$Gene)
+      sub <- subset(data.g, data.g$population == unique(data.g$population)[i])
+      sub2 <- subset(sub, prop > 0)
+      geneRows <- which(row.names(data.array) %in% sub2$gene)
       data.array[geneRows, i] <- 1
-      num_parallel <- data.frame(data.array, Count=rowSums(data.array, na.rm = FALSE, dims = 1), Genes = row.names(data.array))
+      num_parallel <- data.frame(data.array, Count=rowSums(data.array, na.rm = FALSE, dims = 1), genes = row.names(data.array))
     }
     
     genes_parallel <- num_parallel %>% 
@@ -77,10 +78,10 @@ if(is.na(numGenes)){
     
     num_parallel_genes <- append(num_parallel_genes, num_parallel_genes_g)
     num_non_parallel_genes <- append(num_non_parallel_genes, num_non_parallel_genes_g)
-    parallel_genes <- append(parallel_genes, paste0(genes_parallel$Genes, collapse=", ")) 
+    parallel_genes <- append(parallel_genes, paste0(genes_parallel$genes, collapse=", ")) 
     
     
-    full_matrix <- rbind(data.array, array(0,c(numGenes-total_genes,ncol(data.array))))
+    full_matrix <- rbind(data.array, array(0,c(numgenes-total_genes,ncol(data.array))))
    
     newdir <- file.path(getwd(), "data_out")
     if (!file.exists(newdir)){

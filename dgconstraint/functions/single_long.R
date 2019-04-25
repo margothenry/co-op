@@ -15,32 +15,32 @@ single_long <- function(paper, environment, species = NA){
 data <- read_csv(file.path(getwd(), "data_in", paste0(paper, ".csv")), col_types = cols())   
 
 if (species %in% geneNumbers$Species){
-  numGenes <- filter(geneNumbers, Species == species)$NumGenes  
+  numgenes <- filter(geneNumbers, Species == species)$Numgenes  
 }
 
-if(is.na(numGenes)){
+if(is.na(numgenes)){
   prompt <- "Your species is unspecified or not in our database. How many genes does it have? \n"
-  numGenes <- as.numeric(readline(prompt))
+  numgenes <- as.numeric(readline(prompt))
 }
 
-geneNumbers <- read_csv(file.path(getwd(),"inst/GeneDatabase.csv"), col_types = cols())
+geneNumbers <- read_csv(file.path(getwd(),"inst/geneDatabase.csv"), col_types = cols())
 
   data.1 <- data %>%
-  arrange(Gene) %>%
-  drop_na(Gene) %>%
-  drop_na(Population)
+  arrange(gene) %>%
+  drop_na(gene) %>%
+  drop_na(population)
 
-num_genes <- length((unique(data.1$Gene)))
-num_lineages <- length(unique(data.1$Population))
+num_genes <- length((unique(data.1$gene)))
+num_lineages <- length(unique(data.1$population))
 
-data.array <- array(0, dim =c(num_genes, num_lineages), dimnames = list(unique(data.1$Gene), unique(data.1$Population)))
+data.array <- array(0, dim =c(num_genes, num_lineages), dimnames = list(unique(data.1$gene), unique(data.1$population)))
 
 for(i in 1:num_lineages) {
-  sub <- subset(data.1, data.1$Population == unique(data.1$Population)[i])
-  sub2 <- subset(sub, Frequency > 0)
-  geneRows <- which(row.names(data.array) %in% sub2$Gene)
+  sub <- subset(data.1, data.1$population == unique(data.1$population)[i])
+  sub2 <- subset(sub, frequency > 0)
+  geneRows <- which(row.names(data.array) %in% sub2$gene)
   data.array[geneRows, i] <- 1
-  num_parallel <- data.frame(data.array, Count=rowSums(data.array, na.rm = FALSE, dims = 1), Genes = row.names(data.array))
+  num_parallel <- data.frame(data.array, Count=rowSums(data.array, na.rm = FALSE, dims = 1), genes = row.names(data.array))
 }
 
 genes_parallel <- num_parallel %>%
@@ -55,9 +55,9 @@ Non_genes_parallel <- num_parallel %>%
 num_parallel_genes <- nrow(genes_parallel)
 num_non_parallel_genes <- nrow(Non_genes_parallel)
 total_genes <- num_non_parallel_genes + num_parallel_genes
-parallel_genes <- paste0(genes_parallel$Genes, collapse=", ")
+parallel_genes <- paste0(genes_parallel$genes, collapse=", ")
 
-full_matrix <- rbind(data.array, array(0,c(numGenes-total_genes,ncol(data.array))))
+full_matrix <- rbind(data.array, array(0,c(numgenes-total_genes,ncol(data.array))))
 
 c_hyper <- c()
 p_chisq <- c()
