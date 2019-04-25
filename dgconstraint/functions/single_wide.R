@@ -13,9 +13,9 @@
 #' single_wide("Author2018","YPD", "Sac", c("P1", "P2", "P3" ,"P4", "P5"))
 
 single_wide <- function(paper, environment, population, species = NA, collapseMutations = TRUE){
-  geneNumbers <- read_csv(file.path(getwd(),"data_in/GeneDatabase.csv"))
+  geneNumbers <- read_csv(file.path(getwd(),"inst/GeneDatabase.csv"), col_types = cols())
   
-  data <- read_csv(file.path(getwd(), "data_in/original", paste0(paper, ".csv")))
+  data <- read_csv(file.path(getwd(), "data_in/original", paste0(paper, ".csv")), col_types = cols())
   
   if (species %in% geneNumbers$Species){
     numGenes <- filter(geneNumbers, Species == species)$NumGenes  

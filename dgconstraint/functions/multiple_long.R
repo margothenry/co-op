@@ -13,9 +13,9 @@
 #'
 multiple_wide <- function(paper, selective_pressure, environment, species  = NA){
 
-geneNumbers <- read_csv(file.path(getwd(),"data_in/GeneDatabase.csv"))
+geneNumbers <- read_csv(file.path(getwd(),"dgconstraint/inst/GeneDatabase.csv"), col_types = cols())
 
-data <- read_csv(file.path(getwd(), "data_in", paste0(paper, ".csv")))
+data <- read_csv(file.path(getwd(), "data_in", paste0(paper, ".csv")), col_types = cols())
 
 if (species %in% geneNumbers$Species){
   numGenes <- filter(geneNumbers, Species == species)$NumGenes  
@@ -40,8 +40,10 @@ data.1 <- data %>%
   drop_na(Population) %>%
   select(Selective_pressure,Population, Gene, Frequency)
 
+cat("Evaluating constraint in ")
 for(j in selective_pressure) {
-  print(j)
+  cat("  ")
+  cat(j)
   data.j <- data.1 %>% 
     filter(Selective_pressure == j)
   

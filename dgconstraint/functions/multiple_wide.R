@@ -13,9 +13,9 @@
 #' 
 multiple_wide <- function(paper, generations, environment, species = NA){
 
-geneNumbers <- read_csv(file.path(getwd(),"data_in/GeneDatabase.csv"))
+geneNumbers <- read_csv(file.path(getwd(),"dgconstraint/inst/GeneDatabase.csv"), col_types = cols())
 
-data <- read_csv(file.path(getwd(), "data_in", paste0(paper, ".csv")))
+data <- read_csv(file.path(getwd(), "data_in", paste0(paper, ".csv")), col_types = cols())
 
 if (species %in% geneNumbers$Species){
   numGenes <- filter(geneNumbers, Species == species)$NumGenes  
@@ -33,9 +33,10 @@ if(is.na(numGenes)){
   p_chisq <- c()
   estimate <- c()
   
+  cat("Evaluating constraint in ")
   for (g in generations) {
-    
-    print(g)
+    cat("  ")
+    cat(g)
     data.1 <- data %>% 
       arrange(Gene) %>%
       drop_na(Gene) %>%
@@ -90,9 +91,9 @@ if(is.na(numGenes)){
     filename1 <- file.path(getwd(), "data_out", paste0("/", paper, "_", g, ".csv"))
     write.csv(data.g, file=filename1, row.names=FALSE)
     
-    c_hyper <- append(c_hyper, pairwise_c_hyper(full_matrix))
-    p_chisq <- append(p_chisq, allwise_p_chisq(full_matrix, num_permute = 200))
-    estimate <- append(estimate, estimate_pa(full_matrix,ndigits = 4, show.plot = T))
+    c_hyper <- suppressWarnings(append(c_hyper, pairwise_c_hyper(full_matrix)))
+    p_chisq <- suppressWarnings(append(p_chisq, allwise_p_chisq(full_matrix, num_permute = 200)))
+    estimate <- suppressWarnings(append(estimate, estimate_pa(full_matrix,ndigits = 4, show.plot = T)))
     
     c_hyper[c_hyper <= 0] <- 0
     c_hyper[c_hyper == "NaN"] <- 0
@@ -101,7 +102,8 @@ if(is.na(numGenes)){
   df <- tibble( paper = paper, environment = environment, generations, c_hyper = round(c_hyper, 3), p_chisq, estimate = round(estimate, 3) ,N_genes.notParallel= num_non_parallel_genes, N_genes.parallel=num_parallel_genes, parallel_genes)
   
   filename2 <- file.path(getwd(), "data_out", paste(paper, "_Analysis.csv", sep=""))
-  
+  cat("\n")
+  cat(paste("Writing file: ", filename2))
   write.csv(df, file=filename2, row.names=FALSE)
-  
+  cat("\n")
 }
