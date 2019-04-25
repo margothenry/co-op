@@ -2,7 +2,7 @@
 #'
 #' This function allows you to calculate the pairwise C-score using the hypergeometric approach, a p-value for 'all lineages' contrast using chi-square, and the estimates of the effective proportion of adaptive loci for a data set with multiple generations.
 #' 
-#' @param paper the data in csv that you want to analyze, in a folder named data-in
+#' @param paper the data in csv that you want to analyze, in a folder named data_in
 #' @param environment The environment in which the experiment occured
 #' @param species Specify if the organism is "Sac" or "Ecoli_K12" or "Ecoli_O157-H7", or manually input the gene count of your species
 #' @param generations a list of generations in the data
@@ -11,11 +11,11 @@
 #' @examples 
 #' multiple_wide("Author2018","YPD", "Sac", c("0", "100", "500" , "1000"))
 #' 
-multiple_wide <- function(paper, environment, species, generations, numGenes = NA){
+multiple_wide <- function(paper, generations, environment, species = NA){
 
-geneNumbers <- read_csv(file.path(getwd(),"data-in/GeneDatabase.csv"))
+geneNumbers <- read_csv(file.path(getwd(),"data_in/GeneDatabase.csv"))
 
-data <- read_csv(file.path(getwd(), "data-in", paste0(paper, ".csv")))
+data <- read_csv(file.path(getwd(), "data_in", paste0(paper, ".csv")))
 
 if (species %in% geneNumbers$Species){
   numGenes <- filter(geneNumbers, Species == species)$NumGenes  
@@ -81,13 +81,13 @@ if(is.na(numGenes)){
     
     full_matrix <- rbind(data.array, array(0,c(numGenes-total_genes,ncol(data.array))))
    
-    newdir <- file.path(getwd(), "data-out")
+    newdir <- file.path(getwd(), "data_out")
     if (!file.exists(newdir)){
       dir.create(newdir, showWarnings = FALSE)
       cat(paste("\n\tCreating new directory: ", newdir), sep="")
     }
     
-    filename1 <- file.path(getwd(), "data-out", paste0("/", paper, "_", g, ".csv"))
+    filename1 <- file.path(getwd(), "data_out", paste0("/", paper, "_", g, ".csv"))
     write.csv(data.g, file=filename1, row.names=FALSE)
     
     c_hyper <- append(c_hyper, pairwise_c_hyper(full_matrix))
@@ -100,7 +100,7 @@ if(is.na(numGenes)){
   
   df <- tibble( paper = paper, environment = environment, generations, c_hyper = round(c_hyper, 3), p_chisq, estimate = round(estimate, 3) ,N_genes.notParallel= num_non_parallel_genes, N_genes.parallel=num_parallel_genes, parallel_genes)
   
-  filename2 <- file.path(getwd(), "data-out", paste(paper, "_Analysis.csv", sep=""))
+  filename2 <- file.path(getwd(), "data_out", paste(paper, "_Analysis.csv", sep=""))
   
   write.csv(df, file=filename2, row.names=FALSE)
   
