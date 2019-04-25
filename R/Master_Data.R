@@ -4,6 +4,7 @@ library(tidyverse)
 library(R.utils)
 sourceDirectory(here("R", "functions"))
 source("dgconstraint/functions/multiple_wide.R")
+source("dgconstraint/functions/multiple_long.R")
 
 ############################
 #multiple generations
@@ -11,9 +12,13 @@ source("dgconstraint/functions/multiple_wide.R")
 
 ### Tenaillon2016
 # This paper originally had two clones sequenced for each timepoint. Collapse the two columns and save the resulting dataset.
-Tenaillon2016 <- read_csv(here("data_in", "raw", "Tenaillon2016.csv"))
+
+Tenaillon2016 <- read_csv(here("data_in", "raw", "Tenaillon2016_raw.csv"))
+
+#THIS ISN'T WORKING
 Tenaillon2016 <- Tenaillon2016 %>% 
-  transmute(Gene = Tenaillon2016$Gene, Population = Tenaillon2016$Population, Details = Tenaillon2016$Details, g500 = "g500 I1 R1"+ "g500 I2 R1", g1000 = "g1000 I1 R1"+ "g1000 I2 R2", g1500 = "g1500 I1 R1"+ "g1500 I2 R1", g2000 =  "g2000 I1 R1" + "g2000 I2 R1", g5000 = "g5000 I1 R1"+ "g5000 I2 R1", g10000 = "g10000 I1 R1"+ "g10000 I2 R1", g15000 = "g15000 I1 R1"+ "g15000 I2 R1", g20000 = "g20000 I1 R1"+"g20000 I2 R1", g30000 = "g30000 I1 R1"+"g30000 I2 R1", g40000 = "g40000 I1 R1"+"g40000 I2 R1", g50000 = "g50000 I1 R1"+"g50000 I2 R1") %>% 
+  remove_empty("rows") %>% 
+  transmute(gene = Tenaillon2016$gene, population = Tenaillon2016$population, details = Tenaillon2016$Details, "g500" = "g500 I1 R1"+ "g500 I2 R1", "g1000" = "g1000 I1 R1"+ "g1000 I2 R2", "g1500" = "g1500 I1 R1"+ "g1500 I2 R1", "g2000" =  "g2000 I1 R1" + "g2000 I2 R1", "g5000" = "g5000 I1 R1"+ "g5000 I2 R1", "g10000" = "g10000 I1 R1"+ "g10000 I2 R1", "g15000" = "g15000 I1 R1"+ "g15000 I2 R1", "g20000" = "g20000 I1 R1"+"g20000 I2 R1", "g30000" = "g30000 I1 R1"+"g30000 I2 R1", "g40000" = "g40000 I1 R1"+"g40000 I2 R1", "g50000" = "g50000 I1 R1"+"g50000 I2 R1") %>% 
   replace(is.na(.), 0) %>% 
   filter(Details != "intergenic")
 
@@ -21,9 +26,12 @@ multiple_wide("Tenaillon2016", c("500", "1000", "1500", "2000", "5000", "10000",
 
 ### Lang2014
 #filter out intergenics before running the code
-Lang2014 <-read_csv(here("data_in", "raw", "Lang2014.csv"))
+Lang2014 <-read_csv(here("data_in", "raw", "Lang2014_raw.csv"))
 Lang2014 <- Lang2014 %>%
-  filter(Gene != "Intergenic")
+  filter(Gene != "Intergenic") %>% 
+  rename(gene = Gene, population = Population)
+
+write_csv(Lang2014, here("data_in", "Lang2014.csv"))
 
 multiple_wide("Lang2014", c("P1_0","P1_140","P1_240","P1_335","P1_415","P1_505","P1_585","P1_665", "P1_745","P1_825","P1_910","P1_1000"),"YPD", "Sac")
 
@@ -39,31 +47,33 @@ multiple_wide("Kacar2017", c("g500", "g1000", "g1500", "g2000"),"Minimal glucose
 
 ###Tonoyan_2019
 #filter out intergenics
-Tonoyan2019 <-read_csv(here("data_in", "raw", "Tonoyan2019.csv"))
+Tonoyan2019 <-read_csv(here("data_in", "raw", "Tonoyan2019_raw.csv"))
 Tonoyan2019 <-Tonoyan2019  %>% 
               filter(Gene != "Intergenic")
+write_csv(Tonoyan2019, here("data_in", "Tonoyan2019.csv"))
 
 multiple_wide("Tonoyan2019",c("1", "14", "20"), "LB medium","Ecoli_ATCC")
 
 ### Wielgoss2016a
 #filter out intergenics
-Wielgoss2016_mucoid <-read_csv(here("data_in", "raw",  "Wielgoss2016-mucoid.csv"))
+Wielgoss2016_mucoid <-read_csv(here("data_in", "raw",  "Wielgoss2016-mucoid_raw.csv"))
 Wielgoss2016_mucoid<- Wielgoss2016_mucoid %>% 
                 filter(Gene != "Intergenic")
-
+write_csv(Wielgoss2016_mucoid, here("data_in", "Wielgoss2016_mucoid.csv"))
 
 multiple_wide("Wielgoss2016_mucoid",c("0", "10"), "lysogeny broth", "Ecoli_K12")
 
 ### Wielgoss2016-nonMucois
 #filter out intergenics
-Wielgoss2016-nonMucoid <-read_csv(here("data_in", "raw", "Wielgoss2016-nonMucoid.csv"))
-Wielgoss2016-nonMucoid<- Wielgoss2016-nonMucoid%>% 
+Wielgoss2016_nonMucoid <-read_csv(here("data_in", "raw", "Wielgoss2016-nonMucoid_raw.csv"))
+Wielgoss2016_nonMucoid<- Wielgoss2016_nonMucoid%>% 
   filter(Gene != "Intergenic")
+write_csv(Wielgoss2016_nonMucoid, here("data_in", "Wielgoss2016_nonMucoid.csv"))
 
-multiple_wide("Wielgoss2016-nonMucoid","lysogeny broth", "Ecoli_K12", c("0","2", "10"))
+multiple_wide("Wielgoss2016_nonMucoid", c("0","2", "10"),"lysogeny broth", "Ecoli_K12")
 
 ### Sandberg2016
-multiple_wide("Sandberg2016", "Davids minimal medium", "Ecoli_K12", c("Flask 23", "Flask 58", "Flask 133"))
+multiple_wide("Sandberg2016", c("Flask 23", "Flask 58", "Flask 133"), "Davids minimal medium", "Ecoli_K12")
 
 #####################################
 # multiple selective pressures
@@ -71,11 +81,12 @@ multiple_wide("Sandberg2016", "Davids minimal medium", "Ecoli_K12", c("Flask 23"
 
 ### Hong2014
 ## filter out unwanted mutations
-Hong2014 <-read_csv(here("data_in", "Hong2014.csv"))
+Hong2014 <-read_csv(here("data_in", "raw", "Hong2014_raw.csv"))
 Hong2014 <-Hong2014 %>% 
   filter( type != 'DIP', type !='WCA', type != 'IND', type != 'AMP')
+write_csv(Hong2014, here("data_in", "Hong2014.csv"))
 
-multipressure_c_hyper("Hong2014",c("Ammonium", "Arginine", "Urea", "Allantoin"), "Sac", c("Ammonium", "Arginine", "Urea", "Allantoin"))
+multiple_long("Hong2014", c("Ammonium", "Arginine", "Urea", "Allantoin"), "Sac", c("Ammonium", "Arginine", "Urea", "Allantoin"))
 
 ### Jersion2017
 #for this data set there were multiple different ways to run an analysis and so each of the following code chunks will results in a different anlysis.
@@ -99,7 +110,7 @@ Jerison2017<-Jerison2017 %>%
   filter(Gene != "Intergenic")
 Founder <- unique(data$Founder)
 
-multipressure_c_hyper("Jersion2017",c("OT", "HT"),"Sac",c("OT", "HT"))
+multiple_long("Jersion2017",c("OT", "HT"),"Sac",c("OT", "HT"))
 
 ### Payen2016
 #There are a few ways to run this analysis
@@ -123,7 +134,8 @@ Payen2016 <- Payen2016 %>%
             filter(frequency != "clone")%>% 
             drop_na(frequency) 
 
-multipressure_c_hyper("Payen2016",c("phosphate", "sulfate", "glucose"), "Sac", c("phosphate", "sulfate", "glucose"))
+multiple_long("Payen2016",c("phosphate", "sulfate", "glucose"), "Sac", c("phosphate", "sulfate", "glucose"))
+
 ##############################
 # Single Generation Matrix
 #############################
@@ -208,3 +220,5 @@ singlegen_c_hyper("McCloskey2018", "M9 minimal medium", "Ecoli_K12")
 
 #or just run as one function,each being an individiual population
 singlegen_c_hyper("McCloskey2018", "M9 minimal medium", "Ecoli_K12")
+
+### ADD HERRON 2013
