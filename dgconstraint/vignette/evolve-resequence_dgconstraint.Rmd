@@ -17,17 +17,17 @@ The `dgconstraint` package provides functions for calculating the constraint met
   + Once you have found useful data it needs to be saved in .csv format. We recommend naming files `AuthorYear` but any file name without spaces or special characters is fine. 
   + You have `data_in` and `data_out` folders in your working directory: `data-in` will contain the data to analyze (i.e., the .csv files), analysis will be written to the `data-out` folder
   + Decide which function to use with your data:
-    + `single_wide`: sequencing data was obtained from a single generation. Mutation presence/absence is in a separate column for each population. Population information is located in the column header.
-    + `single_long`: sequencing data was obtained from a single generation. Mutation presence/absence is in a single column. Population information is indicated in a single, separate column.
-    + `multiple_wide`: sequencing data was obtained from multiple generations or treatments (indicated in the columnn headers). Mutation presence/absence is in a separate column for each. Population information is located in a single, separate column.
-    + `multiple_long`: sequencing data was obtained from multiple generations or treatments. Mutation presence/absence is in a single column. Generation/treatment is indicated in a single column. Population information is located in a single column.
+    + `single_wide`: sequencing data was obtained from a single generation. Mutation presence/absence is in a separate column for each population. population information is located in the column header.
+    + `single_long`: sequencing data was obtained from a single generation. Mutation presence/absence is in a single column. population information is indicated in a single, separate column.
+    + `multiple_wide`: sequencing data was obtained from multiple generations or treatments (indicated in the columnn headers). Mutation presence/absence is in a separate column for each. population information is located in a single, separate column.
+    + `multiple_long`: sequencing data was obtained from multiple generations or treatments. Mutation presence/absence is in a single column. generation/treatment is indicated in a single column. population information is located in a single column.
   
 
 # Step 2: Organizing the data
 
 Not all of the data that you will come across will fit the function requirements. Most of the time the format that a dataset has been published in will need to be manipulated at least a little bit to make the functions work.
 
-### All datasets, regardless of which function you will use, require a column labelled **Gene**. 
+### All datasets, regardless of which function you will use, require a column labelled **gene**. 
 Some datasets record mutations at this level, while others record the specific mutation within a gene. The functiotns will automatically collapse all mutations within a gene for purpose of this analysis. 
 
 ### We only consider genic mutations
@@ -59,7 +59,7 @@ knitr::include_graphics("figures/Wannier_1.png")
 Manipulated dataset:
 
 Example 2:  
-Here the column names contain a lot of information, including the population (e.g., A1), the generation (e.g., 500), clones (e.g., I1) and the number of replicates (e.g., R1). To get the data in the required form for the `multiple_wide` function, we need (1) a *Population* column, (2) to combine the clones within each population, (3) to change the column names to the different generations. From [*Tenaillon et al., 2016*](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4988878/)
+Here the column names contain a lot of information, including the population (e.g., A1), the generation (e.g., 500), clones (e.g., I1) and the number of replicates (e.g., R1). To get the data in the required form for the `multiple_wide` function, we need (1) a *population* column, (2) to combine the clones within each population, (3) to change the column names to the different generations. From [*Tenaillon et al., 2016*](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4988878/)
 
 ```{r, echo=FALSE, out.width = '75%', fig.pos = "H", fig.align="center"}
 knitr::include_graphics("figures/Tenaillon_1.png")
@@ -87,7 +87,7 @@ The first step is to replace all of the NA's with 0s then use transmute to add t
 #```{r, eval=FALSE}
 data_m <- data %>% 
   replace(is.na(.), 0) %>% 
-  transmute(Gene= data$Gene, Details = data$Details, A1= `A1 F1 I1 R1`+ `A1 F1 I2 R1`, A2 = `A2 F1 I1 R1`+ `A2 F1 I2 R1`, A3 = `A3 F1 I1 R1`+ `A3 F1 I2 R1`, A4 = `A4 F1 I1 R1`+ `A4 F1 I2 R1`, A5 = `A5 F1 I1 R1`+ `A5 F1 I2 R1`, A6 = `A6 F1 I1 R1`+ `A6 F1 I2 R1`, A7 = `A7 F1 I1 R1`+ `A7 F1 I2 R1`, A8 = `A8 F1 I1 R1`+ `A8 F1 I2 R1`, A9 = `A9 F1 I1 R1`+ `A9 F1 I2 R1`, A10 = `A10 F1 I1 R1`+ `A10 F1 I2 R1`,A11 = `A1 F1 I1 R1`+ `A11 F1 I2 R1`, A12 = `A12 F1 I1 R1`+ `A12 F1 I2 R1`, A13 = `A13 F1 I1 R1`+ `A13 F1 I2 R1`, A14 = `A14 F1 I1 R1`+ `A14 F1 I2 R1`) %>% 
+  transmute(gene= data$gene, Details = data$Details, A1= `A1 F1 I1 R1`+ `A1 F1 I2 R1`, A2 = `A2 F1 I1 R1`+ `A2 F1 I2 R1`, A3 = `A3 F1 I1 R1`+ `A3 F1 I2 R1`, A4 = `A4 F1 I1 R1`+ `A4 F1 I2 R1`, A5 = `A5 F1 I1 R1`+ `A5 F1 I2 R1`, A6 = `A6 F1 I1 R1`+ `A6 F1 I2 R1`, A7 = `A7 F1 I1 R1`+ `A7 F1 I2 R1`, A8 = `A8 F1 I1 R1`+ `A8 F1 I2 R1`, A9 = `A9 F1 I1 R1`+ `A9 F1 I2 R1`, A10 = `A10 F1 I1 R1`+ `A10 F1 I2 R1`,A11 = `A1 F1 I1 R1`+ `A11 F1 I2 R1`, A12 = `A12 F1 I1 R1`+ `A12 F1 I2 R1`, A13 = `A13 F1 I1 R1`+ `A13 F1 I2 R1`, A14 = `A14 F1 I1 R1`+ `A14 F1 I2 R1`) %>% 
   filter(Details != "intergenic") 
 #```
 
@@ -110,7 +110,7 @@ data.matrix <- as.matrix(data[, population])
 data.matrix[data.matrix > 0]<-1
 
 # add back the gene information as a column in the dataframe that will be used to run the constraint function
-AuthorYear <- cbind(as.data.frame(data.matrix), Gene = data$Gene)
+AuthorYear <- cbind(as.data.frame(data.matrix), gene = data$gene)
 #```
 
 And the dataset now looks like this:  
@@ -121,9 +121,9 @@ knitr::include_graphics("figures/Wannier_3.png")
 
 Example 2:  
 Another example of setting up the data for analysis:  
-We can see that the column names give us a lot of information, the population(i.e A1), the generation(i.e 500), clones(i.e I1 and I2) and the number of replicates(i,e R1). To get the data to look like the form in the multiple generation function, we need a *Population* column, to combine the clones, and to change the column names to what we want the generations to be.    
+We can see that the column names give us a lot of information, the population(i.e A1), the generation(i.e 500), clones(i.e I1 and I2) and the number of replicates(i,e R1). To get the data to look like the form in the multiple generation function, we need a *population* column, to combine the clones, and to change the column names to what we want the generations to be.    
 
-First I made a new column and called it *Population* and added the proper population to the data. In this case we have 6 populations, and so we will have A1 to A6.    
+First I made a new column and called it *population* and added the proper population to the data. In this case we have 6 populations, and so we will have A1 to A6.    
 i.e .,
 #```{r, echo=FALSE, out.width = '75%', fig.pos = "H", fig.align="center"}
 knitr::include_graphics("figures/Tenaillon_1.png")
@@ -134,7 +134,7 @@ knitr::include_graphics("figures/Tenaillon_2.png")
 And now I have to combine both clones into one column and name that column `500`, for the 500th generation and change the NA's to 0.  
 
 #```{r, echo=FALSE}
-print("data <- data %>% transmute(Gene = data$Gene, Population = data$Population, Details = data$Details, `500` = `500 I1 R1`+`500 I2 R1`, `1000` = `1000 I1 R1`+`1000 I2 R1`, `1500` =`1500 I1 R1`+`1500 I2 R1`, `2000` = `2000 I1 R1`+`2000 I2 R1`, `5000` = `5000 I1 R1`+`5000 I2 R1`, `10000` = `10000 I1 R1`+`10000 I2 R1`, `15000` = `15000 I1 R1`+`15000 I2 R1`, `20000` = `20000 I1 R1`+`20000 I2 R1`, `30000` = `30000 I1 R1`+`30000 I2 R1`, `40000` = `40000 I1 R1`+`40000 I2 R1`, `50000` = `50000 I1 R1`+`50000 I2 R1`) %>% replace(is.na(.), 0)")
+print("data <- data %>% transmute(gene = data$gene, population = data$population, Details = data$Details, `500` = `500 I1 R1`+`500 I2 R1`, `1000` = `1000 I1 R1`+`1000 I2 R1`, `1500` =`1500 I1 R1`+`1500 I2 R1`, `2000` = `2000 I1 R1`+`2000 I2 R1`, `5000` = `5000 I1 R1`+`5000 I2 R1`, `10000` = `10000 I1 R1`+`10000 I2 R1`, `15000` = `15000 I1 R1`+`15000 I2 R1`, `20000` = `20000 I1 R1`+`20000 I2 R1`, `30000` = `30000 I1 R1`+`30000 I2 R1`, `40000` = `40000 I1 R1`+`40000 I2 R1`, `50000` = `50000 I1 R1`+`50000 I2 R1`) %>% replace(is.na(.), 0)")
 #```
 
 In this case it doesn't matter if the gene count in each column if off due to adding the columns together because we have a code in the function that changes any value greater then 0 to a 1. Ans so now the dataset will look like this:  
@@ -149,7 +149,7 @@ knitr::include_graphics("figures/Tenaillon_3.png")
 This is a wrapper function to calculate the pairwise C-score using the hypergeometric approach `c_hyper()`, a p-value for 'all lineages' contrast using chi-square `p_chisq()`, and an estimate of the effective proportion of adaptive loci `estimate()` for a data set.
 
 ### Data  
-The dataset should be a wide datset with a column for *Gene* and separate columns for each population. This data represents only one generation, typically the experimental end point.
+The dataset should be a wide datset with a column for *gene* and separate columns for each population. This data represents only one generation, typically the experimental end point.
 
 e.g.,:
 ```{r, echo=FALSE, out.width = '75%', fig.pos = "H", fig.align="center"}
@@ -176,7 +176,7 @@ knitr::include_graphics("figures/Sandberg_3.png")
 This is a wrapper function to calculate the pairwise C-score using the hypergeometric approach `c_hyper()`, a p-value for 'all lineages' contrast using chi-square `p_chisq()`, and an estimate of the effective proportion of adaptive loci `estimate()` for a data set.
 
 ### Data  
-The dataset should be a long dataset with a column for *Gene* a single column specifying the *Population* and column that indicates mutation presence or absence (*Frequency*).
+The dataset should be a long dataset with a column for *gene* a single column specifying the *population* and column that indicates mutation presence or absence (*frequency*).
 
 e.g., For the paper by [*McCloskey et al., 2018*](https://www-nature-com.uml.idm.oclc.org/articles/s41467-018-06219-9)
 
@@ -203,7 +203,7 @@ knitr::include_graphics("figures/McCloskey_2.png")
 This is a wrapper function to calculate the pairwise C-score using the hypergeometric approach `c_hyper()`, a p-value for 'all lineages' contrast using chi-square `p_chisq()`, and an estimate of the effective proportion of adaptive loci `estimate()` for a data set that contains multiple generations or treatments in separate columnns.
 
 ### Data  
-The dataset should contain with the columns *Gene* and *Population*. Additional columns that specify the multiple generations or treatments indicates mutation presence or absence.
+The dataset should contain with the columns *gene* and *population*. Additional columns that specify the multiple generations or treatments indicates mutation presence or absence.
 
 e.g., For the paper by [*Lang et al., 2013*](https://www-nature-com.uml.idm.oclc.org/articles/nature12344)
 ```{r, echo=FALSE, out.width = '75%', fig.pos = "H", fig.align="center"}
@@ -231,13 +231,13 @@ knitr::include_graphics("figures/Lang_2.png")
 This is a wrapper function to calculate the pairwise C-score using the hypergeometric approach `c_hyper()`, a p-value for 'all lineages' contrast using chi-square `p_chisq()`, and an estimate of the effective proportion of adaptive loci `estimate()` for a data set that contains multiple generations or treatments recorded in a single columnn.
 
 ### Data  
-The dataset should contain the columns *Gene*, *Population*, *Frequency* and *Selective_pressure*.
+The dataset should contain the columns *gene*, *population*, *frequency* and *Selective_pressure*.
 
 e.g., For the paper by [*Jerison et al., 2017*](https://elifesciences.org/articles/27167)
 ```{r, echo=FALSE, out.width = '75%', fig.pos = "H", fig.align="center"}
 knitr::include_graphics("figures/Jerison_1.png")
 ```
-Here we can see that the selective pressures are OT (Optimal Temperature) and HT (High Temperature). Gene *AFI1* has a frequency of 0.6666667 in the population LK5-F08 with the Selective_pressure HT.  
+Here we can see that the selective pressures are OT (Optimal Temperature) and HT (High Temperature). gene *AFI1* has a frequency of 0.6666667 in the population LK5-F08 with the Selective_pressure HT.  
 
 Example useage:
 
@@ -280,5 +280,5 @@ If you come across an error while running your function:
 
 * Make sure you picked the right function for your data. 
 * Double check that all the parameters are set properly and that they match the information in your dataset.      
-* Make sure the column names are correct, it is easy to forget to change a column name gene to the needed one *Gene*. The code is ran in a way that it will recognize *Gene* and not gene. Same goes for *Population*, *Frequency* and *Selective_pressure*.    
+* Make sure the column names are correct, it is easy to forget to change a column name gene to the needed one *gene*. The code is ran in a way that it will recognize *gene* and not gene. Same goes for *population*, *frequency* and *Selective_pressure*.    
 * Lastly, if there is an error when it tries to calculate the c-hyper, that could occur if there is no parallelism in a given generation or selective pressure. When in doubt, take a look at the original data to see if this is the case.

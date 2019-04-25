@@ -11,19 +11,19 @@
 #' @examples 
 #'multiple_wide("Author2018","YPD", "Sac", c("HighTemp", "LowTemp", "OptimalTemp"))
 #'
-multiple_wide <- function(paper, selective_pressure, environment, species  = NA){
+multiple_long <- function(paper, selective_pressure, environment, species  = NA){
 
-geneNumbers <- read_csv(file.path(getwd(),"dgconstraint/inst/GeneDatabase.csv"), col_types = cols())
+geneNumbers <- read_csv(file.path(getwd(),"dgconstraint/inst/geneDatabase.csv"), col_types = cols())
 
 data <- read_csv(file.path(getwd(), "data_in", paste0(paper, ".csv")), col_types = cols())
 
 if (species %in% geneNumbers$Species){
-  numGenes <- filter(geneNumbers, Species == species)$NumGenes  
+  numgenes <- filter(geneNumbers, Species == species)$Numgenes  
 }
 
-if(is.na(numGenes)){
+if(is.na(numgenes)){
   prompt <- "Your species is unspecified or not in our database. How many genes does it have? \n"
-  numGenes <- as.numeric(readline(prompt))
+  numgenes <- as.numeric(readline(prompt))
 }
   
 numLineages <- c()
@@ -35,28 +35,28 @@ p_chisq <- c()
 estimate <- c()
 
 data.1 <- data %>% 
-  arrange(Gene) %>%
-  drop_na(Gene) %>%
-  drop_na(Population) %>%
-  select(Selective_pressure,Population, Gene, Frequency)
+  arrange(gene) %>%
+  drop_na(gene) %>%
+  drop_na(population) %>%
+  select(selective_pressure,population, gene, frequency)
 
 cat("Evaluating constraint in ")
 for(j in selective_pressure) {
   cat("  ")
   cat(j)
   data.j <- data.1 %>% 
-    filter(Selective_pressure == j)
+    filter(selective_pressure == j)
   
-  num_genes <- length((unique(data.j$Gene)))
-  num_lineages <- length(unique(data.j$Population))
-  data.array <- array(0, dim =c(num_genes, num_lineages), dimnames = list(unique(data.j$Gene), unique(data.j$Population)))
+  num_genes <- length((unique(data.j$gene)))
+  num_lineages <- length(unique(data.j$population))
+  data.array <- array(0, dim =c(num_genes, num_lineages), dimnames = list(unique(data.j$gene), unique(data.j$population)))
   
   for(i in 1:num_lineages) {
-    sub <- subset(data.j, data.j$Population == unique(data.j$Population)[i])
-    sub2 <- subset(sub, Frequency > 0)
-    geneRows <- which(row.names(data.array) %in% sub2$Gene)
+    sub <- subset(data.j, data.j$population == unique(data.j$population)[i])
+    sub2 <- subset(sub, frequency > 0)
+    geneRows <- which(row.names(data.array) %in% sub2$gene)
     data.array[geneRows, i] <- 1
-    num_parallel <- data.frame(data.array, Count=rowSums(data.array, na.rm = FALSE, dims = 1), Genes = row.names(data.array))
+    num_parallel <- data.frame(data.array, Count=rowSums(data.array, na.rm = FALSE, dims = 1), genes = row.names(data.array))
   }
   
   genes_parallel <- num_parallel %>% 
@@ -72,10 +72,10 @@ for(j in selective_pressure) {
   
   num_parallel_genes <- append(num_parallel_genes, num_parallel_genes_j)
   num_non_parallel_genes <- append(num_non_parallel_genes, num_non_parallel_genes_j)
-  parallel_genes <- append(parallel_genes, paste0(genes_parallel$Genes, collapse=", ")) 
+  parallel_genes <- append(parallel_genes, paste0(genes_parallel$genes, collapse=", ")) 
   
   
-  full_matrix <- rbind(data.array, array(0,c(numGenes-total_genes,ncol(data.array))))
+  full_matrix <- rbind(data.array, array(0,c(numgenes-total_genes,ncol(data.array))))
   
   newdir <- file.path(getwd(), "data_out")
   if (!file.exists(newdir)){
@@ -93,7 +93,7 @@ for(j in selective_pressure) {
   c_hyper[c_hyper <= 0] <- 0
   c_hyper[c_hyper == "NaN"] <- 0
 }
-  df <- tibble( paper = paper, environment = environment, Selective_pressure = Selective_pressure, c_hyper = round(c_hyper, 3), p_chisq, estimate = round(estimate, 3) ,N_genes.notParallel= num_non_parallel_genes, N_genes.parallel=num_parallel_genes, parallel_genes)
+  df <- tibble( paper = paper, environment = environment, selective_pressure = selective_pressure, c_hyper = round(c_hyper, 3), p_chisq, estimate = round(estimate, 3) ,N_genes.notParallel= num_non_parallel_genes, N_genes.parallel=num_parallel_genes, parallel_genes)
   
   filename2 <- file.path(getwd(), "data_out", paste(paper, "_Analysis.csv", sep=""))
   write.csv(df, file=filename2, row.names=FALSE)
