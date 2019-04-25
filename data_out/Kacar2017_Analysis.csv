@@ -1,5 +1,0 @@
-"paper","environment","generations","c_hyper","p_chisq","estimate","N_genes.notParallel","N_genes.parallel","parallel_genes"
-"Kacar2017","Minimal glucose medium","g500",11.526,0.005,0.004,7,3,"fadA , mreB*, thrT/tuf"
-"Kacar2017","Minimal glucose medium","g1000",9.482,0.005,0.005,9,5,"fadA , ftsZ, mrdA, mreB*, thrT/tuf"
-"Kacar2017","Minimal glucose medium","g1500",26.537,0.005,0.004,6,9,"accC, fadA , ftsZ, iclR, kdpD, mrdA, mreB*, pykF, thrT/tuf"
-"Kacar2017","Minimal glucose medium","g2000",31.207,0.005,0.004,6,9,"accC, fadA , ftsZ, iclR, kdpD, mrdA, mreB*, pykF, thrT/tuf"
