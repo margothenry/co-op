@@ -1,0 +1,4 @@
+"paper","environment","generations","c_hyper","p_chisq","estimate","N_genes.notParallel","N_genes.parallel","parallel_genes"
+"Wielgoss2016_nonMucoid","lysogeny broth","0",6.182,0.005,0.027,25,2,"nudE ← / → yrfF, yrfF →"
+"Wielgoss2016_nonMucoid","lysogeny broth","2",8.452,0.005,0.016,23,4,"rcsB →, rcsC ←, rcsD →, yrfF →"
+"Wielgoss2016_nonMucoid","lysogeny broth","10",5.853,0.005,0.035,36,3,"fimE →, rcsC ←, yrfF →"

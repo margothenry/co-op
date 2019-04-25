@@ -1,0 +1,33 @@
+paper,environment,Founder,c_hyper,p_chisq,estimate,N_genes.notParallel,N_genes.parallel,parallel_genes
+Jersion2017,Synthetic-OT-Optimal temperature,A03,0,0.005,1,5,0,
+Jersion2017,Synthetic-OT-Optimal temperature,A06,15.621,0.005,0.002,4,2,"BUD23, ENP2"
+Jersion2017,Synthetic-OT-Optimal temperature,A07,27.072,0.005,0.002,5,1,IRA2
+Jersion2017,Synthetic-OT-Optimal temperature,A10,11.035,0.005,0.002,5,2,"ENP2, KRE33"
+Jersion2017,Synthetic-OT-Optimal temperature,A11,0,0.005,1,13,0,
+Jersion2017,Synthetic-OT-Optimal temperature,A12,0,0.005,1,6,0,
+Jersion2017,Synthetic-OT-Optimal temperature,B04,0,0.005,1,5,0,
+Jersion2017,Synthetic-OT-Optimal temperature,B05,0,0.005,1,2,0,
+Jersion2017,Synthetic-OT-Optimal temperature,C05,81.259,0.005,0,0,1,KRE33
+Jersion2017,Synthetic-OT-Optimal temperature,C06,0,0.785,0.236,1,0,
+Jersion2017,Synthetic-OT-Optimal temperature,C08,0,0.005,1,3,0,
+Jersion2017,Synthetic-OT-Optimal temperature,C09,0,0.005,1,6,0,
+Jersion2017,Synthetic-OT-Optimal temperature,D03,0,0.755,0.236,1,0,
+Jersion2017,Synthetic-OT-Optimal temperature,D04,0,0.005,1,2,0,
+Jersion2017,Synthetic-OT-Optimal temperature,D05,0,1,1,11,0,
+Jersion2017,Synthetic-OT-Optimal temperature,D07,0,1,1,11,0,
+Jersion2017,Synthetic-OT-Optimal temperature,D09,15.62,0.005,0.002,4,1,KRE33
+Jersion2017,Synthetic-OT-Optimal temperature,E07,0,0.005,1,2,0,
+Jersion2017,Synthetic-OT-Optimal temperature,E08,0,0.92,1,8,0,
+Jersion2017,Synthetic-OT-Optimal temperature,F05,13.53,0.005,0.001,3,1,BMS1
+Jersion2017,Synthetic-OT-Optimal temperature,F07,0,0.005,1,3,0,
+Jersion2017,Synthetic-OT-Optimal temperature,F08,3.883,0.005,0.005,8,1,IRA1
+Jersion2017,Synthetic-OT-Optimal temperature,F10,0,0.005,1,6,0,
+Jersion2017,Synthetic-OT-Optimal temperature,G01,3.46,0.005,0.009,11,1,ENP2
+Jersion2017,Synthetic-OT-Optimal temperature,G03,0,0.915,1,8,0,
+Jersion2017,Synthetic-OT-Optimal temperature,G09,5.508,0.015,0.003,6,1,IRA1
+Jersion2017,Synthetic-OT-Optimal temperature,G11,0,0.005,1,5,0,
+Jersion2017,Synthetic-OT-Optimal temperature,H02,0,0.005,1,2,0,
+Jersion2017,Synthetic-OT-Optimal temperature,H04,0,0.005,1,6,0,
+Jersion2017,Synthetic-OT-Optimal temperature,H07,5.498,0.005,0.007,9,1,IRA1
+Jersion2017,Synthetic-OT-Optimal temperature,H08,0,0.74,0.236,1,0,
+Jersion2017,Synthetic-OT-Optimal temperature,H12,0,0.01,1,4,0,
