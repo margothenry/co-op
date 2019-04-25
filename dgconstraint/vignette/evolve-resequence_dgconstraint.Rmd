@@ -52,7 +52,7 @@ The goal of this analysis is to examine parallelism among populations. Although 
 
 Example1: This dataset sequenced multiple clones from the same population (e.g., *A1 F1 I1 R1* and *A1 F1 I2 R1*). From [*Wannier et al., 2018*](https://www-pnas-org.uml.idm.oclc.org/content/115/12/3090.short)
 
-```{r, echo=FALSE, out.width = '75%', fig.pos = "H", fig.align="center"}
+```{r, echo=FALSE, out.width = '100%', fig.pos = "H", fig.align="center"}
 knitr::include_graphics("figures/Wannier_1.png")
 ```
 
@@ -168,7 +168,7 @@ The function will give you the results in a table containing the paper name, the
 
 e.g., For the paper by [*Sanderg et al., 2014*](https://academic.oup.com/mbe/article/31/10/2647/1011712)
 
-```{r, echo=FALSE, out.width = '75%', fig.pos = "H", fig.align="center"}
+```{r, echo=FALSE, out.width = '125%', fig.pos = "H", fig.align="center"}
 knitr::include_graphics("figures/Sandberg_3.png")
 ```
 
@@ -195,7 +195,7 @@ single_long("McCloskey2018", "Ecoli_K12", "YPD")
 The function will give you the results in a table containing the paper name, the environment, c-hyper, the p-value (in practice this isn't typically very informative), the estimate, the number of non-parallel genes, the number of parallel genes, and a list of the parallel genes.  
 
 i.e:
-```{r, echo=FALSE, out.width = '75%', fig.pos = "H", fig.align="center"}
+```{r, echo=FALSE, out.width = '125%', fig.pos = "H", fig.align="center"}
 knitr::include_graphics("figures/McCloskey_2.png")
 ```
 
@@ -223,7 +223,7 @@ multiple_wide("Lang2013", "YPD", "Sac", c("0", "140", "240", "335", "415", "505"
 The function will give you the results in a multi-row table containing the paper name, the environment, the generations, c-hyper, the p-value (in practice this isn’t typically very informative), the estimate, the number of non-parallel genes, the number of parallel genes, and a list of the parallel genes.
 
 e.g.,
-```{r, echo=FALSE, out.width = '75%', fig.pos = "H", fig.align="center"}
+```{r, echo=FALSE, out.width = '100%', fig.pos = "H", fig.align="center"}
 knitr::include_graphics("figures/Lang_2.png")
 ```
 
@@ -249,7 +249,7 @@ multiple_long("Jerison2017", "YPD", "Ecoli_K12", c("OT", "HT"))
 The function will give you the results in a multi-row table containing the paper name, the environment, the selective pressure (or generations), c-hyper, the p-value (in practice this isn’t typically very informative), the estimate, the number of non-parallel genes, the number of parallel genes, and a list of the parallel genes.
 
 i.e:
-```{r, echo=FALSE, out.width = '75%', fig.pos = "H", fig.align="center"}
+```{r, echo=FALSE, out.width = '125%', fig.pos = "H", fig.align="center"}
 knitr::include_graphics("figures/Jerison_2.png")
 ```
 
