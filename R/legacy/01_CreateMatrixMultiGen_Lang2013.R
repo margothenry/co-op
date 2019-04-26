@@ -3,9 +3,9 @@ library(tidyverse)
 library(devtools)
 library(dgconstraint)
 library(ggplot2)
-geneNumbers <- read_csv("~/Desktop/Co-op/data-in/GeneDatabase.csv")
+geneNumbers <- read_csv("~/Desktop/Co-op/data_in/GeneDatabase.csv")
 #Read in the data
-Lang2014 <- read_csv("~/Desktop/Co-op/data-in/Lang2014Nature.csv")
+Lang2014 <- read_csv("~/Desktop/Co-op/data_in/Lang2013.csv")
 generations <- c("0","140","240","335",'415','505','585','665','745','825','910','1000')
 paper <- "Lang2014"
 numGenes <- filter(geneNumbers, Species == "Sac")$NumGenes
@@ -78,7 +78,7 @@ for (g in generations){
   full_matrix <- rbind(data, array(0,c(numGenes-total_genes,ncol(data)))) 
   
   
-  write_csv(Lang2014.g, path = paste0("data-out/Lang_", g, ".csv"))
+  write_csv(Lang2014.g, path = paste0("data_out/Lang_", g, ".csv"))
   
   #run dgconstraint
   c_hyper <- append(c_hyper, pairwise_c_hyper(full_matrix))
@@ -87,7 +87,7 @@ for (g in generations){
 }
 
 Lang2014_df <- tibble(paper ="Lang2014", environment= "YPD", as.numeric(generations), c_hyper, p_chisq, estimate, N.Populations=numLineages,N_genes.notParallel= num_non_parallel_genes, N_genes.parallel=num_parallel_genes, parallel_genes)
-write_csv(Lang2014_df, path = paste0("data-out/", paper, "_Analysis.csv"))
+write_csv(Lang2014_df, path = paste0("data_out/", paper, "_Analysis.csv"))
 
 #plot the c_hyper by the number of generations 
 #plot the number of parallel genes and the number of non-parallel genes on the same plot by the number of generations
@@ -108,7 +108,7 @@ Lang2014_graph2 <- ggplot(Data, aes(x=Generations , y = Number_Genes , colour= G
 
 theme_set(theme_classic())
 
-setwd("/Users/Margot/Desktop/Co-op/data-out/")
+setwd("/Users/Margot/Desktop/Co-op/data_out/")
 png("Lang2014_graph.1.png",height=10, width = 10, units="in", res=300)
 Lang2014_graph.1
 dev.off()

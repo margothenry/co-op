@@ -28,17 +28,17 @@ write_csv(Tenaillon2016, "data_in/Tenaillon2016.csv")
 
 multiple_wide("Tenaillon2016", c("g500", "g1000", "g1500", "g2000", 'g5000', 'g10000', 'g20000', 'g30000', 'g40000','g50000'), "David minimal medium", "Ecoli_K12")
 
-### Lang2014
+### Lang2013
 #filter out intergenics before running the code
-Lang2014 <-read_csv(here("data_in", "raw", "Lang2014_raw.csv"))
+Lang2013 <-read_csv(here("data_in", "raw", "Lang2013_raw.csv"))
 
-Lang2014 <- Lang2014 %>%
+Lang2013 <- Lang2013 %>%
   filter(Gene != "Intergenic") %>% 
   rename(gene = Gene, population = Population)
 
-write_csv(Lang2014, here("data_in", "Lang2014.csv"))
+write_csv(Lang2013, here("data_in", "Lang2014.csv"))
 
-multiple_wide("Lang2014",c("0","140","240","335",'415','505','585','665','745','825','910','1000'),"YPD", "Sac")
+multiple_wide("Lang2013",c("0","140","240","335",'415','505','585','665','745','825','910','1000'),"YPD", "Sac")
 
 ### Sherlock2013
 multiple_wide("Sherlock2013",c("7","70", "133","196","266", "322","385","448"), "YPD","Sac")
