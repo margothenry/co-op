@@ -1,4 +1,4 @@
-Population,Frequency,Gene,mutation_annotations,mutation_position,mutation,mutation_locations,mutation_chromosome
+population,frequency,gene,mutation_annotations,mutation_position,mutation,mutation_locations,mutation_chromosome
 Evo04gndEvo01EP,0.125,chbB;osmE,N;N'-diacetylchitobiose-specific enzyme IIB component of PTS;DNA-binding transcriptional activator,1819659,SNP,intergenic;intergenic,1
 Evo04gndEvo01EP,0.125,chbB;osmE,N;N'-diacetylchitobiose-specific enzyme IIB component of PTS;DNA-binding transcriptional activator,1819662,SNP,intergenic;intergenic,1
 Evo04gndEvo01EP,0.105,chbB;osmE,N;N'-diacetylchitobiose-specific enzyme IIB component of PTS;DNA-binding transcriptional activator,1819666,SNP,intergenic;intergenic,1
@@ -17,7 +17,6 @@ Evo04gndEvo02EP,1,insH1,IS5 transposase and trans-activator,2064489,SNP,coding,1
 Evo04gndEvo03EP,1,insH1,IS5 transposase and trans-activator,2064489,SNP,coding,1
 Evo04gndEvo01EP,0.113,insL1;entD,IS186 transposase;phosphopantetheinyltransferase component of enterobactin synthase multienzyme complex,608575,SNP,intergenic;intergenic,1
 Evo04gndEvo01EP,0.126,insL1;entD,IS186 transposase;phosphopantetheinyltransferase component of enterobactin synthase multienzyme complex,608577,SNP,intergenic;intergenic,1
-Evo04gndEvo01EP,0.106,ispE,4-diphosphocytidyl-2-C-methylerythritol kinase,1261113,SNP,intergenic,1
 Evo04gndEvo01EP,1,pntA;ydgH,pyridine nucleotide transhydrogenase; alpha subunit;hypothetical protein,1675937,SNP,intergenic;intergenic,1
 Evo04gndEvo02EP,0.637,pntA;ydgH,pyridine nucleotide transhydrogenase; alpha subunit;hypothetical protein,1675937,SNP,intergenic;intergenic,1
 Evo04gndEvo03EP,1,pntA;ydgH,pyridine nucleotide transhydrogenase; alpha subunit;hypothetical protein,1676048,SNP,intergenic;intergenic,1
@@ -25,7 +24,6 @@ Evo04gndEvo02EP,0.158,relA,(p)ppGpp synthetase I/GTP pyrophosphokinase,2910658,S
 Evo04gndEvo02EP,0.257,rpsA,30S ribosomal subunit protein S1,962205,SNP,coding,1
 Evo04gndEvo03EP,0.123,rsxC,electron transport complex protein required for the reduction of SoxR; predicted membrane-associated NADH oxidoreductase,1706954,SNP,coding,1
 Evo04gndEvo03EP,0.101,rsxC,electron transport complex protein required for the reduction of SoxR; predicted membrane-associated NADH oxidoreductase,1706982,SNP,coding,1
-Evo04gndEvo02EP,0.107,rttR,NA,1286260,SNP,intergenic,1
 Evo04gndEvo02EP,0.324,sulA;sxy,SOS cell division inhibitor;required for expression of CRP-S-dependent promoters,1020179,SNP,intergenic;intergenic,1
 Evo04gndEvo01EP,0.138,ybeR,hypothetical protein,675950,DEL,coding,1
 Evo04gndEvo01EP,0.105,ycdU;serX,putative inner membrane protein,1096381,SNP,intergenic;intergenic,1

@@ -10,7 +10,7 @@ source("dgconstraint/functions/single_long.R")
 
 
 ############################
-#multiple generations
+#multiple wide
 ############################
 
 ### Tenaillon2016
@@ -89,7 +89,7 @@ multiple_wide("Sandberg2016", c("Flask 23", "Flask 58", "Flask 133"), "Davids mi
 
 
 #####################################
-# multiple selective pressures
+# multiple long
 ####################################
 
 ### Hong2014
@@ -165,7 +165,7 @@ multiple_long("Payen2016_hap",c("phosphate", "sulfate", "glucose"),  c("phosphat
 multiple_long("Payen2016_dip",c("phosphate", "sulfate", "glucose"),  c("phosphate", "sulfate", "glucose"), "Sac")
 
 ##############################
-# Single Generation Matrix
+# Single wide
 #############################
 
 ### Wannier2018
@@ -213,7 +213,7 @@ write_csv(Creamer2016, here("data_in", "Creamer2016.csv"))
 single_wide( "Creamer2016",c("K0001","K0011","K0002","K0003","K0014","K0015","KB026","K0022","K0023","K0006","K0007","K0010", "K0020","K0019","K0031","K0030"), "LBK medium","Ecoli_K12")
 
 ################################
-#Single Generation NonMatrix
+#Single Wide
 ################################
 
 ### Deatherage2017
@@ -233,42 +233,61 @@ McCloskey2018 <-read_csv(here("data_in", "raw", "McCloskey2018_raw.csv"))
 
 #for gnd, filter out everything thats not gnd
 McCloskey2018_gnd<- McCloskey2018 %>% 
-  filter(Population!="Evo04pgiEvo02EP",Population!="Evo04Evo01EP",Population!="Evo04Evo02EP",Population!="Evo04pgiEvo01EP",Population!="Evo04pgiEvo03EP",Population!="Evo04pgiEvo04EP",Population!="Evo04pgiEvo05EP",Population!="Evo04pgiEvo06EP",Population!="Evo04pgiEvo07EP",Population!="Evo04pgiEvo08EP",Population!="Evo04ptsHIcrrEvo01EP",Population!="Evo04ptsHIcrrEvo02EP",Population!="Evo04ptsHIcrrEvo03EP", Population!="Evo04ptsHIcrrEvo04EP",Population!= "Evo04sdhCBEvo02EP",Population!="Evo04sdhCBEvo03EP",Population!="Evo04tpiAEvo01EP",Population!="Evo04tpiAEvo02EP",Population!="Evo04tpiAEvo04EP",Population!="Evo04tpiAEvo03EP",Population!="Evo04sdhCBEvo01EP")
+  filter(Population!="Evo04pgiEvo02EP",Population!="Evo04Evo01EP",Population!="Evo04Evo02EP",Population!="Evo04pgiEvo01EP",Population!="Evo04pgiEvo03EP",Population!="Evo04pgiEvo04EP",Population!="Evo04pgiEvo05EP",Population!="Evo04pgiEvo06EP",Population!="Evo04pgiEvo07EP",Population!="Evo04pgiEvo08EP",Population!="Evo04ptsHIcrrEvo01EP",Population!="Evo04ptsHIcrrEvo02EP",Population!="Evo04ptsHIcrrEvo03EP", Population!="Evo04ptsHIcrrEvo04EP",Population!= "Evo04sdhCBEvo02EP",Population!="Evo04sdhCBEvo03EP",Population!="Evo04tpiAEvo01EP",Population!="Evo04tpiAEvo02EP",Population!="Evo04tpiAEvo04EP",Population!="Evo04tpiAEvo03EP",Population!="Evo04sdhCBEvo01EP") %>% 
+  rename(gene =Gene, population = Population, frequency = Frequency) %>% 
+  filter(mutation_locations != "intergenic")
 
 write_csv(McCloskey2018_gnd, here("data_in", "McCloskey2018_gnd.csv"))
 single_long("McCloskey2018_gnd", "M9 minimal medium", "Ecoli_K12")
 
 #for pgi, filter out everything thats not pgi
-data<-data %>% 
-  filter(Population!="Evo04Evo01EP",Population!="Evo04Evo02EP",Population!="Evo04gndEvo01EP",Population!="Evo04gndEvo02EP",Population!="Evo04gndEvo03EP",Population!="Evo04ptsHIcrrEvo01EP",Population!="Evo04ptsHIcrrEvo02EP",Population!="Evo04ptsHIcrrEvo03EP", Population!="Evo04ptsHIcrrEvo04EP",Population!= "Evo04sdhCBEvo02EP",Population!="Evo04sdhCBEvo03EP",Population!="Evo04tpiAEvo01EP",Population!="Evo04tpiAEvo02EP",Population!="Evo04tpiAEvo04EP",Population!="Evo04tpiAEvo03EP",Population!="Evo04sdhCBEvo01EP")
+McCloskey2018_pgi<-McCloskey2018 %>% 
+  filter(Population!="Evo04Evo01EP",Population!="Evo04Evo02EP",Population!="Evo04gndEvo01EP",Population!="Evo04gndEvo02EP",Population!="Evo04gndEvo03EP",Population!="Evo04ptsHIcrrEvo01EP",Population!="Evo04ptsHIcrrEvo02EP",Population!="Evo04ptsHIcrrEvo03EP", Population!="Evo04ptsHIcrrEvo04EP",Population!= "Evo04sdhCBEvo02EP",Population!="Evo04sdhCBEvo03EP",Population!="Evo04tpiAEvo01EP",Population!="Evo04tpiAEvo02EP",Population!="Evo04tpiAEvo04EP",Population!="Evo04tpiAEvo03EP",Population!="Evo04sdhCBEvo01EP")%>%
+  rename(gene =Gene, population = Population, frequency = Frequency) %>% 
+  filter(mutation_locations != "intergenic")
 
-singlegen_c_hyper("McCloskey2018", "M9 minimal medium", "Ecoli_K12")
+write_csv(McCloskey2018_pgi, here("data_in", "McCloskey2018_pgi.csv"))
+single_long("McCloskey2018_pgi", "M9 minimal medium", "Ecoli_K12")
 
 #for ptsHIcrr, filter out everything thats not ptsHIcrr
-data<-data %>% 
-  filter(Population!="Evo04pgiEvo02EP",Population!="Evo04Evo01EP",Population!="Evo04Evo02EP",Population!="Evo04gndEvo01EP",Population!="Evo04gndEvo02EP",Population!="Evo04gndEvo03EP",Population!="Evo04pgiEvo01EP",Population!="Evo04pgiEvo03EP",Population!="Evo04pgiEvo04EP",Population!="Evo04pgiEvo05EP",Population!="Evo04pgiEvo06EP",Population!="Evo04pgiEvo07EP",Population!="Evo04pgiEvo08EP",Population!= "Evo04sdhCBEvo02EP",Population!="Evo04sdhCBEvo03EP",Population!="Evo04tpiAEvo01EP",Population!="Evo04tpiAEvo02EP",Population!="Evo04tpiAEvo04EP",Population!="Evo04tpiAEvo03EP",Population!="Evo04sdhCBEvo01EP")
+McCloskey2018_ptsHIcrr<-McCloskey2018 %>% 
+  filter(Population!="Evo04pgiEvo02EP",Population!="Evo04Evo01EP",Population!="Evo04Evo02EP",Population!="Evo04gndEvo01EP",Population!="Evo04gndEvo02EP",Population!="Evo04gndEvo03EP",Population!="Evo04pgiEvo01EP",Population!="Evo04pgiEvo03EP",Population!="Evo04pgiEvo04EP",Population!="Evo04pgiEvo05EP",Population!="Evo04pgiEvo06EP",Population!="Evo04pgiEvo07EP",Population!="Evo04pgiEvo08EP",Population!= "Evo04sdhCBEvo02EP",Population!="Evo04sdhCBEvo03EP",Population!="Evo04tpiAEvo01EP",Population!="Evo04tpiAEvo02EP",Population!="Evo04tpiAEvo04EP",Population!="Evo04tpiAEvo03EP",Population!="Evo04sdhCBEvo01EP")%>% 
+  rename(gene =Gene, population = Population, frequency = Frequency) %>% 
+  filter(mutation_locations != "intergenic")
 
-singlegen_c_hyper("McCloskey2018", "M9 minimal medium", "Ecoli_K12")
+write_csv(McCloskey2018_ptsHIcrr, here("data_in", "McCloskey2018_ptsHIcrr.csv"))
+single_long("McCloskey2018_ptsHIcrr", "M9 minimal medium", "Ecoli_K12")
 
 #for sdhCBE, filter out everything thats not sdhCBE
-data<-data %>% 
-  filter(Population!="Evo04pgiEvo02EP",Population!="Evo04Evo01EP",Population!="Evo04Evo02EP",Population!="Evo04gndEvo01EP",Population!="Evo04gndEvo02EP",Population!="Evo04gndEvo03EP",Population!="Evo04pgiEvo01EP",Population!="Evo04pgiEvo03EP",Population!="Evo04pgiEvo04EP",Population!="Evo04pgiEvo05EP",Population!="Evo04pgiEvo06EP",Population!="Evo04pgiEvo07EP",Population!="Evo04pgiEvo08EP",Population!="Evo04ptsHIcrrEvo01EP",Population!="Evo04ptsHIcrrEvo02EP",Population!="Evo04ptsHIcrrEvo03EP", Population!="Evo04ptsHIcrrEvo04EP",Population!="Evo04tpiAEvo01EP",Population!="Evo04tpiAEvo02EP",Population!="Evo04tpiAEvo04EP",Population!="Evo04tpiAEvo03EP")
+McCloskey2018_sdhCBE<-McCloskey2018 %>% 
+  filter(Population!="Evo04pgiEvo02EP",Population!="Evo04Evo01EP",Population!="Evo04Evo02EP",Population!="Evo04gndEvo01EP",Population!="Evo04gndEvo02EP",Population!="Evo04gndEvo03EP",Population!="Evo04pgiEvo01EP",Population!="Evo04pgiEvo03EP",Population!="Evo04pgiEvo04EP",Population!="Evo04pgiEvo05EP",Population!="Evo04pgiEvo06EP",Population!="Evo04pgiEvo07EP",Population!="Evo04pgiEvo08EP",Population!="Evo04ptsHIcrrEvo01EP",Population!="Evo04ptsHIcrrEvo02EP",Population!="Evo04ptsHIcrrEvo03EP", Population!="Evo04ptsHIcrrEvo04EP",Population!="Evo04tpiAEvo01EP",Population!="Evo04tpiAEvo02EP",Population!="Evo04tpiAEvo04EP",Population!="Evo04tpiAEvo03EP")%>% 
+  rename(gene =Gene, population = Population, frequency = Frequency) %>%
+  filter(mutation_locations != "intergenic")
 
-singlegen_c_hyper("McCloskey2018", "M9 minimal medium", "Ecoli_K12")
+write_csv(McCloskey2018_sdhCBE, here("data_in", "McCloskey2018_sdhCBE.csv"))
+single_long("McCloskey2018_sdhCBE", "M9 minimal medium", "Ecoli_K12")
 
 #for tpiAE, filter out everything thats not tpiAE
-data<-data %>% 
-  filter(Population!="Evo04pgiEvo02EP",Population!="Evo04Evo01EP",Population!="Evo04Evo02EP",Population!="Evo04gndEvo01EP",Population!="Evo04gndEvo02EP",Population!="Evo04gndEvo03EP",Population!="Evo04pgiEvo01EP",Population!="Evo04pgiEvo03EP",Population!="Evo04pgiEvo04EP",Population!="Evo04pgiEvo05EP",Population!="Evo04pgiEvo06EP",Population!="Evo04pgiEvo07EP",Population!="Evo04pgiEvo08EP",Population!="Evo04ptsHIcrrEvo01EP",Population!="Evo04ptsHIcrrEvo02EP",Population!="Evo04ptsHIcrrEvo03EP", Population!="Evo04ptsHIcrrEvo04EP",Population!= "Evo04sdhCBEvo02EP",Population!="Evo04sdhCBEvo03EP",Population!="Evo04sdhCBEvo01EP")
+McCloskey2018_tpiAE<-McCloskey2018 %>% 
+  filter(Population!="Evo04pgiEvo02EP",Population!="Evo04Evo01EP",Population!="Evo04Evo02EP",Population!="Evo04gndEvo01EP",Population!="Evo04gndEvo02EP",Population!="Evo04gndEvo03EP",Population!="Evo04pgiEvo01EP",Population!="Evo04pgiEvo03EP",Population!="Evo04pgiEvo04EP",Population!="Evo04pgiEvo05EP",Population!="Evo04pgiEvo06EP",Population!="Evo04pgiEvo07EP",Population!="Evo04pgiEvo08EP",Population!="Evo04ptsHIcrrEvo01EP",Population!="Evo04ptsHIcrrEvo02EP",Population!="Evo04ptsHIcrrEvo03EP", Population!="Evo04ptsHIcrrEvo04EP",Population!= "Evo04sdhCBEvo02EP",Population!="Evo04sdhCBEvo03EP",Population!="Evo04sdhCBEvo01EP")%>% 
+  rename(gene =Gene, population = Population, frequency = Frequency) %>% 
+  filter(mutation_locations != "intergenic")
 
-singlegen_c_hyper("McCloskey2018", "M9 minimal medium", "Ecoli_K12")
+write_csv(McCloskey2018_tpiAE, here("data_in", "McCloskey2018_tpiAE.csv"))
+single_long("McCloskey2018_tpiAE", "M9 minimal medium", "Ecoli_K12")
 
 #for the reference(evo), filter out everything thats not evo
-data<-data %>% 
-  filter(Population!="Evo04pgiEvo02EP",Population!="Evo04gndEvo01EP",Population!="Evo04gndEvo02EP",Population!="Evo04gndEvo03EP",Population!="Evo04pgiEvo01EP",Population!="Evo04pgiEvo03EP",Population!="Evo04pgiEvo04EP",Population!="Evo04pgiEvo05EP",Population!="Evo04pgiEvo06EP",Population!="Evo04pgiEvo07EP",Population!="Evo04pgiEvo08EP",Population!="Evo04ptsHIcrrEvo01EP",Population!="Evo04ptsHIcrrEvo02EP",Population!="Evo04ptsHIcrrEvo03EP", Population!="Evo04ptsHIcrrEvo04EP",Population!= "Evo04sdhCBEvo02EP",Population!="Evo04sdhCBEvo03EP",Population!="Evo04tpiAEvo01EP",Population!="Evo04tpiAEvo02EP",Population!="Evo04tpiAEvo04EP",Population!="Evo04tpiAEvo03EP",Population!="Evo04sdhCBEvo01EP")
+McCloskey2018_evo<-McCloskey2018 %>% 
+  filter(Population!="Evo04pgiEvo02EP",Population!="Evo04gndEvo01EP",Population!="Evo04gndEvo02EP",Population!="Evo04gndEvo03EP",Population!="Evo04pgiEvo01EP",Population!="Evo04pgiEvo03EP",Population!="Evo04pgiEvo04EP",Population!="Evo04pgiEvo05EP",Population!="Evo04pgiEvo06EP",Population!="Evo04pgiEvo07EP",Population!="Evo04pgiEvo08EP",Population!="Evo04ptsHIcrrEvo01EP",Population!="Evo04ptsHIcrrEvo02EP",Population!="Evo04ptsHIcrrEvo03EP", Population!="Evo04ptsHIcrrEvo04EP",Population!= "Evo04sdhCBEvo02EP",Population!="Evo04sdhCBEvo03EP",Population!="Evo04tpiAEvo01EP",Population!="Evo04tpiAEvo02EP",Population!="Evo04tpiAEvo04EP",Population!="Evo04tpiAEvo03EP",Population!="Evo04sdhCBEvo01EP")%>%
+  rename(gene =Gene, population = Population, frequency = Frequency)%>% 
+           filter(mutation_locations != "intergenic")
 
-singlegen_c_hyper("McCloskey2018", "M9 minimal medium", "Ecoli_K12")
+write_csv(McCloskey2018_evo, here("data_in", "McCloskey2018_evo.csv"))
+single_long("McCloskey2018_evo", "M9 minimal medium", "Ecoli_K12")
 
 #or just run as one function,each being an individiual population
+McCloskey2018<- McCloskey2018 %>% 
+  rename(gene =Gene, population = Population, frequency = Frequency)%>% 
+  filter(mutation_locations != "intergenic")
+write_csv(McCloskey2018, here("data_in", "McCloskey2018.csv"))
 single_long("McCloskey2018", "M9 minimal medium", "Ecoli_K12")
-
-### ADD HERRON 2013
