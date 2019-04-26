@@ -218,19 +218,25 @@ single_wide( "Creamer2016",c("K0001","K0011","K0002","K0003","K0014","K0015","KB
 
 ### Deatherage2017
 #This paper originally had three clones sequenced for each population. Collapse the three columns and save the resulting dataset. And filter out the intergenic
-data<- data %>% transmute(Gene = data$Gene, Details = data$Details, Population = data$Population, frequency= `F1 I1 R1` +`F1 I2 R1`+`F1 I3 R1`) %>% 
-  filter(Details != "intergenic") %>%
-  replace(is.na(.), 0)
+Deatherage2017 <-read_csv(here("data_in", "raw", "Deatherage2017_raw.csv"))
+Deatherage2017<- Deatherage2017 %>% filter(Details != "intergenic") %>%
+  replace(is.na(.), 0) %>% 
+  transmute(gene = Gene, population = Population, frequency= `F1 I1 R1` +`F1 I2 R1`+`F1 I3 R1`)
+   
+write_csv(Deatherage2017, here("data_in", "Deatherage2017.csv"))
 
-singlegen_c_hyper("Deatherage2017", "glucose minimal medium", "Ecoli_K12")
+single_long("Deatherage2017", "glucose minimal medium", "Ecoli_K12")
 
 ### McCloskey2018
 #trying to find a better way with a single function to do all of the following functions
+McCloskey2018 <-read_csv(here("data_in", "raw", "McCloskey2018_raw.csv"))
+
 #for gnd, filter out everything thats not gnd
-data<- data %>% 
+McCloskey2018_gnd<- McCloskey2018 %>% 
   filter(Population!="Evo04pgiEvo02EP",Population!="Evo04Evo01EP",Population!="Evo04Evo02EP",Population!="Evo04pgiEvo01EP",Population!="Evo04pgiEvo03EP",Population!="Evo04pgiEvo04EP",Population!="Evo04pgiEvo05EP",Population!="Evo04pgiEvo06EP",Population!="Evo04pgiEvo07EP",Population!="Evo04pgiEvo08EP",Population!="Evo04ptsHIcrrEvo01EP",Population!="Evo04ptsHIcrrEvo02EP",Population!="Evo04ptsHIcrrEvo03EP", Population!="Evo04ptsHIcrrEvo04EP",Population!= "Evo04sdhCBEvo02EP",Population!="Evo04sdhCBEvo03EP",Population!="Evo04tpiAEvo01EP",Population!="Evo04tpiAEvo02EP",Population!="Evo04tpiAEvo04EP",Population!="Evo04tpiAEvo03EP",Population!="Evo04sdhCBEvo01EP")
 
-singlegen_c_hyper("McCloskey2018", "M9 minimal medium", "Ecoli_K12")
+write_csv(McCloskey2018_gnd, here("data_in", "McCloskey2018_gnd.csv"))
+single_long("McCloskey2018_gnd", "M9 minimal medium", "Ecoli_K12")
 
 #for pgi, filter out everything thats not pgi
 data<-data %>% 
@@ -263,6 +269,6 @@ data<-data %>%
 singlegen_c_hyper("McCloskey2018", "M9 minimal medium", "Ecoli_K12")
 
 #or just run as one function,each being an individiual population
-singlegen_c_hyper("McCloskey2018", "M9 minimal medium", "Ecoli_K12")
+single_long("McCloskey2018", "M9 minimal medium", "Ecoli_K12")
 
 ### ADD HERRON 2013

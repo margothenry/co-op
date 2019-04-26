@@ -198,7 +198,7 @@ multiple_long("Payen2016",c("phosphate", "sulfate", "glucose"), c("phosphate", "
 #function(paper, environment, population, species = NA, collapseMutations = TRUE)
 ### Wannier2018
 # This paper originally had two clones sequenced for each population. Collapse the two columns and save the resulting dataset. And filter out the intergenic
-Wannier2018 <- read_csv(here("data-in", "Wannier2018.csv"))
+Wannier2018 <- read_csv(here("data_in/raw", "Wannier2018_raw.csv"))
 Wannier2018<- Wannier2018 %>% transmute(Gene = Wannier2018$Gene, Details= Wannier2018$Details, A1= `A1 F1 I1 R1`+ `A1 F1 I2 R1`, A2 = `A2 F1 I1 R1`+ `A2 F1 I2 R1`, A3 = `A3 F1 I1 R1`+ `A3 F1 I2 R1`, A4 = `A4 F1 I1 R1`+ `A4 F1 I2 R1`, A5 = `A5 F1 I1 R1`+ `A5 F1 I2 R1`, A6 = `A6 F1 I1 R1`+ `A6 F1 I2 R1`, A7 = `A7 F1 I1 R1`+ `A7 F1 I2 R1`, A8 = `A8 F1 I1 R1`+ `A8 F1 I2 R1`, A9 = `A9 F1 I1 R1`+ `A9 F1 I2 R1`, A10 = `A10 F1 I1 R1`+ `A10 F1 I2 R1`,A11 = `A1 F1 I1 R1`+ `A11 F1 I2 R1`, A12 = `A12 F1 I1 R1`+ `A12 F1 I2 R1`, A13 = `A13 F1 I1 R1`+ `A13 F1 I2 R1`, A14 = `A14 F1 I1 R1`+ `A14 F1 I2 R1`) %>% replace(is.na(.), 0) 
 population <- c("A1" , "A2", "A3", "A4", "A5", "A6", "A7", "A8", "A9", "A10", "A11", "A12", "A13", "A14")
 Wannier2018 <-Wannier2018 %>% filter(Details != "intergenic") 

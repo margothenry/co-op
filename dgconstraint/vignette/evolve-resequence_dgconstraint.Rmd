@@ -231,7 +231,7 @@ knitr::include_graphics("figures/Lang_2.png")
 This is a wrapper function to calculate the pairwise C-score using the hypergeometric approach `c_hyper()`, a p-value for 'all lineages' contrast using chi-square `p_chisq()`, and an estimate of the effective proportion of adaptive loci `estimate()` for a data set that contains multiple generations or treatments recorded in a single columnn.
 
 ### Data  
-The dataset should contain the columns *gene*, *population*, *frequency* and *Selective_pressure*.
+The dataset should contain the columns *gene*, *population*, *frequency* and *selective_pressure*.
 
 e.g., For the paper by [*Jerison et al., 2017*](https://elifesciences.org/articles/27167)
 ```{r, echo=FALSE, out.width = '75%', fig.pos = "H", fig.align="center"}
@@ -280,5 +280,5 @@ If you come across an error while running your function:
 
 * Make sure you picked the right function for your data. 
 * Double check that all the parameters are set properly and that they match the information in your dataset.      
-* Make sure the column names are correct, it is easy to forget to change a column name gene to the needed one *gene*. The code is ran in a way that it will recognize *gene* and not gene. Same goes for *population*, *frequency* and *Selective_pressure*.    
+* Make sure the column names are correct, it is easy to forget to change a column name gene to the needed one *gene*. The code is ran in a way that it will recognize *gene* and not gene. Same goes for *population*, *frequency* and *selective_pressure*.    
 * Lastly, if there is an error when it tries to calculate the c-hyper, that could occur if there is no parallelism in a given generation or selective pressure. When in doubt, take a look at the original data to see if this is the case.
