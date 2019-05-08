@@ -1,5 +1,5 @@
 #' Calculations for Multiple Long Dataset
-#'
+#' This is a comment
 #' This function allows you to calculate the pairwise C-score using the hypergeometric approach, a p-value for 'all lineages' contrast using chi-square, and the estimates of the effective proportion of adaptive loci for a data set with  multiplte selective pressure.
 #' 
 #' @param paper the data in csv that you want to analyze, in a folder named data_in
