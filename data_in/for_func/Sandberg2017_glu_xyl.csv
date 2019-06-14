@@ -1,0 +1,574 @@
+gene,details,A0,population,frequency
+rhsE,pseudogene (1317/2037 nt),0,A1,10
+sapB,L136R (CTC→CGC),0,A1,0
+sapA,W87R (TGG→AGG),0,A1,0
+yobF,coding (141‑144/144 nt),0,A1,0
+yobF,K7Q (AAA→CAA),0,A1,0
+gatC,pseudogene (1‑2/442 nt),0,A1,1
+rpoC,N720H (AAC→CAC),0,A1,10
+paoC,F247L (TTC→CTC),0,A1,7.5600000000000005
+ykgF,V344V (GTG→GTA),0,A1,7.4399999999999995
+torS,A229V (GCA→GTA),0,A1,7.34
+dhaK,G192D (GGT→GAT),0,A1,1
+yciV,N66D (AAT→GAT),0,A1,1
+ydbA,pseudogene (1342/2513 nt),0,A1,1
+ptrB,L615L (TTG→TTA),0,A1,1
+dusC,L77L (CTG→TTG),0,A1,7.4
+yfiH,coding (492/732 nt),0,A1,1
+yfjI,A38T (GCT→ACT),0,A1,1
+ygaZ,coding (537/738 nt),0,A1,7
+srlQ,A238D (GCT→GAT),0,A1,1
+norR,D91G (GAC→GGC),0,A1,1
+fucR,R50S (CGC→AGC),0,A1,1
+glcF,R191* (CGA→TGA),0,A1,1
+tolC,A193T (GCA→ACA),0,A1,1
+yhdZ,N17D (AAC→GAC),0,A1,1
+php,Y216C (TAC→TGC),0,A1,1
+gadE,F41L (TTC→CTC),0,A1,1
+dppB,V253V (GTC→GTT),0,A1,1
+ilvG,pseudogene (18/663 nt),0,A1,8.84
+nfi,T45A (ACG→GCG),0,A1,1
+phnO,A110G (GCC→GGC),0,A1,1
+psd,V315I (GTT→ATT),0,A1,1
+mutL,coding (213‑218/1848 nt),0,A1,6.93
+yjhU,V33V (GTT→GTC),0,A1,1
+dnaT,A80T (GCT→ACT),0,A1,1
+lptD,A56A (GCT→GCC),0,A1,1
+modB,A198V (GCG→GTG),0,A1,1
+ycaO,V46A (GTA→GCA),0,A1,1
+cysB,S130S (TCG→TCA),0,A1,1
+cheB,P151S (CCG→TCG),0,A1,1
+wcaC,R172C (CGC→TGC),0,A1,2
+yfeR,V183V (GTA→GTG),0,A1,1
+yqfG,coding (45/126 nt),0,A1,1
+rnpB,noncoding (105/377 nt),0,A1,1
+rsmI,L242L (TTA→TTG),0,A1,1
+gadA,H35R (CAC→CGC),0,A1,1
+yhjC,R55Q (CGG→CAG),0,A1,1
+ysaD,pseudogene (45/192 nt),0,A1,1
+selB,A498V (GCA→GTA),0,A1,1
+rhlB,W273* (TGG→TGA),0,A1,1
+cyaA,C111C (TGT→TGC),0,A1,1
+ysgA,V138A (GTT→GCT),0,A1,1
+yihQ,Q315* (CAA→TAA),0,A1,1
+aspA,V250A (GTG→GCG),0,A1,2
+mscM,coding (44/3324 nt),0,A1,1
+tabA,T111A (ACA→GCA),0,A1,1
+yhjY,coding (9/699 nt),0,A1,0
+relA,coding (2117/2235 nt),0,A1,0
+relA,coding (2118/2235 nt),0,A1,0
+murC,A125V (GCC→GTC),0,A1,1
+galE,V40A (GTA→GCA),0,A1,0.71
+mppA,coding (903/1614 nt),0,A1,1
+pykF,A377T (GCT→ACT),0,A1,0.61
+purT,G5D (GGC→GAC),0,A1,0.7999999999999999
+ftnB,G38G (GGC→GGT),0,A1,0.61
+hisI,V88A (GTG→GCG),0,A1,0.59
+hisJ,G243G (GGT→GGC),0,A1,0.97
+fryA,P637S (CCG→TCG),0,A1,3.0300000000000002
+intA,E259K (GAG→AAG),0,A1,3.11
+intA,A360T (GCG→ACG),0,A1,3.15
+glnE,A408V (GCG→GTG),0,A1,1
+rrsD,noncoding (1380/1542 nt),0,A1,1
+lyxK,L462P (CTG→CCG),0,A1,0.96
+leuT,noncoding (79/87 nt),0,A1,3
+yjbH,coding (1612/2097 nt),0,A1,3
+ykfA,S51G (AGT→GGT),0,A1,1
+relA,coding (2161‑2172/2235 nt),0,A1,1
+kup,G541D (GGT→GAT),0,A1,1
+mutL,coding (201‑206/1848 nt),0,A1,0.26
+relA,coding (146/2235 nt),0,A1,0
+skp,coding (222/486 nt),0,A1,1
+mppA,coding (231‑235/1614 nt),0,A1,1
+garL,G169D (GGC→GAC),0,A1,1
+zinT,coding (260‑263/651 nt),0,A1,0
+relA,L223P (CTC→CCC),0,A1,0
+relA,L218P (CTG→CCG),0,A1,0
+yafL,K83K (AAA→AAG),0,A1,1
+insI1,T209A (ACG→GCG),0,A1,1
+ybaP,T52A (ACC→GCC),0,A1,1
+"nmpC, essD, rrrD, rzpD, rzoD, borD, ybcV, ybcW",IS5‑mediated,0,A1,1
+nagC,V242A (GTC→GCC),0,A1,1
+yneO,pseudogene (3856/3861 nt),0,A1,1
+rsxC,V37A (GTA→GCA),0,A1,1
+astA,N136D (AAC→GAC),0,A1,1
+yeeJ,G1206S (GGC→AGC),0,A1,1
+glrR,coding (1263/1335 nt),0,A1,1
+pssA,K403R (AAA→AGA),0,A1,1
+ptrA,E91E (GAA→GAG),0,A1,1
+lplT,A22V (GCG→GTG),0,A1,1
+ygeR,coding (212/756 nt),0,A1,1
+trmI,coding (176/720 nt),0,A1,1
+glnE,E783E (GAA→GAG),0,A1,1
+ttdR,L125L (TTA→TTG),0,A1,1
+garL,S124F (TCC→TTC),0,A1,1
+kdsD,C48Y (TGT→TAT),0,A1,1
+prlC,A202A (GCC→GCT),0,A1,1
+sgbE,A161T (GCA→ACA),0,A1,1
+istR,noncoding (131/140 nt),0,A1,1
+hemY,A148A (GCC→GCT),0,A1,1
+metH,D1045N (GAC→AAC),0,A1,1
+nadR,N143N (AAC→AAT),0,A1,1
+sdhA,G103C (GGC→TGC),0,A1,0
+fiu,S65* (TCG→TAG),0,A1,0
+yraJ,L576* (TTA→TGA),0,A1,0
+proQ,D41G (GAT→GGT),0,A1,0
+thrL,T7I (ACC→ATC),0,A1,1
+fhuB,Y517C (TAC→TGC),0,A1,1
+ecpC,coding (1279/2526 nt),0,A1,1
+ybeF,L104P (CTT→CCT),0,A1,1
+opgE,K499R (AAA→AGA),0,A1,1
+grxA,*86* (TGA→TAA),0,A1,1
+aroA,E123E (GAA→GAG),0,A1,1
+ycgG,V168A (GTA→GCA),0,A1,1
+fumC,H278Y (CAC→TAC),0,A1,1
+dmlR,A153T (GCC→ACC),0,A1,1
+fruA,A117A (GCA→GCG),0,A1,1
+emrK,P349S (CCT→TCT),0,A1,1
+glnB,*113* (TAA→TGA),0,A1,1
+yfjL,T491T (ACA→ACG),0,A1,1
+hypE,V307M (GTG→ATG),0,A1,1
+gudD,E144G (GAA→GGA),0,A1,1
+yhdJ,V75A (GTT→GCT),0,A1,1
+rpsJ,F49L (TTC→CTC),0,A1,1
+gspJ,A189V (GCC→GTC),0,A1,1
+yhhQ,L141L (CTG→CTA),0,A1,1
+rhsB,V26V (GTA→GTG),0,A1,1
+rhsB,R27R (CGT→CGC),0,A1,1
+rhsB,T1036T (ACG→ACA),0,A1,1
+rhsB,R1041R (AGG→AGA),0,A1,1
+rhsB,S1042T (AGC→ACC),0,A1,1
+rbbA,E213E (GAA→GAG),0,A1,1
+nrfA,T99A (ACC→GCC),0,A1,1
+fklB,Q20R (CAG→CGG),0,A1,1
+clcA,T343I (ACC→ATC),0,A1,1
+metI,I115I (ATC→ATT),0,A1,1
+yagJ,pseudogene (126/828 nt),0,A1,1
+tauC,L200P (CTC→CCC),0,A1,1
+rhsD,coding (3818/4281 nt),0,A1,1
+insL1,coding (1083/1113 nt),0,A1,1
+chiP,coding (695/1407 nt),0,A1,1
+deoR,G181G (GGC→GGT),0,A1,1
+pgaB,coding (789/2019 nt),0,A1,1
+recE,Q796R (CAG→CGG),0,A1,1
+arpB,pseudogene (150/426 nt),0,A1,1
+yeaR,coding (115‑120/360 nt),0,A1,1
+yejO,pseudogene (1183/2525 nt),0,A1,1
+yfdE,A365T (GCG→ACG),0,A1,1
+pphB,G205R (GGA→AGA),0,A1,1
+glnE,A108V (GCA→GTA),0,A1,1
+bcsQ,pseudogene (404/753 nt),0,A1,1
+yibB,coding (197‑201/858 nt),0,A1,1
+priA,T180T (ACA→ACG),0,A1,1
+yjaH,S70G (AGC→GGC),0,A1,1
+fimF,S25G (AGC→GGC),0,A1,1
+yahF,A127D (GCT→GAT),0,A1,0
+aas,L696V (TTA→GTA),0,A1,0
+cra,P103S (CCA→TCA),0,A1,1
+yafV,A53A (GCA→GCG),0,A1,1
+yagA,G92G (GGA→GGG),0,A1,1
+rclR,R207R (CGG→CGA),0,A1,1
+ybbW,A286V (GCC→GTC),0,A1,1
+citG,V42A (GTG→GCG),0,A1,1
+moeB,Y49H (TAT→CAT),0,A1,1
+pyrC,G214E (GGA→GAA),0,A1,1
+rluC,Q269* (CAG→TAG),0,A1,1
+ompW,V36V (GTA→GTG),0,A1,1
+ycjT,D153D (GAC→GAT),0,A1,1
+ydiR,G225S (GGC→AGC),0,A1,1
+astC,A265T (GCA→ACA),0,A1,1
+yeaV,coding (154/1446 nt),0,A1,1
+yeeJ,V865I (GTC→ATC),0,A1,1
+yegX,coding (24/819 nt),0,A1,1
+ccmB,A65V (GCG→GTG),0,A1,1
+insL1,coding (1083/1113 nt),0,A1,1
+yfgM,S179G (AGT→GGT),0,A1,1
+fhlA,A639T (GCC→ACC),0,A1,1
+cca,K179E (AAA→GAA),0,A1,1
+yhaL,L5L (TTG→TTA),0,A1,1
+mtr,coding (1005/1245 nt),0,A1,1
+leuT,noncoding (79/87 nt),0,A1,1
+zraR,T98A (ACT→GCT),0,A1,1
+rpoA,D259E (GAT→GAG),0,A1,1
+rhsE,pseudogene (1317/2037 nt),0,A2,6
+sapB,L136R (CTC→CGC),0,A2,0
+sapA,W87R (TGG→AGG),0,A2,0
+yobF,coding (141‑144/144 nt),0,A2,0
+yobF,K7Q (AAA→CAA),0,A2,0
+gatC,pseudogene (1‑2/442 nt),0,A2,4
+rpoC,N720H (AAC→CAC),0,A2,6
+paoC,F247L (TTC→CTC),0,A2,0
+ykgF,V344V (GTG→GTA),0,A2,0
+torS,A229V (GCA→GTA),0,A2,0
+dhaK,G192D (GGT→GAT),0,A2,0
+yciV,N66D (AAT→GAT),0,A2,0
+ydbA,pseudogene (1342/2513 nt),0,A2,0
+ptrB,L615L (TTG→TTA),0,A2,0
+dusC,L77L (CTG→TTG),0,A2,0
+yfiH,coding (492/732 nt),0,A2,0
+yfjI,A38T (GCT→ACT),0,A2,0
+ygaZ,coding (537/738 nt),0,A2,0
+srlQ,A238D (GCT→GAT),0,A2,0
+norR,D91G (GAC→GGC),0,A2,0
+fucR,R50S (CGC→AGC),0,A2,0
+glcF,R191* (CGA→TGA),0,A2,0
+tolC,A193T (GCA→ACA),0,A2,0
+yhdZ,N17D (AAC→GAC),0,A2,0
+php,Y216C (TAC→TGC),0,A2,0
+gadE,F41L (TTC→CTC),0,A2,0
+dppB,V253V (GTC→GTT),0,A2,0
+ilvG,pseudogene (18/663 nt),0,A2,0
+nfi,T45A (ACG→GCG),0,A2,0
+phnO,A110G (GCC→GGC),0,A2,0
+psd,V315I (GTT→ATT),0,A2,0
+mutL,coding (213‑218/1848 nt),0,A2,0
+yjhU,V33V (GTT→GTC),0,A2,0
+dnaT,A80T (GCT→ACT),0,A2,0
+lptD,A56A (GCT→GCC),0,A2,0
+modB,A198V (GCG→GTG),0,A2,0
+ycaO,V46A (GTA→GCA),0,A2,0
+cysB,S130S (TCG→TCA),0,A2,0
+cheB,P151S (CCG→TCG),0,A2,0
+wcaC,R172C (CGC→TGC),0,A2,0
+yfeR,V183V (GTA→GTG),0,A2,0
+yqfG,coding (45/126 nt),0,A2,0
+rnpB,noncoding (105/377 nt),0,A2,0
+rsmI,L242L (TTA→TTG),0,A2,0
+gadA,H35R (CAC→CGC),0,A2,0
+yhjC,R55Q (CGG→CAG),0,A2,0
+ysaD,pseudogene (45/192 nt),0,A2,0
+selB,A498V (GCA→GTA),0,A2,0
+rhlB,W273* (TGG→TGA),0,A2,0
+cyaA,C111C (TGT→TGC),0,A2,0
+ysgA,V138A (GTT→GCT),0,A2,0
+yihQ,Q315* (CAA→TAA),0,A2,0
+aspA,V250A (GTG→GCG),0,A2,0
+mscM,coding (44/3324 nt),0,A2,0
+tabA,T111A (ACA→GCA),0,A2,0
+yhjY,coding (9/699 nt),0,A2,0
+relA,coding (2117/2235 nt),0,A2,2
+relA,coding (2118/2235 nt),0,A2,3.16
+murC,A125V (GCC→GTC),0,A2,0
+galE,V40A (GTA→GCA),0,A2,0
+mppA,coding (903/1614 nt),0,A2,0
+pykF,A377T (GCT→ACT),0,A2,0
+purT,G5D (GGC→GAC),0,A2,0
+ftnB,G38G (GGC→GGT),0,A2,0
+hisI,V88A (GTG→GCG),0,A2,0
+hisJ,G243G (GGT→GGC),0,A2,0
+fryA,P637S (CCG→TCG),0,A2,0
+intA,E259K (GAG→AAG),0,A2,0
+intA,A360T (GCG→ACG),0,A2,0
+glnE,A408V (GCG→GTG),0,A2,0
+rrsD,noncoding (1380/1542 nt),0,A2,0
+lyxK,L462P (CTG→CCG),0,A2,0
+leuT,noncoding (79/87 nt),0,A2,0
+yjbH,coding (1612/2097 nt),0,A2,0
+ykfA,S51G (AGT→GGT),0,A2,0
+relA,coding (2161‑2172/2235 nt),0,A2,0
+kup,G541D (GGT→GAT),0,A2,0
+mutL,coding (201‑206/1848 nt),0,A2,0
+relA,coding (146/2235 nt),0,A2,0
+skp,coding (222/486 nt),0,A2,0
+mppA,coding (231‑235/1614 nt),0,A2,0
+garL,G169D (GGC→GAC),0,A2,0
+zinT,coding (260‑263/651 nt),0,A2,0
+relA,L223P (CTC→CCC),0,A2,0
+relA,L218P (CTG→CCG),0,A2,0
+yafL,K83K (AAA→AAG),0,A2,0
+insI1,T209A (ACG→GCG),0,A2,0
+ybaP,T52A (ACC→GCC),0,A2,0
+"nmpC, essD, rrrD, rzpD, rzoD, borD, ybcV, ybcW",IS5‑mediated,0,A2,0
+nagC,V242A (GTC→GCC),0,A2,0
+yneO,pseudogene (3856/3861 nt),0,A2,0
+rsxC,V37A (GTA→GCA),0,A2,0
+astA,N136D (AAC→GAC),0,A2,0
+yeeJ,G1206S (GGC→AGC),0,A2,0
+glrR,coding (1263/1335 nt),0,A2,0
+pssA,K403R (AAA→AGA),0,A2,0
+ptrA,E91E (GAA→GAG),0,A2,0
+lplT,A22V (GCG→GTG),0,A2,0
+ygeR,coding (212/756 nt),0,A2,0
+trmI,coding (176/720 nt),0,A2,0
+glnE,E783E (GAA→GAG),0,A2,0
+ttdR,L125L (TTA→TTG),0,A2,0
+garL,S124F (TCC→TTC),0,A2,0
+kdsD,C48Y (TGT→TAT),0,A2,0
+prlC,A202A (GCC→GCT),0,A2,0
+sgbE,A161T (GCA→ACA),0,A2,0
+istR,noncoding (131/140 nt),0,A2,0
+hemY,A148A (GCC→GCT),0,A2,0
+metH,D1045N (GAC→AAC),0,A2,0
+nadR,N143N (AAC→AAT),0,A2,0
+sdhA,G103C (GGC→TGC),0,A2,0
+fiu,S65* (TCG→TAG),0,A2,0
+yraJ,L576* (TTA→TGA),0,A2,0
+proQ,D41G (GAT→GGT),0,A2,0
+thrL,T7I (ACC→ATC),0,A2,0
+fhuB,Y517C (TAC→TGC),0,A2,0
+ecpC,coding (1279/2526 nt),0,A2,0
+ybeF,L104P (CTT→CCT),0,A2,0
+opgE,K499R (AAA→AGA),0,A2,0
+grxA,*86* (TGA→TAA),0,A2,0
+aroA,E123E (GAA→GAG),0,A2,0
+ycgG,V168A (GTA→GCA),0,A2,0
+fumC,H278Y (CAC→TAC),0,A2,0
+dmlR,A153T (GCC→ACC),0,A2,0
+fruA,A117A (GCA→GCG),0,A2,0
+emrK,P349S (CCT→TCT),0,A2,0
+glnB,*113* (TAA→TGA),0,A2,0
+yfjL,T491T (ACA→ACG),0,A2,0
+hypE,V307M (GTG→ATG),0,A2,0
+gudD,E144G (GAA→GGA),0,A2,0
+yhdJ,V75A (GTT→GCT),0,A2,0
+rpsJ,F49L (TTC→CTC),0,A2,0
+gspJ,A189V (GCC→GTC),0,A2,0
+yhhQ,L141L (CTG→CTA),0,A2,0
+rhsB,V26V (GTA→GTG),0,A2,0
+rhsB,R27R (CGT→CGC),0,A2,0
+rhsB,T1036T (ACG→ACA),0,A2,0
+rhsB,R1041R (AGG→AGA),0,A2,0
+rhsB,S1042T (AGC→ACC),0,A2,0
+rbbA,E213E (GAA→GAG),0,A2,0
+nrfA,T99A (ACC→GCC),0,A2,0
+fklB,Q20R (CAG→CGG),0,A2,0
+clcA,T343I (ACC→ATC),0,A2,0
+metI,I115I (ATC→ATT),0,A2,0
+yagJ,pseudogene (126/828 nt),0,A2,0
+tauC,L200P (CTC→CCC),0,A2,0
+rhsD,coding (3818/4281 nt),0,A2,0
+insL1,coding (1083/1113 nt),0,A2,0
+chiP,coding (695/1407 nt),0,A2,0
+deoR,G181G (GGC→GGT),0,A2,0
+pgaB,coding (789/2019 nt),0,A2,0
+recE,Q796R (CAG→CGG),0,A2,0
+arpB,pseudogene (150/426 nt),0,A2,0
+yeaR,coding (115‑120/360 nt),0,A2,0
+yejO,pseudogene (1183/2525 nt),0,A2,0
+yfdE,A365T (GCG→ACG),0,A2,0
+pphB,G205R (GGA→AGA),0,A2,0
+glnE,A108V (GCA→GTA),0,A2,0
+bcsQ,pseudogene (404/753 nt),0,A2,0
+yibB,coding (197‑201/858 nt),0,A2,0
+priA,T180T (ACA→ACG),0,A2,0
+yjaH,S70G (AGC→GGC),0,A2,0
+fimF,S25G (AGC→GGC),0,A2,0
+yahF,A127D (GCT→GAT),0,A2,0
+aas,L696V (TTA→GTA),0,A2,0
+cra,P103S (CCA→TCA),0,A2,0
+yafV,A53A (GCA→GCG),0,A2,0
+yagA,G92G (GGA→GGG),0,A2,0
+rclR,R207R (CGG→CGA),0,A2,0
+ybbW,A286V (GCC→GTC),0,A2,0
+citG,V42A (GTG→GCG),0,A2,0
+moeB,Y49H (TAT→CAT),0,A2,0
+pyrC,G214E (GGA→GAA),0,A2,0
+rluC,Q269* (CAG→TAG),0,A2,0
+ompW,V36V (GTA→GTG),0,A2,0
+ycjT,D153D (GAC→GAT),0,A2,0
+ydiR,G225S (GGC→AGC),0,A2,0
+astC,A265T (GCA→ACA),0,A2,0
+yeaV,coding (154/1446 nt),0,A2,0
+yeeJ,V865I (GTC→ATC),0,A2,0
+yegX,coding (24/819 nt),0,A2,0
+ccmB,A65V (GCG→GTG),0,A2,0
+insL1,coding (1083/1113 nt),0,A2,0
+yfgM,S179G (AGT→GGT),0,A2,0
+fhlA,A639T (GCC→ACC),0,A2,0
+cca,K179E (AAA→GAA),0,A2,0
+yhaL,L5L (TTG→TTA),0,A2,0
+mtr,coding (1005/1245 nt),0,A2,0
+leuT,noncoding (79/87 nt),0,A2,0
+zraR,T98A (ACT→GCT),0,A2,0
+rpoA,D259E (GAT→GAG),0,A2,0
+rhsE,pseudogene (1317/2037 nt),0,A3,13
+sapB,L136R (CTC→CGC),0,A3,4.91
+sapA,W87R (TGG→AGG),0,A3,3
+yobF,coding (141‑144/144 nt),0,A3,1
+yobF,K7Q (AAA→CAA),0,A3,5.13
+gatC,pseudogene (1‑2/442 nt),0,A3,2
+rpoC,N720H (AAC→CAC),0,A3,13
+paoC,F247L (TTC→CTC),0,A3,0
+ykgF,V344V (GTG→GTA),0,A3,0
+torS,A229V (GCA→GTA),0,A3,0
+dhaK,G192D (GGT→GAT),0,A3,0
+yciV,N66D (AAT→GAT),0,A3,0
+ydbA,pseudogene (1342/2513 nt),0,A3,0
+ptrB,L615L (TTG→TTA),0,A3,0
+dusC,L77L (CTG→TTG),0,A3,0
+yfiH,coding (492/732 nt),0,A3,0
+yfjI,A38T (GCT→ACT),0,A3,0
+ygaZ,coding (537/738 nt),0,A3,0
+srlQ,A238D (GCT→GAT),0,A3,0
+norR,D91G (GAC→GGC),0,A3,0
+fucR,R50S (CGC→AGC),0,A3,0
+glcF,R191* (CGA→TGA),0,A3,0
+tolC,A193T (GCA→ACA),0,A3,0
+yhdZ,N17D (AAC→GAC),0,A3,0
+php,Y216C (TAC→TGC),0,A3,0
+gadE,F41L (TTC→CTC),0,A3,0
+dppB,V253V (GTC→GTT),0,A3,0
+ilvG,pseudogene (18/663 nt),0,A3,0
+nfi,T45A (ACG→GCG),0,A3,0
+phnO,A110G (GCC→GGC),0,A3,0
+psd,V315I (GTT→ATT),0,A3,0
+mutL,coding (213‑218/1848 nt),0,A3,0
+yjhU,V33V (GTT→GTC),0,A3,0
+dnaT,A80T (GCT→ACT),0,A3,0
+lptD,A56A (GCT→GCC),0,A3,0
+modB,A198V (GCG→GTG),0,A3,0
+ycaO,V46A (GTA→GCA),0,A3,0
+cysB,S130S (TCG→TCA),0,A3,0
+cheB,P151S (CCG→TCG),0,A3,0
+wcaC,R172C (CGC→TGC),0,A3,0
+yfeR,V183V (GTA→GTG),0,A3,0
+yqfG,coding (45/126 nt),0,A3,0
+rnpB,noncoding (105/377 nt),0,A3,0
+rsmI,L242L (TTA→TTG),0,A3,0
+gadA,H35R (CAC→CGC),0,A3,0
+yhjC,R55Q (CGG→CAG),0,A3,0
+ysaD,pseudogene (45/192 nt),0,A3,0
+selB,A498V (GCA→GTA),0,A3,0
+rhlB,W273* (TGG→TGA),0,A3,0
+cyaA,C111C (TGT→TGC),0,A3,0
+ysgA,V138A (GTT→GCT),0,A3,0
+yihQ,Q315* (CAA→TAA),0,A3,0
+aspA,V250A (GTG→GCG),0,A3,0
+mscM,coding (44/3324 nt),0,A3,0
+tabA,T111A (ACA→GCA),0,A3,0
+yhjY,coding (9/699 nt),0,A3,3
+relA,coding (2117/2235 nt),0,A3,0
+relA,coding (2118/2235 nt),0,A3,0
+murC,A125V (GCC→GTC),0,A3,0
+galE,V40A (GTA→GCA),0,A3,0
+mppA,coding (903/1614 nt),0,A3,0
+pykF,A377T (GCT→ACT),0,A3,0
+purT,G5D (GGC→GAC),0,A3,0
+ftnB,G38G (GGC→GGT),0,A3,0
+hisI,V88A (GTG→GCG),0,A3,0
+hisJ,G243G (GGT→GGC),0,A3,0
+fryA,P637S (CCG→TCG),0,A3,0
+intA,E259K (GAG→AAG),0,A3,0
+intA,A360T (GCG→ACG),0,A3,0
+glnE,A408V (GCG→GTG),0,A3,0
+rrsD,noncoding (1380/1542 nt),0,A3,0
+lyxK,L462P (CTG→CCG),0,A3,0
+leuT,noncoding (79/87 nt),0,A3,0
+yjbH,coding (1612/2097 nt),0,A3,0
+ykfA,S51G (AGT→GGT),0,A3,0
+relA,coding (2161‑2172/2235 nt),0,A3,0
+kup,G541D (GGT→GAT),0,A3,0
+mutL,coding (201‑206/1848 nt),0,A3,0
+relA,coding (146/2235 nt),0,A3,1
+skp,coding (222/486 nt),0,A3,0
+mppA,coding (231‑235/1614 nt),0,A3,0
+garL,G169D (GGC→GAC),0,A3,0
+zinT,coding (260‑263/651 nt),0,A3,1
+relA,L223P (CTC→CCC),0,A3,1
+relA,L218P (CTG→CCG),0,A3,1
+yafL,K83K (AAA→AAG),0,A3,0
+insI1,T209A (ACG→GCG),0,A3,0
+ybaP,T52A (ACC→GCC),0,A3,0
+"nmpC, essD, rrrD, rzpD, rzoD, borD, ybcV, ybcW",IS5‑mediated,0,A3,0
+nagC,V242A (GTC→GCC),0,A3,0
+yneO,pseudogene (3856/3861 nt),0,A3,0
+rsxC,V37A (GTA→GCA),0,A3,0
+astA,N136D (AAC→GAC),0,A3,0
+yeeJ,G1206S (GGC→AGC),0,A3,0
+glrR,coding (1263/1335 nt),0,A3,0
+pssA,K403R (AAA→AGA),0,A3,0
+ptrA,E91E (GAA→GAG),0,A3,0
+lplT,A22V (GCG→GTG),0,A3,0
+ygeR,coding (212/756 nt),0,A3,0
+trmI,coding (176/720 nt),0,A3,0
+glnE,E783E (GAA→GAG),0,A3,0
+ttdR,L125L (TTA→TTG),0,A3,0
+garL,S124F (TCC→TTC),0,A3,0
+kdsD,C48Y (TGT→TAT),0,A3,0
+prlC,A202A (GCC→GCT),0,A3,0
+sgbE,A161T (GCA→ACA),0,A3,0
+istR,noncoding (131/140 nt),0,A3,0
+hemY,A148A (GCC→GCT),0,A3,0
+metH,D1045N (GAC→AAC),0,A3,0
+nadR,N143N (AAC→AAT),0,A3,0
+sdhA,G103C (GGC→TGC),0,A3,1
+fiu,S65* (TCG→TAG),0,A3,1
+yraJ,L576* (TTA→TGA),0,A3,1
+proQ,D41G (GAT→GGT),0,A3,1
+thrL,T7I (ACC→ATC),0,A3,0
+fhuB,Y517C (TAC→TGC),0,A3,0
+ecpC,coding (1279/2526 nt),0,A3,0
+ybeF,L104P (CTT→CCT),0,A3,0
+opgE,K499R (AAA→AGA),0,A3,0
+grxA,*86* (TGA→TAA),0,A3,0
+aroA,E123E (GAA→GAG),0,A3,0
+ycgG,V168A (GTA→GCA),0,A3,0
+fumC,H278Y (CAC→TAC),0,A3,0
+dmlR,A153T (GCC→ACC),0,A3,0
+fruA,A117A (GCA→GCG),0,A3,0
+emrK,P349S (CCT→TCT),0,A3,0
+glnB,*113* (TAA→TGA),0,A3,0
+yfjL,T491T (ACA→ACG),0,A3,0
+hypE,V307M (GTG→ATG),0,A3,0
+gudD,E144G (GAA→GGA),0,A3,0
+yhdJ,V75A (GTT→GCT),0,A3,0
+rpsJ,F49L (TTC→CTC),0,A3,0
+gspJ,A189V (GCC→GTC),0,A3,0
+yhhQ,L141L (CTG→CTA),0,A3,0
+rhsB,V26V (GTA→GTG),0,A3,0
+rhsB,R27R (CGT→CGC),0,A3,0
+rhsB,T1036T (ACG→ACA),0,A3,0
+rhsB,R1041R (AGG→AGA),0,A3,0
+rhsB,S1042T (AGC→ACC),0,A3,0
+rbbA,E213E (GAA→GAG),0,A3,0
+nrfA,T99A (ACC→GCC),0,A3,0
+fklB,Q20R (CAG→CGG),0,A3,0
+clcA,T343I (ACC→ATC),0,A3,0
+metI,I115I (ATC→ATT),0,A3,0
+yagJ,pseudogene (126/828 nt),0,A3,0
+tauC,L200P (CTC→CCC),0,A3,0
+rhsD,coding (3818/4281 nt),0,A3,0
+insL1,coding (1083/1113 nt),0,A3,0
+chiP,coding (695/1407 nt),0,A3,0
+deoR,G181G (GGC→GGT),0,A3,0
+pgaB,coding (789/2019 nt),0,A3,0
+recE,Q796R (CAG→CGG),0,A3,0
+arpB,pseudogene (150/426 nt),0,A3,0
+yeaR,coding (115‑120/360 nt),0,A3,0
+yejO,pseudogene (1183/2525 nt),0,A3,0
+yfdE,A365T (GCG→ACG),0,A3,0
+pphB,G205R (GGA→AGA),0,A3,0
+glnE,A108V (GCA→GTA),0,A3,0
+bcsQ,pseudogene (404/753 nt),0,A3,0
+yibB,coding (197‑201/858 nt),0,A3,0
+priA,T180T (ACA→ACG),0,A3,0
+yjaH,S70G (AGC→GGC),0,A3,0
+fimF,S25G (AGC→GGC),0,A3,0
+yahF,A127D (GCT→GAT),0,A3,1
+aas,L696V (TTA→GTA),0,A3,1
+cra,P103S (CCA→TCA),0,A3,0
+yafV,A53A (GCA→GCG),0,A3,0
+yagA,G92G (GGA→GGG),0,A3,0
+rclR,R207R (CGG→CGA),0,A3,0
+ybbW,A286V (GCC→GTC),0,A3,0
+citG,V42A (GTG→GCG),0,A3,0
+moeB,Y49H (TAT→CAT),0,A3,0
+pyrC,G214E (GGA→GAA),0,A3,0
+rluC,Q269* (CAG→TAG),0,A3,0
+ompW,V36V (GTA→GTG),0,A3,0
+ycjT,D153D (GAC→GAT),0,A3,0
+ydiR,G225S (GGC→AGC),0,A3,0
+astC,A265T (GCA→ACA),0,A3,0
+yeaV,coding (154/1446 nt),0,A3,0
+yeeJ,V865I (GTC→ATC),0,A3,0
+yegX,coding (24/819 nt),0,A3,0
+ccmB,A65V (GCG→GTG),0,A3,0
+insL1,coding (1083/1113 nt),0,A3,0
+yfgM,S179G (AGT→GGT),0,A3,0
+fhlA,A639T (GCC→ACC),0,A3,0
+cca,K179E (AAA→GAA),0,A3,0
+yhaL,L5L (TTG→TTA),0,A3,0
+mtr,coding (1005/1245 nt),0,A3,0
+leuT,noncoding (79/87 nt),0,A3,0
+zraR,T98A (ACT→GCT),0,A3,0
+rpoA,D259E (GAT→GAG),0,A3,0

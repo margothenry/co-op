@@ -1,0 +1,22 @@
+﻿population,gene,details,frequency
+M1,mngB/[cydA],intergenic,1
+M1,hemL,A -> C,1
+M1,yqiJ,coding,1
+M1,yjbS,coding,1
+M2,hemL,C -> T,1
+M2,ycbU,coding,1
+M2,ubiG,coding,1
+M3,hemL,A -> C,1
+M3,yqiJ,coding,1
+M3,hemL,A -> C,1
+M3,yqiJ,coding,1
+M3,yjbS,coding,1
+M4,mscM,C -> G,1
+M4,mscM,C -> G,1
+M5,pepP,coding,1
+M5,ndh,C -> T,1
+M5,nuoG,G -> C,1
+M6,ygfZ,coding,1
+M6,hemY,T -> A,1
+M6,ygfZ,coding,1
+M6,hemY,T -> A,1

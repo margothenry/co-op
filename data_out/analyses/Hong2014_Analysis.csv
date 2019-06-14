@@ -1,0 +1,5 @@
+"paper","environment","generation","selective_pressure","c_hyper","p_chisq","estimate","N_genes.notParallel","N_genes.parallel","parallel_genes"
+"Hong2014","Ammonium","250","Ammonium",52.643,0.005,0.001,3,3,"GAT1, LST4, MEP2"
+"Hong2014","Arginine","250","Arginine",19.153,0.005,0.001,3,1,"GLN3"
+"Hong2014","Urea","250","Urea",74.037,0.005,0.001,0,4,"DAL5, DUR1,2, PUT4/CIN1, SIW14"
+"Hong2014","Allantoin","250","Allantoin",27.074,0.005,0.001,1,5,"CTR1, FUR4, GCN4/YEL008W, OAF3, VAC14"

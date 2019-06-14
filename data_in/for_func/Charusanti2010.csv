@@ -1,0 +1,431 @@
+gene,details,population,frequency
+icd,H366H (CAC→CAT),A1,0
+icd,T370T (ACC→ACT),A1,0
+icd,L375M (TTA→CTG),A1,0
+icd,L375M (TTA→CTG),A1,0
+pntA,S66* (TCA→TAA),A1,0
+crr,coding (479‑484/510 nt),A1,0
+rpoS,coding (595/993 nt),A1,0
+nagC,G73C (GGC→TGC),A1,0
+zwf,A22A (GCG→GCA),A1,0
+menC,coding (132‑135/963 nt),A1,0
+sthA,G20S (GGC→AGC),A1,0
+rpoB,N677S (AAC→AGC),A1,0
+rpoS,coding (597/993 nt),A1,0
+rpoA,coding (940‑959/990 nt),A1,0
+hfq,N48H (AAC→CAC),A1,0
+fimD,coding (2209‑2215/2637 nt),A1,0
+fis,coding (215‑229/297 nt),A1,0
+cyaA,Q392P (CAG→CCG),A1,0
+typA,coding (960/1824 nt),A1,0
+ispU,L220R (CTC→CGC),A1,0
+pntB,coding (682/1389 nt),A1,0
+rpoA,C269R (TGC→CGC),A1,0
+ysgA,coding (64/816 nt),A1,0
+acnB,coding (2443‑2444/2598 nt),A1,0
+fruK,R296C (CGT→TGT),A1,0
+crr,coding (479‑484/510 nt),A1,0
+rpoS,coding (850/993 nt),A1,0
+rpoS,G279V (GGT→GTT),A1,0
+rpoA,T285I (ACC→ATC),A1,0
+yiiD,L227R (CTG→CGG),A1,0
+cpxR,R205H (CGT→CAT),A1,0
+mrdB,A88E (GCG→GAG),A1,0
+pntA,coding (677‑687/1533 nt),A1,0
+rpoS,R277* (CGA→TGA),A1,0
+fabZ,P56L (CCT→CTT),A1,1
+rep,I81S (ATC→AGC),A1,1
+sthA,S317G (AGC→GGC),A1,1
+rpoB,K1242Q (AAG→CAG),A1,1
+rpoC,R1174S (CGT→AGT),A1,1
+pntB,coding (430/1389 nt),A1,0
+yfeH,coding (297/999 nt),A1,0
+rpoS,coding (841/993 nt),A1,0
+cpxR,coding (585‑588/699 nt),A1,0
+icd,H366H (CAC→CAT),A2,1
+icd,T370T (ACC→ACT),A2,1
+icd,L375M (TTA→CTG),A2,1
+icd,L375M (TTA→CTG),A2,1
+pntA,S66* (TCA→TAA),A2,1
+crr,coding (479‑484/510 nt),A2,1
+rpoS,coding (595/993 nt),A2,1
+nagC,G73C (GGC→TGC),A2,0
+zwf,A22A (GCG→GCA),A2,0
+menC,coding (132‑135/963 nt),A2,0
+sthA,G20S (GGC→AGC),A2,0
+rpoB,N677S (AAC→AGC),A2,0
+rpoS,coding (597/993 nt),A2,0
+rpoA,coding (940‑959/990 nt),A2,0
+hfq,N48H (AAC→CAC),A2,0
+fimD,coding (2209‑2215/2637 nt),A2,0
+fis,coding (215‑229/297 nt),A2,0
+cyaA,Q392P (CAG→CCG),A2,0
+typA,coding (960/1824 nt),A2,0
+ispU,L220R (CTC→CGC),A2,0
+pntB,coding (682/1389 nt),A2,0
+rpoA,C269R (TGC→CGC),A2,0
+ysgA,coding (64/816 nt),A2,0
+acnB,coding (2443‑2444/2598 nt),A2,0
+fruK,R296C (CGT→TGT),A2,0
+crr,coding (479‑484/510 nt),A2,0
+rpoS,coding (850/993 nt),A2,0
+rpoS,G279V (GGT→GTT),A2,0
+rpoA,T285I (ACC→ATC),A2,0
+yiiD,L227R (CTG→CGG),A2,0
+cpxR,R205H (CGT→CAT),A2,0
+mrdB,A88E (GCG→GAG),A2,0
+pntA,coding (677‑687/1533 nt),A2,0
+rpoS,R277* (CGA→TGA),A2,0
+fabZ,P56L (CCT→CTT),A2,0
+rep,I81S (ATC→AGC),A2,0
+sthA,S317G (AGC→GGC),A2,0
+rpoB,K1242Q (AAG→CAG),A2,0
+rpoC,R1174S (CGT→AGT),A2,0
+pntB,coding (430/1389 nt),A2,0
+yfeH,coding (297/999 nt),A2,0
+rpoS,coding (841/993 nt),A2,0
+cpxR,coding (585‑588/699 nt),A2,0
+icd,H366H (CAC→CAT),A3,0
+icd,T370T (ACC→ACT),A3,0
+icd,L375M (TTA→CTG),A3,0
+icd,L375M (TTA→CTG),A3,0
+pntA,S66* (TCA→TAA),A3,0
+crr,coding (479‑484/510 nt),A3,0
+rpoS,coding (595/993 nt),A3,0
+nagC,G73C (GGC→TGC),A3,0
+zwf,A22A (GCG→GCA),A3,0
+menC,coding (132‑135/963 nt),A3,0
+sthA,G20S (GGC→AGC),A3,0
+rpoB,N677S (AAC→AGC),A3,0
+rpoS,coding (597/993 nt),A3,0
+rpoA,coding (940‑959/990 nt),A3,0
+hfq,N48H (AAC→CAC),A3,0
+fimD,coding (2209‑2215/2637 nt),A3,0
+fis,coding (215‑229/297 nt),A3,0
+cyaA,Q392P (CAG→CCG),A3,0
+typA,coding (960/1824 nt),A3,0
+ispU,L220R (CTC→CGC),A3,0
+pntB,coding (682/1389 nt),A3,0
+rpoA,C269R (TGC→CGC),A3,0
+ysgA,coding (64/816 nt),A3,0
+acnB,coding (2443‑2444/2598 nt),A3,0
+fruK,R296C (CGT→TGT),A3,0
+crr,coding (479‑484/510 nt),A3,0
+rpoS,coding (850/993 nt),A3,0
+rpoS,G279V (GGT→GTT),A3,1
+rpoA,T285I (ACC→ATC),A3,1
+yiiD,L227R (CTG→CGG),A3,1
+cpxR,R205H (CGT→CAT),A3,1
+mrdB,A88E (GCG→GAG),A3,0
+pntA,coding (677‑687/1533 nt),A3,0
+rpoS,R277* (CGA→TGA),A3,0
+fabZ,P56L (CCT→CTT),A3,0
+rep,I81S (ATC→AGC),A3,0
+sthA,S317G (AGC→GGC),A3,0
+rpoB,K1242Q (AAG→CAG),A3,0
+rpoC,R1174S (CGT→AGT),A3,0
+pntB,coding (430/1389 nt),A3,0
+yfeH,coding (297/999 nt),A3,0
+rpoS,coding (841/993 nt),A3,0
+cpxR,coding (585‑588/699 nt),A3,0
+icd,H366H (CAC→CAT),A4,0
+icd,T370T (ACC→ACT),A4,0
+icd,L375M (TTA→CTG),A4,0
+icd,L375M (TTA→CTG),A4,0
+pntA,S66* (TCA→TAA),A4,0
+crr,coding (479‑484/510 nt),A4,0
+rpoS,coding (595/993 nt),A4,0
+nagC,G73C (GGC→TGC),A4,0
+zwf,A22A (GCG→GCA),A4,0
+menC,coding (132‑135/963 nt),A4,0
+sthA,G20S (GGC→AGC),A4,0
+rpoB,N677S (AAC→AGC),A4,0
+rpoS,coding (597/993 nt),A4,0
+rpoA,coding (940‑959/990 nt),A4,0
+hfq,N48H (AAC→CAC),A4,0
+fimD,coding (2209‑2215/2637 nt),A4,0
+fis,coding (215‑229/297 nt),A4,0
+cyaA,Q392P (CAG→CCG),A4,0
+typA,coding (960/1824 nt),A4,0
+ispU,L220R (CTC→CGC),A4,0
+pntB,coding (682/1389 nt),A4,0
+rpoA,C269R (TGC→CGC),A4,0
+ysgA,coding (64/816 nt),A4,0
+acnB,coding (2443‑2444/2598 nt),A4,0
+fruK,R296C (CGT→TGT),A4,0
+crr,coding (479‑484/510 nt),A4,1
+rpoS,coding (850/993 nt),A4,0
+rpoS,G279V (GGT→GTT),A4,0
+rpoA,T285I (ACC→ATC),A4,0
+yiiD,L227R (CTG→CGG),A4,0
+cpxR,R205H (CGT→CAT),A4,0
+mrdB,A88E (GCG→GAG),A4,0
+pntA,coding (677‑687/1533 nt),A4,0
+rpoS,R277* (CGA→TGA),A4,0
+fabZ,P56L (CCT→CTT),A4,0
+rep,I81S (ATC→AGC),A4,0
+sthA,S317G (AGC→GGC),A4,0
+rpoB,K1242Q (AAG→CAG),A4,0
+rpoC,R1174S (CGT→AGT),A4,0
+pntB,coding (430/1389 nt),A4,1
+yfeH,coding (297/999 nt),A4,1
+rpoS,coding (841/993 nt),A4,1
+cpxR,coding (585‑588/699 nt),A4,1
+icd,H366H (CAC→CAT),A5,1
+icd,T370T (ACC→ACT),A5,1
+icd,L375M (TTA→CTG),A5,1
+icd,L375M (TTA→CTG),A5,1
+pntA,S66* (TCA→TAA),A5,0
+crr,coding (479‑484/510 nt),A5,0
+rpoS,coding (595/993 nt),A5,0
+nagC,G73C (GGC→TGC),A5,0
+zwf,A22A (GCG→GCA),A5,0
+menC,coding (132‑135/963 nt),A5,0
+sthA,G20S (GGC→AGC),A5,0
+rpoB,N677S (AAC→AGC),A5,0
+rpoS,coding (597/993 nt),A5,0
+rpoA,coding (940‑959/990 nt),A5,0
+hfq,N48H (AAC→CAC),A5,0
+fimD,coding (2209‑2215/2637 nt),A5,0
+fis,coding (215‑229/297 nt),A5,0
+cyaA,Q392P (CAG→CCG),A5,0
+typA,coding (960/1824 nt),A5,0
+ispU,L220R (CTC→CGC),A5,0
+pntB,coding (682/1389 nt),A5,0
+rpoA,C269R (TGC→CGC),A5,0
+ysgA,coding (64/816 nt),A5,0
+acnB,coding (2443‑2444/2598 nt),A5,1
+fruK,R296C (CGT→TGT),A5,1
+crr,coding (479‑484/510 nt),A5,1
+rpoS,coding (850/993 nt),A5,1
+rpoS,G279V (GGT→GTT),A5,0
+rpoA,T285I (ACC→ATC),A5,0
+yiiD,L227R (CTG→CGG),A5,0
+cpxR,R205H (CGT→CAT),A5,0
+mrdB,A88E (GCG→GAG),A5,0
+pntA,coding (677‑687/1533 nt),A5,0
+rpoS,R277* (CGA→TGA),A5,0
+fabZ,P56L (CCT→CTT),A5,0
+rep,I81S (ATC→AGC),A5,0
+sthA,S317G (AGC→GGC),A5,0
+rpoB,K1242Q (AAG→CAG),A5,0
+rpoC,R1174S (CGT→AGT),A5,0
+pntB,coding (430/1389 nt),A5,0
+yfeH,coding (297/999 nt),A5,0
+rpoS,coding (841/993 nt),A5,0
+cpxR,coding (585‑588/699 nt),A5,0
+icd,H366H (CAC→CAT),A6,0
+icd,T370T (ACC→ACT),A6,0
+icd,L375M (TTA→CTG),A6,0
+icd,L375M (TTA→CTG),A6,0
+pntA,S66* (TCA→TAA),A6,0
+crr,coding (479‑484/510 nt),A6,0
+rpoS,coding (595/993 nt),A6,0
+nagC,G73C (GGC→TGC),A6,0
+zwf,A22A (GCG→GCA),A6,0
+menC,coding (132‑135/963 nt),A6,0
+sthA,G20S (GGC→AGC),A6,0
+rpoB,N677S (AAC→AGC),A6,0
+rpoS,coding (597/993 nt),A6,1
+rpoA,coding (940‑959/990 nt),A6,1
+hfq,N48H (AAC→CAC),A6,1
+fimD,coding (2209‑2215/2637 nt),A6,1
+fis,coding (215‑229/297 nt),A6,0
+cyaA,Q392P (CAG→CCG),A6,0
+typA,coding (960/1824 nt),A6,0
+ispU,L220R (CTC→CGC),A6,0
+pntB,coding (682/1389 nt),A6,0
+rpoA,C269R (TGC→CGC),A6,0
+ysgA,coding (64/816 nt),A6,0
+acnB,coding (2443‑2444/2598 nt),A6,0
+fruK,R296C (CGT→TGT),A6,0
+crr,coding (479‑484/510 nt),A6,0
+rpoS,coding (850/993 nt),A6,0
+rpoS,G279V (GGT→GTT),A6,0
+rpoA,T285I (ACC→ATC),A6,0
+yiiD,L227R (CTG→CGG),A6,0
+cpxR,R205H (CGT→CAT),A6,0
+mrdB,A88E (GCG→GAG),A6,0
+pntA,coding (677‑687/1533 nt),A6,0
+rpoS,R277* (CGA→TGA),A6,0
+fabZ,P56L (CCT→CTT),A6,0
+rep,I81S (ATC→AGC),A6,0
+sthA,S317G (AGC→GGC),A6,0
+rpoB,K1242Q (AAG→CAG),A6,0
+rpoC,R1174S (CGT→AGT),A6,0
+pntB,coding (430/1389 nt),A6,0
+yfeH,coding (297/999 nt),A6,0
+rpoS,coding (841/993 nt),A6,0
+cpxR,coding (585‑588/699 nt),A6,0
+icd,H366H (CAC→CAT),A7,0
+icd,T370T (ACC→ACT),A7,0
+icd,L375M (TTA→CTG),A7,0
+icd,L375M (TTA→CTG),A7,0
+pntA,S66* (TCA→TAA),A7,0
+crr,coding (479‑484/510 nt),A7,0
+rpoS,coding (595/993 nt),A7,0
+nagC,G73C (GGC→TGC),A7,0
+zwf,A22A (GCG→GCA),A7,0
+menC,coding (132‑135/963 nt),A7,0
+sthA,G20S (GGC→AGC),A7,0
+rpoB,N677S (AAC→AGC),A7,0
+rpoS,coding (597/993 nt),A7,0
+rpoA,coding (940‑959/990 nt),A7,0
+hfq,N48H (AAC→CAC),A7,0
+fimD,coding (2209‑2215/2637 nt),A7,0
+fis,coding (215‑229/297 nt),A7,0
+cyaA,Q392P (CAG→CCG),A7,0
+typA,coding (960/1824 nt),A7,0
+ispU,L220R (CTC→CGC),A7,0
+pntB,coding (682/1389 nt),A7,0
+rpoA,C269R (TGC→CGC),A7,0
+ysgA,coding (64/816 nt),A7,0
+acnB,coding (2443‑2444/2598 nt),A7,0
+fruK,R296C (CGT→TGT),A7,0
+crr,coding (479‑484/510 nt),A7,1
+rpoS,coding (850/993 nt),A7,0
+rpoS,G279V (GGT→GTT),A7,0
+rpoA,T285I (ACC→ATC),A7,0
+yiiD,L227R (CTG→CGG),A7,0
+cpxR,R205H (CGT→CAT),A7,0
+mrdB,A88E (GCG→GAG),A7,1
+pntA,coding (677‑687/1533 nt),A7,1
+rpoS,R277* (CGA→TGA),A7,1
+fabZ,P56L (CCT→CTT),A7,0
+rep,I81S (ATC→AGC),A7,0
+sthA,S317G (AGC→GGC),A7,0
+rpoB,K1242Q (AAG→CAG),A7,0
+rpoC,R1174S (CGT→AGT),A7,0
+pntB,coding (430/1389 nt),A7,0
+yfeH,coding (297/999 nt),A7,0
+rpoS,coding (841/993 nt),A7,0
+cpxR,coding (585‑588/699 nt),A7,0
+icd,H366H (CAC→CAT),A8,0
+icd,T370T (ACC→ACT),A8,0
+icd,L375M (TTA→CTG),A8,0
+icd,L375M (TTA→CTG),A8,0
+pntA,S66* (TCA→TAA),A8,0
+crr,coding (479‑484/510 nt),A8,0
+rpoS,coding (595/993 nt),A8,0
+nagC,G73C (GGC→TGC),A8,1
+zwf,A22A (GCG→GCA),A8,0
+menC,coding (132‑135/963 nt),A8,0
+sthA,G20S (GGC→AGC),A8,1
+rpoB,N677S (AAC→AGC),A8,0
+rpoS,coding (597/993 nt),A8,0
+rpoA,coding (940‑959/990 nt),A8,0
+hfq,N48H (AAC→CAC),A8,0
+fimD,coding (2209‑2215/2637 nt),A8,0
+fis,coding (215‑229/297 nt),A8,1
+cyaA,Q392P (CAG→CCG),A8,1
+typA,coding (960/1824 nt),A8,1
+ispU,L220R (CTC→CGC),A8,0
+pntB,coding (682/1389 nt),A8,0
+rpoA,C269R (TGC→CGC),A8,0
+ysgA,coding (64/816 nt),A8,0
+acnB,coding (2443‑2444/2598 nt),A8,0
+fruK,R296C (CGT→TGT),A8,0
+crr,coding (479‑484/510 nt),A8,0
+rpoS,coding (850/993 nt),A8,0
+rpoS,G279V (GGT→GTT),A8,0
+rpoA,T285I (ACC→ATC),A8,0
+yiiD,L227R (CTG→CGG),A8,0
+cpxR,R205H (CGT→CAT),A8,0
+mrdB,A88E (GCG→GAG),A8,0
+pntA,coding (677‑687/1533 nt),A8,0
+rpoS,R277* (CGA→TGA),A8,0
+fabZ,P56L (CCT→CTT),A8,0
+rep,I81S (ATC→AGC),A8,0
+sthA,S317G (AGC→GGC),A8,0
+rpoB,K1242Q (AAG→CAG),A8,0
+rpoC,R1174S (CGT→AGT),A8,0
+pntB,coding (430/1389 nt),A8,0
+yfeH,coding (297/999 nt),A8,0
+rpoS,coding (841/993 nt),A8,0
+cpxR,coding (585‑588/699 nt),A8,0
+icd,H366H (CAC→CAT),A9,0
+icd,T370T (ACC→ACT),A9,0
+icd,L375M (TTA→CTG),A9,0
+icd,L375M (TTA→CTG),A9,0
+pntA,S66* (TCA→TAA),A9,0
+crr,coding (479‑484/510 nt),A9,0
+rpoS,coding (595/993 nt),A9,0
+nagC,G73C (GGC→TGC),A9,1
+zwf,A22A (GCG→GCA),A9,1
+menC,coding (132‑135/963 nt),A9,1
+sthA,G20S (GGC→AGC),A9,1
+rpoB,N677S (AAC→AGC),A9,1
+rpoS,coding (597/993 nt),A9,0
+rpoA,coding (940‑959/990 nt),A9,0
+hfq,N48H (AAC→CAC),A9,0
+fimD,coding (2209‑2215/2637 nt),A9,0
+fis,coding (215‑229/297 nt),A9,0
+cyaA,Q392P (CAG→CCG),A9,0
+typA,coding (960/1824 nt),A9,0
+ispU,L220R (CTC→CGC),A9,0
+pntB,coding (682/1389 nt),A9,0
+rpoA,C269R (TGC→CGC),A9,0
+ysgA,coding (64/816 nt),A9,0
+acnB,coding (2443‑2444/2598 nt),A9,0
+fruK,R296C (CGT→TGT),A9,0
+crr,coding (479‑484/510 nt),A9,0
+rpoS,coding (850/993 nt),A9,0
+rpoS,G279V (GGT→GTT),A9,0
+rpoA,T285I (ACC→ATC),A9,0
+yiiD,L227R (CTG→CGG),A9,0
+cpxR,R205H (CGT→CAT),A9,0
+mrdB,A88E (GCG→GAG),A9,0
+pntA,coding (677‑687/1533 nt),A9,0
+rpoS,R277* (CGA→TGA),A9,0
+fabZ,P56L (CCT→CTT),A9,0
+rep,I81S (ATC→AGC),A9,0
+sthA,S317G (AGC→GGC),A9,0
+rpoB,K1242Q (AAG→CAG),A9,0
+rpoC,R1174S (CGT→AGT),A9,0
+pntB,coding (430/1389 nt),A9,0
+yfeH,coding (297/999 nt),A9,0
+rpoS,coding (841/993 nt),A9,0
+cpxR,coding (585‑588/699 nt),A9,0
+icd,H366H (CAC→CAT),A10,0
+icd,T370T (ACC→ACT),A10,0
+icd,L375M (TTA→CTG),A10,0
+icd,L375M (TTA→CTG),A10,0
+pntA,S66* (TCA→TAA),A10,0
+crr,coding (479‑484/510 nt),A10,1
+rpoS,coding (595/993 nt),A10,0
+nagC,G73C (GGC→TGC),A10,0
+zwf,A22A (GCG→GCA),A10,0
+menC,coding (132‑135/963 nt),A10,0
+sthA,G20S (GGC→AGC),A10,0
+rpoB,N677S (AAC→AGC),A10,0
+rpoS,coding (597/993 nt),A10,0
+rpoA,coding (940‑959/990 nt),A10,0
+hfq,N48H (AAC→CAC),A10,0
+fimD,coding (2209‑2215/2637 nt),A10,0
+fis,coding (215‑229/297 nt),A10,0
+cyaA,Q392P (CAG→CCG),A10,0
+typA,coding (960/1824 nt),A10,0
+ispU,L220R (CTC→CGC),A10,1
+pntB,coding (682/1389 nt),A10,1
+rpoA,C269R (TGC→CGC),A10,1
+ysgA,coding (64/816 nt),A10,1
+acnB,coding (2443‑2444/2598 nt),A10,0
+fruK,R296C (CGT→TGT),A10,0
+crr,coding (479‑484/510 nt),A10,0
+rpoS,coding (850/993 nt),A10,0
+rpoS,G279V (GGT→GTT),A10,0
+rpoA,T285I (ACC→ATC),A10,0
+yiiD,L227R (CTG→CGG),A10,0
+cpxR,R205H (CGT→CAT),A10,0
+mrdB,A88E (GCG→GAG),A10,0
+pntA,coding (677‑687/1533 nt),A10,0
+rpoS,R277* (CGA→TGA),A10,0
+fabZ,P56L (CCT→CTT),A10,0
+rep,I81S (ATC→AGC),A10,0
+sthA,S317G (AGC→GGC),A10,0
+rpoB,K1242Q (AAG→CAG),A10,0
+rpoC,R1174S (CGT→AGT),A10,0
+pntB,coding (430/1389 nt),A10,0
+yfeH,coding (297/999 nt),A10,0
+rpoS,coding (841/993 nt),A10,0
+cpxR,coding (585‑588/699 nt),A10,0

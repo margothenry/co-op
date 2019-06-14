@@ -1,0 +1,52 @@
+gene,details,population,frequency
+rhsE,pseudogene (1317/2037 nt),A4,4
+gatC,pseudogene (1‑2/442 nt),A4,2
+rpoC,N720H (AAC→CAC),A4,4
+sdaA,coding (35‑38/1365 nt),A4,0
+rph,pseudogene (632‑641/669 nt),A4,0
+glpK,M272I (ATG→ATT),A4,0
+rpoB,E672K (GAA→AAA),A4,0
+ybbD,pseudogene (258‑261/491 nt),A4,0
+glpR,pseudogene (146/150 nt),A4,0.2
+cirA,I547N (ATC→AAC),A4,0
+tauD,A246G (GCG→GGG),A4,1
+yajQ,E25* (GAA→TAA),A4,2.15
+glpR,pseudogene (125/606 nt),A4,2.11
+glpK,K173Q (AAA→CAA),A4,4
+leuP,noncoding (72/87 nt),A4,1
+ptsP,P557L (CCG→CTG),A4,1
+glpR,pseudogene (382‑383/606 nt),A4,1
+rhsE,pseudogene (1317/2037 nt),A5,5
+gatC,pseudogene (1‑2/442 nt),A5,2
+rpoC,N720H (AAC→CAC),A5,0
+sdaA,coding (35‑38/1365 nt),A5,0
+rph,pseudogene (632‑641/669 nt),A5,0
+glpK,M272I (ATG→ATT),A5,5
+rpoB,E672K (GAA→AAA),A5,5
+ybbD,pseudogene (258‑261/491 nt),A5,0.77
+glpR,pseudogene (146/150 nt),A5,0
+cirA,I547N (ATC→AAC),A5,0
+tauD,A246G (GCG→GGG),A5,0
+yajQ,E25* (GAA→TAA),A5,0
+glpR,pseudogene (125/606 nt),A5,0
+glpK,K173Q (AAA→CAA),A5,0
+leuP,noncoding (72/87 nt),A5,0
+ptsP,P557L (CCG→CTG),A5,0
+glpR,pseudogene (382‑383/606 nt),A5,0
+rhsE,pseudogene (1317/2037 nt),A6,4
+gatC,pseudogene (1‑2/442 nt),A6,2
+rpoC,N720H (AAC→CAC),A6,0
+sdaA,coding (35‑38/1365 nt),A6,1
+rph,pseudogene (632‑641/669 nt),A6,1
+glpK,M272I (ATG→ATT),A6,3.94
+rpoB,E672K (GAA→AAA),A6,4
+ybbD,pseudogene (258‑261/491 nt),A6,0
+glpR,pseudogene (146/150 nt),A6,0
+cirA,I547N (ATC→AAC),A6,1
+tauD,A246G (GCG→GGG),A6,0
+yajQ,E25* (GAA→TAA),A6,0
+glpR,pseudogene (125/606 nt),A6,0
+glpK,K173Q (AAA→CAA),A6,0
+leuP,noncoding (72/87 nt),A6,0
+ptsP,P557L (CCG→CTG),A6,0
+glpR,pseudogene (382‑383/606 nt),A6,0

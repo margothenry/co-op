@@ -1,0 +1,15 @@
+﻿population,gene,details,frequency
+39.91,efeU,(+)GTAC,1
+39.91,"putP, efeU",intergenic,1
+39.91,"pyrE, rph",intergenic,1
+39.91,rpoC,H419P,1
+29.82,glmU,A322T,1
+29.82,oxyR,A204E,1
+29.82,"rph, rph",intergenic,1
+29.82,rpoB,P552L,1
+30.83,icd,"H366H, T370T",1
+30.83,rpoA,G36V,1
+30.83,"rpsM, rpmJ",intergenic,1
+30.83,"dicA, ydfA",intergenic,1
+30.83,oxyR,A174E,1
+30.83,lpoA,I502M,1

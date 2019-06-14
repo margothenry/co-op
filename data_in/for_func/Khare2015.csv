@@ -1,0 +1,18 @@
+selective_pressure,population,annotation,gene,frequency
+ΔpvdJ spent media,pvdJ1,coding,mprA,1
+NA,pvdJ1,coding,mprA,1
+NA,pvdJ2,pseudogene,stfE,1
+NA,pvdJ2,coding,mprA,1
+NA,pvdJ2,coding,mprA,1
+NA,pvdJ2,IS1-mediated,[yhhW]-yrhA,1
+NA,pvdJ2,G257A,appA,1
+NA,pvdJ2,coding,mprA,1
+NA,pvdJ2,IS1-mediated,yhhY-yrhA,1
+NA,pvdJ3,coding,acrR,1
+NA,pvdJ3,D109A,mprA,1
+NA,pvdJ3,coding,acrR,1
+NA,pvdJ3,D109A,mprA,1
+NA,pvdJ3,D109A,mprA,1
+NA,pvdJ3,G381G,ggt,1
+NA,pvdJ3,A397P,xylB,1
+NA,pvdJ3,V162G,nusG,1

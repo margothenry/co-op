@@ -1,0 +1,189 @@
+gene,details,population,frequency
+"ychE, oppA",intergenic (+254/‑485),A1 F116 I1 R1,0
+"insA, uspC",intergenic (‑271/‑264),A1 F116 I1 R1,1
+"gatC, gatC",intergenic (‑1/+1),A1 F116 I1 R1,1
+"glpR, glpR",intergenic (‑2/+1),A1 F116 I1 R1,1
+"gltP, yjcO",intergenic (+587/+55),A1 F116 I1 R1,1
+rho,R87L (CGC→CTC),A1 F116 I1 R1,0
+"frmR, yaiO",intergenic (‑141/+47),A1 F116 I1 R1,0
+mhpR,coding (568‑569/834 nt),A1 F116 I1 R1,0
+rpoC,L770R (CTC→CGC),A1 F116 I1 R1,1
+ybeX,D152Y (GAC→TAC),A1 F116 I1 R1,0
+eutH,D116G (GAC→GGC),A1 F116 I1 R1,0
+rpoA,G315S (GGC→AGC),A1 F116 I1 R1,0
+xylR,R121C (CGC→TGC),A1 F116 I1 R1,1
+dnaG,G164A (GGC→GCC),A1 F116 I1 R1,0
+rpoC,R1075L (CGT→CTT),A1 F116 I1 R1,0
+rpoC,Q1367* (CAG→TAG),A1 F116 I1 R1,0
+"fimE, fimA",intergenic (+297/‑185),A1 F116 I1 R1,0
+rhsD,G672G (GGC→GGT),A1 F116 I1 R1,0
+"fabI, ycjD",intergenic (‑157/+211),A1 F116 I1 R1,0
+quuQ,I87M (ATC→ATG),A1 F116 I1 R1,0
+ydhQ,E141G (GAG→GGG),A1 F116 I1 R1,0
+ydiZ,T86T (ACG→ACA),A1 F116 I1 R1,0
+"flhD, insB1",intergenic (‑243/+78),A1 F116 I1 R1,0
+yeeJ,A2200T (GCC→ACC),A1 F116 I1 R1,0
+yegX,coding (255/819 nt),A1 F116 I1 R1,0
+cirA,P309S (CCG→TCG),A1 F116 I1 R1,0
+upp,coding (439/627 nt),A1 F116 I1 R1,0
+mutS,E186* (GAA→TAA),A1 F116 I1 R1,0
+"queE, yqcG",intergenic (‑121/‑18),A1 F116 I1 R1,0
+ygjK,N314D (AAC→GAC),A1 F116 I1 R1,0
+kdsD,coding (842/987 nt),A1 F116 I1 R1,0
+gspF,A21A (GCT→GCC),A1 F116 I1 R1,0
+livM,coding (456/1278 nt),A1 F116 I1 R1,0
+"nikR, rhsB",intergenic (+161/‑42),A1 F116 I1 R1,0
+rhsB,T1036T (ACG→ACA),A1 F116 I1 R1,0
+rhsB,R1041R (AGG→AGA),A1 F116 I1 R1,0
+rhsB,S1042T (AGC→ACC),A1 F116 I1 R1,0
+xylR,T9A (ACA→GCA),A1 F116 I1 R1,0
+lldP,T46M (ACG→ATG),A1 F116 I1 R1,0
+viaA,A225V (GCC→GTC),A1 F116 I1 R1,0
+rho,G46D (GGC→GAC),A1 F116 I1 R1,0
+yihL,L158L (CTT→CTC),A1 F116 I1 R1,0
+yjcC,M148V (ATG→GTG),A1 F116 I1 R1,0
+ytfT,coding (865/1026 nt),A1 F116 I1 R1,0
+treC,coding (547/1656 nt),A1 F116 I1 R1,0
+opgB,W652R (TGG→CGG),A1 F116 I1 R1,0
+"yjjG, prfC",intergenic (+13/‑78),A1 F116 I1 R1,0
+"ychE, oppA",intergenic (+254/‑485),A2 F109 I1 R1,0
+"insA, uspC",intergenic (‑271/‑264),A2 F109 I1 R1,1
+"gatC, gatC",intergenic (‑1/+1),A2 F109 I1 R1,1
+"glpR, glpR",intergenic (‑2/+1),A2 F109 I1 R1,1
+"gltP, yjcO",intergenic (+587/+55),A2 F109 I1 R1,1
+rho,R87L (CGC→CTC),A2 F109 I1 R1,0
+"frmR, yaiO",intergenic (‑141/+47),A2 F109 I1 R1,0
+mhpR,coding (568‑569/834 nt),A2 F109 I1 R1,0
+rpoC,L770R (CTC→CGC),A2 F109 I1 R1,0
+ybeX,D152Y (GAC→TAC),A2 F109 I1 R1,0
+eutH,D116G (GAC→GGC),A2 F109 I1 R1,0
+rpoA,G315S (GGC→AGC),A2 F109 I1 R1,0
+xylR,R121C (CGC→TGC),A2 F109 I1 R1,0
+dnaG,G164A (GGC→GCC),A2 F109 I1 R1,1
+rpoC,R1075L (CGT→CTT),A2 F109 I1 R1,1
+rpoC,Q1367* (CAG→TAG),A2 F109 I1 R1,1
+"fimE, fimA",intergenic (+297/‑185),A2 F109 I1 R1,1
+rhsD,G672G (GGC→GGT),A2 F109 I1 R1,0
+"fabI, ycjD",intergenic (‑157/+211),A2 F109 I1 R1,0
+quuQ,I87M (ATC→ATG),A2 F109 I1 R1,0
+ydhQ,E141G (GAG→GGG),A2 F109 I1 R1,0
+ydiZ,T86T (ACG→ACA),A2 F109 I1 R1,0
+"flhD, insB1",intergenic (‑243/+78),A2 F109 I1 R1,0
+yeeJ,A2200T (GCC→ACC),A2 F109 I1 R1,0
+yegX,coding (255/819 nt),A2 F109 I1 R1,0
+cirA,P309S (CCG→TCG),A2 F109 I1 R1,0
+upp,coding (439/627 nt),A2 F109 I1 R1,0
+mutS,E186* (GAA→TAA),A2 F109 I1 R1,0
+"queE, yqcG",intergenic (‑121/‑18),A2 F109 I1 R1,0
+ygjK,N314D (AAC→GAC),A2 F109 I1 R1,0
+kdsD,coding (842/987 nt),A2 F109 I1 R1,0
+gspF,A21A (GCT→GCC),A2 F109 I1 R1,0
+livM,coding (456/1278 nt),A2 F109 I1 R1,0
+"nikR, rhsB",intergenic (+161/‑42),A2 F109 I1 R1,0
+rhsB,T1036T (ACG→ACA),A2 F109 I1 R1,0
+rhsB,R1041R (AGG→AGA),A2 F109 I1 R1,0
+rhsB,S1042T (AGC→ACC),A2 F109 I1 R1,0
+xylR,T9A (ACA→GCA),A2 F109 I1 R1,0
+lldP,T46M (ACG→ATG),A2 F109 I1 R1,0
+viaA,A225V (GCC→GTC),A2 F109 I1 R1,0
+rho,G46D (GGC→GAC),A2 F109 I1 R1,0
+yihL,L158L (CTT→CTC),A2 F109 I1 R1,0
+yjcC,M148V (ATG→GTG),A2 F109 I1 R1,0
+ytfT,coding (865/1026 nt),A2 F109 I1 R1,0
+treC,coding (547/1656 nt),A2 F109 I1 R1,0
+opgB,W652R (TGG→CGG),A2 F109 I1 R1,0
+"yjjG, prfC",intergenic (+13/‑78),A2 F109 I1 R1,0
+"ychE, oppA",intergenic (+254/‑485),A3 F112 I1 R1,0
+"insA, uspC",intergenic (‑271/‑264),A3 F112 I1 R1,0
+"gatC, gatC",intergenic (‑1/+1),A3 F112 I1 R1,1
+"glpR, glpR",intergenic (‑2/+1),A3 F112 I1 R1,1
+"gltP, yjcO",intergenic (+587/+55),A3 F112 I1 R1,1
+rho,R87L (CGC→CTC),A3 F112 I1 R1,1
+"frmR, yaiO",intergenic (‑141/+47),A3 F112 I1 R1,0
+mhpR,coding (568‑569/834 nt),A3 F112 I1 R1,0
+rpoC,L770R (CTC→CGC),A3 F112 I1 R1,0
+ybeX,D152Y (GAC→TAC),A3 F112 I1 R1,1
+eutH,D116G (GAC→GGC),A3 F112 I1 R1,1
+rpoA,G315S (GGC→AGC),A3 F112 I1 R1,1
+xylR,R121C (CGC→TGC),A3 F112 I1 R1,0
+dnaG,G164A (GGC→GCC),A3 F112 I1 R1,0
+rpoC,R1075L (CGT→CTT),A3 F112 I1 R1,0
+rpoC,Q1367* (CAG→TAG),A3 F112 I1 R1,0
+"fimE, fimA",intergenic (+297/‑185),A3 F112 I1 R1,0
+rhsD,G672G (GGC→GGT),A3 F112 I1 R1,0
+"fabI, ycjD",intergenic (‑157/+211),A3 F112 I1 R1,0
+quuQ,I87M (ATC→ATG),A3 F112 I1 R1,0
+ydhQ,E141G (GAG→GGG),A3 F112 I1 R1,0
+ydiZ,T86T (ACG→ACA),A3 F112 I1 R1,0
+"flhD, insB1",intergenic (‑243/+78),A3 F112 I1 R1,0
+yeeJ,A2200T (GCC→ACC),A3 F112 I1 R1,0
+yegX,coding (255/819 nt),A3 F112 I1 R1,0
+cirA,P309S (CCG→TCG),A3 F112 I1 R1,0
+upp,coding (439/627 nt),A3 F112 I1 R1,0
+mutS,E186* (GAA→TAA),A3 F112 I1 R1,0
+"queE, yqcG",intergenic (‑121/‑18),A3 F112 I1 R1,0
+ygjK,N314D (AAC→GAC),A3 F112 I1 R1,0
+kdsD,coding (842/987 nt),A3 F112 I1 R1,0
+gspF,A21A (GCT→GCC),A3 F112 I1 R1,0
+livM,coding (456/1278 nt),A3 F112 I1 R1,0
+"nikR, rhsB",intergenic (+161/‑42),A3 F112 I1 R1,0
+rhsB,T1036T (ACG→ACA),A3 F112 I1 R1,0
+rhsB,R1041R (AGG→AGA),A3 F112 I1 R1,0
+rhsB,S1042T (AGC→ACC),A3 F112 I1 R1,0
+xylR,T9A (ACA→GCA),A3 F112 I1 R1,0
+lldP,T46M (ACG→ATG),A3 F112 I1 R1,0
+viaA,A225V (GCC→GTC),A3 F112 I1 R1,0
+rho,G46D (GGC→GAC),A3 F112 I1 R1,0
+yihL,L158L (CTT→CTC),A3 F112 I1 R1,0
+yjcC,M148V (ATG→GTG),A3 F112 I1 R1,0
+ytfT,coding (865/1026 nt),A3 F112 I1 R1,0
+treC,coding (547/1656 nt),A3 F112 I1 R1,0
+opgB,W652R (TGG→CGG),A3 F112 I1 R1,0
+"yjjG, prfC",intergenic (+13/‑78),A3 F112 I1 R1,0
+"ychE, oppA",intergenic (+254/‑485),A4 F113 I1 R1,1
+"insA, uspC",intergenic (‑271/‑264),A4 F113 I1 R1,1
+"gatC, gatC",intergenic (‑1/+1),A4 F113 I1 R1,1
+"glpR, glpR",intergenic (‑2/+1),A4 F113 I1 R1,1
+"gltP, yjcO",intergenic (+587/+55),A4 F113 I1 R1,1
+rho,R87L (CGC→CTC),A4 F113 I1 R1,0
+"frmR, yaiO",intergenic (‑141/+47),A4 F113 I1 R1,1
+mhpR,coding (568‑569/834 nt),A4 F113 I1 R1,1
+rpoC,L770R (CTC→CGC),A4 F113 I1 R1,0
+ybeX,D152Y (GAC→TAC),A4 F113 I1 R1,0
+eutH,D116G (GAC→GGC),A4 F113 I1 R1,0
+rpoA,G315S (GGC→AGC),A4 F113 I1 R1,0
+xylR,R121C (CGC→TGC),A4 F113 I1 R1,0
+dnaG,G164A (GGC→GCC),A4 F113 I1 R1,0
+rpoC,R1075L (CGT→CTT),A4 F113 I1 R1,0
+rpoC,Q1367* (CAG→TAG),A4 F113 I1 R1,0
+"fimE, fimA",intergenic (+297/‑185),A4 F113 I1 R1,0
+rhsD,G672G (GGC→GGT),A4 F113 I1 R1,1
+"fabI, ycjD",intergenic (‑157/+211),A4 F113 I1 R1,1
+quuQ,I87M (ATC→ATG),A4 F113 I1 R1,1
+ydhQ,E141G (GAG→GGG),A4 F113 I1 R1,1
+ydiZ,T86T (ACG→ACA),A4 F113 I1 R1,1
+"flhD, insB1",intergenic (‑243/+78),A4 F113 I1 R1,1
+yeeJ,A2200T (GCC→ACC),A4 F113 I1 R1,1
+yegX,coding (255/819 nt),A4 F113 I1 R1,1
+cirA,P309S (CCG→TCG),A4 F113 I1 R1,1
+upp,coding (439/627 nt),A4 F113 I1 R1,1
+mutS,E186* (GAA→TAA),A4 F113 I1 R1,1
+"queE, yqcG",intergenic (‑121/‑18),A4 F113 I1 R1,1
+ygjK,N314D (AAC→GAC),A4 F113 I1 R1,1
+kdsD,coding (842/987 nt),A4 F113 I1 R1,1
+gspF,A21A (GCT→GCC),A4 F113 I1 R1,1
+livM,coding (456/1278 nt),A4 F113 I1 R1,1
+"nikR, rhsB",intergenic (+161/‑42),A4 F113 I1 R1,1
+rhsB,T1036T (ACG→ACA),A4 F113 I1 R1,1
+rhsB,R1041R (AGG→AGA),A4 F113 I1 R1,1
+rhsB,S1042T (AGC→ACC),A4 F113 I1 R1,1
+xylR,T9A (ACA→GCA),A4 F113 I1 R1,1
+lldP,T46M (ACG→ATG),A4 F113 I1 R1,1
+viaA,A225V (GCC→GTC),A4 F113 I1 R1,1
+rho,G46D (GGC→GAC),A4 F113 I1 R1,1
+yihL,L158L (CTT→CTC),A4 F113 I1 R1,1
+yjcC,M148V (ATG→GTG),A4 F113 I1 R1,1
+ytfT,coding (865/1026 nt),A4 F113 I1 R1,1
+treC,coding (547/1656 nt),A4 F113 I1 R1,1
+opgB,W652R (TGG→CGG),A4 F113 I1 R1,1
+"yjjG, prfC",intergenic (+13/‑78),A4 F113 I1 R1,1

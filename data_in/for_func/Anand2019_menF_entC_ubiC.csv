@@ -1,0 +1,20 @@
+population,gene,details,frequency
+36.86,efeU,(TG)3 -> 2,1
+36.86,arcB,S83L,1
+36.86,gltD,C47*,1
+36.86,rph,Δ29 bp,1
+36.86,yejM,(GTGAAAGA)2 -> 3,1
+36.86,rlmJ,L224L,1
+36.86,yneJ,I226F,1
+37.25,efeU,(+CGAG),1
+37.25,sdhB,R9S,1
+37.25,proQ,(+A),1
+37.25,lptF,(TGG)3 -> 2,1
+37.25,ettA,K120*,1
+37.25,arcA,F139Y,1
+38.28,efeU,(+GTAC),1
+38.28,ykfH,R7P,1
+38.28,sdhA,P328T,1
+38.28,asmA,S326*,1
+38.28,rpoS,(+CG),1
+38.28,sspA,S9L,1

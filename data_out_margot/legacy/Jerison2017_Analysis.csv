@@ -1,9 +1,0 @@
-paper,environment,generations,c_hyper,p_chisq,estimate,N_genes.notParallel,N_genes.parallel,parallel_genes
-Jerison2017,YPD,clone1_OT,10.466,0.005,0.012,39,4,"ENP2, Intergenic, IRA1, PDE2"
-Jerison2017,YPD,clone2_HT,6.247,0.005,0.025,72,10,"BFR2, ENP2, Intergenic, IRA1, IRA2, KRE33, SIR3, SIR4, SRS2, UTP20"
-Jerison2017,YPD,clone2_OT,7.03,0.005,0.011,35,5,"BUD23, Intergenic, IRA1, IRA2, KRE33"
-Jerison2017,YPD,clone3_HT,8.993,0.005,0.025,78,11,"BFR2, ENP2, Intergenic, IRA1, KRE33, PDE2, RPS8A, SIR3, SIR4, UTP20, YLR072W"
-Jerison2017,YPD,clone3_OT,11.966,0.005,0.006,24,6,"BMS1, ENP2, Intergenic, IRA1, KRE33, SIR3"
-Jerison2017,YPD,clone4_OT,5.572,0.005,0.012,38,7,"BFR2, BMS1, ENP2, Intergenic, IRA1, KRE33, STE11"
-Jerison2017,YPD,clone1_HT,12.206,0.005,0.016,52,9,"BFR2, ENP2, GYP6, Intergenic, IRA1, PDE2, SIR3, SIR4, UBA2"
-Jerison2017,YPD,clone4_HT,6.766,0.005,0.017,54,10,"BFR2, ENP2, GPB2, Intergenic, IRA1, KRE33, PDE2, SIR2, SIR3, SIR4"

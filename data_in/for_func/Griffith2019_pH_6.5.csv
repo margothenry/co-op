@@ -1,0 +1,3475 @@
+gene,annotation,population,frequency
+dnaK ?,L131P (CTG?CCG) ,C-A1-1,0
+nhaA ?,V224G (GTT?GGT) ,C-A1-1,0
+rrlH ?,noncoding (538/2904 nt),C-A1-1,0
+ykfJ–[insH],insH-mediated,C-A1-1,0
+Y75_RS01440 ?,coding (58/225 nt),C-A1-1,0
+acrB ?,coding (247/3150 nt),C-A1-1,1
+acrA ?,Q116* (CAG?TAG) ,C-A1-1,0
+ybbA ?,L157Q (CTG?CAG) ,C-A1-1,0
+allR ?,A13A (GCG?GCT) ,C-A1-1,0
+cecR ?,Y51N (TAC?AAC) ,C-A1-1,0
+cecR ?,Y50C (TAC?TGC) ,C-A1-1,0
+lrp ?,coding (411/495 nt),C-A1-1,0
+ycaM ?,coding (172/1431 nt),C-A1-1,0
+mukB ?,R73R (CGC?CGT) ,C-A1-1,1
+hyaC ?,T35I (ACC?ATC) ,C-A1-1,0
+ycdO ?,K52K (AAA?AAG) ,C-A1-1,0
+Y75_RS05380-[Y75_RS05385],duplication (362bp),C-A1-1,1
+Y75_RS05380-[serX],duplication (442bp),C-A1-1,0
+fabF ?,G202A (GGT?GCT) ,C-A1-1,0
+ptsG ?,coding (87?983/1434 nt),C-A1-1,1
+nhaB ?,coding (1164?1295/1542 nt),C-A1-1,1
+nhaB ?,coding (364/1542 nt),C-A1-1,0
+adhE ?,A626V (GCG?GTG) ,C-A1-1,0
+adhE ?,H565L (CAC?CTC) ,C-A1-1,0
+adhE ?,H565R (CAC?CGC) ,C-A1-1,0
+adhE ?,W556R (TGG?CGG) ,C-A1-1,0
+adhE ?,L371Q (CTG?CAG) ,C-A1-1,0
+adhE ?,Y77H (TAC?CAC) ,C-A1-1,0
+sapD ?,coding (936/993 nt),C-A1-1,0
+ydcI ?,coding (189/924 nt),C-A1-1,0
+yncD ?,D654G (GAT?GGT) ,C-A1-1,0
+Y75_RS07695 ?,coding (1436/1800 nt),C-A1-1,0
+hipA-flxA,duplication (56260 bp),C-A1-1,0
+ydiM ?,coding (995/1215 nt),C-A1-1,0
+yeaA ?,coding (5/414 nt),C-A1-1,0
+yeaR ?,coding (112/360 nt),C-A1-1,0
+Y75_RS09615 ?,coding (92/207 nt),C-A1-1,0
+otsB ?,L67R (CTT?CGT) ,C-A1-1,0
+gatD ?,coding (166/1041 nt),C-A1-1,0
+glpB ?,T340T (ACG?ACC) ,C-A1-1,0
+menC ?,coding (128/963 nt),C-A1-1,0
+purF ?,R74L (CGT?CTT) ,C-A1-1,0
+aroC ?,P31Q (CCG?CAG) ,C-A1-1,0
+crr ?,coding (487/510 nt),C-A1-1,0
+nlpB ?,R223S (CGT?AGT) ,C-A1-1,0
+pbpC ?,S342T (TCA?ACA) ,C-A1-1,0
+csiE ?,T299P (ACC?CCC) ,C-A1-1,0
+srmB ?,coding (664/1335 nt),C-A1-1,0
+kgtP ?,coding (375/1299 nt),C-A1-1,0
+mprA ?,coding (110/531 nt),C-A1-1,0
+mprA ?,coding (155?163/531 nt),C-A1-1,0
+mprA ?,L64R (CTG?CGG) ,C-A1-1,0
+mprA ?,coding (299?356/531 nt),C-A1-1,0
+mprA ?,D109V (GAT?GTT) ,C-A1-1,1
+mprA ?,D109E (GAT?GAG) ,C-A1-1,0
+mprA ?,C112* (TGC?TGA) ,C-A1-1,0
+mprA ?,coding (344?412/531 nt),C-A1-1,0
+mprA ?,G121D (GGT?GAT) ,C-A1-1,0
+mprA ?,W140* (TGG?TGA) ,C-A1-1,0
+emrA ?,L24H (CTC?CAC) ,C-A1-1,0
+emrA ?,I313L (ATC?CTC) ,C-A1-1,0
+emrB ?,M219I (ATG?ATA) ,C-A1-1,0
+emrB ?,E297V (GAG?GTG) ,C-A1-1,1
+emrB ?,V337A (GTA?GCA) ,C-A1-1,0
+emrB ?,P357L (CCA?CTA) ,C-A1-1,0
+emrB ?,S411A (TCT?GCT) ,C-A1-1,0
+rpoS ?,P166L (CCA?CTA) ,C-A1-1,0
+rpoS ?,Q13* (CAG?TAG) ,C-A1-1,0
+nlpD ?,coding (656/1140 nt),C-A1-1,1
+ygbE ?,G81* (GGA?TGA) ,C-A1-1,0
+yghB ?,coding (645/660 nt),C-A1-1,0
+rpoD ?,Y571H (TAC?CAC) ,C-A1-1,0
+yhaC ?,G146R (GGG?AGG) ,C-A1-1,0
+sohA ?,coding (272/336 nt),C-A1-1,1
+rng ?,E404* (GAA?TAA) ,C-A1-1,0
+rng ?,L368* (TTG?TAG) ,C-A1-1,0
+rng ?,L280P (CTG?CCG) ,C-A1-1,0
+rng ?,E227* (GAA?TAA) ,C-A1-1,0
+rpoC ?,Q477R (CAG?CGG) ,C-A1-1,0
+rpoB ?,R944C (CGT?TGT) ,C-A1-1,1
+rpoB ?,S182A (TCC?GCC) ,C-A1-1,0
+cyaA ?,N804K (AAC?AAA) ,C-A1-1,0
+cyaA ?,Q671* (CAG?TAG) ,C-A1-1,0
+cyaA ?,coding (1552/2547 nt),C-A1-1,0
+rho ?,K105E (AAA?GAA) ,C-A1-1,0
+rbsR ?,A300E (GCG?GAG) ,C-A1-1,0
+spoT ?,W339R (TGG?AGG) ,C-A1-1,0
+glyQ ?,coding (728/912 nt),C-A1-1,0
+bcsB ?,D212N (GAC?AAC) ,C-A1-1,0
+gadE ?,coding (234/528 nt),C-A1-1,0
+yhiF ?,coding (167/531 nt),C-A1-1,1
+pitA ?,coding (578/1500 nt),C-A1-1,0
+greB ?,V91G (GTG?GGG) ,C-A1-1,0
+rpoA ?,coding (585?590/990 nt),C-A1-1,0
+metH ?,F951C (TTT?TGT) ,C-A1-1,0
+plsB ?,S740Y (TCC?TAC) ,C-A1-1,0
+plsB ?,L453Q (CTG?CAG) ,C-A1-1,1
+plsB ?,L449Q (CTG?CAG) ,C-A1-1,0
+plsB ?,E438A (GAA?GCA) ,C-A1-1,0
+plsB ?,G341R (GGG?AGG) ,C-A1-1,0
+plsB ?,M128R (ATG?AGG) ,C-A1-1,0
+alsE ?,K58Q (AAA?CAA) ,C-A1-1,0
+yjeP ?,G596G (GGG?GGA) ,C-A1-1,0
+ytfI ?,F124L (TTC?TTA) ,C-A1-1,0
+ytfQ ?,T125I (ACC?ATC) ,C-A1-1,0
+treB ?,C401F (TGC?TTC) ,C-A1-1,0
+Y75_RS22485 ?,coding (110/132 nt),C-A1-1,0
+fimE ?,coding (128/597 nt),C-A1-1,0
+fimE ?,coding (258/597 nt),C-A1-1,0
+fimE ?,T87N (ACC?AAC) ,C-A1-1,0
+fimE ?,coding (417/597 nt),C-A1-1,0
+fimE ?,coding (511/597 nt),C-A1-1,0
+yjjM ?,coding (63/915 nt),C-A1-1,0
+arcA ?,E94K (GAA?AAA) ,C-A1-1,0
+arcA ?,T3P (ACC?CCC) ,C-A1-1,0
+carB ?,T646A (ACC?GCC) ,C-A1-1,0
+ksgA ?,G8D (GGC?GAC) ,C-A1-1,0
+imp ?,A553T (GCC?ACC) ,C-A1-1,0
+yabQ ?,L39L (CTG?CTA) ,C-A1-1,0
+araA ?,D470N (GAC?AAC) ,C-A1-1,0
+yabI ?,R207C (CGT?TGT) ,C-A1-1,0
+leuO ?,A32V (GCC?GTC) ,C-A1-1,0
+mraZ ?,N29S (AAC?AGC) ,C-A1-1,0
+ampE ?,K36K (AAA?AAG) ,C-A1-1,0
+lpd ?,V408A (GTG?GCG) ,C-A1-1,0
+mrcB ?,S280S (AGC?AGT) ,C-A1-1,0
+fhuB ?,N249S (AAC?AGC) ,C-A1-1,0
+proS ?,N62S (AAC?AGC) ,C-A1-1,0
+metQ ?,A240T (GCC?ACC) ,C-A1-1,0
+yafU ?,C60R (TGT?CGT) ,C-A1-1,0
+ivy ?,D134G (GAT?GGT) ,C-A1-1,0
+fadE ?,C455C (TGT?TGC) ,C-A1-1,0
+ykfJ ?,R10R (CGT?CGC) ,C-A1-1,0
+insI ?,S192S (TCG?TCA) ,C-A1-1,0
+ykfC ?,L106L (TTG?CTG) ,C-A1-1,0
+mmuP ?,A78V (GCG?GTG) ,C-A1-1,0
+yagJ ?,A28V (GCG?GTG) ,C-A1-1,0
+yagM ?,S215P (TCA?CCA) ,C-A1-1,0
+intF ?,S189S (TCG?TCA) ,C-A1-1,0
+ykgL ?,Y24C (TAC?TGC) ,C-A1-1,0
+insF ?,G276S (GGC?AGC) ,C-A1-1,0
+ykgC ?,A242A (GCG?GCA) ,C-A1-1,0
+betI ?,R10W (CGG?TGG) ,C-A1-1,0
+yahJ ?,coding (1236/1383 nt),C-A1-1,0
+lacZ ?,G181R (GGA?AGA) ,C-A1-1,0
+frmA ?,A209A (GCG?GCA) ,C-A1-1,0
+yaiU ?,N301S (AAC?AGC) ,C-A1-1,0
+mak ?,coding (755/909 nt),C-A1-1,0
+tsx ?,G95G (GGT?GGC) ,C-A1-1,0
+yajL ?,A5T (GCA?ACA) ,C-A1-1,0
+lon ?,Q300R (CAG?CGG) ,C-A1-1,0
+acrB ?,W187* (TGG?TAG) ,C-A1-1,0
+rhsD ?,R1227W (CGG?TGG) ,C-A1-1,0
+rzpD ?,S109S (TCC?TCT) ,C-A1-1,0
+cusS ?,I397T (ATT?ACT) ,C-A1-1,0
+insL ?,coding (1083/1113 nt),C-A1-1,0
+fepA ?,A405V (GCA?GTA) ,C-A1-1,0
+entB ?,A213T (GCC?ACC) ,C-A1-1,0
+ybdH ?,V265A (GTG?GCG) ,C-A1-1,0
+mrdA ?,V345A (GTG?GCG) ,C-A1-1,0
+miaB ?,V410A (GTC?GCC) ,C-A1-1,0
+ybfO ?,coding (917/1434 nt),C-A1-1,0
+tolQ ?,Q70R (CAG?CGG) ,C-A1-1,0
+modF ?,A44T (GCC?ACC) ,C-A1-1,0
+ybhI ?,H362Y (CAC?TAC) ,C-A1-1,0
+bioF ?,A244A (GCG?GCA) ,C-A1-1,0
+ybhS ?,E209E (GAA?GAG) ,C-A1-1,0
+dinG ?,A2V (GCA?GTA) ,C-A1-1,0
+glnP ?,R131R (CGT?CGC) ,C-A1-1,0
+ybiW ?,T524I (ACC?ATC) ,C-A1-1,0
+ftsK ?,G144G (GGC?GGT) ,C-A1-1,0
+ycaM ?,Q103R (CAA?CGA) ,C-A1-1,0
+ycbX ?,R318R (CGT?CGC) ,C-A1-1,0
+ycbY ?,T564A (ACC?GCC) ,C-A1-1,0
+yccR ?,D196G (GAC?GGC) ,C-A1-1,0
+torS ?,A450A (GCG?GCA) ,C-A1-1,0
+ycdC ?,V198A (GTT?GCT) ,C-A1-1,0
+ycdQ ?,M423I (ATG?ATA) ,C-A1-1,0
+ycdU ?,F124L (TTC?CTC) ,C-A1-1,0
+ycdU ?,C171C (TGC?TGT) ,C-A1-1,0
+mdoH ?,R769C (CGC?TGC) ,C-A1-1,0
+mviM ?,K146K (AAA?AAG) ,C-A1-1,0
+flgG ?,Q124* (CAG?TAG) ,C-A1-1,0
+rne ?,E664K (GAA?AAA) ,C-A1-1,0
+plsX ?,A149V (GCC?GTC) ,C-A1-1,0
+ycfH ?,R215Q (CGA?CAA) ,C-A1-1,0
+icd ?,H366H (CAC?CAT) ,C-A1-1,0
+icd ?,T370T (ACC?ACT) ,C-A1-1,0
+dsbB ?,G11G (GGC?GGT) ,C-A1-1,0
+nhaB ?,coding (1164?1295/1542 nt),C-A1-1,0
+nhaB ?,R196H (CGT?CAT) ,C-A1-1,0
+cvrA ?,T153M (ACG?ATG) ,C-A1-1,0
+ycgV ?,coding (2098/2868 nt),C-A1-1,0
+ychM ?,I145I (ATC?ATT) ,C-A1-1,0
+chaA ?,V21I (GTT?ATT) ,C-A1-1,0
+yciS ?,V93V (GTA?GTG) ,C-A1-1,0
+sapA ?,R292R (CGT?CGC) ,C-A1-1,0
+puuB ?,A391V (GCC?GTC) ,C-A1-1,0
+pspF ?,P223S (CCG?TCG) ,C-A1-1,0
+pspC ?,P68L (CCG?CTG) ,C-A1-1,0
+ycjG ?,T15A (ACC?GCC) ,C-A1-1,0
+intR ?,G270R (GGG?AGG) ,C-A1-1,0
+ldhA ?,E107E (GAA?GAG) ,C-A1-1,0
+feaB ?,R129R (CGT?CGC) ,C-A1-1,0
+feaB ?,I179I (ATT?ATC) ,C-A1-1,0
+ydcM ?,S193P (TCA?CCA) ,C-A1-1,0
+ydcU ?,A174V (GCG?GTG) ,C-A1-1,0
+fdnG ?,M832V (ATG?GTG) ,C-A1-1,0
+ydeK ?,coding (3955/3978 nt),C-A1-1,0
+ydeK ?,coding (3831/3978 nt),C-A1-1,0
+ydeK ?,coding (774/3978 nt),C-A1-1,0
+ydeK ?,coding (774/3978 nt),C-A1-1,0
+stfQ ?,G266D (GGC?GAC) ,C-A1-1,0
+dgsA ?,coding (677?678/1221 nt),C-A1-1,0
+ydhH ?,A214A (GCA?GCG) ,C-A1-1,0
+ydhK ?,coding (36/2013 nt),C-A1-1,0
+ydhK ?,I80T (ATT?ACT) ,C-A1-1,0
+lhr ?,coding (909/4617 nt),C-A1-1,0
+lhr ?,A566A (GCC?GCT) ,C-A1-1,0
+ydhP ?,M313V (ATG?GTG) ,C-A1-1,0
+ydiD ?,A73A (GCG?GCA) ,C-A1-1,0
+ansA ?,A100A (GCG?GCA) ,C-A1-1,0
+gapA ?,Y43C (TAC?TGC) ,C-A1-1,0
+yeaW ?,E70K (GAA?AAA) ,C-A1-1,0
+yoaE ?,A32T (GCC?ACC) ,C-A1-1,0
+flhA ?,Q511R (CAG?CGG) ,C-A1-1,0
+fliK ?,S311S (AGT?AGC) ,C-A1-1,0
+dcm ?,M220I (ATG?ATA) ,C-A1-1,0
+yedW ?,V188A (GTG?GCG) ,C-A1-1,0
+yeeR ?,A184A (GCG?GCA) ,C-A1-1,0
+yeeF ?,L349P (CTG?CCG) ,C-A1-1,0
+wzxC ?,R283C (CGT?TGT) ,C-A1-1,0
+wcaC ?,A326V (GCG?GTG) ,C-A1-1,0
+asmA ?,A109A (GCA?GCG) ,C-A1-1,0
+yegE ?,V632A (GTG?GCG) ,C-A1-1,0
+yegD ?,A197T (GCT?ACT) ,C-A1-1,0
+yegS ?,I166I (ATT?ATC) ,C-A1-1,0
+metG ?,P566P (CCG?CCA) ,C-A1-1,0
+yejH ?,A399A (GCC?GCT) ,C-A1-1,0
+ccmA ?,coding (531/624 nt),C-A1-1,0
+mqo ?,T204T (ACC?ACT) ,C-A1-1,0
+atoE ?,coding (1044/1323 nt),C-A1-1,0
+nrdA ?,L342L (CTG?CTA) ,C-A1-1,0
+nrdB ?,R50R (CGT?CGC) ,C-A1-1,0
+yfbH ?,D224G (GAT?GGT) ,C-A1-1,0
+menC ?,R217C (CGC?TGC) ,C-A1-1,0
+yfbK ?,T396A (ACC?GCC) ,C-A1-1,0
+yfcG ?,Q207Q (CAA?CAG) ,C-A1-1,0
+accD ?,S69G (AGC?GGC) ,C-A1-1,0
+pdxB ?,P333S (CCG?TCG) ,C-A1-1,0
+yfcJ ?,T290M (ACG?ATG) ,C-A1-1,0
+mepA ?,Q226* (CAA?TAA) ,C-A1-1,0
+yfcP ?,V76V (GTA?GTG) ,C-A1-1,0
+yfcU ?,E60G (GAG?GGG) ,C-A1-1,0
+intS ?,R161H (CGC?CAC) ,C-A1-1,0
+dsdX ?,G71G (GGC?GGT) ,C-A1-1,0
+oxc ?,R345C (CGC?TGC) ,C-A1-1,0
+cysA ?,L313Q (CTG?CAG) ,C-A1-1,0
+hemF ?,G184E (GGG?GAG) ,C-A1-1,0
+hemF ?,R239R (CGT?CGC) ,C-A1-1,0
+maeB ?,R656G (AGG?GGG) ,C-A1-1,0
+hyfB ?,coding (200/2019 nt),C-A1-1,0
+focB ?,P197S (CCC?TCC) ,C-A1-1,0
+yfgL ?,S33P (TCC?CCC) ,C-A1-1,0
+hcaT ?,A89V (GCG?GTG) ,C-A1-1,0
+yphH ?,C95R (TGT?CGT) ,C-A1-1,0
+lepB ?,G322D (GGC?GAC) ,C-A1-1,0
+kgtP ?,L177L (CTA?CTG) ,C-A1-1,0
+rrsG ?,noncoding (273/1542 nt),C-A1-1,0
+rrsG ?,noncoding (253/1542 nt),C-A1-1,0
+rrsG ?,noncoding (250/1542 nt),C-A1-1,0
+yfiO ?,D84D (GAT?GAC) ,C-A1-1,0
+ypjD ?,V236A (GTG?GCG) ,C-A1-1,0
+yfjH ?,coding (939/957 nt),C-A1-1,0
+yfjK ?,D523D (GAC?GAT) ,C-A1-1,0
+yfjP ?,G16S (GGT?AGT) ,C-A1-1,0
+gabT ?,Y86H (TAT?CAT) ,C-A1-1,0
+mprA ?,W140* (TGG?TAG) ,C-A1-1,0
+emrB ?,M333V (ATG?GTG) ,C-A1-1,0
+alaS ?,G196G (GGC?GGG) ,C-A1-1,0
+hycH ?,N94N (AAC?AAT) ,C-A1-1,0
+fhlA ?,G414G (GGT?GGC) ,C-A1-1,0
+mutS ?,W709* (TGG?TGA) ,C-A1-1,0
+iap ?,T120A (ACT?GCT) ,C-A1-1,0
+ygcL ?,S303S (TCC?TCT) ,C-A1-1,0
+eno ?,Y258C (TAC?TGC) ,C-A1-1,0
+mazG ?,T160A (ACG?GCG) ,C-A1-1,0
+relA ?,L80P (CTG?CCG) ,C-A1-1,0
+gudD ?,L162P (CTG?CCG) ,C-A1-1,0
+yqcA ?,I75I (ATC?ATT) ,C-A1-1,0
+sdaC ?,V410A (GTA?GCA) ,C-A1-1,0
+ppdC ?,N39S (AAC?AGC) ,C-A1-1,0
+yqeH ?,G50G (GGT?GGC) ,C-A1-1,0
+ygeF ?,coding (370/447 nt),C-A1-1,0
+hyuA ?,V309M (GTG?ATG) ,C-A1-1,0
+recJ ?,Q250Q (CAG?CAA) ,C-A1-1,0
+gcvP ?,A372V (GCG?GTG) ,C-A1-1,0
+visC ?,K317K (AAA?AAG) ,C-A1-1,0
+argO ?,A167A (GCA?GCG) ,C-A1-1,0
+pgk ?,A144V (GCT?GTT) ,C-A1-1,0
+sprT ?,V163A (GTT?GCT) ,C-A1-1,0
+yggJ ?,N47D (AAC?GAC) ,C-A1-1,0
+mutY ?,R277R (CGG?CGA) ,C-A1-1,0
+glcB ?,I242I (ATC?ATT) ,C-A1-1,0
+hybD ?,V117V (GTC?GTT) ,C-A1-1,0
+exbB ?,A182A (GCA?GCG) ,C-A1-1,0
+exbB ?,L62L (CTG?TTG) ,C-A1-1,0
+metC ?,K124K (AAA?AAG) ,C-A1-1,0
+metC ?,A325A (GCG?GCA) ,C-A1-1,0
+yqhC ?,coding (915/957 nt),C-A1-1,0
+nudF ?,coding (402/630 nt),C-A1-1,0
+yqiK ?,coding (1499/1662 nt),C-A1-1,0
+rfaE ?,N288S (AAT?AGT) ,C-A1-1,0
+ygjK ?,A732A (GCG?GCA) ,C-A1-1,0
+ygjP ?,Q137R (CAG?CGG) ,C-A1-1,0
+sstT ?,V393A (GTG?GCG) ,C-A1-1,0
+exuT ?,W289* (TGG?TAG) ,C-A1-1,0
+yhaK ?,L106P (CTC?CCC) ,C-A1-1,0
+yhaK ?,A149A (GCG?GCA) ,C-A1-1,0
+tdcB ?,G215D (GGC?GAC) ,C-A1-1,0
+garK ?,Q325R (CAG?CGG) ,C-A1-1,0
+garP ?,Y404C (TAC?TGC) ,C-A1-1,0
+sohA ?,coding (272/336 nt),C-A1-1,0
+truB ?,T178T (ACT?ACC) ,C-A1-1,0
+yhbX ?,P385S (CCG?TCG) ,C-A1-1,0
+gltB ?,T545T (ACT?ACC) ,C-A1-1,0
+yhdW ?,A100V (GCG?GTG) ,C-A1-1,0
+yhdY ?,coding (438/1104 nt),C-A1-1,0
+thiC ?,R14R (CGG?CGA) ,C-A1-1,0
+metJ ?,R81C (CGC?TGC) ,C-A1-1,0
+yiiQ ?,A80A (GCT?GCC) ,C-A1-1,0
+rhaA ?,C257R (TGC?CGC) ,C-A1-1,0
+dapF ?,L113L (CTG?TTG) ,C-A1-1,0
+cyaA ?,P430L (CCA?CTA) ,C-A1-1,0
+yifK ?,coding (66/1386 nt),C-A1-1,0
+rho ?,A236T (GCA?ACA) ,C-A1-1,0
+ilvC ?,A203A (GCG?GCA) ,C-A1-1,0
+asnC ?,G103S (GGC?AGC) ,C-A1-1,0
+pstA ?,R170S (CGC?AGC) ,C-A1-1,0
+yieG ?,T370A (ACT?GCT) ,C-A1-1,0
+yidH ?,T21A (ACT?GCT) ,C-A1-1,0
+yicN ?,S22S (TCC?TCT) ,C-A1-1,0
+yicR ?,G73G (GGC?GGT) ,C-A1-1,0
+rfaD ?,F224F (TTC?TTT) ,C-A1-1,0
+selA ?,A368A (GCA?GCG) ,C-A1-1,0
+bcsE ?,E463K (GAA?AAA) ,C-A1-1,0
+bcsB ?,V181A (GTG?GCG) ,C-A1-1,0
+yhjK ?,R71C (CGT?TGT) ,C-A1-1,0
+gadA ?,F188L (TTT?CTT) ,C-A1-1,0
+prlC ?,T460A (ACT?GCT) ,C-A1-1,0
+pitA ?,S425P (TCT?CCT) ,C-A1-1,0
+yhhT ?,L153L (TTG?TTA) ,C-A1-1,0
+livG ?,coding (133/768 nt),C-A1-1,0
+glgX ?,E490E (GAA?GAG) ,C-A1-1,0
+malQ ?,D419G (GAC?GGC) ,C-A1-1,0
+yhgF ?,A745T (GCA?ACA) ,C-A1-1,0
+frlR ?,G72D (GGC?GAC) ,C-A1-1,0
+nirC ?,V119A (GTT?GCT) ,C-A1-1,0
+yheS ?,G37S (GGC?AGC) ,C-A1-1,0
+fusA ?,Y33C (TAC?TGC) ,C-A1-1,0
+metH ?,L170L (CTG?CTA) ,C-A1-1,0
+metH ?,W1112* (TGG?TAG) ,C-A1-1,0
+yjbB ?,E397G (GAG?GGG) ,C-A1-1,0
+pgi ?,I285I (ATC?ATT) ,C-A1-1,0
+yjbI ?,A135A (GCA?GCG) ,C-A1-1,0
+nrfC ?,D183D (GAC?GAT) ,C-A1-1,0
+proP ?,S414S (TCG?TCA) ,C-A1-1,0
+lysU ?,P338P (CCA?CCG) ,C-A1-1,0
+cadB ?,A99V (GCG?GTG) ,C-A1-1,0
+cadC ?,I139T (ATT?ACT) ,C-A1-1,0
+blc ?,F95L (TTT?CTT) ,C-A1-1,0
+mutL ?,I56V (ATT?GTT) ,C-A1-1,0
+yjfK ?,R174Q (CGG?CAG) ,C-A1-1,0
+ulaE ?,A261A (GCG?GCA) ,C-A1-1,0
+ytfR ?,D343D (GAC?GAT) ,C-A1-1,0
+nrdD ?,R448R (CGT?CGC) ,C-A1-1,0
+yjgN ?,A255V (GCG?GTG) ,C-A1-1,0
+pepA ?,Y365H (TAC?CAC) ,C-A1-1,0
+yjgB ?,V241I (GTC?ATC) ,C-A1-1,0
+sgcA ?,V94A (GTC?GCC) ,C-A1-1,0
+yjhR ?,D234G (GAT?GGT) ,C-A1-1,0
+fimE ?,M15V (ATG?GTG) ,C-A1-1,0
+iadA ?,L215P (CTG?CCG) ,C-A1-1,0
+yjiK ?,R22R (CGT?CGC) ,C-A1-1,0
+leuV ?,noncoding (71/87 nt),C-A1-1,0
+creD ?,P5L (CCC?CTC) ,C-A1-1,0
+dnaK ?,L131P (CTG?CCG) ,C-A3-1,0
+nhaA ?,V224G (GTT?GGT) ,C-A3-1,1
+rrlH ?,noncoding (538/2904 nt),C-A3-1,0
+ykfJ–[insH],insH-mediated,C-A3-1,0
+Y75_RS01440 ?,coding (58/225 nt),C-A3-1,0
+acrB ?,coding (247/3150 nt),C-A3-1,0
+acrA ?,Q116* (CAG?TAG) ,C-A3-1,0
+ybbA ?,L157Q (CTG?CAG) ,C-A3-1,0
+allR ?,A13A (GCG?GCT) ,C-A3-1,0
+cecR ?,Y51N (TAC?AAC) ,C-A3-1,0
+cecR ?,Y50C (TAC?TGC) ,C-A3-1,0
+lrp ?,coding (411/495 nt),C-A3-1,0
+ycaM ?,coding (172/1431 nt),C-A3-1,0
+mukB ?,R73R (CGC?CGT) ,C-A3-1,0
+hyaC ?,T35I (ACC?ATC) ,C-A3-1,0
+ycdO ?,K52K (AAA?AAG) ,C-A3-1,0
+Y75_RS05380-[Y75_RS05385],duplication (362bp),C-A3-1,0
+Y75_RS05380-[serX],duplication (442bp),C-A3-1,0
+fabF ?,G202A (GGT?GCT) ,C-A3-1,0
+ptsG ?,coding (87?983/1434 nt),C-A3-1,0
+nhaB ?,coding (1164?1295/1542 nt),C-A3-1,0
+nhaB ?,coding (364/1542 nt),C-A3-1,1
+adhE ?,A626V (GCG?GTG) ,C-A3-1,0
+adhE ?,H565L (CAC?CTC) ,C-A3-1,0
+adhE ?,H565R (CAC?CGC) ,C-A3-1,0
+adhE ?,W556R (TGG?CGG) ,C-A3-1,0
+adhE ?,L371Q (CTG?CAG) ,C-A3-1,0
+adhE ?,Y77H (TAC?CAC) ,C-A3-1,0
+sapD ?,coding (936/993 nt),C-A3-1,0
+ydcI ?,coding (189/924 nt),C-A3-1,0
+yncD ?,D654G (GAT?GGT) ,C-A3-1,0
+Y75_RS07695 ?,coding (1436/1800 nt),C-A3-1,0
+hipA-flxA,duplication (56260 bp),C-A3-1,0
+ydiM ?,coding (995/1215 nt),C-A3-1,0
+yeaA ?,coding (5/414 nt),C-A3-1,1
+yeaR ?,coding (112/360 nt),C-A3-1,1
+Y75_RS09615 ?,coding (92/207 nt),C-A3-1,0
+otsB ?,L67R (CTT?CGT) ,C-A3-1,0
+gatD ?,coding (166/1041 nt),C-A3-1,0
+glpB ?,T340T (ACG?ACC) ,C-A3-1,0
+menC ?,coding (128/963 nt),C-A3-1,0
+purF ?,R74L (CGT?CTT) ,C-A3-1,0
+aroC ?,P31Q (CCG?CAG) ,C-A3-1,0
+crr ?,coding (487/510 nt),C-A3-1,0
+nlpB ?,R223S (CGT?AGT) ,C-A3-1,0
+pbpC ?,S342T (TCA?ACA) ,C-A3-1,0
+csiE ?,T299P (ACC?CCC) ,C-A3-1,0
+srmB ?,coding (664/1335 nt),C-A3-1,0
+kgtP ?,coding (375/1299 nt),C-A3-1,0
+mprA ?,coding (110/531 nt),C-A3-1,0
+mprA ?,coding (155?163/531 nt),C-A3-1,0
+mprA ?,L64R (CTG?CGG) ,C-A3-1,0
+mprA ?,coding (299?356/531 nt),C-A3-1,0
+mprA ?,D109V (GAT?GTT) ,C-A3-1,0
+mprA ?,D109E (GAT?GAG) ,C-A3-1,0
+mprA ?,C112* (TGC?TGA) ,C-A3-1,1
+mprA ?,coding (344?412/531 nt),C-A3-1,0
+mprA ?,G121D (GGT?GAT) ,C-A3-1,0
+mprA ?,W140* (TGG?TGA) ,C-A3-1,0
+emrA ?,L24H (CTC?CAC) ,C-A3-1,0
+emrA ?,I313L (ATC?CTC) ,C-A3-1,0
+emrB ?,M219I (ATG?ATA) ,C-A3-1,0
+emrB ?,E297V (GAG?GTG) ,C-A3-1,0
+emrB ?,V337A (GTA?GCA) ,C-A3-1,0
+emrB ?,P357L (CCA?CTA) ,C-A3-1,0
+emrB ?,S411A (TCT?GCT) ,C-A3-1,0
+rpoS ?,P166L (CCA?CTA) ,C-A3-1,0
+rpoS ?,Q13* (CAG?TAG) ,C-A3-1,0
+nlpD ?,coding (656/1140 nt),C-A3-1,0
+ygbE ?,G81* (GGA?TGA) ,C-A3-1,0
+yghB ?,coding (645/660 nt),C-A3-1,0
+rpoD ?,Y571H (TAC?CAC) ,C-A3-1,0
+yhaC ?,G146R (GGG?AGG) ,C-A3-1,1
+sohA ?,coding (272/336 nt),C-A3-1,1
+rng ?,E404* (GAA?TAA) ,C-A3-1,0
+rng ?,L368* (TTG?TAG) ,C-A3-1,0
+rng ?,L280P (CTG?CCG) ,C-A3-1,0
+rng ?,E227* (GAA?TAA) ,C-A3-1,0
+rpoC ?,Q477R (CAG?CGG) ,C-A3-1,0
+rpoB ?,R944C (CGT?TGT) ,C-A3-1,0
+rpoB ?,S182A (TCC?GCC) ,C-A3-1,0
+cyaA ?,N804K (AAC?AAA) ,C-A3-1,0
+cyaA ?,Q671* (CAG?TAG) ,C-A3-1,0
+cyaA ?,coding (1552/2547 nt),C-A3-1,0
+rho ?,K105E (AAA?GAA) ,C-A3-1,0
+rbsR ?,A300E (GCG?GAG) ,C-A3-1,0
+spoT ?,W339R (TGG?AGG) ,C-A3-1,1
+glyQ ?,coding (728/912 nt),C-A3-1,0
+bcsB ?,D212N (GAC?AAC) ,C-A3-1,0
+gadE ?,coding (234/528 nt),C-A3-1,0
+yhiF ?,coding (167/531 nt),C-A3-1,0
+pitA ?,coding (578/1500 nt),C-A3-1,0
+greB ?,V91G (GTG?GGG) ,C-A3-1,0
+rpoA ?,coding (585?590/990 nt),C-A3-1,1
+metH ?,F951C (TTT?TGT) ,C-A3-1,1
+plsB ?,S740Y (TCC?TAC) ,C-A3-1,0
+plsB ?,L453Q (CTG?CAG) ,C-A3-1,0
+plsB ?,L449Q (CTG?CAG) ,C-A3-1,0
+plsB ?,E438A (GAA?GCA) ,C-A3-1,0
+plsB ?,G341R (GGG?AGG) ,C-A3-1,1
+plsB ?,M128R (ATG?AGG) ,C-A3-1,0
+alsE ?,K58Q (AAA?CAA) ,C-A3-1,0
+yjeP ?,G596G (GGG?GGA) ,C-A3-1,0
+ytfI ?,F124L (TTC?TTA) ,C-A3-1,0
+ytfQ ?,T125I (ACC?ATC) ,C-A3-1,0
+treB ?,C401F (TGC?TTC) ,C-A3-1,0
+Y75_RS22485 ?,coding (110/132 nt),C-A3-1,1
+fimE ?,coding (128/597 nt),C-A3-1,0
+fimE ?,coding (258/597 nt),C-A3-1,0
+fimE ?,T87N (ACC?AAC) ,C-A3-1,0
+fimE ?,coding (417/597 nt),C-A3-1,0
+fimE ?,coding (511/597 nt),C-A3-1,0
+yjjM ?,coding (63/915 nt),C-A3-1,0
+arcA ?,E94K (GAA?AAA) ,C-A3-1,0
+arcA ?,T3P (ACC?CCC) ,C-A3-1,0
+carB ?,T646A (ACC?GCC) ,C-A3-1,0
+ksgA ?,G8D (GGC?GAC) ,C-A3-1,0
+imp ?,A553T (GCC?ACC) ,C-A3-1,0
+yabQ ?,L39L (CTG?CTA) ,C-A3-1,0
+araA ?,D470N (GAC?AAC) ,C-A3-1,0
+yabI ?,R207C (CGT?TGT) ,C-A3-1,0
+leuO ?,A32V (GCC?GTC) ,C-A3-1,0
+mraZ ?,N29S (AAC?AGC) ,C-A3-1,0
+ampE ?,K36K (AAA?AAG) ,C-A3-1,0
+lpd ?,V408A (GTG?GCG) ,C-A3-1,0
+mrcB ?,S280S (AGC?AGT) ,C-A3-1,0
+fhuB ?,N249S (AAC?AGC) ,C-A3-1,0
+proS ?,N62S (AAC?AGC) ,C-A3-1,0
+metQ ?,A240T (GCC?ACC) ,C-A3-1,0
+yafU ?,C60R (TGT?CGT) ,C-A3-1,0
+ivy ?,D134G (GAT?GGT) ,C-A3-1,0
+fadE ?,C455C (TGT?TGC) ,C-A3-1,0
+ykfJ ?,R10R (CGT?CGC) ,C-A3-1,0
+insI ?,S192S (TCG?TCA) ,C-A3-1,0
+ykfC ?,L106L (TTG?CTG) ,C-A3-1,0
+mmuP ?,A78V (GCG?GTG) ,C-A3-1,0
+yagJ ?,A28V (GCG?GTG) ,C-A3-1,0
+yagM ?,S215P (TCA?CCA) ,C-A3-1,0
+intF ?,S189S (TCG?TCA) ,C-A3-1,0
+ykgL ?,Y24C (TAC?TGC) ,C-A3-1,0
+insF ?,G276S (GGC?AGC) ,C-A3-1,0
+ykgC ?,A242A (GCG?GCA) ,C-A3-1,0
+betI ?,R10W (CGG?TGG) ,C-A3-1,0
+yahJ ?,coding (1236/1383 nt),C-A3-1,0
+lacZ ?,G181R (GGA?AGA) ,C-A3-1,0
+frmA ?,A209A (GCG?GCA) ,C-A3-1,0
+yaiU ?,N301S (AAC?AGC) ,C-A3-1,0
+mak ?,coding (755/909 nt),C-A3-1,0
+tsx ?,G95G (GGT?GGC) ,C-A3-1,0
+yajL ?,A5T (GCA?ACA) ,C-A3-1,0
+lon ?,Q300R (CAG?CGG) ,C-A3-1,0
+acrB ?,W187* (TGG?TAG) ,C-A3-1,0
+rhsD ?,R1227W (CGG?TGG) ,C-A3-1,0
+rzpD ?,S109S (TCC?TCT) ,C-A3-1,0
+cusS ?,I397T (ATT?ACT) ,C-A3-1,0
+insL ?,coding (1083/1113 nt),C-A3-1,0
+fepA ?,A405V (GCA?GTA) ,C-A3-1,0
+entB ?,A213T (GCC?ACC) ,C-A3-1,0
+ybdH ?,V265A (GTG?GCG) ,C-A3-1,0
+mrdA ?,V345A (GTG?GCG) ,C-A3-1,0
+miaB ?,V410A (GTC?GCC) ,C-A3-1,0
+ybfO ?,coding (917/1434 nt),C-A3-1,0
+tolQ ?,Q70R (CAG?CGG) ,C-A3-1,0
+modF ?,A44T (GCC?ACC) ,C-A3-1,0
+ybhI ?,H362Y (CAC?TAC) ,C-A3-1,0
+bioF ?,A244A (GCG?GCA) ,C-A3-1,0
+ybhS ?,E209E (GAA?GAG) ,C-A3-1,0
+dinG ?,A2V (GCA?GTA) ,C-A3-1,0
+glnP ?,R131R (CGT?CGC) ,C-A3-1,0
+ybiW ?,T524I (ACC?ATC) ,C-A3-1,0
+ftsK ?,G144G (GGC?GGT) ,C-A3-1,0
+ycaM ?,Q103R (CAA?CGA) ,C-A3-1,0
+ycbX ?,R318R (CGT?CGC) ,C-A3-1,0
+ycbY ?,T564A (ACC?GCC) ,C-A3-1,0
+yccR ?,D196G (GAC?GGC) ,C-A3-1,0
+torS ?,A450A (GCG?GCA) ,C-A3-1,0
+ycdC ?,V198A (GTT?GCT) ,C-A3-1,0
+ycdQ ?,M423I (ATG?ATA) ,C-A3-1,0
+ycdU ?,F124L (TTC?CTC) ,C-A3-1,0
+ycdU ?,C171C (TGC?TGT) ,C-A3-1,0
+mdoH ?,R769C (CGC?TGC) ,C-A3-1,0
+mviM ?,K146K (AAA?AAG) ,C-A3-1,0
+flgG ?,Q124* (CAG?TAG) ,C-A3-1,0
+rne ?,E664K (GAA?AAA) ,C-A3-1,0
+plsX ?,A149V (GCC?GTC) ,C-A3-1,0
+ycfH ?,R215Q (CGA?CAA) ,C-A3-1,0
+icd ?,H366H (CAC?CAT) ,C-A3-1,0
+icd ?,T370T (ACC?ACT) ,C-A3-1,0
+dsbB ?,G11G (GGC?GGT) ,C-A3-1,0
+nhaB ?,coding (1164?1295/1542 nt),C-A3-1,0
+nhaB ?,R196H (CGT?CAT) ,C-A3-1,0
+cvrA ?,T153M (ACG?ATG) ,C-A3-1,0
+ycgV ?,coding (2098/2868 nt),C-A3-1,0
+ychM ?,I145I (ATC?ATT) ,C-A3-1,0
+chaA ?,V21I (GTT?ATT) ,C-A3-1,0
+yciS ?,V93V (GTA?GTG) ,C-A3-1,0
+sapA ?,R292R (CGT?CGC) ,C-A3-1,0
+puuB ?,A391V (GCC?GTC) ,C-A3-1,0
+pspF ?,P223S (CCG?TCG) ,C-A3-1,0
+pspC ?,P68L (CCG?CTG) ,C-A3-1,0
+ycjG ?,T15A (ACC?GCC) ,C-A3-1,0
+intR ?,G270R (GGG?AGG) ,C-A3-1,0
+ldhA ?,E107E (GAA?GAG) ,C-A3-1,0
+feaB ?,R129R (CGT?CGC) ,C-A3-1,0
+feaB ?,I179I (ATT?ATC) ,C-A3-1,0
+ydcM ?,S193P (TCA?CCA) ,C-A3-1,0
+ydcU ?,A174V (GCG?GTG) ,C-A3-1,0
+fdnG ?,M832V (ATG?GTG) ,C-A3-1,0
+ydeK ?,coding (3955/3978 nt),C-A3-1,0
+ydeK ?,coding (3831/3978 nt),C-A3-1,0
+ydeK ?,coding (774/3978 nt),C-A3-1,0
+ydeK ?,coding (774/3978 nt),C-A3-1,0
+stfQ ?,G266D (GGC?GAC) ,C-A3-1,0
+dgsA ?,coding (677?678/1221 nt),C-A3-1,0
+ydhH ?,A214A (GCA?GCG) ,C-A3-1,0
+ydhK ?,coding (36/2013 nt),C-A3-1,0
+ydhK ?,I80T (ATT?ACT) ,C-A3-1,0
+lhr ?,coding (909/4617 nt),C-A3-1,0
+lhr ?,A566A (GCC?GCT) ,C-A3-1,0
+ydhP ?,M313V (ATG?GTG) ,C-A3-1,0
+ydiD ?,A73A (GCG?GCA) ,C-A3-1,0
+ansA ?,A100A (GCG?GCA) ,C-A3-1,0
+gapA ?,Y43C (TAC?TGC) ,C-A3-1,0
+yeaW ?,E70K (GAA?AAA) ,C-A3-1,0
+yoaE ?,A32T (GCC?ACC) ,C-A3-1,0
+flhA ?,Q511R (CAG?CGG) ,C-A3-1,0
+fliK ?,S311S (AGT?AGC) ,C-A3-1,0
+dcm ?,M220I (ATG?ATA) ,C-A3-1,0
+yedW ?,V188A (GTG?GCG) ,C-A3-1,0
+yeeR ?,A184A (GCG?GCA) ,C-A3-1,0
+yeeF ?,L349P (CTG?CCG) ,C-A3-1,0
+wzxC ?,R283C (CGT?TGT) ,C-A3-1,0
+wcaC ?,A326V (GCG?GTG) ,C-A3-1,0
+asmA ?,A109A (GCA?GCG) ,C-A3-1,0
+yegE ?,V632A (GTG?GCG) ,C-A3-1,0
+yegD ?,A197T (GCT?ACT) ,C-A3-1,0
+yegS ?,I166I (ATT?ATC) ,C-A3-1,0
+metG ?,P566P (CCG?CCA) ,C-A3-1,0
+yejH ?,A399A (GCC?GCT) ,C-A3-1,0
+ccmA ?,coding (531/624 nt),C-A3-1,0
+mqo ?,T204T (ACC?ACT) ,C-A3-1,0
+atoE ?,coding (1044/1323 nt),C-A3-1,0
+nrdA ?,L342L (CTG?CTA) ,C-A3-1,0
+nrdB ?,R50R (CGT?CGC) ,C-A3-1,0
+yfbH ?,D224G (GAT?GGT) ,C-A3-1,0
+menC ?,R217C (CGC?TGC) ,C-A3-1,0
+yfbK ?,T396A (ACC?GCC) ,C-A3-1,0
+yfcG ?,Q207Q (CAA?CAG) ,C-A3-1,0
+accD ?,S69G (AGC?GGC) ,C-A3-1,0
+pdxB ?,P333S (CCG?TCG) ,C-A3-1,0
+yfcJ ?,T290M (ACG?ATG) ,C-A3-1,0
+mepA ?,Q226* (CAA?TAA) ,C-A3-1,0
+yfcP ?,V76V (GTA?GTG) ,C-A3-1,0
+yfcU ?,E60G (GAG?GGG) ,C-A3-1,0
+intS ?,R161H (CGC?CAC) ,C-A3-1,0
+dsdX ?,G71G (GGC?GGT) ,C-A3-1,0
+oxc ?,R345C (CGC?TGC) ,C-A3-1,0
+cysA ?,L313Q (CTG?CAG) ,C-A3-1,0
+hemF ?,G184E (GGG?GAG) ,C-A3-1,0
+hemF ?,R239R (CGT?CGC) ,C-A3-1,0
+maeB ?,R656G (AGG?GGG) ,C-A3-1,0
+hyfB ?,coding (200/2019 nt),C-A3-1,0
+focB ?,P197S (CCC?TCC) ,C-A3-1,0
+yfgL ?,S33P (TCC?CCC) ,C-A3-1,0
+hcaT ?,A89V (GCG?GTG) ,C-A3-1,0
+yphH ?,C95R (TGT?CGT) ,C-A3-1,0
+lepB ?,G322D (GGC?GAC) ,C-A3-1,0
+kgtP ?,L177L (CTA?CTG) ,C-A3-1,0
+rrsG ?,noncoding (273/1542 nt),C-A3-1,0
+rrsG ?,noncoding (253/1542 nt),C-A3-1,0
+rrsG ?,noncoding (250/1542 nt),C-A3-1,0
+yfiO ?,D84D (GAT?GAC) ,C-A3-1,0
+ypjD ?,V236A (GTG?GCG) ,C-A3-1,0
+yfjH ?,coding (939/957 nt),C-A3-1,0
+yfjK ?,D523D (GAC?GAT) ,C-A3-1,0
+yfjP ?,G16S (GGT?AGT) ,C-A3-1,0
+gabT ?,Y86H (TAT?CAT) ,C-A3-1,0
+mprA ?,W140* (TGG?TAG) ,C-A3-1,0
+emrB ?,M333V (ATG?GTG) ,C-A3-1,0
+alaS ?,G196G (GGC?GGG) ,C-A3-1,0
+hycH ?,N94N (AAC?AAT) ,C-A3-1,0
+fhlA ?,G414G (GGT?GGC) ,C-A3-1,0
+mutS ?,W709* (TGG?TGA) ,C-A3-1,0
+iap ?,T120A (ACT?GCT) ,C-A3-1,0
+ygcL ?,S303S (TCC?TCT) ,C-A3-1,0
+eno ?,Y258C (TAC?TGC) ,C-A3-1,0
+mazG ?,T160A (ACG?GCG) ,C-A3-1,0
+relA ?,L80P (CTG?CCG) ,C-A3-1,0
+gudD ?,L162P (CTG?CCG) ,C-A3-1,0
+yqcA ?,I75I (ATC?ATT) ,C-A3-1,0
+sdaC ?,V410A (GTA?GCA) ,C-A3-1,0
+ppdC ?,N39S (AAC?AGC) ,C-A3-1,0
+yqeH ?,G50G (GGT?GGC) ,C-A3-1,0
+ygeF ?,coding (370/447 nt),C-A3-1,0
+hyuA ?,V309M (GTG?ATG) ,C-A3-1,0
+recJ ?,Q250Q (CAG?CAA) ,C-A3-1,0
+gcvP ?,A372V (GCG?GTG) ,C-A3-1,0
+visC ?,K317K (AAA?AAG) ,C-A3-1,0
+argO ?,A167A (GCA?GCG) ,C-A3-1,0
+pgk ?,A144V (GCT?GTT) ,C-A3-1,0
+sprT ?,V163A (GTT?GCT) ,C-A3-1,0
+yggJ ?,N47D (AAC?GAC) ,C-A3-1,0
+mutY ?,R277R (CGG?CGA) ,C-A3-1,0
+glcB ?,I242I (ATC?ATT) ,C-A3-1,0
+hybD ?,V117V (GTC?GTT) ,C-A3-1,0
+exbB ?,A182A (GCA?GCG) ,C-A3-1,0
+exbB ?,L62L (CTG?TTG) ,C-A3-1,0
+metC ?,K124K (AAA?AAG) ,C-A3-1,0
+metC ?,A325A (GCG?GCA) ,C-A3-1,0
+yqhC ?,coding (915/957 nt),C-A3-1,0
+nudF ?,coding (402/630 nt),C-A3-1,0
+yqiK ?,coding (1499/1662 nt),C-A3-1,0
+rfaE ?,N288S (AAT?AGT) ,C-A3-1,0
+ygjK ?,A732A (GCG?GCA) ,C-A3-1,0
+ygjP ?,Q137R (CAG?CGG) ,C-A3-1,0
+sstT ?,V393A (GTG?GCG) ,C-A3-1,0
+exuT ?,W289* (TGG?TAG) ,C-A3-1,0
+yhaK ?,L106P (CTC?CCC) ,C-A3-1,0
+yhaK ?,A149A (GCG?GCA) ,C-A3-1,0
+tdcB ?,G215D (GGC?GAC) ,C-A3-1,0
+garK ?,Q325R (CAG?CGG) ,C-A3-1,0
+garP ?,Y404C (TAC?TGC) ,C-A3-1,0
+sohA ?,coding (272/336 nt),C-A3-1,0
+truB ?,T178T (ACT?ACC) ,C-A3-1,0
+yhbX ?,P385S (CCG?TCG) ,C-A3-1,0
+gltB ?,T545T (ACT?ACC) ,C-A3-1,0
+yhdW ?,A100V (GCG?GTG) ,C-A3-1,0
+yhdY ?,coding (438/1104 nt),C-A3-1,0
+thiC ?,R14R (CGG?CGA) ,C-A3-1,0
+metJ ?,R81C (CGC?TGC) ,C-A3-1,0
+yiiQ ?,A80A (GCT?GCC) ,C-A3-1,0
+rhaA ?,C257R (TGC?CGC) ,C-A3-1,0
+dapF ?,L113L (CTG?TTG) ,C-A3-1,0
+cyaA ?,P430L (CCA?CTA) ,C-A3-1,0
+yifK ?,coding (66/1386 nt),C-A3-1,0
+rho ?,A236T (GCA?ACA) ,C-A3-1,0
+ilvC ?,A203A (GCG?GCA) ,C-A3-1,0
+asnC ?,G103S (GGC?AGC) ,C-A3-1,0
+pstA ?,R170S (CGC?AGC) ,C-A3-1,0
+yieG ?,T370A (ACT?GCT) ,C-A3-1,0
+yidH ?,T21A (ACT?GCT) ,C-A3-1,0
+yicN ?,S22S (TCC?TCT) ,C-A3-1,0
+yicR ?,G73G (GGC?GGT) ,C-A3-1,0
+rfaD ?,F224F (TTC?TTT) ,C-A3-1,0
+selA ?,A368A (GCA?GCG) ,C-A3-1,0
+bcsE ?,E463K (GAA?AAA) ,C-A3-1,0
+bcsB ?,V181A (GTG?GCG) ,C-A3-1,0
+yhjK ?,R71C (CGT?TGT) ,C-A3-1,0
+gadA ?,F188L (TTT?CTT) ,C-A3-1,0
+prlC ?,T460A (ACT?GCT) ,C-A3-1,0
+pitA ?,S425P (TCT?CCT) ,C-A3-1,0
+yhhT ?,L153L (TTG?TTA) ,C-A3-1,0
+livG ?,coding (133/768 nt),C-A3-1,0
+glgX ?,E490E (GAA?GAG) ,C-A3-1,0
+malQ ?,D419G (GAC?GGC) ,C-A3-1,0
+yhgF ?,A745T (GCA?ACA) ,C-A3-1,0
+frlR ?,G72D (GGC?GAC) ,C-A3-1,0
+nirC ?,V119A (GTT?GCT) ,C-A3-1,0
+yheS ?,G37S (GGC?AGC) ,C-A3-1,0
+fusA ?,Y33C (TAC?TGC) ,C-A3-1,0
+metH ?,L170L (CTG?CTA) ,C-A3-1,0
+metH ?,W1112* (TGG?TAG) ,C-A3-1,0
+yjbB ?,E397G (GAG?GGG) ,C-A3-1,0
+pgi ?,I285I (ATC?ATT) ,C-A3-1,0
+yjbI ?,A135A (GCA?GCG) ,C-A3-1,0
+nrfC ?,D183D (GAC?GAT) ,C-A3-1,0
+proP ?,S414S (TCG?TCA) ,C-A3-1,0
+lysU ?,P338P (CCA?CCG) ,C-A3-1,0
+cadB ?,A99V (GCG?GTG) ,C-A3-1,0
+cadC ?,I139T (ATT?ACT) ,C-A3-1,0
+blc ?,F95L (TTT?CTT) ,C-A3-1,0
+mutL ?,I56V (ATT?GTT) ,C-A3-1,0
+yjfK ?,R174Q (CGG?CAG) ,C-A3-1,0
+ulaE ?,A261A (GCG?GCA) ,C-A3-1,0
+ytfR ?,D343D (GAC?GAT) ,C-A3-1,0
+nrdD ?,R448R (CGT?CGC) ,C-A3-1,0
+yjgN ?,A255V (GCG?GTG) ,C-A3-1,0
+pepA ?,Y365H (TAC?CAC) ,C-A3-1,0
+yjgB ?,V241I (GTC?ATC) ,C-A3-1,0
+sgcA ?,V94A (GTC?GCC) ,C-A3-1,0
+yjhR ?,D234G (GAT?GGT) ,C-A3-1,0
+fimE ?,M15V (ATG?GTG) ,C-A3-1,0
+iadA ?,L215P (CTG?CCG) ,C-A3-1,0
+yjiK ?,R22R (CGT?CGC) ,C-A3-1,0
+leuV ?,noncoding (71/87 nt),C-A3-1,0
+creD ?,P5L (CCC?CTC) ,C-A3-1,0
+dnaK ?,L131P (CTG?CCG) ,C-B3-1 B,0
+nhaA ?,V224G (GTT?GGT) ,C-B3-1 B,0
+rrlH ?,noncoding (538/2904 nt),C-B3-1 B,0
+ykfJ–[insH],insH-mediated,C-B3-1 B,0
+Y75_RS01440 ?,coding (58/225 nt),C-B3-1 B,0
+acrB ?,coding (247/3150 nt),C-B3-1 B,0
+acrA ?,Q116* (CAG?TAG) ,C-B3-1 B,0
+ybbA ?,L157Q (CTG?CAG) ,C-B3-1 B,0
+allR ?,A13A (GCG?GCT) ,C-B3-1 B,0
+cecR ?,Y51N (TAC?AAC) ,C-B3-1 B,0
+cecR ?,Y50C (TAC?TGC) ,C-B3-1 B,0
+lrp ?,coding (411/495 nt),C-B3-1 B,0
+ycaM ?,coding (172/1431 nt),C-B3-1 B,0
+mukB ?,R73R (CGC?CGT) ,C-B3-1 B,0
+hyaC ?,T35I (ACC?ATC) ,C-B3-1 B,0
+ycdO ?,K52K (AAA?AAG) ,C-B3-1 B,0
+Y75_RS05380-[Y75_RS05385],duplication (362bp),C-B3-1 B,0
+Y75_RS05380-[serX],duplication (442bp),C-B3-1 B,0
+fabF ?,G202A (GGT?GCT) ,C-B3-1 B,0
+ptsG ?,coding (87?983/1434 nt),C-B3-1 B,0
+nhaB ?,coding (1164?1295/1542 nt),C-B3-1 B,0
+nhaB ?,coding (364/1542 nt),C-B3-1 B,0
+adhE ?,A626V (GCG?GTG) ,C-B3-1 B,0
+adhE ?,H565L (CAC?CTC) ,C-B3-1 B,0
+adhE ?,H565R (CAC?CGC) ,C-B3-1 B,0
+adhE ?,W556R (TGG?CGG) ,C-B3-1 B,0
+adhE ?,L371Q (CTG?CAG) ,C-B3-1 B,0
+adhE ?,Y77H (TAC?CAC) ,C-B3-1 B,0
+sapD ?,coding (936/993 nt),C-B3-1 B,0
+ydcI ?,coding (189/924 nt),C-B3-1 B,0
+yncD ?,D654G (GAT?GGT) ,C-B3-1 B,0
+Y75_RS07695 ?,coding (1436/1800 nt),C-B3-1 B,0
+hipA-flxA,duplication (56260 bp),C-B3-1 B,0
+ydiM ?,coding (995/1215 nt),C-B3-1 B,0
+yeaA ?,coding (5/414 nt),C-B3-1 B,0
+yeaR ?,coding (112/360 nt),C-B3-1 B,0
+Y75_RS09615 ?,coding (92/207 nt),C-B3-1 B,0
+otsB ?,L67R (CTT?CGT) ,C-B3-1 B,0
+gatD ?,coding (166/1041 nt),C-B3-1 B,0
+glpB ?,T340T (ACG?ACC) ,C-B3-1 B,0
+menC ?,coding (128/963 nt),C-B3-1 B,0
+purF ?,R74L (CGT?CTT) ,C-B3-1 B,0
+aroC ?,P31Q (CCG?CAG) ,C-B3-1 B,0
+crr ?,coding (487/510 nt),C-B3-1 B,0
+nlpB ?,R223S (CGT?AGT) ,C-B3-1 B,0
+pbpC ?,S342T (TCA?ACA) ,C-B3-1 B,0
+csiE ?,T299P (ACC?CCC) ,C-B3-1 B,0
+srmB ?,coding (664/1335 nt),C-B3-1 B,0
+kgtP ?,coding (375/1299 nt),C-B3-1 B,0
+mprA ?,coding (110/531 nt),C-B3-1 B,0
+mprA ?,coding (155?163/531 nt),C-B3-1 B,0
+mprA ?,L64R (CTG?CGG) ,C-B3-1 B,0
+mprA ?,coding (299?356/531 nt),C-B3-1 B,0
+mprA ?,D109V (GAT?GTT) ,C-B3-1 B,0
+mprA ?,D109E (GAT?GAG) ,C-B3-1 B,0
+mprA ?,C112* (TGC?TGA) ,C-B3-1 B,0
+mprA ?,coding (344?412/531 nt),C-B3-1 B,0
+mprA ?,G121D (GGT?GAT) ,C-B3-1 B,0
+mprA ?,W140* (TGG?TGA) ,C-B3-1 B,0
+emrA ?,L24H (CTC?CAC) ,C-B3-1 B,0
+emrA ?,I313L (ATC?CTC) ,C-B3-1 B,0
+emrB ?,M219I (ATG?ATA) ,C-B3-1 B,0
+emrB ?,E297V (GAG?GTG) ,C-B3-1 B,0
+emrB ?,V337A (GTA?GCA) ,C-B3-1 B,0
+emrB ?,P357L (CCA?CTA) ,C-B3-1 B,0
+emrB ?,S411A (TCT?GCT) ,C-B3-1 B,0
+rpoS ?,P166L (CCA?CTA) ,C-B3-1 B,0
+rpoS ?,Q13* (CAG?TAG) ,C-B3-1 B,0
+nlpD ?,coding (656/1140 nt),C-B3-1 B,0
+ygbE ?,G81* (GGA?TGA) ,C-B3-1 B,0
+yghB ?,coding (645/660 nt),C-B3-1 B,0
+rpoD ?,Y571H (TAC?CAC) ,C-B3-1 B,0
+yhaC ?,G146R (GGG?AGG) ,C-B3-1 B,0
+sohA ?,coding (272/336 nt),C-B3-1 B,0
+rng ?,E404* (GAA?TAA) ,C-B3-1 B,0
+rng ?,L368* (TTG?TAG) ,C-B3-1 B,0
+rng ?,L280P (CTG?CCG) ,C-B3-1 B,0
+rng ?,E227* (GAA?TAA) ,C-B3-1 B,0
+rpoC ?,Q477R (CAG?CGG) ,C-B3-1 B,0
+rpoB ?,R944C (CGT?TGT) ,C-B3-1 B,0
+rpoB ?,S182A (TCC?GCC) ,C-B3-1 B,0
+cyaA ?,N804K (AAC?AAA) ,C-B3-1 B,0
+cyaA ?,Q671* (CAG?TAG) ,C-B3-1 B,0
+cyaA ?,coding (1552/2547 nt),C-B3-1 B,0
+rho ?,K105E (AAA?GAA) ,C-B3-1 B,0
+rbsR ?,A300E (GCG?GAG) ,C-B3-1 B,0
+spoT ?,W339R (TGG?AGG) ,C-B3-1 B,0
+glyQ ?,coding (728/912 nt),C-B3-1 B,0
+bcsB ?,D212N (GAC?AAC) ,C-B3-1 B,0
+gadE ?,coding (234/528 nt),C-B3-1 B,0
+yhiF ?,coding (167/531 nt),C-B3-1 B,0
+pitA ?,coding (578/1500 nt),C-B3-1 B,0
+greB ?,V91G (GTG?GGG) ,C-B3-1 B,0
+rpoA ?,coding (585?590/990 nt),C-B3-1 B,0
+metH ?,F951C (TTT?TGT) ,C-B3-1 B,0
+plsB ?,S740Y (TCC?TAC) ,C-B3-1 B,0
+plsB ?,L453Q (CTG?CAG) ,C-B3-1 B,0
+plsB ?,L449Q (CTG?CAG) ,C-B3-1 B,0
+plsB ?,E438A (GAA?GCA) ,C-B3-1 B,0
+plsB ?,G341R (GGG?AGG) ,C-B3-1 B,0
+plsB ?,M128R (ATG?AGG) ,C-B3-1 B,0
+alsE ?,K58Q (AAA?CAA) ,C-B3-1 B,0
+yjeP ?,G596G (GGG?GGA) ,C-B3-1 B,0
+ytfI ?,F124L (TTC?TTA) ,C-B3-1 B,0
+ytfQ ?,T125I (ACC?ATC) ,C-B3-1 B,0
+treB ?,C401F (TGC?TTC) ,C-B3-1 B,0
+Y75_RS22485 ?,coding (110/132 nt),C-B3-1 B,0
+fimE ?,coding (128/597 nt),C-B3-1 B,0
+fimE ?,coding (258/597 nt),C-B3-1 B,0
+fimE ?,T87N (ACC?AAC) ,C-B3-1 B,0
+fimE ?,coding (417/597 nt),C-B3-1 B,0
+fimE ?,coding (511/597 nt),C-B3-1 B,0
+yjjM ?,coding (63/915 nt),C-B3-1 B,0
+arcA ?,E94K (GAA?AAA) ,C-B3-1 B,0
+arcA ?,T3P (ACC?CCC) ,C-B3-1 B,0
+carB ?,T646A (ACC?GCC) ,C-B3-1 B,0
+ksgA ?,G8D (GGC?GAC) ,C-B3-1 B,0
+imp ?,A553T (GCC?ACC) ,C-B3-1 B,1
+yabQ ?,L39L (CTG?CTA) ,C-B3-1 B,1
+araA ?,D470N (GAC?AAC) ,C-B3-1 B,1
+yabI ?,R207C (CGT?TGT) ,C-B3-1 B,1
+leuO ?,A32V (GCC?GTC) ,C-B3-1 B,1
+mraZ ?,N29S (AAC?AGC) ,C-B3-1 B,1
+ampE ?,K36K (AAA?AAG) ,C-B3-1 B,1
+lpd ?,V408A (GTG?GCG) ,C-B3-1 B,1
+mrcB ?,S280S (AGC?AGT) ,C-B3-1 B,0
+fhuB ?,N249S (AAC?AGC) ,C-B3-1 B,1
+proS ?,N62S (AAC?AGC) ,C-B3-1 B,1
+metQ ?,A240T (GCC?ACC) ,C-B3-1 B,1
+yafU ?,C60R (TGT?CGT) ,C-B3-1 B,1
+ivy ?,D134G (GAT?GGT) ,C-B3-1 B,1
+fadE ?,C455C (TGT?TGC) ,C-B3-1 B,0
+ykfJ ?,R10R (CGT?CGC) ,C-B3-1 B,1
+insI ?,S192S (TCG?TCA) ,C-B3-1 B,1
+ykfC ?,L106L (TTG?CTG) ,C-B3-1 B,1
+mmuP ?,A78V (GCG?GTG) ,C-B3-1 B,1
+yagJ ?,A28V (GCG?GTG) ,C-B3-1 B,1
+yagM ?,S215P (TCA?CCA) ,C-B3-1 B,1
+intF ?,S189S (TCG?TCA) ,C-B3-1 B,1
+ykgL ?,Y24C (TAC?TGC) ,C-B3-1 B,1
+insF ?,G276S (GGC?AGC) ,C-B3-1 B,1
+ykgC ?,A242A (GCG?GCA) ,C-B3-1 B,1
+betI ?,R10W (CGG?TGG) ,C-B3-1 B,1
+yahJ ?,coding (1236/1383 nt),C-B3-1 B,1
+lacZ ?,G181R (GGA?AGA) ,C-B3-1 B,1
+frmA ?,A209A (GCG?GCA) ,C-B3-1 B,1
+yaiU ?,N301S (AAC?AGC) ,C-B3-1 B,1
+mak ?,coding (755/909 nt),C-B3-1 B,1
+tsx ?,G95G (GGT?GGC) ,C-B3-1 B,1
+yajL ?,A5T (GCA?ACA) ,C-B3-1 B,0
+lon ?,Q300R (CAG?CGG) ,C-B3-1 B,1
+acrB ?,W187* (TGG?TAG) ,C-B3-1 B,1
+rhsD ?,R1227W (CGG?TGG) ,C-B3-1 B,1
+rzpD ?,S109S (TCC?TCT) ,C-B3-1 B,1
+cusS ?,I397T (ATT?ACT) ,C-B3-1 B,1
+insL ?,coding (1083/1113 nt),C-B3-1 B,1
+fepA ?,A405V (GCA?GTA) ,C-B3-1 B,1
+entB ?,A213T (GCC?ACC) ,C-B3-1 B,1
+ybdH ?,V265A (GTG?GCG) ,C-B3-1 B,1
+mrdA ?,V345A (GTG?GCG) ,C-B3-1 B,1
+miaB ?,V410A (GTC?GCC) ,C-B3-1 B,1
+ybfO ?,coding (917/1434 nt),C-B3-1 B,1
+tolQ ?,Q70R (CAG?CGG) ,C-B3-1 B,0
+modF ?,A44T (GCC?ACC) ,C-B3-1 B,1
+ybhI ?,H362Y (CAC?TAC) ,C-B3-1 B,0
+bioF ?,A244A (GCG?GCA) ,C-B3-1 B,1
+ybhS ?,E209E (GAA?GAG) ,C-B3-1 B,1
+dinG ?,A2V (GCA?GTA) ,C-B3-1 B,1
+glnP ?,R131R (CGT?CGC) ,C-B3-1 B,1
+ybiW ?,T524I (ACC?ATC) ,C-B3-1 B,1
+ftsK ?,G144G (GGC?GGT) ,C-B3-1 B,0
+ycaM ?,Q103R (CAA?CGA) ,C-B3-1 B,1
+ycbX ?,R318R (CGT?CGC) ,C-B3-1 B,1
+ycbY ?,T564A (ACC?GCC) ,C-B3-1 B,1
+yccR ?,D196G (GAC?GGC) ,C-B3-1 B,0
+torS ?,A450A (GCG?GCA) ,C-B3-1 B,1
+ycdC ?,V198A (GTT?GCT) ,C-B3-1 B,1
+ycdQ ?,M423I (ATG?ATA) ,C-B3-1 B,0
+ycdU ?,F124L (TTC?CTC) ,C-B3-1 B,0
+ycdU ?,C171C (TGC?TGT) ,C-B3-1 B,0
+mdoH ?,R769C (CGC?TGC) ,C-B3-1 B,1
+mviM ?,K146K (AAA?AAG) ,C-B3-1 B,1
+flgG ?,Q124* (CAG?TAG) ,C-B3-1 B,1
+rne ?,E664K (GAA?AAA) ,C-B3-1 B,1
+plsX ?,A149V (GCC?GTC) ,C-B3-1 B,1
+ycfH ?,R215Q (CGA?CAA) ,C-B3-1 B,0
+icd ?,H366H (CAC?CAT) ,C-B3-1 B,1
+icd ?,T370T (ACC?ACT) ,C-B3-1 B,1
+dsbB ?,G11G (GGC?GGT) ,C-B3-1 B,0
+nhaB ?,coding (1164?1295/1542 nt),C-B3-1 B,0
+nhaB ?,R196H (CGT?CAT) ,C-B3-1 B,1
+cvrA ?,T153M (ACG?ATG) ,C-B3-1 B,1
+ycgV ?,coding (2098/2868 nt),C-B3-1 B,0
+ychM ?,I145I (ATC?ATT) ,C-B3-1 B,1
+chaA ?,V21I (GTT?ATT) ,C-B3-1 B,1
+yciS ?,V93V (GTA?GTG) ,C-B3-1 B,1
+sapA ?,R292R (CGT?CGC) ,C-B3-1 B,0
+puuB ?,A391V (GCC?GTC) ,C-B3-1 B,1
+pspF ?,P223S (CCG?TCG) ,C-B3-1 B,1
+pspC ?,P68L (CCG?CTG) ,C-B3-1 B,0
+ycjG ?,T15A (ACC?GCC) ,C-B3-1 B,1
+intR ?,G270R (GGG?AGG) ,C-B3-1 B,1
+ldhA ?,E107E (GAA?GAG) ,C-B3-1 B,1
+feaB ?,R129R (CGT?CGC) ,C-B3-1 B,0
+feaB ?,I179I (ATT?ATC) ,C-B3-1 B,1
+ydcM ?,S193P (TCA?CCA) ,C-B3-1 B,1
+ydcU ?,A174V (GCG?GTG) ,C-B3-1 B,1
+fdnG ?,M832V (ATG?GTG) ,C-B3-1 B,1
+ydeK ?,coding (3955/3978 nt),C-B3-1 B,1
+ydeK ?,coding (3831/3978 nt),C-B3-1 B,1
+ydeK ?,coding (774/3978 nt),C-B3-1 B,1
+ydeK ?,coding (774/3978 nt),C-B3-1 B,0
+stfQ ?,G266D (GGC?GAC) ,C-B3-1 B,1
+dgsA ?,coding (677?678/1221 nt),C-B3-1 B,1
+ydhH ?,A214A (GCA?GCG) ,C-B3-1 B,1
+ydhK ?,coding (36/2013 nt),C-B3-1 B,1
+ydhK ?,I80T (ATT?ACT) ,C-B3-1 B,1
+lhr ?,coding (909/4617 nt),C-B3-1 B,1
+lhr ?,A566A (GCC?GCT) ,C-B3-1 B,1
+ydhP ?,M313V (ATG?GTG) ,C-B3-1 B,1
+ydiD ?,A73A (GCG?GCA) ,C-B3-1 B,1
+ansA ?,A100A (GCG?GCA) ,C-B3-1 B,1
+gapA ?,Y43C (TAC?TGC) ,C-B3-1 B,1
+yeaW ?,E70K (GAA?AAA) ,C-B3-1 B,1
+yoaE ?,A32T (GCC?ACC) ,C-B3-1 B,1
+flhA ?,Q511R (CAG?CGG) ,C-B3-1 B,1
+fliK ?,S311S (AGT?AGC) ,C-B3-1 B,1
+dcm ?,M220I (ATG?ATA) ,C-B3-1 B,1
+yedW ?,V188A (GTG?GCG) ,C-B3-1 B,1
+yeeR ?,A184A (GCG?GCA) ,C-B3-1 B,1
+yeeF ?,L349P (CTG?CCG) ,C-B3-1 B,1
+wzxC ?,R283C (CGT?TGT) ,C-B3-1 B,1
+wcaC ?,A326V (GCG?GTG) ,C-B3-1 B,1
+asmA ?,A109A (GCA?GCG) ,C-B3-1 B,1
+yegE ?,V632A (GTG?GCG) ,C-B3-1 B,1
+yegD ?,A197T (GCT?ACT) ,C-B3-1 B,1
+yegS ?,I166I (ATT?ATC) ,C-B3-1 B,1
+metG ?,P566P (CCG?CCA) ,C-B3-1 B,1
+yejH ?,A399A (GCC?GCT) ,C-B3-1 B,1
+ccmA ?,coding (531/624 nt),C-B3-1 B,1
+mqo ?,T204T (ACC?ACT) ,C-B3-1 B,1
+atoE ?,coding (1044/1323 nt),C-B3-1 B,1
+nrdA ?,L342L (CTG?CTA) ,C-B3-1 B,1
+nrdB ?,R50R (CGT?CGC) ,C-B3-1 B,1
+yfbH ?,D224G (GAT?GGT) ,C-B3-1 B,0
+menC ?,R217C (CGC?TGC) ,C-B3-1 B,1
+yfbK ?,T396A (ACC?GCC) ,C-B3-1 B,1
+yfcG ?,Q207Q (CAA?CAG) ,C-B3-1 B,1
+accD ?,S69G (AGC?GGC) ,C-B3-1 B,1
+pdxB ?,P333S (CCG?TCG) ,C-B3-1 B,1
+yfcJ ?,T290M (ACG?ATG) ,C-B3-1 B,1
+mepA ?,Q226* (CAA?TAA) ,C-B3-1 B,1
+yfcP ?,V76V (GTA?GTG) ,C-B3-1 B,1
+yfcU ?,E60G (GAG?GGG) ,C-B3-1 B,1
+intS ?,R161H (CGC?CAC) ,C-B3-1 B,1
+dsdX ?,G71G (GGC?GGT) ,C-B3-1 B,1
+oxc ?,R345C (CGC?TGC) ,C-B3-1 B,1
+cysA ?,L313Q (CTG?CAG) ,C-B3-1 B,1
+hemF ?,G184E (GGG?GAG) ,C-B3-1 B,0
+hemF ?,R239R (CGT?CGC) ,C-B3-1 B,1
+maeB ?,R656G (AGG?GGG) ,C-B3-1 B,0
+hyfB ?,coding (200/2019 nt),C-B3-1 B,1
+focB ?,P197S (CCC?TCC) ,C-B3-1 B,1
+yfgL ?,S33P (TCC?CCC) ,C-B3-1 B,1
+hcaT ?,A89V (GCG?GTG) ,C-B3-1 B,0
+yphH ?,C95R (TGT?CGT) ,C-B3-1 B,1
+lepB ?,G322D (GGC?GAC) ,C-B3-1 B,1
+kgtP ?,L177L (CTA?CTG) ,C-B3-1 B,1
+rrsG ?,noncoding (273/1542 nt),C-B3-1 B,1
+rrsG ?,noncoding (253/1542 nt),C-B3-1 B,1
+rrsG ?,noncoding (250/1542 nt),C-B3-1 B,1
+yfiO ?,D84D (GAT?GAC) ,C-B3-1 B,1
+ypjD ?,V236A (GTG?GCG) ,C-B3-1 B,1
+yfjH ?,coding (939/957 nt),C-B3-1 B,1
+yfjK ?,D523D (GAC?GAT) ,C-B3-1 B,1
+yfjP ?,G16S (GGT?AGT) ,C-B3-1 B,1
+gabT ?,Y86H (TAT?CAT) ,C-B3-1 B,1
+mprA ?,W140* (TGG?TAG) ,C-B3-1 B,1
+emrB ?,M333V (ATG?GTG) ,C-B3-1 B,1
+alaS ?,G196G (GGC?GGG) ,C-B3-1 B,1
+hycH ?,N94N (AAC?AAT) ,C-B3-1 B,1
+fhlA ?,G414G (GGT?GGC) ,C-B3-1 B,1
+mutS ?,W709* (TGG?TGA) ,C-B3-1 B,1
+iap ?,T120A (ACT?GCT) ,C-B3-1 B,1
+ygcL ?,S303S (TCC?TCT) ,C-B3-1 B,1
+eno ?,Y258C (TAC?TGC) ,C-B3-1 B,1
+mazG ?,T160A (ACG?GCG) ,C-B3-1 B,1
+relA ?,L80P (CTG?CCG) ,C-B3-1 B,1
+gudD ?,L162P (CTG?CCG) ,C-B3-1 B,1
+yqcA ?,I75I (ATC?ATT) ,C-B3-1 B,1
+sdaC ?,V410A (GTA?GCA) ,C-B3-1 B,0
+ppdC ?,N39S (AAC?AGC) ,C-B3-1 B,1
+yqeH ?,G50G (GGT?GGC) ,C-B3-1 B,1
+ygeF ?,coding (370/447 nt),C-B3-1 B,1
+hyuA ?,V309M (GTG?ATG) ,C-B3-1 B,1
+recJ ?,Q250Q (CAG?CAA) ,C-B3-1 B,1
+gcvP ?,A372V (GCG?GTG) ,C-B3-1 B,1
+visC ?,K317K (AAA?AAG) ,C-B3-1 B,1
+argO ?,A167A (GCA?GCG) ,C-B3-1 B,1
+pgk ?,A144V (GCT?GTT) ,C-B3-1 B,0
+sprT ?,V163A (GTT?GCT) ,C-B3-1 B,1
+yggJ ?,N47D (AAC?GAC) ,C-B3-1 B,0
+mutY ?,R277R (CGG?CGA) ,C-B3-1 B,1
+glcB ?,I242I (ATC?ATT) ,C-B3-1 B,1
+hybD ?,V117V (GTC?GTT) ,C-B3-1 B,1
+exbB ?,A182A (GCA?GCG) ,C-B3-1 B,1
+exbB ?,L62L (CTG?TTG) ,C-B3-1 B,1
+metC ?,K124K (AAA?AAG) ,C-B3-1 B,0
+metC ?,A325A (GCG?GCA) ,C-B3-1 B,1
+yqhC ?,coding (915/957 nt),C-B3-1 B,1
+nudF ?,coding (402/630 nt),C-B3-1 B,1
+yqiK ?,coding (1499/1662 nt),C-B3-1 B,1
+rfaE ?,N288S (AAT?AGT) ,C-B3-1 B,0
+ygjK ?,A732A (GCG?GCA) ,C-B3-1 B,0
+ygjP ?,Q137R (CAG?CGG) ,C-B3-1 B,1
+sstT ?,V393A (GTG?GCG) ,C-B3-1 B,1
+exuT ?,W289* (TGG?TAG) ,C-B3-1 B,1
+yhaK ?,L106P (CTC?CCC) ,C-B3-1 B,0
+yhaK ?,A149A (GCG?GCA) ,C-B3-1 B,1
+tdcB ?,G215D (GGC?GAC) ,C-B3-1 B,1
+garK ?,Q325R (CAG?CGG) ,C-B3-1 B,1
+garP ?,Y404C (TAC?TGC) ,C-B3-1 B,1
+sohA ?,coding (272/336 nt),C-B3-1 B,1
+truB ?,T178T (ACT?ACC) ,C-B3-1 B,0
+yhbX ?,P385S (CCG?TCG) ,C-B3-1 B,1
+gltB ?,T545T (ACT?ACC) ,C-B3-1 B,1
+yhdW ?,A100V (GCG?GTG) ,C-B3-1 B,0
+yhdY ?,coding (438/1104 nt),C-B3-1 B,0
+thiC ?,R14R (CGG?CGA) ,C-B3-1 B,0
+metJ ?,R81C (CGC?TGC) ,C-B3-1 B,1
+yiiQ ?,A80A (GCT?GCC) ,C-B3-1 B,1
+rhaA ?,C257R (TGC?CGC) ,C-B3-1 B,1
+dapF ?,L113L (CTG?TTG) ,C-B3-1 B,1
+cyaA ?,P430L (CCA?CTA) ,C-B3-1 B,1
+yifK ?,coding (66/1386 nt),C-B3-1 B,1
+rho ?,A236T (GCA?ACA) ,C-B3-1 B,0
+ilvC ?,A203A (GCG?GCA) ,C-B3-1 B,1
+asnC ?,G103S (GGC?AGC) ,C-B3-1 B,1
+pstA ?,R170S (CGC?AGC) ,C-B3-1 B,0
+yieG ?,T370A (ACT?GCT) ,C-B3-1 B,1
+yidH ?,T21A (ACT?GCT) ,C-B3-1 B,1
+yicN ?,S22S (TCC?TCT) ,C-B3-1 B,1
+yicR ?,G73G (GGC?GGT) ,C-B3-1 B,1
+rfaD ?,F224F (TTC?TTT) ,C-B3-1 B,1
+selA ?,A368A (GCA?GCG) ,C-B3-1 B,1
+bcsE ?,E463K (GAA?AAA) ,C-B3-1 B,1
+bcsB ?,V181A (GTG?GCG) ,C-B3-1 B,1
+yhjK ?,R71C (CGT?TGT) ,C-B3-1 B,1
+gadA ?,F188L (TTT?CTT) ,C-B3-1 B,1
+prlC ?,T460A (ACT?GCT) ,C-B3-1 B,1
+pitA ?,S425P (TCT?CCT) ,C-B3-1 B,1
+yhhT ?,L153L (TTG?TTA) ,C-B3-1 B,1
+livG ?,coding (133/768 nt),C-B3-1 B,1
+glgX ?,E490E (GAA?GAG) ,C-B3-1 B,1
+malQ ?,D419G (GAC?GGC) ,C-B3-1 B,1
+yhgF ?,A745T (GCA?ACA) ,C-B3-1 B,1
+frlR ?,G72D (GGC?GAC) ,C-B3-1 B,1
+nirC ?,V119A (GTT?GCT) ,C-B3-1 B,1
+yheS ?,G37S (GGC?AGC) ,C-B3-1 B,1
+fusA ?,Y33C (TAC?TGC) ,C-B3-1 B,1
+metH ?,L170L (CTG?CTA) ,C-B3-1 B,1
+metH ?,W1112* (TGG?TAG) ,C-B3-1 B,1
+yjbB ?,E397G (GAG?GGG) ,C-B3-1 B,0
+pgi ?,I285I (ATC?ATT) ,C-B3-1 B,0
+yjbI ?,A135A (GCA?GCG) ,C-B3-1 B,1
+nrfC ?,D183D (GAC?GAT) ,C-B3-1 B,1
+proP ?,S414S (TCG?TCA) ,C-B3-1 B,1
+lysU ?,P338P (CCA?CCG) ,C-B3-1 B,1
+cadB ?,A99V (GCG?GTG) ,C-B3-1 B,0
+cadC ?,I139T (ATT?ACT) ,C-B3-1 B,0
+blc ?,F95L (TTT?CTT) ,C-B3-1 B,1
+mutL ?,I56V (ATT?GTT) ,C-B3-1 B,1
+yjfK ?,R174Q (CGG?CAG) ,C-B3-1 B,1
+ulaE ?,A261A (GCG?GCA) ,C-B3-1 B,0
+ytfR ?,D343D (GAC?GAT) ,C-B3-1 B,1
+nrdD ?,R448R (CGT?CGC) ,C-B3-1 B,1
+yjgN ?,A255V (GCG?GTG) ,C-B3-1 B,1
+pepA ?,Y365H (TAC?CAC) ,C-B3-1 B,1
+yjgB ?,V241I (GTC?ATC) ,C-B3-1 B,0
+sgcA ?,V94A (GTC?GCC) ,C-B3-1 B,1
+yjhR ?,D234G (GAT?GGT) ,C-B3-1 B,1
+fimE ?,M15V (ATG?GTG) ,C-B3-1 B,1
+iadA ?,L215P (CTG?CCG) ,C-B3-1 B,0
+yjiK ?,R22R (CGT?CGC) ,C-B3-1 B,1
+leuV ?,noncoding (71/87 nt),C-B3-1 B,1
+creD ?,P5L (CCC?CTC) ,C-B3-1 B,0
+dnaK ?,L131P (CTG?CCG) ,C-B3-2 A,0
+nhaA ?,V224G (GTT?GGT) ,C-B3-2 A,0
+rrlH ?,noncoding (538/2904 nt),C-B3-2 A,0
+ykfJ–[insH],insH-mediated,C-B3-2 A,0
+Y75_RS01440 ?,coding (58/225 nt),C-B3-2 A,0
+acrB ?,coding (247/3150 nt),C-B3-2 A,0
+acrA ?,Q116* (CAG?TAG) ,C-B3-2 A,0
+ybbA ?,L157Q (CTG?CAG) ,C-B3-2 A,0
+allR ?,A13A (GCG?GCT) ,C-B3-2 A,0
+cecR ?,Y51N (TAC?AAC) ,C-B3-2 A,0
+cecR ?,Y50C (TAC?TGC) ,C-B3-2 A,0
+lrp ?,coding (411/495 nt),C-B3-2 A,0
+ycaM ?,coding (172/1431 nt),C-B3-2 A,0
+mukB ?,R73R (CGC?CGT) ,C-B3-2 A,0
+hyaC ?,T35I (ACC?ATC) ,C-B3-2 A,0
+ycdO ?,K52K (AAA?AAG) ,C-B3-2 A,0
+Y75_RS05380-[Y75_RS05385],duplication (362bp),C-B3-2 A,0
+Y75_RS05380-[serX],duplication (442bp),C-B3-2 A,0
+fabF ?,G202A (GGT?GCT) ,C-B3-2 A,0
+ptsG ?,coding (87?983/1434 nt),C-B3-2 A,0
+nhaB ?,coding (1164?1295/1542 nt),C-B3-2 A,0
+nhaB ?,coding (364/1542 nt),C-B3-2 A,0
+adhE ?,A626V (GCG?GTG) ,C-B3-2 A,0
+adhE ?,H565L (CAC?CTC) ,C-B3-2 A,0
+adhE ?,H565R (CAC?CGC) ,C-B3-2 A,0
+adhE ?,W556R (TGG?CGG) ,C-B3-2 A,0
+adhE ?,L371Q (CTG?CAG) ,C-B3-2 A,0
+adhE ?,Y77H (TAC?CAC) ,C-B3-2 A,0
+sapD ?,coding (936/993 nt),C-B3-2 A,0
+ydcI ?,coding (189/924 nt),C-B3-2 A,0
+yncD ?,D654G (GAT?GGT) ,C-B3-2 A,0
+Y75_RS07695 ?,coding (1436/1800 nt),C-B3-2 A,0
+hipA-flxA,duplication (56260 bp),C-B3-2 A,0
+ydiM ?,coding (995/1215 nt),C-B3-2 A,0
+yeaA ?,coding (5/414 nt),C-B3-2 A,0
+yeaR ?,coding (112/360 nt),C-B3-2 A,0
+Y75_RS09615 ?,coding (92/207 nt),C-B3-2 A,0
+otsB ?,L67R (CTT?CGT) ,C-B3-2 A,0
+gatD ?,coding (166/1041 nt),C-B3-2 A,0
+glpB ?,T340T (ACG?ACC) ,C-B3-2 A,0
+menC ?,coding (128/963 nt),C-B3-2 A,0
+purF ?,R74L (CGT?CTT) ,C-B3-2 A,0
+aroC ?,P31Q (CCG?CAG) ,C-B3-2 A,0
+crr ?,coding (487/510 nt),C-B3-2 A,0
+nlpB ?,R223S (CGT?AGT) ,C-B3-2 A,0
+pbpC ?,S342T (TCA?ACA) ,C-B3-2 A,0
+csiE ?,T299P (ACC?CCC) ,C-B3-2 A,0
+srmB ?,coding (664/1335 nt),C-B3-2 A,0
+kgtP ?,coding (375/1299 nt),C-B3-2 A,0
+mprA ?,coding (110/531 nt),C-B3-2 A,0
+mprA ?,coding (155?163/531 nt),C-B3-2 A,0
+mprA ?,L64R (CTG?CGG) ,C-B3-2 A,0
+mprA ?,coding (299?356/531 nt),C-B3-2 A,0
+mprA ?,D109V (GAT?GTT) ,C-B3-2 A,0
+mprA ?,D109E (GAT?GAG) ,C-B3-2 A,0
+mprA ?,C112* (TGC?TGA) ,C-B3-2 A,0
+mprA ?,coding (344?412/531 nt),C-B3-2 A,0
+mprA ?,G121D (GGT?GAT) ,C-B3-2 A,0
+mprA ?,W140* (TGG?TGA) ,C-B3-2 A,0
+emrA ?,L24H (CTC?CAC) ,C-B3-2 A,0
+emrA ?,I313L (ATC?CTC) ,C-B3-2 A,0
+emrB ?,M219I (ATG?ATA) ,C-B3-2 A,0
+emrB ?,E297V (GAG?GTG) ,C-B3-2 A,0
+emrB ?,V337A (GTA?GCA) ,C-B3-2 A,0
+emrB ?,P357L (CCA?CTA) ,C-B3-2 A,0
+emrB ?,S411A (TCT?GCT) ,C-B3-2 A,0
+rpoS ?,P166L (CCA?CTA) ,C-B3-2 A,0
+rpoS ?,Q13* (CAG?TAG) ,C-B3-2 A,0
+nlpD ?,coding (656/1140 nt),C-B3-2 A,0
+ygbE ?,G81* (GGA?TGA) ,C-B3-2 A,0
+yghB ?,coding (645/660 nt),C-B3-2 A,0
+rpoD ?,Y571H (TAC?CAC) ,C-B3-2 A,0
+yhaC ?,G146R (GGG?AGG) ,C-B3-2 A,0
+sohA ?,coding (272/336 nt),C-B3-2 A,0
+rng ?,E404* (GAA?TAA) ,C-B3-2 A,0
+rng ?,L368* (TTG?TAG) ,C-B3-2 A,0
+rng ?,L280P (CTG?CCG) ,C-B3-2 A,0
+rng ?,E227* (GAA?TAA) ,C-B3-2 A,0
+rpoC ?,Q477R (CAG?CGG) ,C-B3-2 A,0
+rpoB ?,R944C (CGT?TGT) ,C-B3-2 A,0
+rpoB ?,S182A (TCC?GCC) ,C-B3-2 A,0
+cyaA ?,N804K (AAC?AAA) ,C-B3-2 A,0
+cyaA ?,Q671* (CAG?TAG) ,C-B3-2 A,0
+cyaA ?,coding (1552/2547 nt),C-B3-2 A,0
+rho ?,K105E (AAA?GAA) ,C-B3-2 A,0
+rbsR ?,A300E (GCG?GAG) ,C-B3-2 A,0
+spoT ?,W339R (TGG?AGG) ,C-B3-2 A,0
+glyQ ?,coding (728/912 nt),C-B3-2 A,0
+bcsB ?,D212N (GAC?AAC) ,C-B3-2 A,0
+gadE ?,coding (234/528 nt),C-B3-2 A,0
+yhiF ?,coding (167/531 nt),C-B3-2 A,0
+pitA ?,coding (578/1500 nt),C-B3-2 A,0
+greB ?,V91G (GTG?GGG) ,C-B3-2 A,0
+rpoA ?,coding (585?590/990 nt),C-B3-2 A,0
+metH ?,F951C (TTT?TGT) ,C-B3-2 A,0
+plsB ?,S740Y (TCC?TAC) ,C-B3-2 A,0
+plsB ?,L453Q (CTG?CAG) ,C-B3-2 A,0
+plsB ?,L449Q (CTG?CAG) ,C-B3-2 A,0
+plsB ?,E438A (GAA?GCA) ,C-B3-2 A,0
+plsB ?,G341R (GGG?AGG) ,C-B3-2 A,0
+plsB ?,M128R (ATG?AGG) ,C-B3-2 A,0
+alsE ?,K58Q (AAA?CAA) ,C-B3-2 A,0
+yjeP ?,G596G (GGG?GGA) ,C-B3-2 A,0
+ytfI ?,F124L (TTC?TTA) ,C-B3-2 A,0
+ytfQ ?,T125I (ACC?ATC) ,C-B3-2 A,0
+treB ?,C401F (TGC?TTC) ,C-B3-2 A,0
+Y75_RS22485 ?,coding (110/132 nt),C-B3-2 A,0
+fimE ?,coding (128/597 nt),C-B3-2 A,0
+fimE ?,coding (258/597 nt),C-B3-2 A,0
+fimE ?,T87N (ACC?AAC) ,C-B3-2 A,0
+fimE ?,coding (417/597 nt),C-B3-2 A,0
+fimE ?,coding (511/597 nt),C-B3-2 A,0
+yjjM ?,coding (63/915 nt),C-B3-2 A,0
+arcA ?,E94K (GAA?AAA) ,C-B3-2 A,0
+arcA ?,T3P (ACC?CCC) ,C-B3-2 A,0
+carB ?,T646A (ACC?GCC) ,C-B3-2 A,1
+ksgA ?,G8D (GGC?GAC) ,C-B3-2 A,1
+imp ?,A553T (GCC?ACC) ,C-B3-2 A,0
+yabQ ?,L39L (CTG?CTA) ,C-B3-2 A,1
+araA ?,D470N (GAC?AAC) ,C-B3-2 A,1
+yabI ?,R207C (CGT?TGT) ,C-B3-2 A,1
+leuO ?,A32V (GCC?GTC) ,C-B3-2 A,0
+mraZ ?,N29S (AAC?AGC) ,C-B3-2 A,0
+ampE ?,K36K (AAA?AAG) ,C-B3-2 A,0
+lpd ?,V408A (GTG?GCG) ,C-B3-2 A,1
+mrcB ?,S280S (AGC?AGT) ,C-B3-2 A,1
+fhuB ?,N249S (AAC?AGC) ,C-B3-2 A,1
+proS ?,N62S (AAC?AGC) ,C-B3-2 A,1
+metQ ?,A240T (GCC?ACC) ,C-B3-2 A,1
+yafU ?,C60R (TGT?CGT) ,C-B3-2 A,1
+ivy ?,D134G (GAT?GGT) ,C-B3-2 A,1
+fadE ?,C455C (TGT?TGC) ,C-B3-2 A,1
+ykfJ ?,R10R (CGT?CGC) ,C-B3-2 A,0
+insI ?,S192S (TCG?TCA) ,C-B3-2 A,1
+ykfC ?,L106L (TTG?CTG) ,C-B3-2 A,0
+mmuP ?,A78V (GCG?GTG) ,C-B3-2 A,1
+yagJ ?,A28V (GCG?GTG) ,C-B3-2 A,0
+yagM ?,S215P (TCA?CCA) ,C-B3-2 A,1
+intF ?,S189S (TCG?TCA) ,C-B3-2 A,0
+ykgL ?,Y24C (TAC?TGC) ,C-B3-2 A,0
+insF ?,G276S (GGC?AGC) ,C-B3-2 A,0
+ykgC ?,A242A (GCG?GCA) ,C-B3-2 A,1
+betI ?,R10W (CGG?TGG) ,C-B3-2 A,1
+yahJ ?,coding (1236/1383 nt),C-B3-2 A,1
+lacZ ?,G181R (GGA?AGA) ,C-B3-2 A,0
+frmA ?,A209A (GCG?GCA) ,C-B3-2 A,1
+yaiU ?,N301S (AAC?AGC) ,C-B3-2 A,1
+mak ?,coding (755/909 nt),C-B3-2 A,0
+tsx ?,G95G (GGT?GGC) ,C-B3-2 A,1
+yajL ?,A5T (GCA?ACA) ,C-B3-2 A,1
+lon ?,Q300R (CAG?CGG) ,C-B3-2 A,1
+acrB ?,W187* (TGG?TAG) ,C-B3-2 A,1
+rhsD ?,R1227W (CGG?TGG) ,C-B3-2 A,1
+rzpD ?,S109S (TCC?TCT) ,C-B3-2 A,1
+cusS ?,I397T (ATT?ACT) ,C-B3-2 A,1
+insL ?,coding (1083/1113 nt),C-B3-2 A,1
+fepA ?,A405V (GCA?GTA) ,C-B3-2 A,0
+entB ?,A213T (GCC?ACC) ,C-B3-2 A,1
+ybdH ?,V265A (GTG?GCG) ,C-B3-2 A,1
+mrdA ?,V345A (GTG?GCG) ,C-B3-2 A,0
+miaB ?,V410A (GTC?GCC) ,C-B3-2 A,0
+ybfO ?,coding (917/1434 nt),C-B3-2 A,0
+tolQ ?,Q70R (CAG?CGG) ,C-B3-2 A,1
+modF ?,A44T (GCC?ACC) ,C-B3-2 A,0
+ybhI ?,H362Y (CAC?TAC) ,C-B3-2 A,1
+bioF ?,A244A (GCG?GCA) ,C-B3-2 A,1
+ybhS ?,E209E (GAA?GAG) ,C-B3-2 A,1
+dinG ?,A2V (GCA?GTA) ,C-B3-2 A,1
+glnP ?,R131R (CGT?CGC) ,C-B3-2 A,0
+ybiW ?,T524I (ACC?ATC) ,C-B3-2 A,0
+ftsK ?,G144G (GGC?GGT) ,C-B3-2 A,1
+ycaM ?,Q103R (CAA?CGA) ,C-B3-2 A,0
+ycbX ?,R318R (CGT?CGC) ,C-B3-2 A,1
+ycbY ?,T564A (ACC?GCC) ,C-B3-2 A,0
+yccR ?,D196G (GAC?GGC) ,C-B3-2 A,1
+torS ?,A450A (GCG?GCA) ,C-B3-2 A,1
+ycdC ?,V198A (GTT?GCT) ,C-B3-2 A,1
+ycdQ ?,M423I (ATG?ATA) ,C-B3-2 A,1
+ycdU ?,F124L (TTC?CTC) ,C-B3-2 A,1
+ycdU ?,C171C (TGC?TGT) ,C-B3-2 A,1
+mdoH ?,R769C (CGC?TGC) ,C-B3-2 A,1
+mviM ?,K146K (AAA?AAG) ,C-B3-2 A,1
+flgG ?,Q124* (CAG?TAG) ,C-B3-2 A,0
+rne ?,E664K (GAA?AAA) ,C-B3-2 A,1
+plsX ?,A149V (GCC?GTC) ,C-B3-2 A,0
+ycfH ?,R215Q (CGA?CAA) ,C-B3-2 A,1
+icd ?,H366H (CAC?CAT) ,C-B3-2 A,1
+icd ?,T370T (ACC?ACT) ,C-B3-2 A,0
+dsbB ?,G11G (GGC?GGT) ,C-B3-2 A,1
+nhaB ?,coding (1164?1295/1542 nt),C-B3-2 A,0
+nhaB ?,R196H (CGT?CAT) ,C-B3-2 A,1
+cvrA ?,T153M (ACG?ATG) ,C-B3-2 A,0
+ycgV ?,coding (2098/2868 nt),C-B3-2 A,1
+ychM ?,I145I (ATC?ATT) ,C-B3-2 A,1
+chaA ?,V21I (GTT?ATT) ,C-B3-2 A,1
+yciS ?,V93V (GTA?GTG) ,C-B3-2 A,1
+sapA ?,R292R (CGT?CGC) ,C-B3-2 A,1
+puuB ?,A391V (GCC?GTC) ,C-B3-2 A,1
+pspF ?,P223S (CCG?TCG) ,C-B3-2 A,1
+pspC ?,P68L (CCG?CTG) ,C-B3-2 A,1
+ycjG ?,T15A (ACC?GCC) ,C-B3-2 A,1
+intR ?,G270R (GGG?AGG) ,C-B3-2 A,0
+ldhA ?,E107E (GAA?GAG) ,C-B3-2 A,1
+feaB ?,R129R (CGT?CGC) ,C-B3-2 A,1
+feaB ?,I179I (ATT?ATC) ,C-B3-2 A,0
+ydcM ?,S193P (TCA?CCA) ,C-B3-2 A,1
+ydcU ?,A174V (GCG?GTG) ,C-B3-2 A,1
+fdnG ?,M832V (ATG?GTG) ,C-B3-2 A,1
+ydeK ?,coding (3955/3978 nt),C-B3-2 A,1
+ydeK ?,coding (3831/3978 nt),C-B3-2 A,1
+ydeK ?,coding (774/3978 nt),C-B3-2 A,0
+ydeK ?,coding (774/3978 nt),C-B3-2 A,1
+stfQ ?,G266D (GGC?GAC) ,C-B3-2 A,1
+dgsA ?,coding (677?678/1221 nt),C-B3-2 A,1
+ydhH ?,A214A (GCA?GCG) ,C-B3-2 A,1
+ydhK ?,coding (36/2013 nt),C-B3-2 A,1
+ydhK ?,I80T (ATT?ACT) ,C-B3-2 A,1
+lhr ?,coding (909/4617 nt),C-B3-2 A,1
+lhr ?,A566A (GCC?GCT) ,C-B3-2 A,0
+ydhP ?,M313V (ATG?GTG) ,C-B3-2 A,1
+ydiD ?,A73A (GCG?GCA) ,C-B3-2 A,1
+ansA ?,A100A (GCG?GCA) ,C-B3-2 A,1
+gapA ?,Y43C (TAC?TGC) ,C-B3-2 A,1
+yeaW ?,E70K (GAA?AAA) ,C-B3-2 A,1
+yoaE ?,A32T (GCC?ACC) ,C-B3-2 A,1
+flhA ?,Q511R (CAG?CGG) ,C-B3-2 A,0
+fliK ?,S311S (AGT?AGC) ,C-B3-2 A,1
+dcm ?,M220I (ATG?ATA) ,C-B3-2 A,1
+yedW ?,V188A (GTG?GCG) ,C-B3-2 A,1
+yeeR ?,A184A (GCG?GCA) ,C-B3-2 A,1
+yeeF ?,L349P (CTG?CCG) ,C-B3-2 A,1
+wzxC ?,R283C (CGT?TGT) ,C-B3-2 A,1
+wcaC ?,A326V (GCG?GTG) ,C-B3-2 A,1
+asmA ?,A109A (GCA?GCG) ,C-B3-2 A,0
+yegE ?,V632A (GTG?GCG) ,C-B3-2 A,1
+yegD ?,A197T (GCT?ACT) ,C-B3-2 A,1
+yegS ?,I166I (ATT?ATC) ,C-B3-2 A,1
+metG ?,P566P (CCG?CCA) ,C-B3-2 A,1
+yejH ?,A399A (GCC?GCT) ,C-B3-2 A,1
+ccmA ?,coding (531/624 nt),C-B3-2 A,1
+mqo ?,T204T (ACC?ACT) ,C-B3-2 A,0
+atoE ?,coding (1044/1323 nt),C-B3-2 A,1
+nrdA ?,L342L (CTG?CTA) ,C-B3-2 A,1
+nrdB ?,R50R (CGT?CGC) ,C-B3-2 A,1
+yfbH ?,D224G (GAT?GGT) ,C-B3-2 A,1
+menC ?,R217C (CGC?TGC) ,C-B3-2 A,0
+yfbK ?,T396A (ACC?GCC) ,C-B3-2 A,0
+yfcG ?,Q207Q (CAA?CAG) ,C-B3-2 A,1
+accD ?,S69G (AGC?GGC) ,C-B3-2 A,1
+pdxB ?,P333S (CCG?TCG) ,C-B3-2 A,0
+yfcJ ?,T290M (ACG?ATG) ,C-B3-2 A,1
+mepA ?,Q226* (CAA?TAA) ,C-B3-2 A,1
+yfcP ?,V76V (GTA?GTG) ,C-B3-2 A,0
+yfcU ?,E60G (GAG?GGG) ,C-B3-2 A,1
+intS ?,R161H (CGC?CAC) ,C-B3-2 A,1
+dsdX ?,G71G (GGC?GGT) ,C-B3-2 A,1
+oxc ?,R345C (CGC?TGC) ,C-B3-2 A,1
+cysA ?,L313Q (CTG?CAG) ,C-B3-2 A,1
+hemF ?,G184E (GGG?GAG) ,C-B3-2 A,1
+hemF ?,R239R (CGT?CGC) ,C-B3-2 A,0
+maeB ?,R656G (AGG?GGG) ,C-B3-2 A,1
+hyfB ?,coding (200/2019 nt),C-B3-2 A,0
+focB ?,P197S (CCC?TCC) ,C-B3-2 A,1
+yfgL ?,S33P (TCC?CCC) ,C-B3-2 A,1
+hcaT ?,A89V (GCG?GTG) ,C-B3-2 A,1
+yphH ?,C95R (TGT?CGT) ,C-B3-2 A,0
+lepB ?,G322D (GGC?GAC) ,C-B3-2 A,1
+kgtP ?,L177L (CTA?CTG) ,C-B3-2 A,1
+rrsG ?,noncoding (273/1542 nt),C-B3-2 A,1
+rrsG ?,noncoding (253/1542 nt),C-B3-2 A,1
+rrsG ?,noncoding (250/1542 nt),C-B3-2 A,1
+yfiO ?,D84D (GAT?GAC) ,C-B3-2 A,1
+ypjD ?,V236A (GTG?GCG) ,C-B3-2 A,1
+yfjH ?,coding (939/957 nt),C-B3-2 A,1
+yfjK ?,D523D (GAC?GAT) ,C-B3-2 A,1
+yfjP ?,G16S (GGT?AGT) ,C-B3-2 A,1
+gabT ?,Y86H (TAT?CAT) ,C-B3-2 A,1
+mprA ?,W140* (TGG?TAG) ,C-B3-2 A,1
+emrB ?,M333V (ATG?GTG) ,C-B3-2 A,1
+alaS ?,G196G (GGC?GGG) ,C-B3-2 A,1
+hycH ?,N94N (AAC?AAT) ,C-B3-2 A,1
+fhlA ?,G414G (GGT?GGC) ,C-B3-2 A,0
+mutS ?,W709* (TGG?TGA) ,C-B3-2 A,1
+iap ?,T120A (ACT?GCT) ,C-B3-2 A,1
+ygcL ?,S303S (TCC?TCT) ,C-B3-2 A,1
+eno ?,Y258C (TAC?TGC) ,C-B3-2 A,0
+mazG ?,T160A (ACG?GCG) ,C-B3-2 A,1
+relA ?,L80P (CTG?CCG) ,C-B3-2 A,1
+gudD ?,L162P (CTG?CCG) ,C-B3-2 A,1
+yqcA ?,I75I (ATC?ATT) ,C-B3-2 A,0
+sdaC ?,V410A (GTA?GCA) ,C-B3-2 A,1
+ppdC ?,N39S (AAC?AGC) ,C-B3-2 A,1
+yqeH ?,G50G (GGT?GGC) ,C-B3-2 A,1
+ygeF ?,coding (370/447 nt),C-B3-2 A,1
+hyuA ?,V309M (GTG?ATG) ,C-B3-2 A,1
+recJ ?,Q250Q (CAG?CAA) ,C-B3-2 A,1
+gcvP ?,A372V (GCG?GTG) ,C-B3-2 A,1
+visC ?,K317K (AAA?AAG) ,C-B3-2 A,1
+argO ?,A167A (GCA?GCG) ,C-B3-2 A,1
+pgk ?,A144V (GCT?GTT) ,C-B3-2 A,1
+sprT ?,V163A (GTT?GCT) ,C-B3-2 A,1
+yggJ ?,N47D (AAC?GAC) ,C-B3-2 A,1
+mutY ?,R277R (CGG?CGA) ,C-B3-2 A,1
+glcB ?,I242I (ATC?ATT) ,C-B3-2 A,1
+hybD ?,V117V (GTC?GTT) ,C-B3-2 A,1
+exbB ?,A182A (GCA?GCG) ,C-B3-2 A,0
+exbB ?,L62L (CTG?TTG) ,C-B3-2 A,1
+metC ?,K124K (AAA?AAG) ,C-B3-2 A,1
+metC ?,A325A (GCG?GCA) ,C-B3-2 A,0
+yqhC ?,coding (915/957 nt),C-B3-2 A,1
+nudF ?,coding (402/630 nt),C-B3-2 A,1
+yqiK ?,coding (1499/1662 nt),C-B3-2 A,1
+rfaE ?,N288S (AAT?AGT) ,C-B3-2 A,1
+ygjK ?,A732A (GCG?GCA) ,C-B3-2 A,1
+ygjP ?,Q137R (CAG?CGG) ,C-B3-2 A,1
+sstT ?,V393A (GTG?GCG) ,C-B3-2 A,1
+exuT ?,W289* (TGG?TAG) ,C-B3-2 A,1
+yhaK ?,L106P (CTC?CCC) ,C-B3-2 A,1
+yhaK ?,A149A (GCG?GCA) ,C-B3-2 A,1
+tdcB ?,G215D (GGC?GAC) ,C-B3-2 A,1
+garK ?,Q325R (CAG?CGG) ,C-B3-2 A,1
+garP ?,Y404C (TAC?TGC) ,C-B3-2 A,1
+sohA ?,coding (272/336 nt),C-B3-2 A,1
+truB ?,T178T (ACT?ACC) ,C-B3-2 A,1
+yhbX ?,P385S (CCG?TCG) ,C-B3-2 A,0
+gltB ?,T545T (ACT?ACC) ,C-B3-2 A,1
+yhdW ?,A100V (GCG?GTG) ,C-B3-2 A,1
+yhdY ?,coding (438/1104 nt),C-B3-2 A,1
+thiC ?,R14R (CGG?CGA) ,C-B3-2 A,1
+metJ ?,R81C (CGC?TGC) ,C-B3-2 A,1
+yiiQ ?,A80A (GCT?GCC) ,C-B3-2 A,1
+rhaA ?,C257R (TGC?CGC) ,C-B3-2 A,1
+dapF ?,L113L (CTG?TTG) ,C-B3-2 A,1
+cyaA ?,P430L (CCA?CTA) ,C-B3-2 A,1
+yifK ?,coding (66/1386 nt),C-B3-2 A,0
+rho ?,A236T (GCA?ACA) ,C-B3-2 A,1
+ilvC ?,A203A (GCG?GCA) ,C-B3-2 A,1
+asnC ?,G103S (GGC?AGC) ,C-B3-2 A,1
+pstA ?,R170S (CGC?AGC) ,C-B3-2 A,1
+yieG ?,T370A (ACT?GCT) ,C-B3-2 A,1
+yidH ?,T21A (ACT?GCT) ,C-B3-2 A,1
+yicN ?,S22S (TCC?TCT) ,C-B3-2 A,1
+yicR ?,G73G (GGC?GGT) ,C-B3-2 A,0
+rfaD ?,F224F (TTC?TTT) ,C-B3-2 A,0
+selA ?,A368A (GCA?GCG) ,C-B3-2 A,1
+bcsE ?,E463K (GAA?AAA) ,C-B3-2 A,1
+bcsB ?,V181A (GTG?GCG) ,C-B3-2 A,1
+yhjK ?,R71C (CGT?TGT) ,C-B3-2 A,1
+gadA ?,F188L (TTT?CTT) ,C-B3-2 A,1
+prlC ?,T460A (ACT?GCT) ,C-B3-2 A,1
+pitA ?,S425P (TCT?CCT) ,C-B3-2 A,1
+yhhT ?,L153L (TTG?TTA) ,C-B3-2 A,1
+livG ?,coding (133/768 nt),C-B3-2 A,0
+glgX ?,E490E (GAA?GAG) ,C-B3-2 A,1
+malQ ?,D419G (GAC?GGC) ,C-B3-2 A,0
+yhgF ?,A745T (GCA?ACA) ,C-B3-2 A,1
+frlR ?,G72D (GGC?GAC) ,C-B3-2 A,0
+nirC ?,V119A (GTT?GCT) ,C-B3-2 A,1
+yheS ?,G37S (GGC?AGC) ,C-B3-2 A,0
+fusA ?,Y33C (TAC?TGC) ,C-B3-2 A,1
+metH ?,L170L (CTG?CTA) ,C-B3-2 A,1
+metH ?,W1112* (TGG?TAG) ,C-B3-2 A,1
+yjbB ?,E397G (GAG?GGG) ,C-B3-2 A,1
+pgi ?,I285I (ATC?ATT) ,C-B3-2 A,1
+yjbI ?,A135A (GCA?GCG) ,C-B3-2 A,1
+nrfC ?,D183D (GAC?GAT) ,C-B3-2 A,0
+proP ?,S414S (TCG?TCA) ,C-B3-2 A,1
+lysU ?,P338P (CCA?CCG) ,C-B3-2 A,1
+cadB ?,A99V (GCG?GTG) ,C-B3-2 A,1
+cadC ?,I139T (ATT?ACT) ,C-B3-2 A,1
+blc ?,F95L (TTT?CTT) ,C-B3-2 A,1
+mutL ?,I56V (ATT?GTT) ,C-B3-2 A,1
+yjfK ?,R174Q (CGG?CAG) ,C-B3-2 A,1
+ulaE ?,A261A (GCG?GCA) ,C-B3-2 A,1
+ytfR ?,D343D (GAC?GAT) ,C-B3-2 A,1
+nrdD ?,R448R (CGT?CGC) ,C-B3-2 A,0
+yjgN ?,A255V (GCG?GTG) ,C-B3-2 A,1
+pepA ?,Y365H (TAC?CAC) ,C-B3-2 A,1
+yjgB ?,V241I (GTC?ATC) ,C-B3-2 A,1
+sgcA ?,V94A (GTC?GCC) ,C-B3-2 A,1
+yjhR ?,D234G (GAT?GGT) ,C-B3-2 A,1
+fimE ?,M15V (ATG?GTG) ,C-B3-2 A,1
+iadA ?,L215P (CTG?CCG) ,C-B3-2 A,1
+yjiK ?,R22R (CGT?CGC) ,C-B3-2 A,1
+leuV ?,noncoding (71/87 nt),C-B3-2 A,1
+creD ?,P5L (CCC?CTC) ,C-B3-2 A,0
+dnaK ?,L131P (CTG?CCG) ,C-E3-1,0
+nhaA ?,V224G (GTT?GGT) ,C-E3-1,0
+rrlH ?,noncoding (538/2904 nt),C-E3-1,0
+ykfJ–[insH],insH-mediated,C-E3-1,0
+Y75_RS01440 ?,coding (58/225 nt),C-E3-1,0
+acrB ?,coding (247/3150 nt),C-E3-1,0
+acrA ?,Q116* (CAG?TAG) ,C-E3-1,0
+ybbA ?,L157Q (CTG?CAG) ,C-E3-1,0
+allR ?,A13A (GCG?GCT) ,C-E3-1,0
+cecR ?,Y51N (TAC?AAC) ,C-E3-1,0
+cecR ?,Y50C (TAC?TGC) ,C-E3-1,0
+lrp ?,coding (411/495 nt),C-E3-1,0
+ycaM ?,coding (172/1431 nt),C-E3-1,0
+mukB ?,R73R (CGC?CGT) ,C-E3-1,0
+hyaC ?,T35I (ACC?ATC) ,C-E3-1,0
+ycdO ?,K52K (AAA?AAG) ,C-E3-1,0
+Y75_RS05380-[Y75_RS05385],duplication (362bp),C-E3-1,0
+Y75_RS05380-[serX],duplication (442bp),C-E3-1,1
+fabF ?,G202A (GGT?GCT) ,C-E3-1,0
+ptsG ?,coding (87?983/1434 nt),C-E3-1,0
+nhaB ?,coding (1164?1295/1542 nt),C-E3-1,0
+nhaB ?,coding (364/1542 nt),C-E3-1,0
+adhE ?,A626V (GCG?GTG) ,C-E3-1,0
+adhE ?,H565L (CAC?CTC) ,C-E3-1,0
+adhE ?,H565R (CAC?CGC) ,C-E3-1,0
+adhE ?,W556R (TGG?CGG) ,C-E3-1,0
+adhE ?,L371Q (CTG?CAG) ,C-E3-1,0
+adhE ?,Y77H (TAC?CAC) ,C-E3-1,0
+sapD ?,coding (936/993 nt),C-E3-1,0
+ydcI ?,coding (189/924 nt),C-E3-1,0
+yncD ?,D654G (GAT?GGT) ,C-E3-1,0
+Y75_RS07695 ?,coding (1436/1800 nt),C-E3-1,0
+hipA-flxA,duplication (56260 bp),C-E3-1,0
+ydiM ?,coding (995/1215 nt),C-E3-1,0
+yeaA ?,coding (5/414 nt),C-E3-1,0
+yeaR ?,coding (112/360 nt),C-E3-1,0
+Y75_RS09615 ?,coding (92/207 nt),C-E3-1,0
+otsB ?,L67R (CTT?CGT) ,C-E3-1,0
+gatD ?,coding (166/1041 nt),C-E3-1,0
+glpB ?,T340T (ACG?ACC) ,C-E3-1,0
+menC ?,coding (128/963 nt),C-E3-1,1
+purF ?,R74L (CGT?CTT) ,C-E3-1,0
+aroC ?,P31Q (CCG?CAG) ,C-E3-1,0
+crr ?,coding (487/510 nt),C-E3-1,0
+nlpB ?,R223S (CGT?AGT) ,C-E3-1,0
+pbpC ?,S342T (TCA?ACA) ,C-E3-1,0
+csiE ?,T299P (ACC?CCC) ,C-E3-1,0
+srmB ?,coding (664/1335 nt),C-E3-1,0
+kgtP ?,coding (375/1299 nt),C-E3-1,0
+mprA ?,coding (110/531 nt),C-E3-1,0
+mprA ?,coding (155?163/531 nt),C-E3-1,0
+mprA ?,L64R (CTG?CGG) ,C-E3-1,0
+mprA ?,coding (299?356/531 nt),C-E3-1,0
+mprA ?,D109V (GAT?GTT) ,C-E3-1,0
+mprA ?,D109E (GAT?GAG) ,C-E3-1,0
+mprA ?,C112* (TGC?TGA) ,C-E3-1,0
+mprA ?,coding (344?412/531 nt),C-E3-1,0
+mprA ?,G121D (GGT?GAT) ,C-E3-1,0
+mprA ?,W140* (TGG?TGA) ,C-E3-1,1
+emrA ?,L24H (CTC?CAC) ,C-E3-1,0
+emrA ?,I313L (ATC?CTC) ,C-E3-1,1
+emrB ?,M219I (ATG?ATA) ,C-E3-1,0
+emrB ?,E297V (GAG?GTG) ,C-E3-1,0
+emrB ?,V337A (GTA?GCA) ,C-E3-1,0
+emrB ?,P357L (CCA?CTA) ,C-E3-1,0
+emrB ?,S411A (TCT?GCT) ,C-E3-1,0
+rpoS ?,P166L (CCA?CTA) ,C-E3-1,0
+rpoS ?,Q13* (CAG?TAG) ,C-E3-1,1
+nlpD ?,coding (656/1140 nt),C-E3-1,0
+ygbE ?,G81* (GGA?TGA) ,C-E3-1,0
+yghB ?,coding (645/660 nt),C-E3-1,0
+rpoD ?,Y571H (TAC?CAC) ,C-E3-1,0
+yhaC ?,G146R (GGG?AGG) ,C-E3-1,0
+sohA ?,coding (272/336 nt),C-E3-1,0
+rng ?,E404* (GAA?TAA) ,C-E3-1,0
+rng ?,L368* (TTG?TAG) ,C-E3-1,0
+rng ?,L280P (CTG?CCG) ,C-E3-1,0
+rng ?,E227* (GAA?TAA) ,C-E3-1,0
+rpoC ?,Q477R (CAG?CGG) ,C-E3-1,0
+rpoB ?,R944C (CGT?TGT) ,C-E3-1,0
+rpoB ?,S182A (TCC?GCC) ,C-E3-1,0
+cyaA ?,N804K (AAC?AAA) ,C-E3-1,0
+cyaA ?,Q671* (CAG?TAG) ,C-E3-1,0
+cyaA ?,coding (1552/2547 nt),C-E3-1,0
+rho ?,K105E (AAA?GAA) ,C-E3-1,0
+rbsR ?,A300E (GCG?GAG) ,C-E3-1,0
+spoT ?,W339R (TGG?AGG) ,C-E3-1,0
+glyQ ?,coding (728/912 nt),C-E3-1,0
+bcsB ?,D212N (GAC?AAC) ,C-E3-1,0
+gadE ?,coding (234/528 nt),C-E3-1,0
+yhiF ?,coding (167/531 nt),C-E3-1,0
+pitA ?,coding (578/1500 nt),C-E3-1,0
+greB ?,V91G (GTG?GGG) ,C-E3-1,0
+rpoA ?,coding (585?590/990 nt),C-E3-1,0
+metH ?,F951C (TTT?TGT) ,C-E3-1,0
+plsB ?,S740Y (TCC?TAC) ,C-E3-1,0
+plsB ?,L453Q (CTG?CAG) ,C-E3-1,0
+plsB ?,L449Q (CTG?CAG) ,C-E3-1,0
+plsB ?,E438A (GAA?GCA) ,C-E3-1,0
+plsB ?,G341R (GGG?AGG) ,C-E3-1,0
+plsB ?,M128R (ATG?AGG) ,C-E3-1,0
+alsE ?,K58Q (AAA?CAA) ,C-E3-1,0
+yjeP ?,G596G (GGG?GGA) ,C-E3-1,0
+ytfI ?,F124L (TTC?TTA) ,C-E3-1,0
+ytfQ ?,T125I (ACC?ATC) ,C-E3-1,0
+treB ?,C401F (TGC?TTC) ,C-E3-1,0
+Y75_RS22485 ?,coding (110/132 nt),C-E3-1,0
+fimE ?,coding (128/597 nt),C-E3-1,0
+fimE ?,coding (258/597 nt),C-E3-1,0
+fimE ?,T87N (ACC?AAC) ,C-E3-1,0
+fimE ?,coding (417/597 nt),C-E3-1,0
+fimE ?,coding (511/597 nt),C-E3-1,0
+yjjM ?,coding (63/915 nt),C-E3-1,1
+arcA ?,E94K (GAA?AAA) ,C-E3-1,0
+arcA ?,T3P (ACC?CCC) ,C-E3-1,0
+carB ?,T646A (ACC?GCC) ,C-E3-1,0
+ksgA ?,G8D (GGC?GAC) ,C-E3-1,0
+imp ?,A553T (GCC?ACC) ,C-E3-1,0
+yabQ ?,L39L (CTG?CTA) ,C-E3-1,0
+araA ?,D470N (GAC?AAC) ,C-E3-1,0
+yabI ?,R207C (CGT?TGT) ,C-E3-1,0
+leuO ?,A32V (GCC?GTC) ,C-E3-1,0
+mraZ ?,N29S (AAC?AGC) ,C-E3-1,0
+ampE ?,K36K (AAA?AAG) ,C-E3-1,0
+lpd ?,V408A (GTG?GCG) ,C-E3-1,0
+mrcB ?,S280S (AGC?AGT) ,C-E3-1,0
+fhuB ?,N249S (AAC?AGC) ,C-E3-1,0
+proS ?,N62S (AAC?AGC) ,C-E3-1,0
+metQ ?,A240T (GCC?ACC) ,C-E3-1,0
+yafU ?,C60R (TGT?CGT) ,C-E3-1,0
+ivy ?,D134G (GAT?GGT) ,C-E3-1,0
+fadE ?,C455C (TGT?TGC) ,C-E3-1,0
+ykfJ ?,R10R (CGT?CGC) ,C-E3-1,0
+insI ?,S192S (TCG?TCA) ,C-E3-1,0
+ykfC ?,L106L (TTG?CTG) ,C-E3-1,0
+mmuP ?,A78V (GCG?GTG) ,C-E3-1,0
+yagJ ?,A28V (GCG?GTG) ,C-E3-1,0
+yagM ?,S215P (TCA?CCA) ,C-E3-1,0
+intF ?,S189S (TCG?TCA) ,C-E3-1,0
+ykgL ?,Y24C (TAC?TGC) ,C-E3-1,0
+insF ?,G276S (GGC?AGC) ,C-E3-1,0
+ykgC ?,A242A (GCG?GCA) ,C-E3-1,0
+betI ?,R10W (CGG?TGG) ,C-E3-1,0
+yahJ ?,coding (1236/1383 nt),C-E3-1,0
+lacZ ?,G181R (GGA?AGA) ,C-E3-1,0
+frmA ?,A209A (GCG?GCA) ,C-E3-1,0
+yaiU ?,N301S (AAC?AGC) ,C-E3-1,0
+mak ?,coding (755/909 nt),C-E3-1,0
+tsx ?,G95G (GGT?GGC) ,C-E3-1,0
+yajL ?,A5T (GCA?ACA) ,C-E3-1,0
+lon ?,Q300R (CAG?CGG) ,C-E3-1,0
+acrB ?,W187* (TGG?TAG) ,C-E3-1,0
+rhsD ?,R1227W (CGG?TGG) ,C-E3-1,0
+rzpD ?,S109S (TCC?TCT) ,C-E3-1,0
+cusS ?,I397T (ATT?ACT) ,C-E3-1,0
+insL ?,coding (1083/1113 nt),C-E3-1,0
+fepA ?,A405V (GCA?GTA) ,C-E3-1,0
+entB ?,A213T (GCC?ACC) ,C-E3-1,0
+ybdH ?,V265A (GTG?GCG) ,C-E3-1,0
+mrdA ?,V345A (GTG?GCG) ,C-E3-1,0
+miaB ?,V410A (GTC?GCC) ,C-E3-1,0
+ybfO ?,coding (917/1434 nt),C-E3-1,0
+tolQ ?,Q70R (CAG?CGG) ,C-E3-1,0
+modF ?,A44T (GCC?ACC) ,C-E3-1,0
+ybhI ?,H362Y (CAC?TAC) ,C-E3-1,0
+bioF ?,A244A (GCG?GCA) ,C-E3-1,0
+ybhS ?,E209E (GAA?GAG) ,C-E3-1,0
+dinG ?,A2V (GCA?GTA) ,C-E3-1,0
+glnP ?,R131R (CGT?CGC) ,C-E3-1,0
+ybiW ?,T524I (ACC?ATC) ,C-E3-1,0
+ftsK ?,G144G (GGC?GGT) ,C-E3-1,0
+ycaM ?,Q103R (CAA?CGA) ,C-E3-1,0
+ycbX ?,R318R (CGT?CGC) ,C-E3-1,0
+ycbY ?,T564A (ACC?GCC) ,C-E3-1,0
+yccR ?,D196G (GAC?GGC) ,C-E3-1,0
+torS ?,A450A (GCG?GCA) ,C-E3-1,0
+ycdC ?,V198A (GTT?GCT) ,C-E3-1,0
+ycdQ ?,M423I (ATG?ATA) ,C-E3-1,0
+ycdU ?,F124L (TTC?CTC) ,C-E3-1,0
+ycdU ?,C171C (TGC?TGT) ,C-E3-1,0
+mdoH ?,R769C (CGC?TGC) ,C-E3-1,0
+mviM ?,K146K (AAA?AAG) ,C-E3-1,0
+flgG ?,Q124* (CAG?TAG) ,C-E3-1,0
+rne ?,E664K (GAA?AAA) ,C-E3-1,0
+plsX ?,A149V (GCC?GTC) ,C-E3-1,0
+ycfH ?,R215Q (CGA?CAA) ,C-E3-1,0
+icd ?,H366H (CAC?CAT) ,C-E3-1,0
+icd ?,T370T (ACC?ACT) ,C-E3-1,0
+dsbB ?,G11G (GGC?GGT) ,C-E3-1,0
+nhaB ?,coding (1164?1295/1542 nt),C-E3-1,0
+nhaB ?,R196H (CGT?CAT) ,C-E3-1,0
+cvrA ?,T153M (ACG?ATG) ,C-E3-1,0
+ycgV ?,coding (2098/2868 nt),C-E3-1,0
+ychM ?,I145I (ATC?ATT) ,C-E3-1,0
+chaA ?,V21I (GTT?ATT) ,C-E3-1,0
+yciS ?,V93V (GTA?GTG) ,C-E3-1,0
+sapA ?,R292R (CGT?CGC) ,C-E3-1,0
+puuB ?,A391V (GCC?GTC) ,C-E3-1,0
+pspF ?,P223S (CCG?TCG) ,C-E3-1,0
+pspC ?,P68L (CCG?CTG) ,C-E3-1,0
+ycjG ?,T15A (ACC?GCC) ,C-E3-1,0
+intR ?,G270R (GGG?AGG) ,C-E3-1,0
+ldhA ?,E107E (GAA?GAG) ,C-E3-1,0
+feaB ?,R129R (CGT?CGC) ,C-E3-1,0
+feaB ?,I179I (ATT?ATC) ,C-E3-1,0
+ydcM ?,S193P (TCA?CCA) ,C-E3-1,0
+ydcU ?,A174V (GCG?GTG) ,C-E3-1,0
+fdnG ?,M832V (ATG?GTG) ,C-E3-1,0
+ydeK ?,coding (3955/3978 nt),C-E3-1,0
+ydeK ?,coding (3831/3978 nt),C-E3-1,0
+ydeK ?,coding (774/3978 nt),C-E3-1,0
+ydeK ?,coding (774/3978 nt),C-E3-1,0
+stfQ ?,G266D (GGC?GAC) ,C-E3-1,0
+dgsA ?,coding (677?678/1221 nt),C-E3-1,0
+ydhH ?,A214A (GCA?GCG) ,C-E3-1,0
+ydhK ?,coding (36/2013 nt),C-E3-1,0
+ydhK ?,I80T (ATT?ACT) ,C-E3-1,0
+lhr ?,coding (909/4617 nt),C-E3-1,0
+lhr ?,A566A (GCC?GCT) ,C-E3-1,0
+ydhP ?,M313V (ATG?GTG) ,C-E3-1,0
+ydiD ?,A73A (GCG?GCA) ,C-E3-1,0
+ansA ?,A100A (GCG?GCA) ,C-E3-1,0
+gapA ?,Y43C (TAC?TGC) ,C-E3-1,0
+yeaW ?,E70K (GAA?AAA) ,C-E3-1,0
+yoaE ?,A32T (GCC?ACC) ,C-E3-1,0
+flhA ?,Q511R (CAG?CGG) ,C-E3-1,0
+fliK ?,S311S (AGT?AGC) ,C-E3-1,0
+dcm ?,M220I (ATG?ATA) ,C-E3-1,0
+yedW ?,V188A (GTG?GCG) ,C-E3-1,0
+yeeR ?,A184A (GCG?GCA) ,C-E3-1,0
+yeeF ?,L349P (CTG?CCG) ,C-E3-1,0
+wzxC ?,R283C (CGT?TGT) ,C-E3-1,0
+wcaC ?,A326V (GCG?GTG) ,C-E3-1,0
+asmA ?,A109A (GCA?GCG) ,C-E3-1,0
+yegE ?,V632A (GTG?GCG) ,C-E3-1,0
+yegD ?,A197T (GCT?ACT) ,C-E3-1,0
+yegS ?,I166I (ATT?ATC) ,C-E3-1,0
+metG ?,P566P (CCG?CCA) ,C-E3-1,0
+yejH ?,A399A (GCC?GCT) ,C-E3-1,0
+ccmA ?,coding (531/624 nt),C-E3-1,0
+mqo ?,T204T (ACC?ACT) ,C-E3-1,0
+atoE ?,coding (1044/1323 nt),C-E3-1,0
+nrdA ?,L342L (CTG?CTA) ,C-E3-1,0
+nrdB ?,R50R (CGT?CGC) ,C-E3-1,0
+yfbH ?,D224G (GAT?GGT) ,C-E3-1,0
+menC ?,R217C (CGC?TGC) ,C-E3-1,0
+yfbK ?,T396A (ACC?GCC) ,C-E3-1,0
+yfcG ?,Q207Q (CAA?CAG) ,C-E3-1,0
+accD ?,S69G (AGC?GGC) ,C-E3-1,0
+pdxB ?,P333S (CCG?TCG) ,C-E3-1,0
+yfcJ ?,T290M (ACG?ATG) ,C-E3-1,0
+mepA ?,Q226* (CAA?TAA) ,C-E3-1,0
+yfcP ?,V76V (GTA?GTG) ,C-E3-1,0
+yfcU ?,E60G (GAG?GGG) ,C-E3-1,0
+intS ?,R161H (CGC?CAC) ,C-E3-1,0
+dsdX ?,G71G (GGC?GGT) ,C-E3-1,0
+oxc ?,R345C (CGC?TGC) ,C-E3-1,0
+cysA ?,L313Q (CTG?CAG) ,C-E3-1,0
+hemF ?,G184E (GGG?GAG) ,C-E3-1,0
+hemF ?,R239R (CGT?CGC) ,C-E3-1,0
+maeB ?,R656G (AGG?GGG) ,C-E3-1,0
+hyfB ?,coding (200/2019 nt),C-E3-1,0
+focB ?,P197S (CCC?TCC) ,C-E3-1,0
+yfgL ?,S33P (TCC?CCC) ,C-E3-1,0
+hcaT ?,A89V (GCG?GTG) ,C-E3-1,0
+yphH ?,C95R (TGT?CGT) ,C-E3-1,0
+lepB ?,G322D (GGC?GAC) ,C-E3-1,0
+kgtP ?,L177L (CTA?CTG) ,C-E3-1,0
+rrsG ?,noncoding (273/1542 nt),C-E3-1,0
+rrsG ?,noncoding (253/1542 nt),C-E3-1,0
+rrsG ?,noncoding (250/1542 nt),C-E3-1,0
+yfiO ?,D84D (GAT?GAC) ,C-E3-1,0
+ypjD ?,V236A (GTG?GCG) ,C-E3-1,0
+yfjH ?,coding (939/957 nt),C-E3-1,0
+yfjK ?,D523D (GAC?GAT) ,C-E3-1,0
+yfjP ?,G16S (GGT?AGT) ,C-E3-1,0
+gabT ?,Y86H (TAT?CAT) ,C-E3-1,0
+mprA ?,W140* (TGG?TAG) ,C-E3-1,0
+emrB ?,M333V (ATG?GTG) ,C-E3-1,0
+alaS ?,G196G (GGC?GGG) ,C-E3-1,0
+hycH ?,N94N (AAC?AAT) ,C-E3-1,0
+fhlA ?,G414G (GGT?GGC) ,C-E3-1,0
+mutS ?,W709* (TGG?TGA) ,C-E3-1,0
+iap ?,T120A (ACT?GCT) ,C-E3-1,0
+ygcL ?,S303S (TCC?TCT) ,C-E3-1,0
+eno ?,Y258C (TAC?TGC) ,C-E3-1,0
+mazG ?,T160A (ACG?GCG) ,C-E3-1,0
+relA ?,L80P (CTG?CCG) ,C-E3-1,0
+gudD ?,L162P (CTG?CCG) ,C-E3-1,0
+yqcA ?,I75I (ATC?ATT) ,C-E3-1,0
+sdaC ?,V410A (GTA?GCA) ,C-E3-1,0
+ppdC ?,N39S (AAC?AGC) ,C-E3-1,0
+yqeH ?,G50G (GGT?GGC) ,C-E3-1,0
+ygeF ?,coding (370/447 nt),C-E3-1,0
+hyuA ?,V309M (GTG?ATG) ,C-E3-1,0
+recJ ?,Q250Q (CAG?CAA) ,C-E3-1,0
+gcvP ?,A372V (GCG?GTG) ,C-E3-1,0
+visC ?,K317K (AAA?AAG) ,C-E3-1,0
+argO ?,A167A (GCA?GCG) ,C-E3-1,0
+pgk ?,A144V (GCT?GTT) ,C-E3-1,0
+sprT ?,V163A (GTT?GCT) ,C-E3-1,0
+yggJ ?,N47D (AAC?GAC) ,C-E3-1,0
+mutY ?,R277R (CGG?CGA) ,C-E3-1,0
+glcB ?,I242I (ATC?ATT) ,C-E3-1,0
+hybD ?,V117V (GTC?GTT) ,C-E3-1,0
+exbB ?,A182A (GCA?GCG) ,C-E3-1,0
+exbB ?,L62L (CTG?TTG) ,C-E3-1,0
+metC ?,K124K (AAA?AAG) ,C-E3-1,0
+metC ?,A325A (GCG?GCA) ,C-E3-1,0
+yqhC ?,coding (915/957 nt),C-E3-1,0
+nudF ?,coding (402/630 nt),C-E3-1,0
+yqiK ?,coding (1499/1662 nt),C-E3-1,0
+rfaE ?,N288S (AAT?AGT) ,C-E3-1,0
+ygjK ?,A732A (GCG?GCA) ,C-E3-1,0
+ygjP ?,Q137R (CAG?CGG) ,C-E3-1,0
+sstT ?,V393A (GTG?GCG) ,C-E3-1,0
+exuT ?,W289* (TGG?TAG) ,C-E3-1,0
+yhaK ?,L106P (CTC?CCC) ,C-E3-1,0
+yhaK ?,A149A (GCG?GCA) ,C-E3-1,0
+tdcB ?,G215D (GGC?GAC) ,C-E3-1,0
+garK ?,Q325R (CAG?CGG) ,C-E3-1,0
+garP ?,Y404C (TAC?TGC) ,C-E3-1,0
+sohA ?,coding (272/336 nt),C-E3-1,0
+truB ?,T178T (ACT?ACC) ,C-E3-1,0
+yhbX ?,P385S (CCG?TCG) ,C-E3-1,0
+gltB ?,T545T (ACT?ACC) ,C-E3-1,0
+yhdW ?,A100V (GCG?GTG) ,C-E3-1,0
+yhdY ?,coding (438/1104 nt),C-E3-1,0
+thiC ?,R14R (CGG?CGA) ,C-E3-1,0
+metJ ?,R81C (CGC?TGC) ,C-E3-1,0
+yiiQ ?,A80A (GCT?GCC) ,C-E3-1,0
+rhaA ?,C257R (TGC?CGC) ,C-E3-1,0
+dapF ?,L113L (CTG?TTG) ,C-E3-1,0
+cyaA ?,P430L (CCA?CTA) ,C-E3-1,0
+yifK ?,coding (66/1386 nt),C-E3-1,0
+rho ?,A236T (GCA?ACA) ,C-E3-1,0
+ilvC ?,A203A (GCG?GCA) ,C-E3-1,0
+asnC ?,G103S (GGC?AGC) ,C-E3-1,0
+pstA ?,R170S (CGC?AGC) ,C-E3-1,0
+yieG ?,T370A (ACT?GCT) ,C-E3-1,0
+yidH ?,T21A (ACT?GCT) ,C-E3-1,0
+yicN ?,S22S (TCC?TCT) ,C-E3-1,0
+yicR ?,G73G (GGC?GGT) ,C-E3-1,0
+rfaD ?,F224F (TTC?TTT) ,C-E3-1,0
+selA ?,A368A (GCA?GCG) ,C-E3-1,0
+bcsE ?,E463K (GAA?AAA) ,C-E3-1,0
+bcsB ?,V181A (GTG?GCG) ,C-E3-1,0
+yhjK ?,R71C (CGT?TGT) ,C-E3-1,0
+gadA ?,F188L (TTT?CTT) ,C-E3-1,0
+prlC ?,T460A (ACT?GCT) ,C-E3-1,0
+pitA ?,S425P (TCT?CCT) ,C-E3-1,0
+yhhT ?,L153L (TTG?TTA) ,C-E3-1,0
+livG ?,coding (133/768 nt),C-E3-1,0
+glgX ?,E490E (GAA?GAG) ,C-E3-1,0
+malQ ?,D419G (GAC?GGC) ,C-E3-1,0
+yhgF ?,A745T (GCA?ACA) ,C-E3-1,0
+frlR ?,G72D (GGC?GAC) ,C-E3-1,0
+nirC ?,V119A (GTT?GCT) ,C-E3-1,0
+yheS ?,G37S (GGC?AGC) ,C-E3-1,0
+fusA ?,Y33C (TAC?TGC) ,C-E3-1,0
+metH ?,L170L (CTG?CTA) ,C-E3-1,0
+metH ?,W1112* (TGG?TAG) ,C-E3-1,0
+yjbB ?,E397G (GAG?GGG) ,C-E3-1,0
+pgi ?,I285I (ATC?ATT) ,C-E3-1,0
+yjbI ?,A135A (GCA?GCG) ,C-E3-1,0
+nrfC ?,D183D (GAC?GAT) ,C-E3-1,0
+proP ?,S414S (TCG?TCA) ,C-E3-1,0
+lysU ?,P338P (CCA?CCG) ,C-E3-1,0
+cadB ?,A99V (GCG?GTG) ,C-E3-1,0
+cadC ?,I139T (ATT?ACT) ,C-E3-1,0
+blc ?,F95L (TTT?CTT) ,C-E3-1,0
+mutL ?,I56V (ATT?GTT) ,C-E3-1,0
+yjfK ?,R174Q (CGG?CAG) ,C-E3-1,0
+ulaE ?,A261A (GCG?GCA) ,C-E3-1,0
+ytfR ?,D343D (GAC?GAT) ,C-E3-1,0
+nrdD ?,R448R (CGT?CGC) ,C-E3-1,0
+yjgN ?,A255V (GCG?GTG) ,C-E3-1,0
+pepA ?,Y365H (TAC?CAC) ,C-E3-1,0
+yjgB ?,V241I (GTC?ATC) ,C-E3-1,0
+sgcA ?,V94A (GTC?GCC) ,C-E3-1,0
+yjhR ?,D234G (GAT?GGT) ,C-E3-1,0
+fimE ?,M15V (ATG?GTG) ,C-E3-1,0
+iadA ?,L215P (CTG?CCG) ,C-E3-1,0
+yjiK ?,R22R (CGT?CGC) ,C-E3-1,0
+leuV ?,noncoding (71/87 nt),C-E3-1,0
+creD ?,P5L (CCC?CTC) ,C-E3-1,0
+dnaK ?,L131P (CTG?CCG) ,C-H3-1,0
+nhaA ?,V224G (GTT?GGT) ,C-H3-1,0
+rrlH ?,noncoding (538/2904 nt),C-H3-1,0
+ykfJ–[insH],insH-mediated,C-H3-1,0
+Y75_RS01440 ?,coding (58/225 nt),C-H3-1,0
+acrB ?,coding (247/3150 nt),C-H3-1,0
+acrA ?,Q116* (CAG?TAG) ,C-H3-1,0
+ybbA ?,L157Q (CTG?CAG) ,C-H3-1,0
+allR ?,A13A (GCG?GCT) ,C-H3-1,0
+cecR ?,Y51N (TAC?AAC) ,C-H3-1,0
+cecR ?,Y50C (TAC?TGC) ,C-H3-1,0
+lrp ?,coding (411/495 nt),C-H3-1,0
+ycaM ?,coding (172/1431 nt),C-H3-1,0
+mukB ?,R73R (CGC?CGT) ,C-H3-1,0
+hyaC ?,T35I (ACC?ATC) ,C-H3-1,1
+ycdO ?,K52K (AAA?AAG) ,C-H3-1,0
+Y75_RS05380-[Y75_RS05385],duplication (362bp),C-H3-1,0
+Y75_RS05380-[serX],duplication (442bp),C-H3-1,1
+fabF ?,G202A (GGT?GCT) ,C-H3-1,0
+ptsG ?,coding (87?983/1434 nt),C-H3-1,0
+nhaB ?,coding (1164?1295/1542 nt),C-H3-1,0
+nhaB ?,coding (364/1542 nt),C-H3-1,0
+adhE ?,A626V (GCG?GTG) ,C-H3-1,0
+adhE ?,H565L (CAC?CTC) ,C-H3-1,0
+adhE ?,H565R (CAC?CGC) ,C-H3-1,0
+adhE ?,W556R (TGG?CGG) ,C-H3-1,0
+adhE ?,L371Q (CTG?CAG) ,C-H3-1,0
+adhE ?,Y77H (TAC?CAC) ,C-H3-1,0
+sapD ?,coding (936/993 nt),C-H3-1,0
+ydcI ?,coding (189/924 nt),C-H3-1,0
+yncD ?,D654G (GAT?GGT) ,C-H3-1,0
+Y75_RS07695 ?,coding (1436/1800 nt),C-H3-1,0
+hipA-flxA,duplication (56260 bp),C-H3-1,0
+ydiM ?,coding (995/1215 nt),C-H3-1,0
+yeaA ?,coding (5/414 nt),C-H3-1,0
+yeaR ?,coding (112/360 nt),C-H3-1,0
+Y75_RS09615 ?,coding (92/207 nt),C-H3-1,1
+otsB ?,L67R (CTT?CGT) ,C-H3-1,1
+gatD ?,coding (166/1041 nt),C-H3-1,0
+glpB ?,T340T (ACG?ACC) ,C-H3-1,0
+menC ?,coding (128/963 nt),C-H3-1,0
+purF ?,R74L (CGT?CTT) ,C-H3-1,0
+aroC ?,P31Q (CCG?CAG) ,C-H3-1,1
+crr ?,coding (487/510 nt),C-H3-1,0
+nlpB ?,R223S (CGT?AGT) ,C-H3-1,0
+pbpC ?,S342T (TCA?ACA) ,C-H3-1,0
+csiE ?,T299P (ACC?CCC) ,C-H3-1,0
+srmB ?,coding (664/1335 nt),C-H3-1,0
+kgtP ?,coding (375/1299 nt),C-H3-1,1
+mprA ?,coding (110/531 nt),C-H3-1,0
+mprA ?,coding (155?163/531 nt),C-H3-1,0
+mprA ?,L64R (CTG?CGG) ,C-H3-1,0
+mprA ?,coding (299?356/531 nt),C-H3-1,1
+mprA ?,D109V (GAT?GTT) ,C-H3-1,0
+mprA ?,D109E (GAT?GAG) ,C-H3-1,0
+mprA ?,C112* (TGC?TGA) ,C-H3-1,0
+mprA ?,coding (344?412/531 nt),C-H3-1,0
+mprA ?,G121D (GGT?GAT) ,C-H3-1,0
+mprA ?,W140* (TGG?TGA) ,C-H3-1,0
+emrA ?,L24H (CTC?CAC) ,C-H3-1,0
+emrA ?,I313L (ATC?CTC) ,C-H3-1,0
+emrB ?,M219I (ATG?ATA) ,C-H3-1,0
+emrB ?,E297V (GAG?GTG) ,C-H3-1,0
+emrB ?,V337A (GTA?GCA) ,C-H3-1,0
+emrB ?,P357L (CCA?CTA) ,C-H3-1,0
+emrB ?,S411A (TCT?GCT) ,C-H3-1,0
+rpoS ?,P166L (CCA?CTA) ,C-H3-1,0
+rpoS ?,Q13* (CAG?TAG) ,C-H3-1,0
+nlpD ?,coding (656/1140 nt),C-H3-1,0
+ygbE ?,G81* (GGA?TGA) ,C-H3-1,1
+yghB ?,coding (645/660 nt),C-H3-1,0
+rpoD ?,Y571H (TAC?CAC) ,C-H3-1,0
+yhaC ?,G146R (GGG?AGG) ,C-H3-1,0
+sohA ?,coding (272/336 nt),C-H3-1,0
+rng ?,E404* (GAA?TAA) ,C-H3-1,0
+rng ?,L368* (TTG?TAG) ,C-H3-1,0
+rng ?,L280P (CTG?CCG) ,C-H3-1,0
+rng ?,E227* (GAA?TAA) ,C-H3-1,0
+rpoC ?,Q477R (CAG?CGG) ,C-H3-1,0
+rpoB ?,R944C (CGT?TGT) ,C-H3-1,0
+rpoB ?,S182A (TCC?GCC) ,C-H3-1,0
+cyaA ?,N804K (AAC?AAA) ,C-H3-1,0
+cyaA ?,Q671* (CAG?TAG) ,C-H3-1,0
+cyaA ?,coding (1552/2547 nt),C-H3-1,0
+rho ?,K105E (AAA?GAA) ,C-H3-1,0
+rbsR ?,A300E (GCG?GAG) ,C-H3-1,0
+spoT ?,W339R (TGG?AGG) ,C-H3-1,0
+glyQ ?,coding (728/912 nt),C-H3-1,0
+bcsB ?,D212N (GAC?AAC) ,C-H3-1,0
+gadE ?,coding (234/528 nt),C-H3-1,0
+yhiF ?,coding (167/531 nt),C-H3-1,0
+pitA ?,coding (578/1500 nt),C-H3-1,0
+greB ?,V91G (GTG?GGG) ,C-H3-1,1
+rpoA ?,coding (585?590/990 nt),C-H3-1,0
+metH ?,F951C (TTT?TGT) ,C-H3-1,0
+plsB ?,S740Y (TCC?TAC) ,C-H3-1,0
+plsB ?,L453Q (CTG?CAG) ,C-H3-1,0
+plsB ?,L449Q (CTG?CAG) ,C-H3-1,1
+plsB ?,E438A (GAA?GCA) ,C-H3-1,0
+plsB ?,G341R (GGG?AGG) ,C-H3-1,0
+plsB ?,M128R (ATG?AGG) ,C-H3-1,0
+alsE ?,K58Q (AAA?CAA) ,C-H3-1,0
+yjeP ?,G596G (GGG?GGA) ,C-H3-1,0
+ytfI ?,F124L (TTC?TTA) ,C-H3-1,0
+ytfQ ?,T125I (ACC?ATC) ,C-H3-1,0
+treB ?,C401F (TGC?TTC) ,C-H3-1,1
+Y75_RS22485 ?,coding (110/132 nt),C-H3-1,0
+fimE ?,coding (128/597 nt),C-H3-1,0
+fimE ?,coding (258/597 nt),C-H3-1,0
+fimE ?,T87N (ACC?AAC) ,C-H3-1,0
+fimE ?,coding (417/597 nt),C-H3-1,0
+fimE ?,coding (511/597 nt),C-H3-1,0
+yjjM ?,coding (63/915 nt),C-H3-1,0
+arcA ?,E94K (GAA?AAA) ,C-H3-1,0
+arcA ?,T3P (ACC?CCC) ,C-H3-1,0
+carB ?,T646A (ACC?GCC) ,C-H3-1,0
+ksgA ?,G8D (GGC?GAC) ,C-H3-1,0
+imp ?,A553T (GCC?ACC) ,C-H3-1,0
+yabQ ?,L39L (CTG?CTA) ,C-H3-1,0
+araA ?,D470N (GAC?AAC) ,C-H3-1,0
+yabI ?,R207C (CGT?TGT) ,C-H3-1,0
+leuO ?,A32V (GCC?GTC) ,C-H3-1,0
+mraZ ?,N29S (AAC?AGC) ,C-H3-1,0
+ampE ?,K36K (AAA?AAG) ,C-H3-1,0
+lpd ?,V408A (GTG?GCG) ,C-H3-1,0
+mrcB ?,S280S (AGC?AGT) ,C-H3-1,0
+fhuB ?,N249S (AAC?AGC) ,C-H3-1,0
+proS ?,N62S (AAC?AGC) ,C-H3-1,0
+metQ ?,A240T (GCC?ACC) ,C-H3-1,0
+yafU ?,C60R (TGT?CGT) ,C-H3-1,0
+ivy ?,D134G (GAT?GGT) ,C-H3-1,0
+fadE ?,C455C (TGT?TGC) ,C-H3-1,0
+ykfJ ?,R10R (CGT?CGC) ,C-H3-1,0
+insI ?,S192S (TCG?TCA) ,C-H3-1,0
+ykfC ?,L106L (TTG?CTG) ,C-H3-1,0
+mmuP ?,A78V (GCG?GTG) ,C-H3-1,0
+yagJ ?,A28V (GCG?GTG) ,C-H3-1,0
+yagM ?,S215P (TCA?CCA) ,C-H3-1,0
+intF ?,S189S (TCG?TCA) ,C-H3-1,0
+ykgL ?,Y24C (TAC?TGC) ,C-H3-1,0
+insF ?,G276S (GGC?AGC) ,C-H3-1,0
+ykgC ?,A242A (GCG?GCA) ,C-H3-1,0
+betI ?,R10W (CGG?TGG) ,C-H3-1,0
+yahJ ?,coding (1236/1383 nt),C-H3-1,0
+lacZ ?,G181R (GGA?AGA) ,C-H3-1,0
+frmA ?,A209A (GCG?GCA) ,C-H3-1,0
+yaiU ?,N301S (AAC?AGC) ,C-H3-1,0
+mak ?,coding (755/909 nt),C-H3-1,0
+tsx ?,G95G (GGT?GGC) ,C-H3-1,0
+yajL ?,A5T (GCA?ACA) ,C-H3-1,0
+lon ?,Q300R (CAG?CGG) ,C-H3-1,0
+acrB ?,W187* (TGG?TAG) ,C-H3-1,0
+rhsD ?,R1227W (CGG?TGG) ,C-H3-1,0
+rzpD ?,S109S (TCC?TCT) ,C-H3-1,0
+cusS ?,I397T (ATT?ACT) ,C-H3-1,0
+insL ?,coding (1083/1113 nt),C-H3-1,0
+fepA ?,A405V (GCA?GTA) ,C-H3-1,0
+entB ?,A213T (GCC?ACC) ,C-H3-1,0
+ybdH ?,V265A (GTG?GCG) ,C-H3-1,0
+mrdA ?,V345A (GTG?GCG) ,C-H3-1,0
+miaB ?,V410A (GTC?GCC) ,C-H3-1,0
+ybfO ?,coding (917/1434 nt),C-H3-1,0
+tolQ ?,Q70R (CAG?CGG) ,C-H3-1,0
+modF ?,A44T (GCC?ACC) ,C-H3-1,0
+ybhI ?,H362Y (CAC?TAC) ,C-H3-1,0
+bioF ?,A244A (GCG?GCA) ,C-H3-1,0
+ybhS ?,E209E (GAA?GAG) ,C-H3-1,0
+dinG ?,A2V (GCA?GTA) ,C-H3-1,0
+glnP ?,R131R (CGT?CGC) ,C-H3-1,0
+ybiW ?,T524I (ACC?ATC) ,C-H3-1,0
+ftsK ?,G144G (GGC?GGT) ,C-H3-1,0
+ycaM ?,Q103R (CAA?CGA) ,C-H3-1,0
+ycbX ?,R318R (CGT?CGC) ,C-H3-1,0
+ycbY ?,T564A (ACC?GCC) ,C-H3-1,0
+yccR ?,D196G (GAC?GGC) ,C-H3-1,0
+torS ?,A450A (GCG?GCA) ,C-H3-1,0
+ycdC ?,V198A (GTT?GCT) ,C-H3-1,0
+ycdQ ?,M423I (ATG?ATA) ,C-H3-1,0
+ycdU ?,F124L (TTC?CTC) ,C-H3-1,0
+ycdU ?,C171C (TGC?TGT) ,C-H3-1,0
+mdoH ?,R769C (CGC?TGC) ,C-H3-1,0
+mviM ?,K146K (AAA?AAG) ,C-H3-1,0
+flgG ?,Q124* (CAG?TAG) ,C-H3-1,0
+rne ?,E664K (GAA?AAA) ,C-H3-1,0
+plsX ?,A149V (GCC?GTC) ,C-H3-1,0
+ycfH ?,R215Q (CGA?CAA) ,C-H3-1,0
+icd ?,H366H (CAC?CAT) ,C-H3-1,0
+icd ?,T370T (ACC?ACT) ,C-H3-1,0
+dsbB ?,G11G (GGC?GGT) ,C-H3-1,0
+nhaB ?,coding (1164?1295/1542 nt),C-H3-1,0
+nhaB ?,R196H (CGT?CAT) ,C-H3-1,0
+cvrA ?,T153M (ACG?ATG) ,C-H3-1,0
+ycgV ?,coding (2098/2868 nt),C-H3-1,0
+ychM ?,I145I (ATC?ATT) ,C-H3-1,0
+chaA ?,V21I (GTT?ATT) ,C-H3-1,0
+yciS ?,V93V (GTA?GTG) ,C-H3-1,0
+sapA ?,R292R (CGT?CGC) ,C-H3-1,0
+puuB ?,A391V (GCC?GTC) ,C-H3-1,0
+pspF ?,P223S (CCG?TCG) ,C-H3-1,0
+pspC ?,P68L (CCG?CTG) ,C-H3-1,0
+ycjG ?,T15A (ACC?GCC) ,C-H3-1,0
+intR ?,G270R (GGG?AGG) ,C-H3-1,0
+ldhA ?,E107E (GAA?GAG) ,C-H3-1,0
+feaB ?,R129R (CGT?CGC) ,C-H3-1,0
+feaB ?,I179I (ATT?ATC) ,C-H3-1,0
+ydcM ?,S193P (TCA?CCA) ,C-H3-1,0
+ydcU ?,A174V (GCG?GTG) ,C-H3-1,0
+fdnG ?,M832V (ATG?GTG) ,C-H3-1,0
+ydeK ?,coding (3955/3978 nt),C-H3-1,0
+ydeK ?,coding (3831/3978 nt),C-H3-1,0
+ydeK ?,coding (774/3978 nt),C-H3-1,0
+ydeK ?,coding (774/3978 nt),C-H3-1,0
+stfQ ?,G266D (GGC?GAC) ,C-H3-1,0
+dgsA ?,coding (677?678/1221 nt),C-H3-1,0
+ydhH ?,A214A (GCA?GCG) ,C-H3-1,0
+ydhK ?,coding (36/2013 nt),C-H3-1,0
+ydhK ?,I80T (ATT?ACT) ,C-H3-1,0
+lhr ?,coding (909/4617 nt),C-H3-1,0
+lhr ?,A566A (GCC?GCT) ,C-H3-1,0
+ydhP ?,M313V (ATG?GTG) ,C-H3-1,0
+ydiD ?,A73A (GCG?GCA) ,C-H3-1,0
+ansA ?,A100A (GCG?GCA) ,C-H3-1,0
+gapA ?,Y43C (TAC?TGC) ,C-H3-1,0
+yeaW ?,E70K (GAA?AAA) ,C-H3-1,0
+yoaE ?,A32T (GCC?ACC) ,C-H3-1,0
+flhA ?,Q511R (CAG?CGG) ,C-H3-1,0
+fliK ?,S311S (AGT?AGC) ,C-H3-1,0
+dcm ?,M220I (ATG?ATA) ,C-H3-1,0
+yedW ?,V188A (GTG?GCG) ,C-H3-1,0
+yeeR ?,A184A (GCG?GCA) ,C-H3-1,0
+yeeF ?,L349P (CTG?CCG) ,C-H3-1,0
+wzxC ?,R283C (CGT?TGT) ,C-H3-1,0
+wcaC ?,A326V (GCG?GTG) ,C-H3-1,0
+asmA ?,A109A (GCA?GCG) ,C-H3-1,0
+yegE ?,V632A (GTG?GCG) ,C-H3-1,0
+yegD ?,A197T (GCT?ACT) ,C-H3-1,0
+yegS ?,I166I (ATT?ATC) ,C-H3-1,0
+metG ?,P566P (CCG?CCA) ,C-H3-1,0
+yejH ?,A399A (GCC?GCT) ,C-H3-1,0
+ccmA ?,coding (531/624 nt),C-H3-1,0
+mqo ?,T204T (ACC?ACT) ,C-H3-1,0
+atoE ?,coding (1044/1323 nt),C-H3-1,0
+nrdA ?,L342L (CTG?CTA) ,C-H3-1,0
+nrdB ?,R50R (CGT?CGC) ,C-H3-1,0
+yfbH ?,D224G (GAT?GGT) ,C-H3-1,0
+menC ?,R217C (CGC?TGC) ,C-H3-1,0
+yfbK ?,T396A (ACC?GCC) ,C-H3-1,0
+yfcG ?,Q207Q (CAA?CAG) ,C-H3-1,0
+accD ?,S69G (AGC?GGC) ,C-H3-1,0
+pdxB ?,P333S (CCG?TCG) ,C-H3-1,0
+yfcJ ?,T290M (ACG?ATG) ,C-H3-1,0
+mepA ?,Q226* (CAA?TAA) ,C-H3-1,0
+yfcP ?,V76V (GTA?GTG) ,C-H3-1,0
+yfcU ?,E60G (GAG?GGG) ,C-H3-1,0
+intS ?,R161H (CGC?CAC) ,C-H3-1,0
+dsdX ?,G71G (GGC?GGT) ,C-H3-1,0
+oxc ?,R345C (CGC?TGC) ,C-H3-1,0
+cysA ?,L313Q (CTG?CAG) ,C-H3-1,0
+hemF ?,G184E (GGG?GAG) ,C-H3-1,0
+hemF ?,R239R (CGT?CGC) ,C-H3-1,0
+maeB ?,R656G (AGG?GGG) ,C-H3-1,0
+hyfB ?,coding (200/2019 nt),C-H3-1,0
+focB ?,P197S (CCC?TCC) ,C-H3-1,0
+yfgL ?,S33P (TCC?CCC) ,C-H3-1,0
+hcaT ?,A89V (GCG?GTG) ,C-H3-1,0
+yphH ?,C95R (TGT?CGT) ,C-H3-1,0
+lepB ?,G322D (GGC?GAC) ,C-H3-1,0
+kgtP ?,L177L (CTA?CTG) ,C-H3-1,0
+rrsG ?,noncoding (273/1542 nt),C-H3-1,0
+rrsG ?,noncoding (253/1542 nt),C-H3-1,0
+rrsG ?,noncoding (250/1542 nt),C-H3-1,0
+yfiO ?,D84D (GAT?GAC) ,C-H3-1,0
+ypjD ?,V236A (GTG?GCG) ,C-H3-1,0
+yfjH ?,coding (939/957 nt),C-H3-1,0
+yfjK ?,D523D (GAC?GAT) ,C-H3-1,0
+yfjP ?,G16S (GGT?AGT) ,C-H3-1,0
+gabT ?,Y86H (TAT?CAT) ,C-H3-1,0
+mprA ?,W140* (TGG?TAG) ,C-H3-1,0
+emrB ?,M333V (ATG?GTG) ,C-H3-1,0
+alaS ?,G196G (GGC?GGG) ,C-H3-1,0
+hycH ?,N94N (AAC?AAT) ,C-H3-1,0
+fhlA ?,G414G (GGT?GGC) ,C-H3-1,0
+mutS ?,W709* (TGG?TGA) ,C-H3-1,0
+iap ?,T120A (ACT?GCT) ,C-H3-1,0
+ygcL ?,S303S (TCC?TCT) ,C-H3-1,0
+eno ?,Y258C (TAC?TGC) ,C-H3-1,0
+mazG ?,T160A (ACG?GCG) ,C-H3-1,0
+relA ?,L80P (CTG?CCG) ,C-H3-1,0
+gudD ?,L162P (CTG?CCG) ,C-H3-1,0
+yqcA ?,I75I (ATC?ATT) ,C-H3-1,0
+sdaC ?,V410A (GTA?GCA) ,C-H3-1,0
+ppdC ?,N39S (AAC?AGC) ,C-H3-1,0
+yqeH ?,G50G (GGT?GGC) ,C-H3-1,0
+ygeF ?,coding (370/447 nt),C-H3-1,0
+hyuA ?,V309M (GTG?ATG) ,C-H3-1,0
+recJ ?,Q250Q (CAG?CAA) ,C-H3-1,0
+gcvP ?,A372V (GCG?GTG) ,C-H3-1,0
+visC ?,K317K (AAA?AAG) ,C-H3-1,0
+argO ?,A167A (GCA?GCG) ,C-H3-1,0
+pgk ?,A144V (GCT?GTT) ,C-H3-1,0
+sprT ?,V163A (GTT?GCT) ,C-H3-1,0
+yggJ ?,N47D (AAC?GAC) ,C-H3-1,0
+mutY ?,R277R (CGG?CGA) ,C-H3-1,0
+glcB ?,I242I (ATC?ATT) ,C-H3-1,0
+hybD ?,V117V (GTC?GTT) ,C-H3-1,0
+exbB ?,A182A (GCA?GCG) ,C-H3-1,0
+exbB ?,L62L (CTG?TTG) ,C-H3-1,0
+metC ?,K124K (AAA?AAG) ,C-H3-1,0
+metC ?,A325A (GCG?GCA) ,C-H3-1,0
+yqhC ?,coding (915/957 nt),C-H3-1,0
+nudF ?,coding (402/630 nt),C-H3-1,0
+yqiK ?,coding (1499/1662 nt),C-H3-1,0
+rfaE ?,N288S (AAT?AGT) ,C-H3-1,0
+ygjK ?,A732A (GCG?GCA) ,C-H3-1,0
+ygjP ?,Q137R (CAG?CGG) ,C-H3-1,0
+sstT ?,V393A (GTG?GCG) ,C-H3-1,0
+exuT ?,W289* (TGG?TAG) ,C-H3-1,0
+yhaK ?,L106P (CTC?CCC) ,C-H3-1,0
+yhaK ?,A149A (GCG?GCA) ,C-H3-1,0
+tdcB ?,G215D (GGC?GAC) ,C-H3-1,0
+garK ?,Q325R (CAG?CGG) ,C-H3-1,0
+garP ?,Y404C (TAC?TGC) ,C-H3-1,0
+sohA ?,coding (272/336 nt),C-H3-1,0
+truB ?,T178T (ACT?ACC) ,C-H3-1,0
+yhbX ?,P385S (CCG?TCG) ,C-H3-1,0
+gltB ?,T545T (ACT?ACC) ,C-H3-1,0
+yhdW ?,A100V (GCG?GTG) ,C-H3-1,0
+yhdY ?,coding (438/1104 nt),C-H3-1,0
+thiC ?,R14R (CGG?CGA) ,C-H3-1,0
+metJ ?,R81C (CGC?TGC) ,C-H3-1,0
+yiiQ ?,A80A (GCT?GCC) ,C-H3-1,0
+rhaA ?,C257R (TGC?CGC) ,C-H3-1,0
+dapF ?,L113L (CTG?TTG) ,C-H3-1,0
+cyaA ?,P430L (CCA?CTA) ,C-H3-1,0
+yifK ?,coding (66/1386 nt),C-H3-1,0
+rho ?,A236T (GCA?ACA) ,C-H3-1,0
+ilvC ?,A203A (GCG?GCA) ,C-H3-1,0
+asnC ?,G103S (GGC?AGC) ,C-H3-1,0
+pstA ?,R170S (CGC?AGC) ,C-H3-1,0
+yieG ?,T370A (ACT?GCT) ,C-H3-1,0
+yidH ?,T21A (ACT?GCT) ,C-H3-1,0
+yicN ?,S22S (TCC?TCT) ,C-H3-1,0
+yicR ?,G73G (GGC?GGT) ,C-H3-1,0
+rfaD ?,F224F (TTC?TTT) ,C-H3-1,0
+selA ?,A368A (GCA?GCG) ,C-H3-1,0
+bcsE ?,E463K (GAA?AAA) ,C-H3-1,0
+bcsB ?,V181A (GTG?GCG) ,C-H3-1,0
+yhjK ?,R71C (CGT?TGT) ,C-H3-1,0
+gadA ?,F188L (TTT?CTT) ,C-H3-1,0
+prlC ?,T460A (ACT?GCT) ,C-H3-1,0
+pitA ?,S425P (TCT?CCT) ,C-H3-1,0
+yhhT ?,L153L (TTG?TTA) ,C-H3-1,0
+livG ?,coding (133/768 nt),C-H3-1,0
+glgX ?,E490E (GAA?GAG) ,C-H3-1,0
+malQ ?,D419G (GAC?GGC) ,C-H3-1,0
+yhgF ?,A745T (GCA?ACA) ,C-H3-1,0
+frlR ?,G72D (GGC?GAC) ,C-H3-1,0
+nirC ?,V119A (GTT?GCT) ,C-H3-1,0
+yheS ?,G37S (GGC?AGC) ,C-H3-1,0
+fusA ?,Y33C (TAC?TGC) ,C-H3-1,0
+metH ?,L170L (CTG?CTA) ,C-H3-1,0
+metH ?,W1112* (TGG?TAG) ,C-H3-1,0
+yjbB ?,E397G (GAG?GGG) ,C-H3-1,0
+pgi ?,I285I (ATC?ATT) ,C-H3-1,0
+yjbI ?,A135A (GCA?GCG) ,C-H3-1,0
+nrfC ?,D183D (GAC?GAT) ,C-H3-1,0
+proP ?,S414S (TCG?TCA) ,C-H3-1,0
+lysU ?,P338P (CCA?CCG) ,C-H3-1,0
+cadB ?,A99V (GCG?GTG) ,C-H3-1,0
+cadC ?,I139T (ATT?ACT) ,C-H3-1,0
+blc ?,F95L (TTT?CTT) ,C-H3-1,0
+mutL ?,I56V (ATT?GTT) ,C-H3-1,0
+yjfK ?,R174Q (CGG?CAG) ,C-H3-1,0
+ulaE ?,A261A (GCG?GCA) ,C-H3-1,0
+ytfR ?,D343D (GAC?GAT) ,C-H3-1,0
+nrdD ?,R448R (CGT?CGC) ,C-H3-1,0
+yjgN ?,A255V (GCG?GTG) ,C-H3-1,0
+pepA ?,Y365H (TAC?CAC) ,C-H3-1,0
+yjgB ?,V241I (GTC?ATC) ,C-H3-1,0
+sgcA ?,V94A (GTC?GCC) ,C-H3-1,0
+yjhR ?,D234G (GAT?GGT) ,C-H3-1,0
+fimE ?,M15V (ATG?GTG) ,C-H3-1,0
+iadA ?,L215P (CTG?CCG) ,C-H3-1,0
+yjiK ?,R22R (CGT?CGC) ,C-H3-1,0
+leuV ?,noncoding (71/87 nt),C-H3-1,0
+creD ?,P5L (CCC?CTC) ,C-H3-1,0
+dnaK ?,L131P (CTG?CCG) ,C-A5-1,1
+nhaA ?,V224G (GTT?GGT) ,C-A5-1,0
+rrlH ?,noncoding (538/2904 nt),C-A5-1,0
+ykfJ–[insH],insH-mediated,C-A5-1,0
+Y75_RS01440 ?,coding (58/225 nt),C-A5-1,0
+acrB ?,coding (247/3150 nt),C-A5-1,0
+acrA ?,Q116* (CAG?TAG) ,C-A5-1,1
+ybbA ?,L157Q (CTG?CAG) ,C-A5-1,0
+allR ?,A13A (GCG?GCT) ,C-A5-1,1
+cecR ?,Y51N (TAC?AAC) ,C-A5-1,0
+cecR ?,Y50C (TAC?TGC) ,C-A5-1,0
+lrp ?,coding (411/495 nt),C-A5-1,0
+ycaM ?,coding (172/1431 nt),C-A5-1,0
+mukB ?,R73R (CGC?CGT) ,C-A5-1,0
+hyaC ?,T35I (ACC?ATC) ,C-A5-1,0
+ycdO ?,K52K (AAA?AAG) ,C-A5-1,0
+Y75_RS05380-[Y75_RS05385],duplication (362bp),C-A5-1,0
+Y75_RS05380-[serX],duplication (442bp),C-A5-1,0
+fabF ?,G202A (GGT?GCT) ,C-A5-1,0
+ptsG ?,coding (87?983/1434 nt),C-A5-1,0
+nhaB ?,coding (1164?1295/1542 nt),C-A5-1,0
+nhaB ?,coding (364/1542 nt),C-A5-1,0
+adhE ?,A626V (GCG?GTG) ,C-A5-1,0
+adhE ?,H565L (CAC?CTC) ,C-A5-1,0
+adhE ?,H565R (CAC?CGC) ,C-A5-1,0
+adhE ?,W556R (TGG?CGG) ,C-A5-1,0
+adhE ?,L371Q (CTG?CAG) ,C-A5-1,0
+adhE ?,Y77H (TAC?CAC) ,C-A5-1,1
+sapD ?,coding (936/993 nt),C-A5-1,0
+ydcI ?,coding (189/924 nt),C-A5-1,0
+yncD ?,D654G (GAT?GGT) ,C-A5-1,0
+Y75_RS07695 ?,coding (1436/1800 nt),C-A5-1,0
+hipA-flxA,duplication (56260 bp),C-A5-1,0
+ydiM ?,coding (995/1215 nt),C-A5-1,0
+yeaA ?,coding (5/414 nt),C-A5-1,0
+yeaR ?,coding (112/360 nt),C-A5-1,0
+Y75_RS09615 ?,coding (92/207 nt),C-A5-1,0
+otsB ?,L67R (CTT?CGT) ,C-A5-1,0
+gatD ?,coding (166/1041 nt),C-A5-1,0
+glpB ?,T340T (ACG?ACC) ,C-A5-1,1
+menC ?,coding (128/963 nt),C-A5-1,0
+purF ?,R74L (CGT?CTT) ,C-A5-1,0
+aroC ?,P31Q (CCG?CAG) ,C-A5-1,0
+crr ?,coding (487/510 nt),C-A5-1,0
+nlpB ?,R223S (CGT?AGT) ,C-A5-1,1
+pbpC ?,S342T (TCA?ACA) ,C-A5-1,0
+csiE ?,T299P (ACC?CCC) ,C-A5-1,0
+srmB ?,coding (664/1335 nt),C-A5-1,0
+kgtP ?,coding (375/1299 nt),C-A5-1,0
+mprA ?,coding (110/531 nt),C-A5-1,0
+mprA ?,coding (155?163/531 nt),C-A5-1,1
+mprA ?,L64R (CTG?CGG) ,C-A5-1,0
+mprA ?,coding (299?356/531 nt),C-A5-1,0
+mprA ?,D109V (GAT?GTT) ,C-A5-1,0
+mprA ?,D109E (GAT?GAG) ,C-A5-1,0
+mprA ?,C112* (TGC?TGA) ,C-A5-1,0
+mprA ?,coding (344?412/531 nt),C-A5-1,0
+mprA ?,G121D (GGT?GAT) ,C-A5-1,0
+mprA ?,W140* (TGG?TGA) ,C-A5-1,0
+emrA ?,L24H (CTC?CAC) ,C-A5-1,0
+emrA ?,I313L (ATC?CTC) ,C-A5-1,1
+emrB ?,M219I (ATG?ATA) ,C-A5-1,0
+emrB ?,E297V (GAG?GTG) ,C-A5-1,0
+emrB ?,V337A (GTA?GCA) ,C-A5-1,0
+emrB ?,P357L (CCA?CTA) ,C-A5-1,0
+emrB ?,S411A (TCT?GCT) ,C-A5-1,0
+rpoS ?,P166L (CCA?CTA) ,C-A5-1,0
+rpoS ?,Q13* (CAG?TAG) ,C-A5-1,0
+nlpD ?,coding (656/1140 nt),C-A5-1,0
+ygbE ?,G81* (GGA?TGA) ,C-A5-1,0
+yghB ?,coding (645/660 nt),C-A5-1,0
+rpoD ?,Y571H (TAC?CAC) ,C-A5-1,0
+yhaC ?,G146R (GGG?AGG) ,C-A5-1,0
+sohA ?,coding (272/336 nt),C-A5-1,0
+rng ?,E404* (GAA?TAA) ,C-A5-1,0
+rng ?,L368* (TTG?TAG) ,C-A5-1,0
+rng ?,L280P (CTG?CCG) ,C-A5-1,0
+rng ?,E227* (GAA?TAA) ,C-A5-1,1
+rpoC ?,Q477R (CAG?CGG) ,C-A5-1,0
+rpoB ?,R944C (CGT?TGT) ,C-A5-1,0
+rpoB ?,S182A (TCC?GCC) ,C-A5-1,0
+cyaA ?,N804K (AAC?AAA) ,C-A5-1,0
+cyaA ?,Q671* (CAG?TAG) ,C-A5-1,0
+cyaA ?,coding (1552/2547 nt),C-A5-1,0
+rho ?,K105E (AAA?GAA) ,C-A5-1,0
+rbsR ?,A300E (GCG?GAG) ,C-A5-1,0
+spoT ?,W339R (TGG?AGG) ,C-A5-1,0
+glyQ ?,coding (728/912 nt),C-A5-1,0
+bcsB ?,D212N (GAC?AAC) ,C-A5-1,0
+gadE ?,coding (234/528 nt),C-A5-1,0
+yhiF ?,coding (167/531 nt),C-A5-1,0
+pitA ?,coding (578/1500 nt),C-A5-1,1
+greB ?,V91G (GTG?GGG) ,C-A5-1,0
+rpoA ?,coding (585?590/990 nt),C-A5-1,0
+metH ?,F951C (TTT?TGT) ,C-A5-1,0
+plsB ?,S740Y (TCC?TAC) ,C-A5-1,0
+plsB ?,L453Q (CTG?CAG) ,C-A5-1,0
+plsB ?,L449Q (CTG?CAG) ,C-A5-1,0
+plsB ?,E438A (GAA?GCA) ,C-A5-1,1
+plsB ?,G341R (GGG?AGG) ,C-A5-1,0
+plsB ?,M128R (ATG?AGG) ,C-A5-1,0
+alsE ?,K58Q (AAA?CAA) ,C-A5-1,0
+yjeP ?,G596G (GGG?GGA) ,C-A5-1,1
+ytfI ?,F124L (TTC?TTA) ,C-A5-1,0
+ytfQ ?,T125I (ACC?ATC) ,C-A5-1,0
+treB ?,C401F (TGC?TTC) ,C-A5-1,0
+Y75_RS22485 ?,coding (110/132 nt),C-A5-1,0
+fimE ?,coding (128/597 nt),C-A5-1,0
+fimE ?,coding (258/597 nt),C-A5-1,0
+fimE ?,T87N (ACC?AAC) ,C-A5-1,0
+fimE ?,coding (417/597 nt),C-A5-1,0
+fimE ?,coding (511/597 nt),C-A5-1,0
+yjjM ?,coding (63/915 nt),C-A5-1,0
+arcA ?,E94K (GAA?AAA) ,C-A5-1,0
+arcA ?,T3P (ACC?CCC) ,C-A5-1,0
+carB ?,T646A (ACC?GCC) ,C-A5-1,0
+ksgA ?,G8D (GGC?GAC) ,C-A5-1,0
+imp ?,A553T (GCC?ACC) ,C-A5-1,0
+yabQ ?,L39L (CTG?CTA) ,C-A5-1,0
+araA ?,D470N (GAC?AAC) ,C-A5-1,0
+yabI ?,R207C (CGT?TGT) ,C-A5-1,0
+leuO ?,A32V (GCC?GTC) ,C-A5-1,0
+mraZ ?,N29S (AAC?AGC) ,C-A5-1,0
+ampE ?,K36K (AAA?AAG) ,C-A5-1,0
+lpd ?,V408A (GTG?GCG) ,C-A5-1,0
+mrcB ?,S280S (AGC?AGT) ,C-A5-1,0
+fhuB ?,N249S (AAC?AGC) ,C-A5-1,0
+proS ?,N62S (AAC?AGC) ,C-A5-1,0
+metQ ?,A240T (GCC?ACC) ,C-A5-1,0
+yafU ?,C60R (TGT?CGT) ,C-A5-1,0
+ivy ?,D134G (GAT?GGT) ,C-A5-1,0
+fadE ?,C455C (TGT?TGC) ,C-A5-1,0
+ykfJ ?,R10R (CGT?CGC) ,C-A5-1,0
+insI ?,S192S (TCG?TCA) ,C-A5-1,0
+ykfC ?,L106L (TTG?CTG) ,C-A5-1,0
+mmuP ?,A78V (GCG?GTG) ,C-A5-1,0
+yagJ ?,A28V (GCG?GTG) ,C-A5-1,0
+yagM ?,S215P (TCA?CCA) ,C-A5-1,0
+intF ?,S189S (TCG?TCA) ,C-A5-1,0
+ykgL ?,Y24C (TAC?TGC) ,C-A5-1,0
+insF ?,G276S (GGC?AGC) ,C-A5-1,0
+ykgC ?,A242A (GCG?GCA) ,C-A5-1,0
+betI ?,R10W (CGG?TGG) ,C-A5-1,0
+yahJ ?,coding (1236/1383 nt),C-A5-1,0
+lacZ ?,G181R (GGA?AGA) ,C-A5-1,0
+frmA ?,A209A (GCG?GCA) ,C-A5-1,0
+yaiU ?,N301S (AAC?AGC) ,C-A5-1,0
+mak ?,coding (755/909 nt),C-A5-1,0
+tsx ?,G95G (GGT?GGC) ,C-A5-1,0
+yajL ?,A5T (GCA?ACA) ,C-A5-1,0
+lon ?,Q300R (CAG?CGG) ,C-A5-1,0
+acrB ?,W187* (TGG?TAG) ,C-A5-1,0
+rhsD ?,R1227W (CGG?TGG) ,C-A5-1,0
+rzpD ?,S109S (TCC?TCT) ,C-A5-1,0
+cusS ?,I397T (ATT?ACT) ,C-A5-1,0
+insL ?,coding (1083/1113 nt),C-A5-1,0
+fepA ?,A405V (GCA?GTA) ,C-A5-1,0
+entB ?,A213T (GCC?ACC) ,C-A5-1,0
+ybdH ?,V265A (GTG?GCG) ,C-A5-1,0
+mrdA ?,V345A (GTG?GCG) ,C-A5-1,0
+miaB ?,V410A (GTC?GCC) ,C-A5-1,0
+ybfO ?,coding (917/1434 nt),C-A5-1,0
+tolQ ?,Q70R (CAG?CGG) ,C-A5-1,0
+modF ?,A44T (GCC?ACC) ,C-A5-1,0
+ybhI ?,H362Y (CAC?TAC) ,C-A5-1,0
+bioF ?,A244A (GCG?GCA) ,C-A5-1,0
+ybhS ?,E209E (GAA?GAG) ,C-A5-1,0
+dinG ?,A2V (GCA?GTA) ,C-A5-1,0
+glnP ?,R131R (CGT?CGC) ,C-A5-1,0
+ybiW ?,T524I (ACC?ATC) ,C-A5-1,0
+ftsK ?,G144G (GGC?GGT) ,C-A5-1,0
+ycaM ?,Q103R (CAA?CGA) ,C-A5-1,0
+ycbX ?,R318R (CGT?CGC) ,C-A5-1,0
+ycbY ?,T564A (ACC?GCC) ,C-A5-1,0
+yccR ?,D196G (GAC?GGC) ,C-A5-1,0
+torS ?,A450A (GCG?GCA) ,C-A5-1,0
+ycdC ?,V198A (GTT?GCT) ,C-A5-1,0
+ycdQ ?,M423I (ATG?ATA) ,C-A5-1,0
+ycdU ?,F124L (TTC?CTC) ,C-A5-1,0
+ycdU ?,C171C (TGC?TGT) ,C-A5-1,0
+mdoH ?,R769C (CGC?TGC) ,C-A5-1,0
+mviM ?,K146K (AAA?AAG) ,C-A5-1,0
+flgG ?,Q124* (CAG?TAG) ,C-A5-1,0
+rne ?,E664K (GAA?AAA) ,C-A5-1,0
+plsX ?,A149V (GCC?GTC) ,C-A5-1,0
+ycfH ?,R215Q (CGA?CAA) ,C-A5-1,0
+icd ?,H366H (CAC?CAT) ,C-A5-1,0
+icd ?,T370T (ACC?ACT) ,C-A5-1,0
+dsbB ?,G11G (GGC?GGT) ,C-A5-1,0
+nhaB ?,coding (1164?1295/1542 nt),C-A5-1,0
+nhaB ?,R196H (CGT?CAT) ,C-A5-1,0
+cvrA ?,T153M (ACG?ATG) ,C-A5-1,0
+ycgV ?,coding (2098/2868 nt),C-A5-1,0
+ychM ?,I145I (ATC?ATT) ,C-A5-1,0
+chaA ?,V21I (GTT?ATT) ,C-A5-1,0
+yciS ?,V93V (GTA?GTG) ,C-A5-1,0
+sapA ?,R292R (CGT?CGC) ,C-A5-1,0
+puuB ?,A391V (GCC?GTC) ,C-A5-1,0
+pspF ?,P223S (CCG?TCG) ,C-A5-1,0
+pspC ?,P68L (CCG?CTG) ,C-A5-1,0
+ycjG ?,T15A (ACC?GCC) ,C-A5-1,0
+intR ?,G270R (GGG?AGG) ,C-A5-1,0
+ldhA ?,E107E (GAA?GAG) ,C-A5-1,0
+feaB ?,R129R (CGT?CGC) ,C-A5-1,0
+feaB ?,I179I (ATT?ATC) ,C-A5-1,0
+ydcM ?,S193P (TCA?CCA) ,C-A5-1,0
+ydcU ?,A174V (GCG?GTG) ,C-A5-1,0
+fdnG ?,M832V (ATG?GTG) ,C-A5-1,0
+ydeK ?,coding (3955/3978 nt),C-A5-1,0
+ydeK ?,coding (3831/3978 nt),C-A5-1,0
+ydeK ?,coding (774/3978 nt),C-A5-1,0
+ydeK ?,coding (774/3978 nt),C-A5-1,0
+stfQ ?,G266D (GGC?GAC) ,C-A5-1,0
+dgsA ?,coding (677?678/1221 nt),C-A5-1,0
+ydhH ?,A214A (GCA?GCG) ,C-A5-1,0
+ydhK ?,coding (36/2013 nt),C-A5-1,0
+ydhK ?,I80T (ATT?ACT) ,C-A5-1,0
+lhr ?,coding (909/4617 nt),C-A5-1,0
+lhr ?,A566A (GCC?GCT) ,C-A5-1,0
+ydhP ?,M313V (ATG?GTG) ,C-A5-1,0
+ydiD ?,A73A (GCG?GCA) ,C-A5-1,0
+ansA ?,A100A (GCG?GCA) ,C-A5-1,0
+gapA ?,Y43C (TAC?TGC) ,C-A5-1,0
+yeaW ?,E70K (GAA?AAA) ,C-A5-1,0
+yoaE ?,A32T (GCC?ACC) ,C-A5-1,0
+flhA ?,Q511R (CAG?CGG) ,C-A5-1,0
+fliK ?,S311S (AGT?AGC) ,C-A5-1,0
+dcm ?,M220I (ATG?ATA) ,C-A5-1,0
+yedW ?,V188A (GTG?GCG) ,C-A5-1,0
+yeeR ?,A184A (GCG?GCA) ,C-A5-1,0
+yeeF ?,L349P (CTG?CCG) ,C-A5-1,0
+wzxC ?,R283C (CGT?TGT) ,C-A5-1,0
+wcaC ?,A326V (GCG?GTG) ,C-A5-1,0
+asmA ?,A109A (GCA?GCG) ,C-A5-1,0
+yegE ?,V632A (GTG?GCG) ,C-A5-1,0
+yegD ?,A197T (GCT?ACT) ,C-A5-1,0
+yegS ?,I166I (ATT?ATC) ,C-A5-1,0
+metG ?,P566P (CCG?CCA) ,C-A5-1,0
+yejH ?,A399A (GCC?GCT) ,C-A5-1,0
+ccmA ?,coding (531/624 nt),C-A5-1,0
+mqo ?,T204T (ACC?ACT) ,C-A5-1,0
+atoE ?,coding (1044/1323 nt),C-A5-1,0
+nrdA ?,L342L (CTG?CTA) ,C-A5-1,0
+nrdB ?,R50R (CGT?CGC) ,C-A5-1,0
+yfbH ?,D224G (GAT?GGT) ,C-A5-1,0
+menC ?,R217C (CGC?TGC) ,C-A5-1,0
+yfbK ?,T396A (ACC?GCC) ,C-A5-1,0
+yfcG ?,Q207Q (CAA?CAG) ,C-A5-1,0
+accD ?,S69G (AGC?GGC) ,C-A5-1,0
+pdxB ?,P333S (CCG?TCG) ,C-A5-1,0
+yfcJ ?,T290M (ACG?ATG) ,C-A5-1,0
+mepA ?,Q226* (CAA?TAA) ,C-A5-1,0
+yfcP ?,V76V (GTA?GTG) ,C-A5-1,0
+yfcU ?,E60G (GAG?GGG) ,C-A5-1,0
+intS ?,R161H (CGC?CAC) ,C-A5-1,0
+dsdX ?,G71G (GGC?GGT) ,C-A5-1,0
+oxc ?,R345C (CGC?TGC) ,C-A5-1,0
+cysA ?,L313Q (CTG?CAG) ,C-A5-1,0
+hemF ?,G184E (GGG?GAG) ,C-A5-1,0
+hemF ?,R239R (CGT?CGC) ,C-A5-1,0
+maeB ?,R656G (AGG?GGG) ,C-A5-1,0
+hyfB ?,coding (200/2019 nt),C-A5-1,0
+focB ?,P197S (CCC?TCC) ,C-A5-1,0
+yfgL ?,S33P (TCC?CCC) ,C-A5-1,0
+hcaT ?,A89V (GCG?GTG) ,C-A5-1,0
+yphH ?,C95R (TGT?CGT) ,C-A5-1,0
+lepB ?,G322D (GGC?GAC) ,C-A5-1,0
+kgtP ?,L177L (CTA?CTG) ,C-A5-1,0
+rrsG ?,noncoding (273/1542 nt),C-A5-1,0
+rrsG ?,noncoding (253/1542 nt),C-A5-1,0
+rrsG ?,noncoding (250/1542 nt),C-A5-1,0
+yfiO ?,D84D (GAT?GAC) ,C-A5-1,0
+ypjD ?,V236A (GTG?GCG) ,C-A5-1,0
+yfjH ?,coding (939/957 nt),C-A5-1,0
+yfjK ?,D523D (GAC?GAT) ,C-A5-1,0
+yfjP ?,G16S (GGT?AGT) ,C-A5-1,0
+gabT ?,Y86H (TAT?CAT) ,C-A5-1,0
+mprA ?,W140* (TGG?TAG) ,C-A5-1,0
+emrB ?,M333V (ATG?GTG) ,C-A5-1,0
+alaS ?,G196G (GGC?GGG) ,C-A5-1,0
+hycH ?,N94N (AAC?AAT) ,C-A5-1,0
+fhlA ?,G414G (GGT?GGC) ,C-A5-1,0
+mutS ?,W709* (TGG?TGA) ,C-A5-1,0
+iap ?,T120A (ACT?GCT) ,C-A5-1,0
+ygcL ?,S303S (TCC?TCT) ,C-A5-1,0
+eno ?,Y258C (TAC?TGC) ,C-A5-1,0
+mazG ?,T160A (ACG?GCG) ,C-A5-1,0
+relA ?,L80P (CTG?CCG) ,C-A5-1,0
+gudD ?,L162P (CTG?CCG) ,C-A5-1,0
+yqcA ?,I75I (ATC?ATT) ,C-A5-1,0
+sdaC ?,V410A (GTA?GCA) ,C-A5-1,0
+ppdC ?,N39S (AAC?AGC) ,C-A5-1,0
+yqeH ?,G50G (GGT?GGC) ,C-A5-1,0
+ygeF ?,coding (370/447 nt),C-A5-1,0
+hyuA ?,V309M (GTG?ATG) ,C-A5-1,0
+recJ ?,Q250Q (CAG?CAA) ,C-A5-1,0
+gcvP ?,A372V (GCG?GTG) ,C-A5-1,0
+visC ?,K317K (AAA?AAG) ,C-A5-1,0
+argO ?,A167A (GCA?GCG) ,C-A5-1,0
+pgk ?,A144V (GCT?GTT) ,C-A5-1,0
+sprT ?,V163A (GTT?GCT) ,C-A5-1,0
+yggJ ?,N47D (AAC?GAC) ,C-A5-1,0
+mutY ?,R277R (CGG?CGA) ,C-A5-1,0
+glcB ?,I242I (ATC?ATT) ,C-A5-1,0
+hybD ?,V117V (GTC?GTT) ,C-A5-1,0
+exbB ?,A182A (GCA?GCG) ,C-A5-1,0
+exbB ?,L62L (CTG?TTG) ,C-A5-1,0
+metC ?,K124K (AAA?AAG) ,C-A5-1,0
+metC ?,A325A (GCG?GCA) ,C-A5-1,0
+yqhC ?,coding (915/957 nt),C-A5-1,0
+nudF ?,coding (402/630 nt),C-A5-1,0
+yqiK ?,coding (1499/1662 nt),C-A5-1,0
+rfaE ?,N288S (AAT?AGT) ,C-A5-1,0
+ygjK ?,A732A (GCG?GCA) ,C-A5-1,0
+ygjP ?,Q137R (CAG?CGG) ,C-A5-1,0
+sstT ?,V393A (GTG?GCG) ,C-A5-1,0
+exuT ?,W289* (TGG?TAG) ,C-A5-1,0
+yhaK ?,L106P (CTC?CCC) ,C-A5-1,0
+yhaK ?,A149A (GCG?GCA) ,C-A5-1,0
+tdcB ?,G215D (GGC?GAC) ,C-A5-1,0
+garK ?,Q325R (CAG?CGG) ,C-A5-1,0
+garP ?,Y404C (TAC?TGC) ,C-A5-1,0
+sohA ?,coding (272/336 nt),C-A5-1,0
+truB ?,T178T (ACT?ACC) ,C-A5-1,0
+yhbX ?,P385S (CCG?TCG) ,C-A5-1,0
+gltB ?,T545T (ACT?ACC) ,C-A5-1,0
+yhdW ?,A100V (GCG?GTG) ,C-A5-1,0
+yhdY ?,coding (438/1104 nt),C-A5-1,0
+thiC ?,R14R (CGG?CGA) ,C-A5-1,0
+metJ ?,R81C (CGC?TGC) ,C-A5-1,0
+yiiQ ?,A80A (GCT?GCC) ,C-A5-1,0
+rhaA ?,C257R (TGC?CGC) ,C-A5-1,0
+dapF ?,L113L (CTG?TTG) ,C-A5-1,0
+cyaA ?,P430L (CCA?CTA) ,C-A5-1,0
+yifK ?,coding (66/1386 nt),C-A5-1,0
+rho ?,A236T (GCA?ACA) ,C-A5-1,0
+ilvC ?,A203A (GCG?GCA) ,C-A5-1,0
+asnC ?,G103S (GGC?AGC) ,C-A5-1,0
+pstA ?,R170S (CGC?AGC) ,C-A5-1,0
+yieG ?,T370A (ACT?GCT) ,C-A5-1,0
+yidH ?,T21A (ACT?GCT) ,C-A5-1,0
+yicN ?,S22S (TCC?TCT) ,C-A5-1,0
+yicR ?,G73G (GGC?GGT) ,C-A5-1,0
+rfaD ?,F224F (TTC?TTT) ,C-A5-1,0
+selA ?,A368A (GCA?GCG) ,C-A5-1,0
+bcsE ?,E463K (GAA?AAA) ,C-A5-1,0
+bcsB ?,V181A (GTG?GCG) ,C-A5-1,0
+yhjK ?,R71C (CGT?TGT) ,C-A5-1,0
+gadA ?,F188L (TTT?CTT) ,C-A5-1,0
+prlC ?,T460A (ACT?GCT) ,C-A5-1,0
+pitA ?,S425P (TCT?CCT) ,C-A5-1,0
+yhhT ?,L153L (TTG?TTA) ,C-A5-1,0
+livG ?,coding (133/768 nt),C-A5-1,0
+glgX ?,E490E (GAA?GAG) ,C-A5-1,0
+malQ ?,D419G (GAC?GGC) ,C-A5-1,0
+yhgF ?,A745T (GCA?ACA) ,C-A5-1,0
+frlR ?,G72D (GGC?GAC) ,C-A5-1,0
+nirC ?,V119A (GTT?GCT) ,C-A5-1,0
+yheS ?,G37S (GGC?AGC) ,C-A5-1,0
+fusA ?,Y33C (TAC?TGC) ,C-A5-1,0
+metH ?,L170L (CTG?CTA) ,C-A5-1,0
+metH ?,W1112* (TGG?TAG) ,C-A5-1,0
+yjbB ?,E397G (GAG?GGG) ,C-A5-1,0
+pgi ?,I285I (ATC?ATT) ,C-A5-1,0
+yjbI ?,A135A (GCA?GCG) ,C-A5-1,0
+nrfC ?,D183D (GAC?GAT) ,C-A5-1,0
+proP ?,S414S (TCG?TCA) ,C-A5-1,0
+lysU ?,P338P (CCA?CCG) ,C-A5-1,0
+cadB ?,A99V (GCG?GTG) ,C-A5-1,0
+cadC ?,I139T (ATT?ACT) ,C-A5-1,0
+blc ?,F95L (TTT?CTT) ,C-A5-1,0
+mutL ?,I56V (ATT?GTT) ,C-A5-1,0
+yjfK ?,R174Q (CGG?CAG) ,C-A5-1,0
+ulaE ?,A261A (GCG?GCA) ,C-A5-1,0
+ytfR ?,D343D (GAC?GAT) ,C-A5-1,0
+nrdD ?,R448R (CGT?CGC) ,C-A5-1,0
+yjgN ?,A255V (GCG?GTG) ,C-A5-1,0
+pepA ?,Y365H (TAC?CAC) ,C-A5-1,0
+yjgB ?,V241I (GTC?ATC) ,C-A5-1,0
+sgcA ?,V94A (GTC?GCC) ,C-A5-1,0
+yjhR ?,D234G (GAT?GGT) ,C-A5-1,0
+fimE ?,M15V (ATG?GTG) ,C-A5-1,0
+iadA ?,L215P (CTG?CCG) ,C-A5-1,0
+yjiK ?,R22R (CGT?CGC) ,C-A5-1,0
+leuV ?,noncoding (71/87 nt),C-A5-1,0
+creD ?,P5L (CCC?CTC) ,C-A5-1,0
+dnaK ?,L131P (CTG?CCG) ,C-G5-1,0
+nhaA ?,V224G (GTT?GGT) ,C-G5-1,0
+rrlH ?,noncoding (538/2904 nt),C-G5-1,1
+ykfJ–[insH],insH-mediated,C-G5-1,0
+Y75_RS01440 ?,coding (58/225 nt),C-G5-1,0
+acrB ?,coding (247/3150 nt),C-G5-1,0
+acrA ?,Q116* (CAG?TAG) ,C-G5-1,0
+ybbA ?,L157Q (CTG?CAG) ,C-G5-1,0
+allR ?,A13A (GCG?GCT) ,C-G5-1,0
+cecR ?,Y51N (TAC?AAC) ,C-G5-1,0
+cecR ?,Y50C (TAC?TGC) ,C-G5-1,0
+lrp ?,coding (411/495 nt),C-G5-1,0
+ycaM ?,coding (172/1431 nt),C-G5-1,0
+mukB ?,R73R (CGC?CGT) ,C-G5-1,0
+hyaC ?,T35I (ACC?ATC) ,C-G5-1,0
+ycdO ?,K52K (AAA?AAG) ,C-G5-1,0
+Y75_RS05380-[Y75_RS05385],duplication (362bp),C-G5-1,0
+Y75_RS05380-[serX],duplication (442bp),C-G5-1,1
+fabF ?,G202A (GGT?GCT) ,C-G5-1,0
+ptsG ?,coding (87?983/1434 nt),C-G5-1,0
+nhaB ?,coding (1164?1295/1542 nt),C-G5-1,0
+nhaB ?,coding (364/1542 nt),C-G5-1,0
+adhE ?,A626V (GCG?GTG) ,C-G5-1,0
+adhE ?,H565L (CAC?CTC) ,C-G5-1,0
+adhE ?,H565R (CAC?CGC) ,C-G5-1,0
+adhE ?,W556R (TGG?CGG) ,C-G5-1,0
+adhE ?,L371Q (CTG?CAG) ,C-G5-1,0
+adhE ?,Y77H (TAC?CAC) ,C-G5-1,0
+sapD ?,coding (936/993 nt),C-G5-1,1
+ydcI ?,coding (189/924 nt),C-G5-1,0
+yncD ?,D654G (GAT?GGT) ,C-G5-1,0
+Y75_RS07695 ?,coding (1436/1800 nt),C-G5-1,0
+hipA-flxA,duplication (56260 bp),C-G5-1,0
+ydiM ?,coding (995/1215 nt),C-G5-1,0
+yeaA ?,coding (5/414 nt),C-G5-1,0
+yeaR ?,coding (112/360 nt),C-G5-1,0
+Y75_RS09615 ?,coding (92/207 nt),C-G5-1,0
+otsB ?,L67R (CTT?CGT) ,C-G5-1,0
+gatD ?,coding (166/1041 nt),C-G5-1,0
+glpB ?,T340T (ACG?ACC) ,C-G5-1,0
+menC ?,coding (128/963 nt),C-G5-1,0
+purF ?,R74L (CGT?CTT) ,C-G5-1,0
+aroC ?,P31Q (CCG?CAG) ,C-G5-1,0
+crr ?,coding (487/510 nt),C-G5-1,0
+nlpB ?,R223S (CGT?AGT) ,C-G5-1,0
+pbpC ?,S342T (TCA?ACA) ,C-G5-1,0
+csiE ?,T299P (ACC?CCC) ,C-G5-1,1
+srmB ?,coding (664/1335 nt),C-G5-1,0
+kgtP ?,coding (375/1299 nt),C-G5-1,0
+mprA ?,coding (110/531 nt),C-G5-1,0
+mprA ?,coding (155?163/531 nt),C-G5-1,0
+mprA ?,L64R (CTG?CGG) ,C-G5-1,0
+mprA ?,coding (299?356/531 nt),C-G5-1,0
+mprA ?,D109V (GAT?GTT) ,C-G5-1,0
+mprA ?,D109E (GAT?GAG) ,C-G5-1,1
+mprA ?,C112* (TGC?TGA) ,C-G5-1,0
+mprA ?,coding (344?412/531 nt),C-G5-1,0
+mprA ?,G121D (GGT?GAT) ,C-G5-1,0
+mprA ?,W140* (TGG?TGA) ,C-G5-1,0
+emrA ?,L24H (CTC?CAC) ,C-G5-1,0
+emrA ?,I313L (ATC?CTC) ,C-G5-1,0
+emrB ?,M219I (ATG?ATA) ,C-G5-1,0
+emrB ?,E297V (GAG?GTG) ,C-G5-1,0
+emrB ?,V337A (GTA?GCA) ,C-G5-1,0
+emrB ?,P357L (CCA?CTA) ,C-G5-1,0
+emrB ?,S411A (TCT?GCT) ,C-G5-1,0
+rpoS ?,P166L (CCA?CTA) ,C-G5-1,0
+rpoS ?,Q13* (CAG?TAG) ,C-G5-1,0
+nlpD ?,coding (656/1140 nt),C-G5-1,0
+ygbE ?,G81* (GGA?TGA) ,C-G5-1,0
+yghB ?,coding (645/660 nt),C-G5-1,0
+rpoD ?,Y571H (TAC?CAC) ,C-G5-1,0
+yhaC ?,G146R (GGG?AGG) ,C-G5-1,0
+sohA ?,coding (272/336 nt),C-G5-1,0
+rng ?,E404* (GAA?TAA) ,C-G5-1,0
+rng ?,L368* (TTG?TAG) ,C-G5-1,0
+rng ?,L280P (CTG?CCG) ,C-G5-1,0
+rng ?,E227* (GAA?TAA) ,C-G5-1,0
+rpoC ?,Q477R (CAG?CGG) ,C-G5-1,0
+rpoB ?,R944C (CGT?TGT) ,C-G5-1,0
+rpoB ?,S182A (TCC?GCC) ,C-G5-1,0
+cyaA ?,N804K (AAC?AAA) ,C-G5-1,0
+cyaA ?,Q671* (CAG?TAG) ,C-G5-1,0
+cyaA ?,coding (1552/2547 nt),C-G5-1,0
+rho ?,K105E (AAA?GAA) ,C-G5-1,0
+rbsR ?,A300E (GCG?GAG) ,C-G5-1,0
+spoT ?,W339R (TGG?AGG) ,C-G5-1,0
+glyQ ?,coding (728/912 nt),C-G5-1,0
+bcsB ?,D212N (GAC?AAC) ,C-G5-1,0
+gadE ?,coding (234/528 nt),C-G5-1,0
+yhiF ?,coding (167/531 nt),C-G5-1,0
+pitA ?,coding (578/1500 nt),C-G5-1,0
+greB ?,V91G (GTG?GGG) ,C-G5-1,0
+rpoA ?,coding (585?590/990 nt),C-G5-1,0
+metH ?,F951C (TTT?TGT) ,C-G5-1,0
+plsB ?,S740Y (TCC?TAC) ,C-G5-1,0
+plsB ?,L453Q (CTG?CAG) ,C-G5-1,0
+plsB ?,L449Q (CTG?CAG) ,C-G5-1,0
+plsB ?,E438A (GAA?GCA) ,C-G5-1,0
+plsB ?,G341R (GGG?AGG) ,C-G5-1,0
+plsB ?,M128R (ATG?AGG) ,C-G5-1,0
+alsE ?,K58Q (AAA?CAA) ,C-G5-1,0
+yjeP ?,G596G (GGG?GGA) ,C-G5-1,0
+ytfI ?,F124L (TTC?TTA) ,C-G5-1,0
+ytfQ ?,T125I (ACC?ATC) ,C-G5-1,0
+treB ?,C401F (TGC?TTC) ,C-G5-1,0
+Y75_RS22485 ?,coding (110/132 nt),C-G5-1,0
+fimE ?,coding (128/597 nt),C-G5-1,0
+fimE ?,coding (258/597 nt),C-G5-1,0
+fimE ?,T87N (ACC?AAC) ,C-G5-1,0
+fimE ?,coding (417/597 nt),C-G5-1,0
+fimE ?,coding (511/597 nt),C-G5-1,0
+yjjM ?,coding (63/915 nt),C-G5-1,0
+arcA ?,E94K (GAA?AAA) ,C-G5-1,1
+arcA ?,T3P (ACC?CCC) ,C-G5-1,0
+carB ?,T646A (ACC?GCC) ,C-G5-1,0
+ksgA ?,G8D (GGC?GAC) ,C-G5-1,0
+imp ?,A553T (GCC?ACC) ,C-G5-1,0
+yabQ ?,L39L (CTG?CTA) ,C-G5-1,0
+araA ?,D470N (GAC?AAC) ,C-G5-1,0
+yabI ?,R207C (CGT?TGT) ,C-G5-1,0
+leuO ?,A32V (GCC?GTC) ,C-G5-1,0
+mraZ ?,N29S (AAC?AGC) ,C-G5-1,0
+ampE ?,K36K (AAA?AAG) ,C-G5-1,0
+lpd ?,V408A (GTG?GCG) ,C-G5-1,0
+mrcB ?,S280S (AGC?AGT) ,C-G5-1,0
+fhuB ?,N249S (AAC?AGC) ,C-G5-1,0
+proS ?,N62S (AAC?AGC) ,C-G5-1,0
+metQ ?,A240T (GCC?ACC) ,C-G5-1,0
+yafU ?,C60R (TGT?CGT) ,C-G5-1,0
+ivy ?,D134G (GAT?GGT) ,C-G5-1,0
+fadE ?,C455C (TGT?TGC) ,C-G5-1,0
+ykfJ ?,R10R (CGT?CGC) ,C-G5-1,0
+insI ?,S192S (TCG?TCA) ,C-G5-1,0
+ykfC ?,L106L (TTG?CTG) ,C-G5-1,0
+mmuP ?,A78V (GCG?GTG) ,C-G5-1,0
+yagJ ?,A28V (GCG?GTG) ,C-G5-1,0
+yagM ?,S215P (TCA?CCA) ,C-G5-1,0
+intF ?,S189S (TCG?TCA) ,C-G5-1,0
+ykgL ?,Y24C (TAC?TGC) ,C-G5-1,0
+insF ?,G276S (GGC?AGC) ,C-G5-1,0
+ykgC ?,A242A (GCG?GCA) ,C-G5-1,0
+betI ?,R10W (CGG?TGG) ,C-G5-1,0
+yahJ ?,coding (1236/1383 nt),C-G5-1,0
+lacZ ?,G181R (GGA?AGA) ,C-G5-1,0
+frmA ?,A209A (GCG?GCA) ,C-G5-1,0
+yaiU ?,N301S (AAC?AGC) ,C-G5-1,0
+mak ?,coding (755/909 nt),C-G5-1,0
+tsx ?,G95G (GGT?GGC) ,C-G5-1,0
+yajL ?,A5T (GCA?ACA) ,C-G5-1,0
+lon ?,Q300R (CAG?CGG) ,C-G5-1,0
+acrB ?,W187* (TGG?TAG) ,C-G5-1,0
+rhsD ?,R1227W (CGG?TGG) ,C-G5-1,0
+rzpD ?,S109S (TCC?TCT) ,C-G5-1,0
+cusS ?,I397T (ATT?ACT) ,C-G5-1,0
+insL ?,coding (1083/1113 nt),C-G5-1,0
+fepA ?,A405V (GCA?GTA) ,C-G5-1,0
+entB ?,A213T (GCC?ACC) ,C-G5-1,0
+ybdH ?,V265A (GTG?GCG) ,C-G5-1,0
+mrdA ?,V345A (GTG?GCG) ,C-G5-1,0
+miaB ?,V410A (GTC?GCC) ,C-G5-1,0
+ybfO ?,coding (917/1434 nt),C-G5-1,0
+tolQ ?,Q70R (CAG?CGG) ,C-G5-1,0
+modF ?,A44T (GCC?ACC) ,C-G5-1,0
+ybhI ?,H362Y (CAC?TAC) ,C-G5-1,0
+bioF ?,A244A (GCG?GCA) ,C-G5-1,0
+ybhS ?,E209E (GAA?GAG) ,C-G5-1,0
+dinG ?,A2V (GCA?GTA) ,C-G5-1,0
+glnP ?,R131R (CGT?CGC) ,C-G5-1,0
+ybiW ?,T524I (ACC?ATC) ,C-G5-1,0
+ftsK ?,G144G (GGC?GGT) ,C-G5-1,0
+ycaM ?,Q103R (CAA?CGA) ,C-G5-1,0
+ycbX ?,R318R (CGT?CGC) ,C-G5-1,0
+ycbY ?,T564A (ACC?GCC) ,C-G5-1,0
+yccR ?,D196G (GAC?GGC) ,C-G5-1,0
+torS ?,A450A (GCG?GCA) ,C-G5-1,0
+ycdC ?,V198A (GTT?GCT) ,C-G5-1,0
+ycdQ ?,M423I (ATG?ATA) ,C-G5-1,0
+ycdU ?,F124L (TTC?CTC) ,C-G5-1,0
+ycdU ?,C171C (TGC?TGT) ,C-G5-1,0
+mdoH ?,R769C (CGC?TGC) ,C-G5-1,0
+mviM ?,K146K (AAA?AAG) ,C-G5-1,0
+flgG ?,Q124* (CAG?TAG) ,C-G5-1,0
+rne ?,E664K (GAA?AAA) ,C-G5-1,0
+plsX ?,A149V (GCC?GTC) ,C-G5-1,0
+ycfH ?,R215Q (CGA?CAA) ,C-G5-1,0
+icd ?,H366H (CAC?CAT) ,C-G5-1,0
+icd ?,T370T (ACC?ACT) ,C-G5-1,0
+dsbB ?,G11G (GGC?GGT) ,C-G5-1,0
+nhaB ?,coding (1164?1295/1542 nt),C-G5-1,0
+nhaB ?,R196H (CGT?CAT) ,C-G5-1,0
+cvrA ?,T153M (ACG?ATG) ,C-G5-1,0
+ycgV ?,coding (2098/2868 nt),C-G5-1,0
+ychM ?,I145I (ATC?ATT) ,C-G5-1,0
+chaA ?,V21I (GTT?ATT) ,C-G5-1,0
+yciS ?,V93V (GTA?GTG) ,C-G5-1,0
+sapA ?,R292R (CGT?CGC) ,C-G5-1,0
+puuB ?,A391V (GCC?GTC) ,C-G5-1,0
+pspF ?,P223S (CCG?TCG) ,C-G5-1,0
+pspC ?,P68L (CCG?CTG) ,C-G5-1,0
+ycjG ?,T15A (ACC?GCC) ,C-G5-1,0
+intR ?,G270R (GGG?AGG) ,C-G5-1,0
+ldhA ?,E107E (GAA?GAG) ,C-G5-1,0
+feaB ?,R129R (CGT?CGC) ,C-G5-1,0
+feaB ?,I179I (ATT?ATC) ,C-G5-1,0
+ydcM ?,S193P (TCA?CCA) ,C-G5-1,0
+ydcU ?,A174V (GCG?GTG) ,C-G5-1,0
+fdnG ?,M832V (ATG?GTG) ,C-G5-1,0
+ydeK ?,coding (3955/3978 nt),C-G5-1,0
+ydeK ?,coding (3831/3978 nt),C-G5-1,0
+ydeK ?,coding (774/3978 nt),C-G5-1,0
+ydeK ?,coding (774/3978 nt),C-G5-1,0
+stfQ ?,G266D (GGC?GAC) ,C-G5-1,0
+dgsA ?,coding (677?678/1221 nt),C-G5-1,0
+ydhH ?,A214A (GCA?GCG) ,C-G5-1,0
+ydhK ?,coding (36/2013 nt),C-G5-1,0
+ydhK ?,I80T (ATT?ACT) ,C-G5-1,0
+lhr ?,coding (909/4617 nt),C-G5-1,0
+lhr ?,A566A (GCC?GCT) ,C-G5-1,0
+ydhP ?,M313V (ATG?GTG) ,C-G5-1,0
+ydiD ?,A73A (GCG?GCA) ,C-G5-1,0
+ansA ?,A100A (GCG?GCA) ,C-G5-1,0
+gapA ?,Y43C (TAC?TGC) ,C-G5-1,0
+yeaW ?,E70K (GAA?AAA) ,C-G5-1,0
+yoaE ?,A32T (GCC?ACC) ,C-G5-1,0
+flhA ?,Q511R (CAG?CGG) ,C-G5-1,0
+fliK ?,S311S (AGT?AGC) ,C-G5-1,0
+dcm ?,M220I (ATG?ATA) ,C-G5-1,0
+yedW ?,V188A (GTG?GCG) ,C-G5-1,0
+yeeR ?,A184A (GCG?GCA) ,C-G5-1,0
+yeeF ?,L349P (CTG?CCG) ,C-G5-1,0
+wzxC ?,R283C (CGT?TGT) ,C-G5-1,0
+wcaC ?,A326V (GCG?GTG) ,C-G5-1,0
+asmA ?,A109A (GCA?GCG) ,C-G5-1,0
+yegE ?,V632A (GTG?GCG) ,C-G5-1,0
+yegD ?,A197T (GCT?ACT) ,C-G5-1,0
+yegS ?,I166I (ATT?ATC) ,C-G5-1,0
+metG ?,P566P (CCG?CCA) ,C-G5-1,0
+yejH ?,A399A (GCC?GCT) ,C-G5-1,0
+ccmA ?,coding (531/624 nt),C-G5-1,0
+mqo ?,T204T (ACC?ACT) ,C-G5-1,0
+atoE ?,coding (1044/1323 nt),C-G5-1,0
+nrdA ?,L342L (CTG?CTA) ,C-G5-1,0
+nrdB ?,R50R (CGT?CGC) ,C-G5-1,0
+yfbH ?,D224G (GAT?GGT) ,C-G5-1,0
+menC ?,R217C (CGC?TGC) ,C-G5-1,0
+yfbK ?,T396A (ACC?GCC) ,C-G5-1,0
+yfcG ?,Q207Q (CAA?CAG) ,C-G5-1,0
+accD ?,S69G (AGC?GGC) ,C-G5-1,0
+pdxB ?,P333S (CCG?TCG) ,C-G5-1,0
+yfcJ ?,T290M (ACG?ATG) ,C-G5-1,0
+mepA ?,Q226* (CAA?TAA) ,C-G5-1,0
+yfcP ?,V76V (GTA?GTG) ,C-G5-1,0
+yfcU ?,E60G (GAG?GGG) ,C-G5-1,0
+intS ?,R161H (CGC?CAC) ,C-G5-1,0
+dsdX ?,G71G (GGC?GGT) ,C-G5-1,0
+oxc ?,R345C (CGC?TGC) ,C-G5-1,0
+cysA ?,L313Q (CTG?CAG) ,C-G5-1,0
+hemF ?,G184E (GGG?GAG) ,C-G5-1,0
+hemF ?,R239R (CGT?CGC) ,C-G5-1,0
+maeB ?,R656G (AGG?GGG) ,C-G5-1,0
+hyfB ?,coding (200/2019 nt),C-G5-1,0
+focB ?,P197S (CCC?TCC) ,C-G5-1,0
+yfgL ?,S33P (TCC?CCC) ,C-G5-1,0
+hcaT ?,A89V (GCG?GTG) ,C-G5-1,0
+yphH ?,C95R (TGT?CGT) ,C-G5-1,0
+lepB ?,G322D (GGC?GAC) ,C-G5-1,0
+kgtP ?,L177L (CTA?CTG) ,C-G5-1,0
+rrsG ?,noncoding (273/1542 nt),C-G5-1,0
+rrsG ?,noncoding (253/1542 nt),C-G5-1,0
+rrsG ?,noncoding (250/1542 nt),C-G5-1,0
+yfiO ?,D84D (GAT?GAC) ,C-G5-1,0
+ypjD ?,V236A (GTG?GCG) ,C-G5-1,0
+yfjH ?,coding (939/957 nt),C-G5-1,0
+yfjK ?,D523D (GAC?GAT) ,C-G5-1,0
+yfjP ?,G16S (GGT?AGT) ,C-G5-1,0
+gabT ?,Y86H (TAT?CAT) ,C-G5-1,0
+mprA ?,W140* (TGG?TAG) ,C-G5-1,0
+emrB ?,M333V (ATG?GTG) ,C-G5-1,0
+alaS ?,G196G (GGC?GGG) ,C-G5-1,0
+hycH ?,N94N (AAC?AAT) ,C-G5-1,0
+fhlA ?,G414G (GGT?GGC) ,C-G5-1,0
+mutS ?,W709* (TGG?TGA) ,C-G5-1,0
+iap ?,T120A (ACT?GCT) ,C-G5-1,0
+ygcL ?,S303S (TCC?TCT) ,C-G5-1,0
+eno ?,Y258C (TAC?TGC) ,C-G5-1,0
+mazG ?,T160A (ACG?GCG) ,C-G5-1,0
+relA ?,L80P (CTG?CCG) ,C-G5-1,0
+gudD ?,L162P (CTG?CCG) ,C-G5-1,0
+yqcA ?,I75I (ATC?ATT) ,C-G5-1,0
+sdaC ?,V410A (GTA?GCA) ,C-G5-1,0
+ppdC ?,N39S (AAC?AGC) ,C-G5-1,0
+yqeH ?,G50G (GGT?GGC) ,C-G5-1,0
+ygeF ?,coding (370/447 nt),C-G5-1,0
+hyuA ?,V309M (GTG?ATG) ,C-G5-1,0
+recJ ?,Q250Q (CAG?CAA) ,C-G5-1,0
+gcvP ?,A372V (GCG?GTG) ,C-G5-1,0
+visC ?,K317K (AAA?AAG) ,C-G5-1,0
+argO ?,A167A (GCA?GCG) ,C-G5-1,0
+pgk ?,A144V (GCT?GTT) ,C-G5-1,0
+sprT ?,V163A (GTT?GCT) ,C-G5-1,0
+yggJ ?,N47D (AAC?GAC) ,C-G5-1,0
+mutY ?,R277R (CGG?CGA) ,C-G5-1,0
+glcB ?,I242I (ATC?ATT) ,C-G5-1,0
+hybD ?,V117V (GTC?GTT) ,C-G5-1,0
+exbB ?,A182A (GCA?GCG) ,C-G5-1,0
+exbB ?,L62L (CTG?TTG) ,C-G5-1,0
+metC ?,K124K (AAA?AAG) ,C-G5-1,0
+metC ?,A325A (GCG?GCA) ,C-G5-1,0
+yqhC ?,coding (915/957 nt),C-G5-1,0
+nudF ?,coding (402/630 nt),C-G5-1,0
+yqiK ?,coding (1499/1662 nt),C-G5-1,0
+rfaE ?,N288S (AAT?AGT) ,C-G5-1,0
+ygjK ?,A732A (GCG?GCA) ,C-G5-1,0
+ygjP ?,Q137R (CAG?CGG) ,C-G5-1,0
+sstT ?,V393A (GTG?GCG) ,C-G5-1,0
+exuT ?,W289* (TGG?TAG) ,C-G5-1,0
+yhaK ?,L106P (CTC?CCC) ,C-G5-1,0
+yhaK ?,A149A (GCG?GCA) ,C-G5-1,0
+tdcB ?,G215D (GGC?GAC) ,C-G5-1,0
+garK ?,Q325R (CAG?CGG) ,C-G5-1,0
+garP ?,Y404C (TAC?TGC) ,C-G5-1,0
+sohA ?,coding (272/336 nt),C-G5-1,0
+truB ?,T178T (ACT?ACC) ,C-G5-1,0
+yhbX ?,P385S (CCG?TCG) ,C-G5-1,0
+gltB ?,T545T (ACT?ACC) ,C-G5-1,0
+yhdW ?,A100V (GCG?GTG) ,C-G5-1,0
+yhdY ?,coding (438/1104 nt),C-G5-1,0
+thiC ?,R14R (CGG?CGA) ,C-G5-1,0
+metJ ?,R81C (CGC?TGC) ,C-G5-1,0
+yiiQ ?,A80A (GCT?GCC) ,C-G5-1,0
+rhaA ?,C257R (TGC?CGC) ,C-G5-1,0
+dapF ?,L113L (CTG?TTG) ,C-G5-1,0
+cyaA ?,P430L (CCA?CTA) ,C-G5-1,0
+yifK ?,coding (66/1386 nt),C-G5-1,0
+rho ?,A236T (GCA?ACA) ,C-G5-1,0
+ilvC ?,A203A (GCG?GCA) ,C-G5-1,0
+asnC ?,G103S (GGC?AGC) ,C-G5-1,0
+pstA ?,R170S (CGC?AGC) ,C-G5-1,0
+yieG ?,T370A (ACT?GCT) ,C-G5-1,0
+yidH ?,T21A (ACT?GCT) ,C-G5-1,0
+yicN ?,S22S (TCC?TCT) ,C-G5-1,0
+yicR ?,G73G (GGC?GGT) ,C-G5-1,0
+rfaD ?,F224F (TTC?TTT) ,C-G5-1,0
+selA ?,A368A (GCA?GCG) ,C-G5-1,0
+bcsE ?,E463K (GAA?AAA) ,C-G5-1,0
+bcsB ?,V181A (GTG?GCG) ,C-G5-1,0
+yhjK ?,R71C (CGT?TGT) ,C-G5-1,0
+gadA ?,F188L (TTT?CTT) ,C-G5-1,0
+prlC ?,T460A (ACT?GCT) ,C-G5-1,0
+pitA ?,S425P (TCT?CCT) ,C-G5-1,0
+yhhT ?,L153L (TTG?TTA) ,C-G5-1,0
+livG ?,coding (133/768 nt),C-G5-1,0
+glgX ?,E490E (GAA?GAG) ,C-G5-1,0
+malQ ?,D419G (GAC?GGC) ,C-G5-1,0
+yhgF ?,A745T (GCA?ACA) ,C-G5-1,0
+frlR ?,G72D (GGC?GAC) ,C-G5-1,0
+nirC ?,V119A (GTT?GCT) ,C-G5-1,0
+yheS ?,G37S (GGC?AGC) ,C-G5-1,0
+fusA ?,Y33C (TAC?TGC) ,C-G5-1,0
+metH ?,L170L (CTG?CTA) ,C-G5-1,0
+metH ?,W1112* (TGG?TAG) ,C-G5-1,0
+yjbB ?,E397G (GAG?GGG) ,C-G5-1,0
+pgi ?,I285I (ATC?ATT) ,C-G5-1,0
+yjbI ?,A135A (GCA?GCG) ,C-G5-1,0
+nrfC ?,D183D (GAC?GAT) ,C-G5-1,0
+proP ?,S414S (TCG?TCA) ,C-G5-1,0
+lysU ?,P338P (CCA?CCG) ,C-G5-1,0
+cadB ?,A99V (GCG?GTG) ,C-G5-1,0
+cadC ?,I139T (ATT?ACT) ,C-G5-1,0
+blc ?,F95L (TTT?CTT) ,C-G5-1,0
+mutL ?,I56V (ATT?GTT) ,C-G5-1,0
+yjfK ?,R174Q (CGG?CAG) ,C-G5-1,0
+ulaE ?,A261A (GCG?GCA) ,C-G5-1,0
+ytfR ?,D343D (GAC?GAT) ,C-G5-1,0
+nrdD ?,R448R (CGT?CGC) ,C-G5-1,0
+yjgN ?,A255V (GCG?GTG) ,C-G5-1,0
+pepA ?,Y365H (TAC?CAC) ,C-G5-1,0
+yjgB ?,V241I (GTC?ATC) ,C-G5-1,0
+sgcA ?,V94A (GTC?GCC) ,C-G5-1,0
+yjhR ?,D234G (GAT?GGT) ,C-G5-1,0
+fimE ?,M15V (ATG?GTG) ,C-G5-1,0
+iadA ?,L215P (CTG?CCG) ,C-G5-1,0
+yjiK ?,R22R (CGT?CGC) ,C-G5-1,0
+leuV ?,noncoding (71/87 nt),C-G5-1,0
+creD ?,P5L (CCC?CTC) ,C-G5-1,0
+dnaK ?,L131P (CTG?CCG) ,C-H5-1,0
+nhaA ?,V224G (GTT?GGT) ,C-H5-1,0
+rrlH ?,noncoding (538/2904 nt),C-H5-1,0
+ykfJ–[insH],insH-mediated,C-H5-1,0
+Y75_RS01440 ?,coding (58/225 nt),C-H5-1,0
+acrB ?,coding (247/3150 nt),C-H5-1,0
+acrA ?,Q116* (CAG?TAG) ,C-H5-1,0
+ybbA ?,L157Q (CTG?CAG) ,C-H5-1,0
+allR ?,A13A (GCG?GCT) ,C-H5-1,0
+cecR ?,Y51N (TAC?AAC) ,C-H5-1,0
+cecR ?,Y50C (TAC?TGC) ,C-H5-1,0
+lrp ?,coding (411/495 nt),C-H5-1,0
+ycaM ?,coding (172/1431 nt),C-H5-1,0
+mukB ?,R73R (CGC?CGT) ,C-H5-1,0
+hyaC ?,T35I (ACC?ATC) ,C-H5-1,0
+ycdO ?,K52K (AAA?AAG) ,C-H5-1,1
+Y75_RS05380-[Y75_RS05385],duplication (362bp),C-H5-1,1
+Y75_RS05380-[serX],duplication (442bp),C-H5-1,0
+fabF ?,G202A (GGT?GCT) ,C-H5-1,0
+ptsG ?,coding (87?983/1434 nt),C-H5-1,0
+nhaB ?,coding (1164?1295/1542 nt),C-H5-1,0
+nhaB ?,coding (364/1542 nt),C-H5-1,0
+adhE ?,A626V (GCG?GTG) ,C-H5-1,0
+adhE ?,H565L (CAC?CTC) ,C-H5-1,0
+adhE ?,H565R (CAC?CGC) ,C-H5-1,0
+adhE ?,W556R (TGG?CGG) ,C-H5-1,0
+adhE ?,L371Q (CTG?CAG) ,C-H5-1,0
+adhE ?,Y77H (TAC?CAC) ,C-H5-1,0
+sapD ?,coding (936/993 nt),C-H5-1,0
+ydcI ?,coding (189/924 nt),C-H5-1,0
+yncD ?,D654G (GAT?GGT) ,C-H5-1,0
+Y75_RS07695 ?,coding (1436/1800 nt),C-H5-1,0
+hipA-flxA,duplication (56260 bp),C-H5-1,1
+ydiM ?,coding (995/1215 nt),C-H5-1,0
+yeaA ?,coding (5/414 nt),C-H5-1,0
+yeaR ?,coding (112/360 nt),C-H5-1,0
+Y75_RS09615 ?,coding (92/207 nt),C-H5-1,0
+otsB ?,L67R (CTT?CGT) ,C-H5-1,0
+gatD ?,coding (166/1041 nt),C-H5-1,0
+glpB ?,T340T (ACG?ACC) ,C-H5-1,0
+menC ?,coding (128/963 nt),C-H5-1,0
+purF ?,R74L (CGT?CTT) ,C-H5-1,0
+aroC ?,P31Q (CCG?CAG) ,C-H5-1,0
+crr ?,coding (487/510 nt),C-H5-1,0
+nlpB ?,R223S (CGT?AGT) ,C-H5-1,0
+pbpC ?,S342T (TCA?ACA) ,C-H5-1,0
+csiE ?,T299P (ACC?CCC) ,C-H5-1,0
+srmB ?,coding (664/1335 nt),C-H5-1,1
+kgtP ?,coding (375/1299 nt),C-H5-1,0
+mprA ?,coding (110/531 nt),C-H5-1,0
+mprA ?,coding (155?163/531 nt),C-H5-1,0
+mprA ?,L64R (CTG?CGG) ,C-H5-1,0
+mprA ?,coding (299?356/531 nt),C-H5-1,0
+mprA ?,D109V (GAT?GTT) ,C-H5-1,0
+mprA ?,D109E (GAT?GAG) ,C-H5-1,0
+mprA ?,C112* (TGC?TGA) ,C-H5-1,0
+mprA ?,coding (344?412/531 nt),C-H5-1,1
+mprA ?,G121D (GGT?GAT) ,C-H5-1,0
+mprA ?,W140* (TGG?TGA) ,C-H5-1,0
+emrA ?,L24H (CTC?CAC) ,C-H5-1,0
+emrA ?,I313L (ATC?CTC) ,C-H5-1,0
+emrB ?,M219I (ATG?ATA) ,C-H5-1,1
+emrB ?,E297V (GAG?GTG) ,C-H5-1,0
+emrB ?,V337A (GTA?GCA) ,C-H5-1,0
+emrB ?,P357L (CCA?CTA) ,C-H5-1,0
+emrB ?,S411A (TCT?GCT) ,C-H5-1,0
+rpoS ?,P166L (CCA?CTA) ,C-H5-1,0
+rpoS ?,Q13* (CAG?TAG) ,C-H5-1,0
+nlpD ?,coding (656/1140 nt),C-H5-1,0
+ygbE ?,G81* (GGA?TGA) ,C-H5-1,0
+yghB ?,coding (645/660 nt),C-H5-1,1
+rpoD ?,Y571H (TAC?CAC) ,C-H5-1,0
+yhaC ?,G146R (GGG?AGG) ,C-H5-1,0
+sohA ?,coding (272/336 nt),C-H5-1,0
+rng ?,E404* (GAA?TAA) ,C-H5-1,0
+rng ?,L368* (TTG?TAG) ,C-H5-1,0
+rng ?,L280P (CTG?CCG) ,C-H5-1,0
+rng ?,E227* (GAA?TAA) ,C-H5-1,0
+rpoC ?,Q477R (CAG?CGG) ,C-H5-1,0
+rpoB ?,R944C (CGT?TGT) ,C-H5-1,0
+rpoB ?,S182A (TCC?GCC) ,C-H5-1,0
+cyaA ?,N804K (AAC?AAA) ,C-H5-1,0
+cyaA ?,Q671* (CAG?TAG) ,C-H5-1,0
+cyaA ?,coding (1552/2547 nt),C-H5-1,0
+rho ?,K105E (AAA?GAA) ,C-H5-1,0
+rbsR ?,A300E (GCG?GAG) ,C-H5-1,0
+spoT ?,W339R (TGG?AGG) ,C-H5-1,0
+glyQ ?,coding (728/912 nt),C-H5-1,0
+bcsB ?,D212N (GAC?AAC) ,C-H5-1,0
+gadE ?,coding (234/528 nt),C-H5-1,0
+yhiF ?,coding (167/531 nt),C-H5-1,0
+pitA ?,coding (578/1500 nt),C-H5-1,0
+greB ?,V91G (GTG?GGG) ,C-H5-1,0
+rpoA ?,coding (585?590/990 nt),C-H5-1,0
+metH ?,F951C (TTT?TGT) ,C-H5-1,0
+plsB ?,S740Y (TCC?TAC) ,C-H5-1,1
+plsB ?,L453Q (CTG?CAG) ,C-H5-1,0
+plsB ?,L449Q (CTG?CAG) ,C-H5-1,0
+plsB ?,E438A (GAA?GCA) ,C-H5-1,0
+plsB ?,G341R (GGG?AGG) ,C-H5-1,0
+plsB ?,M128R (ATG?AGG) ,C-H5-1,0
+alsE ?,K58Q (AAA?CAA) ,C-H5-1,0
+yjeP ?,G596G (GGG?GGA) ,C-H5-1,0
+ytfI ?,F124L (TTC?TTA) ,C-H5-1,0
+ytfQ ?,T125I (ACC?ATC) ,C-H5-1,1
+treB ?,C401F (TGC?TTC) ,C-H5-1,0
+Y75_RS22485 ?,coding (110/132 nt),C-H5-1,0
+fimE ?,coding (128/597 nt),C-H5-1,0
+fimE ?,coding (258/597 nt),C-H5-1,0
+fimE ?,T87N (ACC?AAC) ,C-H5-1,0
+fimE ?,coding (417/597 nt),C-H5-1,0
+fimE ?,coding (511/597 nt),C-H5-1,0
+yjjM ?,coding (63/915 nt),C-H5-1,0
+arcA ?,E94K (GAA?AAA) ,C-H5-1,0
+arcA ?,T3P (ACC?CCC) ,C-H5-1,0
+carB ?,T646A (ACC?GCC) ,C-H5-1,0
+ksgA ?,G8D (GGC?GAC) ,C-H5-1,0
+imp ?,A553T (GCC?ACC) ,C-H5-1,0
+yabQ ?,L39L (CTG?CTA) ,C-H5-1,0
+araA ?,D470N (GAC?AAC) ,C-H5-1,0
+yabI ?,R207C (CGT?TGT) ,C-H5-1,0
+leuO ?,A32V (GCC?GTC) ,C-H5-1,0
+mraZ ?,N29S (AAC?AGC) ,C-H5-1,0
+ampE ?,K36K (AAA?AAG) ,C-H5-1,0
+lpd ?,V408A (GTG?GCG) ,C-H5-1,0
+mrcB ?,S280S (AGC?AGT) ,C-H5-1,0
+fhuB ?,N249S (AAC?AGC) ,C-H5-1,0
+proS ?,N62S (AAC?AGC) ,C-H5-1,0
+metQ ?,A240T (GCC?ACC) ,C-H5-1,0
+yafU ?,C60R (TGT?CGT) ,C-H5-1,0
+ivy ?,D134G (GAT?GGT) ,C-H5-1,0
+fadE ?,C455C (TGT?TGC) ,C-H5-1,0
+ykfJ ?,R10R (CGT?CGC) ,C-H5-1,0
+insI ?,S192S (TCG?TCA) ,C-H5-1,0
+ykfC ?,L106L (TTG?CTG) ,C-H5-1,0
+mmuP ?,A78V (GCG?GTG) ,C-H5-1,0
+yagJ ?,A28V (GCG?GTG) ,C-H5-1,0
+yagM ?,S215P (TCA?CCA) ,C-H5-1,0
+intF ?,S189S (TCG?TCA) ,C-H5-1,0
+ykgL ?,Y24C (TAC?TGC) ,C-H5-1,0
+insF ?,G276S (GGC?AGC) ,C-H5-1,0
+ykgC ?,A242A (GCG?GCA) ,C-H5-1,0
+betI ?,R10W (CGG?TGG) ,C-H5-1,0
+yahJ ?,coding (1236/1383 nt),C-H5-1,0
+lacZ ?,G181R (GGA?AGA) ,C-H5-1,0
+frmA ?,A209A (GCG?GCA) ,C-H5-1,0
+yaiU ?,N301S (AAC?AGC) ,C-H5-1,0
+mak ?,coding (755/909 nt),C-H5-1,0
+tsx ?,G95G (GGT?GGC) ,C-H5-1,0
+yajL ?,A5T (GCA?ACA) ,C-H5-1,0
+lon ?,Q300R (CAG?CGG) ,C-H5-1,0
+acrB ?,W187* (TGG?TAG) ,C-H5-1,0
+rhsD ?,R1227W (CGG?TGG) ,C-H5-1,0
+rzpD ?,S109S (TCC?TCT) ,C-H5-1,0
+cusS ?,I397T (ATT?ACT) ,C-H5-1,0
+insL ?,coding (1083/1113 nt),C-H5-1,0
+fepA ?,A405V (GCA?GTA) ,C-H5-1,0
+entB ?,A213T (GCC?ACC) ,C-H5-1,0
+ybdH ?,V265A (GTG?GCG) ,C-H5-1,0
+mrdA ?,V345A (GTG?GCG) ,C-H5-1,0
+miaB ?,V410A (GTC?GCC) ,C-H5-1,0
+ybfO ?,coding (917/1434 nt),C-H5-1,0
+tolQ ?,Q70R (CAG?CGG) ,C-H5-1,0
+modF ?,A44T (GCC?ACC) ,C-H5-1,0
+ybhI ?,H362Y (CAC?TAC) ,C-H5-1,0
+bioF ?,A244A (GCG?GCA) ,C-H5-1,0
+ybhS ?,E209E (GAA?GAG) ,C-H5-1,0
+dinG ?,A2V (GCA?GTA) ,C-H5-1,0
+glnP ?,R131R (CGT?CGC) ,C-H5-1,0
+ybiW ?,T524I (ACC?ATC) ,C-H5-1,0
+ftsK ?,G144G (GGC?GGT) ,C-H5-1,0
+ycaM ?,Q103R (CAA?CGA) ,C-H5-1,0
+ycbX ?,R318R (CGT?CGC) ,C-H5-1,0
+ycbY ?,T564A (ACC?GCC) ,C-H5-1,0
+yccR ?,D196G (GAC?GGC) ,C-H5-1,0
+torS ?,A450A (GCG?GCA) ,C-H5-1,0
+ycdC ?,V198A (GTT?GCT) ,C-H5-1,0
+ycdQ ?,M423I (ATG?ATA) ,C-H5-1,0
+ycdU ?,F124L (TTC?CTC) ,C-H5-1,0
+ycdU ?,C171C (TGC?TGT) ,C-H5-1,0
+mdoH ?,R769C (CGC?TGC) ,C-H5-1,0
+mviM ?,K146K (AAA?AAG) ,C-H5-1,0
+flgG ?,Q124* (CAG?TAG) ,C-H5-1,0
+rne ?,E664K (GAA?AAA) ,C-H5-1,0
+plsX ?,A149V (GCC?GTC) ,C-H5-1,0
+ycfH ?,R215Q (CGA?CAA) ,C-H5-1,0
+icd ?,H366H (CAC?CAT) ,C-H5-1,0
+icd ?,T370T (ACC?ACT) ,C-H5-1,0
+dsbB ?,G11G (GGC?GGT) ,C-H5-1,0
+nhaB ?,coding (1164?1295/1542 nt),C-H5-1,0
+nhaB ?,R196H (CGT?CAT) ,C-H5-1,0
+cvrA ?,T153M (ACG?ATG) ,C-H5-1,0
+ycgV ?,coding (2098/2868 nt),C-H5-1,0
+ychM ?,I145I (ATC?ATT) ,C-H5-1,0
+chaA ?,V21I (GTT?ATT) ,C-H5-1,0
+yciS ?,V93V (GTA?GTG) ,C-H5-1,0
+sapA ?,R292R (CGT?CGC) ,C-H5-1,0
+puuB ?,A391V (GCC?GTC) ,C-H5-1,0
+pspF ?,P223S (CCG?TCG) ,C-H5-1,0
+pspC ?,P68L (CCG?CTG) ,C-H5-1,0
+ycjG ?,T15A (ACC?GCC) ,C-H5-1,0
+intR ?,G270R (GGG?AGG) ,C-H5-1,0
+ldhA ?,E107E (GAA?GAG) ,C-H5-1,0
+feaB ?,R129R (CGT?CGC) ,C-H5-1,0
+feaB ?,I179I (ATT?ATC) ,C-H5-1,0
+ydcM ?,S193P (TCA?CCA) ,C-H5-1,0
+ydcU ?,A174V (GCG?GTG) ,C-H5-1,0
+fdnG ?,M832V (ATG?GTG) ,C-H5-1,0
+ydeK ?,coding (3955/3978 nt),C-H5-1,0
+ydeK ?,coding (3831/3978 nt),C-H5-1,0
+ydeK ?,coding (774/3978 nt),C-H5-1,0
+ydeK ?,coding (774/3978 nt),C-H5-1,0
+stfQ ?,G266D (GGC?GAC) ,C-H5-1,0
+dgsA ?,coding (677?678/1221 nt),C-H5-1,0
+ydhH ?,A214A (GCA?GCG) ,C-H5-1,0
+ydhK ?,coding (36/2013 nt),C-H5-1,0
+ydhK ?,I80T (ATT?ACT) ,C-H5-1,0
+lhr ?,coding (909/4617 nt),C-H5-1,0
+lhr ?,A566A (GCC?GCT) ,C-H5-1,0
+ydhP ?,M313V (ATG?GTG) ,C-H5-1,0
+ydiD ?,A73A (GCG?GCA) ,C-H5-1,0
+ansA ?,A100A (GCG?GCA) ,C-H5-1,0
+gapA ?,Y43C (TAC?TGC) ,C-H5-1,0
+yeaW ?,E70K (GAA?AAA) ,C-H5-1,0
+yoaE ?,A32T (GCC?ACC) ,C-H5-1,0
+flhA ?,Q511R (CAG?CGG) ,C-H5-1,0
+fliK ?,S311S (AGT?AGC) ,C-H5-1,0
+dcm ?,M220I (ATG?ATA) ,C-H5-1,0
+yedW ?,V188A (GTG?GCG) ,C-H5-1,0
+yeeR ?,A184A (GCG?GCA) ,C-H5-1,0
+yeeF ?,L349P (CTG?CCG) ,C-H5-1,0
+wzxC ?,R283C (CGT?TGT) ,C-H5-1,0
+wcaC ?,A326V (GCG?GTG) ,C-H5-1,0
+asmA ?,A109A (GCA?GCG) ,C-H5-1,0
+yegE ?,V632A (GTG?GCG) ,C-H5-1,0
+yegD ?,A197T (GCT?ACT) ,C-H5-1,0
+yegS ?,I166I (ATT?ATC) ,C-H5-1,0
+metG ?,P566P (CCG?CCA) ,C-H5-1,0
+yejH ?,A399A (GCC?GCT) ,C-H5-1,0
+ccmA ?,coding (531/624 nt),C-H5-1,0
+mqo ?,T204T (ACC?ACT) ,C-H5-1,0
+atoE ?,coding (1044/1323 nt),C-H5-1,0
+nrdA ?,L342L (CTG?CTA) ,C-H5-1,0
+nrdB ?,R50R (CGT?CGC) ,C-H5-1,0
+yfbH ?,D224G (GAT?GGT) ,C-H5-1,0
+menC ?,R217C (CGC?TGC) ,C-H5-1,0
+yfbK ?,T396A (ACC?GCC) ,C-H5-1,0
+yfcG ?,Q207Q (CAA?CAG) ,C-H5-1,0
+accD ?,S69G (AGC?GGC) ,C-H5-1,0
+pdxB ?,P333S (CCG?TCG) ,C-H5-1,0
+yfcJ ?,T290M (ACG?ATG) ,C-H5-1,0
+mepA ?,Q226* (CAA?TAA) ,C-H5-1,0
+yfcP ?,V76V (GTA?GTG) ,C-H5-1,0
+yfcU ?,E60G (GAG?GGG) ,C-H5-1,0
+intS ?,R161H (CGC?CAC) ,C-H5-1,0
+dsdX ?,G71G (GGC?GGT) ,C-H5-1,0
+oxc ?,R345C (CGC?TGC) ,C-H5-1,0
+cysA ?,L313Q (CTG?CAG) ,C-H5-1,0
+hemF ?,G184E (GGG?GAG) ,C-H5-1,0
+hemF ?,R239R (CGT?CGC) ,C-H5-1,0
+maeB ?,R656G (AGG?GGG) ,C-H5-1,0
+hyfB ?,coding (200/2019 nt),C-H5-1,0
+focB ?,P197S (CCC?TCC) ,C-H5-1,0
+yfgL ?,S33P (TCC?CCC) ,C-H5-1,0
+hcaT ?,A89V (GCG?GTG) ,C-H5-1,0
+yphH ?,C95R (TGT?CGT) ,C-H5-1,0
+lepB ?,G322D (GGC?GAC) ,C-H5-1,0
+kgtP ?,L177L (CTA?CTG) ,C-H5-1,0
+rrsG ?,noncoding (273/1542 nt),C-H5-1,0
+rrsG ?,noncoding (253/1542 nt),C-H5-1,0
+rrsG ?,noncoding (250/1542 nt),C-H5-1,0
+yfiO ?,D84D (GAT?GAC) ,C-H5-1,0
+ypjD ?,V236A (GTG?GCG) ,C-H5-1,0
+yfjH ?,coding (939/957 nt),C-H5-1,0
+yfjK ?,D523D (GAC?GAT) ,C-H5-1,0
+yfjP ?,G16S (GGT?AGT) ,C-H5-1,0
+gabT ?,Y86H (TAT?CAT) ,C-H5-1,0
+mprA ?,W140* (TGG?TAG) ,C-H5-1,0
+emrB ?,M333V (ATG?GTG) ,C-H5-1,0
+alaS ?,G196G (GGC?GGG) ,C-H5-1,0
+hycH ?,N94N (AAC?AAT) ,C-H5-1,0
+fhlA ?,G414G (GGT?GGC) ,C-H5-1,0
+mutS ?,W709* (TGG?TGA) ,C-H5-1,0
+iap ?,T120A (ACT?GCT) ,C-H5-1,0
+ygcL ?,S303S (TCC?TCT) ,C-H5-1,0
+eno ?,Y258C (TAC?TGC) ,C-H5-1,0
+mazG ?,T160A (ACG?GCG) ,C-H5-1,0
+relA ?,L80P (CTG?CCG) ,C-H5-1,0
+gudD ?,L162P (CTG?CCG) ,C-H5-1,0
+yqcA ?,I75I (ATC?ATT) ,C-H5-1,0
+sdaC ?,V410A (GTA?GCA) ,C-H5-1,0
+ppdC ?,N39S (AAC?AGC) ,C-H5-1,0
+yqeH ?,G50G (GGT?GGC) ,C-H5-1,0
+ygeF ?,coding (370/447 nt),C-H5-1,0
+hyuA ?,V309M (GTG?ATG) ,C-H5-1,0
+recJ ?,Q250Q (CAG?CAA) ,C-H5-1,0
+gcvP ?,A372V (GCG?GTG) ,C-H5-1,0
+visC ?,K317K (AAA?AAG) ,C-H5-1,0
+argO ?,A167A (GCA?GCG) ,C-H5-1,0
+pgk ?,A144V (GCT?GTT) ,C-H5-1,0
+sprT ?,V163A (GTT?GCT) ,C-H5-1,0
+yggJ ?,N47D (AAC?GAC) ,C-H5-1,0
+mutY ?,R277R (CGG?CGA) ,C-H5-1,0
+glcB ?,I242I (ATC?ATT) ,C-H5-1,0
+hybD ?,V117V (GTC?GTT) ,C-H5-1,0
+exbB ?,A182A (GCA?GCG) ,C-H5-1,0
+exbB ?,L62L (CTG?TTG) ,C-H5-1,0
+metC ?,K124K (AAA?AAG) ,C-H5-1,0
+metC ?,A325A (GCG?GCA) ,C-H5-1,0
+yqhC ?,coding (915/957 nt),C-H5-1,0
+nudF ?,coding (402/630 nt),C-H5-1,0
+yqiK ?,coding (1499/1662 nt),C-H5-1,0
+rfaE ?,N288S (AAT?AGT) ,C-H5-1,0
+ygjK ?,A732A (GCG?GCA) ,C-H5-1,0
+ygjP ?,Q137R (CAG?CGG) ,C-H5-1,0
+sstT ?,V393A (GTG?GCG) ,C-H5-1,0
+exuT ?,W289* (TGG?TAG) ,C-H5-1,0
+yhaK ?,L106P (CTC?CCC) ,C-H5-1,0
+yhaK ?,A149A (GCG?GCA) ,C-H5-1,0
+tdcB ?,G215D (GGC?GAC) ,C-H5-1,0
+garK ?,Q325R (CAG?CGG) ,C-H5-1,0
+garP ?,Y404C (TAC?TGC) ,C-H5-1,0
+sohA ?,coding (272/336 nt),C-H5-1,0
+truB ?,T178T (ACT?ACC) ,C-H5-1,0
+yhbX ?,P385S (CCG?TCG) ,C-H5-1,0
+gltB ?,T545T (ACT?ACC) ,C-H5-1,0
+yhdW ?,A100V (GCG?GTG) ,C-H5-1,0
+yhdY ?,coding (438/1104 nt),C-H5-1,0
+thiC ?,R14R (CGG?CGA) ,C-H5-1,0
+metJ ?,R81C (CGC?TGC) ,C-H5-1,0
+yiiQ ?,A80A (GCT?GCC) ,C-H5-1,0
+rhaA ?,C257R (TGC?CGC) ,C-H5-1,0
+dapF ?,L113L (CTG?TTG) ,C-H5-1,0
+cyaA ?,P430L (CCA?CTA) ,C-H5-1,0
+yifK ?,coding (66/1386 nt),C-H5-1,0
+rho ?,A236T (GCA?ACA) ,C-H5-1,0
+ilvC ?,A203A (GCG?GCA) ,C-H5-1,0
+asnC ?,G103S (GGC?AGC) ,C-H5-1,0
+pstA ?,R170S (CGC?AGC) ,C-H5-1,0
+yieG ?,T370A (ACT?GCT) ,C-H5-1,0
+yidH ?,T21A (ACT?GCT) ,C-H5-1,0
+yicN ?,S22S (TCC?TCT) ,C-H5-1,0
+yicR ?,G73G (GGC?GGT) ,C-H5-1,0
+rfaD ?,F224F (TTC?TTT) ,C-H5-1,0
+selA ?,A368A (GCA?GCG) ,C-H5-1,0
+bcsE ?,E463K (GAA?AAA) ,C-H5-1,0
+bcsB ?,V181A (GTG?GCG) ,C-H5-1,0
+yhjK ?,R71C (CGT?TGT) ,C-H5-1,0
+gadA ?,F188L (TTT?CTT) ,C-H5-1,0
+prlC ?,T460A (ACT?GCT) ,C-H5-1,0
+pitA ?,S425P (TCT?CCT) ,C-H5-1,0
+yhhT ?,L153L (TTG?TTA) ,C-H5-1,0
+livG ?,coding (133/768 nt),C-H5-1,0
+glgX ?,E490E (GAA?GAG) ,C-H5-1,0
+malQ ?,D419G (GAC?GGC) ,C-H5-1,0
+yhgF ?,A745T (GCA?ACA) ,C-H5-1,0
+frlR ?,G72D (GGC?GAC) ,C-H5-1,0
+nirC ?,V119A (GTT?GCT) ,C-H5-1,0
+yheS ?,G37S (GGC?AGC) ,C-H5-1,0
+fusA ?,Y33C (TAC?TGC) ,C-H5-1,0
+metH ?,L170L (CTG?CTA) ,C-H5-1,0
+metH ?,W1112* (TGG?TAG) ,C-H5-1,0
+yjbB ?,E397G (GAG?GGG) ,C-H5-1,0
+pgi ?,I285I (ATC?ATT) ,C-H5-1,0
+yjbI ?,A135A (GCA?GCG) ,C-H5-1,0
+nrfC ?,D183D (GAC?GAT) ,C-H5-1,0
+proP ?,S414S (TCG?TCA) ,C-H5-1,0
+lysU ?,P338P (CCA?CCG) ,C-H5-1,0
+cadB ?,A99V (GCG?GTG) ,C-H5-1,0
+cadC ?,I139T (ATT?ACT) ,C-H5-1,0
+blc ?,F95L (TTT?CTT) ,C-H5-1,0
+mutL ?,I56V (ATT?GTT) ,C-H5-1,0
+yjfK ?,R174Q (CGG?CAG) ,C-H5-1,0
+ulaE ?,A261A (GCG?GCA) ,C-H5-1,0
+ytfR ?,D343D (GAC?GAT) ,C-H5-1,0
+nrdD ?,R448R (CGT?CGC) ,C-H5-1,0
+yjgN ?,A255V (GCG?GTG) ,C-H5-1,0
+pepA ?,Y365H (TAC?CAC) ,C-H5-1,0
+yjgB ?,V241I (GTC?ATC) ,C-H5-1,0
+sgcA ?,V94A (GTC?GCC) ,C-H5-1,0
+yjhR ?,D234G (GAT?GGT) ,C-H5-1,0
+fimE ?,M15V (ATG?GTG) ,C-H5-1,0
+iadA ?,L215P (CTG?CCG) ,C-H5-1,0
+yjiK ?,R22R (CGT?CGC) ,C-H5-1,0
+leuV ?,noncoding (71/87 nt),C-H5-1,0
+creD ?,P5L (CCC?CTC) ,C-H5-1,0

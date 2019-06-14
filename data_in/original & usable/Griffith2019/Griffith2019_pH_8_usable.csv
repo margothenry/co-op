@@ -1,0 +1,477 @@
+﻿annotation,gene,C-G7-1,C-A9-1,C-F9-1,C-B11-1,C-D11-1
+L131P (CTG→CCG) ,dnaK →,0,0,0,0,0
+V224G (GTT→GGT) ,nhaA →,0,0,0,0,0
+noncoding (538/2904 nt),rrlH →,0,0,0,0,0
+insH-mediated,ykfJ–[insH],0,0,0,1,0
+coding (58/225 nt),Y75_RS01440 ←,0,1,0,0,0
+intergenic,Y75_p4289 ← / → eaeH,0,0,0,0,0
+intergenic,Y75_p4289 ← / → eaeH,0,0,0,0,0
+intergenic,Y75_RS01960 → / → yaiB,0,0,0,0,0
+intergenic,cyoA ← / ← ampG,0,0,0,0,0
+coding (247/3150 nt),acrB ←,0,0,0,0,0
+Q116* (CAG→TAG) ,acrA ←,0,0,0,0,0
+L157Q (CTG→CAG) ,ybbA →,0,0,1,0,0
+A13A (GCG→GCT) ,allR →,0,0,0,0,0
+Y51N (TAC→AAC) ,cecR ←,0,0,0,1,0
+Y50C (TAC→TGC) ,cecR ←,0,0,0,0,1
+intergenic,cecR ← / → rhlE,0,0,0,0,1
+intergenic,cecR ← / → rhlE,0,0,0,1,0
+coding (411/495 nt),lrp →,0,0,1,0,0
+coding (172/1431 nt),ycaM →,1,0,0,0,0
+R73R (CGC→CGT) ,mukB →,0,0,0,0,0
+intergenic,sulA ← / → yccR,0,0,0,0,0
+T35I (ACC→ATC) ,hyaC →,0,0,0,0,0
+intergenic,ycdM ← / → ycdC,0,0,0,0,0
+K52K (AAA→AAG) ,ycdO →,0,0,0,0,0
+duplication (362bp),Y75_RS05380-[Y75_RS05385],0,1,0,0,0
+duplication (442bp),Y75_RS05380-[serX],0,0,0,0,0
+intergenic,Y75_RS05500 → / → yceK,0,0,0,0,0
+G202A (GGT→GCT) ,fabF →,0,0,0,0,1
+coding (87‑983/1434 nt),ptsG →,0,0,0,0,0
+coding (1164‑1295/1542 nt),nhaB ←,0,0,0,0,0
+coding (364/1542 nt),nhaB ←,0,0,0,0,0
+intergenic,prsA ← / ← ispE,1,0,0,0,0
+intergenic,hns ← / → tdk,0,0,0,0,0
+intergenic,hns ← / → tdk,0,0,0,0,0
+A626V (GCG→GTG) ,adhE ←,0,0,0,1,0
+H565L (CAC→CTC) ,adhE ←,1,0,1,0,0
+H565R (CAC→CGC) ,adhE ←,0,1,0,0,0
+W556R (TGG→CGG) ,adhE ←,0,0,0,0,1
+L371Q (CTG→CAG) ,adhE ←,0,0,0,0,0
+Y77H (TAC→CAC) ,adhE ←,0,0,0,0,0
+intergenic,adhE ← / → ychE,0,1,1,0,0
+intergenic,adhE ← / → ychE,1,0,0,0,1
+coding (936/993 nt),sapD ←,0,0,0,0,0
+coding (189/924 nt),ydcI ←,0,0,0,0,0
+D654G (GAT→GGT) ,yncD ←,1,0,0,0,0
+coding (1436/1800 nt),Y75_RS07695 →,0,0,0,1,0
+intergenic,essQ ← / ← cspB,1,0,0,0,0
+duplication (56260 bp),hipA-flxA,0,0,0,0,0
+coding (995/1215 nt),ydiM →,0,0,0,0,1
+coding (5/414 nt),yeaA ←,0,0,0,0,0
+coding (112/360 nt),yeaR ←,0,0,0,0,0
+coding (92/207 nt),Y75_RS09615 →,0,0,0,0,0
+intergenic,ruvA ← / → yebB,0,0,0,0,0
+L67R (CTT→CGT) ,otsB ←,0,0,0,0,0
+coding (166/1041 nt),gatD ←,0,0,0,0,1
+T340T (ACG→ACC) ,glpB →,0,0,0,0,0
+coding (128/963 nt),menC ←,0,0,0,0,0
+R74L (CGT→CTT) ,purF ←,0,0,0,0,1
+P31Q (CCG→CAG) ,aroC ←,0,0,0,0,0
+coding (487/510 nt),crr →,0,0,1,0,1
+intergenic,ypfE ← / ← maeB,0,0,0,0,0
+R223S (CGT→AGT) ,nlpB ←,0,0,0,0,0
+S342T (TCA→ACA) ,pbpC ←,1,0,0,0,0
+T299P (ACC→CCC) ,csiE →,0,0,0,0,0
+coding (664/1335 nt),srmB →,0,0,0,0,0
+coding (375/1299 nt),kgtP ←,0,0,0,0,0
+intergenic,yfjL ← / ← yfjM,0,0,0,1,0
+intergenic,ygaH → / → mprA,0,0,0,0,0
+coding (110/531 nt),mprA →,1,0,1,0,0
+coding (155‑163/531 nt),mprA →,0,0,0,0,0
+L64R (CTG→CGG) ,mprA →,0,0,0,0,1
+coding (299‑356/531 nt),mprA →,0,0,0,0,0
+D109V (GAT→GTT) ,mprA →,0,0,0,0,0
+D109E (GAT→GAG) ,mprA →,0,0,0,0,0
+C112* (TGC→TGA) ,mprA →,0,0,0,0,0
+coding (344‑412/531 nt),mprA →,0,1,0,0,0
+G121D (GGT→GAT) ,mprA →,0,0,0,0,0
+W140* (TGG→TGA) ,mprA →,0,0,0,0,0
+intergenic,mprA → / → emrA,0,0,0,0,0
+intergenic,mprA → / → emrA,0,0,0,0,0
+intergenic,mprA → / → emrA,0,0,0,0,0
+intergenic,mprA → / → emrA,0,0,0,0,0
+intergenic,mprA → / → emrA,1,0,1,0,0
+intergenic,mprA → / → emrA,0,1,0,0,0
+L24H (CTC→CAC) ,emrA →,0,0,1,0,0
+I313L (ATC→CTC) ,emrA →,0,0,0,0,0
+M219I (ATG→ATA) ,emrB →,0,0,0,0,0
+E297V (GAG→GTG) ,emrB →,0,0,0,0,0
+V337A (GTA→GCA) ,emrB →,0,1,0,0,0
+P357L (CCA→CTA) ,emrB →,1,0,0,0,0
+S411A (TCT→GCT) ,emrB →,1,0,0,0,0
+intergenic,recA ← / ← ygaD,0,0,0,1,0
+P166L (CCA→CTA) ,rpoS ←,0,0,1,0,0
+Q13* (CAG→TAG) ,rpoS ←,0,0,0,0,0
+intergenic,rpoS ← / ← nlpD,0,0,0,0,0
+coding (656/1140 nt),nlpD ←,0,0,0,0,0
+G81* (GGA→TGA) ,ygbE ←,0,0,0,0,0
+intergenic,gcvA ← / ← ygdI,0,0,0,0,0
+coding (645/660 nt),yghB →,0,0,0,0,0
+Y571H (TAC→CAC) ,rpoD →,0,1,0,0,0
+intergenic,yhaO ← / ← tdcG,0,0,0,0,0
+G146R (GGG→AGG) ,yhaC →,0,0,0,0,0
+coding (272/336 nt),sohA →,0,0,0,0,0
+E404* (GAA→TAA) ,rng ←,1,0,0,0,0
+L368* (TTG→TAG) ,rng ←,0,0,0,1,0
+L280P (CTG→CCG) ,rng ←,0,0,0,0,1
+E227* (GAA→TAA) ,rng ←,0,0,0,0,0
+Q477R (CAG→CGG) ,rpoC ←,0,0,0,1,0
+R944C (CGT→TGT) ,rpoB ←,0,0,0,0,0
+S182A (TCC→GCC) ,rpoB ←,1,0,0,0,0
+intergenic,cpxP ← / → cpxR,0,0,1,0,0
+intergenic,rhaA → / → rhaD,0,0,0,0,0
+intergenic,yiiE ← / ← yiiD,0,0,0,0,1
+N804K (AAC→AAA) ,cyaA ←,1,0,0,0,0
+Q671* (CAG→TAG) ,cyaA ←,0,0,0,1,0
+coding (1552/2547 nt),cyaA ←,0,1,0,0,0
+K105E (AAA→GAA) ,rho ←,0,0,0,0,1
+A300E (GCG→GAG) ,rbsR ←,0,1,0,0,0
+intergenic,glvB → / ← yidL,0,0,0,0,0
+W339R (TGG→AGG) ,spoT ←,0,0,0,0,0
+intergenic,lldP ← / ← yibL,0,0,0,0,0
+coding (728/912 nt),glyQ →,1,0,0,0,0
+D212N (GAC→AAC) ,bcsB →,0,0,0,0,1
+coding (234/528 nt),gadE ←,0,0,0,1,0
+intergenic,gadE ← / ← hdeD,0,0,0,0,0
+coding (167/531 nt),yhiF ←,0,0,0,0,0
+coding (578/1500 nt),pitA ←,0,0,0,0,0
+V91G (GTG→GGG) ,greB ←,0,0,0,0,0
+coding (585‑590/990 nt),rpoA →,0,0,0,0,0
+intergenic,rrlE → / → rrfE,0,0,0,1,0
+intergenic,rrlE → / → rrfE,0,0,0,1,0
+F951C (TTT→TGT) ,metH →,0,0,0,0,0
+S740Y (TCC→TAC) ,plsB ←,0,0,0,0,0
+L453Q (CTG→CAG) ,plsB ←,0,0,0,0,0
+L449Q (CTG→CAG) ,plsB ←,0,1,0,0,0
+E438A (GAA→GCA) ,plsB ←,0,0,0,0,0
+G341R (GGG→AGG) ,plsB ←,0,0,0,0,0
+M128R (ATG→AGG) ,plsB ←,1,0,0,0,0
+intergenic,plsB ← / → dgkA,0,0,0,0,0
+K58Q (AAA→CAA) ,alsE ←,0,0,1,0,0
+G596G (GGG→GGA) ,yjeP ←,0,0,0,0,0
+F124L (TTC→TTA) ,ytfI →,1,0,0,0,0
+T125I (ACC→ATC) ,ytfQ →,0,0,0,0,0
+C401F (TGC→TTC) ,treB ←,0,0,0,0,0
+coding (110/132 nt),Y75_RS22485 ←,0,0,0,0,0
+coding (128/597 nt),fimE →,0,0,0,0,0
+coding (258/597 nt),fimE →,0,0,0,0,1
+T87N (ACC→AAC) ,fimE →,0,1,0,0,0
+coding (417/597 nt),fimE →,1,0,0,0,0
+coding (511/597 nt),fimE →,0,0,0,1,0
+intergenic,fimE → / → fimA,0,0,0,0,0
+intergenic,fimE → / ← Y75_RS22535,0,0,1,0,0
+intergenic,Y75_RS22535 ← / → fimA,0,0,0,0,1
+intergenic,yjiW ← / ← hsdS,0,0,0,0,0
+coding (63/915 nt),yjjM ←,0,0,0,0,0
+E94K (GAA→AAA) ,arcA ←,0,0,0,0,0
+T3P (ACC→CCC) ,arcA ←,0,0,0,0,0
+intergenic,mokC ← / → nhaA,0,0,0,0,0
+T646A (ACC→GCC) ,carB →,0,0,0,0,0
+G8D (GGC→GAC) ,ksgA ←,0,0,0,0,0
+A553T (GCC→ACC) ,imp ←,0,0,0,0,0
+L39L (CTG→CTA) ,yabQ →,0,0,0,0,0
+D470N (GAC→AAC) ,araA ←,0,0,0,0,0
+R207C (CGT→TGT) ,yabI →,0,0,0,0,0
+A32V (GCC→GTC) ,leuO →,0,0,0,0,0
+N29S (AAC→AGC) ,mraZ →,0,0,0,0,0
+K36K (AAA→AAG) ,ampE →,0,0,0,0,0
+V408A (GTG→GCG) ,lpd →,0,0,0,0,0
+intergenic,yacC ← / → cueO,0,0,0,0,0
+S280S (AGC→AGT) ,mrcB →,0,0,0,0,0
+N249S (AAC→AGC) ,fhuB →,0,0,0,0,0
+intergenic,yaeF ← / ← proS,0,0,0,0,0
+N62S (AAC→AGC) ,proS ←,0,0,0,0,0
+A240T (GCC→ACC) ,metQ ←,0,0,0,0,0
+intergenic,rrlH → / → rrfH,0,0,0,0,0
+C60R (TGT→CGT) ,yafU ←,0,0,0,0,0
+D134G (GAT→GGT) ,ivy →,0,0,0,0,0
+C455C (TGT→TGC) ,fadE ←,0,0,0,0,0
+R10R (CGT→CGC) ,ykfJ →,0,0,0,0,0
+S192S (TCG→TCA) ,insI →,0,0,0,0,0
+L106L (TTG→CTG) ,ykfC →,0,0,0,0,0
+A78V (GCG→GTG) ,mmuP →,0,0,0,0,0
+A28V (GCG→GTG) ,yagJ →,0,0,0,0,0
+S215P (TCA→CCA) ,yagM ←,0,0,0,0,0
+S189S (TCG→TCA) ,intF ←,0,0,0,0,0
+Y24C (TAC→TGC) ,ykgL →,0,0,0,0,0
+G276S (GGC→AGC) ,insF →,0,0,0,0,0
+A242A (GCG→GCA) ,ykgC ←,0,0,0,0,0
+R10W (CGG→TGG) ,betI ←,0,0,0,0,0
+coding (1236/1383 nt),yahJ →,0,0,0,0,0
+G181R (GGA→AGA) ,lacZ ←,0,0,0,0,0
+A209A (GCG→GCA) ,frmA ←,0,0,0,0,0
+intergenic,frmR ← / ← yaiO,0,0,0,0,0
+N301S (AAC→AGC) ,yaiU →,0,0,0,0,0
+coding (755/909 nt),mak →,0,0,0,0,0
+G95G (GGT→GGC) ,tsx ←,0,0,0,0,0
+A5T (GCA→ACA) ,yajL ←,0,0,0,0,0
+Q300R (CAG→CGG) ,lon →,0,0,0,0,0
+W187* (TGG→TAG) ,acrB ←,0,0,0,0,0
+R1227W (CGG→TGG) ,rhsD →,0,0,0,0,0
+S109S (TCC→TCT) ,rzpD →,0,0,0,0,0
+I397T (ATT→ACT) ,cusS ←,0,0,0,0,0
+coding (1083/1113 nt),insL →,0,0,0,0,0
+A405V (GCA→GTA) ,fepA ←,0,0,0,0,0
+A213T (GCC→ACC) ,entB →,0,0,0,0,0
+V265A (GTG→GCG) ,ybdH ←,0,0,0,0,0
+,insH,0,0,0,0,0
+V345A (GTG→GCG) ,mrdA ←,0,0,0,0,0
+V410A (GTC→GCC) ,miaB ←,0,0,0,0,0
+intergenic,nagE → / → glnS,0,0,0,0,0
+coding (917/1434 nt),ybfO →,0,0,0,0,0
+Q70R (CAG→CGG) ,tolQ →,0,0,0,0,0
+A44T (GCC→ACC) ,modF ←,0,0,0,0,0
+H362Y (CAC→TAC) ,ybhI →,0,0,0,0,0
+A244A (GCG→GCA) ,bioF →,0,0,0,0,0
+E209E (GAA→GAG) ,ybhS ←,0,0,0,0,0
+A2V (GCA→GTA) ,dinG →,0,0,0,0,0
+R131R (CGT→CGC) ,glnP ←,0,0,0,0,0
+T524I (ACC→ATC) ,ybiW ←,0,0,0,0,0
+G144G (GGC→GGT) ,ftsK →,0,0,0,0,0
+Q103R (CAA→CGA) ,ycaM →,0,0,0,0,0
+R318R (CGT→CGC) ,ycbX ←,0,0,0,0,0
+T564A (ACC→GCC) ,ycbY →,0,0,0,0,0
+D196G (GAC→GGC) ,yccR →,0,0,0,0,0
+A450A (GCG→GCA) ,torS ←,0,0,0,0,0
+V198A (GTT→GCT) ,ycdC →,0,0,0,0,0
+M423I (ATG→ATA) ,ycdQ ←,0,0,0,0,0
+F124L (TTC→CTC) ,ycdU →,0,0,0,0,0
+C171C (TGC→TGT) ,ycdU →,0,0,0,0,0
+R769C (CGC→TGC) ,mdoH →,0,0,0,0,0
+K146K (AAA→AAG) ,mviM →,0,0,0,0,0
+Q124* (CAG→TAG) ,flgG →,0,0,0,0,0
+E664K (GAA→AAA) ,rne ←,0,0,0,0,0
+A149V (GCC→GTC) ,plsX →,0,0,0,0,0
+R215Q (CGA→CAA) ,ycfH →,0,0,0,0,0
+H366H (CAC→CAT) ,icd →,0,0,0,0,0
+T370T (ACC→ACT) ,icd →,0,0,0,0,0
+G11G (GGC→GGT) ,dsbB ←,0,0,0,0,0
+coding (1164‑1295/1542 nt),nhaB ←,0,0,0,0,0
+R196H (CGT→CAT) ,nhaB ←,0,0,0,0,0
+T153M (ACG→ATG) ,cvrA ←,0,0,0,0,0
+coding (2098/2868 nt),ycgV ←,0,0,0,0,0
+I145I (ATC→ATT) ,ychM ←,0,0,0,0,0
+intergenic,prsA ← / ← ispE,0,0,0,0,0
+V21I (GTT→ATT) ,chaA ←,0,0,0,0,0
+intergenic,trpE ← / → yciV,0,0,0,0,0
+V93V (GTA→GTG) ,yciS →,0,0,0,0,0
+R292R (CGT→CGC) ,sapA ←,0,0,0,0,0
+A391V (GCC→GTC) ,puuB →,0,0,0,0,0
+P223S (CCG→TCG) ,pspF ←,0,0,0,0,0
+P68L (CCG→CTG) ,pspC →,0,0,0,0,0
+intergenic,pspE → / → ycjM,0,0,0,0,0
+T15A (ACC→GCC) ,ycjG →,0,0,0,0,0
+G270R (GGG→AGG) ,intR ←,0,0,0,0,0
+intergenic,ynaE ← / ← uspF,0,0,0,0,0
+E107E (GAA→GAG) ,ldhA ←,0,0,0,0,0
+R129R (CGT→CGC) ,feaB →,0,0,0,0,0
+I179I (ATT→ATC) ,feaB →,0,0,0,0,0
+S193P (TCA→CCA) ,ydcM →,0,0,0,0,0
+A174V (GCG→GTG) ,ydcU →,0,0,0,0,0
+M832V (ATG→GTG) ,fdnG →,0,0,0,0,0
+coding (3955/3978 nt),ydeK ←,0,0,0,0,0
+coding (3831/3978 nt),ydeK ←,0,0,0,0,0
+coding (774/3978 nt),ydeK ←,0,0,0,0,0
+coding (774/3978 nt),ydeK ←,0,0,0,0,0
+G266D (GGC→GAC) ,stfQ ←,0,0,0,0,0
+intergenic,essQ ← / ← cspB,0,0,0,0,0
+coding (677‑678/1221 nt),dgsA ←,0,0,0,0,0
+A214A (GCA→GCG) ,ydhH ←,0,0,0,0,0
+coding (36/2013 nt),ydhK →,0,0,0,0,0
+I80T (ATT→ACT) ,ydhK →,0,0,0,0,0
+coding (909/4617 nt),lhr →,0,0,0,0,0
+A566A (GCC→GCT) ,lhr →,0,0,0,0,0
+M313V (ATG→GTG) ,ydhP ←,0,0,0,0,0
+A73A (GCG→GCA) ,ydiD →,0,0,0,0,0
+intergenic,ydjR ← / ← spy,0,0,0,0,0
+A100A (GCG→GCA) ,ansA →,0,0,0,0,0
+Y43C (TAC→TGC) ,gapA →,0,0,0,0,0
+E70K (GAA→AAA) ,yeaW →,0,0,0,0,0
+A32T (GCC→ACC) ,yoaE ←,0,0,0,0,0
+intergenic,yebQ → / ← htpX,0,0,0,0,0
+Q511R (CAG→CGG) ,flhA ←,0,0,0,0,0
+S311S (AGT→AGC) ,fliK →,0,0,0,0,0
+M220I (ATG→ATA) ,dcm ←,0,0,0,0,0
+V188A (GTG→GCG) ,yedW ←,0,0,0,0,0
+A184A (GCG→GCA) ,yeeR →,0,0,0,0,0
+L349P (CTG→CCG) ,yeeF ←,0,0,0,0,0
+R283C (CGT→TGT) ,wzxC ←,0,0,0,0,0
+A326V (GCG→GTG) ,wcaC ←,0,0,0,0,0
+A109A (GCA→GCG) ,asmA ←,0,0,0,0,0
+V632A (GTG→GCG) ,yegE →,0,0,0,0,0
+A197T (GCT→ACT) ,yegD →,0,0,0,0,0
+intergenic,baeR → / → yegP,0,0,0,0,0
+I166I (ATT→ATC) ,yegS →,0,0,0,0,0
+intergenic,yegS → / → insE,0,0,0,0,0
+,insH,0,0,0,0,0
+P566P (CCG→CCA) ,metG →,0,0,0,0,0
+intergenic,yejG ← / ← bcr,0,0,0,0,0
+A399A (GCC→GCT) ,yejH →,0,0,0,0,0
+coding (531/624 nt),ccmA ←,0,0,0,0,0
+T204T (ACC→ACT) ,mqo ←,0,0,0,0,0
+,insD–insC,0,0,0,0,0
+coding (1044/1323 nt),atoE →,0,0,0,0,0
+L342L (CTG→CTA) ,nrdA →,0,0,0,0,0
+R50R (CGT→CGC) ,nrdB →,0,0,0,0,0
+intergenic,yfaX ← / ← yfaY,0,0,0,0,0
+D224G (GAT→GGT) ,yfbH →,0,0,0,0,0
+R217C (CGC→TGC) ,menC ←,0,0,0,0,0
+T396A (ACC→GCC) ,yfbK ←,0,0,0,0,0
+Q207Q (CAA→CAG) ,yfcG →,0,0,0,0,0
+S69G (AGC→GGC) ,accD ←,0,0,0,0,0
+P333S (CCG→TCG) ,pdxB ←,0,0,0,0,0
+T290M (ACG→ATG) ,yfcJ ←,0,0,0,0,0
+Q226* (CAA→TAA) ,mepA ←,0,0,0,0,0
+V76V (GTA→GTG) ,yfcP ←,0,0,0,0,0
+E60G (GAG→GGG) ,yfcU ←,0,0,0,0,0
+R161H (CGC→CAC) ,intS →,0,0,0,0,0
+G71G (GGC→GGT) ,dsdX →,0,0,0,0,0
+R345C (CGC→TGC) ,oxc ←,0,0,0,0,0
+L313Q (CTG→CAG) ,cysA ←,0,0,0,0,0
+G184E (GGG→GAG) ,hemF →,0,0,0,0,0
+R239R (CGT→CGC) ,hemF →,0,0,0,0,0
+R656G (AGG→GGG) ,maeB ←,0,0,0,0,0
+coding (200/2019 nt),hyfB →,0,0,0,0,0
+P197S (CCC→TCC) ,focB →,0,0,0,0,0
+S33P (TCC→CCC) ,yfgL ←,0,0,0,0,0
+A89V (GCG→GTG) ,hcaT ←,0,0,0,0,0
+C95R (TGT→CGT) ,yphH →,0,0,0,0,0
+G322D (GGC→GAC) ,lepB ←,0,0,0,0,0
+L177L (CTA→CTG) ,kgtP ←,0,0,0,0,0
+intergenic,gltW ← / ← rrsG,0,0,0,0,0
+intergenic,gltW ← / ← rrsG,0,0,0,0,0
+intergenic,gltW ← / ← rrsG,0,0,0,0,0
+noncoding (273/1542 nt),rrsG ←,0,0,0,0,0
+noncoding (253/1542 nt),rrsG ←,0,0,0,0,0
+noncoding (250/1542 nt),rrsG ←,0,0,0,0,0
+D84D (GAT→GAC) ,yfiO →,0,0,0,0,0
+V236A (GTG→GCG) ,ypjD →,0,0,0,0,0
+coding (939/957 nt),yfjH ←,0,0,0,0,0
+D523D (GAC→GAT) ,yfjK ←,0,0,0,0,0
+intergenic,yfjM ← / → yfjN,0,0,0,0,0
+intergenic,yfjO → / → yfjP,0,0,0,0,0
+G16S (GGT→AGT) ,yfjP →,0,0,0,0,0
+Y86H (TAT→CAT) ,gabT →,0,0,0,0,0
+W140* (TGG→TAG) ,mprA →,0,0,0,0,0
+intergenic,mprA → / → emrA,0,0,0,0,0
+M333V (ATG→GTG) ,emrB →,0,0,0,0,0
+G196G (GGC→GGG) ,alaS ←,0,0,0,0,0
+N94N (AAC→AAT) ,hycH ←,0,0,0,0,0
+G414G (GGT→GGC) ,fhlA →,0,0,0,0,0
+W709* (TGG→TGA) ,mutS →,0,0,0,0,0
+T120A (ACT→GCT) ,iap →,0,0,0,0,0
+S303S (TCC→TCT) ,ygcL ←,0,0,0,0,0
+Y258C (TAC→TGC) ,eno ←,0,0,0,0,0
+T160A (ACG→GCG) ,mazG ←,0,0,0,0,0
+L80P (CTG→CCG) ,relA ←,0,0,0,0,0
+L162P (CTG→CCG) ,gudD ←,0,0,0,0,0
+I75I (ATC→ATT) ,yqcA ←,0,0,0,0,0
+V410A (GTA→GCA) ,sdaC →,0,0,0,0,0
+intergenic,gcvA ← / ← ygdI,0,0,0,0,0
+N39S (AAC→AGC) ,ppdC ←,0,0,0,0,0
+G50G (GGT→GGC) ,yqeH →,0,0,0,0,0
+coding (370/447 nt),ygeF →,0,0,0,0,0
+V309M (GTG→ATG) ,hyuA →,0,0,0,0,0
+Q250Q (CAG→CAA) ,recJ ←,0,0,0,0,0
+A372V (GCG→GTG) ,gcvP ←,0,0,0,0,0
+K317K (AAA→AAG) ,visC ←,0,0,0,0,0
+intergenic,argP → / → yliK,0,0,0,0,0
+A167A (GCA→GCG) ,argO ←,0,0,0,0,0
+A144V (GCT→GTT) ,pgk ←,0,0,0,0,0
+V163A (GTT→GCT) ,sprT →,0,0,0,0,0
+N47D (AAC→GAC) ,yggJ →,0,0,0,0,0
+R277R (CGG→CGA) ,mutY →,0,0,0,0,0
+I242I (ATC→ATT) ,glcB ←,0,0,0,0,0
+V117V (GTC→GTT) ,hybD ←,0,0,0,0,0
+intergenic,yghW ← / → yghZ,0,0,0,0,0
+A182A (GCA→GCG) ,exbB ←,0,0,0,0,0
+L62L (CTG→TTG) ,exbB ←,0,0,0,0,0
+K124K (AAA→AAG) ,metC →,0,0,0,0,0
+A325A (GCG→GCA) ,metC →,0,0,0,0,0
+coding (915/957 nt),yqhC ←,0,0,0,0,0
+coding (402/630 nt),nudF ←,0,0,0,0,0
+coding (1499/1662 nt),yqiK →,0,0,0,0,0
+N288S (AAT→AGT) ,rfaE ←,0,0,0,0,0
+A732A (GCG→GCA) ,ygjK →,0,0,0,0,0
+Q137R (CAG→CGG) ,ygjP →,0,0,0,0,0
+V393A (GTG→GCG) ,sstT →,0,0,0,0,0
+W289* (TGG→TAG) ,exuT →,0,0,0,0,0
+intergenic,yhaJ ← / → yhaK,0,0,0,0,0
+L106P (CTC→CCC) ,yhaK →,0,0,0,0,0
+A149A (GCG→GCA) ,yhaK →,0,0,0,0,0
+G215D (GGC→GAC) ,tdcB ←,0,0,0,0,0
+Q325R (CAG→CGG) ,garK ←,0,0,0,0,0
+Y404C (TAC→TGC) ,garP ←,0,0,0,0,0
+coding (272/336 nt),sohA →,0,0,0,0,0
+T178T (ACT→ACC) ,truB ←,0,0,0,0,0
+P385S (CCG→TCG) ,yhbX ←,0,0,0,0,0
+T545T (ACT→ACC) ,gltB →,0,0,0,0,0
+A100V (GCG→GTG) ,yhdW →,0,0,0,0,0
+coding (438/1104 nt),yhdY →,0,0,0,0,0
+R14R (CGG→CGA) ,thiC →,0,0,0,0,0
+intergenic,rrlB ← / ← gltT,0,0,0,0,0
+intergenic,rrlB ← / ← gltT,0,0,0,0,0
+intergenic,rrlB ← / ← gltT,0,0,0,0,0
+intergenic,rrlB ← / ← gltT,0,0,0,0,0
+R81C (CGC→TGC) ,metJ →,0,0,0,0,0
+A80A (GCT→GCC) ,yiiQ →,0,0,0,0,0
+C257R (TGC→CGC) ,rhaA →,0,0,0,0,0
+intergenic,rhaA → / → rhaD,0,0,0,0,0
+intergenic,rhaA → / → rhaD,0,0,0,0,0
+intergenic,rhaA → / → rhaD,0,0,0,0,0
+intergenic,rhaA → / → rhaD,0,0,0,0,0
+intergenic,rhaA → / → rhaD,0,0,0,0,0
+intergenic,rhaA → / → rhaD,0,0,0,0,0
+L113L (CTG→TTG) ,dapF ←,0,0,0,0,0
+P430L (CCA→CTA) ,cyaA ←,0,0,0,0,0
+coding (66/1386 nt),yifK ←,0,0,0,0,0
+A236T (GCA→ACA) ,rho ←,0,0,0,0,0
+A203A (GCG→GCA) ,ilvC ←,0,0,0,0,0
+G103S (GGC→AGC) ,asnC →,0,0,0,0,0
+R170S (CGC→AGC) ,pstA →,0,0,0,0,0
+T370A (ACT→GCT) ,yieG →,0,0,0,0,0
+intergenic,insH → / ← tnaA,0,0,0,0,0
+,insH,0,0,0,0,0
+T21A (ACT→GCT) ,yidH →,0,0,0,0,0
+S22S (TCC→TCT) ,yicN →,0,0,0,0,0
+G73G (GGC→GGT) ,yicR →,0,0,0,0,0
+F224F (TTC→TTT) ,rfaD ←,0,0,0,0,0
+A368A (GCA→GCG) ,selA →,0,0,0,0,0
+E463K (GAA→AAA) ,bcsE ←,0,0,0,0,0
+V181A (GTG→GCG) ,bcsB →,0,0,0,0,0
+R71C (CGT→TGT) ,yhjK →,0,0,0,0,0
+F188L (TTT→CTT) ,gadA →,0,0,0,0,0
+T460A (ACT→GCT) ,prlC →,0,0,0,0,0
+S425P (TCT→CCT) ,pitA ←,0,0,0,0,0
+L153L (TTG→TTA) ,yhhT ←,0,0,0,0,0
+intergenic,yhhQ ← / → yhhP,0,0,0,0,0
+coding (133/768 nt),livG →,0,0,0,0,0
+E490E (GAA→GAG) ,glgX →,0,0,0,0,0
+D419G (GAC→GGC) ,malQ →,0,0,0,0,0
+A745T (GCA→ACA) ,yhgF ←,0,0,0,0,0
+G72D (GGC→GAC) ,frlR ←,0,0,0,0,0
+V119A (GTT→GCT) ,nirC ←,0,0,0,0,0
+intergenic,nirB ← / ← tsgA,0,0,0,0,0
+G37S (GGC→AGC) ,yheS ←,0,0,0,0,0
+Y33C (TAC→TGC) ,fusA →,0,0,0,0,0
+L170L (CTG→CTA) ,metH →,0,0,0,0,0
+W1112* (TGG→TAG) ,metH →,0,0,0,0,0
+E397G (GAG→GGG) ,yjbB →,0,0,0,0,0
+I285I (ATC→ATT) ,pgi →,0,0,0,0,0
+A135A (GCA→GCG) ,yjbI →,0,0,0,0,0
+D183D (GAC→GAT) ,nrfC →,0,0,0,0,0
+intergenic,yjcZ → / → proP,0,0,0,0,0
+S414S (TCG→TCA) ,proP →,0,0,0,0,0
+intergenic,melA → / → melB,0,0,0,0,0
+P338P (CCA→CCG) ,lysU ←,0,0,0,0,0
+A99V (GCG→GTG) ,cadB ←,0,0,0,0,0
+I139T (ATT→ACT) ,cadC ←,0,0,0,0,0
+F95L (TTT→CTT) ,blc ←,0,0,0,0,0
+I56V (ATT→GTT) ,mutL →,0,0,0,0,0
+R174Q (CGG→CAG) ,yjfK →,0,0,0,0,0
+A261A (GCG→GCA) ,ulaE →,0,0,0,0,0
+D343D (GAC→GAT) ,ytfR →,0,0,0,0,0
+R448R (CGT→CGC) ,nrdD ←,0,0,0,0,0
+A255V (GCG→GTG) ,yjgN →,0,0,0,0,0
+Y365H (TAC→CAC) ,pepA ←,0,0,0,0,0
+V241I (GTC→ATC) ,yjgB ←,0,0,0,0,0
+intergenic,yjgW → / → yjgZ,0,0,0,0,0
+V94A (GTC→GCC) ,sgcA ←,0,0,0,0,0
+D234G (GAT→GGT) ,yjhR →,0,0,0,0,0
+M15V (ATG→GTG) ,fimE →,0,0,0,0,0
+L215P (CTG→CCG) ,iadA ←,0,0,0,0,0
+R22R (CGT→CGC) ,yjiK ←,0,0,0,0,0
+intergenic,yjiO ← / → yjiQ,0,0,0,0,0
+noncoding (71/87 nt),leuV ←,0,0,0,0,0
+P5L (CCC→CTC) ,creD →,0,0,0,0,0

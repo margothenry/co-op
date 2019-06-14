@@ -1,0 +1,54 @@
+gene,details,A1,A2,A3,A4,A5,A6,A7,A8,A9,A10
+"insB1, insA",,0,0,0,1,0,0,0,0,0,0
+icd,H366H (CAC→CAT),0,1,0,0,1,0,0,0,0,0
+icd,T370T (ACC→ACT),0,1,0,0,1,0,0,0,0,0
+icd,L375M (TTA→CTG),0,1,0,0,1,0,0,0,0,0
+icd,L375M (TTA→CTG),0,1,0,0,1,0,0,0,0,0
+pntA,S66* (TCA→TAA),0,1,0,0,0,0,0,0,0,0
+crr,coding (479‑484/510 nt),0,1,0,0,0,0,0,0,0,1
+rpoS,coding (595/993 nt),0,1,0,0,0,0,0,0,0,0
+"pyrE, rph",intergenic,0,1,0,0,0,0,0,0,0,0
+"sthA, fabR",intergenic,0,1,0,0,0,0,1,1,1,0
+nagC,G73C (GGC→TGC),0,0,0,0,0,0,0,1,1,0
+zwf,A22A (GCG→GCA),0,0,0,0,0,0,0,0,1,0
+menC,coding (132‑135/963 nt),0,0,0,0,0,0,0,0,1,0
+sthA,G20S (GGC→AGC),0,0,0,0,0,0,0,1,1,0
+rpoB,N677S (AAC→AGC),0,0,0,0,0,0,0,0,1,0
+rpoS,coding (597/993 nt),0,0,0,0,0,1,0,0,0,0
+rpoA,coding (940‑959/990 nt),0,0,0,0,0,1,0,0,0,0
+"pyrE, rph",intergenic,0,0,0,0,0,1,0,0,0,0
+hfq,N48H (AAC→CAC),0,0,0,0,0,1,0,0,0,0
+fimD,coding (2209‑2215/2637 nt),0,0,0,0,0,1,0,0,0,0
+fis,coding (215‑229/297 nt),0,0,0,0,0,0,0,1,0,0
+cyaA,Q392P (CAG→CCG),0,0,0,0,0,0,0,1,0,0
+typA,coding (960/1824 nt),0,0,0,0,0,0,0,1,0,0
+ispU,L220R (CTC→CGC),0,0,0,0,0,0,0,0,0,1
+pntB,coding (682/1389 nt),0,0,0,0,0,0,0,0,0,1
+rpoA,C269R (TGC→CGC),0,0,0,0,0,0,0,0,0,1
+ysgA,coding (64/816 nt),0,0,0,0,0,0,0,0,0,1
+acnB,coding (2443‑2444/2598 nt),0,0,0,0,1,0,0,0,0,0
+"trxB, lrp",intergenic,0,0,0,0,1,0,0,0,0,0
+fruK,R296C (CGT→TGT),0,0,0,0,1,0,0,0,0,0
+crr,coding (479‑484/510 nt),0,0,0,1,1,0,1,0,0,0
+rpoS,coding (850/993 nt),0,0,0,0,1,0,0,0,0,0
+"rrlE, rrfE",intergenic,0,0,0,0,1,0,0,0,0,0
+"rrlE, rrfE",intergenic,0,0,0,0,1,0,0,0,0,0
+rpoS,G279V (GGT→GTT),0,0,1,0,0,0,0,0,0,0
+rpoA,T285I (ACC→ATC),0,0,1,0,0,0,0,0,0,0
+yiiD,L227R (CTG→CGG),0,0,1,0,0,0,0,0,0,0
+cpxR,R205H (CGT→CAT),0,0,1,0,0,0,0,0,0,0
+"sthA, fabR",intergenic,0,0,1,0,0,0,0,0,0,0
+mrdB,A88E (GCG→GAG),0,0,0,0,0,0,1,0,0,0
+pntA,coding (677‑687/1533 nt),0,0,0,0,0,0,1,0,0,0
+rpoS,R277* (CGA→TGA),0,0,0,0,0,0,1,0,0,0
+fabZ,P56L (CCT→CTT),1,0,0,0,0,0,0,0,0,0
+"pntA, ydgH",intergenic,1,0,0,0,0,0,0,0,0,0
+rep,I81S (ATC→AGC),1,0,0,0,0,0,0,0,0,0
+sthA,S317G (AGC→GGC),1,0,0,0,0,0,0,0,0,0
+rpoB,K1242Q (AAG→CAG),1,0,0,0,0,0,0,0,0,0
+rpoC,R1174S (CGT→AGT),1,0,0,0,0,0,0,0,0,0
+"trxB, lrp",intergenic,0,0,0,1,0,0,0,0,0,0
+pntB,coding (430/1389 nt),0,0,0,1,0,0,0,0,0,0
+yfeH,coding (297/999 nt),0,0,0,1,0,0,0,0,0,0
+rpoS,coding (841/993 nt),0,0,0,1,0,0,0,0,0,0
+cpxR,coding (585‑588/699 nt),0,0,0,1,0,0,0,0,0,0

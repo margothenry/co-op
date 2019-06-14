@@ -1,0 +1,69 @@
+500,1000,1500,2000,population,gene,Genome position (Deepak's data),Ancestral nucleotide,Evolved nucleotide,Gene (aa) position,Codon    change,Amino acid change,Nature of the change,20 bp window,Details
+NA,50%,53.90%,5.50%,6,nusA*,3251586,T,G,1176 (392),CTG > CGG,Leu to Arg,non-syn,"Flanking region: GATTTCCAACAGCTCTTTCAT
+",-
+37.90%,93.30%,3.80%,3.10%,6,infB*,3250822,G,T,429 (143),GAA > TAA,Glu to Stop,non-syn (early stop codon),Flanking region: TCAGCAGCTTCACGCTTAGCT,-
+NA,NA,33.70%,91.10%,6,hupA*,4178938,T,G,300 (10),ATT > AGT,Ile to Ser,non-syn,"Flanking region: ATTGATGTAATTGCAGAGAAA
+",+
+100%,NA,NA,NA,2,NA,4179130,NA,NA,(221?226/273 nt),NA,NA,6 bp deletion,"Flanking region: ATTGCCGCAGCTAACGTACCG
+",+
+NA,96.90%,4.60%,NA,5,yjaG ? / ? hupA,4178829,G,T, (+106/?81),NA,NA,intergenic,"Flanking region: CTATCGGTGCGTGTATGCAGG
+",intergenic
+NA,NA,95%,82.80%,4,mreB*,3328413,C,T,408 (136),CGT > TGT,Arg to Cys,non-syn,NA,-
+87%,97%,95%,95%,1,NA,3328543,G,A,438 (146),GCT > ACT,Ala to Thr,non-syn,Flanking region: ATTGCGGCAGCCATCGGTTCT,-
+46.90%,95%,100%,100%,2,NA,3328543,G,A,438 (146),GCT > ACT,Ala to Thr,non-syn,Flanking region: ATTGCGGCAGCCATCGGTTCT,-
+NA,NA,97.10%,82.40%,4,NA,3328573,C,T,408 (136 aa),CGT > TGT,Arg to Cys,non-syn,"Flanking region: AAGACTTCACGGGCACCAGCG
+",-
+46.40%,NA,NA,NA,6,NA,3328045,G,A,312 aa,GGC > AGC,Gly to Ser,non-syn,Flanking region: ACTGGAATGCCGGTTTCTTCC,-
+95%,100%,100%,100%,1,thrT/tuf,4154415,NA,NA,NA,NA,NA,19 bp duplication,Flanking region: GTTGATGTGGTGATATCACCG,intergenic
+75%,69%,81%,80%,2,NA,4154415,NA,NA,NA,NA,NA,19 bp duplication,Flanking region: GTTGATGTGGTGATATCACCG,intergenic
+NA,27%,80%,80%,3,NA,4154425,G,A,(+86/-29),NA,NA,intergenic,Flanking region: TGATATCACCGATTTATCCGT,intergenic
+NA,NA,100%,100%,4,NA,4154426,A,C,(+87/-28)  [+87/?28],NA,NA,intergenic,Flanking region: GATATCACCGATTTATCCGTG,intergenic
+NA,NA,83.20%,100%,5,NA,4154393,G,T,(+54/-61) [+54/?61],NA,NA,intergenic,"Flanking region: AACAAGTCGGGCATGTTGCCT
+",intergenic
+NA,NA,NA,26%,1,iclR,4201423,C,T,156 (52 aa),CAA> TAA,Gln to stop codon,non-syn (early stop codon),Flanking region: AACCCGGCTTGTTGCGCCAGT,-
+NA,NA,23%,18.40%,1,NA,4200920,G,.,(657/825 nt),NA,NA,1 bp deletion,Flanking region: GGCAACGTAGCCCCAGCGCAT,-
+NA,NA,24.60%,NA,2,NA,4201443,C,A,45 aa,GCA > GAA,Ala to Glu,non-syn,"Flanking region: TTCCGTGAGTGCCACACTGCC
+",-
+NA,NA,100%,NA,3,NA,4201047,NA,NA,(527?530/825 nt),NA,NA,4 bp deletion,"Flanking region: GCGGTGCAGCAGCTTCGTCAC
+",-
+NA,NA,37%,50.80%,3,NA,4201541,A,C,36 (12 aa),AAA > AAC,Lys to Asn,non-syn,"Flanking region: CAACGGCGGGTTTTCTGCCGC
+",-
+NA,NA,37%,NA,3,NA,NA,NA,deletion,NA,NA,NA,4 bp deletion,NA,-
+NA,92.50%,95%,92.20%,4,NA,4201262,T,.,(315/825 nt),NA,NA,deletion (ESC?),"Flanking region: GGATAGGGTGAACAATCGCTA
+",-
+NA,92.50%,NA,92.20%,4,NA,4201263,T,.,(314/825 nt),NA,NA,deletion,Flanking region: GATAGGGTGAACAATCGCTAA,-
+93.30%,91.90%,100%,95%,3,mrdA,650644,G,A,159 (53),CGC> CAC,Arg to His,non-syn,Flanking region: TTCATTAGAGCGGGTCTGGTA,-
+NA,NA,90%,94%,6,NA,NA,A,C,1383 (461),ACC> CCC,Thr to Pro,non-syn,NA,-
+NA,43.50%,2.60%,2.40%,6,NA,648976,A,C,609 aa,GAC > GCC,Asp to Ala,non-syn,"Flanking region: CATAATGTGGTCGAGGATCTG
+",-
+NA,0.90%,100%,93.90%,6,NA,649421,A,C,461 aa,ACC > CCC,Thr to Pro,non-syn,"Flanking region: TGGATTGGGGTCGCTGTCCAG
+",-
+100%,95%,95%,95%,5,mrdB,647799,T,C,1101 (367),TCG> CCG,Ser to Pro,non-syn,"Flanking region: ACGCTTTTCGACAACATTTTC
+",-
+95%,98.80%,95%,95%,3,topA,1330893,G,A [ T ],1476 (492),GGT> TGT,Gly to Cys,non-syn,Flanking region: ACGCGGTATCGGTCGTCCGTC,+
+NA,NA,NA,100%,2,kdpD,704667,NA,NA,(1844?1846/2688 nt),NA,NA,3 bp deletion,Flanking region: TTCCCCGGTTCCACCACCACC,-
+NA,NA,100%,NA,3,NA,704667,NA,NA,(1844?1846/2688 nt),NA,NA,3 bp deletion,Flanking region: TTCCCCGGTTCCACCACCACC,-
+NA,NA,100%,NA,4,NA,704667,G,.,(1844?1846/2688 nt),NA,NA,3 bp deletion,Flanking region: TTCCCCGGTTCCACCACCACC,-
+NA,NA,NA,100%,6,NA,704667,NA,NA,(1844?1846/2688 nt),NA,NA,3 bp deletion,Flanking region: TTCCCCGGTTCCACCACCACC,-
+98%,98%,100%,100%,5,NA,705132,G,C,1383 (461),GAT> CAT,Asp to His,non-syn,"Flanking region: AAAAAGAGATCGAAACTCACC
+",-
+NA,77.60%,NA,95%,1,pykF,1733016,G,T,54 (18),GAG > TAG,Glu to *,early stop codon,Flanking region: CGAATCTGAAGAGATGTTAGC,+
+NA,NA,NA,95%,1,NA,NA,G,T,54 (18),GAG> TAG,Glu to stop,early stop codon,NA,+
+NA,NA,62%,98.40%,2,NA,1733523,G,.,(559/1413 nt),NA,NA,1 bp deletion,Flanking region: ACAAGGCGTAGACTTTGTTGC,+
+NA,NA,2.10%,40.30%,3,NA,1733712,G,A,750 (250 aa),GAA > AAA,Glu to Lys,non-syn,Flanking region: CCTGGGTGTAGAAATCCCGGT,+
+NA,NA,NA,100%,6,NA,1733796,A,C,278 aa,ACC > CCC,Thr to Pro,non-syn,"Flanking region: TATCACTGCGACCCAGATGCT
+",+
+NA,NA,NA,100%,5,NA,1733542,NA,NA,(578?580/1413 nt),NA,NA,3 bp deletion,"Flanking region: GCTGCTTCCTTTATTCGTAAG
+",+
+NA,NA,NA,41.10%,3,ydhZ ? / ? pykF,1732767,A,G, (?359/?198),NA,NA,intergenic,"Flanking region: AGCACTTTGGACTGTAGAACT
+",intergenic
+97.70%,98.50%,97.10%,96.50%,6,fadA ,4005178,NA,NA,IS150 (+) +3 bp,NA,NA,3 bp deletion,Flanking region: TTCCCCGGTTCCACCACCACC,-
+97.30%,98%,98.10%,99.40%,5,NA,4005178,NA,NA,IS150 (+) +3 bp,NA,NA,NA,NA,-
+NA,NA,NA,100%,1,ftsZ,108162,NA,NA, (54?56/1152 nt),NA,?3 bp,NA,NA,+
+NA,NA,100%,100%,2,NA,108162,NA,NA, (54?56/1152 nt),NA,?3 bp,NA,NA,+
+95%,95%,95%,95%,6,NA,108162,NA,NA, (54?56/1152 nt),NA,?3 bp,3 bp deletion,NA,+
+NA,100%,100%,100%,5,NA,108162,NA,NA, (54?56/1152 nt),NA,?3 bp,NA,NA,+
+NA,NA,NA,100%,1,accC,3334290,NA,NA,(483?485/1350 nt),NA,?3 bp,3 bp deletion,NA,+
+NA,NA,100%,100%,2,NA,3334290,NA,NA,(483?485/1350 nt),NA,?3 bp,3 bp deletion,NA,+
+NA,95%,95%,100%,6,NA,3334290,NA,NA,(483?485/1350 nt),NA,?3 bp,NA,NA,+
+NA,NA,67%,100%,5,NA,3334290,NA,NA,(483?485/1350 nt),NA,6 bp x 2,duplication,NA,+

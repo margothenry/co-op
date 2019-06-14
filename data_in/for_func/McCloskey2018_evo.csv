@@ -1,0 +1,24 @@
+population,frequency,gene,mutation_annotations,mutation_position,mutation,mutation_locations,mutation_chromosome
+Evo04Evo01EP,0.77,cyoA;ampG,cytochrome o ubiquinol oxidase subunit II;muropeptide transporter,450867,SNP,intergenic;intergenic,1
+Evo04Evo01EP,0.71,ilvG,NA,3949557,DEL,coding,1
+Evo04Evo01EP,0.118,rsxC,electron transport complex protein required for the reduction of SoxR; predicted membrane-associated NADH oxidoreductase,1706868,SNP,coding,1
+Evo04Evo01EP,1,wecA,UDP-GlcNAc:undecaprenylphosphate GlcNAc-1-phosphate transferase,3966528,DEL,coding,1
+Evo04Evo01EP,1,wecA,UDP-GlcNAc:undecaprenylphosphate GlcNAc-1-phosphate transferase,3966694,DEL,coding,1
+Evo04Evo01EP,1,ydiU,conserved protein; UPF0061 family,1789047,DEL,coding,1
+Evo04Evo01EP,0.118,ygeO,NA,2994030,DEL,coding,1
+Evo04Evo01EP,0.22,NA,NA,4294213,SNP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+Evo04Evo01EP,0.264,NA,NA,4294214,SNP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+Evo04Evo01EP,0.313,NA,NA,4294291,SNP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+Evo04Evo01EP,0.167,NA,NA,4294309,SNP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+Evo04Evo02EP,0.591,cysB,DNA-binding transcriptional dual regulator; O-acetyl-L-serine-binding,1332039,SNP,coding,1
+Evo04Evo02EP,1,insH1,IS5 transposase and trans-activator,2064489,SNP,coding,1
+Evo04Evo02EP,1,rplL,50S ribosomal subunit protein L7/L12,4178684,INS,coding,1
+Evo04Evo02EP,1,wcaJ,colanic biosynthesis UDP-glucose lipid carrier transferase,2119548,DEL,coding,1
+Evo04Evo02EP,1,wecE,TDP-4-oxo-6-deoxy-D-glucose transaminase,3974220,DEL,coding,1
+Evo04Evo02EP,0.5309,wzzB,regulator of length of O-antigen component of lipopolysaccharide chains,2095836,MOB,coding,1
+Evo04Evo02EP,0.238,NA,NA,4294213,SNP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+Evo04Evo02EP,0.223,NA,NA,4294214,SNP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+Evo04Evo02EP,0.301,NA,NA,4294291,SNP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+Evo04Evo02EP,0.215,NA,NA,4294309,SNP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+Evo04Evo02EP,0.121,NA,NA,4294326,SNP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+Evo04Evo02EP,0.101,NA,NA,4294327,SNP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
