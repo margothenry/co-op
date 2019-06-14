@@ -1,15 +1,16 @@
 #' Calculations for Multiple Long Dataset
 #' 
-#' This function allows you to calculate the pairwise C-score using the hypergeometric approach, a p-value for 'all lineages' contrast using chi-square, and the estimates of the effective proportion of adaptive loci for a data set with multiple selective pressures.
+#' This function allows you to calculate the pairwise C-score using the hypergeometric approach, a p-value for 'all lineages' contrast using chi-square, and the estimates of the effective proportion of adaptive loci for a dataset with multiple selective pressures.
 #' 
-#' @param paper the data in csv that you want to analyze, in a folder named data_in
-#' @param environment The environment in which the experiment occured
-#' @param species Specify if the organism is "Sac" or "Ecoli_K12" or "Ecoli_O157-H7", or manually input the gene count of your species
-#' @param selective_pressure a list of the selective pressures in the data. i.e: temperatures, mediums, stressors
-#' @return a table with all the calculated infromation
+#' @param paper The data in .csv that you want to analyze.
+#' @param environment The environment in which the experiment occured.
+#' @param generation The generation the sequencing took place. Could also be a timepoint if the generation isn't specified in the paper. Make sure to include "units" (e.g. days, flasks) for non-generation entries.
+#' @param selective_pressure A list of the selective pressures in the data. i.e: temperatures, media, stressors.
+#' @param species Specify if the organism is "Sac" or "Ecoli_K12" or "Ecoli_O157-H7", or manually input the gene count of your species when prompted.
+#' @param numgenes The number of genes of the investigated species. If the species specified above is in the database, there's no need to enter a number here.
+#' @return A table with all the calculated information.
 #' @export 
-#' @examples 
-#'multiple_wide("Author2018","YPD", "Sac", c("HighTemp", "LowTemp", "OptimalTemp"))
+#' @examples multiple_long("Jerison2017", c("YPD", "SC"), "500", c("OT", "HT"), "Sac")
 #'
 multiple_long <- function(paper, environment, generation, selective_pressure, species  = NA, numgenes = NA){
 

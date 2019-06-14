@@ -1,17 +1,17 @@
 #' Calculations for a Multiple Wide Dataset 
 #'
-#' This function allows you to calculate the pairwise C-score using the hypergeometric approach, a p-value for 'all lineages' contrast using chi-square, and the estimates of the effective proportion of adaptive loci for a data set with multiple generations.
+#' This function allows you to calculate the pairwise C-score using the hypergeometric approach, a p-value for 'all lineages' contrast using chi-square, and the estimates of the effective proportion of adaptive loci for a dataset with multiple generations.
 #' 
-#' @param paper the data in csv that you want to analyze, in a folder named data_in
-#' @param environment The environment in which the experiment occured
-#' @param species Specify if the organism is "Sac" or "Ecoli_K12" or "Ecoli_O157-H7", or manually input the gene count of your species
-#' @param generations a list of generations in the data
-#' @return a table with all the calculated infromation
+#' @param paper The data in .csv that you want to analyze.
+#' @param environment The environment in which the experiment occured.
+#' @param generations A list of generations in the data.
+#' @param selective_pressure A list of the selective pressures in the data. i.e: temperatures, media, stressors.
+#' @param species Specify if the organism is "Sac" or "Ecoli_K12" or "Ecoli_O157-H7", or manually input the gene count of your species when prompted.
+#' @param numgenes The number of genes of the investigated species. If the species specified above is in the database, there's no need to enter a number here.
+#' @return A table with all the calculated information.
 #' @export 
-#' @examples 
-#' multiple_wide("Author2018","YPD", "Sac", c("0", "100", "500" , "1000"))
+#' @examples multiple_wide("Sherlock2013", "YPD", c("G7","G70", "G133","G196","G266", "G322","G385","G448"), "YPD", "Sac")
 #' 
-# (Tri): Example: multiple_wide("Lang2013",c("0","140","240","335",'415','505','585','665','745','825','910','1000'),"YPD", "Sac")
 multiple_wide <- function(paper, environment, generations, selective_pressure, species = NA, numgenes = NA){
 
 geneNumbers <- read_csv(file.path(getwd(),"dgconstraint/inst/GeneDatabase.csv"), col_types = cols())
