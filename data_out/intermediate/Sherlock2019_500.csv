@@ -141,7 +141,6 @@
 "1G_2","downstream fis",1.556
 "1G_2","downstream fis",1.493
 "1G_2","downstream fis",23.504
-"1G_1","downstream hfq/upstream hflX",12.109
 "1G_2","dppA",1.055
 "1G_2","dppA",2.37
 "1G_2","dppA",11.918
@@ -722,9 +721,7 @@
 "1G_2","upstream essD",24.558
 "1G_1","upstream fimA",1.949
 "1G_1","upstream fimA",8.366
-"1G_2","upstream gltA/sdhC",19.886
 "1G_2","upstream hns",17.701
-"1G_1","upstream mdh/argR",1.089
 "1G_1","upstream mglB",79.397
 "1G_1","upstream mglB",99.825
 "1G_2","upstream mglB",92.496

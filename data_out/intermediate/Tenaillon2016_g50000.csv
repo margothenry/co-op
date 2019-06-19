@@ -1,6 +1,5 @@
 "population","gene","prop"
 "A6","actP",1
-"A6","appY, ompT, envY, ybcH, nfrA, nfrB, nfrB, ECB_00524, yhhI, ECB_00526, ECB_00527, ECB_00528, ECB_00529, ECB_00530, cusS, cusR, cusC, ylcC, cusB, cusA, pheP, ybdG, nfnB, ybdF, ybdJ, ybdK, insJ-1, insK-1, insB-7, insA-7, "">insK-1",1
 "A6","arcA",2
 "A6","arcC",1
 "A6","arcC",1
@@ -14,7 +13,6 @@
 "A5","ddl",1
 "A6","dinI",1
 "A6","ECB_00021",1
-"A5","ECB_01510, insE-3, insF-3, ybcW, gnsB, ynfN, ECB_01516, cspI, ydfP, ydfQ, ydfR, essQ, ECB_01522, ECB_01523",2
 "A6","ECB_01992",1
 "A6","ECB_02621",1
 "A6","ECB_02816",2
@@ -24,9 +22,6 @@
 "A6","envZ",2
 "A5","fabF",2
 "A6","fadL",1
-"A5","fhlA, ygbA, mutS, pphB, ygbI, ygbJ, ygbK, ygbL, ygbM, ygbN, rpoS, nlpD, pcm, surE, ygbO, ispF, ispD, ftsB, ygbE, cysC, cysN, cysD, iap, insL-5, insK-3, "">insJ-3",2
-"A5","fhlA, ygbA, mutS, pphB, ygbI, ygbJ, ygbK, ygbL, ygbM, ygbN, rpoS, nlpD, pcm, surE, ygbO, ispF, ispD, ftsB, ygbE, cysC, cysN, cysD, iap, insL-5, insK-3, "">insJ-3",2
-"A6","flu, yeeR, ECB_02802, yafZ, ECB_02804, yeeS, yeeT, yeeU, yeeV, yeeW, ECB_02810, ECB_02811, ECB_02812, ECB_02813, ECB_02814, ECB_02815, "">ECB_02816",1
 "A6","frdC",1
 "A5","ftsI",2
 "A6","ftsK",1
@@ -35,7 +30,6 @@
 "A6","glmS",1
 "A6","glpG",1
 "A6","gltA",1
-"A6","gltB, gltD, yhcG, ECB_03080, yhcH, nanK",2
 "A6","gss",1
 "A5","hcaC",1
 "A6","hcaD",1
@@ -54,7 +48,6 @@
 "A5","infB",2
 "A6","infC",2
 "A5","insF-1",1
-"A6","insJ-2, insK-2, gltL",1
 "A6","insL-3",1
 "A5","kduD",2
 "A6","lysQ",1
@@ -64,21 +57,15 @@
 "A6","malT",2
 "A6","malT",2
 "A6","malT",1
-"A5","manB, manC, insB-14, insA-14, wbbD, wbbC, wzy, wbbB, wbbA, vioB, vioA, wzx, rmlC, rfbA, rfbD, rfbB, galF, wcaM, wcaL, wcaK, wzxC, wcaJ, "">cpsG",2
 "A6","manC",1
 "A6","manY",1
-"A6","marC, ECB_01487, ECB_01488, marR, marA, marB, eamA",1
 "A6","menC",1
 "A6","menC",1
 "A5","mepA",1
 "A6","metH",2
 "A5","metJ",2
 "A6","miaA",1
-"A5","mntH, nupC",2
 "A6","moeB",1
-"A6","mokB, trg",1
-"A5","mokC, nhaA",2
-"A6","mokC, nhaA",1
 "A6","mreC",2
 "A5","mtlD",2
 "A6","murI",1
@@ -87,12 +74,7 @@
 "A5","narH",2
 "A6","narZ",1
 "A6","narZ",1
-"A6","nmpC, ybcR, ybcS, ybcT, ybcU",1
-"A5","nmpC, ybcR, ybcS, ybcT, ybcU, ECB_00510, nohB, ECB_00512, ECB_00513",2
-"A6","nmpC, ybcR, ybcS, ybcT, ybcU, ECB_00510, nohB, ECB_00512, ECB_00513, ECB_00514, ECB_00515, ECB_00516, ECB_00517, appY",1
 "A5","nusA",1
-"A5","ogrK, yegZ",2
-"A6","ogrK, yegZ",1
 "A6","ompC",1
 "A6","oppD",2
 "A6","pfkA",1
@@ -100,14 +82,11 @@
 "A6","phoH",1
 "A5","plsB",2
 "A6","prlA",2
-"A6","ptsA, frwC, frwB, pflD, pflC, frwD, yijO, yijP, ppc, argE, argC, argB, argH, oxyR, udhA",1
 "A5","pykA",2
 "A5","pykF",2
 "A5","pykF",2
 "A6","pykF",2
 "A6","queA",1
-"A5","rbsD, rbsA, rbsC, rbsB, rbsK, rbsR",2
-"A6","rbsD, rbsA, rbsC, rbsB, rbsK, rbsR, yieO",2
 "A6","recO",2
 "A6","rhsD",2
 "A5","rne",2
@@ -126,12 +105,9 @@
 "A5","spoT",1
 "A6","spoT",2
 "A6","spoT",1
-"A6","tdk, adhE",2
 "A5","thrA",2
 "A5","topA",2
 "A5","uvrA",2
-"A6","valZ, lysY, lysZ",1
-"A6","wbbD, wbbC, wzy, wbbB, wbbA, vioB, vioA, wzx, rmlC, rfbA, rfbD, rfbB",2
 "A6","yadG",1
 "A6","yadH",1
 "A6","yafC",1
@@ -184,7 +160,6 @@
 "A6","yieH",1
 "A5","yihP",2
 "A6","yjcP",1
-"A6","yjiV, mcrC, mcrB, yjiW, hsdS, hsdM, hsdR, mrr, yjiA, yjiX, yjiY, hpaC, hpaB, hpaA, hpaX",1
 "A6","ylcG",2
 "A5","yliE",2
 "A6","ynjB",1

@@ -1,17 +1,10 @@
 "population","gene","prop"
-"A2","ECB_00814, ECB_00815, ECB_00816, ECB_00817, ECB_00818, ECB_00819, ECB_00820, ECB_00821, ECB_00822, ECB_00823, ECB_00824, ECB_00825, ECB_00826, ECB_00827, ECB_00828, ECB_00829, ECB_00830, ECB_00831, ECB_00832, ECB_00833, ECB_00834, ECB_00835, ECB_00836, ECB_00837, ECB_00838, ECB_00839, ECB_00840, ECB_00841, ECB_00842, ECB_00843, ECB_00844, ECB_00845, ECB_00846, tfaE, ECB_00848, ECB_00849, ECB_00850, "">ECB_00851",1
 "A2","ECB_01992",2
 "A3","ECB_01992",1
 "A6","insB-2",1
 "A3","mreD",1
 "A2","pykF",1
 "A4","pykF",2
-"A1","rbsD, rbsA",1
-"A1","rbsD, rbsA, rbsC",1
-"A3","rbsD, rbsA, rbsC, rbsB, rbsK, rbsR",1
-"A5","rbsD, rbsA, rbsC, rbsB, rbsK, rbsR",2
-"A2","rbsD, rbsA, rbsC, rbsB, rbsK, rbsR, yieO",1
-"A6","rbsD, rbsA, rbsC, rbsB, rbsK, rbsR, yieO, yieP",1
 "A1","rnhA",1
 "A4","spoT",2
 "A1","topA",2

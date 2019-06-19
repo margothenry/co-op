@@ -86,9 +86,7 @@
 "1G_1","dinI",1.58
 "1G_1","dnaJ",2.558
 "1G_2","downstream fis",1.738
-"1G_1","downstream hfq/upstream hflX",12.721
 "1G_1","downstream iap",22.088
-"1G_1","downstream tyrB/yjbS",1.572
 "1G_1","downstream ymgD",1.057
 "1G_2","dppA",2.073
 "1G_2","dusB",1.399
@@ -565,7 +563,6 @@
 "1G_1","upstream yiiE",9.328
 "1G_2","upstream ykgR",1.351
 "1G_2","upstream ykgR",1.051
-"1G_1","upstream zur/dusA",5.689
 "1G_2","ushA",1.376
 "1G_2","ushA",56.844
 "1G_1","uup",2.375

@@ -97,8 +97,6 @@
 "1G_3","dhaK",1.728
 "1G_3","dmsA",2.771
 "1G_1","dnaE",3.667
-"1G_1","downstream hfq/upstream hflX",9.248
-"1G_2","downstream hfq/upstream hflX",1.364
 "1G_2","downstream hlyE",2.094
 "1G_1","downstream iap",6.689
 "1G_1","downstream ymgD",1.581
@@ -647,10 +645,8 @@
 "1G_3","upstream essD",8.039
 "1G_1","upstream fimA",1.848
 "1G_1","upstream fimA",1.374
-"1G_3","upstream gltA/sdhC",1.136
 "1G_2","upstream hns",1.254
 "1G_3","upstream intA",1.217
-"1G_3","upstream mdh/argR",12.411
 "1G_1","upstream mglB",56.866
 "1G_1","upstream mglB",91.52
 "1G_2","upstream mglB",94.411
@@ -673,12 +669,10 @@
 "1G_2","upstream yiiE",1.139
 "1G_1","upstream yiiE",5.475
 "1G_3","upstream yjbD",1.544
-"1G_3","upstream yjcB/yjcC",17.318
 "1G_3","upstream yjfZ",1.411
 "1G_3","upstream ykgR",2.074
 "1G_3","upstream ypjA",3.397
 "1G_3","upstream ypjA",1.946
-"1G_1","upstream zur/dusA",1.038
 "1G_2","ushA",1.08
 "1G_2","ushA",54.839
 "1G_3","uspA",5.357

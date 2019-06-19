@@ -4,17 +4,21 @@
 #' 
 #' @param paper The data in .csv that you want to analyze.
 #' @param environment The environment in which the experiment occured.
-#' @param generation The generation the sequencing took place. Could also be a timepoint if the generation isn't specified in the paper. Make sure to include "units" (e.g. days, flasks) for non-generation entries.
+#' @param generations Timepoint(s) in the data, if generations are used to notate.
 #' @param selective_pressure A list of the selective pressures in the data. i.e: temperatures, media, stressors.
 #' @param species Specifies if the organism is "Sac" or "Ecoli_K12" or "Ecoli_O157-H7", or manually input the gene count of your species when prompted.
+#' @param ploidy Haploid, diploid, etc. For E. coli, it's always haploid. 
 #' @param collapseMutations Specifies whether to run the analysis at the gene level or on distinct mutations within a gene. The default is at the gene level, i.e. to collapse all different mutations within a gene to one entry in the analysis.
 #' @param numgenes The number of genes of the investigated species. If the species specified above is in the database, there's no need to enter a number here.
+#' @param days Timepoint(s) in the data, if days are used to notate. Remember to call with "days = ".
+#' @param flasks Timepoint(s) in the data, if flasks are are used to notate. Remember to call with "flasks = ". Only 1 of the 3 potential timepoint types shall be called.
 #' @return A table with all the calculated information.
 #' @export 
-#' @examples: single_wide("Author2018","YPD", "Sac", c("P1", "P2", "P3" ,"P4", "P5"))
+#' @examples: [update]
 #'
-single_wide <- function(paper, environment, generation, selective_pressure, species = NA, population, collapseMutations = TRUE, numgenes = NA){
-  geneNumbers <- read_csv(file.path(getwd(),"dgconstraint/inst/GeneDatabase.csv"), col_types = cols())
+single_wide <- function(paper, environment, generation = NA, selective_pressure, species = NA, ploidy, population, collapseMutations = TRUE, numgenes = NA, days = NA, flasks = NA){
+
+  geneNumbers <- read_csv(file.path(getwd(),"R/dgconstraint/inst/GeneDatabase.csv"), col_types = cols())
   
   data <- read_csv(file.path(getwd(), "data_in", "for_func", paste0(paper, ".csv")), col_types = cols())
   
@@ -44,7 +48,7 @@ single_wide <- function(paper, environment, generation, selective_pressure, spec
   if(collapseMutations){
     multiple_entry_genes <- subset(table(data.1$gene), table(data.1$gene) > 1)
   
-    # These are our genes with only a single mutation
+    # These are our genes with only a single mutation:
     single_mutation_genes <- subset(data.1, gene %nin% names(multiple_entry_genes))  
     single_mutation_genes <- single_mutation_genes[, c(unique(population), "gene")]
     
@@ -99,22 +103,22 @@ single_wide <- function(paper, environment, generation, selective_pressure, spec
   p_chisq <- suppressWarnings(append(p_chisq, allwise_p_chisq(full_matrix, num_permute = 200)))
   estimate <- suppressWarnings(append(estimate, estimate_pa(full_matrix,ndigits = 4, show.plot = T)))
   
-c_hyper[c_hyper <= 0] <- 0
-c_hyper[c_hyper == "NaN"] <- 0
-
-df <- tibble(paper = paper, environment = environment, generation = generation, selective_pressure = selective_pressure, c_hyper = round(c_hyper, 3), p_chisq, estimate = round(estimate, 3), 
-                 N_genes.notParallel = num_non_parallel_genes, N_genes.parallel = num_parallel_genes, parallel_genes)
-
-newdir <- file.path(getwd(), "data_out", "intermediate")
-if (!file.exists(newdir)){
-  dir.create(newdir, showWarnings = FALSE)
-  cat(paste("\n\tCreating new directory: ", newdir), sep="")
-}
-
-filename <- file.path(getwd(), "data_out", "analyses", paste(paper, "_Analysis.csv", sep=""))
-cat("\n")
-cat(paste("Writing file: ", filename))
-write.csv(df, file = filename, row.names=FALSE)
-cat("\n")
-
+  c_hyper[c_hyper <= 0] <- 0
+  c_hyper[c_hyper == "NaN"] <- 0
+  
+  df <- tibble(paper = paper, environment = environment, generation = generation, day = days, flask = flasks, selective_pressure = selective_pressure, species = species, ploidy, 
+               c_hyper = round(c_hyper, 3), p_chisq, estimate = round(estimate, 3), 
+               N_genes.notParallel = num_non_parallel_genes, N_genes.parallel = num_parallel_genes, parallel_genes)
+  
+  newdir <- file.path(getwd(), "data_out", "intermediate")
+  if (!file.exists(newdir)){
+    dir.create(newdir, showWarnings = FALSE)
+    cat(paste("\n\tCreating new directory: ", newdir), sep="")
+  }
+  
+  filename <- file.path(getwd(), "data_out", "analyses", paste(paper, "_Analysis.csv", sep=""))
+  cat("\n")
+  cat(paste("Writing file: ", filename))
+  write.csv(df, file = filename, row.names=FALSE)
+  cat("\n")
 }

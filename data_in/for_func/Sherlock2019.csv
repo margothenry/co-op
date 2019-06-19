@@ -436,8 +436,6 @@ population,Coordinate,Type,Reference,Allele,gene,Clones,Sample count,Total numbe
 1G_2,746894,SNV,C,A,abrB,1G_2_5_r1,1,11,abrB:c.99G>T,NA,No,No,0,0,0,0,0,1.075,0,0,0,0,0,NA,1.075,NA,NA,NA,NA
 1G_2,750535,SNV,G,T,ybgQ,"1G_2_4_r1, 1G_2_5_r1, 1G_2_6_r1, 1G_2_7_r1",4,11,ybgQ:c.858C>A,NA,No,No,0,0,0,0,4.412,1.55,4.95,1.559,0,0,0,NA,4.95,NA,NA,NA,NA
 1G_1,751659,SNV,G,T,ybgD,"1G_1_6_r1, 1G_1_7_r1, 1G_1_8_r1, 1G_1_9_r1, 1G_1_10_r1",5,11,ybgD:c.360C>A,NA,No,No,0,0,0,0,0,0,1.901,2.257,4.406,3.259,2.605,NA,4.406,NA,NA,NA,NA
-1G_2,754262,SNV,G,T,upstream gltA/sdhC,"1G_2_9_r1, 1G_2_10_r1",2,11,NA,NA,No,-,0,0,0,0,0,0,0,0,0,1.429,19.886,NA,19.886,NA,NA,NA,NA
-1G_3,754318,SNV,C,A,upstream gltA/sdhC,1G_3_6_r1,1,7,NA,NA,No,-,0,0,0,0,0,0,1.136,NA,NA,NA,NA,NA,1.136,NA,NA,NA,NA
 1G_2,758606,SNV,C,A,sucA,"1G_2_7_r1, 1G_2_8_r1, 1G_2_9_r1",3,11,sucA:c.678C>A,NA,No,No,0,0,0,0,0,0,0,2.182,2.034,1.695,0,NA,2.182,NA,NA,NA,NA
 1G_1,761435,SNV,C,A,sucB,1G_1_10_r1,1,11,sucB:c.691C>A,sucB:p.Arg231Ser,No,Yes,0,0,0,0,0,0,0,0,0,0,1.426,NA,1.426,NA,NA,NA,NA
 1G_1,761837,SNV,C,A,sucB,"1G_1_6_r1, 1G_1_7_r1, 1G_1_8_r1",3,11,sucB:c.1093C>A,sucB:p.Leu365Met,No,Yes,0,0,0,0,0,0,1.226,1.306,1.311,0,0,NA,1.311,NA,NA,NA,NA
@@ -2106,8 +2104,6 @@ population,Coordinate,Type,Reference,Allele,gene,Clones,Sample count,Total numbe
 1G_2,3375334,SNV,C,A,sspA,1G_2_10_r1,1,11,sspA:c.109G>T,sspA:p.Glu37*,No,Yes,0,0,0,0,0,0,0,0,0,0,2.56,NA,2.56,NA,NA,NA,NA
 1G_2,3375417,SNV,G,T,sspA,"1G_2_8_r1, 1G_2_10_r1",2,11,sspA:c.26C>A,sspA:p.Ser9*,No,Yes,0,0,0,0,0,0,0,0,1.738,0,2.471,NA,2.471,NA,NA,NA,NA
 1G_1,3377688,SNV,C,A,yhcM,"1G_1_8_r1, 1G_1_9_r1, 1G_1_10_r1",3,11,yhcM:c.332G>T,yhcM:p.Arg111Leu,No,Yes,0,0,0,0,0,0,0,0,1.022,7.187,7.143,NA,7.187,NA,NA,NA,NA
-1G_1,3382562,SNV,C,A,upstream mdh/argR,1G_1_10_r1,1,11,NA,NA,No,-,0,0,0,0,0,0,0,0,0,0,1.089,NA,1.089,NA,NA,NA,NA
-1G_3,3382618,SNV,C,A,upstream mdh/argR,"1G_3_5_r1, 1G_3_6_r1",2,7,NA,NA,No,-,0,0,0,0,0,2.917,12.411,NA,NA,NA,NA,NA,12.411,NA,NA,NA,NA
 1G_1,3384473,SNV,C,A,aaeB,1G_1_5_r1,1,11,aaeB:c.1738G>T,aaeB:p.Val580Phe,No,Yes,0,0,0,0,0,2.093,0,0,0,0,0,NA,2.093,NA,NA,NA,NA
 1G_2,3385163,SNV,C,A,aaeB,1G_2_8_r1,1,11,aaeB:c.1048G>T,aaeB:p.Glu350*,No,Yes,0,0,0,0,0,0,0,0,1.316,0,0,NA,1.316,NA,NA,NA,NA
 1G_2,3388244,SNV,G,T,aaeR,1G_2_7_r1,1,11,aaeR:c.703G>T,aaeR:p.Gly235Trp,No,Yes,0,0,0,0,0,0,0,1.792,0,0,0,NA,1.792,NA,NA,NA,NA
@@ -2680,21 +2676,14 @@ population,Coordinate,Type,Reference,Allele,gene,Clones,Sample count,Total numbe
 1G_2,4251359,SNV,G,T,ubiA,1G_2_10_r1,1,11,ubiA:c.321G>T,NA,No,No,0,0,0,0,0,0,0,0,0,0,1.431,NA,1.431,NA,NA,NA,NA
 1G_2,4252380,SNV,G,T,plsB,"1G_2_7_r1, 1G_2_8_r1, 1G_2_9_r1, 1G_2_10_r1",4,11,plsB:c.2110C>A,plsB:p.Arg704Ser,No,Yes,0,0,0,0,0,0,0,2.269,5.015,5.167,27.835,NA,27.835,NA,NA,NA,NA
 1G_3,4254927,SNV,C,A,dgkA,1G_3_5_r1,1,7,dgkA:c.268C>A,dgkA:p.Leu90Ile,No,Yes,0,0,0,0,0,2.024,0,NA,NA,NA,NA,NA,2.024,NA,NA,NA,NA
-1G_3,4258446,SNV,G,T,upstream zur/dusA,1G_3_3_r1,1,7,NA,NA,No,-,0,0,0,1.859,0,0,0,NA,NA,NA,NA,NA,1.859,NA,NA,NA,NA
-1G_1,4258502,SNV,G,T,upstream zur/dusA,1G_1_6_r1,1,11,NA,NA,No,-,0,0,0,0,0,0,1.038,0,0,0,0,NA,1.038,NA,NA,NA,NA
-1G_1,4258861,SNV,G,T,upstream zur/dusA,1G_1_7_r1,1,11,NA,NA,No,-,0,0,0,0,0,0,0,5.689,0,0,0,NA,5.689,NA,NA,NA,NA
 1G_1,4260295,SNV,G,T,dusA,"1G_1_8_r1, 1G_1_9_r1, 1G_1_10_r1",3,11,dusA:c.559G>T,dusA:p.Glu187*,No,Yes,0,0,0,0,0,0,0,0,3.212,4.728,13.319,NA,13.319,NA,NA,NA,NA
 1G_1,4260470,SNV,C,A,dusA,1G_1_8_r1,1,11,dusA:c.734C>A,dusA:p.Ala245Glu,No,Yes,0,0,0,0,0,0,0,0,1.274,0,0,NA,1.274,NA,NA,NA,NA
 1G_2,4260529,SNV,C,A,dusA,1G_2_10_r1,1,11,dusA:c.793C>A,dusA:p.Arg265Ser,No,Yes,0,0,0,0,0,0,0,0,0,0,1.732,NA,1.732,NA,NA,NA,NA
 1G_1,4261321,SNV,C,A,qorA,"1G_1_8_r1, 1G_1_9_r1, 1G_1_10_r1",3,11,qorA:c.934G>T,qorA:p.Glu312*,No,Yes,0,0,0,0,0,0,0,0,1.512,3.556,13.133,NA,13.133,NA,NA,NA,NA
 1G_1,4262798,SNV,C,A,dnaB,"1G_1_9_r1, 1G_1_10_r1",2,11,dnaB:c.462C>A,dnaB:p.Ser154Arg,No,Yes,0,1.031,0,0,0,0,0,0,0,2.519,1.44,NA,2.519,NA,NA,NA,NA
-1G_1,4266653,SNV,C,A,downstream tyrB/yjbS,1G_1_7_r1,1,11,NA,NA,No,-,0,0,0,0,0,0,0,1.572,0,0,0,NA,1.572,NA,NA,NA,NA
-1G_1,4266737,SNV,G,T,downstream tyrB/yjbS,1G_1_3_r1,1,11,NA,NA,No,-,0,0,0,1.606,0,0,0,0,0,0,0,NA,1.606,NA,NA,NA,NA
 1G_1,4268284,SNV,G,T,yjbQ,1G_1_9_r1,1,11,yjbQ:c.24G>T,NA,No,No,0,0,0,0,0,0,0,0,0,1.217,0,NA,1.217,NA,NA,NA,NA
 1G_1,4269954,SNV,C,A,uvrA,1G_1_1_r1,1,11,uvrA:c.1941G>T,NA,No,No,0,1.89,0,0,0,0,0,1.119,0,0,0,NA,1.89,NA,NA,NA,NA
 1G_3,4271825,SNV,C,A,uvrA,"1G_3_3_r1, 1G_3_5_r1",2,7,uvrA:c.70G>T,uvrA:p.Asp24Tyr,No,Yes,0,0,0,2.056,0,1.101,0,NA,NA,NA,NA,NA,2.056,NA,NA,NA,NA
-1G_3,4273139,SNV,C,A,upstream yjcB/yjcC,"1G_3_2_r1, 1G_3_3_r1",2,7,NA,NA,No,-,0,0,1.053,1.351,0,0,0,NA,NA,NA,NA,NA,1.351,NA,NA,NA,NA
-1G_3,4273385,SNV,C,A,upstream yjcB/yjcC,"1G_3_4_r1, 1G_3_5_r1, 1G_3_6_r1",3,7,NA,NA,No,-,0,0,0,0,1.183,5.963,17.318,NA,NA,NA,NA,NA,17.318,NA,NA,NA,NA
 1G_2,4275612,SNV,C,A,soxR,"1G_2_9_r1, 1G_2_10_r1",2,11,soxR:c.121C>A,soxR:p.Arg41Ser,No,Yes,0,0,0,0,0,0,0,0,0,3.022,6.229,NA,6.229,NA,NA,NA,NA
 1G_2,4277591,SNV,C,A,yjcD,"1G_2_6_r1, 1G_2_8_r1, 1G_2_9_r1",3,11,yjcD:c.1090C>A,yjcD:p.Pro364Thr,No,Yes,0,0,0,0,0,0,1.028,0,1.28,1.004,0,NA,1.28,NA,NA,NA,NA
 1G_1,4278114,SNV,G,T,yjcE,1G_1_8_r1,1,11,yjcE:c.112G>T,yjcE:p.Gly38Cys,No,Yes,0,0,0,0,0,0,0,0,1.113,0,0,NA,1.113,NA,NA,NA,NA
@@ -2803,9 +2792,6 @@ population,Coordinate,Type,Reference,Allele,gene,Clones,Sample count,Total numbe
 1G_1,4398500,SNV,C,A,hfq,"1G_1_6_r1, 1G_1_7_r1, 1G_1_8_r1, 1G_1_9_r1, 1G_1_10_r1",5,11,hfq:c.190C>A,hfq:p.Pro64Thr,Yes,Yes,0,0,0,0,0,0,9.003,5.217,11.355,20.537,6.885,NA,20.537,NA,NA,NA,NA
 1G_1,4398501,SNV,C,A,hfq,"1G_1_6_r1, 1G_1_7_r1, 1G_1_8_r1, 1G_1_10_r1",4,11,hfq:c.191C>A,hfq:p.Pro64Gln,Yes,Yes,0,0,0,0,0,0,2.449,1.9,3.832,0,1.18,NA,3.832,NA,NA,NA,NA
 1G_2,4398501,SNV,C,A,hfq,"1G_2_7_r1, 1G_2_8_r1, 1G_2_9_r1, 1G_2_10_r1",4,11,hfq:c.191C>A,hfq:p.Pro64Gln,No,Yes,0,0,0,0,0,0,0,1.157,3.478,3.39,3.481,NA,3.481,NA,NA,NA,NA
-1G_1,4398643,SNV,G,T,downstream hfq/upstream hflX,1G_1_8_r1,1,11,NA,NA,No,-,0,0,0,0,0,0,0,0,2.991,0,0,NA,2.991,NA,NA,NA,NA
-1G_1,4398665,SNV,C,A,downstream hfq/upstream hflX,"1G_1_6_r1, 1G_1_7_r1, 1G_1_8_r1, 1G_1_9_r1, 1G_1_10_r1",5,11,NA,NA,No,-,0,0,0,0,0,0,9.248,12.721,28.916,29.567,12.109,NA,29.567,NA,NA,NA,NA
-1G_2,4398665,SNV,C,A,downstream hfq/upstream hflX,1G_2_6_r1,1,11,NA,NA,No,-,0,0,0,0,0,0,1.364,0,0,0,0,NA,1.364,NA,NA,NA,NA
 1G_1,4400223,SNV,C,A,hflK,"1G_1_7_r1, 1G_1_8_r1, 1G_1_9_r1",3,11,hflK:c.163C>A,hflK:p.Leu55Met,No,Yes,0,4.61,0,1.793,0,1.386,0,1.643,1.887,1.058,0,NA,4.61,NA,NA,NA,NA
 1G_1,4400487,SNV,C,A,hflK,"1G_1_8_r1, 1G_1_9_r1",2,11,hflK:c.427C>A,hflK:p.Leu143Met,No,Yes,0,2.194,0,2.17,0,0,0,0,1.222,1.156,0,NA,2.194,NA,NA,NA,NA
 1G_2,4401802,SNV,G,T,hflC,1G_2_5_r1,1,11,hflC:c.480G>T,NA,No,No,0,0,0,0,0,1.341,0,0,0,0,0,NA,1.341,NA,NA,NA,NA

@@ -28,7 +28,6 @@
 "1G_2","ddpB",2
 "1G_3","dgoD",1.092
 "1G_1","downstream iap",1.329
-"1G_1","downstream tyrB/yjbS",1.606
 "1G_3","dppB",3.14
 "1G_1","dxs",11.722
 "1G_2","edd",1.005
@@ -213,10 +212,8 @@
 "1G_3","upstream mog",3.64
 "1G_1","upstream pfkB",3.464
 "1G_3","upstream rlmA",13.652
-"1G_3","upstream yjcB/yjcC",1.351
 "1G_2","upstream yobF",4.564
 "1G_3","upstream ypjA",4.971
-"1G_3","upstream zur/dusA",1.859
 "1G_2","ushA",5.792
 "1G_3","uvrA",2.056
 "1G_3","uvrD",23.924
