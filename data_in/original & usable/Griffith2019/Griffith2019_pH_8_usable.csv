@@ -1,477 +1,477 @@
-ï»¿annotation,gene,C-G7-1,C-A9-1,C-F9-1,C-B11-1,C-D11-1
-L131PÂ (CTGâ†’CCG)Â ,dnaKÂ â†’,0,0,0,0,0
-V224GÂ (GTTâ†’GGT)Â ,nhaAÂ â†’,0,0,0,0,0
-noncodingÂ (538/2904Â nt),rrlHÂ â†’,0,0,0,0,0
-insH-mediated,ykfJâ€“[insH],0,0,0,1,0
-codingÂ (58/225Â nt),Y75_RS01440 â†,0,1,0,0,0
-intergenic,Y75_p4289Â â†Â /Â â†’Â eaeH,0,0,0,0,0
-intergenic,Y75_p4289Â â†Â /Â â†’Â eaeH,0,0,0,0,0
-intergenic,Y75_RS01960 â†’ / â†’ yaiB,0,0,0,0,0
-intergenic,cyoA â† / â† ampG,0,0,0,0,0
-codingÂ (247/3150Â nt),acrBÂ â†,0,0,0,0,0
-Q116*Â (CAGâ†’TAG)Â ,acrAÂ â†,0,0,0,0,0
-L157QÂ (CTGâ†’CAG)Â ,ybbAÂ â†’,0,0,1,0,0
-A13AÂ (GCGâ†’GCT)Â ,allRÂ â†’,0,0,0,0,0
-Y51NÂ (TACâ†’AAC)Â ,cecRÂ â†,0,0,0,1,0
-Y50CÂ (TACâ†’TGC)Â ,cecRÂ â†,0,0,0,0,1
-intergenic,cecRÂ â†Â /Â â†’Â rhlE,0,0,0,0,1
-intergenic,cecRÂ â†Â /Â â†’Â rhlE,0,0,0,1,0
-codingÂ (411/495Â nt),lrp â†’,0,0,1,0,0
-codingÂ (172/1431Â nt),ycaM â†’,1,0,0,0,0
-R73RÂ (CGCâ†’CGT)Â ,mukBÂ â†’,0,0,0,0,0
-intergenic,sulAÂ â†Â /Â â†’Â yccR,0,0,0,0,0
-T35IÂ (ACCâ†’ATC)Â ,hyaCÂ â†’,0,0,0,0,0
-intergenic,ycdMÂ â†Â /Â â†’Â ycdC,0,0,0,0,0
-K52KÂ (AAAâ†’AAG)Â ,ycdOÂ â†’,0,0,0,0,0
+details,gene,C-G7-1,C-A9-1,C-F9-1,C-B11-1,C-D11-1
+L131P (CTG?CCG) ,dnaK ?,0,0,0,0,0
+V224G (GTT?GGT) ,nhaA ?,0,0,0,0,0
+noncoding (538/2904 nt),rrlH ?,0,0,0,0,0
+insH-mediated,ykfJ–[insH],0,0,0,1,0
+coding (58/225 nt),Y75_RS01440 ?,0,1,0,0,0
+intergenic,Y75_p4289 ? / ? eaeH,0,0,0,0,0
+intergenic,Y75_p4289 ? / ? eaeH,0,0,0,0,0
+intergenic,Y75_RS01960 ? / ? yaiB,0,0,0,0,0
+intergenic,cyoA ? / ? ampG,0,0,0,0,0
+coding (247/3150 nt),acrB ?,0,0,0,0,0
+Q116* (CAG?TAG) ,acrA ?,0,0,0,0,0
+L157Q (CTG?CAG) ,ybbA ?,0,0,1,0,0
+A13A (GCG?GCT) ,allR ?,0,0,0,0,0
+Y51N (TAC?AAC) ,cecR ?,0,0,0,1,0
+Y50C (TAC?TGC) ,cecR ?,0,0,0,0,1
+intergenic,cecR ? / ? rhlE,0,0,0,0,1
+intergenic,cecR ? / ? rhlE,0,0,0,1,0
+coding (411/495 nt),lrp ?,0,0,1,0,0
+coding (172/1431 nt),ycaM ?,1,0,0,0,0
+R73R (CGC?CGT) ,mukB ?,0,0,0,0,0
+intergenic,sulA ? / ? yccR,0,0,0,0,0
+T35I (ACC?ATC) ,hyaC ?,0,0,0,0,0
+intergenic,ycdM ? / ? ycdC,0,0,0,0,0
+K52K (AAA?AAG) ,ycdO ?,0,0,0,0,0
 duplication (362bp),Y75_RS05380-[Y75_RS05385],0,1,0,0,0
 duplication (442bp),Y75_RS05380-[serX],0,0,0,0,0
-intergenic,Y75_RS05500 â†’ / â†’ yceK,0,0,0,0,0
-G202AÂ (GGTâ†’GCT)Â ,fabFÂ â†’,0,0,0,0,1
-codingÂ (87â€‘983/1434Â nt),ptsGÂ â†’,0,0,0,0,0
-codingÂ (1164â€‘1295/1542Â nt),nhaBÂ â†,0,0,0,0,0
-codingÂ (364/1542Â nt),nhaBÂ â†,0,0,0,0,0
-intergenic,prsAÂ â†Â /Â â†Â ispE,1,0,0,0,0
-intergenic,hns â† / â†’ tdk,0,0,0,0,0
-intergenic,hns â† / â†’ tdk,0,0,0,0,0
-A626VÂ (GCGâ†’GTG)Â ,adhEÂ â†,0,0,0,1,0
-H565LÂ (CACâ†’CTC)Â ,adhEÂ â†,1,0,1,0,0
-H565RÂ (CACâ†’CGC)Â ,adhEÂ â†,0,1,0,0,0
-W556RÂ (TGGâ†’CGG)Â ,adhEÂ â†,0,0,0,0,1
-L371QÂ (CTGâ†’CAG)Â ,adhEÂ â†,0,0,0,0,0
-Y77HÂ (TACâ†’CAC)Â ,adhEÂ â†,0,0,0,0,0
-intergenic,adhE â† / â†’ ychE,0,1,1,0,0
-intergenic,adhE â† / â†’ ychE,1,0,0,0,1
-codingÂ (936/993Â nt),sapDÂ â†,0,0,0,0,0
-codingÂ (189/924Â nt),ydcIÂ â†,0,0,0,0,0
-D654GÂ (GATâ†’GGT)Â ,yncDÂ â†,1,0,0,0,0
-codingÂ (1436/1800Â nt),Y75_RS07695 â†’,0,0,0,1,0
-intergenic,essQÂ â†Â /Â â†Â cspB,1,0,0,0,0
+intergenic,Y75_RS05500 ? / ? yceK,0,0,0,0,0
+G202A (GGT?GCT) ,fabF ?,0,0,0,0,1
+coding (87?983/1434 nt),ptsG ?,0,0,0,0,0
+coding (1164?1295/1542 nt),nhaB ?,0,0,0,0,0
+coding (364/1542 nt),nhaB ?,0,0,0,0,0
+intergenic,prsA ? / ? ispE,1,0,0,0,0
+intergenic,hns ? / ? tdk,0,0,0,0,0
+intergenic,hns ? / ? tdk,0,0,0,0,0
+A626V (GCG?GTG) ,adhE ?,0,0,0,1,0
+H565L (CAC?CTC) ,adhE ?,1,0,1,0,0
+H565R (CAC?CGC) ,adhE ?,0,1,0,0,0
+W556R (TGG?CGG) ,adhE ?,0,0,0,0,1
+L371Q (CTG?CAG) ,adhE ?,0,0,0,0,0
+Y77H (TAC?CAC) ,adhE ?,0,0,0,0,0
+intergenic,adhE ? / ? ychE,0,1,1,0,0
+intergenic,adhE ? / ? ychE,1,0,0,0,1
+coding (936/993 nt),sapD ?,0,0,0,0,0
+coding (189/924 nt),ydcI ?,0,0,0,0,0
+D654G (GAT?GGT) ,yncD ?,1,0,0,0,0
+coding (1436/1800 nt),Y75_RS07695 ?,0,0,0,1,0
+intergenic,essQ ? / ? cspB,1,0,0,0,0
 duplication (56260 bp),hipA-flxA,0,0,0,0,0
-codingÂ (995/1215Â nt),ydiM â†’,0,0,0,0,1
-codingÂ (5/414Â nt),yeaA â†,0,0,0,0,0
-codingÂ (112/360Â nt),yeaR â†,0,0,0,0,0
-codingÂ (92/207Â nt),Y75_RS09615 â†’,0,0,0,0,0
-intergenic,ruvAÂ â†Â /Â â†’Â yebB,0,0,0,0,0
-L67RÂ (CTTâ†’CGT)Â ,otsBÂ â†,0,0,0,0,0
-codingÂ (166/1041Â nt),gatD â†,0,0,0,0,1
-T340TÂ (ACGâ†’ACC)Â ,glpBÂ â†’,0,0,0,0,0
-codingÂ (128/963Â nt),menC â†,0,0,0,0,0
-R74LÂ (CGTâ†’CTT)Â ,purFÂ â†,0,0,0,0,1
-P31QÂ (CCGâ†’CAG)Â ,aroCÂ â†,0,0,0,0,0
-codingÂ (487/510Â nt),crr â†’,0,0,1,0,1
-intergenic,ypfEÂ â†Â /Â â†Â maeB,0,0,0,0,0
-R223SÂ (CGTâ†’AGT)Â ,nlpBÂ â†,0,0,0,0,0
-S342TÂ (TCAâ†’ACA)Â ,pbpCÂ â†,1,0,0,0,0
-T299PÂ (ACCâ†’CCC)Â ,csiEÂ â†’,0,0,0,0,0
-codingÂ (664/1335Â nt),srmBÂ â†’,0,0,0,0,0
-codingÂ (375/1299Â nt),kgtPÂ â†,0,0,0,0,0
-intergenic,yfjLÂ â†Â /Â â†Â yfjM,0,0,0,1,0
-intergenic,ygaHÂ â†’Â /Â â†’Â mprA,0,0,0,0,0
-codingÂ (110/531Â nt),mprAÂ â†’,1,0,1,0,0
-codingÂ (155â€‘163/531Â nt),mprAÂ â†’,0,0,0,0,0
-L64RÂ (CTGâ†’CGG)Â ,mprAÂ â†’,0,0,0,0,1
-codingÂ (299â€‘356/531Â nt),mprAÂ â†’,0,0,0,0,0
-D109VÂ (GATâ†’GTT)Â ,mprAÂ â†’,0,0,0,0,0
-D109EÂ (GATâ†’GAG)Â ,mprAÂ â†’,0,0,0,0,0
-C112*Â (TGCâ†’TGA)Â ,mprAÂ â†’,0,0,0,0,0
-codingÂ (344â€‘412/531Â nt),mprAÂ â†’,0,1,0,0,0
-G121DÂ (GGTâ†’GAT)Â ,mprAÂ â†’,0,0,0,0,0
-W140*Â (TGGâ†’TGA)Â ,mprAÂ â†’,0,0,0,0,0
-intergenic,mprAÂ â†’Â /Â â†’Â emrA,0,0,0,0,0
-intergenic,mprAÂ â†’Â /Â â†’Â emrA,0,0,0,0,0
-intergenic,mprAÂ â†’Â /Â â†’Â emrA,0,0,0,0,0
-intergenic,mprAÂ â†’Â /Â â†’Â emrA,0,0,0,0,0
-intergenic,mprAÂ â†’Â /Â â†’Â emrA,1,0,1,0,0
-intergenic,mprAÂ â†’Â /Â â†’Â emrA,0,1,0,0,0
-L24HÂ (CTCâ†’CAC)Â ,emrAÂ â†’,0,0,1,0,0
-I313LÂ (ATCâ†’CTC)Â ,emrAÂ â†’,0,0,0,0,0
-M219IÂ (ATGâ†’ATA)Â ,emrBÂ â†’,0,0,0,0,0
-E297VÂ (GAGâ†’GTG)Â ,emrBÂ â†’,0,0,0,0,0
-V337AÂ (GTAâ†’GCA)Â ,emrBÂ â†’,0,1,0,0,0
-P357LÂ (CCAâ†’CTA)Â ,emrBÂ â†’,1,0,0,0,0
-S411AÂ (TCTâ†’GCT)Â ,emrBÂ â†’,1,0,0,0,0
-intergenic,recAÂ â†Â /Â â†Â ygaD,0,0,0,1,0
-P166LÂ (CCAâ†’CTA)Â ,rpoSÂ â†,0,0,1,0,0
-Q13*Â (CAGâ†’TAG)Â ,rpoSÂ â†,0,0,0,0,0
-intergenic,rpoSÂ â†Â /Â â†Â nlpD,0,0,0,0,0
-codingÂ (656/1140Â nt),nlpD â†,0,0,0,0,0
-G81*Â (GGAâ†’TGA)Â ,ygbEÂ â†,0,0,0,0,0
-intergenic,gcvAÂ â†Â /Â â†Â ygdI,0,0,0,0,0
-codingÂ (645/660Â nt),yghBÂ â†’,0,0,0,0,0
-Y571HÂ (TACâ†’CAC)Â ,rpoDÂ â†’,0,1,0,0,0
-intergenic,yhaOÂ â†Â /Â â†Â tdcG,0,0,0,0,0
-G146RÂ (GGGâ†’AGG)Â ,yhaCÂ â†’,0,0,0,0,0
-codingÂ (272/336Â nt),sohAÂ â†’,0,0,0,0,0
-E404*Â (GAAâ†’TAA)Â ,rngÂ â†,1,0,0,0,0
-L368*Â (TTGâ†’TAG)Â ,rngÂ â†,0,0,0,1,0
-L280PÂ (CTGâ†’CCG)Â ,rngÂ â†,0,0,0,0,1
-E227*Â (GAAâ†’TAA)Â ,rngÂ â†,0,0,0,0,0
-Q477RÂ (CAGâ†’CGG)Â ,rpoCÂ â†,0,0,0,1,0
-R944CÂ (CGTâ†’TGT)Â ,rpoBÂ â†,0,0,0,0,0
-S182AÂ (TCCâ†’GCC)Â ,rpoBÂ â†,1,0,0,0,0
-intergenic,cpxPÂ â†Â /Â â†’Â cpxR,0,0,1,0,0
-intergenic,rhaAÂ â†’Â /Â â†’Â rhaD,0,0,0,0,0
-intergenic,yiiE â† / â† yiiD,0,0,0,0,1
-N804KÂ (AACâ†’AAA)Â ,cyaAÂ â†,1,0,0,0,0
-Q671*Â (CAGâ†’TAG)Â ,cyaAÂ â†,0,0,0,1,0
-codingÂ (1552/2547Â nt),cyaAÂ â†,0,1,0,0,0
-K105EÂ (AAAâ†’GAA)Â ,rhoÂ â†,0,0,0,0,1
-A300EÂ (GCGâ†’GAG)Â ,rbsRÂ â†,0,1,0,0,0
-intergenic,glvBÂ â†’Â /Â â†Â yidL,0,0,0,0,0
-W339RÂ (TGGâ†’AGG)Â ,spoTÂ â†,0,0,0,0,0
-intergenic,lldPÂ â†Â /Â â†Â yibL,0,0,0,0,0
-codingÂ (728/912Â nt),glyQÂ â†’,1,0,0,0,0
-D212NÂ (GACâ†’AAC)Â ,bcsBÂ â†’,0,0,0,0,1
-codingÂ (234/528Â nt),gadE â†,0,0,0,1,0
-intergenic,gadE â† / â† hdeD,0,0,0,0,0
-codingÂ (167/531Â nt),yhiF â†,0,0,0,0,0
-codingÂ (578/1500Â nt),pitAÂ â†,0,0,0,0,0
-V91GÂ (GTGâ†’GGG)Â ,greBÂ â†,0,0,0,0,0
-codingÂ (585â€‘590/990Â nt),rpoAÂ â†’,0,0,0,0,0
-intergenic,rrlEÂ â†’Â /Â â†’Â rrfE,0,0,0,1,0
-intergenic,rrlEÂ â†’Â /Â â†’Â rrfE,0,0,0,1,0
-F951CÂ (TTTâ†’TGT)Â ,metHÂ â†’,0,0,0,0,0
-S740YÂ (TCCâ†’TAC)Â ,plsBÂ â†,0,0,0,0,0
-L453QÂ (CTGâ†’CAG)Â ,plsBÂ â†,0,0,0,0,0
-L449QÂ (CTGâ†’CAG)Â ,plsBÂ â†,0,1,0,0,0
-E438AÂ (GAAâ†’GCA)Â ,plsBÂ â†,0,0,0,0,0
-G341RÂ (GGGâ†’AGG)Â ,plsBÂ â†,0,0,0,0,0
-M128RÂ (ATGâ†’AGG)Â ,plsBÂ â†,1,0,0,0,0
-intergenic,plsB â† / â†’ dgkA,0,0,0,0,0
-K58QÂ (AAAâ†’CAA)Â ,alsEÂ â†,0,0,1,0,0
-G596GÂ (GGGâ†’GGA)Â ,yjePÂ â†,0,0,0,0,0
-F124LÂ (TTCâ†’TTA)Â ,ytfIÂ â†’,1,0,0,0,0
-T125IÂ (ACCâ†’ATC)Â ,ytfQÂ â†’,0,0,0,0,0
-C401FÂ (TGCâ†’TTC)Â ,treBÂ â†,0,0,0,0,0
-codingÂ (110/132Â nt),Y75_RS22485 â†,0,0,0,0,0
-codingÂ (128/597Â nt),fimEÂ â†’,0,0,0,0,0
-codingÂ (258/597Â nt),fimEÂ â†’,0,0,0,0,1
-T87NÂ (ACCâ†’AAC)Â ,fimEÂ â†’,0,1,0,0,0
-codingÂ (417/597Â nt),fimEÂ â†’,1,0,0,0,0
-codingÂ (511/597Â nt),fimEÂ â†’,0,0,0,1,0
-intergenic,fimEÂ â†’Â /Â â†’Â fimA,0,0,0,0,0
-intergenic,fimE â†’ / â† Y75_RS22535,0,0,1,0,0
-intergenic,Y75_RS22535 â† / â†’ fimA,0,0,0,0,1
-intergenic,yjiWÂ â†Â /Â â†Â hsdS,0,0,0,0,0
-codingÂ (63/915Â nt),yjjM â†,0,0,0,0,0
-E94KÂ (GAAâ†’AAA)Â ,arcAÂ â†,0,0,0,0,0
-T3PÂ (ACCâ†’CCC)Â ,arcAÂ â†,0,0,0,0,0
-intergenic,mokCÂ â†Â /Â â†’Â nhaA,0,0,0,0,0
-T646AÂ (ACCâ†’GCC)Â ,carBÂ â†’,0,0,0,0,0
-G8DÂ (GGCâ†’GAC)Â ,ksgAÂ â†,0,0,0,0,0
-A553TÂ (GCCâ†’ACC)Â ,impÂ â†,0,0,0,0,0
-L39LÂ (CTGâ†’CTA)Â ,yabQÂ â†’,0,0,0,0,0
-D470NÂ (GACâ†’AAC)Â ,araAÂ â†,0,0,0,0,0
-R207CÂ (CGTâ†’TGT)Â ,yabIÂ â†’,0,0,0,0,0
-A32VÂ (GCCâ†’GTC)Â ,leuOÂ â†’,0,0,0,0,0
-N29SÂ (AACâ†’AGC)Â ,mraZÂ â†’,0,0,0,0,0
-K36KÂ (AAAâ†’AAG)Â ,ampEÂ â†’,0,0,0,0,0
-V408AÂ (GTGâ†’GCG)Â ,lpdÂ â†’,0,0,0,0,0
-intergenic,yacCÂ â†Â /Â â†’Â cueO,0,0,0,0,0
-S280SÂ (AGCâ†’AGT)Â ,mrcBÂ â†’,0,0,0,0,0
-N249SÂ (AACâ†’AGC)Â ,fhuBÂ â†’,0,0,0,0,0
-intergenic,yaeFÂ â†Â /Â â†Â proS,0,0,0,0,0
-N62SÂ (AACâ†’AGC)Â ,proSÂ â†,0,0,0,0,0
-A240TÂ (GCCâ†’ACC)Â ,metQÂ â†,0,0,0,0,0
-intergenic,rrlHÂ â†’Â /Â â†’Â rrfH,0,0,0,0,0
-C60RÂ (TGTâ†’CGT)Â ,yafUÂ â†,0,0,0,0,0
-D134GÂ (GATâ†’GGT)Â ,ivyÂ â†’,0,0,0,0,0
-C455CÂ (TGTâ†’TGC)Â ,fadEÂ â†,0,0,0,0,0
-R10RÂ (CGTâ†’CGC)Â ,ykfJÂ â†’,0,0,0,0,0
-S192SÂ (TCGâ†’TCA)Â ,insIÂ â†’,0,0,0,0,0
-L106LÂ (TTGâ†’CTG)Â ,ykfCÂ â†’,0,0,0,0,0
-A78VÂ (GCGâ†’GTG)Â ,mmuPÂ â†’,0,0,0,0,0
-A28VÂ (GCGâ†’GTG)Â ,yagJÂ â†’,0,0,0,0,0
-S215PÂ (TCAâ†’CCA)Â ,yagMÂ â†,0,0,0,0,0
-S189SÂ (TCGâ†’TCA)Â ,intFÂ â†,0,0,0,0,0
-Y24CÂ (TACâ†’TGC)Â ,ykgLÂ â†’,0,0,0,0,0
-G276SÂ (GGCâ†’AGC)Â ,insFÂ â†’,0,0,0,0,0
-A242AÂ (GCGâ†’GCA)Â ,ykgCÂ â†,0,0,0,0,0
-R10WÂ (CGGâ†’TGG)Â ,betIÂ â†,0,0,0,0,0
-codingÂ (1236/1383Â nt),yahJÂ â†’,0,0,0,0,0
-G181RÂ (GGAâ†’AGA)Â ,lacZÂ â†,0,0,0,0,0
-A209AÂ (GCGâ†’GCA)Â ,frmAÂ â†,0,0,0,0,0
-intergenic,frmRÂ â†Â /Â â†Â yaiO,0,0,0,0,0
-N301SÂ (AACâ†’AGC)Â ,yaiUÂ â†’,0,0,0,0,0
-codingÂ (755/909Â nt),makÂ â†’,0,0,0,0,0
-G95GÂ (GGTâ†’GGC)Â ,tsxÂ â†,0,0,0,0,0
-A5TÂ (GCAâ†’ACA)Â ,yajLÂ â†,0,0,0,0,0
-Q300RÂ (CAGâ†’CGG)Â ,lonÂ â†’,0,0,0,0,0
-W187*Â (TGGâ†’TAG)Â ,acrBÂ â†,0,0,0,0,0
-R1227WÂ (CGGâ†’TGG)Â ,rhsDÂ â†’,0,0,0,0,0
-S109SÂ (TCCâ†’TCT)Â ,rzpDÂ â†’,0,0,0,0,0
-I397TÂ (ATTâ†’ACT)Â ,cusSÂ â†,0,0,0,0,0
-codingÂ (1083/1113Â nt),insLÂ â†’,0,0,0,0,0
-A405VÂ (GCAâ†’GTA)Â ,fepAÂ â†,0,0,0,0,0
-A213TÂ (GCCâ†’ACC)Â ,entBÂ â†’,0,0,0,0,0
-V265AÂ (GTGâ†’GCG)Â ,ybdHÂ â†,0,0,0,0,0
+coding (995/1215 nt),ydiM ?,0,0,0,0,1
+coding (5/414 nt),yeaA ?,0,0,0,0,0
+coding (112/360 nt),yeaR ?,0,0,0,0,0
+coding (92/207 nt),Y75_RS09615 ?,0,0,0,0,0
+intergenic,ruvA ? / ? yebB,0,0,0,0,0
+L67R (CTT?CGT) ,otsB ?,0,0,0,0,0
+coding (166/1041 nt),gatD ?,0,0,0,0,1
+T340T (ACG?ACC) ,glpB ?,0,0,0,0,0
+coding (128/963 nt),menC ?,0,0,0,0,0
+R74L (CGT?CTT) ,purF ?,0,0,0,0,1
+P31Q (CCG?CAG) ,aroC ?,0,0,0,0,0
+coding (487/510 nt),crr ?,0,0,1,0,1
+intergenic,ypfE ? / ? maeB,0,0,0,0,0
+R223S (CGT?AGT) ,nlpB ?,0,0,0,0,0
+S342T (TCA?ACA) ,pbpC ?,1,0,0,0,0
+T299P (ACC?CCC) ,csiE ?,0,0,0,0,0
+coding (664/1335 nt),srmB ?,0,0,0,0,0
+coding (375/1299 nt),kgtP ?,0,0,0,0,0
+intergenic,yfjL ? / ? yfjM,0,0,0,1,0
+intergenic,ygaH ? / ? mprA,0,0,0,0,0
+coding (110/531 nt),mprA ?,1,0,1,0,0
+coding (155?163/531 nt),mprA ?,0,0,0,0,0
+L64R (CTG?CGG) ,mprA ?,0,0,0,0,1
+coding (299?356/531 nt),mprA ?,0,0,0,0,0
+D109V (GAT?GTT) ,mprA ?,0,0,0,0,0
+D109E (GAT?GAG) ,mprA ?,0,0,0,0,0
+C112* (TGC?TGA) ,mprA ?,0,0,0,0,0
+coding (344?412/531 nt),mprA ?,0,1,0,0,0
+G121D (GGT?GAT) ,mprA ?,0,0,0,0,0
+W140* (TGG?TGA) ,mprA ?,0,0,0,0,0
+intergenic,mprA ? / ? emrA,0,0,0,0,0
+intergenic,mprA ? / ? emrA,0,0,0,0,0
+intergenic,mprA ? / ? emrA,0,0,0,0,0
+intergenic,mprA ? / ? emrA,0,0,0,0,0
+intergenic,mprA ? / ? emrA,1,0,1,0,0
+intergenic,mprA ? / ? emrA,0,1,0,0,0
+L24H (CTC?CAC) ,emrA ?,0,0,1,0,0
+I313L (ATC?CTC) ,emrA ?,0,0,0,0,0
+M219I (ATG?ATA) ,emrB ?,0,0,0,0,0
+E297V (GAG?GTG) ,emrB ?,0,0,0,0,0
+V337A (GTA?GCA) ,emrB ?,0,1,0,0,0
+P357L (CCA?CTA) ,emrB ?,1,0,0,0,0
+S411A (TCT?GCT) ,emrB ?,1,0,0,0,0
+intergenic,recA ? / ? ygaD,0,0,0,1,0
+P166L (CCA?CTA) ,rpoS ?,0,0,1,0,0
+Q13* (CAG?TAG) ,rpoS ?,0,0,0,0,0
+intergenic,rpoS ? / ? nlpD,0,0,0,0,0
+coding (656/1140 nt),nlpD ?,0,0,0,0,0
+G81* (GGA?TGA) ,ygbE ?,0,0,0,0,0
+intergenic,gcvA ? / ? ygdI,0,0,0,0,0
+coding (645/660 nt),yghB ?,0,0,0,0,0
+Y571H (TAC?CAC) ,rpoD ?,0,1,0,0,0
+intergenic,yhaO ? / ? tdcG,0,0,0,0,0
+G146R (GGG?AGG) ,yhaC ?,0,0,0,0,0
+coding (272/336 nt),sohA ?,0,0,0,0,0
+E404* (GAA?TAA) ,rng ?,1,0,0,0,0
+L368* (TTG?TAG) ,rng ?,0,0,0,1,0
+L280P (CTG?CCG) ,rng ?,0,0,0,0,1
+E227* (GAA?TAA) ,rng ?,0,0,0,0,0
+Q477R (CAG?CGG) ,rpoC ?,0,0,0,1,0
+R944C (CGT?TGT) ,rpoB ?,0,0,0,0,0
+S182A (TCC?GCC) ,rpoB ?,1,0,0,0,0
+intergenic,cpxP ? / ? cpxR,0,0,1,0,0
+intergenic,rhaA ? / ? rhaD,0,0,0,0,0
+intergenic,yiiE ? / ? yiiD,0,0,0,0,1
+N804K (AAC?AAA) ,cyaA ?,1,0,0,0,0
+Q671* (CAG?TAG) ,cyaA ?,0,0,0,1,0
+coding (1552/2547 nt),cyaA ?,0,1,0,0,0
+K105E (AAA?GAA) ,rho ?,0,0,0,0,1
+A300E (GCG?GAG) ,rbsR ?,0,1,0,0,0
+intergenic,glvB ? / ? yidL,0,0,0,0,0
+W339R (TGG?AGG) ,spoT ?,0,0,0,0,0
+intergenic,lldP ? / ? yibL,0,0,0,0,0
+coding (728/912 nt),glyQ ?,1,0,0,0,0
+D212N (GAC?AAC) ,bcsB ?,0,0,0,0,1
+coding (234/528 nt),gadE ?,0,0,0,1,0
+intergenic,gadE ? / ? hdeD,0,0,0,0,0
+coding (167/531 nt),yhiF ?,0,0,0,0,0
+coding (578/1500 nt),pitA ?,0,0,0,0,0
+V91G (GTG?GGG) ,greB ?,0,0,0,0,0
+coding (585?590/990 nt),rpoA ?,0,0,0,0,0
+intergenic,rrlE ? / ? rrfE,0,0,0,1,0
+intergenic,rrlE ? / ? rrfE,0,0,0,1,0
+F951C (TTT?TGT) ,metH ?,0,0,0,0,0
+S740Y (TCC?TAC) ,plsB ?,0,0,0,0,0
+L453Q (CTG?CAG) ,plsB ?,0,0,0,0,0
+L449Q (CTG?CAG) ,plsB ?,0,1,0,0,0
+E438A (GAA?GCA) ,plsB ?,0,0,0,0,0
+G341R (GGG?AGG) ,plsB ?,0,0,0,0,0
+M128R (ATG?AGG) ,plsB ?,1,0,0,0,0
+intergenic,plsB ? / ? dgkA,0,0,0,0,0
+K58Q (AAA?CAA) ,alsE ?,0,0,1,0,0
+G596G (GGG?GGA) ,yjeP ?,0,0,0,0,0
+F124L (TTC?TTA) ,ytfI ?,1,0,0,0,0
+T125I (ACC?ATC) ,ytfQ ?,0,0,0,0,0
+C401F (TGC?TTC) ,treB ?,0,0,0,0,0
+coding (110/132 nt),Y75_RS22485 ?,0,0,0,0,0
+coding (128/597 nt),fimE ?,0,0,0,0,0
+coding (258/597 nt),fimE ?,0,0,0,0,1
+T87N (ACC?AAC) ,fimE ?,0,1,0,0,0
+coding (417/597 nt),fimE ?,1,0,0,0,0
+coding (511/597 nt),fimE ?,0,0,0,1,0
+intergenic,fimE ? / ? fimA,0,0,0,0,0
+intergenic,fimE ? / ? Y75_RS22535,0,0,1,0,0
+intergenic,Y75_RS22535 ? / ? fimA,0,0,0,0,1
+intergenic,yjiW ? / ? hsdS,0,0,0,0,0
+coding (63/915 nt),yjjM ?,0,0,0,0,0
+E94K (GAA?AAA) ,arcA ?,0,0,0,0,0
+T3P (ACC?CCC) ,arcA ?,0,0,0,0,0
+intergenic,mokC ? / ? nhaA,0,0,0,0,0
+T646A (ACC?GCC) ,carB ?,0,0,0,0,0
+G8D (GGC?GAC) ,ksgA ?,0,0,0,0,0
+A553T (GCC?ACC) ,imp ?,0,0,0,0,0
+L39L (CTG?CTA) ,yabQ ?,0,0,0,0,0
+D470N (GAC?AAC) ,araA ?,0,0,0,0,0
+R207C (CGT?TGT) ,yabI ?,0,0,0,0,0
+A32V (GCC?GTC) ,leuO ?,0,0,0,0,0
+N29S (AAC?AGC) ,mraZ ?,0,0,0,0,0
+K36K (AAA?AAG) ,ampE ?,0,0,0,0,0
+V408A (GTG?GCG) ,lpd ?,0,0,0,0,0
+intergenic,yacC ? / ? cueO,0,0,0,0,0
+S280S (AGC?AGT) ,mrcB ?,0,0,0,0,0
+N249S (AAC?AGC) ,fhuB ?,0,0,0,0,0
+intergenic,yaeF ? / ? proS,0,0,0,0,0
+N62S (AAC?AGC) ,proS ?,0,0,0,0,0
+A240T (GCC?ACC) ,metQ ?,0,0,0,0,0
+intergenic,rrlH ? / ? rrfH,0,0,0,0,0
+C60R (TGT?CGT) ,yafU ?,0,0,0,0,0
+D134G (GAT?GGT) ,ivy ?,0,0,0,0,0
+C455C (TGT?TGC) ,fadE ?,0,0,0,0,0
+R10R (CGT?CGC) ,ykfJ ?,0,0,0,0,0
+S192S (TCG?TCA) ,insI ?,0,0,0,0,0
+L106L (TTG?CTG) ,ykfC ?,0,0,0,0,0
+A78V (GCG?GTG) ,mmuP ?,0,0,0,0,0
+A28V (GCG?GTG) ,yagJ ?,0,0,0,0,0
+S215P (TCA?CCA) ,yagM ?,0,0,0,0,0
+S189S (TCG?TCA) ,intF ?,0,0,0,0,0
+Y24C (TAC?TGC) ,ykgL ?,0,0,0,0,0
+G276S (GGC?AGC) ,insF ?,0,0,0,0,0
+A242A (GCG?GCA) ,ykgC ?,0,0,0,0,0
+R10W (CGG?TGG) ,betI ?,0,0,0,0,0
+coding (1236/1383 nt),yahJ ?,0,0,0,0,0
+G181R (GGA?AGA) ,lacZ ?,0,0,0,0,0
+A209A (GCG?GCA) ,frmA ?,0,0,0,0,0
+intergenic,frmR ? / ? yaiO,0,0,0,0,0
+N301S (AAC?AGC) ,yaiU ?,0,0,0,0,0
+coding (755/909 nt),mak ?,0,0,0,0,0
+G95G (GGT?GGC) ,tsx ?,0,0,0,0,0
+A5T (GCA?ACA) ,yajL ?,0,0,0,0,0
+Q300R (CAG?CGG) ,lon ?,0,0,0,0,0
+W187* (TGG?TAG) ,acrB ?,0,0,0,0,0
+R1227W (CGG?TGG) ,rhsD ?,0,0,0,0,0
+S109S (TCC?TCT) ,rzpD ?,0,0,0,0,0
+I397T (ATT?ACT) ,cusS ?,0,0,0,0,0
+coding (1083/1113 nt),insL ?,0,0,0,0,0
+A405V (GCA?GTA) ,fepA ?,0,0,0,0,0
+A213T (GCC?ACC) ,entB ?,0,0,0,0,0
+V265A (GTG?GCG) ,ybdH ?,0,0,0,0,0
 ,insH,0,0,0,0,0
-V345AÂ (GTGâ†’GCG)Â ,mrdAÂ â†,0,0,0,0,0
-V410AÂ (GTCâ†’GCC)Â ,miaBÂ â†,0,0,0,0,0
-intergenic,nagEÂ â†’Â /Â â†’Â glnS,0,0,0,0,0
-codingÂ (917/1434Â nt),ybfOÂ â†’,0,0,0,0,0
-Q70RÂ (CAGâ†’CGG)Â ,tolQÂ â†’,0,0,0,0,0
-A44TÂ (GCCâ†’ACC)Â ,modFÂ â†,0,0,0,0,0
-H362YÂ (CACâ†’TAC)Â ,ybhIÂ â†’,0,0,0,0,0
-A244AÂ (GCGâ†’GCA)Â ,bioFÂ â†’,0,0,0,0,0
-E209EÂ (GAAâ†’GAG)Â ,ybhSÂ â†,0,0,0,0,0
-A2VÂ (GCAâ†’GTA)Â ,dinGÂ â†’,0,0,0,0,0
-R131RÂ (CGTâ†’CGC)Â ,glnPÂ â†,0,0,0,0,0
-T524IÂ (ACCâ†’ATC)Â ,ybiWÂ â†,0,0,0,0,0
-G144GÂ (GGCâ†’GGT)Â ,ftsKÂ â†’,0,0,0,0,0
-Q103RÂ (CAAâ†’CGA)Â ,ycaMÂ â†’,0,0,0,0,0
-R318RÂ (CGTâ†’CGC)Â ,ycbXÂ â†,0,0,0,0,0
-T564AÂ (ACCâ†’GCC)Â ,ycbYÂ â†’,0,0,0,0,0
-D196GÂ (GACâ†’GGC)Â ,yccRÂ â†’,0,0,0,0,0
-A450AÂ (GCGâ†’GCA)Â ,torSÂ â†,0,0,0,0,0
-V198AÂ (GTTâ†’GCT)Â ,ycdCÂ â†’,0,0,0,0,0
-M423IÂ (ATGâ†’ATA)Â ,ycdQÂ â†,0,0,0,0,0
-F124LÂ (TTCâ†’CTC)Â ,ycdUÂ â†’,0,0,0,0,0
-C171CÂ (TGCâ†’TGT)Â ,ycdUÂ â†’,0,0,0,0,0
-R769CÂ (CGCâ†’TGC)Â ,mdoHÂ â†’,0,0,0,0,0
-K146KÂ (AAAâ†’AAG)Â ,mviMÂ â†’,0,0,0,0,0
-Q124*Â (CAGâ†’TAG)Â ,flgGÂ â†’,0,0,0,0,0
-E664KÂ (GAAâ†’AAA)Â ,rneÂ â†,0,0,0,0,0
-A149VÂ (GCCâ†’GTC)Â ,plsXÂ â†’,0,0,0,0,0
-R215QÂ (CGAâ†’CAA)Â ,ycfHÂ â†’,0,0,0,0,0
-H366HÂ (CACâ†’CAT)Â ,icdÂ â†’,0,0,0,0,0
-T370TÂ (ACCâ†’ACT)Â ,icdÂ â†’,0,0,0,0,0
-G11GÂ (GGCâ†’GGT)Â ,dsbBÂ â†,0,0,0,0,0
-codingÂ (1164â€‘1295/1542Â nt),nhaBÂ â†,0,0,0,0,0
-R196HÂ (CGTâ†’CAT)Â ,nhaBÂ â†,0,0,0,0,0
-T153MÂ (ACGâ†’ATG)Â ,cvrAÂ â†,0,0,0,0,0
-codingÂ (2098/2868Â nt),ycgVÂ â†,0,0,0,0,0
-I145IÂ (ATCâ†’ATT)Â ,ychMÂ â†,0,0,0,0,0
-intergenic,prsAÂ â†Â /Â â†Â ispE,0,0,0,0,0
-V21IÂ (GTTâ†’ATT)Â ,chaAÂ â†,0,0,0,0,0
-intergenic,trpEÂ â†Â /Â â†’Â yciV,0,0,0,0,0
-V93VÂ (GTAâ†’GTG)Â ,yciSÂ â†’,0,0,0,0,0
-R292RÂ (CGTâ†’CGC)Â ,sapAÂ â†,0,0,0,0,0
-A391VÂ (GCCâ†’GTC)Â ,puuBÂ â†’,0,0,0,0,0
-P223SÂ (CCGâ†’TCG)Â ,pspFÂ â†,0,0,0,0,0
-P68LÂ (CCGâ†’CTG)Â ,pspCÂ â†’,0,0,0,0,0
-intergenic,pspEÂ â†’Â /Â â†’Â ycjM,0,0,0,0,0
-T15AÂ (ACCâ†’GCC)Â ,ycjGÂ â†’,0,0,0,0,0
-G270RÂ (GGGâ†’AGG)Â ,intRÂ â†,0,0,0,0,0
-intergenic,ynaEÂ â†Â /Â â†Â uspF,0,0,0,0,0
-E107EÂ (GAAâ†’GAG)Â ,ldhAÂ â†,0,0,0,0,0
-R129RÂ (CGTâ†’CGC)Â ,feaBÂ â†’,0,0,0,0,0
-I179IÂ (ATTâ†’ATC)Â ,feaBÂ â†’,0,0,0,0,0
-S193PÂ (TCAâ†’CCA)Â ,ydcMÂ â†’,0,0,0,0,0
-A174VÂ (GCGâ†’GTG)Â ,ydcUÂ â†’,0,0,0,0,0
-M832VÂ (ATGâ†’GTG)Â ,fdnGÂ â†’,0,0,0,0,0
-codingÂ (3955/3978Â nt),ydeKÂ â†,0,0,0,0,0
-codingÂ (3831/3978Â nt),ydeKÂ â†,0,0,0,0,0
-codingÂ (774/3978Â nt),ydeKÂ â†,0,0,0,0,0
-codingÂ (774/3978Â nt),ydeKÂ â†,0,0,0,0,0
-G266DÂ (GGCâ†’GAC)Â ,stfQÂ â†,0,0,0,0,0
-intergenic,essQÂ â†Â /Â â†Â cspB,0,0,0,0,0
-codingÂ (677â€‘678/1221Â nt),dgsAÂ â†,0,0,0,0,0
-A214AÂ (GCAâ†’GCG)Â ,ydhHÂ â†,0,0,0,0,0
-codingÂ (36/2013Â nt),ydhKÂ â†’,0,0,0,0,0
-I80TÂ (ATTâ†’ACT)Â ,ydhKÂ â†’,0,0,0,0,0
-codingÂ (909/4617Â nt),lhrÂ â†’,0,0,0,0,0
-A566AÂ (GCCâ†’GCT)Â ,lhrÂ â†’,0,0,0,0,0
-M313VÂ (ATGâ†’GTG)Â ,ydhPÂ â†,0,0,0,0,0
-A73AÂ (GCGâ†’GCA)Â ,ydiDÂ â†’,0,0,0,0,0
-intergenic,ydjRÂ â†Â /Â â†Â spy,0,0,0,0,0
-A100AÂ (GCGâ†’GCA)Â ,ansAÂ â†’,0,0,0,0,0
-Y43CÂ (TACâ†’TGC)Â ,gapAÂ â†’,0,0,0,0,0
-E70KÂ (GAAâ†’AAA)Â ,yeaWÂ â†’,0,0,0,0,0
-A32TÂ (GCCâ†’ACC)Â ,yoaEÂ â†,0,0,0,0,0
-intergenic,yebQÂ â†’Â /Â â†Â htpX,0,0,0,0,0
-Q511RÂ (CAGâ†’CGG)Â ,flhAÂ â†,0,0,0,0,0
-S311SÂ (AGTâ†’AGC)Â ,fliKÂ â†’,0,0,0,0,0
-M220IÂ (ATGâ†’ATA)Â ,dcmÂ â†,0,0,0,0,0
-V188AÂ (GTGâ†’GCG)Â ,yedWÂ â†,0,0,0,0,0
-A184AÂ (GCGâ†’GCA)Â ,yeeRÂ â†’,0,0,0,0,0
-L349PÂ (CTGâ†’CCG)Â ,yeeFÂ â†,0,0,0,0,0
-R283CÂ (CGTâ†’TGT)Â ,wzxCÂ â†,0,0,0,0,0
-A326VÂ (GCGâ†’GTG)Â ,wcaCÂ â†,0,0,0,0,0
-A109AÂ (GCAâ†’GCG)Â ,asmAÂ â†,0,0,0,0,0
-V632AÂ (GTGâ†’GCG)Â ,yegEÂ â†’,0,0,0,0,0
-A197TÂ (GCTâ†’ACT)Â ,yegDÂ â†’,0,0,0,0,0
-intergenic,baeRÂ â†’Â /Â â†’Â yegP,0,0,0,0,0
-I166IÂ (ATTâ†’ATC)Â ,yegSÂ â†’,0,0,0,0,0
-intergenic,yegSÂ â†’Â /Â â†’Â insE,0,0,0,0,0
+V345A (GTG?GCG) ,mrdA ?,0,0,0,0,0
+V410A (GTC?GCC) ,miaB ?,0,0,0,0,0
+intergenic,nagE ? / ? glnS,0,0,0,0,0
+coding (917/1434 nt),ybfO ?,0,0,0,0,0
+Q70R (CAG?CGG) ,tolQ ?,0,0,0,0,0
+A44T (GCC?ACC) ,modF ?,0,0,0,0,0
+H362Y (CAC?TAC) ,ybhI ?,0,0,0,0,0
+A244A (GCG?GCA) ,bioF ?,0,0,0,0,0
+E209E (GAA?GAG) ,ybhS ?,0,0,0,0,0
+A2V (GCA?GTA) ,dinG ?,0,0,0,0,0
+R131R (CGT?CGC) ,glnP ?,0,0,0,0,0
+T524I (ACC?ATC) ,ybiW ?,0,0,0,0,0
+G144G (GGC?GGT) ,ftsK ?,0,0,0,0,0
+Q103R (CAA?CGA) ,ycaM ?,0,0,0,0,0
+R318R (CGT?CGC) ,ycbX ?,0,0,0,0,0
+T564A (ACC?GCC) ,ycbY ?,0,0,0,0,0
+D196G (GAC?GGC) ,yccR ?,0,0,0,0,0
+A450A (GCG?GCA) ,torS ?,0,0,0,0,0
+V198A (GTT?GCT) ,ycdC ?,0,0,0,0,0
+M423I (ATG?ATA) ,ycdQ ?,0,0,0,0,0
+F124L (TTC?CTC) ,ycdU ?,0,0,0,0,0
+C171C (TGC?TGT) ,ycdU ?,0,0,0,0,0
+R769C (CGC?TGC) ,mdoH ?,0,0,0,0,0
+K146K (AAA?AAG) ,mviM ?,0,0,0,0,0
+Q124* (CAG?TAG) ,flgG ?,0,0,0,0,0
+E664K (GAA?AAA) ,rne ?,0,0,0,0,0
+A149V (GCC?GTC) ,plsX ?,0,0,0,0,0
+R215Q (CGA?CAA) ,ycfH ?,0,0,0,0,0
+H366H (CAC?CAT) ,icd ?,0,0,0,0,0
+T370T (ACC?ACT) ,icd ?,0,0,0,0,0
+G11G (GGC?GGT) ,dsbB ?,0,0,0,0,0
+coding (1164?1295/1542 nt),nhaB ?,0,0,0,0,0
+R196H (CGT?CAT) ,nhaB ?,0,0,0,0,0
+T153M (ACG?ATG) ,cvrA ?,0,0,0,0,0
+coding (2098/2868 nt),ycgV ?,0,0,0,0,0
+I145I (ATC?ATT) ,ychM ?,0,0,0,0,0
+intergenic,prsA ? / ? ispE,0,0,0,0,0
+V21I (GTT?ATT) ,chaA ?,0,0,0,0,0
+intergenic,trpE ? / ? yciV,0,0,0,0,0
+V93V (GTA?GTG) ,yciS ?,0,0,0,0,0
+R292R (CGT?CGC) ,sapA ?,0,0,0,0,0
+A391V (GCC?GTC) ,puuB ?,0,0,0,0,0
+P223S (CCG?TCG) ,pspF ?,0,0,0,0,0
+P68L (CCG?CTG) ,pspC ?,0,0,0,0,0
+intergenic,pspE ? / ? ycjM,0,0,0,0,0
+T15A (ACC?GCC) ,ycjG ?,0,0,0,0,0
+G270R (GGG?AGG) ,intR ?,0,0,0,0,0
+intergenic,ynaE ? / ? uspF,0,0,0,0,0
+E107E (GAA?GAG) ,ldhA ?,0,0,0,0,0
+R129R (CGT?CGC) ,feaB ?,0,0,0,0,0
+I179I (ATT?ATC) ,feaB ?,0,0,0,0,0
+S193P (TCA?CCA) ,ydcM ?,0,0,0,0,0
+A174V (GCG?GTG) ,ydcU ?,0,0,0,0,0
+M832V (ATG?GTG) ,fdnG ?,0,0,0,0,0
+coding (3955/3978 nt),ydeK ?,0,0,0,0,0
+coding (3831/3978 nt),ydeK ?,0,0,0,0,0
+coding (774/3978 nt),ydeK ?,0,0,0,0,0
+coding (774/3978 nt),ydeK ?,0,0,0,0,0
+G266D (GGC?GAC) ,stfQ ?,0,0,0,0,0
+intergenic,essQ ? / ? cspB,0,0,0,0,0
+coding (677?678/1221 nt),dgsA ?,0,0,0,0,0
+A214A (GCA?GCG) ,ydhH ?,0,0,0,0,0
+coding (36/2013 nt),ydhK ?,0,0,0,0,0
+I80T (ATT?ACT) ,ydhK ?,0,0,0,0,0
+coding (909/4617 nt),lhr ?,0,0,0,0,0
+A566A (GCC?GCT) ,lhr ?,0,0,0,0,0
+M313V (ATG?GTG) ,ydhP ?,0,0,0,0,0
+A73A (GCG?GCA) ,ydiD ?,0,0,0,0,0
+intergenic,ydjR ? / ? spy,0,0,0,0,0
+A100A (GCG?GCA) ,ansA ?,0,0,0,0,0
+Y43C (TAC?TGC) ,gapA ?,0,0,0,0,0
+E70K (GAA?AAA) ,yeaW ?,0,0,0,0,0
+A32T (GCC?ACC) ,yoaE ?,0,0,0,0,0
+intergenic,yebQ ? / ? htpX,0,0,0,0,0
+Q511R (CAG?CGG) ,flhA ?,0,0,0,0,0
+S311S (AGT?AGC) ,fliK ?,0,0,0,0,0
+M220I (ATG?ATA) ,dcm ?,0,0,0,0,0
+V188A (GTG?GCG) ,yedW ?,0,0,0,0,0
+A184A (GCG?GCA) ,yeeR ?,0,0,0,0,0
+L349P (CTG?CCG) ,yeeF ?,0,0,0,0,0
+R283C (CGT?TGT) ,wzxC ?,0,0,0,0,0
+A326V (GCG?GTG) ,wcaC ?,0,0,0,0,0
+A109A (GCA?GCG) ,asmA ?,0,0,0,0,0
+V632A (GTG?GCG) ,yegE ?,0,0,0,0,0
+A197T (GCT?ACT) ,yegD ?,0,0,0,0,0
+intergenic,baeR ? / ? yegP,0,0,0,0,0
+I166I (ATT?ATC) ,yegS ?,0,0,0,0,0
+intergenic,yegS ? / ? insE,0,0,0,0,0
 ,insH,0,0,0,0,0
-P566PÂ (CCGâ†’CCA)Â ,metGÂ â†’,0,0,0,0,0
-intergenic,yejGÂ â†Â /Â â†Â bcr,0,0,0,0,0
-A399AÂ (GCCâ†’GCT)Â ,yejHÂ â†’,0,0,0,0,0
-codingÂ (531/624Â nt),ccmAÂ â†,0,0,0,0,0
-T204TÂ (ACCâ†’ACT)Â ,mqoÂ â†,0,0,0,0,0
-,insDâ€“insC,0,0,0,0,0
-codingÂ (1044/1323Â nt),atoEÂ â†’,0,0,0,0,0
-L342LÂ (CTGâ†’CTA)Â ,nrdAÂ â†’,0,0,0,0,0
-R50RÂ (CGTâ†’CGC)Â ,nrdBÂ â†’,0,0,0,0,0
-intergenic,yfaXÂ â†Â /Â â†Â yfaY,0,0,0,0,0
-D224GÂ (GATâ†’GGT)Â ,yfbHÂ â†’,0,0,0,0,0
-R217CÂ (CGCâ†’TGC)Â ,menCÂ â†,0,0,0,0,0
-T396AÂ (ACCâ†’GCC)Â ,yfbKÂ â†,0,0,0,0,0
-Q207QÂ (CAAâ†’CAG)Â ,yfcGÂ â†’,0,0,0,0,0
-S69GÂ (AGCâ†’GGC)Â ,accDÂ â†,0,0,0,0,0
-P333SÂ (CCGâ†’TCG)Â ,pdxBÂ â†,0,0,0,0,0
-T290MÂ (ACGâ†’ATG)Â ,yfcJÂ â†,0,0,0,0,0
-Q226*Â (CAAâ†’TAA)Â ,mepAÂ â†,0,0,0,0,0
-V76VÂ (GTAâ†’GTG)Â ,yfcPÂ â†,0,0,0,0,0
-E60GÂ (GAGâ†’GGG)Â ,yfcUÂ â†,0,0,0,0,0
-R161HÂ (CGCâ†’CAC)Â ,intSÂ â†’,0,0,0,0,0
-G71GÂ (GGCâ†’GGT)Â ,dsdXÂ â†’,0,0,0,0,0
-R345CÂ (CGCâ†’TGC)Â ,oxcÂ â†,0,0,0,0,0
-L313QÂ (CTGâ†’CAG)Â ,cysAÂ â†,0,0,0,0,0
-G184EÂ (GGGâ†’GAG)Â ,hemFÂ â†’,0,0,0,0,0
-R239RÂ (CGTâ†’CGC)Â ,hemFÂ â†’,0,0,0,0,0
-R656GÂ (AGGâ†’GGG)Â ,maeBÂ â†,0,0,0,0,0
-codingÂ (200/2019Â nt),hyfBÂ â†’,0,0,0,0,0
-P197SÂ (CCCâ†’TCC)Â ,focBÂ â†’,0,0,0,0,0
-S33PÂ (TCCâ†’CCC)Â ,yfgLÂ â†,0,0,0,0,0
-A89VÂ (GCGâ†’GTG)Â ,hcaTÂ â†,0,0,0,0,0
-C95RÂ (TGTâ†’CGT)Â ,yphHÂ â†’,0,0,0,0,0
-G322DÂ (GGCâ†’GAC)Â ,lepBÂ â†,0,0,0,0,0
-L177LÂ (CTAâ†’CTG)Â ,kgtPÂ â†,0,0,0,0,0
-intergenic,gltWÂ â†Â /Â â†Â rrsG,0,0,0,0,0
-intergenic,gltWÂ â†Â /Â â†Â rrsG,0,0,0,0,0
-intergenic,gltWÂ â†Â /Â â†Â rrsG,0,0,0,0,0
-noncodingÂ (273/1542Â nt),rrsGÂ â†,0,0,0,0,0
-noncodingÂ (253/1542Â nt),rrsGÂ â†,0,0,0,0,0
-noncodingÂ (250/1542Â nt),rrsGÂ â†,0,0,0,0,0
-D84DÂ (GATâ†’GAC)Â ,yfiOÂ â†’,0,0,0,0,0
-V236AÂ (GTGâ†’GCG)Â ,ypjDÂ â†’,0,0,0,0,0
-codingÂ (939/957Â nt),yfjHÂ â†,0,0,0,0,0
-D523DÂ (GACâ†’GAT)Â ,yfjKÂ â†,0,0,0,0,0
-intergenic,yfjMÂ â†Â /Â â†’Â yfjN,0,0,0,0,0
-intergenic,yfjOÂ â†’Â /Â â†’Â yfjP,0,0,0,0,0
-G16SÂ (GGTâ†’AGT)Â ,yfjPÂ â†’,0,0,0,0,0
-Y86HÂ (TATâ†’CAT)Â ,gabTÂ â†’,0,0,0,0,0
-W140*Â (TGGâ†’TAG)Â ,mprAÂ â†’,0,0,0,0,0
-intergenic,mprAÂ â†’Â /Â â†’Â emrA,0,0,0,0,0
-M333VÂ (ATGâ†’GTG)Â ,emrBÂ â†’,0,0,0,0,0
-G196GÂ (GGCâ†’GGG)Â ,alaSÂ â†,0,0,0,0,0
-N94NÂ (AACâ†’AAT)Â ,hycHÂ â†,0,0,0,0,0
-G414GÂ (GGTâ†’GGC)Â ,fhlAÂ â†’,0,0,0,0,0
-W709*Â (TGGâ†’TGA)Â ,mutSÂ â†’,0,0,0,0,0
-T120AÂ (ACTâ†’GCT)Â ,iapÂ â†’,0,0,0,0,0
-S303SÂ (TCCâ†’TCT)Â ,ygcLÂ â†,0,0,0,0,0
-Y258CÂ (TACâ†’TGC)Â ,enoÂ â†,0,0,0,0,0
-T160AÂ (ACGâ†’GCG)Â ,mazGÂ â†,0,0,0,0,0
-L80PÂ (CTGâ†’CCG)Â ,relAÂ â†,0,0,0,0,0
-L162PÂ (CTGâ†’CCG)Â ,gudDÂ â†,0,0,0,0,0
-I75IÂ (ATCâ†’ATT)Â ,yqcAÂ â†,0,0,0,0,0
-V410AÂ (GTAâ†’GCA)Â ,sdaCÂ â†’,0,0,0,0,0
-intergenic,gcvAÂ â†Â /Â â†Â ygdI,0,0,0,0,0
-N39SÂ (AACâ†’AGC)Â ,ppdCÂ â†,0,0,0,0,0
-G50GÂ (GGTâ†’GGC)Â ,yqeHÂ â†’,0,0,0,0,0
-codingÂ (370/447Â nt),ygeFÂ â†’,0,0,0,0,0
-V309MÂ (GTGâ†’ATG)Â ,hyuAÂ â†’,0,0,0,0,0
-Q250QÂ (CAGâ†’CAA)Â ,recJÂ â†,0,0,0,0,0
-A372VÂ (GCGâ†’GTG)Â ,gcvPÂ â†,0,0,0,0,0
-K317KÂ (AAAâ†’AAG)Â ,visCÂ â†,0,0,0,0,0
-intergenic,argPÂ â†’Â /Â â†’Â yliK,0,0,0,0,0
-A167AÂ (GCAâ†’GCG)Â ,argOÂ â†,0,0,0,0,0
-A144VÂ (GCTâ†’GTT)Â ,pgkÂ â†,0,0,0,0,0
-V163AÂ (GTTâ†’GCT)Â ,sprTÂ â†’,0,0,0,0,0
-N47DÂ (AACâ†’GAC)Â ,yggJÂ â†’,0,0,0,0,0
-R277RÂ (CGGâ†’CGA)Â ,mutYÂ â†’,0,0,0,0,0
-I242IÂ (ATCâ†’ATT)Â ,glcBÂ â†,0,0,0,0,0
-V117VÂ (GTCâ†’GTT)Â ,hybDÂ â†,0,0,0,0,0
-intergenic,yghWÂ â†Â /Â â†’Â yghZ,0,0,0,0,0
-A182AÂ (GCAâ†’GCG)Â ,exbBÂ â†,0,0,0,0,0
-L62LÂ (CTGâ†’TTG)Â ,exbBÂ â†,0,0,0,0,0
-K124KÂ (AAAâ†’AAG)Â ,metCÂ â†’,0,0,0,0,0
-A325AÂ (GCGâ†’GCA)Â ,metCÂ â†’,0,0,0,0,0
-codingÂ (915/957Â nt),yqhCÂ â†,0,0,0,0,0
-codingÂ (402/630Â nt),nudFÂ â†,0,0,0,0,0
-codingÂ (1499/1662Â nt),yqiKÂ â†’,0,0,0,0,0
-N288SÂ (AATâ†’AGT)Â ,rfaEÂ â†,0,0,0,0,0
-A732AÂ (GCGâ†’GCA)Â ,ygjKÂ â†’,0,0,0,0,0
-Q137RÂ (CAGâ†’CGG)Â ,ygjPÂ â†’,0,0,0,0,0
-V393AÂ (GTGâ†’GCG)Â ,sstTÂ â†’,0,0,0,0,0
-W289*Â (TGGâ†’TAG)Â ,exuTÂ â†’,0,0,0,0,0
-intergenic,yhaJÂ â†Â /Â â†’Â yhaK,0,0,0,0,0
-L106PÂ (CTCâ†’CCC)Â ,yhaKÂ â†’,0,0,0,0,0
-A149AÂ (GCGâ†’GCA)Â ,yhaKÂ â†’,0,0,0,0,0
-G215DÂ (GGCâ†’GAC)Â ,tdcBÂ â†,0,0,0,0,0
-Q325RÂ (CAGâ†’CGG)Â ,garKÂ â†,0,0,0,0,0
-Y404CÂ (TACâ†’TGC)Â ,garPÂ â†,0,0,0,0,0
-codingÂ (272/336Â nt),sohAÂ â†’,0,0,0,0,0
-T178TÂ (ACTâ†’ACC)Â ,truBÂ â†,0,0,0,0,0
-P385SÂ (CCGâ†’TCG)Â ,yhbXÂ â†,0,0,0,0,0
-T545TÂ (ACTâ†’ACC)Â ,gltBÂ â†’,0,0,0,0,0
-A100VÂ (GCGâ†’GTG)Â ,yhdWÂ â†’,0,0,0,0,0
-codingÂ (438/1104Â nt),yhdYÂ â†’,0,0,0,0,0
-R14RÂ (CGGâ†’CGA)Â ,thiCÂ â†’,0,0,0,0,0
-intergenic,rrlBÂ â†Â /Â â†Â gltT,0,0,0,0,0
-intergenic,rrlBÂ â†Â /Â â†Â gltT,0,0,0,0,0
-intergenic,rrlBÂ â†Â /Â â†Â gltT,0,0,0,0,0
-intergenic,rrlBÂ â†Â /Â â†Â gltT,0,0,0,0,0
-R81CÂ (CGCâ†’TGC)Â ,metJÂ â†’,0,0,0,0,0
-A80AÂ (GCTâ†’GCC)Â ,yiiQÂ â†’,0,0,0,0,0
-C257RÂ (TGCâ†’CGC)Â ,rhaAÂ â†’,0,0,0,0,0
-intergenic,rhaAÂ â†’Â /Â â†’Â rhaD,0,0,0,0,0
-intergenic,rhaAÂ â†’Â /Â â†’Â rhaD,0,0,0,0,0
-intergenic,rhaAÂ â†’Â /Â â†’Â rhaD,0,0,0,0,0
-intergenic,rhaAÂ â†’Â /Â â†’Â rhaD,0,0,0,0,0
-intergenic,rhaAÂ â†’Â /Â â†’Â rhaD,0,0,0,0,0
-intergenic,rhaAÂ â†’Â /Â â†’Â rhaD,0,0,0,0,0
-L113LÂ (CTGâ†’TTG)Â ,dapFÂ â†,0,0,0,0,0
-P430LÂ (CCAâ†’CTA)Â ,cyaAÂ â†,0,0,0,0,0
-codingÂ (66/1386Â nt),yifKÂ â†,0,0,0,0,0
-A236TÂ (GCAâ†’ACA)Â ,rhoÂ â†,0,0,0,0,0
-A203AÂ (GCGâ†’GCA)Â ,ilvCÂ â†,0,0,0,0,0
-G103SÂ (GGCâ†’AGC)Â ,asnCÂ â†’,0,0,0,0,0
-R170SÂ (CGCâ†’AGC)Â ,pstAÂ â†’,0,0,0,0,0
-T370AÂ (ACTâ†’GCT)Â ,yieGÂ â†’,0,0,0,0,0
-intergenic,insHÂ â†’Â /Â â†Â tnaA,0,0,0,0,0
+P566P (CCG?CCA) ,metG ?,0,0,0,0,0
+intergenic,yejG ? / ? bcr,0,0,0,0,0
+A399A (GCC?GCT) ,yejH ?,0,0,0,0,0
+coding (531/624 nt),ccmA ?,0,0,0,0,0
+T204T (ACC?ACT) ,mqo ?,0,0,0,0,0
+,insD–insC,0,0,0,0,0
+coding (1044/1323 nt),atoE ?,0,0,0,0,0
+L342L (CTG?CTA) ,nrdA ?,0,0,0,0,0
+R50R (CGT?CGC) ,nrdB ?,0,0,0,0,0
+intergenic,yfaX ? / ? yfaY,0,0,0,0,0
+D224G (GAT?GGT) ,yfbH ?,0,0,0,0,0
+R217C (CGC?TGC) ,menC ?,0,0,0,0,0
+T396A (ACC?GCC) ,yfbK ?,0,0,0,0,0
+Q207Q (CAA?CAG) ,yfcG ?,0,0,0,0,0
+S69G (AGC?GGC) ,accD ?,0,0,0,0,0
+P333S (CCG?TCG) ,pdxB ?,0,0,0,0,0
+T290M (ACG?ATG) ,yfcJ ?,0,0,0,0,0
+Q226* (CAA?TAA) ,mepA ?,0,0,0,0,0
+V76V (GTA?GTG) ,yfcP ?,0,0,0,0,0
+E60G (GAG?GGG) ,yfcU ?,0,0,0,0,0
+R161H (CGC?CAC) ,intS ?,0,0,0,0,0
+G71G (GGC?GGT) ,dsdX ?,0,0,0,0,0
+R345C (CGC?TGC) ,oxc ?,0,0,0,0,0
+L313Q (CTG?CAG) ,cysA ?,0,0,0,0,0
+G184E (GGG?GAG) ,hemF ?,0,0,0,0,0
+R239R (CGT?CGC) ,hemF ?,0,0,0,0,0
+R656G (AGG?GGG) ,maeB ?,0,0,0,0,0
+coding (200/2019 nt),hyfB ?,0,0,0,0,0
+P197S (CCC?TCC) ,focB ?,0,0,0,0,0
+S33P (TCC?CCC) ,yfgL ?,0,0,0,0,0
+A89V (GCG?GTG) ,hcaT ?,0,0,0,0,0
+C95R (TGT?CGT) ,yphH ?,0,0,0,0,0
+G322D (GGC?GAC) ,lepB ?,0,0,0,0,0
+L177L (CTA?CTG) ,kgtP ?,0,0,0,0,0
+intergenic,gltW ? / ? rrsG,0,0,0,0,0
+intergenic,gltW ? / ? rrsG,0,0,0,0,0
+intergenic,gltW ? / ? rrsG,0,0,0,0,0
+noncoding (273/1542 nt),rrsG ?,0,0,0,0,0
+noncoding (253/1542 nt),rrsG ?,0,0,0,0,0
+noncoding (250/1542 nt),rrsG ?,0,0,0,0,0
+D84D (GAT?GAC) ,yfiO ?,0,0,0,0,0
+V236A (GTG?GCG) ,ypjD ?,0,0,0,0,0
+coding (939/957 nt),yfjH ?,0,0,0,0,0
+D523D (GAC?GAT) ,yfjK ?,0,0,0,0,0
+intergenic,yfjM ? / ? yfjN,0,0,0,0,0
+intergenic,yfjO ? / ? yfjP,0,0,0,0,0
+G16S (GGT?AGT) ,yfjP ?,0,0,0,0,0
+Y86H (TAT?CAT) ,gabT ?,0,0,0,0,0
+W140* (TGG?TAG) ,mprA ?,0,0,0,0,0
+intergenic,mprA ? / ? emrA,0,0,0,0,0
+M333V (ATG?GTG) ,emrB ?,0,0,0,0,0
+G196G (GGC?GGG) ,alaS ?,0,0,0,0,0
+N94N (AAC?AAT) ,hycH ?,0,0,0,0,0
+G414G (GGT?GGC) ,fhlA ?,0,0,0,0,0
+W709* (TGG?TGA) ,mutS ?,0,0,0,0,0
+T120A (ACT?GCT) ,iap ?,0,0,0,0,0
+S303S (TCC?TCT) ,ygcL ?,0,0,0,0,0
+Y258C (TAC?TGC) ,eno ?,0,0,0,0,0
+T160A (ACG?GCG) ,mazG ?,0,0,0,0,0
+L80P (CTG?CCG) ,relA ?,0,0,0,0,0
+L162P (CTG?CCG) ,gudD ?,0,0,0,0,0
+I75I (ATC?ATT) ,yqcA ?,0,0,0,0,0
+V410A (GTA?GCA) ,sdaC ?,0,0,0,0,0
+intergenic,gcvA ? / ? ygdI,0,0,0,0,0
+N39S (AAC?AGC) ,ppdC ?,0,0,0,0,0
+G50G (GGT?GGC) ,yqeH ?,0,0,0,0,0
+coding (370/447 nt),ygeF ?,0,0,0,0,0
+V309M (GTG?ATG) ,hyuA ?,0,0,0,0,0
+Q250Q (CAG?CAA) ,recJ ?,0,0,0,0,0
+A372V (GCG?GTG) ,gcvP ?,0,0,0,0,0
+K317K (AAA?AAG) ,visC ?,0,0,0,0,0
+intergenic,argP ? / ? yliK,0,0,0,0,0
+A167A (GCA?GCG) ,argO ?,0,0,0,0,0
+A144V (GCT?GTT) ,pgk ?,0,0,0,0,0
+V163A (GTT?GCT) ,sprT ?,0,0,0,0,0
+N47D (AAC?GAC) ,yggJ ?,0,0,0,0,0
+R277R (CGG?CGA) ,mutY ?,0,0,0,0,0
+I242I (ATC?ATT) ,glcB ?,0,0,0,0,0
+V117V (GTC?GTT) ,hybD ?,0,0,0,0,0
+intergenic,yghW ? / ? yghZ,0,0,0,0,0
+A182A (GCA?GCG) ,exbB ?,0,0,0,0,0
+L62L (CTG?TTG) ,exbB ?,0,0,0,0,0
+K124K (AAA?AAG) ,metC ?,0,0,0,0,0
+A325A (GCG?GCA) ,metC ?,0,0,0,0,0
+coding (915/957 nt),yqhC ?,0,0,0,0,0
+coding (402/630 nt),nudF ?,0,0,0,0,0
+coding (1499/1662 nt),yqiK ?,0,0,0,0,0
+N288S (AAT?AGT) ,rfaE ?,0,0,0,0,0
+A732A (GCG?GCA) ,ygjK ?,0,0,0,0,0
+Q137R (CAG?CGG) ,ygjP ?,0,0,0,0,0
+V393A (GTG?GCG) ,sstT ?,0,0,0,0,0
+W289* (TGG?TAG) ,exuT ?,0,0,0,0,0
+intergenic,yhaJ ? / ? yhaK,0,0,0,0,0
+L106P (CTC?CCC) ,yhaK ?,0,0,0,0,0
+A149A (GCG?GCA) ,yhaK ?,0,0,0,0,0
+G215D (GGC?GAC) ,tdcB ?,0,0,0,0,0
+Q325R (CAG?CGG) ,garK ?,0,0,0,0,0
+Y404C (TAC?TGC) ,garP ?,0,0,0,0,0
+coding (272/336 nt),sohA ?,0,0,0,0,0
+T178T (ACT?ACC) ,truB ?,0,0,0,0,0
+P385S (CCG?TCG) ,yhbX ?,0,0,0,0,0
+T545T (ACT?ACC) ,gltB ?,0,0,0,0,0
+A100V (GCG?GTG) ,yhdW ?,0,0,0,0,0
+coding (438/1104 nt),yhdY ?,0,0,0,0,0
+R14R (CGG?CGA) ,thiC ?,0,0,0,0,0
+intergenic,rrlB ? / ? gltT,0,0,0,0,0
+intergenic,rrlB ? / ? gltT,0,0,0,0,0
+intergenic,rrlB ? / ? gltT,0,0,0,0,0
+intergenic,rrlB ? / ? gltT,0,0,0,0,0
+R81C (CGC?TGC) ,metJ ?,0,0,0,0,0
+A80A (GCT?GCC) ,yiiQ ?,0,0,0,0,0
+C257R (TGC?CGC) ,rhaA ?,0,0,0,0,0
+intergenic,rhaA ? / ? rhaD,0,0,0,0,0
+intergenic,rhaA ? / ? rhaD,0,0,0,0,0
+intergenic,rhaA ? / ? rhaD,0,0,0,0,0
+intergenic,rhaA ? / ? rhaD,0,0,0,0,0
+intergenic,rhaA ? / ? rhaD,0,0,0,0,0
+intergenic,rhaA ? / ? rhaD,0,0,0,0,0
+L113L (CTG?TTG) ,dapF ?,0,0,0,0,0
+P430L (CCA?CTA) ,cyaA ?,0,0,0,0,0
+coding (66/1386 nt),yifK ?,0,0,0,0,0
+A236T (GCA?ACA) ,rho ?,0,0,0,0,0
+A203A (GCG?GCA) ,ilvC ?,0,0,0,0,0
+G103S (GGC?AGC) ,asnC ?,0,0,0,0,0
+R170S (CGC?AGC) ,pstA ?,0,0,0,0,0
+T370A (ACT?GCT) ,yieG ?,0,0,0,0,0
+intergenic,insH ? / ? tnaA,0,0,0,0,0
 ,insH,0,0,0,0,0
-T21AÂ (ACTâ†’GCT)Â ,yidHÂ â†’,0,0,0,0,0
-S22SÂ (TCCâ†’TCT)Â ,yicNÂ â†’,0,0,0,0,0
-G73GÂ (GGCâ†’GGT)Â ,yicRÂ â†’,0,0,0,0,0
-F224FÂ (TTCâ†’TTT)Â ,rfaDÂ â†,0,0,0,0,0
-A368AÂ (GCAâ†’GCG)Â ,selAÂ â†’,0,0,0,0,0
-E463KÂ (GAAâ†’AAA)Â ,bcsEÂ â†,0,0,0,0,0
-V181AÂ (GTGâ†’GCG)Â ,bcsBÂ â†’,0,0,0,0,0
-R71CÂ (CGTâ†’TGT)Â ,yhjKÂ â†’,0,0,0,0,0
-F188LÂ (TTTâ†’CTT)Â ,gadAÂ â†’,0,0,0,0,0
-T460AÂ (ACTâ†’GCT)Â ,prlCÂ â†’,0,0,0,0,0
-S425PÂ (TCTâ†’CCT)Â ,pitAÂ â†,0,0,0,0,0
-L153LÂ (TTGâ†’TTA)Â ,yhhTÂ â†,0,0,0,0,0
-intergenic,yhhQÂ â†Â /Â â†’Â yhhP,0,0,0,0,0
-codingÂ (133/768Â nt),livGÂ â†’,0,0,0,0,0
-E490EÂ (GAAâ†’GAG)Â ,glgXÂ â†’,0,0,0,0,0
-D419GÂ (GACâ†’GGC)Â ,malQÂ â†’,0,0,0,0,0
-A745TÂ (GCAâ†’ACA)Â ,yhgFÂ â†,0,0,0,0,0
-G72DÂ (GGCâ†’GAC)Â ,frlRÂ â†,0,0,0,0,0
-V119AÂ (GTTâ†’GCT)Â ,nirCÂ â†,0,0,0,0,0
-intergenic,nirBÂ â†Â /Â â†Â tsgA,0,0,0,0,0
-G37SÂ (GGCâ†’AGC)Â ,yheSÂ â†,0,0,0,0,0
-Y33CÂ (TACâ†’TGC)Â ,fusAÂ â†’,0,0,0,0,0
-L170LÂ (CTGâ†’CTA)Â ,metHÂ â†’,0,0,0,0,0
-W1112*Â (TGGâ†’TAG)Â ,metHÂ â†’,0,0,0,0,0
-E397GÂ (GAGâ†’GGG)Â ,yjbBÂ â†’,0,0,0,0,0
-I285IÂ (ATCâ†’ATT)Â ,pgiÂ â†’,0,0,0,0,0
-A135AÂ (GCAâ†’GCG)Â ,yjbIÂ â†’,0,0,0,0,0
-D183DÂ (GACâ†’GAT)Â ,nrfCÂ â†’,0,0,0,0,0
-intergenic,yjcZÂ â†’Â /Â â†’Â proP,0,0,0,0,0
-S414SÂ (TCGâ†’TCA)Â ,proPÂ â†’,0,0,0,0,0
-intergenic,melAÂ â†’Â /Â â†’Â melB,0,0,0,0,0
-P338PÂ (CCAâ†’CCG)Â ,lysUÂ â†,0,0,0,0,0
-A99VÂ (GCGâ†’GTG)Â ,cadBÂ â†,0,0,0,0,0
-I139TÂ (ATTâ†’ACT)Â ,cadCÂ â†,0,0,0,0,0
-F95LÂ (TTTâ†’CTT)Â ,blcÂ â†,0,0,0,0,0
-I56VÂ (ATTâ†’GTT)Â ,mutLÂ â†’,0,0,0,0,0
-R174QÂ (CGGâ†’CAG)Â ,yjfKÂ â†’,0,0,0,0,0
-A261AÂ (GCGâ†’GCA)Â ,ulaEÂ â†’,0,0,0,0,0
-D343DÂ (GACâ†’GAT)Â ,ytfRÂ â†’,0,0,0,0,0
-R448RÂ (CGTâ†’CGC)Â ,nrdDÂ â†,0,0,0,0,0
-A255VÂ (GCGâ†’GTG)Â ,yjgNÂ â†’,0,0,0,0,0
-Y365HÂ (TACâ†’CAC)Â ,pepAÂ â†,0,0,0,0,0
-V241IÂ (GTCâ†’ATC)Â ,yjgBÂ â†,0,0,0,0,0
-intergenic,yjgWÂ â†’Â /Â â†’Â yjgZ,0,0,0,0,0
-V94AÂ (GTCâ†’GCC)Â ,sgcAÂ â†,0,0,0,0,0
-D234GÂ (GATâ†’GGT)Â ,yjhRÂ â†’,0,0,0,0,0
-M15VÂ (ATGâ†’GTG)Â ,fimEÂ â†’,0,0,0,0,0
-L215PÂ (CTGâ†’CCG)Â ,iadAÂ â†,0,0,0,0,0
-R22RÂ (CGTâ†’CGC)Â ,yjiKÂ â†,0,0,0,0,0
-intergenic,yjiOÂ â†Â /Â â†’Â yjiQ,0,0,0,0,0
-noncodingÂ (71/87Â nt),leuVÂ â†,0,0,0,0,0
-P5LÂ (CCCâ†’CTC)Â ,creDÂ â†’,0,0,0,0,0
+T21A (ACT?GCT) ,yidH ?,0,0,0,0,0
+S22S (TCC?TCT) ,yicN ?,0,0,0,0,0
+G73G (GGC?GGT) ,yicR ?,0,0,0,0,0
+F224F (TTC?TTT) ,rfaD ?,0,0,0,0,0
+A368A (GCA?GCG) ,selA ?,0,0,0,0,0
+E463K (GAA?AAA) ,bcsE ?,0,0,0,0,0
+V181A (GTG?GCG) ,bcsB ?,0,0,0,0,0
+R71C (CGT?TGT) ,yhjK ?,0,0,0,0,0
+F188L (TTT?CTT) ,gadA ?,0,0,0,0,0
+T460A (ACT?GCT) ,prlC ?,0,0,0,0,0
+S425P (TCT?CCT) ,pitA ?,0,0,0,0,0
+L153L (TTG?TTA) ,yhhT ?,0,0,0,0,0
+intergenic,yhhQ ? / ? yhhP,0,0,0,0,0
+coding (133/768 nt),livG ?,0,0,0,0,0
+E490E (GAA?GAG) ,glgX ?,0,0,0,0,0
+D419G (GAC?GGC) ,malQ ?,0,0,0,0,0
+A745T (GCA?ACA) ,yhgF ?,0,0,0,0,0
+G72D (GGC?GAC) ,frlR ?,0,0,0,0,0
+V119A (GTT?GCT) ,nirC ?,0,0,0,0,0
+intergenic,nirB ? / ? tsgA,0,0,0,0,0
+G37S (GGC?AGC) ,yheS ?,0,0,0,0,0
+Y33C (TAC?TGC) ,fusA ?,0,0,0,0,0
+L170L (CTG?CTA) ,metH ?,0,0,0,0,0
+W1112* (TGG?TAG) ,metH ?,0,0,0,0,0
+E397G (GAG?GGG) ,yjbB ?,0,0,0,0,0
+I285I (ATC?ATT) ,pgi ?,0,0,0,0,0
+A135A (GCA?GCG) ,yjbI ?,0,0,0,0,0
+D183D (GAC?GAT) ,nrfC ?,0,0,0,0,0
+intergenic,yjcZ ? / ? proP,0,0,0,0,0
+S414S (TCG?TCA) ,proP ?,0,0,0,0,0
+intergenic,melA ? / ? melB,0,0,0,0,0
+P338P (CCA?CCG) ,lysU ?,0,0,0,0,0
+A99V (GCG?GTG) ,cadB ?,0,0,0,0,0
+I139T (ATT?ACT) ,cadC ?,0,0,0,0,0
+F95L (TTT?CTT) ,blc ?,0,0,0,0,0
+I56V (ATT?GTT) ,mutL ?,0,0,0,0,0
+R174Q (CGG?CAG) ,yjfK ?,0,0,0,0,0
+A261A (GCG?GCA) ,ulaE ?,0,0,0,0,0
+D343D (GAC?GAT) ,ytfR ?,0,0,0,0,0
+R448R (CGT?CGC) ,nrdD ?,0,0,0,0,0
+A255V (GCG?GTG) ,yjgN ?,0,0,0,0,0
+Y365H (TAC?CAC) ,pepA ?,0,0,0,0,0
+V241I (GTC?ATC) ,yjgB ?,0,0,0,0,0
+intergenic,yjgW ? / ? yjgZ,0,0,0,0,0
+V94A (GTC?GCC) ,sgcA ?,0,0,0,0,0
+D234G (GAT?GGT) ,yjhR ?,0,0,0,0,0
+M15V (ATG?GTG) ,fimE ?,0,0,0,0,0
+L215P (CTG?CCG) ,iadA ?,0,0,0,0,0
+R22R (CGT?CGC) ,yjiK ?,0,0,0,0,0
+intergenic,yjiO ? / ? yjiQ,0,0,0,0,0
+noncoding (71/87 nt),leuV ?,0,0,0,0,0
+P5L (CCC?CTC) ,creD ?,0,0,0,0,0

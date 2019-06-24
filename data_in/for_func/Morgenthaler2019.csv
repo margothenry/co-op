@@ -1,373 +1,373 @@
-gene,mutation,population,Day 42,Day 50
-proA*,F372L (T>G),3,94.30%,100%
-carB,G369V (GGT?GTT),3,NA,NA
-carB,L960P (CTG?CCG) ,3,NA,NA
-carB,L964Q (CTG?CAG) ,3,NA,NA
-carB,K966E (AAA?GAA) ,3,NA,NA
-carB,?12bp (2906-2917/3222nt),3,NA,NA
-carB,?132bp (2986-3117/3222nt),3,NA,NA
-carB,?12bp (3108?3119/3222nt),3,NA,NA
-carB,+21bp coding (3150/3222 nt),3,NA,NA
-ygcB,A390V (G>A),3,100%,100%
-greA,IS4 ins. coding (243?253/477 nt),3,NA,NA
-yaiS,IS5 ins. coding (13?16/558 nt),3,NA,NA
-argD,A115T (GCC?ACC),3,NA,NA
-argE,C254C (TGC?TGT),3,NA,NA
-asd,S343L (TCA?TTA) ,3,7.10%,NA
-lysC,?1bp coding (2/1350 nt),3,7.70%,NA
-hisP,A137T (GCA?ACA) ,3,NA,NA
-argO,F157S (TTC?TCC) ,3,NA,NA
-proY,V335V (GTG?GTA),3,NA,NA
-proP,M419T (ATG?ACG) ,3,NA,NA
-gltB,L987V (CTC?GTC),3,NA,NA
-gltD,L103Q (CTG?CAG),3,NA,5.90%
-gltD,G287S (GGC?AGC),3,NA,NA
-gltD,L416L (CTG?CTT) ,3,NA,NA
-gltD,I456V (ATT?GTT) ,3,7.80%,NA
-gltD,I456F (ATT?TTT) ,3,NA,NA
-rpoC,D413D (GAC?GAT) ,3,NA,NA
-rpoC,G766A (GGT?GCT) ,3,NA,6.50%
-rpoC,T1045P (ACC?CCC),3,NA,6.60%
-rpoC,Q1367* (CAG?TAG) ,3,NA,NA
-rapA,IS1 (–) +9 bp,3,NA,NA
-rapA,D65D (GAC?GAT) ,3,NA,NA
-rcsC,IS2 (–) +5 bp,3,NA,NA
-fixC,D111D (GAT?GAC) ,3,NA,NA
-fixC,L166P (CTT?CCT) ,3,NA,NA
-fixC,?1bp coding (1275/1287 nt),3,NA,NA
-aceF,K41K (AAA?AAG) ,3,NA,NA
-aceF,A42A (GCC?GCT) ,3,NA,NA
-aceF,V127V (GTT?GTG),3,NA,NA
-aceF,D129D (GAT?GAC) ,3,NA,NA
-aceF,A133A (GCT?GCC) ,3,8.70%,NA
-copA,A729T (GCT?ACT) ,3,NA,NA
-copA,A508T (GCT?ACT) ,3,NA,NA
-copA,D353N (GAT?AAT) ,3,NA,7.30%
-helD,N151N (AAC?AAT) ,3,NA,NA
-helD,E259E (GAG?GAA) ,3,NA,NA
-helD,A478V (GCG?GTG) ,3,NA,NA
-rne,E587G (GAA?GGA),3,NA,NA
-rne,P496L (CCA?CTA) ,3,NA,NA
-rne,#NAME?,3,NA,NA
-icd,H366H (CAC?CAT),3,NA,NA
-icd,T370T (ACC?ACT) ,3,NA,NA
-icd,L375L (TTA?CTA) ,3,NA,NA
-icd,L375L (TTA?TTG),3,NA,NA
-aaaE,pseudogene (184/1134 nt),3,NA,NA
-aaaE,pseudogene (267/1134 nt),3,NA,5.00%
-aaaE,pseudogene (946/1134 nt),3,NA,NA
-topA,V138A (GTG?GCG) ,3,NA,5.80%
-topA,C602R (TGT?CGT) ,3,NA,NA
-topA,Y692* (TAC?TAG),3,NA,NA
-puuB,A236V (GCG?GTG) ,3,NA,NA
-puuB,T291T (ACC?ACT),3,NA,NA
-puuB,Y417H (TAT?CAT) ,3,6.30%,NA
-pspF,E287V (GAA?GTA) ,3,NA,NA
-pspF,C146Y (TGC?TAC) ,3,NA,NA
-pspF,L25L (CTC?CTT) ,3,NA,NA
-feaB,L134S (TTA?TCA) ,3,NA,NA
-feaB,N224N (AAT?AAC) ,3,NA,NA
-feaB,H460H (CAT?CAC),3,NA,NA
-ydbA,G>A (747/2513 nt),3,NA,NA
-ydbA,G>T (753/2513 nt),3,7.90%,NA
-ydbA,C>G (945/2513 nt),3,NA,NA
-ydbA,C>T (1104/2513 nt),3,NA,NA
-ydbA,A>G (1113/2513 nt),3,NA,NA
-rsxC,L475L (CTT?CTC) ,3,NA,NA
-rsxC,R633H (G>A),3,NA,NA
-rsxC,P671Q (C>A),3,NA,NA
-lhr,T53T (ACC?ACT) ,3,NA,NA
-lhr,I597N (ATC?AAC) ,3,NA,NA
-lhr,L991H (CTT?CAT),3,NA,NA
-lhr,S1121N (AGC?AAC) ,3,NA,NA
-lhr,Q1415Q (CAA?CAG) ,3,NA,NA
-sufC,S147S (G>A),3,NA,NA
-sufB,C405C (TGC?TGT),3,NA,5.00%
-sufB,A160V (G>A),3,NA,NA
-yeeJ,T127T (ACC?ACT),3,NA,NA
-yeeJ,S291G (AGC?GGC),3,NA,NA
-yeeJ,V382I (GTC?ATC) ,3,NA,NA
-yeeJ,A727T (GCT?ACT) ,3,NA,NA
-yeeJ,L1666I (CTA?ATA) ,3,NA,NA
-yeeR,A47T (GCT?ACT) ,3,NA,NA
-yeeR,I155N (ATC?AAC) ,3,NA,5.20%
-yeeR,I240I (ATT?ATA) ,3,NA,NA
-yehH,C>T (503/2847 nt),3,NA,NA
-yehH,C>T (199/948 nt),3,9.50%,NA
-yehH,G>A (269/948 nt),3,NA,NA
-yehH,G>A (658/948 nt),3,NA,NA
-ccmB,L196F (TTA?TTT),3,NA,6.30%
-ccmB,T151I (ACA?ATA) ,3,5.80%,NA
-ccmB,W126* (TGG?TGA) ,3,NA,NA
-mqo,L516L (CTG?CTA) ,3,6.30%,NA
-mqo,?1bp coding (907/1647 nt),3,NA,NA
-mqo,A256T (GCA?ACA) ,3,NA,NA
-ypaA,L24M (TTG?ATG) ,3,NA,5.40%
-pbpC,A710T (GCG?ACG) ,3,NA,NA
-pbpC,M490V (ATG?GTG) ,3,NA,NA
-pbpC,S117S (AGC?AGT) ,3,NA,NA
-mltF,A75V (GCC?GTC) ,3,5.10%,NA
-mltF,V284I (GTC?ATC) ,3,NA,NA
-mltF,G482C (GGC?TGC) ,3,NA,NA
-srmB,V255A (GTG?GCG) ,3,5.30%,NA
-srmB,L351P (CTG?CCG) ,3,NA,NA
-srmB,I376I (ATT?ATC),3,NA,NA
-prlF,+CATTCAA (256/336 nt),3,NA,NA
-bcsB,L774V (CTT?GTT) ,3,NA,NA
-bcsB,A741V (GCA?GTA) ,3,NA,NA
-bcsB,F265L (TTC?TTG) ,3,NA,NA
-bcsB,P143S (CCA?TCA) ,3,NA,NA
-bcsA,R439H (CGT?CAT) ,3,NA,NA
-bcsA,G37R (GGC?CGC) ,3,NA,NA
-bcsG,R548C (CGC?TGC) ,3,NA,NA
-polA,T311T (ACC?ACT) ,3,NA,NA
-polA,L508S (TTG?TCG) ,3,NA,5.50%
-polA,V655M (GTG?ATG) ,3,NA,NA
-proA*,F372L (T>G),4,NA,NA
-carB,G369V (GGT?GTT),4,NA,NA
-carB,L960P (CTG?CCG) ,4,NA,NA
-carB,L964Q (CTG?CAG) ,4,NA,NA
-carB,K966E (AAA?GAA) ,4,NA,NA
-carB,?12bp (2906-2917/3222nt),4,NA,NA
-carB,?132bp (2986-3117/3222nt),4,NA,NA
-carB,?12bp (3108?3119/3222nt),4,5.00%,NA
-carB,+21bp coding (3150/3222 nt),4,NA,NA
-ygcB,A390V (G>A),4,NA,NA
-greA,IS4 ins. coding (243?253/477 nt),4,NA,NA
-yaiS,IS5 ins. coding (13?16/558 nt),4,NA,NA
-argD,A115T (GCC?ACC),4,NA,NA
-argE,C254C (TGC?TGT),4,NA,NA
-asd,S343L (TCA?TTA) ,4,NA,NA
-lysC,?1bp coding (2/1350 nt),4,NA,NA
-hisP,A137T (GCA?ACA) ,4,NA,NA
-argO,F157S (TTC?TCC) ,4,NA,NA
-proY,V335V (GTG?GTA),4,NA,NA
-proP,M419T (ATG?ACG) ,4,NA,NA
-gltB,L987V (CTC?GTC),4,NA,NA
-gltD,L103Q (CTG?CAG),4,NA,NA
-gltD,G287S (GGC?AGC),4,NA,NA
-gltD,L416L (CTG?CTT) ,4,NA,6.70%
-gltD,I456V (ATT?GTT) ,4,NA,NA
-gltD,I456F (ATT?TTT) ,4,NA,NA
-rpoC,D413D (GAC?GAT) ,4,NA,NA
-rpoC,G766A (GGT?GCT) ,4,NA,NA
-rpoC,T1045P (ACC?CCC),4,NA,NA
-rpoC,Q1367* (CAG?TAG) ,4,NA,63.60%
-rapA,IS1 (–) +9 bp,4,NA,NA
-rapA,D65D (GAC?GAT) ,4,NA,NA
-rcsC,IS2 (–) +5 bp,4,NA,NA
-fixC,D111D (GAT?GAC) ,4,NA,7.00%
-fixC,L166P (CTT?CCT) ,4,NA,NA
-fixC,?1bp coding (1275/1287 nt),4,NA,5.30%
-aceF,K41K (AAA?AAG) ,4,NA,10.00%
-aceF,A42A (GCC?GCT) ,4,NA,8.50%
-aceF,V127V (GTT?GTG),4,NA,NA
-aceF,D129D (GAT?GAC) ,4,NA,NA
-aceF,A133A (GCT?GCC) ,4,NA,NA
-copA,A729T (GCT?ACT) ,4,NA,NA
-copA,A508T (GCT?ACT) ,4,NA,NA
-copA,D353N (GAT?AAT) ,4,NA,NA
-helD,N151N (AAC?AAT) ,4,NA,NA
-helD,E259E (GAG?GAA) ,4,NA,10.50%
-helD,A478V (GCG?GTG) ,4,NA,NA
-rne,E587G (GAA?GGA),4,NA,NA
-rne,P496L (CCA?CTA) ,4,NA,NA
-rne,#NAME?,4,NA,NA
-icd,H366H (CAC?CAT),4,NA,NA
-icd,T370T (ACC?ACT) ,4,NA,NA
-icd,L375L (TTA?CTA) ,4,NA,NA
-icd,L375L (TTA?TTG),4,NA,NA
-aaaE,pseudogene (184/1134 nt),4,5.30%,NA
-aaaE,pseudogene (267/1134 nt),4,NA,NA
-aaaE,pseudogene (946/1134 nt),4,NA,NA
-topA,V138A (GTG?GCG) ,4,NA,NA
-topA,C602R (TGT?CGT) ,4,NA,NA
-topA,Y692* (TAC?TAG),4,NA,NA
-puuB,A236V (GCG?GTG) ,4,NA,NA
-puuB,T291T (ACC?ACT),4,6.10%,NA
-puuB,Y417H (TAT?CAT) ,4,NA,NA
-pspF,E287V (GAA?GTA) ,4,NA,NA
-pspF,C146Y (TGC?TAC) ,4,NA,NA
-pspF,L25L (CTC?CTT) ,4,NA,NA
-feaB,L134S (TTA?TCA) ,4,NA,NA
-feaB,N224N (AAT?AAC) ,4,NA,NA
-feaB,H460H (CAT?CAC),4,NA,NA
-ydbA,G>A (747/2513 nt),4,NA,7.70%
-ydbA,G>T (753/2513 nt),4,NA,6.10%
-ydbA,C>G (945/2513 nt),4,NA,NA
-ydbA,C>T (1104/2513 nt),4,NA,NA
-ydbA,A>G (1113/2513 nt),4,NA,NA
-rsxC,L475L (CTT?CTC) ,4,NA,NA
-rsxC,R633H (G>A),4,NA,NA
-rsxC,P671Q (C>A),4,NA,NA
-lhr,T53T (ACC?ACT) ,4,NA,NA
-lhr,I597N (ATC?AAC) ,4,NA,NA
-lhr,L991H (CTT?CAT),4,NA,NA
-lhr,S1121N (AGC?AAC) ,4,NA,NA
-lhr,Q1415Q (CAA?CAG) ,4,NA,NA
-sufC,S147S (G>A),4,NA,NA
-sufB,C405C (TGC?TGT),4,NA,NA
-sufB,A160V (G>A),4,NA,NA
-yeeJ,T127T (ACC?ACT),4,NA,10.20%
-yeeJ,S291G (AGC?GGC),4,NA,7.10%
-yeeJ,V382I (GTC?ATC) ,4,NA,NA
-yeeJ,A727T (GCT?ACT) ,4,NA,6.30%
-yeeJ,L1666I (CTA?ATA) ,4,NA,NA
-yeeR,A47T (GCT?ACT) ,4,5.40%,NA
-yeeR,I155N (ATC?AAC) ,4,NA,NA
-yeeR,I240I (ATT?ATA) ,4,NA,NA
-yehH,C>T (503/2847 nt),4,NA,5.00%
-yehH,C>T (199/948 nt),4,NA,NA
-yehH,G>A (269/948 nt),4,8.70%,NA
-yehH,G>A (658/948 nt),4,NA,7.50%
-ccmB,L196F (TTA?TTT),4,NA,NA
-ccmB,T151I (ACA?ATA) ,4,NA,NA
-ccmB,W126* (TGG?TGA) ,4,NA,NA
-mqo,L516L (CTG?CTA) ,4,NA,NA
-mqo,?1bp coding (907/1647 nt),4,NA,NA
-mqo,A256T (GCA?ACA) ,4,NA,NA
-ypaA,L24M (TTG?ATG) ,4,NA,NA
-pbpC,A710T (GCG?ACG) ,4,NA,NA
-pbpC,M490V (ATG?GTG) ,4,NA,NA
-pbpC,S117S (AGC?AGT) ,4,NA,7.10%
-mltF,A75V (GCC?GTC) ,4,NA,NA
-mltF,V284I (GTC?ATC) ,4,NA,NA
-mltF,G482C (GGC?TGC) ,4,NA,6.70%
-srmB,V255A (GTG?GCG) ,4,NA,NA
-srmB,L351P (CTG?CCG) ,4,6.10%,NA
-srmB,I376I (ATT?ATC),4,NA,NA
-prlF,+CATTCAA (256/336 nt),4,NA,NA
-bcsB,L774V (CTT?GTT) ,4,NA,NA
-bcsB,A741V (GCA?GTA) ,4,NA,NA
-bcsB,F265L (TTC?TTG) ,4,6.00%,NA
-bcsB,P143S (CCA?TCA) ,4,5.40%,NA
-bcsA,R439H (CGT?CAT) ,4,NA,NA
-bcsA,G37R (GGC?CGC) ,4,NA,NA
-bcsG,R548C (CGC?TGC) ,4,6.70%,NA
-polA,T311T (ACC?ACT) ,4,NA,NA
-polA,L508S (TTG?TCG) ,4,NA,NA
-polA,V655M (GTG?ATG) ,4,NA,NA
-proA*,F372L (T>G),6,NA,NA
-carB,G369V (GGT?GTT),6,NA,NA
-carB,L960P (CTG?CCG) ,6,NA,NA
-carB,L964Q (CTG?CAG) ,6,37.50%,NA
-carB,K966E (AAA?GAA) ,6,NA,NA
-carB,?12bp (2906-2917/3222nt),6,NA,NA
-carB,?132bp (2986-3117/3222nt),6,NA,NA
-carB,?12bp (3108?3119/3222nt),6,NA,NA
-carB,+21bp coding (3150/3222 nt),6,NA,NA
-ygcB,A390V (G>A),6,100%,100%
-greA,IS4 ins. coding (243?253/477 nt),6,NA,NA
-yaiS,IS5 ins. coding (13?16/558 nt),6,NA,NA
-argD,A115T (GCC?ACC),6,NA,NA
-argE,C254C (TGC?TGT),6,NA,NA
-asd,S343L (TCA?TTA) ,6,NA,NA
-lysC,?1bp coding (2/1350 nt),6,NA,NA
-hisP,A137T (GCA?ACA) ,6,NA,NA
-argO,F157S (TTC?TCC) ,6,NA,5.10%
-proY,V335V (GTG?GTA),6,NA,NA
-proP,M419T (ATG?ACG) ,6,5.90%,NA
-gltB,L987V (CTC?GTC),6,NA,NA
-gltD,L103Q (CTG?CAG),6,NA,NA
-gltD,G287S (GGC?AGC),6,NA,NA
-gltD,L416L (CTG?CTT) ,6,NA,NA
-gltD,I456V (ATT?GTT) ,6,NA,NA
-gltD,I456F (ATT?TTT) ,6,NA,NA
-rpoC,D413D (GAC?GAT) ,6,NA,NA
-rpoC,G766A (GGT?GCT) ,6,NA,NA
-rpoC,T1045P (ACC?CCC),6,NA,NA
-rpoC,Q1367* (CAG?TAG) ,6,NA,NA
-rapA,IS1 (–) +9 bp,6,NA,NA
-rapA,D65D (GAC?GAT) ,6,NA,5.00%
-rcsC,IS2 (–) +5 bp,6,NA,NA
-fixC,D111D (GAT?GAC) ,6,NA,NA
-fixC,L166P (CTT?CCT) ,6,NA,NA
-fixC,?1bp coding (1275/1287 nt),6,NA,NA
-aceF,K41K (AAA?AAG) ,6,NA,NA
-aceF,A42A (GCC?GCT) ,6,NA,NA
-aceF,V127V (GTT?GTG),6,NA,NA
-aceF,D129D (GAT?GAC) ,6,NA,NA
-aceF,A133A (GCT?GCC) ,6,NA,NA
-copA,A729T (GCT?ACT) ,6,7.70%,NA
-copA,A508T (GCT?ACT) ,6,NA,NA
-copA,D353N (GAT?AAT) ,6,NA,NA
-helD,N151N (AAC?AAT) ,6,NA,NA
-helD,E259E (GAG?GAA) ,6,NA,NA
-helD,A478V (GCG?GTG) ,6,7.00%,NA
-rne,E587G (GAA?GGA),6,NA,NA
-rne,P496L (CCA?CTA) ,6,NA,NA
-rne,#NAME?,6,NA,NA
-icd,H366H (CAC?CAT),6,NA,NA
-icd,T370T (ACC?ACT) ,6,NA,NA
-icd,L375L (TTA?CTA) ,6,NA,NA
-icd,L375L (TTA?TTG),6,NA,NA
-aaaE,pseudogene (184/1134 nt),6,NA,NA
-aaaE,pseudogene (267/1134 nt),6,NA,NA
-aaaE,pseudogene (946/1134 nt),6,6.00%,NA
-topA,V138A (GTG?GCG) ,6,NA,NA
-topA,C602R (TGT?CGT) ,6,NA,NA
-topA,Y692* (TAC?TAG),6,NA,NA
-puuB,A236V (GCG?GTG) ,6,NA,6.10%
-puuB,T291T (ACC?ACT),6,NA,NA
-puuB,Y417H (TAT?CAT) ,6,NA,NA
-pspF,E287V (GAA?GTA) ,6,NA,NA
-pspF,C146Y (TGC?TAC) ,6,NA,NA
-pspF,L25L (CTC?CTT) ,6,NA,NA
-feaB,L134S (TTA?TCA) ,6,NA,NA
-feaB,N224N (AAT?AAC) ,6,NA,NA
-feaB,H460H (CAT?CAC),6,NA,NA
-ydbA,G>A (747/2513 nt),6,NA,9.90%
-ydbA,G>T (753/2513 nt),6,NA,10.30%
-ydbA,C>G (945/2513 nt),6,NA,12.00%
-ydbA,C>T (1104/2513 nt),6,8.30%,NA
-ydbA,A>G (1113/2513 nt),6,6.30%,NA
-rsxC,L475L (CTT?CTC) ,6,NA,NA
-rsxC,R633H (G>A),6,NA,NA
-rsxC,P671Q (C>A),6,9.10%,NA
-lhr,T53T (ACC?ACT) ,6,NA,NA
-lhr,I597N (ATC?AAC) ,6,6.10%,NA
-lhr,L991H (CTT?CAT),6,NA,6.90%
-lhr,S1121N (AGC?AAC) ,6,NA,9.50%
-lhr,Q1415Q (CAA?CAG) ,6,NA,NA
-sufC,S147S (G>A),6,NA,NA
-sufB,C405C (TGC?TGT),6,NA,NA
-sufB,A160V (G>A),6,NA,NA
-yeeJ,T127T (ACC?ACT),6,NA,NA
-yeeJ,S291G (AGC?GGC),6,NA,NA
-yeeJ,V382I (GTC?ATC) ,6,NA,NA
-yeeJ,A727T (GCT?ACT) ,6,NA,NA
-yeeJ,L1666I (CTA?ATA) ,6,NA,7.10%
-yeeR,A47T (GCT?ACT) ,6,NA,NA
-yeeR,I155N (ATC?AAC) ,6,NA,NA
-yeeR,I240I (ATT?ATA) ,6,NA,NA
-yehH,C>T (503/2847 nt),6,NA,NA
-yehH,C>T (199/948 nt),6,NA,NA
-yehH,G>A (269/948 nt),6,NA,NA
-yehH,G>A (658/948 nt),6,NA,NA
-ccmB,L196F (TTA?TTT),6,NA,NA
-ccmB,T151I (ACA?ATA) ,6,NA,NA
-ccmB,W126* (TGG?TGA) ,6,NA,NA
-mqo,L516L (CTG?CTA) ,6,NA,NA
-mqo,?1bp coding (907/1647 nt),6,NA,NA
-mqo,A256T (GCA?ACA) ,6,6.10%,NA
-ypaA,L24M (TTG?ATG) ,6,NA,10.60%
-pbpC,A710T (GCG?ACG) ,6,NA,NA
-pbpC,M490V (ATG?GTG) ,6,NA,NA
-pbpC,S117S (AGC?AGT) ,6,NA,NA
-mltF,A75V (GCC?GTC) ,6,NA,NA
-mltF,V284I (GTC?ATC) ,6,NA,8.30%
-mltF,G482C (GGC?TGC) ,6,NA,NA
-srmB,V255A (GTG?GCG) ,6,NA,NA
-srmB,L351P (CTG?CCG) ,6,NA,NA
-srmB,I376I (ATT?ATC),6,NA,NA
-prlF,+CATTCAA (256/336 nt),6,NA,NA
-bcsB,L774V (CTT?GTT) ,6,NA,NA
-bcsB,A741V (GCA?GTA) ,6,NA,NA
-bcsB,F265L (TTC?TTG) ,6,NA,NA
-bcsB,P143S (CCA?TCA) ,6,NA,NA
-bcsA,R439H (CGT?CAT) ,6,NA,NA
-bcsA,G37R (GGC?CGC) ,6,NA,NA
-bcsG,R548C (CGC?TGC) ,6,NA,NA
-polA,T311T (ACC?ACT) ,6,6.50%,NA
-polA,L508S (TTG?TCG) ,6,NA,NA
-polA,V655M (GTG?ATG) ,6,5.20%,NA
+gene,population,42,50
+proA*,3,day_42,day_50
+carB,3,day_42,day_50
+carB,3,day_42,day_50
+carB,3,day_42,day_50
+carB,3,day_42,day_50
+carB,3,day_42,day_50
+carB,3,day_42,day_50
+carB,3,day_42,day_50
+carB,3,day_42,day_50
+ygcB,3,day_42,day_50
+greA,3,day_42,day_50
+yaiS,3,day_42,day_50
+argD,3,day_42,day_50
+argE,3,day_42,day_50
+asd,3,day_42,day_50
+lysC,3,day_42,day_50
+hisP,3,day_42,day_50
+argO,3,day_42,day_50
+proY,3,day_42,day_50
+proP,3,day_42,day_50
+gltB,3,day_42,day_50
+gltD,3,day_42,day_50
+gltD,3,day_42,day_50
+gltD,3,day_42,day_50
+gltD,3,day_42,day_50
+gltD,3,day_42,day_50
+rpoC,3,day_42,day_50
+rpoC,3,day_42,day_50
+rpoC,3,day_42,day_50
+rpoC,3,day_42,day_50
+rapA,3,day_42,day_50
+rapA,3,day_42,day_50
+rcsC,3,day_42,day_50
+fixC,3,day_42,day_50
+fixC,3,day_42,day_50
+fixC,3,day_42,day_50
+aceF,3,day_42,day_50
+aceF,3,day_42,day_50
+aceF,3,day_42,day_50
+aceF,3,day_42,day_50
+aceF,3,day_42,day_50
+copA,3,day_42,day_50
+copA,3,day_42,day_50
+copA,3,day_42,day_50
+helD,3,day_42,day_50
+helD,3,day_42,day_50
+helD,3,day_42,day_50
+rne,3,day_42,day_50
+rne,3,day_42,day_50
+rne,3,day_42,day_50
+icd,3,day_42,day_50
+icd,3,day_42,day_50
+icd,3,day_42,day_50
+icd,3,day_42,day_50
+aaaE,3,day_42,day_50
+aaaE,3,day_42,day_50
+aaaE,3,day_42,day_50
+topA,3,day_42,day_50
+topA,3,day_42,day_50
+topA,3,day_42,day_50
+puuB,3,day_42,day_50
+puuB,3,day_42,day_50
+puuB,3,day_42,day_50
+pspF,3,day_42,day_50
+pspF,3,day_42,day_50
+pspF,3,day_42,day_50
+feaB,3,day_42,day_50
+feaB,3,day_42,day_50
+feaB,3,day_42,day_50
+ydbA,3,day_42,day_50
+ydbA,3,day_42,day_50
+ydbA,3,day_42,day_50
+ydbA,3,day_42,day_50
+ydbA,3,day_42,day_50
+rsxC,3,day_42,day_50
+rsxC,3,day_42,day_50
+rsxC,3,day_42,day_50
+lhr,3,day_42,day_50
+lhr,3,day_42,day_50
+lhr,3,day_42,day_50
+lhr,3,day_42,day_50
+lhr,3,day_42,day_50
+sufC,3,day_42,day_50
+sufB,3,day_42,day_50
+sufB,3,day_42,day_50
+yeeJ,3,day_42,day_50
+yeeJ,3,day_42,day_50
+yeeJ,3,day_42,day_50
+yeeJ,3,day_42,day_50
+yeeJ,3,day_42,day_50
+yeeR,3,day_42,day_50
+yeeR,3,day_42,day_50
+yeeR,3,day_42,day_50
+yehH,3,day_42,day_50
+yehH,3,day_42,day_50
+yehH,3,day_42,day_50
+yehH,3,day_42,day_50
+ccmB,3,day_42,day_50
+ccmB,3,day_42,day_50
+ccmB,3,day_42,day_50
+mqo,3,day_42,day_50
+mqo,3,day_42,day_50
+mqo,3,day_42,day_50
+ypaA,3,day_42,day_50
+pbpC,3,day_42,day_50
+pbpC,3,day_42,day_50
+pbpC,3,day_42,day_50
+mltF,3,day_42,day_50
+mltF,3,day_42,day_50
+mltF,3,day_42,day_50
+srmB,3,day_42,day_50
+srmB,3,day_42,day_50
+srmB,3,day_42,day_50
+prlF,3,day_42,day_50
+bcsB,3,day_42,day_50
+bcsB,3,day_42,day_50
+bcsB,3,day_42,day_50
+bcsB,3,day_42,day_50
+bcsA,3,day_42,day_50
+bcsA,3,day_42,day_50
+bcsG,3,day_42,day_50
+polA,3,day_42,day_50
+polA,3,day_42,day_50
+polA,3,day_42,day_50
+proA*,4,day_42,day_50
+carB,4,day_42,day_50
+carB,4,day_42,day_50
+carB,4,day_42,day_50
+carB,4,day_42,day_50
+carB,4,day_42,day_50
+carB,4,day_42,day_50
+carB,4,day_42,day_50
+carB,4,day_42,day_50
+ygcB,4,day_42,day_50
+greA,4,day_42,day_50
+yaiS,4,day_42,day_50
+argD,4,day_42,day_50
+argE,4,day_42,day_50
+asd,4,day_42,day_50
+lysC,4,day_42,day_50
+hisP,4,day_42,day_50
+argO,4,day_42,day_50
+proY,4,day_42,day_50
+proP,4,day_42,day_50
+gltB,4,day_42,day_50
+gltD,4,day_42,day_50
+gltD,4,day_42,day_50
+gltD,4,day_42,day_50
+gltD,4,day_42,day_50
+gltD,4,day_42,day_50
+rpoC,4,day_42,day_50
+rpoC,4,day_42,day_50
+rpoC,4,day_42,day_50
+rpoC,4,day_42,day_50
+rapA,4,day_42,day_50
+rapA,4,day_42,day_50
+rcsC,4,day_42,day_50
+fixC,4,day_42,day_50
+fixC,4,day_42,day_50
+fixC,4,day_42,day_50
+aceF,4,day_42,day_50
+aceF,4,day_42,day_50
+aceF,4,day_42,day_50
+aceF,4,day_42,day_50
+aceF,4,day_42,day_50
+copA,4,day_42,day_50
+copA,4,day_42,day_50
+copA,4,day_42,day_50
+helD,4,day_42,day_50
+helD,4,day_42,day_50
+helD,4,day_42,day_50
+rne,4,day_42,day_50
+rne,4,day_42,day_50
+rne,4,day_42,day_50
+icd,4,day_42,day_50
+icd,4,day_42,day_50
+icd,4,day_42,day_50
+icd,4,day_42,day_50
+aaaE,4,day_42,day_50
+aaaE,4,day_42,day_50
+aaaE,4,day_42,day_50
+topA,4,day_42,day_50
+topA,4,day_42,day_50
+topA,4,day_42,day_50
+puuB,4,day_42,day_50
+puuB,4,day_42,day_50
+puuB,4,day_42,day_50
+pspF,4,day_42,day_50
+pspF,4,day_42,day_50
+pspF,4,day_42,day_50
+feaB,4,day_42,day_50
+feaB,4,day_42,day_50
+feaB,4,day_42,day_50
+ydbA,4,day_42,day_50
+ydbA,4,day_42,day_50
+ydbA,4,day_42,day_50
+ydbA,4,day_42,day_50
+ydbA,4,day_42,day_50
+rsxC,4,day_42,day_50
+rsxC,4,day_42,day_50
+rsxC,4,day_42,day_50
+lhr,4,day_42,day_50
+lhr,4,day_42,day_50
+lhr,4,day_42,day_50
+lhr,4,day_42,day_50
+lhr,4,day_42,day_50
+sufC,4,day_42,day_50
+sufB,4,day_42,day_50
+sufB,4,day_42,day_50
+yeeJ,4,day_42,day_50
+yeeJ,4,day_42,day_50
+yeeJ,4,day_42,day_50
+yeeJ,4,day_42,day_50
+yeeJ,4,day_42,day_50
+yeeR,4,day_42,day_50
+yeeR,4,day_42,day_50
+yeeR,4,day_42,day_50
+yehH,4,day_42,day_50
+yehH,4,day_42,day_50
+yehH,4,day_42,day_50
+yehH,4,day_42,day_50
+ccmB,4,day_42,day_50
+ccmB,4,day_42,day_50
+ccmB,4,day_42,day_50
+mqo,4,day_42,day_50
+mqo,4,day_42,day_50
+mqo,4,day_42,day_50
+ypaA,4,day_42,day_50
+pbpC,4,day_42,day_50
+pbpC,4,day_42,day_50
+pbpC,4,day_42,day_50
+mltF,4,day_42,day_50
+mltF,4,day_42,day_50
+mltF,4,day_42,day_50
+srmB,4,day_42,day_50
+srmB,4,day_42,day_50
+srmB,4,day_42,day_50
+prlF,4,day_42,day_50
+bcsB,4,day_42,day_50
+bcsB,4,day_42,day_50
+bcsB,4,day_42,day_50
+bcsB,4,day_42,day_50
+bcsA,4,day_42,day_50
+bcsA,4,day_42,day_50
+bcsG,4,day_42,day_50
+polA,4,day_42,day_50
+polA,4,day_42,day_50
+polA,4,day_42,day_50
+proA*,6,day_42,day_50
+carB,6,day_42,day_50
+carB,6,day_42,day_50
+carB,6,day_42,day_50
+carB,6,day_42,day_50
+carB,6,day_42,day_50
+carB,6,day_42,day_50
+carB,6,day_42,day_50
+carB,6,day_42,day_50
+ygcB,6,day_42,day_50
+greA,6,day_42,day_50
+yaiS,6,day_42,day_50
+argD,6,day_42,day_50
+argE,6,day_42,day_50
+asd,6,day_42,day_50
+lysC,6,day_42,day_50
+hisP,6,day_42,day_50
+argO,6,day_42,day_50
+proY,6,day_42,day_50
+proP,6,day_42,day_50
+gltB,6,day_42,day_50
+gltD,6,day_42,day_50
+gltD,6,day_42,day_50
+gltD,6,day_42,day_50
+gltD,6,day_42,day_50
+gltD,6,day_42,day_50
+rpoC,6,day_42,day_50
+rpoC,6,day_42,day_50
+rpoC,6,day_42,day_50
+rpoC,6,day_42,day_50
+rapA,6,day_42,day_50
+rapA,6,day_42,day_50
+rcsC,6,day_42,day_50
+fixC,6,day_42,day_50
+fixC,6,day_42,day_50
+fixC,6,day_42,day_50
+aceF,6,day_42,day_50
+aceF,6,day_42,day_50
+aceF,6,day_42,day_50
+aceF,6,day_42,day_50
+aceF,6,day_42,day_50
+copA,6,day_42,day_50
+copA,6,day_42,day_50
+copA,6,day_42,day_50
+helD,6,day_42,day_50
+helD,6,day_42,day_50
+helD,6,day_42,day_50
+rne,6,day_42,day_50
+rne,6,day_42,day_50
+rne,6,day_42,day_50
+icd,6,day_42,day_50
+icd,6,day_42,day_50
+icd,6,day_42,day_50
+icd,6,day_42,day_50
+aaaE,6,day_42,day_50
+aaaE,6,day_42,day_50
+aaaE,6,day_42,day_50
+topA,6,day_42,day_50
+topA,6,day_42,day_50
+topA,6,day_42,day_50
+puuB,6,day_42,day_50
+puuB,6,day_42,day_50
+puuB,6,day_42,day_50
+pspF,6,day_42,day_50
+pspF,6,day_42,day_50
+pspF,6,day_42,day_50
+feaB,6,day_42,day_50
+feaB,6,day_42,day_50
+feaB,6,day_42,day_50
+ydbA,6,day_42,day_50
+ydbA,6,day_42,day_50
+ydbA,6,day_42,day_50
+ydbA,6,day_42,day_50
+ydbA,6,day_42,day_50
+rsxC,6,day_42,day_50
+rsxC,6,day_42,day_50
+rsxC,6,day_42,day_50
+lhr,6,day_42,day_50
+lhr,6,day_42,day_50
+lhr,6,day_42,day_50
+lhr,6,day_42,day_50
+lhr,6,day_42,day_50
+sufC,6,day_42,day_50
+sufB,6,day_42,day_50
+sufB,6,day_42,day_50
+yeeJ,6,day_42,day_50
+yeeJ,6,day_42,day_50
+yeeJ,6,day_42,day_50
+yeeJ,6,day_42,day_50
+yeeJ,6,day_42,day_50
+yeeR,6,day_42,day_50
+yeeR,6,day_42,day_50
+yeeR,6,day_42,day_50
+yehH,6,day_42,day_50
+yehH,6,day_42,day_50
+yehH,6,day_42,day_50
+yehH,6,day_42,day_50
+ccmB,6,day_42,day_50
+ccmB,6,day_42,day_50
+ccmB,6,day_42,day_50
+mqo,6,day_42,day_50
+mqo,6,day_42,day_50
+mqo,6,day_42,day_50
+ypaA,6,day_42,day_50
+pbpC,6,day_42,day_50
+pbpC,6,day_42,day_50
+pbpC,6,day_42,day_50
+mltF,6,day_42,day_50
+mltF,6,day_42,day_50
+mltF,6,day_42,day_50
+srmB,6,day_42,day_50
+srmB,6,day_42,day_50
+srmB,6,day_42,day_50
+prlF,6,day_42,day_50
+bcsB,6,day_42,day_50
+bcsB,6,day_42,day_50
+bcsB,6,day_42,day_50
+bcsB,6,day_42,day_50
+bcsA,6,day_42,day_50
+bcsA,6,day_42,day_50
+bcsG,6,day_42,day_50
+polA,6,day_42,day_50
+polA,6,day_42,day_50
+polA,6,day_42,day_50

@@ -1,5 +1,5 @@
-﻿selective_pressure,population,annotation,gene,frequency 
-ΔpvdJ spent media ,pvdJ1,coding,mprA,1
+selective_pressure,population,details,gene,frequency 
+?pvdJ spent media ,pvdJ1,coding,mprA,1
 ,pvdJ1,coding,mprA,1
 ,pvdJ2,pseudogene,stfE,1
 ,pvdJ2,coding,mprA,1

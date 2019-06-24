@@ -1,256 +1,205 @@
-gene,details,population,frequency
-"ychE, oppA",intergenic (+254/‑485),A7,4
-rpoB,P520L (CCG→CTG),A7,1
-icd,H366H (CAC→CAT),A7,3
-icd,T370T (ACC→ACT),A7,2
-icd,L375M (TTA→CTG),A7,2
-icd,L375M (TTA→CTG),A7,2
-"pyrE, rph",intergenic (‑42/+24),A7,0
-"pyrE, rph",intergenic (‑40/+26),A7,4
-rhsE,pseudogene (1274/2037 nt),A7,7.25
-rhsE,pseudogene (1279/2037 nt),A7,7.24
-rhsE,pseudogene (1284/2037 nt),A7,7.1899999999999995
-rhsE,pseudogene (1302/2037 nt),A7,7.27
-rhsE,pseudogene (1317/2037 nt),A7,12
-yobF,coding (141‑144/144 nt),A7,0
-gatC,pseudogene (1‑2/442 nt),A7,3
-rpoC,N720H (AAC→CAC),A7,4.5600000000000005
-"gltP, yjcO",intergenic (+396/+246),A7,0.25
-"gltP, yjcO",intergenic (+397/+245),A7,0.33
-"gltP, yjcO",intergenic (+474/+168),A7,0.95
-"gltP, yjcO",intergenic (+492/+150),A7,0.45
-"gltP, yjcO",intergenic (+586/+56),A7,2
-"gltP, yjcO",intergenic (+586/+56),A7,0.93
-"gltP, yjcO",intergenic (+586/+56),A7,0.93
-sapB,R146C (CGT→TGT),A7,0
-waaO,D275Y (GAT→TAT),A7,0
-"pyrE, rph",intergenic (‑41/+25),A7,0
-"pyrE, rph",intergenic (‑42/+24),A7,0
-rho,R102L (CGC→CTC),A7,0
-yobF,coding (141‑144/144 nt),A7,0
-"nrdA, nrdB",intergenic (+90/‑57),A7,0
-ptsP,coding (704/2247 nt),A7,0
-rpoC,K398M (AAG→ATG),A7,0
-ptsP,coding (1305/2247 nt),A7,0
-mutY,V302V (GTG→GTT),A7,0
-cspC,coding (191‑194/210 nt),A7,4.43
-ptsP,Q340* (CAG→TAG),A7,3.51
-secY,F401Y (TTC→TAC),A7,4.55
-"yihU, yihV",intergenic (‑70/‑98),A7,0
-ptsP,Q375* (CAG→TAG),A7,0
-rng,Q474H (CAA→CAC),A7,0
-rpoB,F1187L (TTC→TTA),A7,0
-yobF,coding (22‑30/144 nt),A7,7.45
-ptsP,E261* (GAG→TAG),A7,1
-"yiaY, selB",intergenic (‑93/+94),A7,1
-rpoB,V1186M (GTG→ATG),A7,2.33
-rhsD,S1178R (AGC→CGC),A7,0.41000000000000003
-rhsD,E1180E (GAA→GAG),A7,0
-icd,N385N (AAC→AAT),A7,2
-icd,A386A (GCG→GCC),A7,1
-icd,K387K (AAA→AAG),A7,1
-icd,T390T (ACC→ACT),A7,1
-icd,E394E (GAG→GAA),A7,1
-icd,D398E (GAT→GAA),A7,1
-eamA,R39L (CGC→CTC),A7,3
-"pyrE, rph",intergenic (‑33/+33),A7,1
-rpoC,N762H (AAC→CAC),A7,3
-pykF,coding (760/1413 nt),A7,1.6600000000000001
-ptsP,G618D (GGC→GAC),A7,1.6400000000000001
-sapD,C101Y (TGT→TAT),A7,0
-rpoB,E793Q (GAA→CAA),A7,0
-sapD,G235C (GGT→TGT),A7,0
-rpoC,R98H (CGC→CAC),A7,0
-aceF,coding (657/1893 nt),A7,0
-aceF,coding (658/1893 nt),A7,0
-aceF,coding (659/1893 nt),A7,0
-aceF,coding (660/1893 nt),A7,0
-aceF,coding (661/1893 nt),A7,0
-aceF,coding (662/1893 nt),A7,0
-aceF,coding (663/1893 nt),A7,0
-aceF,coding (664/1893 nt),A7,0
-aceF,coding (665‑673/1893 nt),A7,0
-pcnB,A320S (GCC→TCC),A7,0
-pykF,E323* (GAA→TAA),A7,0
-proQ,coding (222‑425/699 nt),A7,0
-rpoS,coding (313/993 nt),A7,0
-gcvT,coding (1061‑1064/1095 nt),A7,0
-ybcK,coding (142‑145/1527 nt),A7,0
-yiiX,T106T (ACG→ACA),A7,1
-uidA,I123L (ATT→CTT),A7,1
-"lysQ, nadA",intergenic (+105/‑328),A7,0
-yjgN,S259A (TCT→GCT),A7,0
-"yeeJ, yeeL",intergenic (+167/+92),A7,1
-ptsP,coding (708/2247 nt),A7,0
-sapA,L14R (CTT→CGT),A7,0
-mhpT,G360R (GGG→AGG),A7,0
-"ychE, oppA",intergenic (+254/‑485),A8,11
-rpoB,P520L (CCG→CTG),A8,0
-icd,H366H (CAC→CAT),A8,2
-icd,T370T (ACC→ACT),A8,2
-icd,L375M (TTA→CTG),A8,2
-icd,L375M (TTA→CTG),A8,2
-"pyrE, rph",intergenic (‑42/+24),A8,1
-"pyrE, rph",intergenic (‑40/+26),A8,0
-rhsE,pseudogene (1274/2037 nt),A8,0
-rhsE,pseudogene (1279/2037 nt),A8,0
-rhsE,pseudogene (1284/2037 nt),A8,0
-rhsE,pseudogene (1302/2037 nt),A8,0
-rhsE,pseudogene (1317/2037 nt),A8,12
-yobF,coding (141‑144/144 nt),A8,12
-gatC,pseudogene (1‑2/442 nt),A8,2
-rpoC,N720H (AAC→CAC),A8,12
-"gltP, yjcO",intergenic (+396/+246),A8,0
-"gltP, yjcO",intergenic (+397/+245),A8,0
-"gltP, yjcO",intergenic (+474/+168),A8,0.6799999999999999
-"gltP, yjcO",intergenic (+492/+150),A8,0.27
-"gltP, yjcO",intergenic (+586/+56),A8,2
-"gltP, yjcO",intergenic (+586/+56),A8,0
-"gltP, yjcO",intergenic (+586/+56),A8,0
-sapB,R146C (CGT→TGT),A8,7.38
-waaO,D275Y (GAT→TAT),A8,1.38
-"pyrE, rph",intergenic (‑41/+25),A8,1.21
-"pyrE, rph",intergenic (‑42/+24),A8,8.49
-rho,R102L (CGC→CTC),A8,1.27
-yobF,coding (141‑144/144 nt),A8,0
-"nrdA, nrdB",intergenic (+90/‑57),A8,0
-ptsP,coding (704/2247 nt),A8,0
-rpoC,K398M (AAG→ATG),A8,0
-ptsP,coding (1305/2247 nt),A8,1
-mutY,V302V (GTG→GTT),A8,1
-cspC,coding (191‑194/210 nt),A8,0
-ptsP,Q340* (CAG→TAG),A8,0
-secY,F401Y (TTC→TAC),A8,0
-"yihU, yihV",intergenic (‑70/‑98),A8,1
-ptsP,Q375* (CAG→TAG),A8,0
-rng,Q474H (CAA→CAC),A8,0
-rpoB,F1187L (TTC→TTA),A8,0
-yobF,coding (22‑30/144 nt),A8,0
-ptsP,E261* (GAG→TAG),A8,0
-"yiaY, selB",intergenic (‑93/+94),A8,0
-rpoB,V1186M (GTG→ATG),A8,0
-rhsD,S1178R (AGC→CGC),A8,0
-rhsD,E1180E (GAA→GAG),A8,0
-icd,N385N (AAC→AAT),A8,0
-icd,A386A (GCG→GCC),A8,0
-icd,K387K (AAA→AAG),A8,0
-icd,T390T (ACC→ACT),A8,0
-icd,E394E (GAG→GAA),A8,0
-icd,D398E (GAT→GAA),A8,0
-eamA,R39L (CGC→CTC),A8,0
-"pyrE, rph",intergenic (‑33/+33),A8,0
-rpoC,N762H (AAC→CAC),A8,0
-pykF,coding (760/1413 nt),A8,0
-ptsP,G618D (GGC→GAC),A8,0
-sapD,C101Y (TGT→TAT),A8,0
-rpoB,E793Q (GAA→CAA),A8,0
-sapD,G235C (GGT→TGT),A8,0
-rpoC,R98H (CGC→CAC),A8,0
-aceF,coding (657/1893 nt),A8,0.25
-aceF,coding (658/1893 nt),A8,0.23
-aceF,coding (659/1893 nt),A8,0.26
-aceF,coding (660/1893 nt),A8,0.26
-aceF,coding (661/1893 nt),A8,0.26
-aceF,coding (662/1893 nt),A8,0.26
-aceF,coding (663/1893 nt),A8,0.24
-aceF,coding (664/1893 nt),A8,0.31
-aceF,coding (665‑673/1893 nt),A8,0.27
-pcnB,A320S (GCC→TCC),A8,0.25
-pykF,E323* (GAA→TAA),A8,0.73
-proQ,coding (222‑425/699 nt),A8,0.84
-rpoS,coding (313/993 nt),A8,1
-gcvT,coding (1061‑1064/1095 nt),A8,1
-ybcK,coding (142‑145/1527 nt),A8,0
-yiiX,T106T (ACG→ACA),A8,0
-uidA,I123L (ATT→CTT),A8,0
-"lysQ, nadA",intergenic (+105/‑328),A8,0
-yjgN,S259A (TCT→GCT),A8,0
-"yeeJ, yeeL",intergenic (+167/+92),A8,0
-ptsP,coding (708/2247 nt),A8,0
-sapA,L14R (CTT→CGT),A8,0
-mhpT,G360R (GGG→AGG),A8,0
-"ychE, oppA",intergenic (+254/‑485),A9,2
-rpoB,P520L (CCG→CTG),A9,0
-icd,H366H (CAC→CAT),A9,0
-icd,T370T (ACC→ACT),A9,0
-icd,L375M (TTA→CTG),A9,0
-icd,L375M (TTA→CTG),A9,0
-"pyrE, rph",intergenic (‑42/+24),A9,0
-"pyrE, rph",intergenic (‑40/+26),A9,8
-rhsE,pseudogene (1274/2037 nt),A9,10
-rhsE,pseudogene (1279/2037 nt),A9,10
-rhsE,pseudogene (1284/2037 nt),A9,10
-rhsE,pseudogene (1302/2037 nt),A9,10
-rhsE,pseudogene (1317/2037 nt),A9,10
-yobF,coding (141‑144/144 nt),A9,0
-gatC,pseudogene (1‑2/442 nt),A9,2
-rpoC,N720H (AAC→CAC),A9,0
-"gltP, yjcO",intergenic (+396/+246),A9,0.29
-"gltP, yjcO",intergenic (+397/+245),A9,0.3
-"gltP, yjcO",intergenic (+474/+168),A9,0.5800000000000001
-"gltP, yjcO",intergenic (+492/+150),A9,0.21
-"gltP, yjcO",intergenic (+586/+56),A9,2
-"gltP, yjcO",intergenic (+586/+56),A9,0
-"gltP, yjcO",intergenic (+586/+56),A9,0
-sapB,R146C (CGT→TGT),A9,0
-waaO,D275Y (GAT→TAT),A9,0
-"pyrE, rph",intergenic (‑41/+25),A9,0
-"pyrE, rph",intergenic (‑42/+24),A9,0
-rho,R102L (CGC→CTC),A9,0
-yobF,coding (141‑144/144 nt),A9,10
-"nrdA, nrdB",intergenic (+90/‑57),A9,4.68
-ptsP,coding (704/2247 nt),A9,4
-rpoC,K398M (AAG→ATG),A9,4.79
-ptsP,coding (1305/2247 nt),A9,0
-mutY,V302V (GTG→GTT),A9,0
-cspC,coding (191‑194/210 nt),A9,0
-ptsP,Q340* (CAG→TAG),A9,0
-secY,F401Y (TTC→TAC),A9,0
-"yihU, yihV",intergenic (‑70/‑98),A9,0
-ptsP,Q375* (CAG→TAG),A9,1
-rng,Q474H (CAA→CAC),A9,1
-rpoB,F1187L (TTC→TTA),A9,1
-yobF,coding (22‑30/144 nt),A9,0
-ptsP,E261* (GAG→TAG),A9,0
-"yiaY, selB",intergenic (‑93/+94),A9,0
-rpoB,V1186M (GTG→ATG),A9,0
-rhsD,S1178R (AGC→CGC),A9,0.21
-rhsD,E1180E (GAA→GAG),A9,0.2
-icd,N385N (AAC→AAT),A9,0
-icd,A386A (GCG→GCC),A9,0
-icd,K387K (AAA→AAG),A9,0
-icd,T390T (ACC→ACT),A9,0
-icd,E394E (GAG→GAA),A9,0
-icd,D398E (GAT→GAA),A9,0
-eamA,R39L (CGC→CTC),A9,0
-"pyrE, rph",intergenic (‑33/+33),A9,2
-rpoC,N762H (AAC→CAC),A9,0
-pykF,coding (760/1413 nt),A9,0
-ptsP,G618D (GGC→GAC),A9,0
-sapD,C101Y (TGT→TAT),A9,1
-rpoB,E793Q (GAA→CAA),A9,1
-sapD,G235C (GGT→TGT),A9,1
-rpoC,R98H (CGC→CAC),A9,1.95
-aceF,coding (657/1893 nt),A9,0
-aceF,coding (658/1893 nt),A9,0
-aceF,coding (659/1893 nt),A9,0
-aceF,coding (660/1893 nt),A9,0
-aceF,coding (661/1893 nt),A9,0
-aceF,coding (662/1893 nt),A9,0
-aceF,coding (663/1893 nt),A9,0
-aceF,coding (664/1893 nt),A9,0
-aceF,coding (665‑673/1893 nt),A9,0
-pcnB,A320S (GCC→TCC),A9,0
-pykF,E323* (GAA→TAA),A9,0
-proQ,coding (222‑425/699 nt),A9,0
-rpoS,coding (313/993 nt),A9,0
-gcvT,coding (1061‑1064/1095 nt),A9,0
-ybcK,coding (142‑145/1527 nt),A9,1
-yiiX,T106T (ACG→ACA),A9,0
-uidA,I123L (ATT→CTT),A9,0
-"lysQ, nadA",intergenic (+105/‑328),A9,1
-yjgN,S259A (TCT→GCT),A9,1
-"yeeJ, yeeL",intergenic (+167/+92),A9,0
-ptsP,coding (708/2247 nt),A9,1
-sapA,L14R (CTT→CGT),A9,0.85
-mhpT,G360R (GGG→AGG),A9,1
+gene,population,frequency
+rpoB,a7,0
+icd,a7,0
+icd,a7,0
+icd,a7,0
+icd,a7,0
+rhsE,a7,0
+rhsE,a7,0
+rhsE,a7,0
+rhsE,a7,0
+rhsE,a7,12
+yobF,a7,0
+gatC,a7,0
+rpoC,a7,0
+sapB,a7,0
+waaO,a7,0
+yicC,a7,0
+rho,a7,0
+yobF,a7,0
+ptsP,a7,0
+rpoC,a7,0
+ptsP,a7,0
+mutY,a7,0
+cspC,a7,0
+ptsP,a7,0
+secY,a7,0
+ptsP,a7,0
+rng,a7,0
+rpoB,a7,0
+yobF,a7,0
+ptsP,a7,0
+rpoB,a7,0
+rhsD,a7,0
+rhsD,a7,0
+icd,a7,0
+icd,a7,0
+icd,a7,0
+icd,a7,0
+icd,a7,0
+icd,a7,0
+eamA,a7,0
+rpoC,a7,0
+pykF,a7,0
+ptsP,a7,0
+sapD,a7,0
+rpoB,a7,0
+sapD,a7,0
+rpoC,a7,0
+aceF,a7,0
+aceF,a7,0
+aceF,a7,0
+aceF,a7,0
+aceF,a7,0
+aceF,a7,0
+aceF,a7,0
+aceF,a7,0
+aceF,a7,0
+pcnB,a7,0
+pykF,a7,0
+proQ,a7,0
+rpoS,a7,0
+gcvT,a7,0
+ybcK,a7,0
+yiiX,a7,0
+uidA,a7,0
+yjgN,a7,0
+ptsP,a7,0
+sapA,a7,0
+mhpT,a7,0
+rpoB,a8,0
+icd,a8,0
+icd,a8,0
+icd,a8,0
+icd,a8,0
+rhsE,a8,0
+rhsE,a8,0
+rhsE,a8,0
+rhsE,a8,0
+rhsE,a8,0
+yobF,a8,0
+gatC,a8,0
+rpoC,a8,0
+sapB,a8,0
+waaO,a8,0
+yicC,a8,0
+rho,a8,0
+yobF,a8,0
+ptsP,a8,0
+rpoC,a8,0
+ptsP,a8,0
+mutY,a8,0
+cspC,a8,0
+ptsP,a8,0
+secY,a8,0
+ptsP,a8,0
+rng,a8,0
+rpoB,a8,0
+yobF,a8,0
+ptsP,a8,0
+rpoB,a8,0
+rhsD,a8,0
+rhsD,a8,0
+icd,a8,0
+icd,a8,0
+icd,a8,0
+icd,a8,0
+icd,a8,0
+icd,a8,0
+eamA,a8,0
+rpoC,a8,0
+pykF,a8,0
+ptsP,a8,0
+sapD,a8,0
+rpoB,a8,0
+sapD,a8,0
+rpoC,a8,0
+aceF,a8,0
+aceF,a8,0
+aceF,a8,0
+aceF,a8,0
+aceF,a8,0
+aceF,a8,0
+aceF,a8,0
+aceF,a8,0
+aceF,a8,0
+pcnB,a8,0
+pykF,a8,0
+proQ,a8,0
+rpoS,a8,0
+gcvT,a8,0
+ybcK,a8,0
+yiiX,a8,0
+uidA,a8,0
+yjgN,a8,0
+ptsP,a8,0
+sapA,a8,0
+mhpT,a8,0
+rpoB,a9,0
+icd,a9,0
+icd,a9,0
+icd,a9,0
+icd,a9,0
+rhsE,a9,10
+rhsE,a9,10
+rhsE,a9,10
+rhsE,a9,10
+rhsE,a9,10
+yobF,a9,0
+gatC,a9,0
+rpoC,a9,0
+sapB,a9,0
+waaO,a9,0
+yicC,a9,0
+rho,a9,0
+yobF,a9,10
+ptsP,a9,0
+rpoC,a9,0
+ptsP,a9,0
+mutY,a9,0
+cspC,a9,0
+ptsP,a9,0
+secY,a9,0
+ptsP,a9,0
+rng,a9,0
+rpoB,a9,0
+yobF,a9,0
+ptsP,a9,0
+rpoB,a9,0
+rhsD,a9,0
+rhsD,a9,0
+icd,a9,0
+icd,a9,0
+icd,a9,0
+icd,a9,0
+icd,a9,0
+icd,a9,0
+eamA,a9,0
+rpoC,a9,0
+pykF,a9,0
+ptsP,a9,0
+sapD,a9,0
+rpoB,a9,0
+sapD,a9,0
+rpoC,a9,0
+aceF,a9,0
+aceF,a9,0
+aceF,a9,0
+aceF,a9,0
+aceF,a9,0
+aceF,a9,0
+aceF,a9,0
+aceF,a9,0
+aceF,a9,0
+pcnB,a9,0
+pykF,a9,0
+proQ,a9,0
+rpoS,a9,0
+gcvT,a9,0
+ybcK,a9,0
+yiiX,a9,0
+uidA,a9,0
+yjgN,a9,0
+ptsP,a9,0
+sapA,a9,0
+mhpT,a9,0

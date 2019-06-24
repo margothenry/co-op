@@ -1,4 +1,4 @@
-position,mutation,annotation,SSR or SNR,gene,frequency,population
+position,mutation,details,SSR or SNR,gene,frequency,population
 "51,494",?2 bp,intergenic,(CT)8,YPL249C?A_CDS_RPL36B ? / ? YPL249C_CDS_GYP5,4.61%,A
 "288,092",?2 bp,intergenic,(AT)13,YPL126W_CDS_NAN1 ? / ? YPL125W_CDS_KAP120,30.00%,A
 "268,494",?1 bp,intergenic,(T)23,YBR028C_CDS ? / ? YBR029C_CDS_CDS1,15.83%,A

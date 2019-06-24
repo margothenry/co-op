@@ -1,3 +1,3 @@
-"paper","environment","generation","selective_pressure","c_hyper","p_chisq","estimate","N_genes.notParallel","N_genes.parallel","parallel_genes"
-"Lennen2015_pMA7","M9","5 days","M9",40.748,0.005,0.006,15,7,"crl, gatC, glpR, gltP/yjcO, insB1/insA, insB1insA, rrfD/rrlD"
-"Lennen2015_pMA7","NaCl","5 days","NaCl",52.464,0.005,0.005,10,13,"araB/araC, araC, crl, gatC, glpR, gltP/yjcO, insB1/insA, insB1insA, mrdA, msrB, nagA, rpsA, rrfD/rrlD"
+"paper","environment","generation","day","flask","selective_pressure","species","ploidy","strain_info","c_hyper","p_chisq","estimate","N_genes.notParallel","N_genes.parallel","parallel_genes"
+"Lennen2015","M9",NA,"5",NA,"no NaCl","Ecoli_K12","haploid","pMA7",36.947,0.005,0.004,11,4,"crl, gatC, glpR, insB1insA"
+"Lennen2015","M9",NA,"5",NA,"NaCl","Ecoli_K12","haploid","pMA7",47.409,0.005,0.005,10,9,"araC, crl, gatC, glpR, insB1insA, mrdA, msrB, nagA, rpsA"

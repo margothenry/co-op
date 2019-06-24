@@ -1,2 +1,2 @@
-"paper","environment","generation","selective_pressure","c_hyper","p_chisq","estimate","N_genes.notParallel","N_genes.parallel","parallel_genes"
-"KuzdzalFick2018","YPD","28 days","YPD",28.728,0.005,0.003,9,3,"YBR158W_CDS_AMN1<U+00A0>?, YDR170C_CDS_SEC7<U+00A0>?, YJL123C_CDS_MTC1<U+00A0>?"
+"paper","environment","generation","day","flask","selective_pressure","species","ploidy","strain_info","c_hyper","p_chisq","estimate","N_genes.notParallel","N_genes.parallel","parallel_genes"
+"KuzdzalFick2018","YPD",NA,"28",NA,"M9 minimal medium","Sac","haploid",NA,28.728,0.005,0.003,9,3,"YBR158W_CDS_AMN1<U+00A0>?, YDR170C_CDS_SEC7<U+00A0>?, YJL123C_CDS_MTC1<U+00A0>?"

@@ -6,7 +6,6 @@ topA,A0,1
 pykF,A0,1
 yeiB,A0,1
 spoT,A0,1
-"rbsD, rbsA, rbsC, rbsB, rbsK, rbsR, yieO",A0,1
 fimA,A0,1
 ybaL,A0,0
 mreC,A0,0
@@ -14,11 +13,9 @@ iclR,A0,0
 ECB_02816,A0,0
 rpsD,A0,0
 aceB,A0,0
-"insJ-2, insK-2, gltL",A0,0
 manZ,A0,0
 yfgA,A0,0
 fhlA,A0,0
-"fhlA, ygbA, mutS, pphB, ygbI, ygbJ, ygbK, ygbL, ygbM, ygbN, rpoS, nlpD, pcm, surE, ygbO, ispF, ispD, ftsB, ygbE, cysC, cysN, cysD, iap, insL-5, insK-3, "">insJ-3",A0,0
 iclR,A0,0
 ydhH,A0,0
 ydhV,A0,0
@@ -26,22 +23,18 @@ gltB,A0,0
 rpsD,A0,0
 spoT,A0,0
 purH,A0,0
-"ybcW, gnsB, ynfN, ECB_01516, cspI, ydfP, ydfQ, ydfR, essQ, ECB_01522, ECB_01523, insE-4, insF-4, ECB_01526",A0,0
 rpoS,A0,0
 nadR,A0,0
 mrdA,A0,0
 ascB,A0,0
-"ascB, hycI, hycH, hycG, hycF, hycE, hycD, hycC, hycB, hycA, hypA, hypB, hypC, hypD, hypE, fhlA, ygbA, mutS, pphB, ygbI, ygbJ, ygbK, ygbL, ygbM, ygbN, rpoS, nlpD, pcm, surE, ygbO, ispF, ispD, ftsB, ygbE, cysC, cysN, cysD, iap, "">insL-5",A0,0
 yraL,A0,0
 yigN,A0,0
 rpoC,A0,0
 mrdA,A0,0
 hslU,A0,0
 yliG,A0,0
-"cybB, ydcA, hokB, mokB, trg, ydcI, ydcJ, ydcG, ECB_01382, ydcH, rimL, ydcK, tehA, tehB, ydcL, yncK, yncK, ydcM, ydcO, ydcN, "">ydcP",A0,0
 relA,A0,0
 metL,A0,0
-"hokE, insL-3, entD, fepA, fes, ybdZ, entF, fepE, fepC, fepG, fepD, ybdA, fepB, entC, entE",A0,0
 sodC,A0,0
 glmS,A0,0
 iclR,A0,0
@@ -50,6 +43,7 @@ gltB,A0,0
 rtcB,A0,0
 yijC,A0,0
 nadR,A0,0
+insL-2,A0,0
 ybeA,A0,0
 astE,A0,0
 deaD,A0,0
@@ -63,7 +57,6 @@ ECB_02815,A0,0
 hslU,A0,0
 mreB,A0,0
 hslU,A0,0
-"infB, nusA",A0,0
 gltB,A0,0
 rpoB,A0,0
 proY,A1,0
@@ -73,7 +66,6 @@ topA,A1,3
 pykF,A1,3
 yeiB,A1,3
 spoT,A1,3
-"rbsD, rbsA, rbsC, rbsB, rbsK, rbsR, yieO",A1,3
 fimA,A1,0
 ybaL,A1,0
 mreC,A1,0
@@ -81,11 +73,9 @@ iclR,A1,0
 ECB_02816,A1,0
 rpsD,A1,0
 aceB,A1,0
-"insJ-2, insK-2, gltL",A1,0
 manZ,A1,0
 yfgA,A1,0
 fhlA,A1,0
-"fhlA, ygbA, mutS, pphB, ygbI, ygbJ, ygbK, ygbL, ygbM, ygbN, rpoS, nlpD, pcm, surE, ygbO, ispF, ispD, ftsB, ygbE, cysC, cysN, cysD, iap, insL-5, insK-3, "">insJ-3",A1,0
 iclR,A1,1
 ydhH,A1,1
 ydhV,A1,1
@@ -93,22 +83,18 @@ gltB,A1,1
 rpsD,A1,1
 spoT,A1,1
 purH,A1,0
-"ybcW, gnsB, ynfN, ECB_01516, cspI, ydfP, ydfQ, ydfR, essQ, ECB_01522, ECB_01523, insE-4, insF-4, ECB_01526",A1,0
 rpoS,A1,0
 nadR,A1,0
 mrdA,A1,0
 ascB,A1,0
-"ascB, hycI, hycH, hycG, hycF, hycE, hycD, hycC, hycB, hycA, hypA, hypB, hypC, hypD, hypE, fhlA, ygbA, mutS, pphB, ygbI, ygbJ, ygbK, ygbL, ygbM, ygbN, rpoS, nlpD, pcm, surE, ygbO, ispF, ispD, ftsB, ygbE, cysC, cysN, cysD, iap, "">insL-5",A1,0
 yraL,A1,0
 yigN,A1,0
 rpoC,A1,0
 mrdA,A1,0
 hslU,A1,1
 yliG,A1,1
-"cybB, ydcA, hokB, mokB, trg, ydcI, ydcJ, ydcG, ECB_01382, ydcH, rimL, ydcK, tehA, tehB, ydcL, yncK, yncK, ydcM, ydcO, ydcN, "">ydcP",A1,1
 relA,A1,1
 metL,A1,0
-"hokE, insL-3, entD, fepA, fes, ybdZ, entF, fepE, fepC, fepG, fepD, ybdA, fepB, entC, entE",A1,0
 sodC,A1,0
 glmS,A1,0
 iclR,A1,0
@@ -117,6 +103,7 @@ gltB,A1,0
 rtcB,A1,0
 yijC,A1,0
 nadR,A1,0
+insL-2,A1,0
 ybeA,A1,0
 astE,A1,0
 deaD,A1,0
@@ -130,7 +117,6 @@ ECB_02815,A1,0
 hslU,A1,0
 mreB,A1,0
 hslU,A1,1
-"infB, nusA",A1,1
 gltB,A1,1
 rpoB,A1,0
 proY,A2,0
@@ -140,7 +126,6 @@ topA,A2,3
 pykF,A2,3
 yeiB,A2,3
 spoT,A2,3
-"rbsD, rbsA, rbsC, rbsB, rbsK, rbsR, yieO",A2,3
 fimA,A2,3
 ybaL,A2,0
 mreC,A2,0
@@ -148,11 +133,9 @@ iclR,A2,0
 ECB_02816,A2,0
 rpsD,A2,0
 aceB,A2,0
-"insJ-2, insK-2, gltL",A2,0
 manZ,A2,0
 yfgA,A2,0
 fhlA,A2,0
-"fhlA, ygbA, mutS, pphB, ygbI, ygbJ, ygbK, ygbL, ygbM, ygbN, rpoS, nlpD, pcm, surE, ygbO, ispF, ispD, ftsB, ygbE, cysC, cysN, cysD, iap, insL-5, insK-3, "">insJ-3",A2,0
 iclR,A2,0
 ydhH,A2,0
 ydhV,A2,0
@@ -160,22 +143,18 @@ gltB,A2,0
 rpsD,A2,0
 spoT,A2,0
 purH,A2,0
-"ybcW, gnsB, ynfN, ECB_01516, cspI, ydfP, ydfQ, ydfR, essQ, ECB_01522, ECB_01523, insE-4, insF-4, ECB_01526",A2,1
 rpoS,A2,1
 nadR,A2,2
 mrdA,A2,0
 ascB,A2,0
-"ascB, hycI, hycH, hycG, hycF, hycE, hycD, hycC, hycB, hycA, hypA, hypB, hypC, hypD, hypE, fhlA, ygbA, mutS, pphB, ygbI, ygbJ, ygbK, ygbL, ygbM, ygbN, rpoS, nlpD, pcm, surE, ygbO, ispF, ispD, ftsB, ygbE, cysC, cysN, cysD, iap, "">insL-5",A2,0
 yraL,A2,0
 yigN,A2,0
 rpoC,A2,0
 mrdA,A2,0
 hslU,A2,0
 yliG,A2,0
-"cybB, ydcA, hokB, mokB, trg, ydcI, ydcJ, ydcG, ECB_01382, ydcH, rimL, ydcK, tehA, tehB, ydcL, yncK, yncK, ydcM, ydcO, ydcN, "">ydcP",A2,0
 relA,A2,0
 metL,A2,0
-"hokE, insL-3, entD, fepA, fes, ybdZ, entF, fepE, fepC, fepG, fepD, ybdA, fepB, entC, entE",A2,0
 sodC,A2,0
 glmS,A2,0
 iclR,A2,0
@@ -184,6 +163,7 @@ gltB,A2,1
 rtcB,A2,1
 yijC,A2,1
 nadR,A2,1
+insL-2,A2,1
 ybeA,A2,1
 astE,A2,1
 deaD,A2,1
@@ -197,7 +177,6 @@ ECB_02815,A2,0
 hslU,A2,0
 mreB,A2,0
 hslU,A2,0
-"infB, nusA",A2,0
 gltB,A2,0
 rpoB,A2,0
 proY,A3,1
@@ -207,7 +186,6 @@ topA,A3,3
 pykF,A3,3
 yeiB,A3,3
 spoT,A3,3
-"rbsD, rbsA, rbsC, rbsB, rbsK, rbsR, yieO",A3,3
 fimA,A3,3
 ybaL,A3,0
 mreC,A3,0
@@ -215,11 +193,9 @@ iclR,A3,0
 ECB_02816,A3,0
 rpsD,A3,0
 aceB,A3,0
-"insJ-2, insK-2, gltL",A3,0
 manZ,A3,0
 yfgA,A3,0
 fhlA,A3,0
-"fhlA, ygbA, mutS, pphB, ygbI, ygbJ, ygbK, ygbL, ygbM, ygbN, rpoS, nlpD, pcm, surE, ygbO, ispF, ispD, ftsB, ygbE, cysC, cysN, cysD, iap, insL-5, insK-3, "">insJ-3",A3,0
 iclR,A3,0
 ydhH,A3,0
 ydhV,A3,0
@@ -227,22 +203,18 @@ gltB,A3,0
 rpsD,A3,0
 spoT,A3,0
 purH,A3,0
-"ybcW, gnsB, ynfN, ECB_01516, cspI, ydfP, ydfQ, ydfR, essQ, ECB_01522, ECB_01523, insE-4, insF-4, ECB_01526",A3,0
 rpoS,A3,0
 nadR,A3,0
 mrdA,A3,0
 ascB,A3,0
-"ascB, hycI, hycH, hycG, hycF, hycE, hycD, hycC, hycB, hycA, hypA, hypB, hypC, hypD, hypE, fhlA, ygbA, mutS, pphB, ygbI, ygbJ, ygbK, ygbL, ygbM, ygbN, rpoS, nlpD, pcm, surE, ygbO, ispF, ispD, ftsB, ygbE, cysC, cysN, cysD, iap, "">insL-5",A3,0
 yraL,A3,0
 yigN,A3,0
 rpoC,A3,0
 mrdA,A3,1
 hslU,A3,1
 yliG,A3,0
-"cybB, ydcA, hokB, mokB, trg, ydcI, ydcJ, ydcG, ECB_01382, ydcH, rimL, ydcK, tehA, tehB, ydcL, yncK, yncK, ydcM, ydcO, ydcN, "">ydcP",A3,0
 relA,A3,0
 metL,A3,0
-"hokE, insL-3, entD, fepA, fes, ybdZ, entF, fepE, fepC, fepG, fepD, ybdA, fepB, entC, entE",A3,0
 sodC,A3,0
 glmS,A3,0
 iclR,A3,0
@@ -251,6 +223,7 @@ gltB,A3,0
 rtcB,A3,0
 yijC,A3,0
 nadR,A3,0
+insL-2,A3,0
 ybeA,A3,0
 astE,A3,0
 deaD,A3,0
@@ -264,7 +237,6 @@ ECB_02815,A3,0
 hslU,A3,0
 mreB,A3,1
 hslU,A3,1
-"infB, nusA",A3,0
 gltB,A3,0
 rpoB,A3,0
 proY,A4,0
@@ -274,7 +246,6 @@ topA,A4,3
 pykF,A4,3
 yeiB,A4,3
 spoT,A4,3
-"rbsD, rbsA, rbsC, rbsB, rbsK, rbsR, yieO",A4,3
 fimA,A4,3
 ybaL,A4,0
 mreC,A4,0
@@ -282,11 +253,9 @@ iclR,A4,0
 ECB_02816,A4,0
 rpsD,A4,0
 aceB,A4,0
-"insJ-2, insK-2, gltL",A4,1
 manZ,A4,1
 yfgA,A4,1
 fhlA,A4,1
-"fhlA, ygbA, mutS, pphB, ygbI, ygbJ, ygbK, ygbL, ygbM, ygbN, rpoS, nlpD, pcm, surE, ygbO, ispF, ispD, ftsB, ygbE, cysC, cysN, cysD, iap, insL-5, insK-3, "">insJ-3",A4,1
 iclR,A4,1
 ydhH,A4,0
 ydhV,A4,0
@@ -294,22 +263,18 @@ gltB,A4,0
 rpsD,A4,0
 spoT,A4,0
 purH,A4,0
-"ybcW, gnsB, ynfN, ECB_01516, cspI, ydfP, ydfQ, ydfR, essQ, ECB_01522, ECB_01523, insE-4, insF-4, ECB_01526",A4,0
 rpoS,A4,0
 nadR,A4,0
 mrdA,A4,1
 ascB,A4,1
-"ascB, hycI, hycH, hycG, hycF, hycE, hycD, hycC, hycB, hycA, hypA, hypB, hypC, hypD, hypE, fhlA, ygbA, mutS, pphB, ygbI, ygbJ, ygbK, ygbL, ygbM, ygbN, rpoS, nlpD, pcm, surE, ygbO, ispF, ispD, ftsB, ygbE, cysC, cysN, cysD, iap, "">insL-5",A4,1
 yraL,A4,1
 yigN,A4,1
 rpoC,A4,1
 mrdA,A4,0
 hslU,A4,0
 yliG,A4,0
-"cybB, ydcA, hokB, mokB, trg, ydcI, ydcJ, ydcG, ECB_01382, ydcH, rimL, ydcK, tehA, tehB, ydcL, yncK, yncK, ydcM, ydcO, ydcN, "">ydcP",A4,0
 relA,A4,0
 metL,A4,0
-"hokE, insL-3, entD, fepA, fes, ybdZ, entF, fepE, fepC, fepG, fepD, ybdA, fepB, entC, entE",A4,0
 sodC,A4,0
 glmS,A4,0
 iclR,A4,0
@@ -318,6 +283,7 @@ gltB,A4,0
 rtcB,A4,0
 yijC,A4,0
 nadR,A4,0
+insL-2,A4,0
 ybeA,A4,0
 astE,A4,0
 deaD,A4,0
@@ -331,7 +297,6 @@ ECB_02815,A4,1
 hslU,A4,1
 mreB,A4,0
 hslU,A4,0
-"infB, nusA",A4,0
 gltB,A4,0
 rpoB,A4,0
 proY,A5,0
@@ -341,7 +306,6 @@ topA,A5,3
 pykF,A5,3
 yeiB,A5,3
 spoT,A5,3
-"rbsD, rbsA, rbsC, rbsB, rbsK, rbsR, yieO",A5,3
 fimA,A5,3
 ybaL,A5,1
 mreC,A5,1
@@ -349,11 +313,9 @@ iclR,A5,1
 ECB_02816,A5,1
 rpsD,A5,1
 aceB,A5,1
-"insJ-2, insK-2, gltL",A5,0
 manZ,A5,0
 yfgA,A5,0
 fhlA,A5,0
-"fhlA, ygbA, mutS, pphB, ygbI, ygbJ, ygbK, ygbL, ygbM, ygbN, rpoS, nlpD, pcm, surE, ygbO, ispF, ispD, ftsB, ygbE, cysC, cysN, cysD, iap, insL-5, insK-3, "">insJ-3",A5,0
 iclR,A5,0
 ydhH,A5,0
 ydhV,A5,0
@@ -361,22 +323,18 @@ gltB,A5,0
 rpsD,A5,0
 spoT,A5,0
 purH,A5,0
-"ybcW, gnsB, ynfN, ECB_01516, cspI, ydfP, ydfQ, ydfR, essQ, ECB_01522, ECB_01523, insE-4, insF-4, ECB_01526",A5,0
 rpoS,A5,0
 nadR,A5,0
 mrdA,A5,0
 ascB,A5,0
-"ascB, hycI, hycH, hycG, hycF, hycE, hycD, hycC, hycB, hycA, hypA, hypB, hypC, hypD, hypE, fhlA, ygbA, mutS, pphB, ygbI, ygbJ, ygbK, ygbL, ygbM, ygbN, rpoS, nlpD, pcm, surE, ygbO, ispF, ispD, ftsB, ygbE, cysC, cysN, cysD, iap, "">insL-5",A5,0
 yraL,A5,0
 yigN,A5,0
 rpoC,A5,0
 mrdA,A5,0
 hslU,A5,0
 yliG,A5,0
-"cybB, ydcA, hokB, mokB, trg, ydcI, ydcJ, ydcG, ECB_01382, ydcH, rimL, ydcK, tehA, tehB, ydcL, yncK, yncK, ydcM, ydcO, ydcN, "">ydcP",A5,0
 relA,A5,0
 metL,A5,0
-"hokE, insL-3, entD, fepA, fes, ybdZ, entF, fepE, fepC, fepG, fepD, ybdA, fepB, entC, entE",A5,1
 sodC,A5,1
 glmS,A5,1
 iclR,A5,1
@@ -385,6 +343,7 @@ gltB,A5,0
 rtcB,A5,0
 yijC,A5,0
 nadR,A5,0
+insL-2,A5,0
 ybeA,A5,0
 astE,A5,0
 deaD,A5,0
@@ -398,6 +357,5 @@ ECB_02815,A5,0
 hslU,A5,0
 mreB,A5,0
 hslU,A5,0
-"infB, nusA",A5,0
 gltB,A5,0
 rpoB,A5,0

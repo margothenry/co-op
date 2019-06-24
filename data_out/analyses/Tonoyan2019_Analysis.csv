@@ -1,4 +1,4 @@
-"paper","environment","generation","selective_pressure","c_hyper","p_chisq","estimate","N_genes.notParallel","N_genes.parallel","parallel_genes"
-"Tonoyan2019","LB medium","1","LB medium",49.482,0.005,0.001,3,3,"DR76_2014 ?, DR76_3675 ?, gyrA ?"
-"Tonoyan2019","LB medium","14","LB medium",21.787,0.005,0.012,30,11,"DR76_1360 ?, DR76_2014 ?, DR76_3192 ?, DR76_3675 ?, DR76_4473 ?, gyrA ?, malT ?, mutH ?, ompF ?, parC ?, treR ?"
-"Tonoyan2019","LB medium","20","LB medium",17.017,0.005,0.033,72,25,"crr ?, cydA ?, DR76_1360 ?, DR76_1460 ?, DR76_1615 ?, DR76_2014 ?, DR76_2342 ?, DR76_2370 ?, DR76_2805 ?, DR76_3575 ?, DR76_3675 ?, DR76_3752 ?, DR76_4142 ?, DR76_4473 ?, gyrA ?, malT ?, mutH ?, ompF ?, parC ?, parE ?, rfaH ?, slyA ?, treR ?, yhjH ?, yhjK ?"
+"paper","environment","generation","day","flask","selective_pressure","species","ploidy","strain_info","c_hyper","p_chisq","estimate","N_genes.notParallel","N_genes.parallel","parallel_genes"
+"Tonoyan2019","LB medium","1",NA,NA,"LB medium","Ecoli_ATCC","haploid",NA,49.482,0.005,0.001,3,3,"DR76_2014 ?, DR76_3675 ?, gyrA ?"
+"Tonoyan2019","LB medium","14",NA,NA,"LB medium","Ecoli_ATCC","haploid",NA,21.787,0.005,0.012,30,11,"DR76_1360 ?, DR76_2014 ?, DR76_3192 ?, DR76_3675 ?, DR76_4473 ?, gyrA ?, malT ?, mutH ?, ompF ?, parC ?, treR ?"
+"Tonoyan2019","LB medium","20",NA,NA,"LB medium","Ecoli_ATCC","haploid",NA,17.017,0.005,0.033,72,25,"crr ?, cydA ?, DR76_1360 ?, DR76_1460 ?, DR76_1615 ?, DR76_2014 ?, DR76_2342 ?, DR76_2370 ?, DR76_2805 ?, DR76_3575 ?, DR76_3675 ?, DR76_3752 ?, DR76_4142 ?, DR76_4473 ?, gyrA ?, malT ?, mutH ?, ompF ?, parC ?, parE ?, rfaH ?, slyA ?, treR ?, yhjH ?, yhjK ?"

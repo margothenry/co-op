@@ -1,2 +1,2 @@
-"paper","environment","generation","selective_pressure","c_hyper","p_chisq","estimate","N_genes.notParallel","N_genes.parallel","parallel_genes"
-"McCloskey2018_gnd","M9 minimal medium","35 days","M9 minimal medium",22.911,0.005,0.006,12,2,"insH1, pntA;ydgH"
+"paper","environment","generation","day","flask","selective_pressure","species","ploidy","strain_info","c_hyper","p_chisq","estimate","N_genes.notParallel","N_genes.parallel","parallel_genes"
+"McCloskey2018","M9 minimal medium",NA,"35",NA,"M9 minimal medium","Ecoli_K12","haploid","gnd",22.02,0.005,0.003,6,1,"insH1"

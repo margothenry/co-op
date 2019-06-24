@@ -1,77 +1,73 @@
-gene,details,population,frequency
-crl,0,A1 F56 I1 R1,1
-"rph, rph",0,A1 F56 I1 R1,0
-yeaR,coding (115‑120/360 nt),A1 F56 I1 R1,1
-fliK,V359I (GTC→ATC),A1 F56 I1 R1,1
-glf,D108E (GAT→GAA),A1 F56 I1 R1,1
-tnaA,coding (1346‑1349/1416 nt),A1 F56 I1 R1,1
-rho,R102C (CGC→TGC),A1 F56 I1 R1,1
-fimA,coding (494‑499/549 nt),A1 F56 I1 R1,1
-rho,S84I (AGC→ATC),A1 F56 I1 R1,0
-icd,H366H (CAC→CAT),A1 F56 I1 R1,0
-icd,T370T (ACC→ACT),A1 F56 I1 R1,0
-icd,L375M (TTA→CTG),A1 F56 I1 R1,0
-icd,L375M (TTA→CTG),A1 F56 I1 R1,0
-ptsP,E564* (GAA→TAA),A1 F56 I1 R1,0
-ybjT,G349G (GGC→GGT),A1 F56 I1 R1,0
-flgD,E71* (GAA→TAA),A1 F56 I1 R1,0
-yegJ,coding (39/462 nt),A1 F56 I1 R1,0
-gcvT,W124* (TGG→TAG),A1 F56 I1 R1,0
-rsmC,E298* (GAG→TAG),A1 F56 I1 R1,0
-crl,0,A2 F57 I1 R1,1
-"rph, rph",0,A2 F57 I1 R1,1
-yeaR,coding (115‑120/360 nt),A2 F57 I1 R1,0
-fliK,V359I (GTC→ATC),A2 F57 I1 R1,0
-glf,D108E (GAT→GAA),A2 F57 I1 R1,0
-tnaA,coding (1346‑1349/1416 nt),A2 F57 I1 R1,0
-rho,R102C (CGC→TGC),A2 F57 I1 R1,0
-fimA,coding (494‑499/549 nt),A2 F57 I1 R1,0
-rho,S84I (AGC→ATC),A2 F57 I1 R1,0
-icd,H366H (CAC→CAT),A2 F57 I1 R1,0
-icd,T370T (ACC→ACT),A2 F57 I1 R1,0
-icd,L375M (TTA→CTG),A2 F57 I1 R1,0
-icd,L375M (TTA→CTG),A2 F57 I1 R1,0
-ptsP,E564* (GAA→TAA),A2 F57 I1 R1,0
-ybjT,G349G (GGC→GGT),A2 F57 I1 R1,1
-flgD,E71* (GAA→TAA),A2 F57 I1 R1,1
-yegJ,coding (39/462 nt),A2 F57 I1 R1,1
-gcvT,W124* (TGG→TAG),A2 F57 I1 R1,1
-rsmC,E298* (GAG→TAG),A2 F57 I1 R1,1
-crl,0,A3 F53 I1 R1,1
-"rph, rph",0,A3 F53 I1 R1,0
-yeaR,coding (115‑120/360 nt),A3 F53 I1 R1,0
-fliK,V359I (GTC→ATC),A3 F53 I1 R1,1
-glf,D108E (GAT→GAA),A3 F53 I1 R1,0
-tnaA,coding (1346‑1349/1416 nt),A3 F53 I1 R1,1
-rho,R102C (CGC→TGC),A3 F53 I1 R1,0
-fimA,coding (494‑499/549 nt),A3 F53 I1 R1,0
-rho,S84I (AGC→ATC),A3 F53 I1 R1,1
-icd,H366H (CAC→CAT),A3 F53 I1 R1,1
-icd,T370T (ACC→ACT),A3 F53 I1 R1,1
-icd,L375M (TTA→CTG),A3 F53 I1 R1,1
-icd,L375M (TTA→CTG),A3 F53 I1 R1,1
-ptsP,E564* (GAA→TAA),A3 F53 I1 R1,1
-ybjT,G349G (GGC→GGT),A3 F53 I1 R1,0
-flgD,E71* (GAA→TAA),A3 F53 I1 R1,0
-yegJ,coding (39/462 nt),A3 F53 I1 R1,0
-gcvT,W124* (TGG→TAG),A3 F53 I1 R1,0
-rsmC,E298* (GAG→TAG),A3 F53 I1 R1,0
-crl,0,A4 F55 I1 R1,1
-"rph, rph",0,A4 F55 I1 R1,0
-yeaR,coding (115‑120/360 nt),A4 F55 I1 R1,0
-fliK,V359I (GTC→ATC),A4 F55 I1 R1,1
-glf,D108E (GAT→GAA),A4 F55 I1 R1,0
-tnaA,coding (1346‑1349/1416 nt),A4 F55 I1 R1,1
-rho,R102C (CGC→TGC),A4 F55 I1 R1,0
-fimA,coding (494‑499/549 nt),A4 F55 I1 R1,0
-rho,S84I (AGC→ATC),A4 F55 I1 R1,1
-icd,H366H (CAC→CAT),A4 F55 I1 R1,0
-icd,T370T (ACC→ACT),A4 F55 I1 R1,0
-icd,L375M (TTA→CTG),A4 F55 I1 R1,0
-icd,L375M (TTA→CTG),A4 F55 I1 R1,0
-ptsP,E564* (GAA→TAA),A4 F55 I1 R1,0
-ybjT,G349G (GGC→GGT),A4 F55 I1 R1,0
-flgD,E71* (GAA→TAA),A4 F55 I1 R1,0
-yegJ,coding (39/462 nt),A4 F55 I1 R1,0
-gcvT,W124* (TGG→TAG),A4 F55 I1 R1,0
-rsmC,E298* (GAG→TAG),A4 F55 I1 R1,0
+gene,population,frequency
+crl,a1_f56_i1_r1,1
+yeaR,a1_f56_i1_r1,1
+fliK,a1_f56_i1_r1,1
+glf,a1_f56_i1_r1,1
+tnaA,a1_f56_i1_r1,1
+rho,a1_f56_i1_r1,1
+fimA,a1_f56_i1_r1,1
+rho,a1_f56_i1_r1,0
+icd,a1_f56_i1_r1,0
+icd,a1_f56_i1_r1,0
+icd,a1_f56_i1_r1,0
+icd,a1_f56_i1_r1,0
+ptsP,a1_f56_i1_r1,0
+ybjT,a1_f56_i1_r1,0
+flgD,a1_f56_i1_r1,0
+yegJ,a1_f56_i1_r1,0
+gcvT,a1_f56_i1_r1,0
+rsmC,a1_f56_i1_r1,0
+crl,a2_f57_i1_r1,1
+yeaR,a2_f57_i1_r1,0
+fliK,a2_f57_i1_r1,0
+glf,a2_f57_i1_r1,0
+tnaA,a2_f57_i1_r1,0
+rho,a2_f57_i1_r1,0
+fimA,a2_f57_i1_r1,0
+rho,a2_f57_i1_r1,0
+icd,a2_f57_i1_r1,0
+icd,a2_f57_i1_r1,0
+icd,a2_f57_i1_r1,0
+icd,a2_f57_i1_r1,0
+ptsP,a2_f57_i1_r1,0
+ybjT,a2_f57_i1_r1,1
+flgD,a2_f57_i1_r1,1
+yegJ,a2_f57_i1_r1,1
+gcvT,a2_f57_i1_r1,1
+rsmC,a2_f57_i1_r1,1
+crl,a3_f53_i1_r1,1
+yeaR,a3_f53_i1_r1,0
+fliK,a3_f53_i1_r1,1
+glf,a3_f53_i1_r1,0
+tnaA,a3_f53_i1_r1,1
+rho,a3_f53_i1_r1,0
+fimA,a3_f53_i1_r1,0
+rho,a3_f53_i1_r1,1
+icd,a3_f53_i1_r1,1
+icd,a3_f53_i1_r1,1
+icd,a3_f53_i1_r1,1
+icd,a3_f53_i1_r1,1
+ptsP,a3_f53_i1_r1,1
+ybjT,a3_f53_i1_r1,0
+flgD,a3_f53_i1_r1,0
+yegJ,a3_f53_i1_r1,0
+gcvT,a3_f53_i1_r1,0
+rsmC,a3_f53_i1_r1,0
+crl,a4_f55_i1_r1,1
+yeaR,a4_f55_i1_r1,0
+fliK,a4_f55_i1_r1,1
+glf,a4_f55_i1_r1,0
+tnaA,a4_f55_i1_r1,1
+rho,a4_f55_i1_r1,0
+fimA,a4_f55_i1_r1,0
+rho,a4_f55_i1_r1,1
+icd,a4_f55_i1_r1,0
+icd,a4_f55_i1_r1,0
+icd,a4_f55_i1_r1,0
+icd,a4_f55_i1_r1,0
+ptsP,a4_f55_i1_r1,0
+ybjT,a4_f55_i1_r1,0
+flgD,a4_f55_i1_r1,0
+yegJ,a4_f55_i1_r1,0
+gcvT,a4_f55_i1_r1,0
+rsmC,a4_f55_i1_r1,0

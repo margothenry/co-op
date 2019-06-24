@@ -1,30 +1,241 @@
-position,mutation,1-0_start,ALE1,ALE2,ALE3,ALE4,ALE5,ALE6,ALE7,ALE8,ALE9,ALE10,count,annotation,gene,gene alt.,description
-3813833,Δ1 bp,NA,0,1,0,0,0,1,0,0,0,0,2,intergenic (‑42/+53),pyrE / rph,NA,orotate phosphoribosyltransferase/defective ribonuclease PH
-4398452,A→C,NA,0,0,0,0,0,1,0,0,0,0,1,N48H (AAC→CAC),hfq,NA,"global sRNA chaperone; HF‑I, host factor for RNA phage Q beta replication"
-1195479,25 gene deletion,NA,0,1,0,0,1,0,0,0,0,0,2,25 gene deletion,e14 prophage,NA,e14 prophage
-134057,2 bp→CT,NA,0,0,0,0,1,0,0,0,0,0,1,coding (2443‑2444/2598 nt),acnB,NA,bifunctional aconitate hydratase 2/2‑methylisocitrate dehydratase
-2259502,G→A,NA,0,0,0,0,1,0,0,0,0,0,1,R296C (CGT→TGT),fruK,NA,fructose‑1‑phosphate kinase
-4210982,G→C,NA,0,0,0,0,1,0,0,0,0,0,1,intergenic (+13/‑81),rrlE/rrfE,NA,23S ribosomal RNA of rrnE operon/5S ribosomal RNA of rrnE operon
-4210996,Δ1 bp,NA,0,0,0,0,1,0,0,0,0,0,1,intergenic (+27/‑67),rrlE/ rrfE,NA,23S ribosomal RNA of rrnE operon/5S ribosomal RNA of rrnE operon
-4158877,C→T,NA,0,1,1,0,0,0,1,1,1,0,4,intergenic (‑64/‑270),sthA/fabR,udhA / fabR,"pyridine nucleotide transhydrogenase, soluble/DNA‑binding transcriptional repressor"
-700601,C→A,NA,0,0,0,0,0,0,0,1,1,0,2,G73C (GGC→TGC),nagC,NA,"DNA‑binding transcriptional dual regulator, repressor of N‑acetylglucosamine"
-4158756,C→T,NA,1,0,0,0,0,0,0,1,1,0,2,G20S (GGC→AGC),sthA,udhA,"pyridine nucleotide transhydrogenase, soluble"
-4103080,C→T,NA,0,0,1,1,0,0,0,0,0,0,1,R205H (CGT→CAT),cpxR,NA,DNA‑binding response regulator in two‑component regulatory system with CpxA
-3990350,A→C,NA,0,0,0,0,0,0,0,1,0,0,1,Q392P (CAG→CCG),cyaA,NA,adenylate cyclase
-202267,C→T,NA,1,0,0,0,0,0,0,0,0,0,1,P56L (CCT→CTT),fabZ,NA,(3R)‑hydroxymyristol acyl carrier protein dehydratase
-3409507,Δ15 bp,NA,0,0,0,0,0,0,0,1,0,0,1,coding (215‑229/297 nt),fis,NA,global DNA‑binding transcriptional dual regulator
-195561,T→G,NA,0,0,0,0,0,0,0,0,0,1,1,L220R (CTC→CGC),ispU,NA,undecaprenyl pyrophosphate synthase
-665274,G→T,NA,0,0,0,0,0,0,1,0,0,0,1,A88E (GCG→GAG),mrdB,rodA,cell wall shape‑determining protein
-1675241,Δ11 bp,NA,0,1,0,0,0,0,1,0,0,0,1,coding (677‑687/1533 nt),pntA,NA,"pyridine nucleotide transhydrogenase, alpha subunit"
-1673703,(AGCCGC)2→3,NA,0,0,0,1,0,0,0,0,0,1,1,coding (682/1389 nt),pntB,NA,"pyridine nucleotide transhydrogenase, beta subunit"
-3958941,T→G,NA,1,0,0,0,0,0,0,0,0,0,1,I81S (ATC→AGC),rep,NA,DNA helicase and single‑stranded DNA‑dependent ATPase
-3438198,G→A,NA,0,0,1,0,0,1,0,0,0,1,1,T285I (ACC→ATC),rpoA,NA,"RNA polymerase, alpha subunit"
-4181297,A→G,NA,1,0,0,0,0,0,0,0,1,0,1,N677S (AAC→AGC),rpoB,NA,"RNA polymerase, beta subunit"
-4186892,C→A,NA,1,0,0,0,0,0,0,0,0,0,1,R1174S (CGT→AGT),rpoC,NA,"RNA polymerase, beta prime subunit"
-2864733,Δ1 bp,NA,0,1,1,1,1,1,1,0,0,0,4,coding (841/993 nt),rpoS,NA,"RNA polymerase, sigma S (sigma 38) factor"
-931811,A→C,NA,0,0,0,1,1,0,0,0,0,0,1,intergenic (‑538/‑7),trxB/ lrp,NA,"thioredoxin reductase, FAD/NAD(P)‑binding/DNA‑binding transcriptional dual regulator, leucine‑binding"
-4057389,#NAME?,NA,0,0,0,0,0,0,0,1,0,0,1,coding (960/1824 nt),typA,bipA,GTP‑binding protein
-2525264,Δ1 bp,NA,0,0,0,1,0,0,0,0,0,0,1,coding (297/999 nt),yfeH,NA,putative inner membrane protein
-4076151,T→G,NA,0,0,1,0,0,0,0,0,0,0,1,L227R (CTG→CGG),yiiD,NA,putative acetyltransferase
-4014129,(GGGTCTG)1→2,NA,0,0,0,0,0,0,0,0,0,1,1,coding (64/816 nt),ysgA,NA,putative hydrolase
-1934273,C→T,NA,0,0,0,0,0,0,0,0,1,0,1,A22A (GCG→GCA),zwf,NA,glucose‑6‑phosphate 1‑dehydrogenase
+gene,population,frequency
+hfq,ale1,0
+prophage,ale1,0
+acnB,ale1,0
+fruK,ale1,0
+nagC,ale1,0
+sthA,ale1,1
+cpxR,ale1,0
+cyaA,ale1,0
+fabZ,ale1,1
+fis,ale1,0
+ispU,ale1,0
+mrdB,ale1,0
+pntA,ale1,0
+pntB,ale1,0
+rep,ale1,1
+rpoA,ale1,0
+rpoB,ale1,1
+rpoC,ale1,1
+rpoS,ale1,0
+typA,ale1,0
+yfeH,ale1,0
+yiiD,ale1,0
+ysgA,ale1,0
+zwf,ale1,0
+hfq,ale2,0
+prophage,ale2,1
+acnB,ale2,0
+fruK,ale2,0
+nagC,ale2,0
+sthA,ale2,0
+cpxR,ale2,0
+cyaA,ale2,0
+fabZ,ale2,0
+fis,ale2,0
+ispU,ale2,0
+mrdB,ale2,0
+pntA,ale2,1
+pntB,ale2,0
+rep,ale2,0
+rpoA,ale2,0
+rpoB,ale2,0
+rpoC,ale2,0
+rpoS,ale2,1
+typA,ale2,0
+yfeH,ale2,0
+yiiD,ale2,0
+ysgA,ale2,0
+zwf,ale2,0
+hfq,ale3,0
+prophage,ale3,0
+acnB,ale3,0
+fruK,ale3,0
+nagC,ale3,0
+sthA,ale3,0
+cpxR,ale3,1
+cyaA,ale3,0
+fabZ,ale3,0
+fis,ale3,0
+ispU,ale3,0
+mrdB,ale3,0
+pntA,ale3,0
+pntB,ale3,0
+rep,ale3,0
+rpoA,ale3,1
+rpoB,ale3,0
+rpoC,ale3,0
+rpoS,ale3,1
+typA,ale3,0
+yfeH,ale3,0
+yiiD,ale3,1
+ysgA,ale3,0
+zwf,ale3,0
+hfq,ale4,0
+prophage,ale4,0
+acnB,ale4,0
+fruK,ale4,0
+nagC,ale4,0
+sthA,ale4,0
+cpxR,ale4,1
+cyaA,ale4,0
+fabZ,ale4,0
+fis,ale4,0
+ispU,ale4,0
+mrdB,ale4,0
+pntA,ale4,0
+pntB,ale4,1
+rep,ale4,0
+rpoA,ale4,0
+rpoB,ale4,0
+rpoC,ale4,0
+rpoS,ale4,1
+typA,ale4,0
+yfeH,ale4,1
+yiiD,ale4,0
+ysgA,ale4,0
+zwf,ale4,0
+hfq,ale5,0
+prophage,ale5,1
+acnB,ale5,1
+fruK,ale5,1
+nagC,ale5,0
+sthA,ale5,0
+cpxR,ale5,0
+cyaA,ale5,0
+fabZ,ale5,0
+fis,ale5,0
+ispU,ale5,0
+mrdB,ale5,0
+pntA,ale5,0
+pntB,ale5,0
+rep,ale5,0
+rpoA,ale5,0
+rpoB,ale5,0
+rpoC,ale5,0
+rpoS,ale5,1
+typA,ale5,0
+yfeH,ale5,0
+yiiD,ale5,0
+ysgA,ale5,0
+zwf,ale5,0
+hfq,ale6,1
+prophage,ale6,0
+acnB,ale6,0
+fruK,ale6,0
+nagC,ale6,0
+sthA,ale6,0
+cpxR,ale6,0
+cyaA,ale6,0
+fabZ,ale6,0
+fis,ale6,0
+ispU,ale6,0
+mrdB,ale6,0
+pntA,ale6,0
+pntB,ale6,0
+rep,ale6,0
+rpoA,ale6,1
+rpoB,ale6,0
+rpoC,ale6,0
+rpoS,ale6,1
+typA,ale6,0
+yfeH,ale6,0
+yiiD,ale6,0
+ysgA,ale6,0
+zwf,ale6,0
+hfq,ale7,0
+prophage,ale7,0
+acnB,ale7,0
+fruK,ale7,0
+nagC,ale7,0
+sthA,ale7,0
+cpxR,ale7,0
+cyaA,ale7,0
+fabZ,ale7,0
+fis,ale7,0
+ispU,ale7,0
+mrdB,ale7,1
+pntA,ale7,1
+pntB,ale7,0
+rep,ale7,0
+rpoA,ale7,0
+rpoB,ale7,0
+rpoC,ale7,0
+rpoS,ale7,1
+typA,ale7,0
+yfeH,ale7,0
+yiiD,ale7,0
+ysgA,ale7,0
+zwf,ale7,0
+hfq,ale8,0
+prophage,ale8,0
+acnB,ale8,0
+fruK,ale8,0
+nagC,ale8,1
+sthA,ale8,1
+cpxR,ale8,0
+cyaA,ale8,1
+fabZ,ale8,0
+fis,ale8,1
+ispU,ale8,0
+mrdB,ale8,0
+pntA,ale8,0
+pntB,ale8,0
+rep,ale8,0
+rpoA,ale8,0
+rpoB,ale8,0
+rpoC,ale8,0
+rpoS,ale8,0
+typA,ale8,1
+yfeH,ale8,0
+yiiD,ale8,0
+ysgA,ale8,0
+zwf,ale8,0
+hfq,ale9,0
+prophage,ale9,0
+acnB,ale9,0
+fruK,ale9,0
+nagC,ale9,1
+sthA,ale9,1
+cpxR,ale9,0
+cyaA,ale9,0
+fabZ,ale9,0
+fis,ale9,0
+ispU,ale9,0
+mrdB,ale9,0
+pntA,ale9,0
+pntB,ale9,0
+rep,ale9,0
+rpoA,ale9,0
+rpoB,ale9,1
+rpoC,ale9,0
+rpoS,ale9,0
+typA,ale9,0
+yfeH,ale9,0
+yiiD,ale9,0
+ysgA,ale9,0
+zwf,ale9,1
+hfq,ale10,0
+prophage,ale10,0
+acnB,ale10,0
+fruK,ale10,0
+nagC,ale10,0
+sthA,ale10,0
+cpxR,ale10,0
+cyaA,ale10,0
+fabZ,ale10,0
+fis,ale10,0
+ispU,ale10,1
+mrdB,ale10,0
+pntA,ale10,0
+pntB,ale10,1
+rep,ale10,0
+rpoA,ale10,1
+rpoB,ale10,0
+rpoC,ale10,0
+rpoS,ale10,0
+typA,ale10,0
+yfeH,ale10,0
+yiiD,ale10,0
+ysgA,ale10,1
+zwf,ale10,0

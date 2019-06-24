@@ -1,86 +1,69 @@
-population,frequency,gene,mutation_annotations,mutation_position,mutation,mutation_locations,mutation_chromosome
-Evo04tpiAEvo01EP,1,galR,DNA-binding transcriptional repressor,2975617,INS,coding,1
-Evo04tpiAEvo01EP,0.135,glk;yfeO,glucokinase;putative ion channel protein,2507499,SNP,intergenic;intergenic,1
-Evo04tpiAEvo01EP,1,htrE,putative outer membrane usher protein,153986,MOB,coding,1
-Evo04tpiAEvo01EP,0.513,icd,e14 prophage; isocitrate dehydrogenase; specific for NADP+,1195443,SNP,cryptic prophage e14,1
-Evo04tpiAEvo01EP,0.475,icd,e14 prophage; isocitrate dehydrogenase; specific for NADP+,1195455,SNP,cryptic prophage e14,1
-Evo04tpiAEvo01EP,0.486,icd,e14 prophage; isocitrate dehydrogenase; specific for NADP+,1195468,SNP,cryptic prophage e14,1
-Evo04tpiAEvo01EP,0.494,icd,e14 prophage; isocitrate dehydrogenase; specific for NADP+,1195470,SNP,cryptic prophage e14,1
-Evo04tpiAEvo01EP,0.448,icd,e14 prophage; isocitrate dehydrogenase; specific for NADP+,1195500,SNP,cryptic prophage e14,1
-Evo04tpiAEvo01EP,0.448,icd,e14 prophage; isocitrate dehydrogenase; specific for NADP+,1195503,SNP,cryptic prophage e14,1
-Evo04tpiAEvo01EP,0.448,icd,e14 prophage; isocitrate dehydrogenase; specific for NADP+,1195506,SNP,cryptic prophage e14,1
-Evo04tpiAEvo01EP,0.361,icd,e14 prophage; isocitrate dehydrogenase; specific for NADP+,1195515,SNP,cryptic prophage e14,1
-Evo04tpiAEvo01EP,0.386,icd,e14 prophage; isocitrate dehydrogenase; specific for NADP+,1195527,SNP,cryptic prophage e14,1
-Evo04tpiAEvo01EP,0.365,icd,e14 prophage; isocitrate dehydrogenase; specific for NADP+,1195539,SNP,cryptic prophage e14,1
-Evo04tpiAEvo01EP,0.319,icd,e14 prophage; isocitrate dehydrogenase; specific for NADP+,1195548,SNP,cryptic prophage e14,1
-Evo04tpiAEvo01EP,0.281,icd,e14 prophage; isocitrate dehydrogenase; specific for NADP+,1195575,SNP,cryptic prophage e14,1
-Evo04tpiAEvo01EP,0.7969,menC,O-succinylbenzoyl-CoA synthase,2373850,MOB,coding,1
-Evo04tpiAEvo01EP,0.465,nagA,N-acetylglucosamine-6-phosphate deacetylase,701289,SNP,coding,1
-Evo04tpiAEvo01EP,0.129,nagC,DNA-binding transcriptional dual regulator; repressor of N-acetylglucosamine,700621,SNP,coding,1
-Evo04tpiAEvo01EP,1,nemR,transcriptional repressor for the nem operon; NEM-inactivated,1724531,DEL,coding,1
-Evo04tpiAEvo01EP,0.529,phoB,DNA-binding response regulator in two-component regulatory system with PhoR (or CreC),416615,SNP,coding,1
-Evo04tpiAEvo01EP,0.532,phoR,sensory histidine kinase in two-component regulatory system with PhoB,417652,DEL,coding,1
-Evo04tpiAEvo01EP,1,pstA,phosphate transporter subunit,3907335,DEL,coding,1
-Evo04tpiAEvo01EP,1,ptsG,fused glucose-specific PTS enzymes: IIB component/IIC component,1157607,SNP,coding,1
-Evo04tpiAEvo01EP,0.125,rpoC,RNA polymerase; beta prime subunit,4187531,INS,coding,1
-Evo04tpiAEvo01EP,1,rrfB,5S ribosomal RNA of rrnB operon,4169671,SNP,coding,1
-Evo04tpiAEvo01EP,0.133,ydbC,putative oxidoreductase; NAD(P)-binding,1472327,DEL,coding,1
-Evo04tpiAEvo01EP,0.114,ydiP;ydiQ,putative DNA-binding transcriptional regulator;putative electron transfer flavoprotein subunit,1777372,DEL,intergenic;intergenic,1
-Evo04tpiAEvo01EP,0.32,NA,NA,4294213,SNP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
-Evo04tpiAEvo01EP,0.348,NA,NA,4294214,SNP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
-Evo04tpiAEvo02EP,1,insH1,IS5 transposase and trans-activator,2064489,SNP,coding,1
-Evo04tpiAEvo02EP,0.937,nagC,DNA-binding transcriptional dual regulator; repressor of N-acetylglucosamine,700601,INS,coding,1
-Evo04tpiAEvo02EP,1,nagE,fused N-acetyl glucosamine specific PTS enzyme: IIC; IIB; and IIA components,703231,SNP,coding,1
-Evo04tpiAEvo02EP,1,nemR,transcriptional repressor for the nem operon; NEM-inactivated,1724193,SNP,coding,1
-Evo04tpiAEvo02EP,1,phoB,DNA-binding response regulator in two-component regulatory system with PhoR (or CreC),416592,DEL,coding,1
-Evo04tpiAEvo02EP,1,pstA,phosphate transporter subunit,3907335,DEL,coding,1
-Evo04tpiAEvo02EP,0.9751,pykF,pyruvate kinase I,1753779,MOB,coding,1
-Evo04tpiAEvo02EP,1,rrfB,5S ribosomal RNA of rrnB operon,4169671,SNP,coding,1
-Evo04tpiAEvo02EP,0.104,rsxC,electron transport complex protein required for the reduction of SoxR; predicted membrane-associated NADH oxidoreductase,1706868,SNP,coding,1
-Evo04tpiAEvo02EP,0.11,rsxC,electron transport complex protein required for the reduction of SoxR; predicted membrane-associated NADH oxidoreductase,1706871,SNP,coding,1
-Evo04tpiAEvo02EP,0.171,NA,NA,4294309,SNP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
-Evo04tpiAEvo02EP,0.118,NA,NA,4323971,SNP,REP325 (repetitive extragenic palindromic) element; contains 12 REP sequences,1
-Evo04tpiAEvo03EP,1,bcsA,cellulose synthase; catalytic subunit,3691745,DEL,coding,1
-Evo04tpiAEvo03EP,1,galR,DNA-binding transcriptional repressor,2974931,SNP,coding,1
-Evo04tpiAEvo03EP,0.11,glpT;glpA,sn-glycerol-3-phosphate transporter;sn-glycerol-3-phosphate dehydrogenase (anaerobic); large subunit; FAD/NAD(P)-binding,2350583,SNP,intergenic;intergenic,1
-Evo04tpiAEvo03EP,0.469,menC,O-succinylbenzoyl-CoA synthase,2373850,MOB,coding,1
-Evo04tpiAEvo03EP,0.1495,menE,O-succinylbenzoate-CoA ligase,2372971,MOB,coding,1
-Evo04tpiAEvo03EP,0.257,nagA,N-acetylglucosamine-6-phosphate deacetylase,701529,SNP,coding,1
-Evo04tpiAEvo03EP,0.348,nagA,N-acetylglucosamine-6-phosphate deacetylase,701553,DEL,coding,1
-Evo04tpiAEvo03EP,0.168,nagA,N-acetylglucosamine-6-phosphate deacetylase,701613,SNP,coding,1
-Evo04tpiAEvo03EP,1,phoB,DNA-binding response regulator in two-component regulatory system with PhoR (or CreC),416480,DEL,coding,1
-Evo04tpiAEvo03EP,0.613,phoB,DNA-binding response regulator in two-component regulatory system with PhoR (or CreC),416975,DEL,coding,1
-Evo04tpiAEvo03EP,1,pstA,phosphate transporter subunit,3907335,DEL,coding,1
-Evo04tpiAEvo03EP,1,ptsG,fused glucose-specific PTS enzymes: IIB component/IIC component,1158505,INS,coding,1
-Evo04tpiAEvo03EP,0.148,pykF,pyruvate kinase I,1755004,DEL,coding,1
-Evo04tpiAEvo03EP,0.108,rpoB,RNA polymerase; beta subunit,4179874,SNP,coding,1
-Evo04tpiAEvo03EP,1,rrfB,5S ribosomal RNA of rrnB operon,4169671,SNP,coding,1
-Evo04tpiAEvo03EP,1,sbcD;phoB,exonuclease; dsDNA; ATP-dependent;DNA-binding response regulator in two-component regulatory system with PhoR (or CreC),416288,DEL,intergenic;intergenic,1
-Evo04tpiAEvo03EP,1,ydhL;nemR,hypothetical protein;transcriptional repressor for the nem operon; NEM-inactivated,1724028,SNP,intergenic;intergenic,1
-Evo04tpiAEvo03EP,0.136,yidX,putative lipoproteinC,3873548,SNP,coding,1
-Evo04tpiAEvo03EP,0.211,NA,NA,4294213,SNP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
-Evo04tpiAEvo03EP,0.249,NA,NA,4294214,SNP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
-Evo04tpiAEvo03EP,0.189,NA,NA,4294309,SNP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
-Evo04tpiAEvo04EP,1,insH1,IS5 transposase and trans-activator,2064489,SNP,coding,1
-Evo04tpiAEvo04EP,1,leuV;leuP,NA,4604190,DEL,intergenic;intergenic,1
-Evo04tpiAEvo04EP,1,murA,UDP-N-acetylglucosamine 1-carboxyvinyltransferase,3334172,DEL,coding,1
-Evo04tpiAEvo04EP,0.9534,nagC,DNA-binding transcriptional dual regulator; repressor of N-acetylglucosamine,699820,MOB,coding,1
-Evo04tpiAEvo04EP,1,nagE,fused N-acetyl glucosamine specific PTS enzyme: IIC; IIB; and IIA components,703306,SNP,coding,1
-Evo04tpiAEvo04EP,1,nemR,transcriptional repressor for the nem operon; NEM-inactivated,1724414,SNP,coding,1
-Evo04tpiAEvo04EP,1,phoR,sensory histidine kinase in two-component regulatory system with PhoB,418184,DEL,coding,1
-Evo04tpiAEvo04EP,1,pstA,phosphate transporter subunit,3907335,DEL,coding,1
-Evo04tpiAEvo04EP,1,pykF,pyruvate kinase I,1754398,SNP,coding,1
-Evo04tpiAEvo04EP,1,rpoC,RNA polymerase; beta prime subunit,4187506,INS,coding,1
-Evo04tpiAEvo04EP,0.124,rpoC,RNA polymerase; beta prime subunit,4187506,INS,coding,1
-Evo04tpiAEvo04EP,0.124,rpoC,RNA polymerase; beta prime subunit,4187506,INS,coding,1
-Evo04tpiAEvo04EP,0.658,rpoC,RNA polymerase; beta prime subunit,4187535,INS,coding,1
-Evo04tpiAEvo04EP,1,rrfB,5S ribosomal RNA of rrnB operon,4169671,SNP,coding,1
-Evo04tpiAEvo04EP,0.237,rrlB,23S ribosomal RNA of rrnB operon,4169250,SNP,coding,1
-Evo04tpiAEvo04EP,0.244,rrlB,23S ribosomal RNA of rrnB operon,4169251,SNP,coding,1
-Evo04tpiAEvo04EP,1,yheS,fused predicted transporter subunits of ABC superfamily: ATP-binding components,3479477,DEL,coding,1
-Evo04tpiAEvo04EP,0.112,yidX,putative lipoproteinC,3873550,SNP,coding,1
-Evo04tpiAEvo04EP,1,ypdA,putative sensory kinase in two-component system with YpdB,2497761,DEL,coding,1
-Evo04tpiAEvo04EP,0.268,NA,NA,4294291,SNP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
-Evo04tpiAEvo04EP,0.161,NA,NA,4294213,SNP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
-Evo04tpiAEvo04EP,0.185,NA,NA,4294214,SNP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
-Evo04tpiAEvo04EP,0.139,NA,NA,4294309,SNP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+gene,population,frequency
+galR,Evo04tpiAEvo01EP,1
+htrE,Evo04tpiAEvo01EP,1
+icd,Evo04tpiAEvo01EP,0.513
+icd,Evo04tpiAEvo01EP,0.475
+icd,Evo04tpiAEvo01EP,0.486
+icd,Evo04tpiAEvo01EP,0.494
+icd,Evo04tpiAEvo01EP,0.448
+icd,Evo04tpiAEvo01EP,0.448
+icd,Evo04tpiAEvo01EP,0.448
+icd,Evo04tpiAEvo01EP,0.361
+icd,Evo04tpiAEvo01EP,0.386
+icd,Evo04tpiAEvo01EP,0.365
+icd,Evo04tpiAEvo01EP,0.319
+icd,Evo04tpiAEvo01EP,0.281
+menC,Evo04tpiAEvo01EP,0.7969
+nagA,Evo04tpiAEvo01EP,0.465
+nagC,Evo04tpiAEvo01EP,0.129
+nemR,Evo04tpiAEvo01EP,1
+phoB,Evo04tpiAEvo01EP,0.529
+phoR,Evo04tpiAEvo01EP,0.532
+pstA,Evo04tpiAEvo01EP,1
+ptsG,Evo04tpiAEvo01EP,1
+rpoC,Evo04tpiAEvo01EP,0.125
+rrfB,Evo04tpiAEvo01EP,1
+ydbC,Evo04tpiAEvo01EP,0.133
+insH1,Evo04tpiAEvo02EP,1
+nagC,Evo04tpiAEvo02EP,0.937
+nagE,Evo04tpiAEvo02EP,1
+nemR,Evo04tpiAEvo02EP,1
+phoB,Evo04tpiAEvo02EP,1
+pstA,Evo04tpiAEvo02EP,1
+pykF,Evo04tpiAEvo02EP,0.9751
+rrfB,Evo04tpiAEvo02EP,1
+rsxC,Evo04tpiAEvo02EP,0.104
+rsxC,Evo04tpiAEvo02EP,0.11
+bcsA,Evo04tpiAEvo03EP,1
+galR,Evo04tpiAEvo03EP,1
+menC,Evo04tpiAEvo03EP,0.469
+menE,Evo04tpiAEvo03EP,0.1495
+nagA,Evo04tpiAEvo03EP,0.257
+nagA,Evo04tpiAEvo03EP,0.348
+nagA,Evo04tpiAEvo03EP,0.168
+phoB,Evo04tpiAEvo03EP,1
+phoB,Evo04tpiAEvo03EP,0.613
+pstA,Evo04tpiAEvo03EP,1
+ptsG,Evo04tpiAEvo03EP,1
+pykF,Evo04tpiAEvo03EP,0.148
+rpoB,Evo04tpiAEvo03EP,0.108
+rrfB,Evo04tpiAEvo03EP,1
+yidX,Evo04tpiAEvo03EP,0.136
+insH1,Evo04tpiAEvo04EP,1
+murA,Evo04tpiAEvo04EP,1
+nagC,Evo04tpiAEvo04EP,0.9534
+nagE,Evo04tpiAEvo04EP,1
+nemR,Evo04tpiAEvo04EP,1
+phoR,Evo04tpiAEvo04EP,1
+pstA,Evo04tpiAEvo04EP,1
+pykF,Evo04tpiAEvo04EP,1
+rpoC,Evo04tpiAEvo04EP,1
+rpoC,Evo04tpiAEvo04EP,0.124
+rpoC,Evo04tpiAEvo04EP,0.124
+rpoC,Evo04tpiAEvo04EP,0.658
+rrfB,Evo04tpiAEvo04EP,1
+rrlB,Evo04tpiAEvo04EP,0.237
+rrlB,Evo04tpiAEvo04EP,0.244
+yheS,Evo04tpiAEvo04EP,1
+yidX,Evo04tpiAEvo04EP,0.112
+ypdA,Evo04tpiAEvo04EP,1

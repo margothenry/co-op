@@ -1,2 +1,2 @@
-"paper","environment","generation","selective_pressure","c_hyper","p_chisq","estimate","N_genes.notParallel","N_genes.parallel","parallel_genes"
-"Sandberg2017_glu_ac","M9 minimal medium + glucose + acetate","650","M9 minimal medium + glucose + acetate",32.386,0.005,0.011,25,12,"gatC, gltP, yjcO, icd, ptsP, pykF, pyrE, rph, rhsD, rhsE, rpoB, rpoC, ychE, oppA, yobF"
+"paper","environment","generation","day","flask","selective_pressure","species","ploidy","strain_info","c_hyper","p_chisq","estimate","N_genes.notParallel","N_genes.parallel","parallel_genes"
+"Sandberg2017","M9 minimal medium + glucose + acetate","650",NA,NA,"glucose + acetate","Ecoli_K12","haploid",NA,15.64,0.005,0.001,1,1,"rhsE"
