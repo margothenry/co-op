@@ -1,5 +1,6 @@
-﻿Species,NumGenes
-Ecoli_K12,"4,377"
-Ecoli_O157-H7,"5,416"
-Sac,6604
-Ecoli_ATCC,4901
+Species	NumGenes
+Ecoli_K12	"4,377"
+Ecoli_O157_H7	"5,416"
+Sac	6604
+Ecoli_ATCC	4901
+P_aeruginosa_PA14	5994
