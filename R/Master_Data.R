@@ -865,6 +865,26 @@ single_long(paper = "KuzdzalFick2018", dataset_name = "KuzdzalFick2018", environ
 
 
 
+# (Tri): Boyle2017:
+Boyle2017 <- read_csv(here("data_in", "original & usable", "Boyle2017", "Boyle2017_usable.csv"))
+Boyle2017 <- clean_names(Boyle2017, case = "snake")
+colnames(Boyle2017) <- tolower(colnames(Boyle2017))
+Boyle2017 <- Boyle2017 %>%
+  replace(is.na(.), 0) %>% 
+  filter(details != "intergenic") %>%
+  select(gene, population, frequency)
+Boyle2017_out <- c(grep(",", Boyle2017$gene), grep("/", Boyle2017$gene))
+if (length(Boyle2017_out) > 0) {   
+  Boyle2017 <- Boyle2017[-Boyle2017_out,] 
+} 
+
+write_csv(Boyle2017, here("data_in", "for_func", "Boyle2017.csv"))
+single_long(paper = "Boyle2017", dataset_name = "Boyle2017", environment = "LB", generations = "49", 
+            selective_pressure = "LB", species = "P. aeruginosa PA14", ploidy = "haploid")
+
+
+
+
 ####################################
 
 # (Tri) Combine all the analysis files:
