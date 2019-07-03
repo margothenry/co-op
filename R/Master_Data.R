@@ -15,14 +15,14 @@ source("R/dgconstraint/functions/single_wide.R")
 source("R/dgconstraint/functions/single_long.R")
 
 ############################
-# (Tri): Note: All files imported for the analysis must have "_usable.csv" at the end, for uniformity.
+# (TL): Note: All files imported for the analysis must have "_usable.csv" at the end, for uniformity.
 ############################
 
 ############################
 # Multiple wide:
 ############################
-### (Tri): A template for func calling (use EITHER generations, days, or flasks; use strain_info if paper has datasets from multiple founder strains):
-### (Tri): multiple_wide(paper = "", dataset_name = "", environment = "", selective_pressure = "", species = "", ploidy = "", (strain_info = ""), generations/days/flasks = c(""))
+### (TL): A template for func calling (use EITHER generations, days, or flasks; use strain_info if paper has datasets from multiple founder strains):
+### (TL): multiple_wide(paper = "", dataset_name = "", environment = "", selective_pressure = "", species = "", ploidy = "", (strain_info = ""), generations/days/flasks = c(""))
 
 # (Working) Tenaillon2016:
 ### This paper originally had two clones sequenced for each timepoint. Collapse the two columns and save the resulting dataset.
@@ -32,21 +32,21 @@ colnames(Tenaillon2016) <- tolower(colnames(Tenaillon2016))
 Tenaillon2016 <- Tenaillon2016 %>% 
   replace(is.na(.), 0) %>% 
   filter(details != "intergenic")
-### (Tri): Why there's a second pipe here: If there are any cols removed from filter(), those changes need to be saved in the dataset before transmute(), which grabs cols using "$".
-### (Tri): In this particular case though, there are cols that need collapsing, so no direct col-grabbing w/ "$". You'll see examples of that eventually.
-### (Tri): If there are cols that need collapsing or renaming, use transmute(). If not, use select() - much less of a hassle.
+### (TL): Why there's a second pipe here: If there are any cols removed from filter(), those changes need to be saved in the dataset before transmute(), which grabs cols using "$".
+### (TL): In this particular case though, there are cols that need collapsing, so no direct col-grabbing w/ "$". You'll see examples of that eventually.
+### (TL): If there are cols that need collapsing or renaming, use transmute(). If not, use select() - much less of a hassle.
 Tenaillon2016 <- Tenaillon2016 %>% 
   transmute(gene, population, "500" = `x500_i1_r1`+`x500_i2_r1`, "1000" =`x1000_i1_r1`+`x1000_i2_r1`, "1500" =`x1500_i1_r1`+`x1500_i2_r1`,  "2000"= `x2000_i1_r1`+`x2000_i2_r1`, "5000"=`x5000_i1_r1`+`x5000_i2_r1`, "10000"= `x10000_i1_r1`+`x10000_i2_r1`, "15000"=`x15000_i1_r1`+`x15000_i2_r1`,"20000"=`x20000_i1_r1`+`x20000_i2_r1`,"30000"= `x30000_i1_r1`+`x30000_i2_r1`,"40000"=`x40000_i1_r1`+`x40000_i2_r1`,"50000"=`x50000_i1_r1`+`x50000_i2_r1`)
-### (Tri): Create a new variable to store the index of rows that contain intergenic mutations not notated by breseq.
-### (Tri): If there are any rows of this kind, remove them from the dataset. The if() was used because the dataset will be empty if there are no badly-notated rows (dataset(-0,) is empty!)
-### (Tri): grep() is used for all hitherto known patterns indicating intergenicness in the colum "gene". Future updates could include more patterns, depending on how creative people could get with their notations.
+### (TL): Create a new variable to store the index of rows that contain intergenic mutations not notated by breseq.
+### (TL): If there are any rows of this kind, remove them from the dataset. The if() was used because the dataset will be empty if there are no badly-notated rows (dataset(-0,) is empty!)
+### (TL): grep() is used for all hitherto known patterns indicating intergenicness in the colum "gene". Future updates could include more patterns, depending on how creative people could get with their notations.
 Tenaillon2016_out <- c(grep(",", Tenaillon2016$gene), grep("/", Tenaillon2016$gene))
 if (length(Tenaillon2016_out) > 0) {
   Tenaillon2016 <- Tenaillon2016[-Tenaillon2016_out,]
 }
 
 write_csv(Tenaillon2016, here("data_in", "for_func", "Tenaillon2016.csv"))
-### (Tri): Make sure to call out ALL arguments - there are lots of parameter. so position-based value input isn't reliable.
+### (TL): Make sure to call out ALL arguments - there are lots of parameter. so position-based value input isn't reliable.
 multiple_wide(paper = "Tenaillon2016", dataset_name = "Tenaillon2016", environment = "Davis minimal medium", 
               generations = c("500", "1000", "1500", "2000", '5000', '10000', '15000', '20000', '30000', '40000','50000'), selective_pressure = "Davis minimal medium", 
               species = "Ecoli_K12", ploidy = "haploid")
@@ -57,7 +57,7 @@ multiple_wide(paper = "Tenaillon2016", dataset_name = "Tenaillon2016", environme
 Lang2013 <- read_csv(here("data_in", "original & usable", "Lang2013", "Lang2013_usable.csv"))
 Lang2013 <- clean_names(Lang2013, case = "snake")
 colnames(Lang2013) <- tolower(colnames(Lang2013))
-### (Tri): (Custom) If there are too many non-numeric timepoints to rename manually, gsub() for the naming pattern of a particular dataset, replacing the non-numbers with "" (no space).
+### (TL): (Custom) If there are too many non-numeric timepoints to rename manually, gsub() for the naming pattern of a particular dataset, replacing the non-numbers with "" (no space).
 names(Lang2013) <- gsub("p1_", "", names(Lang2013))
 Lang2013 <- Lang2013 %>%
   replace(is.na(.), 0) %>% 
@@ -79,11 +79,11 @@ multiple_wide(paper = "Lang2013", dataset_name = "Lang2013", environment = "YPD"
 Sherlock2013 <- read_csv(here("data_in", "original & usable", "Sherlock2013", "Sherlock2013_usable.csv"))
 Sherlock2013 <- clean_names(Sherlock2013, case = "snake")
 colnames(Sherlock2013) <- tolower(colnames(Sherlock2013))
-### (Tri): The renaming of non-numeric timepoint names is a bit tricky here. Both "gene" & timepoint names have the letter "g" (both lowercase after tolower()).
-### (Tri): So, it's necessary to capitalize the "g" in "gene" so that we could gsub() the non-numeric timepoint names:
+### (TL): The renaming of non-numeric timepoint names is a bit TLcky here. Both "gene" & timepoint names have the letter "g" (both lowercase after tolower()).
+### (TL): So, it's necessary to capitalize the "g" in "gene" so that we could gsub() the non-numeric timepoint names:
 names(Sherlock2013) <- gsub("gene", "Gene", names(Sherlock2013))
 names(Sherlock2013) <- gsub("g", "", names(Sherlock2013))
-### (Tri): Now, change the "Gene" column back to lowercase:
+### (TL): Now, change the "Gene" column back to lowercase:
 names(Sherlock2013) <- gsub("Gene", "gene", names(Sherlock2013))
 Sherlock2013 <- Sherlock2013 %>%
   replace(is.na(.), 0) %>% 
@@ -105,7 +105,7 @@ multiple_wide(paper = "Sherlock2013", dataset_name = "Sherlock2013", environment
 Sherlock2019 <- read_csv(here("data_in", "original & usable", "Sherlock2019", "Sherlock2019_usable.csv"))
 Sherlock2019 <- clean_names(Sherlock2019, case = "snake")
 colnames(Sherlock2019) <- tolower(colnames(Sherlock2019))
-### (Tri): If the input dataset already has numeric timepoint col names, clean_name() will add an "x" to each of them. Use gsub() to remove this.
+### (TL): If the input dataset already has numeric timepoint col names, clean_name() will add an "x" to each of them. Use gsub() to remove this.
 names(Sherlock2019) <- gsub("x", "", names(Sherlock2019))
 Sherlock2019 <- Sherlock2019 %>%
   replace(is.na(.), 0) %>% 
@@ -166,7 +166,7 @@ multiple_wide(paper = "Wielgoss2016", dataset_name = "Wielgoss2016_mucoid", envi
 
 
 ## (Working) Wielgoss2016_nonMucoid:
-Wielgoss2016_nonMucoid <- read_csv(here("data_in", "original & usable", "Wielgoss2016", "Wielgoss2016_mucoid_usable.csv"))
+Wielgoss2016_nonMucoid <- read_csv(here("data_in", "original & usable", "Wielgoss2016", "Wielgoss2016_nonMucoid_usable.csv"))
 Wielgoss2016_nonMucoid <- clean_names(Wielgoss2016_nonMucoid, case = "snake")
 colnames(Wielgoss2016_nonMucoid) <- tolower(colnames(Wielgoss2016_nonMucoid))
 names(Wielgoss2016_nonMucoid) <- gsub("x", "", names(Wielgoss2016_nonMucoid))
@@ -201,13 +201,13 @@ if (length(Sandberg2016_out) > 0) {
 } 
 
 write_csv(Sandberg2016, here("data_in", "for_func", "Sandberg2016.csv"))
-### (Tri): Make sure to call out the argument "flasks"!
+### (TL): Make sure to call out the argument "flasks"!
 multiple_wide(paper = "Sandberg2016", dataset_name = "Sandberg2016", environment = "Davis minimal medium", selective_pressure = "Davis minimal medium", 
               species = "Ecoli_K12", ploidy = "haploid", flasks = c("23", "58", "133"))
 
 
 
-# (Tri): Kacar2017:
+# (TL): Kacar2017:
 Kacar2017 <- read_csv(here("data_in", "original & usable", "Kacar2017", "Kacar2017_usable.csv"))
 Kacar2017 <- clean_names(Kacar2017, case = "snake")
 colnames(Kacar2017) <- tolower(colnames(Kacar2017))
@@ -219,7 +219,7 @@ Kacar2017 <- Kacar2017 %>%
   select(gene, population, "500", "1000", "1500", "2000")
 Kacar2017_out <- c(grep(",", Kacar2017$gene), grep("/", Kacar2017$gene))
 if (length(Kacar2017_out) > 0) {   
-  Kacar2017 <- Sherlock2013[-Kacar2017_out,] 
+  Kacar2017 <- Kacar2017[-Kacar2017_out,] 
   } 
 
 write_csv(Kacar2017, here("data_in", "for_func", "Kacar2017.csv"))
@@ -228,7 +228,7 @@ multiple_wide(paper = "Kacar2017", dataset_name = "Kacar2017", environment = "Mi
 
 
 
-# (Tri): Morgenthaler2019:
+# (TL): Morgenthaler2019:
 Morgenthaler2019 <- read_csv(here("data_in", "original & usable", "Morgenthaler2019", "Morgenthaler2019_usable.csv"))
 Morgenthaler2019 <- clean_names(Morgenthaler2019, case = "snake")
 colnames(Morgenthaler2019) <- tolower(colnames(Morgenthaler2019))
@@ -246,11 +246,81 @@ write_csv(Morgenthaler2019, here("data_in", "for_func", "Morgenthaler2019.csv"))
 multiple_wide(paper = "Morgenthaler2019", dataset_name = "Morgenthaler2019", environment = "M9", days = c("42", "50"), selective_pressure = "M9", 
               species = "Ecoli_K12", ploidy = "haploid")
 
+
+
+# (TL): Du2019:
+Du2019 <- read_csv(here("data_in", "original & usable", "Du2019", "Du2019_usable.csv"))
+Du2019 <- clean_names(Du2019, case = "snake")
+colnames(Du2019) <- tolower(colnames(Du2019))
+names(Du2019) <- gsub("x", "", names(Du2019))
+Du2019 <- Du2019 %>%
+  replace(is.na(.), 0) %>% 
+  filter(details != "intergenic", gene != "0")
+### (TL): To assist with the spread of the "flask" column, I manually added a "value" column in Excel. All values for the "value" column are "1".
+### (TL): Spread the "flask" column:
+Du2019 <- spread(Du2019, flask, value)
+### (TL): Gather the population columns ("aa1" to "aa6"):
+Du2019 <- gather(Du2019, population, frequency, "aa1" : "aa6", factor_key=TRUE)
+Du2019 <- Du2019 %>%
+  replace(is.na(.), 0)
+Du2019 <- Du2019 %>%
+  select(gene, population, "intermediate", "late")
+Du2019_out <- c(grep(",", Du2019$gene), grep("/", Du2019$gene))
+if (length(Du2019_out) > 0) {   
+  Du2019 <- Du2019[-Du2019_out,] 
+} 
+
+write_csv(Du2019, here("data_in", "for_func", "Du2019.csv"))
+multiple_wide(paper = "Du2019", dataset_name = "Du2019", environment = "Minimal glucose medium", flasks = c("intermediate", "late"), 
+              selective_pressure = "pH 5.5", species = "Ecoli_K12", ploidy = "haploid")
+
+
+
+# (TL): Flynn2014, subset by founder:
+## (TL): Flynn2014_biofilm:
+Flynn2014_biofilm <- read_csv(here("data_in", "original & usable", "Flynn2014", "Flynn2014_biofilm_usable.csv"))
+Flynn2014_biofilm <- clean_names(Flynn2014_biofilm, case = "snake")
+colnames(Flynn2014_biofilm) <- tolower(colnames(Flynn2014_biofilm))
+names(Flynn2014_biofilm) <- gsub("x", "", names(Flynn2014_biofilm))
+Flynn2014_biofilm <- Flynn2014_biofilm %>%
+  replace(is.na(.), 0) %>% 
+  filter(details != "intergenic", gene != "0")
+Flynn2014_biofilm <- Flynn2014_biofilm %>%
+  select(gene, population, "102", "150", "264", "396", "450", "540")
+Flynn2014_biofilm_out <- c(grep(",", Flynn2014_biofilm$gene), grep("/", Flynn2014_biofilm$gene))
+if (length(Flynn2014_biofilm_out) > 0) {   
+  Flynn2014_biofilm <- Flynn2014_biofilm[-Flynn2014_biofilm_out,] 
+} 
+
+write_csv(Flynn2014_biofilm, here("data_in", "for_func", "Flynn2014_biofilm.csv"))
+multiple_wide(paper = "Flynn2014", dataset_name = "Flynn2014_biofilm", environment = "M63, biofilm-evolved", generations = c("102", "150", "264", "396", "450", "540"), 
+              selective_pressure = "Polystyrene beads", species = "P_aeruginosa_PA14", ploidy = "haploid")
+
+
+## (TL): Flynn2014_planktonic:
+Flynn2014_planktonic <- read_csv(here("data_in", "original & usable", "Flynn2014", "Flynn2014_planktonic_usable.csv"))
+Flynn2014_planktonic <- clean_names(Flynn2014_planktonic, case = "snake")
+colnames(Flynn2014_planktonic) <- tolower(colnames(Flynn2014_planktonic))
+names(Flynn2014_planktonic) <- gsub("x", "", names(Flynn2014_planktonic))
+Flynn2014_planktonic <- Flynn2014_planktonic %>%
+  replace(is.na(.), 0) %>% 
+  filter(details != "intergenic", gene != "0")
+Flynn2014_planktonic <- Flynn2014_planktonic %>%
+  select(gene, population, "396", "540")
+Flynn2014_planktonic_out <- c(grep(",", Flynn2014_planktonic$gene), grep("/", Flynn2014_planktonic$gene))
+if (length(Flynn2014_planktonic_out) > 0) {   
+  Flynn2014_planktonic <- Flynn2014_planktonic[-Flynn2014_planktonic_out,] 
+} 
+
+write_csv(Flynn2014_planktonic, here("data_in", "for_func", "Flynn2014_planktonic.csv"))
+multiple_wide(paper = "Flynn2014", dataset_name = "Flynn2014_planktonic", environment = "M63, planktonic-evolved", generations = c("396", "540"), 
+              selective_pressure = "No polystyrene beads", species = "P_aeruginosa_PA14", ploidy = "haploid")
+
 #####################################
 # Multiple long:
 #####################################
-### (Tri): A template for func calling:
-### (Tri): multiple_long(paper = "", dataset_name = "", environment = "", generations/days/flasks = "", selective_pressure = c(""), species = "", ploidy = "", (strain_info = ""))
+### (TL): A template for func calling:
+### (TL): multiple_long(paper = "", dataset_name = "", environment = "", generations/days/flasks = "", selective_pressure = c(""), species = "", ploidy = "", (strain_info = ""))
 
 # (Working) Jerison2017:
 Jerison2017 <- read_csv(here("data_in", "original & usable", "Jerison2017", "Jerison2017_usable.csv"))
@@ -279,9 +349,9 @@ Payen2016 <- clean_names(Payen2016, case = "snake")
 colnames(Payen2016) <- tolower(colnames(Payen2016))
 Payen2016 <- Payen2016 %>%
   replace(is.na(.), 0) %>% 
-  ### (Tri): Besides the usual "intergenic" screen, filter out the values whose frequencies are "clone" & the values w/o a gene.
-  ### (Tri): Also, this particular dataset is a special case - all the frequencies of the "sulfate" selective_pressure are "0", which would lead to an error if put through the func.
-  ### (Tri): To fix this, we need to also filter out the values whose frequencies are "0" [Not sure if this should be included in all analyses - theoretically speaking, this filter would make the func run faster].
+  ### (TL): Besides the usual "intergenic" screen, filter out the values whose frequencies are "clone" & the values w/o a gene.
+  ### (TL): Also, this particular dataset is a special case - all the frequencies of the "sulfate" selective_pressure are "0", which would lead to an error if put through the func.
+  ### (TL): To fix this, we need to also filter out the values whose frequencies are "0" [Not sure if this should be included in all analyses - theoretically speaking, this filter would make the func run faster].
   filter(details != "intergenic", frequency != "clone", frequency != "0", gene != "0")
   
 Payen2016_out <- c(grep(",", Payen2016$gene), grep("/", Payen2016$gene))
@@ -291,7 +361,7 @@ if (length(Payen2016_out) > 0) {
 
 ## Payen2016_dip:
 Payen2016_dip <- Payen2016 %>%
-  ### (Tri): Filter for diploid observations:
+  ### (TL): Filter for diploid observations:
   filter(ploidy == "diploid") %>%
   select(gene, population, selective_pressure, frequency)
 
@@ -301,7 +371,7 @@ multiple_long(paper = "Payen2016", dataset_name = "Payen2016_dip", environment =
 
 ## Payen2016_hap:
 Payen2016_hap <- Payen2016 %>%
-  ### (Tri): Filter for haploid observations:
+  ### (TL): Filter for haploid observations:
   filter(ploidy == "haploid") %>%
   select(gene, population, selective_pressure, frequency)
 
@@ -310,16 +380,16 @@ multiple_long(paper = "Payen2016", dataset_name = "Payen2016_hap", environment =
 
 
 
-# (Tri): (Working) Lennen2015, subsetted by founder (founders have different plasmids):
-## (Tri): Lennen2015_pMA1:
+# (TL): (Working) Lennen2015, subsetted by founder (founders have different plasmids):
+## (TL): Lennen2015_pMA1:
 Lennen2015_pMA1 <- read_csv(here("data_in", "original & usable", "Lennen2015", "Lennen2015_pMA1_usable.csv"))
 Lennen2015_pMA1 <- clean_names(Lennen2015_pMA1, case = "snake")
 colnames(Lennen2015_pMA1) <- tolower(colnames(Lennen2015_pMA1))
-### (Tri): Convert to multiple_long:
+### (TL): Convert to multiple_long:
 Lennen2015_pMA1 <- gather(Lennen2015_pMA1, population, frequency, "m9p_ma1_1" : "na_clp_ma1_19", factor_key=TRUE)
-### (Tri): Add a new col, "selective_pressure". The value "0" is just a placeholder:
+### (TL): Add a new col, "selective_pressure". The value "0" is just a placeholder:
 Lennen2015_pMA1 <- cbind(Lennen2015_pMA1, selective_pressure = 0)
-### (Tri): Get the rows that have M9 in the population name & save their values in "selective_pressure" as "no NaCl". Same thing for NaCl:
+### (TL): Get the rows that have M9 in the population name & save their values in "selective_pressure" as "no NaCl". Same thing for NaCl:
 Lennen2015_pMA1_no_NaCl_row_nums <- grep("m9", Lennen2015_pMA1$population)
 Lennen2015_pMA1[Lennen2015_pMA1_no_NaCl_row_nums, "selective_pressure"] <- "no NaCl"
 Lennen2015_pMA1_NaCl_row_nums <- grep("na_cl", Lennen2015_pMA1$population)
@@ -338,15 +408,15 @@ multiple_long(paper = "Lennen2015", dataset_name = "Lennen2015_pMA1", environmen
               species = "Ecoli_K12", ploidy = "haploid", strain_info = "pMA1")
 
 
-## (Tri): Lennen2015_pMA7:
+## (TL): Lennen2015_pMA7:
 Lennen2015_pMA7 <- read_csv(here("data_in", "original & usable", "Lennen2015", "Lennen2015_pMA7_usable.csv"))
 Lennen2015_pMA7 <- clean_names(Lennen2015_pMA7, case = "snake")
 colnames(Lennen2015_pMA7) <- tolower(colnames(Lennen2015_pMA7))
-### (Tri): Convert to multiple_long:
+### (TL): Convert to multiple_long:
 Lennen2015_pMA7 <- gather(Lennen2015_pMA7, population, frequency, "m9p_ma7_1" : "na_clp_ma7_15", factor_key=TRUE)
-### (Tri): Add a new col, "selective_pressure". The value "0" is just a placeholder:
+### (TL): Add a new col, "selective_pressure". The value "0" is just a placeholder:
 Lennen2015_pMA7 <- cbind(Lennen2015_pMA7, selective_pressure = 0)
-### (Tri): Get the rows that have M9 in the population name & save their values in "selective_pressure" as "no NaCl". Same thing for NaCl:
+### (TL): Get the rows that have M9 in the population name & save their values in "selective_pressure" as "no NaCl". Same thing for NaCl:
 Lennen2015_pMA7_no_NaCl_row_nums <- grep("m9", Lennen2015_pMA7$population)
 Lennen2015_pMA7[Lennen2015_pMA7_no_NaCl_row_nums, "selective_pressure"] <- "no NaCl"
 Lennen2015_pMA7_NaCl_row_nums <- grep("na_cl", Lennen2015_pMA7$population)
@@ -367,14 +437,14 @@ multiple_long(paper = "Lennen2015", dataset_name = "Lennen2015_pMA7", environmen
 ##############################
 # Single wide:
 #############################
-### (Tri): A template for func calling:
-### (Tri): single_wide(paper = "", dataset_name = "", environment = "", generations/days/flasks = "", selective_pressure = "", species = "", ploidy = "", population = c("), (strain_info = ""))
+### (TL): A template for func calling:
+### (TL): single_wide(paper = "", dataset_name = "", environment = "", generations/days/flasks = "", selective_pressure = "", species = "", ploidy = "", population = c("), (strain_info = ""))
 
 ################################
 # Single long:
 ################################
-### (Tri): A template for func calling:
-### (Tri): single_long(paper = "", dataset_name = "", environment = "", generations/days/flasks = "", selective_pressure = "", species = "", ploidy = "", (strain_info = ""))
+### (TL): A template for func calling:
+### (TL): single_long(paper = "", dataset_name = "", environment = "", generations/days/flasks = "", selective_pressure = "", species = "", ploidy = "", (strain_info = ""))
 
 # (Working) Long2017:
 Long2017 <- read_csv(here("data_in", "original & usable", "Long2017", "Long2017_usable.csv"))
@@ -457,7 +527,7 @@ single_long(paper = "Deatherage2017", dataset_name = "Deatherage2017", environme
 
 
 
-# (Tri) McCloskey2018:
+# (TL) McCloskey2018:
 McCloskey2018 <- read_csv(here("data_in", "original & usable", "McCloskey2018", "McCloskey2018_usable.csv"))
 McCloskey2018 <- clean_names(McCloskey2018, case = "snake")
 colnames(McCloskey2018) <- tolower(colnames(McCloskey2018))
@@ -470,7 +540,7 @@ if (length(McCloskey2018_out) > 0) {
   McCloskey2018 <- McCloskey2018[-McCloskey2018_out,] 
 }
             
-## (Tri) McCloskey2018_gnd:
+## (TL) McCloskey2018_gnd:
 McCloskey2018_gnd_rows <- grep("gnd", McCloskey2018$population)
 McCloskey2018_gnd <- McCloskey2018[McCloskey2018_gnd_rows,]
 
@@ -479,7 +549,7 @@ single_long(paper = "McCloskey2018", dataset_name = "McCloskey2018_gnd", environ
             selective_pressure = "M9 minimal medium", species = "Ecoli_K12", ploidy = "haploid", strain_info = "gnd")
 
 
-## (Tri) McCloskey2018_pgi:
+## (TL) McCloskey2018_pgi:
 McCloskey2018_pgi_rows <- grep("pgi", McCloskey2018$population)
 McCloskey2018_pgi <- McCloskey2018[McCloskey2018_pgi_rows,]
 
@@ -488,7 +558,7 @@ single_long(paper = "McCloskey2018", dataset_name = "McCloskey2018_pgi", environ
             selective_pressure = "M9 minimal medium", species = "Ecoli_K12", ploidy = "haploid", strain_info = "pgi")
 
 
-## (Tri) McCloskey2018_ptsHIcrr:
+## (TL) McCloskey2018_ptsHIcrr:
 McCloskey2018_ptsHIcrr_rows <- grep("ptsHIcrr", McCloskey2018$population)
 McCloskey2018_ptsHIcrr <- McCloskey2018[McCloskey2018_ptsHIcrr_rows,]
 
@@ -497,7 +567,7 @@ single_long(paper = "McCloskey2018", dataset_name = "McCloskey2018_ptsHIcrr", en
             selective_pressure = "M9 minimal medium", species = "Ecoli_K12", ploidy = "haploid", strain_info ="ptsHIcrr")
 
 
-## (Tri) McCloskey2018_sdhCB:
+## (TL) McCloskey2018_sdhCB:
 McCloskey2018_sdhCB_rows <- grep("sdhCB", McCloskey2018$population)
 McCloskey2018_sdhCB <- McCloskey2018[McCloskey2018_sdhCB_rows,]
 
@@ -506,7 +576,7 @@ single_long(paper = "McCloskey2018", dataset_name = "McCloskey2018_sdhCB", envir
             selective_pressure = "M9 minimal medium", species = "Ecoli_K12", ploidy = "haploid", strain_info = "sdhCB")
 
 
-## (Tri) McCloskey2018_tpiAE:
+## (TL) McCloskey2018_tpiAE:
 McCloskey2018_tpiAE_rows <- grep("tpiAE", McCloskey2018$population)
 McCloskey2018_tpiAE <- McCloskey2018[McCloskey2018_tpiAE_rows,]
 
@@ -515,17 +585,17 @@ single_long(paper = "McCloskey2018", dataset_name = "McCloskey2018_tpiAE", envir
             selective_pressure = "M9 minimal medium", species = "Ecoli_K12", ploidy = "haploid", strain_info = "tpiAE")
 
 
-## (Tri) McCloskey2018_evo:
-McCloskey2018_evo_rows <- grep("evo", McCloskey2018$population)
-McCloskey2018_evo <- McCloskey2018[McCloskey2018_evo_rows,]
+## (TL) McCloskey2018_Evo:
+McCloskey2018_Evo_rows <- grep("Evo", McCloskey2018$population)
+McCloskey2018_Evo <- McCloskey2018[McCloskey2018_Evo_rows,]
 
-write_csv(McCloskey2018_evo, here("data_in", "for_func", "McCloskey2018_evo.csv"))
-single_long(paper = "McCloskey2018", dataset_name = "McCloskey2018_evo", environment = "M9 minimal medium", days = "35", 
-            selective_pressure = "M9 minimal medium", species = "Ecoli_K12", ploidy = "haploid", strain_info = "evo")
+write_csv(McCloskey2018_Evo, here("data_in", "for_func", "McCloskey2018_Evo.csv"))
+single_long(paper = "McCloskey2018", dataset_name = "McCloskey2018_Evo", environment = "M9 minimal medium", days = "35", 
+            selective_pressure = "M9 minimal medium", species = "Ecoli_K12", ploidy = "haploid", strain_info = "Evo")
 
 
 
-# (Tri): Sandra2016:
+# (TL): Sandra2016:
 Sandra2016 <- read_csv(here("data_in", "original & usable", "Sandra2016", "Sandra2016_usable.csv"))
 Sandra2016 <- clean_names(Sandra2016, case = "snake")
 colnames(Sandra2016) <- tolower(colnames(Sandra2016))
@@ -543,7 +613,7 @@ single_long(paper = "Sandra2016", dataset_name = "Sandra2016", environment = "M9
             selective_pressure = "M9 minimal medium", species = "Ecoli_K12", ploidy = "haploid")
 
 
-# (Tri): Khare2015, but just with pvdJ spent media (other 2 environments only has 2 populations):
+# (TL): Khare2015, but just with pvdJ spent media (other 2 environments only has 2 populations):
 Khare2015 <- read_csv(here("data_in", "original & usable", "Khare2015", "Khare2015_usable.csv"))
 Khare2015 <- clean_names(Khare2015, case = "snake")
 colnames(Khare2015) <- tolower(colnames(Khare2015))
@@ -562,8 +632,8 @@ single_long(paper = "Khare2015", dataset_name = "Khare2015", environment = "LB",
 
 
 
-# (Tri): Sandberg2017, subsetted by environment. 
-## (Tri): Sandberg2017_ac:
+# (TL): Sandberg2017, subsetted by environment. 
+## (TL): Sandberg2017_ac:
 Sandberg2017_ac <- read_csv(here("data_in", "original & usable", "Sandberg2017", "Sandberg2017_ac_usable.csv"))
 Sandberg2017_ac <- clean_names(Sandberg2017_ac, case = "snake")
 colnames(Sandberg2017_ac) <- tolower(colnames(Sandberg2017_ac))
@@ -582,11 +652,11 @@ single_long(paper = "Sandberg2017", dataset_name = "Sandberg2017_ac", environmen
             selective_pressure = "acetate", species = "Ecoli_K12", ploidy = "haploid")
 
 
-## (Tri): Sandberg2017_glu_ac:
+## (TL): Sandberg2017_glu_ac:
 Sandberg2017_glu_ac <- read_csv(here("data_in", "original & usable", "Sandberg2017", "Sandberg2017_glu_ac_usable.csv"))
 Sandberg2017_glu_ac <- clean_names(Sandberg2017_glu_ac, case = "snake")
 colnames(Sandberg2017_glu_ac) <- tolower(colnames(Sandberg2017_glu_ac))
-### (Tri): transmute() here is used to collapse the clones & replicates from the same population.
+### (TL): transmute() here is used to collapse the clones & replicates from the same population.
 Sandberg2017_glu_ac <- Sandberg2017_glu_ac %>% 
   transmute(gene = gene, details = details, 
             a7 = rowSums(Sandberg2017_glu_ac[, 4:15]), a8 = rowSums(Sandberg2017_glu_ac[, 16:28]), 
@@ -606,7 +676,7 @@ single_long(paper = "Sandberg2017", dataset_name = "Sandberg2017_glu_ac", enviro
             selective_pressure = "glucose + acetate", species = "Ecoli_K12", ploidy = "haploid")
 
 
-## (Tri): Sandberg2017_glu_gly:
+## (TL): Sandberg2017_glu_gly:
 Sandberg2017_glu_gly <- read_csv(here("data_in", "original & usable", "Sandberg2017", "Sandberg2017_glu_gly_usable.csv"))
 Sandberg2017_glu_gly <- clean_names(Sandberg2017_glu_gly, case = "snake")
 colnames(Sandberg2017_glu_gly) <- tolower(colnames(Sandberg2017_glu_gly))
@@ -628,7 +698,7 @@ write_csv(Sandberg2017_glu_gly, here("data_in", "for_func", "Sandberg2017_glu_gl
 single_long(paper = "Sandberg2017", dataset_name = "Sandberg2017_glu_gly", environment = "M9 minimal medium + glucose + glycerol", generations = "1170", 
             selective_pressure = "glucose + glycerol", species = "Ecoli_K12", ploidy = "haploid")
 
-## (Tri): Sandberg2017_glu_xyl:
+## (TL): Sandberg2017_glu_xyl:
 Sandberg2017_glu_xyl <- read_csv(here("data_in", "original & usable", "Sandberg2017", "Sandberg2017_glu_xyl_usable.csv"))
 Sandberg2017_glu_xyl <- clean_names(Sandberg2017_glu_xyl, case = "snake")
 colnames(Sandberg2017_glu_xyl) <- tolower(colnames(Sandberg2017_glu_xyl))
@@ -651,7 +721,7 @@ single_long(paper = "Sandberg2017", dataset_name = "Sandberg2017_glu_xyl", envir
             selective_pressure = "glucose + xylose", species = "Ecoli_K12", ploidy = "haploid")
 
 
-## (Tri): Sandberg2017_xyl:
+## (TL): Sandberg2017_xyl:
 Sandberg2017_xyl <- read_csv(here("data_in", "original & usable", "Sandberg2017", "Sandberg2017_xyl_usable.csv"))
 Sandberg2017_xyl <- clean_names(Sandberg2017_xyl, case = "snake")
 colnames(Sandberg2017_xyl) <- tolower(colnames(Sandberg2017_xyl))
@@ -671,8 +741,8 @@ single_long(paper = "Sandberg2017", dataset_name = "Sandberg2017_xyl", environme
 
 
 
-# (Tri): Griffith2019, subsetted by pH:
-## (Tri): Griffith2019_pH_6.5:
+# (TL): Griffith2019, subsetted by pH:
+## (TL): Griffith2019_pH_6.5:
 Griffith2019_pH_6.5 <- read_csv(here("data_in", "original & usable", "Griffith2019", "Griffith2019_pH_6.5_usable.csv"))
 Griffith2019_pH_6.5 <- clean_names(Griffith2019_pH_6.5, case = "snake")
 colnames(Griffith2019_pH_6.5) <- tolower(colnames(Griffith2019_pH_6.5))
@@ -691,7 +761,7 @@ single_long(paper = "Griffith2019", dataset_name = "Griffith2019_pH_6.5", enviro
             selective_pressure = "pH 6.5", species = "Ecoli_K12", ploidy = "haploid")
 
 
-## (Tri): Griffith2019_pH_8:
+## (TL): Griffith2019_pH_8:
 Griffith2019_pH_8 <- read_csv(here("data_in", "original & usable", "Griffith2019", "Griffith2019_pH_8_usable.csv"))
 Griffith2019_pH_8 <- clean_names(Griffith2019_pH_8, case = "snake")
 colnames(Griffith2019_pH_8) <- tolower(colnames(Griffith2019_pH_8))
@@ -711,7 +781,7 @@ single_long(paper = "Griffith2019", dataset_name = "Griffith2019_pH_8", environm
 
 
 
-# (Tri): Avrani2017:
+# (TL): Avrani2017:
 Avrani2017 <- read_csv(here("data_in", "original & usable", "Avrani2017", "Avrani2017_usable.csv"))
 Avrani2017 <- clean_names(Avrani2017, case = "snake")
 colnames(Avrani2017) <- tolower(colnames(Avrani2017))
@@ -730,7 +800,7 @@ single_long(paper = "Avrani2017", dataset_name = "Avrani2017", environment = "LB
 
 
 
-# (Tri): Charusanti2010:
+# (TL): Charusanti2010:
 Charusanti2010 <- read_csv(here("data_in", "original & usable", "Charusanti2010", "Charusanti2010_usable.csv"))
 Charusanti2010 <- clean_names(Charusanti2010, case = "snake")
 colnames(Charusanti2010) <- tolower(colnames(Charusanti2010))
@@ -749,8 +819,8 @@ single_long(paper = "Charusanti2010", dataset_name = "Charusanti2010", environme
             selective_pressure = "M9 minimal medium", species = "Ecoli_K12", ploidy = "haploid")
 
 
-### (Tri): 190623, 4p.
-# (Tri): Anand2019 (only 1 founder had 3 replicates evolving in the same condition)(gene names after underscores indicate genes missing):
+### (TL): 190623, 4p.
+# (TL): Anand2019 (only 1 founder had 3 replicates evolving in the same condition)(gene names after underscores indicate genes missing):
 Anand2019_menF_entC_ubiC <- read_csv(here("data_in", "original & usable", "Anand2019", "Anand2019_menF_entC_ubiC_usable.csv"))
 Anand2019_menF_entC_ubiC <- clean_names(Anand2019_menF_entC_ubiC, case = "snake")
 colnames(Anand2019_menF_entC_ubiC) <- tolower(colnames(Anand2019_menF_entC_ubiC))
@@ -769,7 +839,7 @@ single_long(paper = "Anand2019", dataset_name = "Anand2019_menF_entC_ubiC", envi
 
 
 
-# (Tri): Tenaillon2012:
+# (TL): Tenaillon2012:
 Tenaillon2012 <- read_csv(here("data_in", "original & usable", "Tenaillon2012", "Tenaillon2012_usable.csv"))
 Tenaillon2012 <- clean_names(Tenaillon2012, case = "snake")
 colnames(Tenaillon2012) <- tolower(colnames(Tenaillon2012))
@@ -789,16 +859,16 @@ single_long(paper = "Tenaillon2012", dataset_name = "Tenaillon2012", environment
 
 
 
-### (Tri): I tried to run Tenaillon2012 with single_wide(), but to no avail.
-### (Tri): A likely reason the "undefined columns selected" error keeps popping up when trying to run with single_wide:
-### (Tri): The column names have spaces, which makes them syntactically incorrect.
-### (Tri): When running the code, something from the inner workings of the functions used to create single_wide() automatically changes column names to syntactically valid names in order to meet the requirements of some deep-level functions.
-### (Tri); Then, what happens is later on in single_wide(), the dataframe num_parallel tries to find population columns whose names were entered BEFORE they were turned into syntactically correct names!
-### (Tri): Since the population columns now have new, syntax-abiding names, num_parallel can't find the old names, hence the "undefined columns selected" error.
-### (Tri): So, to tackle this problem, I use make.names(), which makes syntactically valid names from character vectors:
+### (TL): I TLed to run Tenaillon2012 with single_wide(), but to no avail.
+### (TL): A likely reason the "undefined columns selected" error keeps popping up when trying to run with single_wide:
+### (TL): The column names have spaces, which makes them syntactically incorrect.
+### (TL): When running the code, something from the inner workings of the functions used to create single_wide() automatically changes column names to syntactically valid names in order to meet the requirements of some deep-level functions.
+### (TL); Then, what happens is later on in single_wide(), the dataframe num_parallel TLes to find population columns whose names were entered BEFORE they were turned into syntactically correct names!
+### (TL): Since the population columns now have new, syntax-abiding names, num_parallel can't find the old names, hence the "undefined columns selected" error.
+### (TL): So, to tackle this problem, I use make.names(), which makes syntactically valid names from character vectors:
 # names(Tenaillon2012) <- make.names(names(Tenaillon2012), unique = TRUE)
 # if (length(Sherlock2013_out) > 0) {   Sherlock2013 <- Sherlock2013[-Sherlock2013_out,] } write_csv(Tenaillon2012, here("data_in", "for_func", "Tenaillon2012.csv"))
-### (Tri): The "undefined columns selected" problem is solved, but the "need finite 'ylim' values" appears at line 101 of single_wide().
+### (TL): The "undefined columns selected" problem is solved, but the "need finite 'ylim' values" appears at line 101 of single_wide().
 # single_wide("Tenaillon2012", names(Tenaillon2012)[3:ncol(Tenaillon2012)], "Davis minimal medium", "Ecoli_K12")
 
 
@@ -817,7 +887,7 @@ Wannier2018 <- Wannier2018 %>%
             a7 = `a7_f1_i1_r1`+ `a7_f1_i2_r1`, a8 = `a8_f1_i1_r1`+ `a8_f1_i2_r1`, a9 = `a9_f1_i1_r1`+ `a9_f1_i2_r1`, 
             a10 = `a10_f1_i1_r1`+ `a10_f1_i2_r1`, a11 = `a11_f1_i1_r1`+ `a11_f1_i2_r1`, a12 = `a12_f1_i1_r1`+ `a12_f1_i2_r1`,  
             a13 = `a13_f1_i1_r1`+ `a13_f1_i2_r1`, a14 = `a14_f1_i1_r1`+ `a14_f1_i2_r1`) 
-### (Tri): MH's code didn't work (see below), so I converted the dataset to single long & analyze w/ single_long().
+### (TL): MH's code didn't work (see below), so I converted the dataset to single long & analyze w/ single_long().
 Wannier2018 <- gather(Wannier2018, population, frequency, "a1" : "a14", factor_key=TRUE)
 Wannier2018 <- Wannier2018 %>%
   select(gene, population, frequency)
@@ -830,23 +900,23 @@ write_csv(Wannier2018, here("data_in", "for_func", "Wannier2018.csv"))
 single_long(paper = "Wannier2018", dataset_name = "Wannier2018", environment = "M9 minimal medium", generations = "1100", 
             selective_pressure = "M9 minimal medium", species = "Ecoli_K12", ploidy = "haploid")
 
-# (Tri) MH's code for Wannier2018:
-### (Tri) Extract just the population columns from Wannier2018:
-# Wannier2018.matrix <- Wannier2018 %>%
+# (TL) MH's code for Wannier2018:
+### (TL) Extract just the population columns from Wannier2018:
+# Wannier2018.maTLx <- Wannier2018 %>%
 #   select(population) %>%
-#   as.matrix(.)
-### (Tri) Replace all > 1 values with 1:
-# Wannier2018.matrix[Wannier2018.matrix > 0] <-1
-### (Tri) Recombine the new population columns with genes:
-# Wannier2018 <- cbind(gene = Wannier2018$gene, as.data.frame(Wannier2018.matrix))
+#   as.maTLx(.)
+### (TL) Replace all > 1 values with 1:
+# Wannier2018.maTLx[Wannier2018.maTLx > 0] <-1
+### (TL) Recombine the new population columns with genes:
+# Wannier2018 <- cbind(gene = Wannier2018$gene, as.data.frame(Wannier2018.maTLx))
 # if (length(Sherlock2013_out) > 0) {   Sherlock2013 <- Sherlock2013[-Sherlock2013_out,] } write_csv(Wannier2018, here("data_in", "Wannier2018.csv"))
-### (Tri) The single_wide() call isn't working - "Error in plot.window(...) : need finite 'ylim' values". 
-### (Tri) Error traces back to line 101 of single_wide.R, "estimate_pa(full_matrix, ndigits = 4, show.plot = T)".
+### (TL) The single_wide() call isn't working - "Error in plot.window(...) : need finite 'ylim' values". 
+### (TL) Error traces back to line 101 of single_wide.R, "estimate_pa(full_maTLx, ndigits = 4, show.plot = T)".
 # single_wide("Wannier2018", c("A1" , "A2", "A3", "A4", "A5", "A6", "A7", "A8", "A9", "A10", "A11", "A12", "A13", "A14"), "Glucose Mininal Medium", "Ecoli_K12")
 
 
 
-# (Tri) KuzdzalFick2018:
+# (TL) KuzdzalFick2018:
 KuzdzalFick2018 <- read_csv(here("data_in", "original & usable", "KuzdzalFick2018", "KuzdzalFick2018_usable.csv"))
 KuzdzalFick2018 <- clean_names(KuzdzalFick2018, case = "snake")
 colnames(KuzdzalFick2018) <- tolower(colnames(KuzdzalFick2018))
@@ -865,7 +935,7 @@ single_long(paper = "KuzdzalFick2018", dataset_name = "KuzdzalFick2018", environ
 
 
 
-# (Tri): Boyle2017:
+# (TL): Boyle2017:
 Boyle2017 <- read_csv(here("data_in", "original & usable", "Boyle2017", "Boyle2017_usable.csv"))
 Boyle2017 <- clean_names(Boyle2017, case = "snake")
 colnames(Boyle2017) <- tolower(colnames(Boyle2017))
@@ -880,21 +950,256 @@ if (length(Boyle2017_out) > 0) {
 
 write_csv(Boyle2017, here("data_in", "for_func", "Boyle2017.csv"))
 single_long(paper = "Boyle2017", dataset_name = "Boyle2017", environment = "LB", generations = "49", 
-            selective_pressure = "LB", species = "P. aeruginosa PA14", ploidy = "haploid")
+            selective_pressure = "LB", species = "P_aeruginosa_PA14", ploidy = "haploid")
 
 
 
+# (TL): Conrad2009, subset by experiment:
+## (TL): Conrad2009_A_to_E:
+Conrad2009_A_to_E <- read_csv(here("data_in", "original & usable", "Conrad2009", "Conrad2009_A_to_E_usable.csv"))
+Conrad2009_A_to_E <- clean_names(Conrad2009_A_to_E, case = "snake")
+colnames(Conrad2009_A_to_E) <- tolower(colnames(Conrad2009_A_to_E))
+Conrad2009_A_to_E <- Conrad2009_A_to_E %>%
+  replace(is.na(.), 0) %>% 
+  filter(details != "intergenic") %>%
+  select(gene, population, frequency)
+Conrad2009_A_to_E_out <- c(grep(",", Conrad2009_A_to_E$gene), grep("/", Conrad2009_A_to_E$gene))
+if (length(Conrad2009_A_to_E_out) > 0) {   
+  Conrad2009_A_to_E <- Conrad2009_A_to_E[-Conrad2009_A_to_E_out,] 
+} 
+
+write_csv(Conrad2009_A_to_E, here("data_in", "for_func", "Conrad2009_A_to_E.csv"))
+single_long(paper = "Conrad2009", dataset_name = "Conrad2009_A_to_E", environment = "M9", generations = "1100", 
+            selective_pressure = "Lactate", species = "Ecoli_K12", ploidy = "haploid")
+
+
+## (TL): Conrad2009_F_to_K:
+Conrad2009_F_to_K <- read_csv(here("data_in", "original & usable", "Conrad2009", "Conrad2009_F_to_K_usable.csv"))
+Conrad2009_F_to_K <- clean_names(Conrad2009_F_to_K, case = "snake")
+colnames(Conrad2009_F_to_K) <- tolower(colnames(Conrad2009_F_to_K))
+Conrad2009_F_to_K <- Conrad2009_F_to_K %>%
+  replace(is.na(.), 0) %>% 
+  filter(details != "intergenic") %>%
+  select(gene, population, frequency)
+Conrad2009_F_to_K_out <- c(grep(",", Conrad2009_F_to_K$gene), grep("/", Conrad2009_F_to_K$gene))
+if (length(Conrad2009_F_to_K_out) > 0) {   
+  Conrad2009_F_to_K <- Conrad2009_F_to_K[-Conrad2009_F_to_K_out,] 
+} 
+
+write_csv(Conrad2009_F_to_K, here("data_in", "for_func", "Conrad2009_F_to_K.csv"))
+single_long(paper = "Conrad2009", dataset_name = "Conrad2009_F_to_K", environment = "M9", generations = "750", 
+            selective_pressure = "Lactate", species = "Ecoli_K12", ploidy = "haploid")
+
+
+
+# (TL): Echenique2019, subset by founder [use strain_info]:
+## (TL): Echenique2019_ADE2:
+Echenique2019_ADE2 <- read_csv(here("data_in", "original & usable", "Echenique2019", "Echenique2019_ADE2_usable.csv"))
+Echenique2019_ADE2 <- clean_names(Echenique2019_ADE2, case = "snake")
+colnames(Echenique2019_ADE2) <- tolower(colnames(Echenique2019_ADE2))
+Echenique2019_ADE2 <- Echenique2019_ADE2 %>%
+  replace(is.na(.), 0) %>% 
+  filter(details != "intergenic") %>%
+  select(gene, population, frequency)
+Echenique2019_ADE2_out <- c(grep(",", Echenique2019_ADE2$gene), grep("/", Echenique2019_ADE2$gene))
+if (length(Echenique2019_ADE2_out) > 0) {   
+  Echenique2019_ADE2 <- Echenique2019_ADE2[-Echenique2019_ADE2_out,] 
+} 
+
+write_csv(Echenique2019_ADE2, here("data_in", "for_func", "Echenique2019_ADE2.csv"))
+single_long(paper = "Echenique2019", dataset_name = "Echenique2019_ADE2", strain_info = "ADE2 deleted", environment = "YPD", generations = "500", 
+            selective_pressure = "YPD", species = "Sac", ploidy = "haploid")
+
+
+# (TL): Echenique2019_BMH1:
+Echenique2019_BMH1 <- read_csv(here("data_in", "original & usable", "Echenique2019", "Echenique2019_BMH1_usable.csv"))
+Echenique2019_BMH1 <- clean_names(Echenique2019_BMH1, case = "snake")
+colnames(Echenique2019_BMH1) <- tolower(colnames(Echenique2019_BMH1))
+Echenique2019_BMH1 <- Echenique2019_BMH1 %>%
+  replace(is.na(.), 0) %>% 
+  filter(details != "intergenic") %>%
+  select(gene, population, frequency)
+Echenique2019_BMH1_out <- c(grep(",", Echenique2019_BMH1$gene), grep("/", Echenique2019_BMH1$gene))
+if (length(Echenique2019_BMH1_out) > 0) {   
+  Echenique2019_BMH1 <- Echenique2019_BMH1[-Echenique2019_BMH1_out,] 
+} 
+
+write_csv(Echenique2019_BMH1, here("data_in", "for_func", "Echenique2019_BMH1.csv"))
+single_long(paper = "Echenique2019", dataset_name = "Echenique2019_BMH1", strain_info = "BMH1 deleted", environment = "YPD", generations = "500", 
+            selective_pressure = "YPD", species = "Sac", ploidy = "haploid")
+
+
+# (TL): Echenique2019_COQ2:
+Echenique2019_COQ2 <- read_csv(here("data_in", "original & usable", "Echenique2019", "Echenique2019_COQ2_usable.csv"))
+Echenique2019_COQ2 <- clean_names(Echenique2019_COQ2, case = "snake")
+colnames(Echenique2019_COQ2) <- tolower(colnames(Echenique2019_COQ2))
+Echenique2019_COQ2 <- Echenique2019_COQ2 %>%
+  replace(is.na(.), 0) %>% 
+  filter(details != "intergenic") %>%
+  select(gene, population, frequency)
+Echenique2019_COQ2_out <- c(grep(",", Echenique2019_COQ2$gene), grep("/", Echenique2019_COQ2$gene))
+if (length(Echenique2019_COQ2_out) > 0) {   
+  Echenique2019_COQ2 <- Echenique2019_COQ2[-Echenique2019_COQ2_out,] 
+} 
+
+write_csv(Echenique2019_COQ2, here("data_in", "for_func", "Echenique2019_COQ2.csv"))
+single_long(paper = "Echenique2019", dataset_name = "Echenique2019_COQ2", strain_info = "COQ2 deleted", environment = "YPD", generations = "500", 
+            selective_pressure = "YPD", species = "Sac", ploidy = "haploid")
+
+
+# (TL): Echenique2019_COX6:
+Echenique2019_COX6 <- read_csv(here("data_in", "original & usable", "Echenique2019", "Echenique2019_COX6_usable.csv"))
+Echenique2019_COX6 <- clean_names(Echenique2019_COX6, case = "snake")
+colnames(Echenique2019_COX6) <- tolower(colnames(Echenique2019_COX6))
+Echenique2019_COX6 <- Echenique2019_COX6 %>%
+  replace(is.na(.), 0) %>% 
+  filter(details != "intergenic") %>%
+  select(gene, population, frequency)
+Echenique2019_COX6_out <- c(grep(",", Echenique2019_COX6$gene), grep("/", Echenique2019_COX6$gene))
+if (length(Echenique2019_COX6_out) > 0) {   
+  Echenique2019_COX6 <- Echenique2019_COX6[-Echenique2019_COX6_out,] 
+} 
+
+write_csv(Echenique2019_COX6, here("data_in", "for_func", "Echenique2019_COX6.csv"))
+single_long(paper = "Echenique2019", dataset_name = "Echenique2019_COX6", strain_info = "COX6 deleted", environment = "YPD", generations = "500", 
+            selective_pressure = "YPD", species = "Sac", ploidy = "haploid")
+
+
+# (TL): Echenique2019_CTF19:
+Echenique2019_CTF19 <- read_csv(here("data_in", "original & usable", "Echenique2019", "Echenique2019_CTF19_usable.csv"))
+Echenique2019_CTF19 <- clean_names(Echenique2019_CTF19, case = "snake")
+colnames(Echenique2019_CTF19) <- tolower(colnames(Echenique2019_CTF19))
+Echenique2019_CTF19 <- Echenique2019_CTF19 %>%
+  replace(is.na(.), 0) %>% 
+  filter(details != "intergenic") %>%
+  select(gene, population, frequency)
+Echenique2019_CTF19_out <- c(grep(",", Echenique2019_CTF19$gene), grep("/", Echenique2019_CTF19$gene))
+if (length(Echenique2019_CTF19_out) > 0) {   
+  Echenique2019_CTF19 <- Echenique2019_CTF19[-Echenique2019_CTF19_out,] 
+} 
+
+write_csv(Echenique2019_CTF19, here("data_in", "for_func", "Echenique2019_CTF19.csv"))
+single_long(paper = "Echenique2019", dataset_name = "Echenique2019_CTF19", strain_info = "CTF19 deleted", environment = "YPD", generations = "500", 
+            selective_pressure = "YPD", species = "Sac", ploidy = "haploid")
+
+
+# (TL): Echenique2019_ELP4:
+Echenique2019_ELP4 <- read_csv(here("data_in", "original & usable", "Echenique2019", "Echenique2019_ELP4_usable.csv"))
+Echenique2019_ELP4 <- clean_names(Echenique2019_ELP4, case = "snake")
+colnames(Echenique2019_ELP4) <- tolower(colnames(Echenique2019_ELP4))
+Echenique2019_ELP4 <- Echenique2019_ELP4 %>%
+  replace(is.na(.), 0) %>% 
+  filter(details != "intergenic") %>%
+  select(gene, population, frequency)
+Echenique2019_ELP4_out <- c(grep(",", Echenique2019_ELP4$gene), grep("/", Echenique2019_ELP4$gene))
+if (length(Echenique2019_ELP4_out) > 0) {   
+  Echenique2019_ELP4 <- Echenique2019_ELP4[-Echenique2019_ELP4_out,] 
+} 
+
+write_csv(Echenique2019_ELP4, here("data_in", "for_func", "Echenique2019_ELP4.csv"))
+single_long(paper = "Echenique2019", dataset_name = "Echenique2019_ELP4", strain_info = "ELP4 deleted", environment = "YPD", generations = "500", 
+            selective_pressure = "YPD", species = "Sac", ploidy = "haploid")
+
+
+# (TL): Echenique2019_HXK2:
+Echenique2019_HXK2 <- read_csv(here("data_in", "original & usable", "Echenique2019", "Echenique2019_HXK2_usable.csv"))
+Echenique2019_HXK2 <- clean_names(Echenique2019_HXK2, case = "snake")
+colnames(Echenique2019_HXK2) <- tolower(colnames(Echenique2019_HXK2))
+Echenique2019_HXK2 <- Echenique2019_HXK2 %>%
+  replace(is.na(.), 0) %>% 
+  filter(details != "intergenic") %>%
+  select(gene, population, frequency)
+Echenique2019_HXK2_out <- c(grep(",", Echenique2019_HXK2$gene), grep("/", Echenique2019_HXK2$gene))
+if (length(Echenique2019_HXK2_out) > 0) {   
+  Echenique2019_HXK2 <- Echenique2019_HXK2[-Echenique2019_HXK2_out,] 
+} 
+
+write_csv(Echenique2019_HXK2, here("data_in", "for_func", "Echenique2019_HXK2.csv"))
+single_long(paper = "Echenique2019", dataset_name = "Echenique2019_HXK2", strain_info = "HXK2 deleted", environment = "YPD", generations = "500", 
+            selective_pressure = "YPD", species = "Sac", ploidy = "haploid")
+
+
+# (TL): Echenique2019_IML3:
+Echenique2019_IML3 <- read_csv(here("data_in", "original & usable", "Echenique2019", "Echenique2019_IML3_usable.csv"))
+Echenique2019_IML3 <- clean_names(Echenique2019_IML3, case = "snake")
+colnames(Echenique2019_IML3) <- tolower(colnames(Echenique2019_IML3))
+Echenique2019_IML3 <- Echenique2019_IML3 %>%
+  replace(is.na(.), 0) %>% 
+  filter(details != "intergenic") %>%
+  select(gene, population, frequency)
+Echenique2019_IML3_out <- c(grep(",", Echenique2019_IML3$gene), grep("/", Echenique2019_IML3$gene))
+if (length(Echenique2019_IML3_out) > 0) {   
+  Echenique2019_IML3 <- Echenique2019_IML3[-Echenique2019_IML3_out,] 
+} 
+
+write_csv(Echenique2019_IML3, here("data_in", "for_func", "Echenique2019_IML3.csv"))
+single_long(paper = "Echenique2019", dataset_name = "Echenique2019_IML3", strain_info = "IML3 deleted", environment = "YPD", generations = "500", 
+            selective_pressure = "YPD", species = "Sac", ploidy = "haploid")
+
+
+# (TL): Echenique2019_KTI12:
+Echenique2019_KTI12 <- read_csv(here("data_in", "original & usable", "Echenique2019", "Echenique2019_KTI12_usable.csv"))
+Echenique2019_KTI12 <- clean_names(Echenique2019_KTI12, case = "snake")
+colnames(Echenique2019_KTI12) <- tolower(colnames(Echenique2019_KTI12))
+Echenique2019_KTI12 <- Echenique2019_KTI12 %>%
+  replace(is.na(.), 0) %>% 
+  filter(details != "intergenic") %>%
+  select(gene, population, frequency)
+Echenique2019_KTI12_out <- c(grep(",", Echenique2019_KTI12$gene), grep("/", Echenique2019_KTI12$gene))
+if (length(Echenique2019_KTI12_out) > 0) {   
+  Echenique2019_KTI12 <- Echenique2019_KTI12[-Echenique2019_KTI12_out,] 
+} 
+
+write_csv(Echenique2019_KTI12, here("data_in", "for_func", "Echenique2019_KTI12.csv"))
+single_long(paper = "Echenique2019", dataset_name = "Echenique2019_KTI12", strain_info = "KTI12 deleted", environment = "YPD", generations = "500", 
+            selective_pressure = "YPD", species = "Sac", ploidy = "haploid")
+
+
+# (TL): Echenique2019_SOK2:
+Echenique2019_SOK2 <- read_csv(here("data_in", "original & usable", "Echenique2019", "Echenique2019_SOK2_usable.csv"))
+Echenique2019_SOK2 <- clean_names(Echenique2019_SOK2, case = "snake")
+colnames(Echenique2019_SOK2) <- tolower(colnames(Echenique2019_SOK2))
+Echenique2019_SOK2 <- Echenique2019_SOK2 %>%
+  replace(is.na(.), 0) %>% 
+  filter(details != "intergenic") %>%
+  select(gene, population, frequency)
+Echenique2019_SOK2_out <- c(grep(",", Echenique2019_SOK2$gene), grep("/", Echenique2019_SOK2$gene))
+if (length(Echenique2019_SOK2_out) > 0) {   
+  Echenique2019_SOK2 <- Echenique2019_SOK2[-Echenique2019_SOK2_out,] 
+} 
+
+write_csv(Echenique2019_SOK2, here("data_in", "for_func", "Echenique2019_SOK2.csv"))
+single_long(paper = "Echenique2019", dataset_name = "Echenique2019_SOK2", strain_info = "SOK2 deleted", environment = "YPD", generations = "500", 
+            selective_pressure = "YPD", species = "Sac", ploidy = "haploid")
+
+
+# (TL): Echenique2019_VPS29:
+Echenique2019_VPS29 <- read_csv(here("data_in", "original & usable", "Echenique2019", "Echenique2019_VPS29_usable.csv"))
+Echenique2019_VPS29 <- clean_names(Echenique2019_VPS29, case = "snake")
+colnames(Echenique2019_VPS29) <- tolower(colnames(Echenique2019_VPS29))
+Echenique2019_VPS29 <- Echenique2019_VPS29 %>%
+  replace(is.na(.), 0) %>% 
+  filter(details != "intergenic") %>%
+  select(gene, population, frequency)
+Echenique2019_VPS29_out <- c(grep(",", Echenique2019_VPS29$gene), grep("/", Echenique2019_VPS29$gene))
+if (length(Echenique2019_VPS29_out) > 0) {   
+  Echenique2019_VPS29 <- Echenique2019_VPS29[-Echenique2019_VPS29_out,] 
+} 
+
+write_csv(Echenique2019_VPS29, here("data_in", "for_func", "Echenique2019_VPS29.csv"))
+single_long(paper = "Echenique2019", dataset_name = "Echenique2019_VPS29", strain_info = "VPS29 deleted", environment = "YPD", generations = "500", 
+            selective_pressure = "YPD", species = "Sac", ploidy = "haploid")
 
 ####################################
 
-# (Tri) Combine all the analysis files:
+# (TL) Combine all the analysis files:
 file_list <- list.files("data_out/analyses", full.names = TRUE)
-### (Tri) Load the library "plyr" for this particular line of code only - calling this library earlier would lead to "unused arguments" error when using here().
-### (Tri): I think it's because the function here() is also included in the library "plyr", but it works differently, so the 2 here()'s clash.
+### (TL) Load the library "plyr" for this particular line of code only - calling this library earlier would lead to "unused arguments" error when using here().
+### (TL): I think it's because the function here() is also included in the library "plyr", but it works differently, so the 2 here()'s clash.
 master_analyses <- plyr::ldply(file_list, read_csv)
 write_csv(master_analyses, "data_out/master_analyses.csv")
 
 ####################################
-# (Tri) In development: Integrate gather() to single_wide() - easier to process, less repetitive codes.
-# (Tri) In development: Argument "collapseMutations()" - treat all mutations in a gene as 1.
-# (Tri) In development: (?) Divide data_out into sub-folders, based on func used. 
+# (TL) In development: Integrate gather() to single_wide() - easier to process, less repetitive codes.
+# (TL) In development: Argument "collapseMutations()" - treat all mutations in a gene as 1.
+# (TL) In development: (?) Divide data_out into sub-folders, based on func used. 

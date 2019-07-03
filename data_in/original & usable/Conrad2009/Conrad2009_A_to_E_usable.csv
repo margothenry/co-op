@@ -1,0 +1,24 @@
+population,gene,details,frequency
+LactA,crp,cAMP response protein,1
+LactA,hfq,RNA binding protein,1
+LactA,ydjO,Predicted protein,1
+LactA,,~87 kb duplication (3946000-4033000),1
+LactB,gcvT,Glycine cleavage system,1
+LactB,,~44 kb duplication (1248300-1292200),1
+LactC,rph-pyrE,RNase PH/orotate phosphoribosyltransferase,1
+LactC,cya,Adenylate cyclase,1
+LactC,infC,IF-3,1
+LactD,rph-pyrE,RNase PH/orotate phosphoribosyltransferase,1
+LactD,ppsA,Phosphoenolpyruvate synthase,1
+LactD,atoS,AtoS/AtoC two component regulatory system,1
+LactD,relA,ppGpp synthetase,1
+LactD,rho,Transcription termination factor,1
+LactD,hepA,RNAP recycling factor,1
+LactD,kdtA,KDO transferase,1
+LactE,ppsA,Phosphoenolpyruvate synthase,1
+LactE,acpP,Acyl carrier protein,1
+LactE,hfq,RNA binding protein,1
+LactE,crp,cAMP response protein,1
+LactE,ydcI,Putative transcriptional regulator,1
+LactE,yjbM,Predicted protein,1
+LactE,,"~140 kb duplication (3620000-3760000), ~87 kb duplication (3946000-4033000)",1

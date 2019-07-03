@@ -18,7 +18,8 @@
 #' @export 
 #' @examples [update]
 #'
-multiple_long <- function(paper, dataset_name, environment, generations = NA, selective_pressure, species  = NA, ploidy, numgenes = NA, strain_info = NA, days = NA, flasks = NA){
+multiple_long <- function(paper, dataset_name, environment, generations = NA, selective_pressure, species  = NA, ploidy, numgenes = NA, 
+                          strain_info = NA, days = NA, flasks = NA){
 
   geneNumbers <- read_csv(file.path(getwd(),"R/dgconstraint/inst/GeneDatabase.csv"), col_types = cols())
 
@@ -60,7 +61,7 @@ multiple_long <- function(paper, dataset_name, environment, generations = NA, se
     data.array <- array(0, dim =c(num_genes, num_lineages), dimnames = list(unique(data.j$gene), unique(data.j$population)))
   
   # In development.    
-  # (Tri): "collapseMutations" has a default value of TRUE:
+  # (TL): "collapseMutations" has a default value of TRUE:
   # if(collapseMutations){
   #   multiple_entry_genes <- subset(table(data.1$gene), table(data.1$gene) > 1)
   #   
@@ -74,30 +75,30 @@ multiple_long <- function(paper, dataset_name, environment, generations = NA, se
   #   for (k in 1:length(multiple_entry_genes)){
   #     sub <- subset(data.1, gene == names(multiple_entry_genes)[k])
   #     for (j in unique(population)){
-  #       # (Tri): Fills "multi_genes_matrix" with k & j values from the loops. 
-  #       # (Tri): Each (k,j) co-ordinate is filled with the sum of all the values in the same population, thereby collapsing all potential cases of multiple mutations within the same gene.
+  #       # (TL): Fills "multi_genes_matrix" with k & j values from the loops. 
+  #       # (TL): Each (k,j) co-ordinate is filled with the sum of all the values in the same population, thereby collapsing all potential cases of multiple mutations within the same gene.
   #       multi_genes_matrix[k, j] <- sum(sub[1:nrow(sub), j])
   #     }
   #   }
-  #   # (Tri) "multi_genes_matrix" is bound to "data.1". The multi-mutation genes are now treated as single-mutation genes.
+  #   # (TL) "multi_genes_matrix" is bound to "data.1". The multi-mutation genes are now treated as single-mutation genes.
   #   data.1 <- rbind(single_mutation_genes, multi_genes_matrix)
-  #   # (Tri): Rearrange "data.1" by gene names A-Z (to facilitate any changes from the newly-bound "multi_genes_matrix").
+  #   # (TL): Rearrange "data.1" by gene names A-Z (to facilitate any changes from the newly-bound "multi_genes_matrix").
   #   data.1 <- data.1 %>% 
   #     arrange(gene) %>% 
-  #     # (Tri): Remove the columns that have nothing but NA values:
+  #     # (TL): Remove the columns that have nothing but NA values:
   #     filter(Reduce(`+`, lapply(., is.na)) != ncol(.))
   # }
   # 
   for(i in 1:num_lineages) {
-    # (Tri): Subset by population (via variable "sub").
+    # (TL): Subset by population (via variable "sub").
     sub <- subset(data.j, data.j$population == unique(data.j$population)[i])
-    # (Tri): Eliminate those whose frequencies are 0 (via variable "sub2").
+    # (TL): Eliminate those whose frequencies are 0 (via variable "sub2").
     sub2 <- subset(sub, frequency > 0)
-    # (Tri): In "data.array", assign to "geneRows" only the rows whose names are in "sub2".
+    # (TL): In "data.array", assign to "geneRows" only the rows whose names are in "sub2".
     geneRows <- which(row.names(data.array) %in% sub2$gene)
-    # (Tri): These rows (for this particular iteration of "i") get the value of 1, essentially clumping all mutations into binary form (1 for presence):
+    # (TL): These rows (for this particular iteration of "i") get the value of 1, essentially clumping all mutations into binary form (1 for presence):
     data.array[geneRows, i] <- 1
-    # (Tri): Creates a dataframe from the "population" column of "data.1", a "Count" column from all the values under said "population" column, and the row names are from the "gene" column in "data.1":
+    # (TL): Creates a dataframe from the "population" column of "data.1", a "Count" column from all the values under said "population" column, and the row names are from the "gene" column in "data.1":
     num_parallel <- data.frame(data.array, Count=rowSums(data.array, na.rm = FALSE, dims = 1), genes = row.names(data.array))
   }
   
@@ -114,9 +115,9 @@ multiple_long <- function(paper, dataset_name, environment, generations = NA, se
   
   num_parallel_genes <- append(num_parallel_genes, num_parallel_genes_j)
   num_non_parallel_genes <- append(num_non_parallel_genes, num_non_parallel_genes_j)
-  # (Tri): Get the values in the "genes" column, separated by ", ":
+  # (TL): Get the values in the "genes" column, separated by ", ":
   parallel_genes <- append(parallel_genes, paste0(genes_parallel$genes, collapse=", ")) 
-  # (Tri): The full matrix consists of data.array and an all-0 array of (numgenes - total_genes) rows x (ncol(data.array)) columns:
+  # (TL): The full matrix consists of data.array and an all-0 array of (numgenes - total_genes) rows x (ncol(data.array)) columns:
   full_matrix <- rbind(data.array, array(0,c(numgenes-total_genes,ncol(data.array))))
   
   newdir <- file.path(getwd(), "data_out")
@@ -135,9 +136,10 @@ multiple_long <- function(paper, dataset_name, environment, generations = NA, se
   c_hyper[c_hyper <= 0] <- 0
   c_hyper[c_hyper == "NaN"] <- 0
   }
+  # (TL): The "func" column here will help with subsetting analyses for visualization:
   df <- tibble(paper = paper, environment = environment, generation = generations, day = days, flask = flasks, selective_pressure = selective_pressure, species = species, 
                ploidy = ploidy, strain_info = strain_info, c_hyper = round(c_hyper, 3), p_chisq, estimate = round(estimate, 3), 
-               N_genes.notParallel = num_non_parallel_genes, N_genes.parallel = num_parallel_genes, parallel_genes)
+               N_genes.notParallel = num_non_parallel_genes, N_genes.parallel = num_parallel_genes, parallel_genes, func = "multiple_long")
   filename2 <- file.path(getwd(), "data_out", "analyses", paste(dataset_name, "_Analysis.csv", sep=""))
   
   cat("\n")
