@@ -43,6 +43,4 @@ ggplot(multiple_wide_generation_Sac_analysis, aes(x = generation, y = c_hyper, c
 ### Observation: There is a rising trend here but can't say much from just 2 datasets.
 
 
-# Endpoints - c-hyper (?) - single gen, multi gen:
-
-# Endpoints - estimate (?)- single gen vs multi gen:
+# Endpoints - c-hyper (?) - single gen, multi gen - superimpose on timeseries.

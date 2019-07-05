@@ -1,5 +1,6 @@
 install.packages("Hmisc")
 install.packages("plyr")
+install.packages("naniar")
 library(here)
 library(dgconstraint)
 library(tidyverse)
@@ -9,6 +10,7 @@ library(tidyverse)
 library(readr)
 library(devtools)
 library(Hmisc)
+library(naniar)
 source("R/dgconstraint/functions/multiple_wide.R")
 source("R/dgconstraint/functions/multiple_long.R")
 source("R/dgconstraint/functions/single_wide.R")
@@ -293,8 +295,8 @@ if (length(Flynn2014_biofilm_out) > 0) {
 } 
 
 write_csv(Flynn2014_biofilm, here("data_in", "for_func", "Flynn2014_biofilm.csv"))
-multiple_wide(paper = "Flynn2014", dataset_name = "Flynn2014_biofilm", environment = "M63, biofilm-evolved", generations = c("102", "150", "264", "396", "450", "540"), 
-              selective_pressure = "Polystyrene beads", species = "P_aeruginosa_PA14", ploidy = "haploid")
+multiple_wide(paper = "Flynn2014", dataset_name = "Flynn2014_biofilm", environment = "M63", generations = c("102", "150", "264", "396", "450", "540"), 
+              selective_pressure = "Polystyrene beads", species = "P_aeruginosa_PA14", ploidy = "haploid", strain_info = "biofilm-evolved")
 
 
 ## (TL): Flynn2014_planktonic:
@@ -313,8 +315,34 @@ if (length(Flynn2014_planktonic_out) > 0) {
 } 
 
 write_csv(Flynn2014_planktonic, here("data_in", "for_func", "Flynn2014_planktonic.csv"))
-multiple_wide(paper = "Flynn2014", dataset_name = "Flynn2014_planktonic", environment = "M63, planktonic-evolved", generations = c("396", "540"), 
-              selective_pressure = "No polystyrene beads", species = "P_aeruginosa_PA14", ploidy = "haploid")
+multiple_wide(paper = "Flynn2014", dataset_name = "Flynn2014_planktonic", environment = "M63", generations = c("396", "540"), 
+              selective_pressure = "No polystyrene beads", species = "P_aeruginosa_PA14", ploidy = "haploid", strain_info = "planktonic-evolved")
+
+
+
+# (TL): Keane2014:
+Keane2014 <- read_csv(here("data_in", "original & usable", "Keane2014", "Keane2014_usable.csv"))
+Keane2014 <- clean_names(Keane2014, case = "snake")
+colnames(Keane2014) <- tolower(colnames(Keane2014))
+names(Keane2014) <- gsub("x", "", names(Keane2014))
+### (TL): Replace "0" values with "NA" - many funcs are built for NA's, so it's easier to mass-replace NA's than some other values:
+Keane2014 <- Keane2014 %>%
+  replace_with_na(replace = list("0" = 0, "440" = 0, "1100" = 0, "1540" = 0, "1980" = 0, "2200" = 0)) %>% 
+  filter(details != "intergenic", details != "0")
+### (TL): Change non-zero values in pop cols to "1", then change NA's back to 0 to feed in the func.
+Keane2014[, 4:ncol(Keane2014)] <- Keane2014[, 4:ncol(Keane2014)] %>%
+  replace(!is.na(.), 1) %>%
+  replace(is.na(.), 0)
+Keane2014 <- Keane2014 %>%
+  select(gene, population, "0", "440", "1100", "1540", "1980", "2200")
+Du2019_out <- c(grep(",", Du2019$gene), grep("/", Du2019$gene))
+if (length(Du2019_out) > 0) {   
+  Du2019 <- Du2019[-Du2019_out,] 
+} 
+
+write_csv(Du2019, here("data_in", "for_func", "Du2019.csv"))
+multiple_wide(paper = "Du2019", dataset_name = "Du2019", environment = "Minimal glucose medium", flasks = c("intermediate", "late"), 
+              selective_pressure = "pH 5.5", species = "Ecoli_K12", ploidy = "haploid")
 
 #####################################
 # Multiple long:
@@ -621,6 +649,7 @@ Khare2015 <- Khare2015 %>%
   replace(is.na(.), 0) %>% 
   filter(details != "intergenic") %>%
   select(gene, population, frequency)
+### (TL): (190703) New indicators of multiple genes involved: "[", "]", & "-".
 Khare2015_out <- c(grep(",", Khare2015$gene), grep("/", Khare2015$gene))
 if (length(Khare2015_out) > 0) {   
   Khare2015 <- Khare2015[-Khare2015_out,] 
