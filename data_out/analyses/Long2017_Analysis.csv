@@ -1,2 +1,2 @@
 "paper","environment","generation","day","flask","selective_pressure","species","ploidy","strain_info","c_hyper","p_chisq","estimate","N_genes.notParallel","N_genes.parallel","parallel_genes","func"
-"Long2017","Glucose minimal media",NA,"50",NA,"Glucose minimal media","Ecoli_K12","haploid",NA,10.817,0.005,0.008,15,9,"cpxR, nagC, pntA, pntB, prophage, rpoA, rpoB, rpoS, sthA","single_long"
+"Long2017","Glucose minimal media",NA,"50",NA,"Glucose minimal media","Ecoli_K12","haploid",NA,11.338,0.005,0.008,15,8,"cpxR, nagC, pntA, pntB, rpoA, rpoB, rpoS, sthA","single_long"

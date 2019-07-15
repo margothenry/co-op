@@ -1,1617 +1,901 @@
-jls,mutation,annotation,gene,description,x22,x23,x24,population,frequency
-56273,G→A,L279L (CTC→CTT) ,lptD,"exported protein required for envelope biosynthesis and integrity, outer membrane lipopolysaccharide transport and assembly complex",NA,NA,NA,k0001,1
-62682,+G,coding (583/2907 nt),hepA,RNA polymerase‑associated helicase protein,NA,NA,NA,k0001,0
-105411,G→A,G36D (GGT→GAT) ,ftsZ,GTP‑binding tubulin‑like cell division protein,NA,NA,NA,k0001,0
-156056,T→G,N49T (AAT→ACT) ,ecpD,periplasmic pilin chaperone,NA,NA,NA,k0001,0
-277827,C→G,G67A (GGC→GCC) ,afuC ,ferric transporter subunit,NA,NA,NA,k0001,0
-425800,C→T,P147L (CCG→CTG) ,tgt,tRNA‑guanine transglycosylase,NA,NA,NA,k0001,0
-490998,Δ1 bp,coding (363/552 nt),apt,adenine phosphoribosyltransferase,NA,NA,NA,k0001,0
-520989,G→T,P450P (CCG→CCT) ,ybbP,inner membrane protein,NA,NA,NA,k0001,0
-556778,A→C,F63V (TTC→GTC) ,folD,"bifunctional 5,10‑methylene‑tetrahydrofolate dehydrogenase/5,10‑methylene‑tetrahydrofolate cyclohydrolase",NA,NA,NA,k0001,1
-666783,A→T,D619E (GAT→GAA) ,mrdA,transpeptidase involved in peptidoglycan synthesis,NA,NA,NA,k0001,0
-683143,"Δ5,116 bp",insH-3 IS5‑mediated,[hscC]–gltI,"[hscC], rihA, gltL, gltK, gltJ, gltI",NA,NA,NA,k0001,0
-899330,+C,coding (391/1128 nt),rumB,23S rRNA m(5)U747 methyltransferase,NA,NA,NA,k0001,0
-909411,G→A,P102P (CCC→CCT) ,ltaE,"L‑allo‑threonine aldolase, PLP‑dependent",NA,NA,NA,k0001,0
-1197854,C→T,N385N (AAC→AAT) ,icd,"isocitrate dehydrogenase,‑specific for NADP+",NA,NA,NA,k0001,0
-1215890,IS5 (+) +4 bp,coding (1160‑1163/1212 nt),ycgF,FAD‑binding phosphodiesterase,NA,NA,NA,k0001,0
-1218024,IS5 (+) +4 bp,coding (79‑82/267 nt),ariR (ymgB) ,acid stress activator of Gad; associated with biofilm,NA,NA,NA,k0001,1
-1285522,G→T,A114A (GCG→GCT) ,narH,"nitrate reductase 1, beta (Fe‑S) subunit",NA,NA,NA,k0001,0
-1349606,IS5 +5 bp,coding (1021/1935 nt),rnb,exoribonuclease 2,NA,NA,NA,k0001,1
-1372264,A→G,E112G (GAG→GGG) ,ycjM,glucosyltransferase,NA,NA,NA,k0001,0
-1459205,G→A,G354G (GGG→GGA) ,paaE,multicomponent oxygenase/reductase subunit for phenylacetic acid degradation,NA,NA,NA,k0001,0
-1485978,C→A,R383S (CGT→AGT) ,hrpA,ATP‑dependent helicase,NA,NA,NA,k0001,0
-1549542,IS5 (–) +4 bp,coding (428‑431/3048 nt),fdnG,"formate dehydrogenase‑N subunit alpha, nitrate‑inducible",NA,NA,NA,k0001,0
-1574188,IS5 (+) +4 bp,coding (2726‑2729/2796 nt),pqqL,peptidase,NA,NA,NA,k0001,0
-1618943,"Δ6,115 bp",coding inclusive deletion,[ydeA]–[ydeH],"[ydeA], marC, marR, marA, marB, eamA, ydeE, [ydeH]",NA,NA,NA,k0001,0
-1704037,Δ1 bp,coding (91/1002 nt),add,adenosine deaminase,NA,NA,NA,k0001,0
-1772682,IS5 (–) +4 bp,coding (354‑357/357 nt),ydiL,hypothetical protein,NA,NA,NA,k0001,0
-1822769,IS5 +4 bp,coding (160/1359 nt),chbC,"N,N'‑diacetylchitobiose permease IIC component",NA,NA,NA,k0001,0
-1881543,IS186/IS421 (+) +6 bp,coding (115‑120/360 nt),yeaR,hypothetical protein,NA,NA,NA,k0001,0
-1882210,G→A,L88L (CTC→CTT) ,yeaS,neutral amino‑acid efflux system,NA,NA,NA,k0001,0
-1908956,IS5 (–) +4 bp,coding (191‑194/210 nt),cspC,"stress protein, member of the CspA‑family",NA,NA,NA,k0001,0
-1909258,IS1 (+) +9 bp,coding (40‑48/144 nt),yobF,hypothetical protein,NA,NA,NA,k0001,0
-1932183,Δ1 bp,coding (279/291 nt),yebG,hypothetical protein,NA,NA,NA,k0001,0
-2093073,G→A,E249K (GAA→AAA) ,hisG,ATP phosphoribosyltransferase,NA,NA,NA,k0001,0
-2107019,(A)9→8,coding (203/591 nt),wbbJ,acyl transferase,NA,NA,NA,k0001,0
-2156723,C→A,L191M (CTG→ATG) ,mdtA,"multidrug efflux system, subunit A",NA,NA,NA,k0001,0
-2179217,Δ5 bp,coding (435‑439/1263 nt),gatZ,"D‑tagatose 1,6‑bisphosphate aldolase 2, subunit",NA,NA,NA,k0001,0
-2233458,gatA-insH IS5 (+) +4 bp,coding (259‑262/948 nt),dusC,tRNA‑dihydrouridine synthase C,NA,NA,NA,k0001,0
-2288259,(TTATCGCCT)2→3,coding (550/1761 nt),yejM,"hydrolase, inner membrane",NA,NA,NA,k0001,0
-2434645,A→T,V347E (GTG→GAG) ,purF,amidophosphoribosyltransferase,NA,NA,NA,k0001,0
-2487190,IS5 (+) +4 bp,coding (430‑433/1539 nt),emrY,multidrug efflux system,NA,NA,NA,k0001,0
-2634172,IS5 +4 bp,coding (1285/1371 nt),xseA,exodeoxyribonuclease 7 large subunit,NA,NA,NA,k0001,0
-2646569,C→A,E1459* (GAG→TAG) ,yfhM,hypothetical protein,NA,NA,NA,k0001,1
-2810717,IS2 (–) +5 bp,coding (635‑639/1173 nt),emrA,multidrug efflux system,NA,NA,NA,k0001,0
-2865825,A→T,I89N (ATC→AAC) ,rpoS,"RNA polymerase, sigma S (sigma 38) factor",NA,NA,NA,k0001,0
-2931775,C→A,P190P (CCG→CCT) ,fucA,L‑fuculose‑1‑phosphate aldolase,NA,NA,NA,k0001,1
-3104794,G→A,G142D (GGC→GAC) ,nupG,nucleoside transporter,NA,NA,NA,k0001,0
-3169126,A→C,T215P (ACA→CCA) ,qseB,DNA‑binding response regulator in two‑component regulatory system with QseC,NA,NA,NA,k0001,0
-3187655,IS5 (–) +4 bp,coding (1600‑1603/2466 nt),yqiG,outer membrane usher protein,NA,NA,NA,k0001,0
-3189138,IS5 (+) +4 bp,coding (602‑605/750 nt),yqiH,periplasmic pilin chaperone,NA,NA,NA,k0001,0
-3212340,A→C,D213A (GAC→GCC) ,rpoD,"RNA polymerase, sigma 70 (sigma D) factor",NA,NA,NA,k0001,0
-3241721,G→T,L84M (CTG→ATG) ,uxaA,altronate hydrolase,NA,NA,NA,k0001,0
-3277113,INDEL +5 bp,coding (257/336 nt),prlF,antitoxin PrlF,NA,NA,NA,k0001,0
-3277128,(TTCAACA)2→3,coding (272/336 nt),sohA,regulator,NA,NA,NA,k0001,0
-3454320,C→T,G373S (GGC→AGC) ,rpoB,RNA polymerase subunit beta,NA,NA,NA,k0001,1
-3532025,A→G,N107S (AAC→AGC) ,cpxA,sensory histidine kinase in two‑component regulatory system with CpxR,NA,NA,NA,k0001,1
-3840032,IS5 (–) +4 bp,coding (583‑586/699 nt),rfaY,lipopolysaccharide core biosynthesis protein,NA,NA,NA,k0001,0
-3948766,G→A,R320H (CGT→CAT) ,bcsB,"regulator of cellulose synthase, cyclic di‑GMP binding",NA,NA,NA,k0001,1
-3974240,"Δ14,146 bp",insH IS5-mediated,gadX–[yhiS],"gadX, gadW, mdtF, mdtE, gadE, hdeD, hdeA, hdeB, yhiD, yhiF, slp, insH, [yhiS]",NA,NA,NA,k0001,0
-3974244,"Δ7,921 bp",insH IS5-mediated,gadX–gadE,"gadX, gadW, mdtF, mdtE, gadE",NA,NA,NA,k0001,0
-3974646,Δ78 bp,coding (42‑119/825 nt),gadX,DNA‑binding transcriptional dual regulator,NA,NA,NA,k0001,0
-3976435,"Δ10,738 bp",insH‑mediated,[gadW]–slp,"[gadW], mdtF, mdtE, gadE, hdeD, hdeA, hdeB, yhiD, yhiF, slp",NA,NA,NA,k0001,1
-3988392,Δ443 bp,insH‑mediated,yhiS,hypothetical protein,NA,NA,NA,k0001,0
-3988392,"Δ1,268 bp",insH‑mediated,[yhiS],[yhiS],NA,NA,NA,k0001,0
-4136677,G→T,V191V (GTC→GTA) ,frlD,fructoselysine 6‑kinase,NA,NA,NA,k0001,0
-4200197,A→C,K271Q (AAA→CAA) ,rpoA,RNA polymerase subunit alpha,NA,NA,NA,k0001,1
-4221755,G→A,A353T (GCA→ACA) ,aceA,isocitrate lyase,NA,NA,NA,k0001,0
-4405094,G→A,V43M (GTG→ATG) ,hfq,"HF‑I, host factor for RNA phage Q beta replication",NA,NA,NA,k0001,0
-4485284,IS5 (–) +4 bp,coding (875‑878/1197 nt),yjgN,inner membrane protein,NA,NA,NA,k0001,0
-4495464,IS5 (+) +4 bp,coding (353‑356/999 nt),idnR,DNA‑binding transcriptional repressor,NA,NA,NA,k0001,0
-4546841,insH IS5 (–) +4 bp,coding (125‑128/597 nt),fimE,tyrosine recombinase/inversion of on/off regulator of fimA,NA,NA,NA,k0001,0
-4547860,(TCCCTCAGTTCTACAGCGGCTCTG)1→2,coding (66/549 nt),fimA,major type 1 subunit fimbrin,NA,NA,NA,k0001,0
-4626165,C→G,C201W (TGC→TGG) ,deoD,purine‑nucleoside phosphorylase,NA,NA,NA,k0001,0
-4639891,A→G,S34P (TCC→CCC) ,rob,DNA‑binding transcriptional activator,NA,NA,NA,k0001,0
-NA,NA,NA,NA,NA,NA,NA,NA,k0001,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0001,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0001,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0001,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0001,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0001,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0001,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0001,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0001,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0001,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0001,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0001,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0001,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0001,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0001,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0001,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0001,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0001,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0001,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0001,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0001,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0001,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0001,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0001,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0001,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0001,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0001,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0001,NA
-56273,G→A,L279L (CTC→CTT) ,lptD,"exported protein required for envelope biosynthesis and integrity, outer membrane lipopolysaccharide transport and assembly complex",NA,NA,NA,k0011,1
-62682,+G,coding (583/2907 nt),hepA,RNA polymerase‑associated helicase protein,NA,NA,NA,k0011,0
-105411,G→A,G36D (GGT→GAT) ,ftsZ,GTP‑binding tubulin‑like cell division protein,NA,NA,NA,k0011,0
-156056,T→G,N49T (AAT→ACT) ,ecpD,periplasmic pilin chaperone,NA,NA,NA,k0011,0
-277827,C→G,G67A (GGC→GCC) ,afuC ,ferric transporter subunit,NA,NA,NA,k0011,0
-425800,C→T,P147L (CCG→CTG) ,tgt,tRNA‑guanine transglycosylase,NA,NA,NA,k0011,0
-490998,Δ1 bp,coding (363/552 nt),apt,adenine phosphoribosyltransferase,NA,NA,NA,k0011,0
-520989,G→T,P450P (CCG→CCT) ,ybbP,inner membrane protein,NA,NA,NA,k0011,0
-556778,A→C,F63V (TTC→GTC) ,folD,"bifunctional 5,10‑methylene‑tetrahydrofolate dehydrogenase/5,10‑methylene‑tetrahydrofolate cyclohydrolase",NA,NA,NA,k0011,1
-666783,A→T,D619E (GAT→GAA) ,mrdA,transpeptidase involved in peptidoglycan synthesis,NA,NA,NA,k0011,0
-683143,"Δ5,116 bp",insH-3 IS5‑mediated,[hscC]–gltI,"[hscC], rihA, gltL, gltK, gltJ, gltI",NA,NA,NA,k0011,0
-899330,+C,coding (391/1128 nt),rumB,23S rRNA m(5)U747 methyltransferase,NA,NA,NA,k0011,0
-909411,G→A,P102P (CCC→CCT) ,ltaE,"L‑allo‑threonine aldolase, PLP‑dependent",NA,NA,NA,k0011,0
-1197854,C→T,N385N (AAC→AAT) ,icd,"isocitrate dehydrogenase,‑specific for NADP+",NA,NA,NA,k0011,0
-1215890,IS5 (+) +4 bp,coding (1160‑1163/1212 nt),ycgF,FAD‑binding phosphodiesterase,NA,NA,NA,k0011,0
-1218024,IS5 (+) +4 bp,coding (79‑82/267 nt),ariR (ymgB) ,acid stress activator of Gad; associated with biofilm,NA,NA,NA,k0011,1
-1285522,G→T,A114A (GCG→GCT) ,narH,"nitrate reductase 1, beta (Fe‑S) subunit",NA,NA,NA,k0011,0
-1349606,IS5 +5 bp,coding (1021/1935 nt),rnb,exoribonuclease 2,NA,NA,NA,k0011,1
-1372264,A→G,E112G (GAG→GGG) ,ycjM,glucosyltransferase,NA,NA,NA,k0011,0
-1459205,G→A,G354G (GGG→GGA) ,paaE,multicomponent oxygenase/reductase subunit for phenylacetic acid degradation,NA,NA,NA,k0011,0
-1485978,C→A,R383S (CGT→AGT) ,hrpA,ATP‑dependent helicase,NA,NA,NA,k0011,0
-1549542,IS5 (–) +4 bp,coding (428‑431/3048 nt),fdnG,"formate dehydrogenase‑N subunit alpha, nitrate‑inducible",NA,NA,NA,k0011,0
-1574188,IS5 (+) +4 bp,coding (2726‑2729/2796 nt),pqqL,peptidase,NA,NA,NA,k0011,0
-1618943,"Δ6,115 bp",coding inclusive deletion,[ydeA]–[ydeH],"[ydeA], marC, marR, marA, marB, eamA, ydeE, [ydeH]",NA,NA,NA,k0011,0
-1704037,Δ1 bp,coding (91/1002 nt),add,adenosine deaminase,NA,NA,NA,k0011,0
-1772682,IS5 (–) +4 bp,coding (354‑357/357 nt),ydiL,hypothetical protein,NA,NA,NA,k0011,0
-1822769,IS5 +4 bp,coding (160/1359 nt),chbC,"N,N'‑diacetylchitobiose permease IIC component",NA,NA,NA,k0011,0
-1881543,IS186/IS421 (+) +6 bp,coding (115‑120/360 nt),yeaR,hypothetical protein,NA,NA,NA,k0011,0
-1882210,G→A,L88L (CTC→CTT) ,yeaS,neutral amino‑acid efflux system,NA,NA,NA,k0011,0
-1908956,IS5 (–) +4 bp,coding (191‑194/210 nt),cspC,"stress protein, member of the CspA‑family",NA,NA,NA,k0011,0
-1909258,IS1 (+) +9 bp,coding (40‑48/144 nt),yobF,hypothetical protein,NA,NA,NA,k0011,0
-1932183,Δ1 bp,coding (279/291 nt),yebG,hypothetical protein,NA,NA,NA,k0011,0
-2093073,G→A,E249K (GAA→AAA) ,hisG,ATP phosphoribosyltransferase,NA,NA,NA,k0011,0
-2107019,(A)9→8,coding (203/591 nt),wbbJ,acyl transferase,NA,NA,NA,k0011,0
-2156723,C→A,L191M (CTG→ATG) ,mdtA,"multidrug efflux system, subunit A",NA,NA,NA,k0011,0
-2179217,Δ5 bp,coding (435‑439/1263 nt),gatZ,"D‑tagatose 1,6‑bisphosphate aldolase 2, subunit",NA,NA,NA,k0011,0
-2233458,gatA-insH IS5 (+) +4 bp,coding (259‑262/948 nt),dusC,tRNA‑dihydrouridine synthase C,NA,NA,NA,k0011,1
-2288259,(TTATCGCCT)2→3,coding (550/1761 nt),yejM,"hydrolase, inner membrane",NA,NA,NA,k0011,0
-2434645,A→T,V347E (GTG→GAG) ,purF,amidophosphoribosyltransferase,NA,NA,NA,k0011,0
-2487190,IS5 (+) +4 bp,coding (430‑433/1539 nt),emrY,multidrug efflux system,NA,NA,NA,k0011,0
-2634172,IS5 +4 bp,coding (1285/1371 nt),xseA,exodeoxyribonuclease 7 large subunit,NA,NA,NA,k0011,0
-2646569,C→A,E1459* (GAG→TAG) ,yfhM,hypothetical protein,NA,NA,NA,k0011,1
-2810717,IS2 (–) +5 bp,coding (635‑639/1173 nt),emrA,multidrug efflux system,NA,NA,NA,k0011,0
-2865825,A→T,I89N (ATC→AAC) ,rpoS,"RNA polymerase, sigma S (sigma 38) factor",NA,NA,NA,k0011,0
-2931775,C→A,P190P (CCG→CCT) ,fucA,L‑fuculose‑1‑phosphate aldolase,NA,NA,NA,k0011,1
-3104794,G→A,G142D (GGC→GAC) ,nupG,nucleoside transporter,NA,NA,NA,k0011,0
-3169126,A→C,T215P (ACA→CCA) ,qseB,DNA‑binding response regulator in two‑component regulatory system with QseC,NA,NA,NA,k0011,0
-3187655,IS5 (–) +4 bp,coding (1600‑1603/2466 nt),yqiG,outer membrane usher protein,NA,NA,NA,k0011,0
-3189138,IS5 (+) +4 bp,coding (602‑605/750 nt),yqiH,periplasmic pilin chaperone,NA,NA,NA,k0011,0
-3212340,A→C,D213A (GAC→GCC) ,rpoD,"RNA polymerase, sigma 70 (sigma D) factor",NA,NA,NA,k0011,0
-3241721,G→T,L84M (CTG→ATG) ,uxaA,altronate hydrolase,NA,NA,NA,k0011,0
-3277113,INDEL +5 bp,coding (257/336 nt),prlF,antitoxin PrlF,NA,NA,NA,k0011,0
-3277128,(TTCAACA)2→3,coding (272/336 nt),sohA,regulator,NA,NA,NA,k0011,0
-3454320,C→T,G373S (GGC→AGC) ,rpoB,RNA polymerase subunit beta,NA,NA,NA,k0011,1
-3532025,A→G,N107S (AAC→AGC) ,cpxA,sensory histidine kinase in two‑component regulatory system with CpxR,NA,NA,NA,k0011,1
-3840032,IS5 (–) +4 bp,coding (583‑586/699 nt),rfaY,lipopolysaccharide core biosynthesis protein,NA,NA,NA,k0011,0
-3948766,G→A,R320H (CGT→CAT) ,bcsB,"regulator of cellulose synthase, cyclic di‑GMP binding",NA,NA,NA,k0011,1
-3974240,"Δ14,146 bp",insH IS5-mediated,gadX–[yhiS],"gadX, gadW, mdtF, mdtE, gadE, hdeD, hdeA, hdeB, yhiD, yhiF, slp, insH, [yhiS]",NA,NA,NA,k0011,0
-3974244,"Δ7,921 bp",insH IS5-mediated,gadX–gadE,"gadX, gadW, mdtF, mdtE, gadE",NA,NA,NA,k0011,0
-3974646,Δ78 bp,coding (42‑119/825 nt),gadX,DNA‑binding transcriptional dual regulator,NA,NA,NA,k0011,0
-3976435,"Δ10,738 bp",insH‑mediated,[gadW]–slp,"[gadW], mdtF, mdtE, gadE, hdeD, hdeA, hdeB, yhiD, yhiF, slp",NA,NA,NA,k0011,1
-3988392,Δ443 bp,insH‑mediated,yhiS,hypothetical protein,NA,NA,NA,k0011,0
-3988392,"Δ1,268 bp",insH‑mediated,[yhiS],[yhiS],NA,NA,NA,k0011,0
-4136677,G→T,V191V (GTC→GTA) ,frlD,fructoselysine 6‑kinase,NA,NA,NA,k0011,0
-4200197,A→C,K271Q (AAA→CAA) ,rpoA,RNA polymerase subunit alpha,NA,NA,NA,k0011,1
-4221755,G→A,A353T (GCA→ACA) ,aceA,isocitrate lyase,NA,NA,NA,k0011,0
-4405094,G→A,V43M (GTG→ATG) ,hfq,"HF‑I, host factor for RNA phage Q beta replication",NA,NA,NA,k0011,0
-4485284,IS5 (–) +4 bp,coding (875‑878/1197 nt),yjgN,inner membrane protein,NA,NA,NA,k0011,0
-4495464,IS5 (+) +4 bp,coding (353‑356/999 nt),idnR,DNA‑binding transcriptional repressor,NA,NA,NA,k0011,0
-4546841,insH IS5 (–) +4 bp,coding (125‑128/597 nt),fimE,tyrosine recombinase/inversion of on/off regulator of fimA,NA,NA,NA,k0011,0
-4547860,(TCCCTCAGTTCTACAGCGGCTCTG)1→2,coding (66/549 nt),fimA,major type 1 subunit fimbrin,NA,NA,NA,k0011,0
-4626165,C→G,C201W (TGC→TGG) ,deoD,purine‑nucleoside phosphorylase,NA,NA,NA,k0011,0
-4639891,A→G,S34P (TCC→CCC) ,rob,DNA‑binding transcriptional activator,NA,NA,NA,k0011,0
-NA,NA,NA,NA,NA,NA,NA,NA,k0011,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0011,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0011,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0011,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0011,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0011,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0011,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0011,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0011,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0011,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0011,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0011,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0011,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0011,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0011,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0011,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0011,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0011,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0011,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0011,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0011,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0011,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0011,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0011,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0011,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0011,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0011,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0011,NA
-56273,G→A,L279L (CTC→CTT) ,lptD,"exported protein required for envelope biosynthesis and integrity, outer membrane lipopolysaccharide transport and assembly complex",NA,NA,NA,k0002,0
-62682,+G,coding (583/2907 nt),hepA,RNA polymerase‑associated helicase protein,NA,NA,NA,k0002,0
-105411,G→A,G36D (GGT→GAT) ,ftsZ,GTP‑binding tubulin‑like cell division protein,NA,NA,NA,k0002,0
-156056,T→G,N49T (AAT→ACT) ,ecpD,periplasmic pilin chaperone,NA,NA,NA,k0002,0
-277827,C→G,G67A (GGC→GCC) ,afuC ,ferric transporter subunit,NA,NA,NA,k0002,0
-425800,C→T,P147L (CCG→CTG) ,tgt,tRNA‑guanine transglycosylase,NA,NA,NA,k0002,1
-490998,Δ1 bp,coding (363/552 nt),apt,adenine phosphoribosyltransferase,NA,NA,NA,k0002,0
-520989,G→T,P450P (CCG→CCT) ,ybbP,inner membrane protein,NA,NA,NA,k0002,0
-556778,A→C,F63V (TTC→GTC) ,folD,"bifunctional 5,10‑methylene‑tetrahydrofolate dehydrogenase/5,10‑methylene‑tetrahydrofolate cyclohydrolase",NA,NA,NA,k0002,1
-666783,A→T,D619E (GAT→GAA) ,mrdA,transpeptidase involved in peptidoglycan synthesis,NA,NA,NA,k0002,0
-683143,"Δ5,116 bp",insH-3 IS5‑mediated,[hscC]–gltI,"[hscC], rihA, gltL, gltK, gltJ, gltI",NA,NA,NA,k0002,0
-899330,+C,coding (391/1128 nt),rumB,23S rRNA m(5)U747 methyltransferase,NA,NA,NA,k0002,0
-909411,G→A,P102P (CCC→CCT) ,ltaE,"L‑allo‑threonine aldolase, PLP‑dependent",NA,NA,NA,k0002,0
-1197854,C→T,N385N (AAC→AAT) ,icd,"isocitrate dehydrogenase,‑specific for NADP+",NA,NA,NA,k0002,0
-1215890,IS5 (+) +4 bp,coding (1160‑1163/1212 nt),ycgF,FAD‑binding phosphodiesterase,NA,NA,NA,k0002,0
-1218024,IS5 (+) +4 bp,coding (79‑82/267 nt),ariR (ymgB) ,acid stress activator of Gad; associated with biofilm,NA,NA,NA,k0002,1
-1285522,G→T,A114A (GCG→GCT) ,narH,"nitrate reductase 1, beta (Fe‑S) subunit",NA,NA,NA,k0002,0
-1349606,IS5 +5 bp,coding (1021/1935 nt),rnb,exoribonuclease 2,NA,NA,NA,k0002,1
-1372264,A→G,E112G (GAG→GGG) ,ycjM,glucosyltransferase,NA,NA,NA,k0002,0
-1459205,G→A,G354G (GGG→GGA) ,paaE,multicomponent oxygenase/reductase subunit for phenylacetic acid degradation,NA,NA,NA,k0002,0
-1485978,C→A,R383S (CGT→AGT) ,hrpA,ATP‑dependent helicase,NA,NA,NA,k0002,0
-1549542,IS5 (–) +4 bp,coding (428‑431/3048 nt),fdnG,"formate dehydrogenase‑N subunit alpha, nitrate‑inducible",NA,NA,NA,k0002,0
-1574188,IS5 (+) +4 bp,coding (2726‑2729/2796 nt),pqqL,peptidase,NA,NA,NA,k0002,0
-1618943,"Δ6,115 bp",coding inclusive deletion,[ydeA]–[ydeH],"[ydeA], marC, marR, marA, marB, eamA, ydeE, [ydeH]",NA,NA,NA,k0002,0
-1704037,Δ1 bp,coding (91/1002 nt),add,adenosine deaminase,NA,NA,NA,k0002,0
-1772682,IS5 (–) +4 bp,coding (354‑357/357 nt),ydiL,hypothetical protein,NA,NA,NA,k0002,0
-1822769,IS5 +4 bp,coding (160/1359 nt),chbC,"N,N'‑diacetylchitobiose permease IIC component",NA,NA,NA,k0002,0
-1881543,IS186/IS421 (+) +6 bp,coding (115‑120/360 nt),yeaR,hypothetical protein,NA,NA,NA,k0002,0
-1882210,G→A,L88L (CTC→CTT) ,yeaS,neutral amino‑acid efflux system,NA,NA,NA,k0002,0
-1908956,IS5 (–) +4 bp,coding (191‑194/210 nt),cspC,"stress protein, member of the CspA‑family",NA,NA,NA,k0002,0
-1909258,IS1 (+) +9 bp,coding (40‑48/144 nt),yobF,hypothetical protein,NA,NA,NA,k0002,0
-1932183,Δ1 bp,coding (279/291 nt),yebG,hypothetical protein,NA,NA,NA,k0002,0
-2093073,G→A,E249K (GAA→AAA) ,hisG,ATP phosphoribosyltransferase,NA,NA,NA,k0002,0
-2107019,(A)9→8,coding (203/591 nt),wbbJ,acyl transferase,NA,NA,NA,k0002,1
-2156723,C→A,L191M (CTG→ATG) ,mdtA,"multidrug efflux system, subunit A",NA,NA,NA,k0002,0
-2179217,Δ5 bp,coding (435‑439/1263 nt),gatZ,"D‑tagatose 1,6‑bisphosphate aldolase 2, subunit",NA,NA,NA,k0002,0
-2233458,gatA-insH IS5 (+) +4 bp,coding (259‑262/948 nt),dusC,tRNA‑dihydrouridine synthase C,NA,NA,NA,k0002,0
-2288259,(TTATCGCCT)2→3,coding (550/1761 nt),yejM,"hydrolase, inner membrane",NA,NA,NA,k0002,0
-2434645,A→T,V347E (GTG→GAG) ,purF,amidophosphoribosyltransferase,NA,NA,NA,k0002,0
-2487190,IS5 (+) +4 bp,coding (430‑433/1539 nt),emrY,multidrug efflux system,NA,NA,NA,k0002,0
-2634172,IS5 +4 bp,coding (1285/1371 nt),xseA,exodeoxyribonuclease 7 large subunit,NA,NA,NA,k0002,0
-2646569,C→A,E1459* (GAG→TAG) ,yfhM,hypothetical protein,NA,NA,NA,k0002,1
-2810717,IS2 (–) +5 bp,coding (635‑639/1173 nt),emrA,multidrug efflux system,NA,NA,NA,k0002,0
-2865825,A→T,I89N (ATC→AAC) ,rpoS,"RNA polymerase, sigma S (sigma 38) factor",NA,NA,NA,k0002,0
-2931775,C→A,P190P (CCG→CCT) ,fucA,L‑fuculose‑1‑phosphate aldolase,NA,NA,NA,k0002,1
-3104794,G→A,G142D (GGC→GAC) ,nupG,nucleoside transporter,NA,NA,NA,k0002,0
-3169126,A→C,T215P (ACA→CCA) ,qseB,DNA‑binding response regulator in two‑component regulatory system with QseC,NA,NA,NA,k0002,0
-3187655,IS5 (–) +4 bp,coding (1600‑1603/2466 nt),yqiG,outer membrane usher protein,NA,NA,NA,k0002,0
-3189138,IS5 (+) +4 bp,coding (602‑605/750 nt),yqiH,periplasmic pilin chaperone,NA,NA,NA,k0002,0
-3212340,A→C,D213A (GAC→GCC) ,rpoD,"RNA polymerase, sigma 70 (sigma D) factor",NA,NA,NA,k0002,0
-3241721,G→T,L84M (CTG→ATG) ,uxaA,altronate hydrolase,NA,NA,NA,k0002,0
-3277113,INDEL +5 bp,coding (257/336 nt),prlF,antitoxin PrlF,NA,NA,NA,k0002,0
-3277128,(TTCAACA)2→3,coding (272/336 nt),sohA,regulator,NA,NA,NA,k0002,0
-3454320,C→T,G373S (GGC→AGC) ,rpoB,RNA polymerase subunit beta,NA,NA,NA,k0002,1
-3532025,A→G,N107S (AAC→AGC) ,cpxA,sensory histidine kinase in two‑component regulatory system with CpxR,NA,NA,NA,k0002,1
-3840032,IS5 (–) +4 bp,coding (583‑586/699 nt),rfaY,lipopolysaccharide core biosynthesis protein,NA,NA,NA,k0002,0
-3948766,G→A,R320H (CGT→CAT) ,bcsB,"regulator of cellulose synthase, cyclic di‑GMP binding",NA,NA,NA,k0002,1
-3974240,"Δ14,146 bp",insH IS5-mediated,gadX–[yhiS],"gadX, gadW, mdtF, mdtE, gadE, hdeD, hdeA, hdeB, yhiD, yhiF, slp, insH, [yhiS]",NA,NA,NA,k0002,0
-3974244,"Δ7,921 bp",insH IS5-mediated,gadX–gadE,"gadX, gadW, mdtF, mdtE, gadE",NA,NA,NA,k0002,0
-3974646,Δ78 bp,coding (42‑119/825 nt),gadX,DNA‑binding transcriptional dual regulator,NA,NA,NA,k0002,0
-3976435,"Δ10,738 bp",insH‑mediated,[gadW]–slp,"[gadW], mdtF, mdtE, gadE, hdeD, hdeA, hdeB, yhiD, yhiF, slp",NA,NA,NA,k0002,1
-3988392,Δ443 bp,insH‑mediated,yhiS,hypothetical protein,NA,NA,NA,k0002,0
-3988392,"Δ1,268 bp",insH‑mediated,[yhiS],[yhiS],NA,NA,NA,k0002,0
-4136677,G→T,V191V (GTC→GTA) ,frlD,fructoselysine 6‑kinase,NA,NA,NA,k0002,0
-4200197,A→C,K271Q (AAA→CAA) ,rpoA,RNA polymerase subunit alpha,NA,NA,NA,k0002,1
-4221755,G→A,A353T (GCA→ACA) ,aceA,isocitrate lyase,NA,NA,NA,k0002,0
-4405094,G→A,V43M (GTG→ATG) ,hfq,"HF‑I, host factor for RNA phage Q beta replication",NA,NA,NA,k0002,0
-4485284,IS5 (–) +4 bp,coding (875‑878/1197 nt),yjgN,inner membrane protein,NA,NA,NA,k0002,0
-4495464,IS5 (+) +4 bp,coding (353‑356/999 nt),idnR,DNA‑binding transcriptional repressor,NA,NA,NA,k0002,0
-4546841,insH IS5 (–) +4 bp,coding (125‑128/597 nt),fimE,tyrosine recombinase/inversion of on/off regulator of fimA,NA,NA,NA,k0002,0
-4547860,(TCCCTCAGTTCTACAGCGGCTCTG)1→2,coding (66/549 nt),fimA,major type 1 subunit fimbrin,NA,NA,NA,k0002,0
-4626165,C→G,C201W (TGC→TGG) ,deoD,purine‑nucleoside phosphorylase,NA,NA,NA,k0002,0
-4639891,A→G,S34P (TCC→CCC) ,rob,DNA‑binding transcriptional activator,NA,NA,NA,k0002,0
-NA,NA,NA,NA,NA,NA,NA,NA,k0002,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0002,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0002,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0002,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0002,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0002,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0002,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0002,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0002,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0002,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0002,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0002,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0002,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0002,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0002,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0002,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0002,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0002,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0002,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0002,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0002,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0002,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0002,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0002,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0002,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0002,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0002,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0002,NA
-56273,G→A,L279L (CTC→CTT) ,lptD,"exported protein required for envelope biosynthesis and integrity, outer membrane lipopolysaccharide transport and assembly complex",NA,NA,NA,k0003,0
-62682,+G,coding (583/2907 nt),hepA,RNA polymerase‑associated helicase protein,NA,NA,NA,k0003,0
-105411,G→A,G36D (GGT→GAT) ,ftsZ,GTP‑binding tubulin‑like cell division protein,NA,NA,NA,k0003,0
-156056,T→G,N49T (AAT→ACT) ,ecpD,periplasmic pilin chaperone,NA,NA,NA,k0003,0
-277827,C→G,G67A (GGC→GCC) ,afuC ,ferric transporter subunit,NA,NA,NA,k0003,0
-425800,C→T,P147L (CCG→CTG) ,tgt,tRNA‑guanine transglycosylase,NA,NA,NA,k0003,0
-490998,Δ1 bp,coding (363/552 nt),apt,adenine phosphoribosyltransferase,NA,NA,NA,k0003,0
-520989,G→T,P450P (CCG→CCT) ,ybbP,inner membrane protein,NA,NA,NA,k0003,0
-556778,A→C,F63V (TTC→GTC) ,folD,"bifunctional 5,10‑methylene‑tetrahydrofolate dehydrogenase/5,10‑methylene‑tetrahydrofolate cyclohydrolase",NA,NA,NA,k0003,1
-666783,A→T,D619E (GAT→GAA) ,mrdA,transpeptidase involved in peptidoglycan synthesis,NA,NA,NA,k0003,0
-683143,"Δ5,116 bp",insH-3 IS5‑mediated,[hscC]–gltI,"[hscC], rihA, gltL, gltK, gltJ, gltI",NA,NA,NA,k0003,0
-899330,+C,coding (391/1128 nt),rumB,23S rRNA m(5)U747 methyltransferase,NA,NA,NA,k0003,0
-909411,G→A,P102P (CCC→CCT) ,ltaE,"L‑allo‑threonine aldolase, PLP‑dependent",NA,NA,NA,k0003,0
-1197854,C→T,N385N (AAC→AAT) ,icd,"isocitrate dehydrogenase,‑specific for NADP+",NA,NA,NA,k0003,0
-1215890,IS5 (+) +4 bp,coding (1160‑1163/1212 nt),ycgF,FAD‑binding phosphodiesterase,NA,NA,NA,k0003,0
-1218024,IS5 (+) +4 bp,coding (79‑82/267 nt),ariR (ymgB) ,acid stress activator of Gad; associated with biofilm,NA,NA,NA,k0003,0
-1285522,G→T,A114A (GCG→GCT) ,narH,"nitrate reductase 1, beta (Fe‑S) subunit",NA,NA,NA,k0003,0
-1349606,IS5 +5 bp,coding (1021/1935 nt),rnb,exoribonuclease 2,NA,NA,NA,k0003,0
-1372264,A→G,E112G (GAG→GGG) ,ycjM,glucosyltransferase,NA,NA,NA,k0003,1
-1459205,G→A,G354G (GGG→GGA) ,paaE,multicomponent oxygenase/reductase subunit for phenylacetic acid degradation,NA,NA,NA,k0003,0
-1485978,C→A,R383S (CGT→AGT) ,hrpA,ATP‑dependent helicase,NA,NA,NA,k0003,0
-1549542,IS5 (–) +4 bp,coding (428‑431/3048 nt),fdnG,"formate dehydrogenase‑N subunit alpha, nitrate‑inducible",NA,NA,NA,k0003,0
-1574188,IS5 (+) +4 bp,coding (2726‑2729/2796 nt),pqqL,peptidase,NA,NA,NA,k0003,0
-1618943,"Δ6,115 bp",coding inclusive deletion,[ydeA]–[ydeH],"[ydeA], marC, marR, marA, marB, eamA, ydeE, [ydeH]",NA,NA,NA,k0003,0
-1704037,Δ1 bp,coding (91/1002 nt),add,adenosine deaminase,NA,NA,NA,k0003,0
-1772682,IS5 (–) +4 bp,coding (354‑357/357 nt),ydiL,hypothetical protein,NA,NA,NA,k0003,0
-1822769,IS5 +4 bp,coding (160/1359 nt),chbC,"N,N'‑diacetylchitobiose permease IIC component",NA,NA,NA,k0003,0
-1881543,IS186/IS421 (+) +6 bp,coding (115‑120/360 nt),yeaR,hypothetical protein,NA,NA,NA,k0003,0
-1882210,G→A,L88L (CTC→CTT) ,yeaS,neutral amino‑acid efflux system,NA,NA,NA,k0003,0
-1908956,IS5 (–) +4 bp,coding (191‑194/210 nt),cspC,"stress protein, member of the CspA‑family",NA,NA,NA,k0003,1
-1909258,IS1 (+) +9 bp,coding (40‑48/144 nt),yobF,hypothetical protein,NA,NA,NA,k0003,0
-1932183,Δ1 bp,coding (279/291 nt),yebG,hypothetical protein,NA,NA,NA,k0003,0
-2093073,G→A,E249K (GAA→AAA) ,hisG,ATP phosphoribosyltransferase,NA,NA,NA,k0003,0
-2107019,(A)9→8,coding (203/591 nt),wbbJ,acyl transferase,NA,NA,NA,k0003,0
-2156723,C→A,L191M (CTG→ATG) ,mdtA,"multidrug efflux system, subunit A",NA,NA,NA,k0003,0
-2179217,Δ5 bp,coding (435‑439/1263 nt),gatZ,"D‑tagatose 1,6‑bisphosphate aldolase 2, subunit",NA,NA,NA,k0003,0
-2233458,gatA-insH IS5 (+) +4 bp,coding (259‑262/948 nt),dusC,tRNA‑dihydrouridine synthase C,NA,NA,NA,k0003,0
-2288259,(TTATCGCCT)2→3,coding (550/1761 nt),yejM,"hydrolase, inner membrane",NA,NA,NA,k0003,1
-2434645,A→T,V347E (GTG→GAG) ,purF,amidophosphoribosyltransferase,NA,NA,NA,k0003,0
-2487190,IS5 (+) +4 bp,coding (430‑433/1539 nt),emrY,multidrug efflux system,NA,NA,NA,k0003,0
-2634172,IS5 +4 bp,coding (1285/1371 nt),xseA,exodeoxyribonuclease 7 large subunit,NA,NA,NA,k0003,0
-2646569,C→A,E1459* (GAG→TAG) ,yfhM,hypothetical protein,NA,NA,NA,k0003,0
-2810717,IS2 (–) +5 bp,coding (635‑639/1173 nt),emrA,multidrug efflux system,NA,NA,NA,k0003,0
-2865825,A→T,I89N (ATC→AAC) ,rpoS,"RNA polymerase, sigma S (sigma 38) factor",NA,NA,NA,k0003,0
-2931775,C→A,P190P (CCG→CCT) ,fucA,L‑fuculose‑1‑phosphate aldolase,NA,NA,NA,k0003,0
-3104794,G→A,G142D (GGC→GAC) ,nupG,nucleoside transporter,NA,NA,NA,k0003,0
-3169126,A→C,T215P (ACA→CCA) ,qseB,DNA‑binding response regulator in two‑component regulatory system with QseC,NA,NA,NA,k0003,0
-3187655,IS5 (–) +4 bp,coding (1600‑1603/2466 nt),yqiG,outer membrane usher protein,NA,NA,NA,k0003,0
-3189138,IS5 (+) +4 bp,coding (602‑605/750 nt),yqiH,periplasmic pilin chaperone,NA,NA,NA,k0003,0
-3212340,A→C,D213A (GAC→GCC) ,rpoD,"RNA polymerase, sigma 70 (sigma D) factor",NA,NA,NA,k0003,0
-3241721,G→T,L84M (CTG→ATG) ,uxaA,altronate hydrolase,NA,NA,NA,k0003,0
-3277113,INDEL +5 bp,coding (257/336 nt),prlF,antitoxin PrlF,NA,NA,NA,k0003,0
-3277128,(TTCAACA)2→3,coding (272/336 nt),sohA,regulator,NA,NA,NA,k0003,0
-3454320,C→T,G373S (GGC→AGC) ,rpoB,RNA polymerase subunit beta,NA,NA,NA,k0003,0
-3532025,A→G,N107S (AAC→AGC) ,cpxA,sensory histidine kinase in two‑component regulatory system with CpxR,NA,NA,NA,k0003,1
-3840032,IS5 (–) +4 bp,coding (583‑586/699 nt),rfaY,lipopolysaccharide core biosynthesis protein,NA,NA,NA,k0003,1
-3948766,G→A,R320H (CGT→CAT) ,bcsB,"regulator of cellulose synthase, cyclic di‑GMP binding",NA,NA,NA,k0003,0
-3974240,"Δ14,146 bp",insH IS5-mediated,gadX–[yhiS],"gadX, gadW, mdtF, mdtE, gadE, hdeD, hdeA, hdeB, yhiD, yhiF, slp, insH, [yhiS]",NA,NA,NA,k0003,0
-3974244,"Δ7,921 bp",insH IS5-mediated,gadX–gadE,"gadX, gadW, mdtF, mdtE, gadE",NA,NA,NA,k0003,0
-3974646,Δ78 bp,coding (42‑119/825 nt),gadX,DNA‑binding transcriptional dual regulator,NA,NA,NA,k0003,0
-3976435,"Δ10,738 bp",insH‑mediated,[gadW]–slp,"[gadW], mdtF, mdtE, gadE, hdeD, hdeA, hdeB, yhiD, yhiF, slp",NA,NA,NA,k0003,0
-3988392,Δ443 bp,insH‑mediated,yhiS,hypothetical protein,NA,NA,NA,k0003,0
-3988392,"Δ1,268 bp",insH‑mediated,[yhiS],[yhiS],NA,NA,NA,k0003,0
-4136677,G→T,V191V (GTC→GTA) ,frlD,fructoselysine 6‑kinase,NA,NA,NA,k0003,1
-4200197,A→C,K271Q (AAA→CAA) ,rpoA,RNA polymerase subunit alpha,NA,NA,NA,k0003,0
-4221755,G→A,A353T (GCA→ACA) ,aceA,isocitrate lyase,NA,NA,NA,k0003,1
-4405094,G→A,V43M (GTG→ATG) ,hfq,"HF‑I, host factor for RNA phage Q beta replication",NA,NA,NA,k0003,0
-4485284,IS5 (–) +4 bp,coding (875‑878/1197 nt),yjgN,inner membrane protein,NA,NA,NA,k0003,0
-4495464,IS5 (+) +4 bp,coding (353‑356/999 nt),idnR,DNA‑binding transcriptional repressor,NA,NA,NA,k0003,0
-4546841,insH IS5 (–) +4 bp,coding (125‑128/597 nt),fimE,tyrosine recombinase/inversion of on/off regulator of fimA,NA,NA,NA,k0003,1
-4547860,(TCCCTCAGTTCTACAGCGGCTCTG)1→2,coding (66/549 nt),fimA,major type 1 subunit fimbrin,NA,NA,NA,k0003,1
-4626165,C→G,C201W (TGC→TGG) ,deoD,purine‑nucleoside phosphorylase,NA,NA,NA,k0003,0
-4639891,A→G,S34P (TCC→CCC) ,rob,DNA‑binding transcriptional activator,NA,NA,NA,k0003,0
-NA,NA,NA,NA,NA,NA,NA,NA,k0003,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0003,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0003,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0003,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0003,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0003,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0003,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0003,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0003,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0003,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0003,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0003,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0003,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0003,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0003,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0003,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0003,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0003,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0003,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0003,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0003,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0003,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0003,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0003,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0003,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0003,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0003,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0003,NA
-56273,G→A,L279L (CTC→CTT) ,lptD,"exported protein required for envelope biosynthesis and integrity, outer membrane lipopolysaccharide transport and assembly complex",NA,NA,NA,k0014,0
-62682,+G,coding (583/2907 nt),hepA,RNA polymerase‑associated helicase protein,NA,NA,NA,k0014,0
-105411,G→A,G36D (GGT→GAT) ,ftsZ,GTP‑binding tubulin‑like cell division protein,NA,NA,NA,k0014,0
-156056,T→G,N49T (AAT→ACT) ,ecpD,periplasmic pilin chaperone,NA,NA,NA,k0014,0
-277827,C→G,G67A (GGC→GCC) ,afuC ,ferric transporter subunit,NA,NA,NA,k0014,0
-425800,C→T,P147L (CCG→CTG) ,tgt,tRNA‑guanine transglycosylase,NA,NA,NA,k0014,0
-490998,Δ1 bp,coding (363/552 nt),apt,adenine phosphoribosyltransferase,NA,NA,NA,k0014,0
-520989,G→T,P450P (CCG→CCT) ,ybbP,inner membrane protein,NA,NA,NA,k0014,0
-556778,A→C,F63V (TTC→GTC) ,folD,"bifunctional 5,10‑methylene‑tetrahydrofolate dehydrogenase/5,10‑methylene‑tetrahydrofolate cyclohydrolase",NA,NA,NA,k0014,1
-666783,A→T,D619E (GAT→GAA) ,mrdA,transpeptidase involved in peptidoglycan synthesis,NA,NA,NA,k0014,0
-683143,"Δ5,116 bp",insH-3 IS5‑mediated,[hscC]–gltI,"[hscC], rihA, gltL, gltK, gltJ, gltI",NA,NA,NA,k0014,0
-899330,+C,coding (391/1128 nt),rumB,23S rRNA m(5)U747 methyltransferase,NA,NA,NA,k0014,0
-909411,G→A,P102P (CCC→CCT) ,ltaE,"L‑allo‑threonine aldolase, PLP‑dependent",NA,NA,NA,k0014,0
-1197854,C→T,N385N (AAC→AAT) ,icd,"isocitrate dehydrogenase,‑specific for NADP+",NA,NA,NA,k0014,0
-1215890,IS5 (+) +4 bp,coding (1160‑1163/1212 nt),ycgF,FAD‑binding phosphodiesterase,NA,NA,NA,k0014,0
-1218024,IS5 (+) +4 bp,coding (79‑82/267 nt),ariR (ymgB) ,acid stress activator of Gad; associated with biofilm,NA,NA,NA,k0014,0
-1285522,G→T,A114A (GCG→GCT) ,narH,"nitrate reductase 1, beta (Fe‑S) subunit",NA,NA,NA,k0014,0
-1349606,IS5 +5 bp,coding (1021/1935 nt),rnb,exoribonuclease 2,NA,NA,NA,k0014,0
-1372264,A→G,E112G (GAG→GGG) ,ycjM,glucosyltransferase,NA,NA,NA,k0014,1
-1459205,G→A,G354G (GGG→GGA) ,paaE,multicomponent oxygenase/reductase subunit for phenylacetic acid degradation,NA,NA,NA,k0014,0
-1485978,C→A,R383S (CGT→AGT) ,hrpA,ATP‑dependent helicase,NA,NA,NA,k0014,0
-1549542,IS5 (–) +4 bp,coding (428‑431/3048 nt),fdnG,"formate dehydrogenase‑N subunit alpha, nitrate‑inducible",NA,NA,NA,k0014,0
-1574188,IS5 (+) +4 bp,coding (2726‑2729/2796 nt),pqqL,peptidase,NA,NA,NA,k0014,0
-1618943,"Δ6,115 bp",coding inclusive deletion,[ydeA]–[ydeH],"[ydeA], marC, marR, marA, marB, eamA, ydeE, [ydeH]",NA,NA,NA,k0014,0
-1704037,Δ1 bp,coding (91/1002 nt),add,adenosine deaminase,NA,NA,NA,k0014,0
-1772682,IS5 (–) +4 bp,coding (354‑357/357 nt),ydiL,hypothetical protein,NA,NA,NA,k0014,0
-1822769,IS5 +4 bp,coding (160/1359 nt),chbC,"N,N'‑diacetylchitobiose permease IIC component",NA,NA,NA,k0014,0
-1881543,IS186/IS421 (+) +6 bp,coding (115‑120/360 nt),yeaR,hypothetical protein,NA,NA,NA,k0014,0
-1882210,G→A,L88L (CTC→CTT) ,yeaS,neutral amino‑acid efflux system,NA,NA,NA,k0014,0
-1908956,IS5 (–) +4 bp,coding (191‑194/210 nt),cspC,"stress protein, member of the CspA‑family",NA,NA,NA,k0014,1
-1909258,IS1 (+) +9 bp,coding (40‑48/144 nt),yobF,hypothetical protein,NA,NA,NA,k0014,0
-1932183,Δ1 bp,coding (279/291 nt),yebG,hypothetical protein,NA,NA,NA,k0014,0
-2093073,G→A,E249K (GAA→AAA) ,hisG,ATP phosphoribosyltransferase,NA,NA,NA,k0014,0
-2107019,(A)9→8,coding (203/591 nt),wbbJ,acyl transferase,NA,NA,NA,k0014,0
-2156723,C→A,L191M (CTG→ATG) ,mdtA,"multidrug efflux system, subunit A",NA,NA,NA,k0014,0
-2179217,Δ5 bp,coding (435‑439/1263 nt),gatZ,"D‑tagatose 1,6‑bisphosphate aldolase 2, subunit",NA,NA,NA,k0014,0
-2233458,gatA-insH IS5 (+) +4 bp,coding (259‑262/948 nt),dusC,tRNA‑dihydrouridine synthase C,NA,NA,NA,k0014,0
-2288259,(TTATCGCCT)2→3,coding (550/1761 nt),yejM,"hydrolase, inner membrane",NA,NA,NA,k0014,0
-2434645,A→T,V347E (GTG→GAG) ,purF,amidophosphoribosyltransferase,NA,NA,NA,k0014,0
-2487190,IS5 (+) +4 bp,coding (430‑433/1539 nt),emrY,multidrug efflux system,NA,NA,NA,k0014,0
-2634172,IS5 +4 bp,coding (1285/1371 nt),xseA,exodeoxyribonuclease 7 large subunit,NA,NA,NA,k0014,0
-2646569,C→A,E1459* (GAG→TAG) ,yfhM,hypothetical protein,NA,NA,NA,k0014,0
-2810717,IS2 (–) +5 bp,coding (635‑639/1173 nt),emrA,multidrug efflux system,NA,NA,NA,k0014,0
-2865825,A→T,I89N (ATC→AAC) ,rpoS,"RNA polymerase, sigma S (sigma 38) factor",NA,NA,NA,k0014,0
-2931775,C→A,P190P (CCG→CCT) ,fucA,L‑fuculose‑1‑phosphate aldolase,NA,NA,NA,k0014,0
-3104794,G→A,G142D (GGC→GAC) ,nupG,nucleoside transporter,NA,NA,NA,k0014,0
-3169126,A→C,T215P (ACA→CCA) ,qseB,DNA‑binding response regulator in two‑component regulatory system with QseC,NA,NA,NA,k0014,0
-3187655,IS5 (–) +4 bp,coding (1600‑1603/2466 nt),yqiG,outer membrane usher protein,NA,NA,NA,k0014,1
-3189138,IS5 (+) +4 bp,coding (602‑605/750 nt),yqiH,periplasmic pilin chaperone,NA,NA,NA,k0014,0
-3212340,A→C,D213A (GAC→GCC) ,rpoD,"RNA polymerase, sigma 70 (sigma D) factor",NA,NA,NA,k0014,0
-3241721,G→T,L84M (CTG→ATG) ,uxaA,altronate hydrolase,NA,NA,NA,k0014,0
-3277113,INDEL +5 bp,coding (257/336 nt),prlF,antitoxin PrlF,NA,NA,NA,k0014,0
-3277128,(TTCAACA)2→3,coding (272/336 nt),sohA,regulator,NA,NA,NA,k0014,0
-3454320,C→T,G373S (GGC→AGC) ,rpoB,RNA polymerase subunit beta,NA,NA,NA,k0014,0
-3532025,A→G,N107S (AAC→AGC) ,cpxA,sensory histidine kinase in two‑component regulatory system with CpxR,NA,NA,NA,k0014,0
-3840032,IS5 (–) +4 bp,coding (583‑586/699 nt),rfaY,lipopolysaccharide core biosynthesis protein,NA,NA,NA,k0014,1
-3948766,G→A,R320H (CGT→CAT) ,bcsB,"regulator of cellulose synthase, cyclic di‑GMP binding",NA,NA,NA,k0014,0
-3974240,"Δ14,146 bp",insH IS5-mediated,gadX–[yhiS],"gadX, gadW, mdtF, mdtE, gadE, hdeD, hdeA, hdeB, yhiD, yhiF, slp, insH, [yhiS]",NA,NA,NA,k0014,0
-3974244,"Δ7,921 bp",insH IS5-mediated,gadX–gadE,"gadX, gadW, mdtF, mdtE, gadE",NA,NA,NA,k0014,0
-3974646,Δ78 bp,coding (42‑119/825 nt),gadX,DNA‑binding transcriptional dual regulator,NA,NA,NA,k0014,0
-3976435,"Δ10,738 bp",insH‑mediated,[gadW]–slp,"[gadW], mdtF, mdtE, gadE, hdeD, hdeA, hdeB, yhiD, yhiF, slp",NA,NA,NA,k0014,0
-3988392,Δ443 bp,insH‑mediated,yhiS,hypothetical protein,NA,NA,NA,k0014,0
-3988392,"Δ1,268 bp",insH‑mediated,[yhiS],[yhiS],NA,NA,NA,k0014,0
-4136677,G→T,V191V (GTC→GTA) ,frlD,fructoselysine 6‑kinase,NA,NA,NA,k0014,1
-4200197,A→C,K271Q (AAA→CAA) ,rpoA,RNA polymerase subunit alpha,NA,NA,NA,k0014,0
-4221755,G→A,A353T (GCA→ACA) ,aceA,isocitrate lyase,NA,NA,NA,k0014,1
-4405094,G→A,V43M (GTG→ATG) ,hfq,"HF‑I, host factor for RNA phage Q beta replication",NA,NA,NA,k0014,0
-4485284,IS5 (–) +4 bp,coding (875‑878/1197 nt),yjgN,inner membrane protein,NA,NA,NA,k0014,0
-4495464,IS5 (+) +4 bp,coding (353‑356/999 nt),idnR,DNA‑binding transcriptional repressor,NA,NA,NA,k0014,0
-4546841,insH IS5 (–) +4 bp,coding (125‑128/597 nt),fimE,tyrosine recombinase/inversion of on/off regulator of fimA,NA,NA,NA,k0014,1
-4547860,(TCCCTCAGTTCTACAGCGGCTCTG)1→2,coding (66/549 nt),fimA,major type 1 subunit fimbrin,NA,NA,NA,k0014,1
-4626165,C→G,C201W (TGC→TGG) ,deoD,purine‑nucleoside phosphorylase,NA,NA,NA,k0014,0
-4639891,A→G,S34P (TCC→CCC) ,rob,DNA‑binding transcriptional activator,NA,NA,NA,k0014,0
-NA,NA,NA,NA,NA,NA,NA,NA,k0014,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0014,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0014,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0014,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0014,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0014,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0014,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0014,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0014,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0014,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0014,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0014,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0014,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0014,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0014,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0014,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0014,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0014,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0014,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0014,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0014,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0014,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0014,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0014,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0014,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0014,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0014,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0014,NA
-56273,G→A,L279L (CTC→CTT) ,lptD,"exported protein required for envelope biosynthesis and integrity, outer membrane lipopolysaccharide transport and assembly complex",NA,NA,NA,k0015,0
-62682,+G,coding (583/2907 nt),hepA,RNA polymerase‑associated helicase protein,NA,NA,NA,k0015,0
-105411,G→A,G36D (GGT→GAT) ,ftsZ,GTP‑binding tubulin‑like cell division protein,NA,NA,NA,k0015,0
-156056,T→G,N49T (AAT→ACT) ,ecpD,periplasmic pilin chaperone,NA,NA,NA,k0015,0
-277827,C→G,G67A (GGC→GCC) ,afuC ,ferric transporter subunit,NA,NA,NA,k0015,0
-425800,C→T,P147L (CCG→CTG) ,tgt,tRNA‑guanine transglycosylase,NA,NA,NA,k0015,0
-490998,Δ1 bp,coding (363/552 nt),apt,adenine phosphoribosyltransferase,NA,NA,NA,k0015,0
-520989,G→T,P450P (CCG→CCT) ,ybbP,inner membrane protein,NA,NA,NA,k0015,0
-556778,A→C,F63V (TTC→GTC) ,folD,"bifunctional 5,10‑methylene‑tetrahydrofolate dehydrogenase/5,10‑methylene‑tetrahydrofolate cyclohydrolase",NA,NA,NA,k0015,1
-666783,A→T,D619E (GAT→GAA) ,mrdA,transpeptidase involved in peptidoglycan synthesis,NA,NA,NA,k0015,0
-683143,"Δ5,116 bp",insH-3 IS5‑mediated,[hscC]–gltI,"[hscC], rihA, gltL, gltK, gltJ, gltI",NA,NA,NA,k0015,0
-899330,+C,coding (391/1128 nt),rumB,23S rRNA m(5)U747 methyltransferase,NA,NA,NA,k0015,1
-909411,G→A,P102P (CCC→CCT) ,ltaE,"L‑allo‑threonine aldolase, PLP‑dependent",NA,NA,NA,k0015,0
-1197854,C→T,N385N (AAC→AAT) ,icd,"isocitrate dehydrogenase,‑specific for NADP+",NA,NA,NA,k0015,0
-1215890,IS5 (+) +4 bp,coding (1160‑1163/1212 nt),ycgF,FAD‑binding phosphodiesterase,NA,NA,NA,k0015,0
-1218024,IS5 (+) +4 bp,coding (79‑82/267 nt),ariR (ymgB) ,acid stress activator of Gad; associated with biofilm,NA,NA,NA,k0015,0
-1285522,G→T,A114A (GCG→GCT) ,narH,"nitrate reductase 1, beta (Fe‑S) subunit",NA,NA,NA,k0015,0
-1349606,IS5 +5 bp,coding (1021/1935 nt),rnb,exoribonuclease 2,NA,NA,NA,k0015,0
-1372264,A→G,E112G (GAG→GGG) ,ycjM,glucosyltransferase,NA,NA,NA,k0015,1
-1459205,G→A,G354G (GGG→GGA) ,paaE,multicomponent oxygenase/reductase subunit for phenylacetic acid degradation,NA,NA,NA,k0015,0
-1485978,C→A,R383S (CGT→AGT) ,hrpA,ATP‑dependent helicase,NA,NA,NA,k0015,0
-1549542,IS5 (–) +4 bp,coding (428‑431/3048 nt),fdnG,"formate dehydrogenase‑N subunit alpha, nitrate‑inducible",NA,NA,NA,k0015,0
-1574188,IS5 (+) +4 bp,coding (2726‑2729/2796 nt),pqqL,peptidase,NA,NA,NA,k0015,0
-1618943,"Δ6,115 bp",coding inclusive deletion,[ydeA]–[ydeH],"[ydeA], marC, marR, marA, marB, eamA, ydeE, [ydeH]",NA,NA,NA,k0015,0
-1704037,Δ1 bp,coding (91/1002 nt),add,adenosine deaminase,NA,NA,NA,k0015,0
-1772682,IS5 (–) +4 bp,coding (354‑357/357 nt),ydiL,hypothetical protein,NA,NA,NA,k0015,0
-1822769,IS5 +4 bp,coding (160/1359 nt),chbC,"N,N'‑diacetylchitobiose permease IIC component",NA,NA,NA,k0015,0
-1881543,IS186/IS421 (+) +6 bp,coding (115‑120/360 nt),yeaR,hypothetical protein,NA,NA,NA,k0015,0
-1882210,G→A,L88L (CTC→CTT) ,yeaS,neutral amino‑acid efflux system,NA,NA,NA,k0015,0
-1908956,IS5 (–) +4 bp,coding (191‑194/210 nt),cspC,"stress protein, member of the CspA‑family",NA,NA,NA,k0015,1
-1909258,IS1 (+) +9 bp,coding (40‑48/144 nt),yobF,hypothetical protein,NA,NA,NA,k0015,0
-1932183,Δ1 bp,coding (279/291 nt),yebG,hypothetical protein,NA,NA,NA,k0015,0
-2093073,G→A,E249K (GAA→AAA) ,hisG,ATP phosphoribosyltransferase,NA,NA,NA,k0015,0
-2107019,(A)9→8,coding (203/591 nt),wbbJ,acyl transferase,NA,NA,NA,k0015,0
-2156723,C→A,L191M (CTG→ATG) ,mdtA,"multidrug efflux system, subunit A",NA,NA,NA,k0015,0
-2179217,Δ5 bp,coding (435‑439/1263 nt),gatZ,"D‑tagatose 1,6‑bisphosphate aldolase 2, subunit",NA,NA,NA,k0015,1
-2233458,gatA-insH IS5 (+) +4 bp,coding (259‑262/948 nt),dusC,tRNA‑dihydrouridine synthase C,NA,NA,NA,k0015,0
-2288259,(TTATCGCCT)2→3,coding (550/1761 nt),yejM,"hydrolase, inner membrane",NA,NA,NA,k0015,0
-2434645,A→T,V347E (GTG→GAG) ,purF,amidophosphoribosyltransferase,NA,NA,NA,k0015,0
-2487190,IS5 (+) +4 bp,coding (430‑433/1539 nt),emrY,multidrug efflux system,NA,NA,NA,k0015,0
-2634172,IS5 +4 bp,coding (1285/1371 nt),xseA,exodeoxyribonuclease 7 large subunit,NA,NA,NA,k0015,1
-2646569,C→A,E1459* (GAG→TAG) ,yfhM,hypothetical protein,NA,NA,NA,k0015,0
-2810717,IS2 (–) +5 bp,coding (635‑639/1173 nt),emrA,multidrug efflux system,NA,NA,NA,k0015,0
-2865825,A→T,I89N (ATC→AAC) ,rpoS,"RNA polymerase, sigma S (sigma 38) factor",NA,NA,NA,k0015,0
-2931775,C→A,P190P (CCG→CCT) ,fucA,L‑fuculose‑1‑phosphate aldolase,NA,NA,NA,k0015,0
-3104794,G→A,G142D (GGC→GAC) ,nupG,nucleoside transporter,NA,NA,NA,k0015,0
-3169126,A→C,T215P (ACA→CCA) ,qseB,DNA‑binding response regulator in two‑component regulatory system with QseC,NA,NA,NA,k0015,0
-3187655,IS5 (–) +4 bp,coding (1600‑1603/2466 nt),yqiG,outer membrane usher protein,NA,NA,NA,k0015,0
-3189138,IS5 (+) +4 bp,coding (602‑605/750 nt),yqiH,periplasmic pilin chaperone,NA,NA,NA,k0015,0
-3212340,A→C,D213A (GAC→GCC) ,rpoD,"RNA polymerase, sigma 70 (sigma D) factor",NA,NA,NA,k0015,0
-3241721,G→T,L84M (CTG→ATG) ,uxaA,altronate hydrolase,NA,NA,NA,k0015,0
-3277113,INDEL +5 bp,coding (257/336 nt),prlF,antitoxin PrlF,NA,NA,NA,k0015,0
-3277128,(TTCAACA)2→3,coding (272/336 nt),sohA,regulator,NA,NA,NA,k0015,0
-3454320,C→T,G373S (GGC→AGC) ,rpoB,RNA polymerase subunit beta,NA,NA,NA,k0015,0
-3532025,A→G,N107S (AAC→AGC) ,cpxA,sensory histidine kinase in two‑component regulatory system with CpxR,NA,NA,NA,k0015,0
-3840032,IS5 (–) +4 bp,coding (583‑586/699 nt),rfaY,lipopolysaccharide core biosynthesis protein,NA,NA,NA,k0015,1
-3948766,G→A,R320H (CGT→CAT) ,bcsB,"regulator of cellulose synthase, cyclic di‑GMP binding",NA,NA,NA,k0015,0
-3974240,"Δ14,146 bp",insH IS5-mediated,gadX–[yhiS],"gadX, gadW, mdtF, mdtE, gadE, hdeD, hdeA, hdeB, yhiD, yhiF, slp, insH, [yhiS]",NA,NA,NA,k0015,0
-3974244,"Δ7,921 bp",insH IS5-mediated,gadX–gadE,"gadX, gadW, mdtF, mdtE, gadE",NA,NA,NA,k0015,0
-3974646,Δ78 bp,coding (42‑119/825 nt),gadX,DNA‑binding transcriptional dual regulator,NA,NA,NA,k0015,0
-3976435,"Δ10,738 bp",insH‑mediated,[gadW]–slp,"[gadW], mdtF, mdtE, gadE, hdeD, hdeA, hdeB, yhiD, yhiF, slp",NA,NA,NA,k0015,0
-3988392,Δ443 bp,insH‑mediated,yhiS,hypothetical protein,NA,NA,NA,k0015,0
-3988392,"Δ1,268 bp",insH‑mediated,[yhiS],[yhiS],NA,NA,NA,k0015,0
-4136677,G→T,V191V (GTC→GTA) ,frlD,fructoselysine 6‑kinase,NA,NA,NA,k0015,1
-4200197,A→C,K271Q (AAA→CAA) ,rpoA,RNA polymerase subunit alpha,NA,NA,NA,k0015,0
-4221755,G→A,A353T (GCA→ACA) ,aceA,isocitrate lyase,NA,NA,NA,k0015,1
-4405094,G→A,V43M (GTG→ATG) ,hfq,"HF‑I, host factor for RNA phage Q beta replication",NA,NA,NA,k0015,0
-4485284,IS5 (–) +4 bp,coding (875‑878/1197 nt),yjgN,inner membrane protein,NA,NA,NA,k0015,0
-4495464,IS5 (+) +4 bp,coding (353‑356/999 nt),idnR,DNA‑binding transcriptional repressor,NA,NA,NA,k0015,0
-4546841,insH IS5 (–) +4 bp,coding (125‑128/597 nt),fimE,tyrosine recombinase/inversion of on/off regulator of fimA,NA,NA,NA,k0015,1
-4547860,(TCCCTCAGTTCTACAGCGGCTCTG)1→2,coding (66/549 nt),fimA,major type 1 subunit fimbrin,NA,NA,NA,k0015,1
-4626165,C→G,C201W (TGC→TGG) ,deoD,purine‑nucleoside phosphorylase,NA,NA,NA,k0015,0
-4639891,A→G,S34P (TCC→CCC) ,rob,DNA‑binding transcriptional activator,NA,NA,NA,k0015,0
-NA,NA,NA,NA,NA,NA,NA,NA,k0015,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0015,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0015,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0015,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0015,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0015,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0015,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0015,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0015,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0015,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0015,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0015,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0015,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0015,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0015,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0015,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0015,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0015,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0015,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0015,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0015,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0015,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0015,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0015,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0015,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0015,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0015,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0015,NA
-56273,G→A,L279L (CTC→CTT) ,lptD,"exported protein required for envelope biosynthesis and integrity, outer membrane lipopolysaccharide transport and assembly complex",NA,NA,NA,kb026,0
-62682,+G,coding (583/2907 nt),hepA,RNA polymerase‑associated helicase protein,NA,NA,NA,kb026,0
-105411,G→A,G36D (GGT→GAT) ,ftsZ,GTP‑binding tubulin‑like cell division protein,NA,NA,NA,kb026,0
-156056,T→G,N49T (AAT→ACT) ,ecpD,periplasmic pilin chaperone,NA,NA,NA,kb026,0
-277827,C→G,G67A (GGC→GCC) ,afuC ,ferric transporter subunit,NA,NA,NA,kb026,0
-425800,C→T,P147L (CCG→CTG) ,tgt,tRNA‑guanine transglycosylase,NA,NA,NA,kb026,0
-490998,Δ1 bp,coding (363/552 nt),apt,adenine phosphoribosyltransferase,NA,NA,NA,kb026,0
-520989,G→T,P450P (CCG→CCT) ,ybbP,inner membrane protein,NA,NA,NA,kb026,0
-556778,A→C,F63V (TTC→GTC) ,folD,"bifunctional 5,10‑methylene‑tetrahydrofolate dehydrogenase/5,10‑methylene‑tetrahydrofolate cyclohydrolase",NA,NA,NA,kb026,1
-666783,A→T,D619E (GAT→GAA) ,mrdA,transpeptidase involved in peptidoglycan synthesis,NA,NA,NA,kb026,0
-683143,"Δ5,116 bp",insH-3 IS5‑mediated,[hscC]–gltI,"[hscC], rihA, gltL, gltK, gltJ, gltI",NA,NA,NA,kb026,0
-899330,+C,coding (391/1128 nt),rumB,23S rRNA m(5)U747 methyltransferase,NA,NA,NA,kb026,0
-909411,G→A,P102P (CCC→CCT) ,ltaE,"L‑allo‑threonine aldolase, PLP‑dependent",NA,NA,NA,kb026,0
-1197854,C→T,N385N (AAC→AAT) ,icd,"isocitrate dehydrogenase,‑specific for NADP+",NA,NA,NA,kb026,1
-1215890,IS5 (+) +4 bp,coding (1160‑1163/1212 nt),ycgF,FAD‑binding phosphodiesterase,NA,NA,NA,kb026,0
-1218024,IS5 (+) +4 bp,coding (79‑82/267 nt),ariR (ymgB) ,acid stress activator of Gad; associated with biofilm,NA,NA,NA,kb026,0
-1285522,G→T,A114A (GCG→GCT) ,narH,"nitrate reductase 1, beta (Fe‑S) subunit",NA,NA,NA,kb026,0
-1349606,IS5 +5 bp,coding (1021/1935 nt),rnb,exoribonuclease 2,NA,NA,NA,kb026,0
-1372264,A→G,E112G (GAG→GGG) ,ycjM,glucosyltransferase,NA,NA,NA,kb026,1
-1459205,G→A,G354G (GGG→GGA) ,paaE,multicomponent oxygenase/reductase subunit for phenylacetic acid degradation,NA,NA,NA,kb026,0
-1485978,C→A,R383S (CGT→AGT) ,hrpA,ATP‑dependent helicase,NA,NA,NA,kb026,0
-1549542,IS5 (–) +4 bp,coding (428‑431/3048 nt),fdnG,"formate dehydrogenase‑N subunit alpha, nitrate‑inducible",NA,NA,NA,kb026,0
-1574188,IS5 (+) +4 bp,coding (2726‑2729/2796 nt),pqqL,peptidase,NA,NA,NA,kb026,0
-1618943,"Δ6,115 bp",coding inclusive deletion,[ydeA]–[ydeH],"[ydeA], marC, marR, marA, marB, eamA, ydeE, [ydeH]",NA,NA,NA,kb026,0
-1704037,Δ1 bp,coding (91/1002 nt),add,adenosine deaminase,NA,NA,NA,kb026,0
-1772682,IS5 (–) +4 bp,coding (354‑357/357 nt),ydiL,hypothetical protein,NA,NA,NA,kb026,0
-1822769,IS5 +4 bp,coding (160/1359 nt),chbC,"N,N'‑diacetylchitobiose permease IIC component",NA,NA,NA,kb026,0
-1881543,IS186/IS421 (+) +6 bp,coding (115‑120/360 nt),yeaR,hypothetical protein,NA,NA,NA,kb026,0
-1882210,G→A,L88L (CTC→CTT) ,yeaS,neutral amino‑acid efflux system,NA,NA,NA,kb026,0
-1908956,IS5 (–) +4 bp,coding (191‑194/210 nt),cspC,"stress protein, member of the CspA‑family",NA,NA,NA,kb026,1
-1909258,IS1 (+) +9 bp,coding (40‑48/144 nt),yobF,hypothetical protein,NA,NA,NA,kb026,0
-1932183,Δ1 bp,coding (279/291 nt),yebG,hypothetical protein,NA,NA,NA,kb026,0
-2093073,G→A,E249K (GAA→AAA) ,hisG,ATP phosphoribosyltransferase,NA,NA,NA,kb026,0
-2107019,(A)9→8,coding (203/591 nt),wbbJ,acyl transferase,NA,NA,NA,kb026,0
-2156723,C→A,L191M (CTG→ATG) ,mdtA,"multidrug efflux system, subunit A",NA,NA,NA,kb026,0
-2179217,Δ5 bp,coding (435‑439/1263 nt),gatZ,"D‑tagatose 1,6‑bisphosphate aldolase 2, subunit",NA,NA,NA,kb026,0
-2233458,gatA-insH IS5 (+) +4 bp,coding (259‑262/948 nt),dusC,tRNA‑dihydrouridine synthase C,NA,NA,NA,kb026,0
-2288259,(TTATCGCCT)2→3,coding (550/1761 nt),yejM,"hydrolase, inner membrane",NA,NA,NA,kb026,1
-2434645,A→T,V347E (GTG→GAG) ,purF,amidophosphoribosyltransferase,NA,NA,NA,kb026,0
-2487190,IS5 (+) +4 bp,coding (430‑433/1539 nt),emrY,multidrug efflux system,NA,NA,NA,kb026,0
-2634172,IS5 +4 bp,coding (1285/1371 nt),xseA,exodeoxyribonuclease 7 large subunit,NA,NA,NA,kb026,0
-2646569,C→A,E1459* (GAG→TAG) ,yfhM,hypothetical protein,NA,NA,NA,kb026,0
-2810717,IS2 (–) +5 bp,coding (635‑639/1173 nt),emrA,multidrug efflux system,NA,NA,NA,kb026,0
-2865825,A→T,I89N (ATC→AAC) ,rpoS,"RNA polymerase, sigma S (sigma 38) factor",NA,NA,NA,kb026,0
-2931775,C→A,P190P (CCG→CCT) ,fucA,L‑fuculose‑1‑phosphate aldolase,NA,NA,NA,kb026,0
-3104794,G→A,G142D (GGC→GAC) ,nupG,nucleoside transporter,NA,NA,NA,kb026,0
-3169126,A→C,T215P (ACA→CCA) ,qseB,DNA‑binding response regulator in two‑component regulatory system with QseC,NA,NA,NA,kb026,0
-3187655,IS5 (–) +4 bp,coding (1600‑1603/2466 nt),yqiG,outer membrane usher protein,NA,NA,NA,kb026,0
-3189138,IS5 (+) +4 bp,coding (602‑605/750 nt),yqiH,periplasmic pilin chaperone,NA,NA,NA,kb026,0
-3212340,A→C,D213A (GAC→GCC) ,rpoD,"RNA polymerase, sigma 70 (sigma D) factor",NA,NA,NA,kb026,0
-3241721,G→T,L84M (CTG→ATG) ,uxaA,altronate hydrolase,NA,NA,NA,kb026,0
-3277113,INDEL +5 bp,coding (257/336 nt),prlF,antitoxin PrlF,NA,NA,NA,kb026,0
-3277128,(TTCAACA)2→3,coding (272/336 nt),sohA,regulator,NA,NA,NA,kb026,0
-3454320,C→T,G373S (GGC→AGC) ,rpoB,RNA polymerase subunit beta,NA,NA,NA,kb026,0
-3532025,A→G,N107S (AAC→AGC) ,cpxA,sensory histidine kinase in two‑component regulatory system with CpxR,NA,NA,NA,kb026,1
-3840032,IS5 (–) +4 bp,coding (583‑586/699 nt),rfaY,lipopolysaccharide core biosynthesis protein,NA,NA,NA,kb026,1
-3948766,G→A,R320H (CGT→CAT) ,bcsB,"regulator of cellulose synthase, cyclic di‑GMP binding",NA,NA,NA,kb026,0
-3974240,"Δ14,146 bp",insH IS5-mediated,gadX–[yhiS],"gadX, gadW, mdtF, mdtE, gadE, hdeD, hdeA, hdeB, yhiD, yhiF, slp, insH, [yhiS]",NA,NA,NA,kb026,0
-3974244,"Δ7,921 bp",insH IS5-mediated,gadX–gadE,"gadX, gadW, mdtF, mdtE, gadE",NA,NA,NA,kb026,0
-3974646,Δ78 bp,coding (42‑119/825 nt),gadX,DNA‑binding transcriptional dual regulator,NA,NA,NA,kb026,0
-3976435,"Δ10,738 bp",insH‑mediated,[gadW]–slp,"[gadW], mdtF, mdtE, gadE, hdeD, hdeA, hdeB, yhiD, yhiF, slp",NA,NA,NA,kb026,0
-3988392,Δ443 bp,insH‑mediated,yhiS,hypothetical protein,NA,NA,NA,kb026,0
-3988392,"Δ1,268 bp",insH‑mediated,[yhiS],[yhiS],NA,NA,NA,kb026,0
-4136677,G→T,V191V (GTC→GTA) ,frlD,fructoselysine 6‑kinase,NA,NA,NA,kb026,1
-4200197,A→C,K271Q (AAA→CAA) ,rpoA,RNA polymerase subunit alpha,NA,NA,NA,kb026,0
-4221755,G→A,A353T (GCA→ACA) ,aceA,isocitrate lyase,NA,NA,NA,kb026,1
-4405094,G→A,V43M (GTG→ATG) ,hfq,"HF‑I, host factor for RNA phage Q beta replication",NA,NA,NA,kb026,0
-4485284,IS5 (–) +4 bp,coding (875‑878/1197 nt),yjgN,inner membrane protein,NA,NA,NA,kb026,0
-4495464,IS5 (+) +4 bp,coding (353‑356/999 nt),idnR,DNA‑binding transcriptional repressor,NA,NA,NA,kb026,0
-4546841,insH IS5 (–) +4 bp,coding (125‑128/597 nt),fimE,tyrosine recombinase/inversion of on/off regulator of fimA,NA,NA,NA,kb026,1
-4547860,(TCCCTCAGTTCTACAGCGGCTCTG)1→2,coding (66/549 nt),fimA,major type 1 subunit fimbrin,NA,NA,NA,kb026,1
-4626165,C→G,C201W (TGC→TGG) ,deoD,purine‑nucleoside phosphorylase,NA,NA,NA,kb026,0
-4639891,A→G,S34P (TCC→CCC) ,rob,DNA‑binding transcriptional activator,NA,NA,NA,kb026,0
-NA,NA,NA,NA,NA,NA,NA,NA,kb026,NA
-NA,NA,NA,NA,NA,NA,NA,NA,kb026,NA
-NA,NA,NA,NA,NA,NA,NA,NA,kb026,NA
-NA,NA,NA,NA,NA,NA,NA,NA,kb026,NA
-NA,NA,NA,NA,NA,NA,NA,NA,kb026,NA
-NA,NA,NA,NA,NA,NA,NA,NA,kb026,NA
-NA,NA,NA,NA,NA,NA,NA,NA,kb026,NA
-NA,NA,NA,NA,NA,NA,NA,NA,kb026,NA
-NA,NA,NA,NA,NA,NA,NA,NA,kb026,NA
-NA,NA,NA,NA,NA,NA,NA,NA,kb026,NA
-NA,NA,NA,NA,NA,NA,NA,NA,kb026,NA
-NA,NA,NA,NA,NA,NA,NA,NA,kb026,NA
-NA,NA,NA,NA,NA,NA,NA,NA,kb026,NA
-NA,NA,NA,NA,NA,NA,NA,NA,kb026,NA
-NA,NA,NA,NA,NA,NA,NA,NA,kb026,NA
-NA,NA,NA,NA,NA,NA,NA,NA,kb026,NA
-NA,NA,NA,NA,NA,NA,NA,NA,kb026,NA
-NA,NA,NA,NA,NA,NA,NA,NA,kb026,NA
-NA,NA,NA,NA,NA,NA,NA,NA,kb026,NA
-NA,NA,NA,NA,NA,NA,NA,NA,kb026,NA
-NA,NA,NA,NA,NA,NA,NA,NA,kb026,NA
-NA,NA,NA,NA,NA,NA,NA,NA,kb026,NA
-NA,NA,NA,NA,NA,NA,NA,NA,kb026,NA
-NA,NA,NA,NA,NA,NA,NA,NA,kb026,NA
-NA,NA,NA,NA,NA,NA,NA,NA,kb026,NA
-NA,NA,NA,NA,NA,NA,NA,NA,kb026,NA
-NA,NA,NA,NA,NA,NA,NA,NA,kb026,NA
-NA,NA,NA,NA,NA,NA,NA,NA,kb026,NA
-56273,G→A,L279L (CTC→CTT) ,lptD,"exported protein required for envelope biosynthesis and integrity, outer membrane lipopolysaccharide transport and assembly complex",NA,NA,NA,k0022,0
-62682,+G,coding (583/2907 nt),hepA,RNA polymerase‑associated helicase protein,NA,NA,NA,k0022,1
-105411,G→A,G36D (GGT→GAT) ,ftsZ,GTP‑binding tubulin‑like cell division protein,NA,NA,NA,k0022,0
-156056,T→G,N49T (AAT→ACT) ,ecpD,periplasmic pilin chaperone,NA,NA,NA,k0022,0
-277827,C→G,G67A (GGC→GCC) ,afuC ,ferric transporter subunit,NA,NA,NA,k0022,0
-425800,C→T,P147L (CCG→CTG) ,tgt,tRNA‑guanine transglycosylase,NA,NA,NA,k0022,0
-490998,Δ1 bp,coding (363/552 nt),apt,adenine phosphoribosyltransferase,NA,NA,NA,k0022,0
-520989,G→T,P450P (CCG→CCT) ,ybbP,inner membrane protein,NA,NA,NA,k0022,0
-556778,A→C,F63V (TTC→GTC) ,folD,"bifunctional 5,10‑methylene‑tetrahydrofolate dehydrogenase/5,10‑methylene‑tetrahydrofolate cyclohydrolase",NA,NA,NA,k0022,0
-666783,A→T,D619E (GAT→GAA) ,mrdA,transpeptidase involved in peptidoglycan synthesis,NA,NA,NA,k0022,0
-683143,"Δ5,116 bp",insH-3 IS5‑mediated,[hscC]–gltI,"[hscC], rihA, gltL, gltK, gltJ, gltI",NA,NA,NA,k0022,0
-899330,+C,coding (391/1128 nt),rumB,23S rRNA m(5)U747 methyltransferase,NA,NA,NA,k0022,0
-909411,G→A,P102P (CCC→CCT) ,ltaE,"L‑allo‑threonine aldolase, PLP‑dependent",NA,NA,NA,k0022,0
-1197854,C→T,N385N (AAC→AAT) ,icd,"isocitrate dehydrogenase,‑specific for NADP+",NA,NA,NA,k0022,0
-1215890,IS5 (+) +4 bp,coding (1160‑1163/1212 nt),ycgF,FAD‑binding phosphodiesterase,NA,NA,NA,k0022,0
-1218024,IS5 (+) +4 bp,coding (79‑82/267 nt),ariR (ymgB) ,acid stress activator of Gad; associated with biofilm,NA,NA,NA,k0022,0
-1285522,G→T,A114A (GCG→GCT) ,narH,"nitrate reductase 1, beta (Fe‑S) subunit",NA,NA,NA,k0022,0
-1349606,IS5 +5 bp,coding (1021/1935 nt),rnb,exoribonuclease 2,NA,NA,NA,k0022,0
-1372264,A→G,E112G (GAG→GGG) ,ycjM,glucosyltransferase,NA,NA,NA,k0022,0
-1459205,G→A,G354G (GGG→GGA) ,paaE,multicomponent oxygenase/reductase subunit for phenylacetic acid degradation,NA,NA,NA,k0022,0
-1485978,C→A,R383S (CGT→AGT) ,hrpA,ATP‑dependent helicase,NA,NA,NA,k0022,0
-1549542,IS5 (–) +4 bp,coding (428‑431/3048 nt),fdnG,"formate dehydrogenase‑N subunit alpha, nitrate‑inducible",NA,NA,NA,k0022,1
-1574188,IS5 (+) +4 bp,coding (2726‑2729/2796 nt),pqqL,peptidase,NA,NA,NA,k0022,0
-1618943,"Δ6,115 bp",coding inclusive deletion,[ydeA]–[ydeH],"[ydeA], marC, marR, marA, marB, eamA, ydeE, [ydeH]",NA,NA,NA,k0022,1
-1704037,Δ1 bp,coding (91/1002 nt),add,adenosine deaminase,NA,NA,NA,k0022,0
-1772682,IS5 (–) +4 bp,coding (354‑357/357 nt),ydiL,hypothetical protein,NA,NA,NA,k0022,0
-1822769,IS5 +4 bp,coding (160/1359 nt),chbC,"N,N'‑diacetylchitobiose permease IIC component",NA,NA,NA,k0022,1
-1881543,IS186/IS421 (+) +6 bp,coding (115‑120/360 nt),yeaR,hypothetical protein,NA,NA,NA,k0022,0
-1882210,G→A,L88L (CTC→CTT) ,yeaS,neutral amino‑acid efflux system,NA,NA,NA,k0022,0
-1908956,IS5 (–) +4 bp,coding (191‑194/210 nt),cspC,"stress protein, member of the CspA‑family",NA,NA,NA,k0022,0
-1909258,IS1 (+) +9 bp,coding (40‑48/144 nt),yobF,hypothetical protein,NA,NA,NA,k0022,1
-1932183,Δ1 bp,coding (279/291 nt),yebG,hypothetical protein,NA,NA,NA,k0022,0
-2093073,G→A,E249K (GAA→AAA) ,hisG,ATP phosphoribosyltransferase,NA,NA,NA,k0022,1
-2107019,(A)9→8,coding (203/591 nt),wbbJ,acyl transferase,NA,NA,NA,k0022,0
-2156723,C→A,L191M (CTG→ATG) ,mdtA,"multidrug efflux system, subunit A",NA,NA,NA,k0022,0
-2179217,Δ5 bp,coding (435‑439/1263 nt),gatZ,"D‑tagatose 1,6‑bisphosphate aldolase 2, subunit",NA,NA,NA,k0022,0
-2233458,gatA-insH IS5 (+) +4 bp,coding (259‑262/948 nt),dusC,tRNA‑dihydrouridine synthase C,NA,NA,NA,k0022,0
-2288259,(TTATCGCCT)2→3,coding (550/1761 nt),yejM,"hydrolase, inner membrane",NA,NA,NA,k0022,0
-2434645,A→T,V347E (GTG→GAG) ,purF,amidophosphoribosyltransferase,NA,NA,NA,k0022,0
-2487190,IS5 (+) +4 bp,coding (430‑433/1539 nt),emrY,multidrug efflux system,NA,NA,NA,k0022,0
-2634172,IS5 +4 bp,coding (1285/1371 nt),xseA,exodeoxyribonuclease 7 large subunit,NA,NA,NA,k0022,0
-2646569,C→A,E1459* (GAG→TAG) ,yfhM,hypothetical protein,NA,NA,NA,k0022,0
-2810717,IS2 (–) +5 bp,coding (635‑639/1173 nt),emrA,multidrug efflux system,NA,NA,NA,k0022,0
-2865825,A→T,I89N (ATC→AAC) ,rpoS,"RNA polymerase, sigma S (sigma 38) factor",NA,NA,NA,k0022,0
-2931775,C→A,P190P (CCG→CCT) ,fucA,L‑fuculose‑1‑phosphate aldolase,NA,NA,NA,k0022,0
-3104794,G→A,G142D (GGC→GAC) ,nupG,nucleoside transporter,NA,NA,NA,k0022,0
-3169126,A→C,T215P (ACA→CCA) ,qseB,DNA‑binding response regulator in two‑component regulatory system with QseC,NA,NA,NA,k0022,0
-3187655,IS5 (–) +4 bp,coding (1600‑1603/2466 nt),yqiG,outer membrane usher protein,NA,NA,NA,k0022,0
-3189138,IS5 (+) +4 bp,coding (602‑605/750 nt),yqiH,periplasmic pilin chaperone,NA,NA,NA,k0022,0
-3212340,A→C,D213A (GAC→GCC) ,rpoD,"RNA polymerase, sigma 70 (sigma D) factor",NA,NA,NA,k0022,0
-3241721,G→T,L84M (CTG→ATG) ,uxaA,altronate hydrolase,NA,NA,NA,k0022,1
-3277113,INDEL +5 bp,coding (257/336 nt),prlF,antitoxin PrlF,NA,NA,NA,k0022,1
-3277128,(TTCAACA)2→3,coding (272/336 nt),sohA,regulator,NA,NA,NA,k0022,0
-3454320,C→T,G373S (GGC→AGC) ,rpoB,RNA polymerase subunit beta,NA,NA,NA,k0022,0
-3532025,A→G,N107S (AAC→AGC) ,cpxA,sensory histidine kinase in two‑component regulatory system with CpxR,NA,NA,NA,k0022,0
-3840032,IS5 (–) +4 bp,coding (583‑586/699 nt),rfaY,lipopolysaccharide core biosynthesis protein,NA,NA,NA,k0022,0
-3948766,G→A,R320H (CGT→CAT) ,bcsB,"regulator of cellulose synthase, cyclic di‑GMP binding",NA,NA,NA,k0022,0
-3974240,"Δ14,146 bp",insH IS5-mediated,gadX–[yhiS],"gadX, gadW, mdtF, mdtE, gadE, hdeD, hdeA, hdeB, yhiD, yhiF, slp, insH, [yhiS]",NA,NA,NA,k0022,0
-3974244,"Δ7,921 bp",insH IS5-mediated,gadX–gadE,"gadX, gadW, mdtF, mdtE, gadE",NA,NA,NA,k0022,0
-3974646,Δ78 bp,coding (42‑119/825 nt),gadX,DNA‑binding transcriptional dual regulator,NA,NA,NA,k0022,1
-3976435,"Δ10,738 bp",insH‑mediated,[gadW]–slp,"[gadW], mdtF, mdtE, gadE, hdeD, hdeA, hdeB, yhiD, yhiF, slp",NA,NA,NA,k0022,0
-3988392,Δ443 bp,insH‑mediated,yhiS,hypothetical protein,NA,NA,NA,k0022,0
-3988392,"Δ1,268 bp",insH‑mediated,[yhiS],[yhiS],NA,NA,NA,k0022,0
-4136677,G→T,V191V (GTC→GTA) ,frlD,fructoselysine 6‑kinase,NA,NA,NA,k0022,0
-4200197,A→C,K271Q (AAA→CAA) ,rpoA,RNA polymerase subunit alpha,NA,NA,NA,k0022,0
-4221755,G→A,A353T (GCA→ACA) ,aceA,isocitrate lyase,NA,NA,NA,k0022,0
-4405094,G→A,V43M (GTG→ATG) ,hfq,"HF‑I, host factor for RNA phage Q beta replication",NA,NA,NA,k0022,0
-4485284,IS5 (–) +4 bp,coding (875‑878/1197 nt),yjgN,inner membrane protein,NA,NA,NA,k0022,0
-4495464,IS5 (+) +4 bp,coding (353‑356/999 nt),idnR,DNA‑binding transcriptional repressor,NA,NA,NA,k0022,0
-4546841,insH IS5 (–) +4 bp,coding (125‑128/597 nt),fimE,tyrosine recombinase/inversion of on/off regulator of fimA,NA,NA,NA,k0022,0
-4547860,(TCCCTCAGTTCTACAGCGGCTCTG)1→2,coding (66/549 nt),fimA,major type 1 subunit fimbrin,NA,NA,NA,k0022,0
-4626165,C→G,C201W (TGC→TGG) ,deoD,purine‑nucleoside phosphorylase,NA,NA,NA,k0022,0
-4639891,A→G,S34P (TCC→CCC) ,rob,DNA‑binding transcriptional activator,NA,NA,NA,k0022,0
-NA,NA,NA,NA,NA,NA,NA,NA,k0022,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0022,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0022,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0022,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0022,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0022,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0022,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0022,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0022,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0022,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0022,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0022,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0022,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0022,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0022,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0022,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0022,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0022,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0022,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0022,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0022,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0022,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0022,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0022,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0022,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0022,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0022,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0022,NA
-56273,G→A,L279L (CTC→CTT) ,lptD,"exported protein required for envelope biosynthesis and integrity, outer membrane lipopolysaccharide transport and assembly complex",NA,NA,NA,k0023,0
-62682,+G,coding (583/2907 nt),hepA,RNA polymerase‑associated helicase protein,NA,NA,NA,k0023,1
-105411,G→A,G36D (GGT→GAT) ,ftsZ,GTP‑binding tubulin‑like cell division protein,NA,NA,NA,k0023,0
-156056,T→G,N49T (AAT→ACT) ,ecpD,periplasmic pilin chaperone,NA,NA,NA,k0023,0
-277827,C→G,G67A (GGC→GCC) ,afuC ,ferric transporter subunit,NA,NA,NA,k0023,1
-425800,C→T,P147L (CCG→CTG) ,tgt,tRNA‑guanine transglycosylase,NA,NA,NA,k0023,0
-490998,Δ1 bp,coding (363/552 nt),apt,adenine phosphoribosyltransferase,NA,NA,NA,k0023,0
-520989,G→T,P450P (CCG→CCT) ,ybbP,inner membrane protein,NA,NA,NA,k0023,0
-556778,A→C,F63V (TTC→GTC) ,folD,"bifunctional 5,10‑methylene‑tetrahydrofolate dehydrogenase/5,10‑methylene‑tetrahydrofolate cyclohydrolase",NA,NA,NA,k0023,0
-666783,A→T,D619E (GAT→GAA) ,mrdA,transpeptidase involved in peptidoglycan synthesis,NA,NA,NA,k0023,0
-683143,"Δ5,116 bp",insH-3 IS5‑mediated,[hscC]–gltI,"[hscC], rihA, gltL, gltK, gltJ, gltI",NA,NA,NA,k0023,0
-899330,+C,coding (391/1128 nt),rumB,23S rRNA m(5)U747 methyltransferase,NA,NA,NA,k0023,0
-909411,G→A,P102P (CCC→CCT) ,ltaE,"L‑allo‑threonine aldolase, PLP‑dependent",NA,NA,NA,k0023,0
-1197854,C→T,N385N (AAC→AAT) ,icd,"isocitrate dehydrogenase,‑specific for NADP+",NA,NA,NA,k0023,0
-1215890,IS5 (+) +4 bp,coding (1160‑1163/1212 nt),ycgF,FAD‑binding phosphodiesterase,NA,NA,NA,k0023,0
-1218024,IS5 (+) +4 bp,coding (79‑82/267 nt),ariR (ymgB) ,acid stress activator of Gad; associated with biofilm,NA,NA,NA,k0023,0
-1285522,G→T,A114A (GCG→GCT) ,narH,"nitrate reductase 1, beta (Fe‑S) subunit",NA,NA,NA,k0023,0
-1349606,IS5 +5 bp,coding (1021/1935 nt),rnb,exoribonuclease 2,NA,NA,NA,k0023,0
-1372264,A→G,E112G (GAG→GGG) ,ycjM,glucosyltransferase,NA,NA,NA,k0023,0
-1459205,G→A,G354G (GGG→GGA) ,paaE,multicomponent oxygenase/reductase subunit for phenylacetic acid degradation,NA,NA,NA,k0023,0
-1485978,C→A,R383S (CGT→AGT) ,hrpA,ATP‑dependent helicase,NA,NA,NA,k0023,0
-1549542,IS5 (–) +4 bp,coding (428‑431/3048 nt),fdnG,"formate dehydrogenase‑N subunit alpha, nitrate‑inducible",NA,NA,NA,k0023,1
-1574188,IS5 (+) +4 bp,coding (2726‑2729/2796 nt),pqqL,peptidase,NA,NA,NA,k0023,0
-1618943,"Δ6,115 bp",coding inclusive deletion,[ydeA]–[ydeH],"[ydeA], marC, marR, marA, marB, eamA, ydeE, [ydeH]",NA,NA,NA,k0023,1
-1704037,Δ1 bp,coding (91/1002 nt),add,adenosine deaminase,NA,NA,NA,k0023,0
-1772682,IS5 (–) +4 bp,coding (354‑357/357 nt),ydiL,hypothetical protein,NA,NA,NA,k0023,0
-1822769,IS5 +4 bp,coding (160/1359 nt),chbC,"N,N'‑diacetylchitobiose permease IIC component",NA,NA,NA,k0023,1
-1881543,IS186/IS421 (+) +6 bp,coding (115‑120/360 nt),yeaR,hypothetical protein,NA,NA,NA,k0023,0
-1882210,G→A,L88L (CTC→CTT) ,yeaS,neutral amino‑acid efflux system,NA,NA,NA,k0023,0
-1908956,IS5 (–) +4 bp,coding (191‑194/210 nt),cspC,"stress protein, member of the CspA‑family",NA,NA,NA,k0023,0
-1909258,IS1 (+) +9 bp,coding (40‑48/144 nt),yobF,hypothetical protein,NA,NA,NA,k0023,0
-1932183,Δ1 bp,coding (279/291 nt),yebG,hypothetical protein,NA,NA,NA,k0023,0
-2093073,G→A,E249K (GAA→AAA) ,hisG,ATP phosphoribosyltransferase,NA,NA,NA,k0023,1
-2107019,(A)9→8,coding (203/591 nt),wbbJ,acyl transferase,NA,NA,NA,k0023,0
-2156723,C→A,L191M (CTG→ATG) ,mdtA,"multidrug efflux system, subunit A",NA,NA,NA,k0023,0
-2179217,Δ5 bp,coding (435‑439/1263 nt),gatZ,"D‑tagatose 1,6‑bisphosphate aldolase 2, subunit",NA,NA,NA,k0023,0
-2233458,gatA-insH IS5 (+) +4 bp,coding (259‑262/948 nt),dusC,tRNA‑dihydrouridine synthase C,NA,NA,NA,k0023,0
-2288259,(TTATCGCCT)2→3,coding (550/1761 nt),yejM,"hydrolase, inner membrane",NA,NA,NA,k0023,0
-2434645,A→T,V347E (GTG→GAG) ,purF,amidophosphoribosyltransferase,NA,NA,NA,k0023,0
-2487190,IS5 (+) +4 bp,coding (430‑433/1539 nt),emrY,multidrug efflux system,NA,NA,NA,k0023,0
-2634172,IS5 +4 bp,coding (1285/1371 nt),xseA,exodeoxyribonuclease 7 large subunit,NA,NA,NA,k0023,0
-2646569,C→A,E1459* (GAG→TAG) ,yfhM,hypothetical protein,NA,NA,NA,k0023,0
-2810717,IS2 (–) +5 bp,coding (635‑639/1173 nt),emrA,multidrug efflux system,NA,NA,NA,k0023,0
-2865825,A→T,I89N (ATC→AAC) ,rpoS,"RNA polymerase, sigma S (sigma 38) factor",NA,NA,NA,k0023,0
-2931775,C→A,P190P (CCG→CCT) ,fucA,L‑fuculose‑1‑phosphate aldolase,NA,NA,NA,k0023,0
-3104794,G→A,G142D (GGC→GAC) ,nupG,nucleoside transporter,NA,NA,NA,k0023,0
-3169126,A→C,T215P (ACA→CCA) ,qseB,DNA‑binding response regulator in two‑component regulatory system with QseC,NA,NA,NA,k0023,0
-3187655,IS5 (–) +4 bp,coding (1600‑1603/2466 nt),yqiG,outer membrane usher protein,NA,NA,NA,k0023,0
-3189138,IS5 (+) +4 bp,coding (602‑605/750 nt),yqiH,periplasmic pilin chaperone,NA,NA,NA,k0023,0
-3212340,A→C,D213A (GAC→GCC) ,rpoD,"RNA polymerase, sigma 70 (sigma D) factor",NA,NA,NA,k0023,0
-3241721,G→T,L84M (CTG→ATG) ,uxaA,altronate hydrolase,NA,NA,NA,k0023,1
-3277113,INDEL +5 bp,coding (257/336 nt),prlF,antitoxin PrlF,NA,NA,NA,k0023,1
-3277128,(TTCAACA)2→3,coding (272/336 nt),sohA,regulator,NA,NA,NA,k0023,0
-3454320,C→T,G373S (GGC→AGC) ,rpoB,RNA polymerase subunit beta,NA,NA,NA,k0023,0
-3532025,A→G,N107S (AAC→AGC) ,cpxA,sensory histidine kinase in two‑component regulatory system with CpxR,NA,NA,NA,k0023,0
-3840032,IS5 (–) +4 bp,coding (583‑586/699 nt),rfaY,lipopolysaccharide core biosynthesis protein,NA,NA,NA,k0023,0
-3948766,G→A,R320H (CGT→CAT) ,bcsB,"regulator of cellulose synthase, cyclic di‑GMP binding",NA,NA,NA,k0023,0
-3974240,"Δ14,146 bp",insH IS5-mediated,gadX–[yhiS],"gadX, gadW, mdtF, mdtE, gadE, hdeD, hdeA, hdeB, yhiD, yhiF, slp, insH, [yhiS]",NA,NA,NA,k0023,0
-3974244,"Δ7,921 bp",insH IS5-mediated,gadX–gadE,"gadX, gadW, mdtF, mdtE, gadE",NA,NA,NA,k0023,0
-3974646,Δ78 bp,coding (42‑119/825 nt),gadX,DNA‑binding transcriptional dual regulator,NA,NA,NA,k0023,1
-3976435,"Δ10,738 bp",insH‑mediated,[gadW]–slp,"[gadW], mdtF, mdtE, gadE, hdeD, hdeA, hdeB, yhiD, yhiF, slp",NA,NA,NA,k0023,0
-3988392,Δ443 bp,insH‑mediated,yhiS,hypothetical protein,NA,NA,NA,k0023,1
-3988392,"Δ1,268 bp",insH‑mediated,[yhiS],[yhiS],NA,NA,NA,k0023,0
-4136677,G→T,V191V (GTC→GTA) ,frlD,fructoselysine 6‑kinase,NA,NA,NA,k0023,0
-4200197,A→C,K271Q (AAA→CAA) ,rpoA,RNA polymerase subunit alpha,NA,NA,NA,k0023,0
-4221755,G→A,A353T (GCA→ACA) ,aceA,isocitrate lyase,NA,NA,NA,k0023,0
-4405094,G→A,V43M (GTG→ATG) ,hfq,"HF‑I, host factor for RNA phage Q beta replication",NA,NA,NA,k0023,0
-4485284,IS5 (–) +4 bp,coding (875‑878/1197 nt),yjgN,inner membrane protein,NA,NA,NA,k0023,0
-4495464,IS5 (+) +4 bp,coding (353‑356/999 nt),idnR,DNA‑binding transcriptional repressor,NA,NA,NA,k0023,0
-4546841,insH IS5 (–) +4 bp,coding (125‑128/597 nt),fimE,tyrosine recombinase/inversion of on/off regulator of fimA,NA,NA,NA,k0023,0
-4547860,(TCCCTCAGTTCTACAGCGGCTCTG)1→2,coding (66/549 nt),fimA,major type 1 subunit fimbrin,NA,NA,NA,k0023,0
-4626165,C→G,C201W (TGC→TGG) ,deoD,purine‑nucleoside phosphorylase,NA,NA,NA,k0023,0
-4639891,A→G,S34P (TCC→CCC) ,rob,DNA‑binding transcriptional activator,NA,NA,NA,k0023,0
-NA,NA,NA,NA,NA,NA,NA,NA,k0023,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0023,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0023,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0023,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0023,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0023,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0023,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0023,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0023,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0023,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0023,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0023,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0023,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0023,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0023,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0023,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0023,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0023,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0023,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0023,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0023,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0023,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0023,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0023,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0023,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0023,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0023,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0023,NA
-56273,G→A,L279L (CTC→CTT) ,lptD,"exported protein required for envelope biosynthesis and integrity, outer membrane lipopolysaccharide transport and assembly complex",NA,NA,NA,k0006,0
-62682,+G,coding (583/2907 nt),hepA,RNA polymerase‑associated helicase protein,NA,NA,NA,k0006,0
-105411,G→A,G36D (GGT→GAT) ,ftsZ,GTP‑binding tubulin‑like cell division protein,NA,NA,NA,k0006,1
-156056,T→G,N49T (AAT→ACT) ,ecpD,periplasmic pilin chaperone,NA,NA,NA,k0006,0
-277827,C→G,G67A (GGC→GCC) ,afuC ,ferric transporter subunit,NA,NA,NA,k0006,0
-425800,C→T,P147L (CCG→CTG) ,tgt,tRNA‑guanine transglycosylase,NA,NA,NA,k0006,0
-490998,Δ1 bp,coding (363/552 nt),apt,adenine phosphoribosyltransferase,NA,NA,NA,k0006,1
-520989,G→T,P450P (CCG→CCT) ,ybbP,inner membrane protein,NA,NA,NA,k0006,1
-556778,A→C,F63V (TTC→GTC) ,folD,"bifunctional 5,10‑methylene‑tetrahydrofolate dehydrogenase/5,10‑methylene‑tetrahydrofolate cyclohydrolase",NA,NA,NA,k0006,1
-666783,A→T,D619E (GAT→GAA) ,mrdA,transpeptidase involved in peptidoglycan synthesis,NA,NA,NA,k0006,0
-683143,"Δ5,116 bp",insH-3 IS5‑mediated,[hscC]–gltI,"[hscC], rihA, gltL, gltK, gltJ, gltI",NA,NA,NA,k0006,0
-899330,+C,coding (391/1128 nt),rumB,23S rRNA m(5)U747 methyltransferase,NA,NA,NA,k0006,0
-909411,G→A,P102P (CCC→CCT) ,ltaE,"L‑allo‑threonine aldolase, PLP‑dependent",NA,NA,NA,k0006,0
-1197854,C→T,N385N (AAC→AAT) ,icd,"isocitrate dehydrogenase,‑specific for NADP+",NA,NA,NA,k0006,0
-1215890,IS5 (+) +4 bp,coding (1160‑1163/1212 nt),ycgF,FAD‑binding phosphodiesterase,NA,NA,NA,k0006,0
-1218024,IS5 (+) +4 bp,coding (79‑82/267 nt),ariR (ymgB) ,acid stress activator of Gad; associated with biofilm,NA,NA,NA,k0006,0
-1285522,G→T,A114A (GCG→GCT) ,narH,"nitrate reductase 1, beta (Fe‑S) subunit",NA,NA,NA,k0006,0
-1349606,IS5 +5 bp,coding (1021/1935 nt),rnb,exoribonuclease 2,NA,NA,NA,k0006,0
-1372264,A→G,E112G (GAG→GGG) ,ycjM,glucosyltransferase,NA,NA,NA,k0006,0
-1459205,G→A,G354G (GGG→GGA) ,paaE,multicomponent oxygenase/reductase subunit for phenylacetic acid degradation,NA,NA,NA,k0006,0
-1485978,C→A,R383S (CGT→AGT) ,hrpA,ATP‑dependent helicase,NA,NA,NA,k0006,0
-1549542,IS5 (–) +4 bp,coding (428‑431/3048 nt),fdnG,"formate dehydrogenase‑N subunit alpha, nitrate‑inducible",NA,NA,NA,k0006,0
-1574188,IS5 (+) +4 bp,coding (2726‑2729/2796 nt),pqqL,peptidase,NA,NA,NA,k0006,0
-1618943,"Δ6,115 bp",coding inclusive deletion,[ydeA]–[ydeH],"[ydeA], marC, marR, marA, marB, eamA, ydeE, [ydeH]",NA,NA,NA,k0006,0
-1704037,Δ1 bp,coding (91/1002 nt),add,adenosine deaminase,NA,NA,NA,k0006,0
-1772682,IS5 (–) +4 bp,coding (354‑357/357 nt),ydiL,hypothetical protein,NA,NA,NA,k0006,0
-1822769,IS5 +4 bp,coding (160/1359 nt),chbC,"N,N'‑diacetylchitobiose permease IIC component",NA,NA,NA,k0006,0
-1881543,IS186/IS421 (+) +6 bp,coding (115‑120/360 nt),yeaR,hypothetical protein,NA,NA,NA,k0006,0
-1882210,G→A,L88L (CTC→CTT) ,yeaS,neutral amino‑acid efflux system,NA,NA,NA,k0006,1
-1908956,IS5 (–) +4 bp,coding (191‑194/210 nt),cspC,"stress protein, member of the CspA‑family",NA,NA,NA,k0006,0
-1909258,IS1 (+) +9 bp,coding (40‑48/144 nt),yobF,hypothetical protein,NA,NA,NA,k0006,0
-1932183,Δ1 bp,coding (279/291 nt),yebG,hypothetical protein,NA,NA,NA,k0006,1
-2093073,G→A,E249K (GAA→AAA) ,hisG,ATP phosphoribosyltransferase,NA,NA,NA,k0006,0
-2107019,(A)9→8,coding (203/591 nt),wbbJ,acyl transferase,NA,NA,NA,k0006,0
-2156723,C→A,L191M (CTG→ATG) ,mdtA,"multidrug efflux system, subunit A",NA,NA,NA,k0006,0
-2179217,Δ5 bp,coding (435‑439/1263 nt),gatZ,"D‑tagatose 1,6‑bisphosphate aldolase 2, subunit",NA,NA,NA,k0006,0
-2233458,gatA-insH IS5 (+) +4 bp,coding (259‑262/948 nt),dusC,tRNA‑dihydrouridine synthase C,NA,NA,NA,k0006,0
-2288259,(TTATCGCCT)2→3,coding (550/1761 nt),yejM,"hydrolase, inner membrane",NA,NA,NA,k0006,0
-2434645,A→T,V347E (GTG→GAG) ,purF,amidophosphoribosyltransferase,NA,NA,NA,k0006,1
-2487190,IS5 (+) +4 bp,coding (430‑433/1539 nt),emrY,multidrug efflux system,NA,NA,NA,k0006,1
-2634172,IS5 +4 bp,coding (1285/1371 nt),xseA,exodeoxyribonuclease 7 large subunit,NA,NA,NA,k0006,0
-2646569,C→A,E1459* (GAG→TAG) ,yfhM,hypothetical protein,NA,NA,NA,k0006,0
-2810717,IS2 (–) +5 bp,coding (635‑639/1173 nt),emrA,multidrug efflux system,NA,NA,NA,k0006,0
-2865825,A→T,I89N (ATC→AAC) ,rpoS,"RNA polymerase, sigma S (sigma 38) factor",NA,NA,NA,k0006,0
-2931775,C→A,P190P (CCG→CCT) ,fucA,L‑fuculose‑1‑phosphate aldolase,NA,NA,NA,k0006,0
-3104794,G→A,G142D (GGC→GAC) ,nupG,nucleoside transporter,NA,NA,NA,k0006,0
-3169126,A→C,T215P (ACA→CCA) ,qseB,DNA‑binding response regulator in two‑component regulatory system with QseC,NA,NA,NA,k0006,0
-3187655,IS5 (–) +4 bp,coding (1600‑1603/2466 nt),yqiG,outer membrane usher protein,NA,NA,NA,k0006,0
-3189138,IS5 (+) +4 bp,coding (602‑605/750 nt),yqiH,periplasmic pilin chaperone,NA,NA,NA,k0006,0
-3212340,A→C,D213A (GAC→GCC) ,rpoD,"RNA polymerase, sigma 70 (sigma D) factor",NA,NA,NA,k0006,0
-3241721,G→T,L84M (CTG→ATG) ,uxaA,altronate hydrolase,NA,NA,NA,k0006,0
-3277113,INDEL +5 bp,coding (257/336 nt),prlF,antitoxin PrlF,NA,NA,NA,k0006,0
-3277128,(TTCAACA)2→3,coding (272/336 nt),sohA,regulator,NA,NA,NA,k0006,1
-3454320,C→T,G373S (GGC→AGC) ,rpoB,RNA polymerase subunit beta,NA,NA,NA,k0006,0
-3532025,A→G,N107S (AAC→AGC) ,cpxA,sensory histidine kinase in two‑component regulatory system with CpxR,NA,NA,NA,k0006,0
-3840032,IS5 (–) +4 bp,coding (583‑586/699 nt),rfaY,lipopolysaccharide core biosynthesis protein,NA,NA,NA,k0006,0
-3948766,G→A,R320H (CGT→CAT) ,bcsB,"regulator of cellulose synthase, cyclic di‑GMP binding",NA,NA,NA,k0006,0
-3974240,"Δ14,146 bp",insH IS5-mediated,gadX–[yhiS],"gadX, gadW, mdtF, mdtE, gadE, hdeD, hdeA, hdeB, yhiD, yhiF, slp, insH, [yhiS]",NA,NA,NA,k0006,1
-3974244,"Δ7,921 bp",insH IS5-mediated,gadX–gadE,"gadX, gadW, mdtF, mdtE, gadE",NA,NA,NA,k0006,0
-3974646,Δ78 bp,coding (42‑119/825 nt),gadX,DNA‑binding transcriptional dual regulator,NA,NA,NA,k0006,0
-3976435,"Δ10,738 bp",insH‑mediated,[gadW]–slp,"[gadW], mdtF, mdtE, gadE, hdeD, hdeA, hdeB, yhiD, yhiF, slp",NA,NA,NA,k0006,0
-3988392,Δ443 bp,insH‑mediated,yhiS,hypothetical protein,NA,NA,NA,k0006,0
-3988392,"Δ1,268 bp",insH‑mediated,[yhiS],[yhiS],NA,NA,NA,k0006,0
-4136677,G→T,V191V (GTC→GTA) ,frlD,fructoselysine 6‑kinase,NA,NA,NA,k0006,0
-4200197,A→C,K271Q (AAA→CAA) ,rpoA,RNA polymerase subunit alpha,NA,NA,NA,k0006,0
-4221755,G→A,A353T (GCA→ACA) ,aceA,isocitrate lyase,NA,NA,NA,k0006,0
-4405094,G→A,V43M (GTG→ATG) ,hfq,"HF‑I, host factor for RNA phage Q beta replication",NA,NA,NA,k0006,0
-4485284,IS5 (–) +4 bp,coding (875‑878/1197 nt),yjgN,inner membrane protein,NA,NA,NA,k0006,0
-4495464,IS5 (+) +4 bp,coding (353‑356/999 nt),idnR,DNA‑binding transcriptional repressor,NA,NA,NA,k0006,1
-4546841,insH IS5 (–) +4 bp,coding (125‑128/597 nt),fimE,tyrosine recombinase/inversion of on/off regulator of fimA,NA,NA,NA,k0006,1
-4547860,(TCCCTCAGTTCTACAGCGGCTCTG)1→2,coding (66/549 nt),fimA,major type 1 subunit fimbrin,NA,NA,NA,k0006,0
-4626165,C→G,C201W (TGC→TGG) ,deoD,purine‑nucleoside phosphorylase,NA,NA,NA,k0006,0
-4639891,A→G,S34P (TCC→CCC) ,rob,DNA‑binding transcriptional activator,NA,NA,NA,k0006,0
-NA,NA,NA,NA,NA,NA,NA,NA,k0006,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0006,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0006,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0006,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0006,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0006,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0006,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0006,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0006,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0006,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0006,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0006,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0006,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0006,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0006,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0006,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0006,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0006,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0006,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0006,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0006,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0006,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0006,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0006,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0006,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0006,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0006,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0006,NA
-56273,G→A,L279L (CTC→CTT) ,lptD,"exported protein required for envelope biosynthesis and integrity, outer membrane lipopolysaccharide transport and assembly complex",NA,NA,NA,k0007,0
-62682,+G,coding (583/2907 nt),hepA,RNA polymerase‑associated helicase protein,NA,NA,NA,k0007,0
-105411,G→A,G36D (GGT→GAT) ,ftsZ,GTP‑binding tubulin‑like cell division protein,NA,NA,NA,k0007,0
-156056,T→G,N49T (AAT→ACT) ,ecpD,periplasmic pilin chaperone,NA,NA,NA,k0007,0
-277827,C→G,G67A (GGC→GCC) ,afuC ,ferric transporter subunit,NA,NA,NA,k0007,0
-425800,C→T,P147L (CCG→CTG) ,tgt,tRNA‑guanine transglycosylase,NA,NA,NA,k0007,0
-490998,Δ1 bp,coding (363/552 nt),apt,adenine phosphoribosyltransferase,NA,NA,NA,k0007,1
-520989,G→T,P450P (CCG→CCT) ,ybbP,inner membrane protein,NA,NA,NA,k0007,0
-556778,A→C,F63V (TTC→GTC) ,folD,"bifunctional 5,10‑methylene‑tetrahydrofolate dehydrogenase/5,10‑methylene‑tetrahydrofolate cyclohydrolase",NA,NA,NA,k0007,1
-666783,A→T,D619E (GAT→GAA) ,mrdA,transpeptidase involved in peptidoglycan synthesis,NA,NA,NA,k0007,0
-683143,"Δ5,116 bp",insH-3 IS5‑mediated,[hscC]–gltI,"[hscC], rihA, gltL, gltK, gltJ, gltI",NA,NA,NA,k0007,0
-899330,+C,coding (391/1128 nt),rumB,23S rRNA m(5)U747 methyltransferase,NA,NA,NA,k0007,0
-909411,G→A,P102P (CCC→CCT) ,ltaE,"L‑allo‑threonine aldolase, PLP‑dependent",NA,NA,NA,k0007,0
-1197854,C→T,N385N (AAC→AAT) ,icd,"isocitrate dehydrogenase,‑specific for NADP+",NA,NA,NA,k0007,0
-1215890,IS5 (+) +4 bp,coding (1160‑1163/1212 nt),ycgF,FAD‑binding phosphodiesterase,NA,NA,NA,k0007,1
-1218024,IS5 (+) +4 bp,coding (79‑82/267 nt),ariR (ymgB) ,acid stress activator of Gad; associated with biofilm,NA,NA,NA,k0007,0
-1285522,G→T,A114A (GCG→GCT) ,narH,"nitrate reductase 1, beta (Fe‑S) subunit",NA,NA,NA,k0007,0
-1349606,IS5 +5 bp,coding (1021/1935 nt),rnb,exoribonuclease 2,NA,NA,NA,k0007,0
-1372264,A→G,E112G (GAG→GGG) ,ycjM,glucosyltransferase,NA,NA,NA,k0007,0
-1459205,G→A,G354G (GGG→GGA) ,paaE,multicomponent oxygenase/reductase subunit for phenylacetic acid degradation,NA,NA,NA,k0007,0
-1485978,C→A,R383S (CGT→AGT) ,hrpA,ATP‑dependent helicase,NA,NA,NA,k0007,0
-1549542,IS5 (–) +4 bp,coding (428‑431/3048 nt),fdnG,"formate dehydrogenase‑N subunit alpha, nitrate‑inducible",NA,NA,NA,k0007,0
-1574188,IS5 (+) +4 bp,coding (2726‑2729/2796 nt),pqqL,peptidase,NA,NA,NA,k0007,0
-1618943,"Δ6,115 bp",coding inclusive deletion,[ydeA]–[ydeH],"[ydeA], marC, marR, marA, marB, eamA, ydeE, [ydeH]",NA,NA,NA,k0007,0
-1704037,Δ1 bp,coding (91/1002 nt),add,adenosine deaminase,NA,NA,NA,k0007,0
-1772682,IS5 (–) +4 bp,coding (354‑357/357 nt),ydiL,hypothetical protein,NA,NA,NA,k0007,1
-1822769,IS5 +4 bp,coding (160/1359 nt),chbC,"N,N'‑diacetylchitobiose permease IIC component",NA,NA,NA,k0007,0
-1881543,IS186/IS421 (+) +6 bp,coding (115‑120/360 nt),yeaR,hypothetical protein,NA,NA,NA,k0007,0
-1882210,G→A,L88L (CTC→CTT) ,yeaS,neutral amino‑acid efflux system,NA,NA,NA,k0007,1
-1908956,IS5 (–) +4 bp,coding (191‑194/210 nt),cspC,"stress protein, member of the CspA‑family",NA,NA,NA,k0007,0
-1909258,IS1 (+) +9 bp,coding (40‑48/144 nt),yobF,hypothetical protein,NA,NA,NA,k0007,0
-1932183,Δ1 bp,coding (279/291 nt),yebG,hypothetical protein,NA,NA,NA,k0007,1
-2093073,G→A,E249K (GAA→AAA) ,hisG,ATP phosphoribosyltransferase,NA,NA,NA,k0007,0
-2107019,(A)9→8,coding (203/591 nt),wbbJ,acyl transferase,NA,NA,NA,k0007,0
-2156723,C→A,L191M (CTG→ATG) ,mdtA,"multidrug efflux system, subunit A",NA,NA,NA,k0007,0
-2179217,Δ5 bp,coding (435‑439/1263 nt),gatZ,"D‑tagatose 1,6‑bisphosphate aldolase 2, subunit",NA,NA,NA,k0007,0
-2233458,gatA-insH IS5 (+) +4 bp,coding (259‑262/948 nt),dusC,tRNA‑dihydrouridine synthase C,NA,NA,NA,k0007,0
-2288259,(TTATCGCCT)2→3,coding (550/1761 nt),yejM,"hydrolase, inner membrane",NA,NA,NA,k0007,0
-2434645,A→T,V347E (GTG→GAG) ,purF,amidophosphoribosyltransferase,NA,NA,NA,k0007,0
-2487190,IS5 (+) +4 bp,coding (430‑433/1539 nt),emrY,multidrug efflux system,NA,NA,NA,k0007,0
-2634172,IS5 +4 bp,coding (1285/1371 nt),xseA,exodeoxyribonuclease 7 large subunit,NA,NA,NA,k0007,0
-2646569,C→A,E1459* (GAG→TAG) ,yfhM,hypothetical protein,NA,NA,NA,k0007,0
-2810717,IS2 (–) +5 bp,coding (635‑639/1173 nt),emrA,multidrug efflux system,NA,NA,NA,k0007,0
-2865825,A→T,I89N (ATC→AAC) ,rpoS,"RNA polymerase, sigma S (sigma 38) factor",NA,NA,NA,k0007,0
-2931775,C→A,P190P (CCG→CCT) ,fucA,L‑fuculose‑1‑phosphate aldolase,NA,NA,NA,k0007,0
-3104794,G→A,G142D (GGC→GAC) ,nupG,nucleoside transporter,NA,NA,NA,k0007,0
-3169126,A→C,T215P (ACA→CCA) ,qseB,DNA‑binding response regulator in two‑component regulatory system with QseC,NA,NA,NA,k0007,0
-3187655,IS5 (–) +4 bp,coding (1600‑1603/2466 nt),yqiG,outer membrane usher protein,NA,NA,NA,k0007,0
-3189138,IS5 (+) +4 bp,coding (602‑605/750 nt),yqiH,periplasmic pilin chaperone,NA,NA,NA,k0007,0
-3212340,A→C,D213A (GAC→GCC) ,rpoD,"RNA polymerase, sigma 70 (sigma D) factor",NA,NA,NA,k0007,0
-3241721,G→T,L84M (CTG→ATG) ,uxaA,altronate hydrolase,NA,NA,NA,k0007,0
-3277113,INDEL +5 bp,coding (257/336 nt),prlF,antitoxin PrlF,NA,NA,NA,k0007,0
-3277128,(TTCAACA)2→3,coding (272/336 nt),sohA,regulator,NA,NA,NA,k0007,1
-3454320,C→T,G373S (GGC→AGC) ,rpoB,RNA polymerase subunit beta,NA,NA,NA,k0007,0
-3532025,A→G,N107S (AAC→AGC) ,cpxA,sensory histidine kinase in two‑component regulatory system with CpxR,NA,NA,NA,k0007,1
-3840032,IS5 (–) +4 bp,coding (583‑586/699 nt),rfaY,lipopolysaccharide core biosynthesis protein,NA,NA,NA,k0007,0
-3948766,G→A,R320H (CGT→CAT) ,bcsB,"regulator of cellulose synthase, cyclic di‑GMP binding",NA,NA,NA,k0007,0
-3974240,"Δ14,146 bp",insH IS5-mediated,gadX–[yhiS],"gadX, gadW, mdtF, mdtE, gadE, hdeD, hdeA, hdeB, yhiD, yhiF, slp, insH, [yhiS]",NA,NA,NA,k0007,0
-3974244,"Δ7,921 bp",insH IS5-mediated,gadX–gadE,"gadX, gadW, mdtF, mdtE, gadE",NA,NA,NA,k0007,1
-3974646,Δ78 bp,coding (42‑119/825 nt),gadX,DNA‑binding transcriptional dual regulator,NA,NA,NA,k0007,0
-3976435,"Δ10,738 bp",insH‑mediated,[gadW]–slp,"[gadW], mdtF, mdtE, gadE, hdeD, hdeA, hdeB, yhiD, yhiF, slp",NA,NA,NA,k0007,0
-3988392,Δ443 bp,insH‑mediated,yhiS,hypothetical protein,NA,NA,NA,k0007,1
-3988392,"Δ1,268 bp",insH‑mediated,[yhiS],[yhiS],NA,NA,NA,k0007,1
-4136677,G→T,V191V (GTC→GTA) ,frlD,fructoselysine 6‑kinase,NA,NA,NA,k0007,0
-4200197,A→C,K271Q (AAA→CAA) ,rpoA,RNA polymerase subunit alpha,NA,NA,NA,k0007,0
-4221755,G→A,A353T (GCA→ACA) ,aceA,isocitrate lyase,NA,NA,NA,k0007,0
-4405094,G→A,V43M (GTG→ATG) ,hfq,"HF‑I, host factor for RNA phage Q beta replication",NA,NA,NA,k0007,0
-4485284,IS5 (–) +4 bp,coding (875‑878/1197 nt),yjgN,inner membrane protein,NA,NA,NA,k0007,0
-4495464,IS5 (+) +4 bp,coding (353‑356/999 nt),idnR,DNA‑binding transcriptional repressor,NA,NA,NA,k0007,1
-4546841,insH IS5 (–) +4 bp,coding (125‑128/597 nt),fimE,tyrosine recombinase/inversion of on/off regulator of fimA,NA,NA,NA,k0007,1
-4547860,(TCCCTCAGTTCTACAGCGGCTCTG)1→2,coding (66/549 nt),fimA,major type 1 subunit fimbrin,NA,NA,NA,k0007,0
-4626165,C→G,C201W (TGC→TGG) ,deoD,purine‑nucleoside phosphorylase,NA,NA,NA,k0007,0
-4639891,A→G,S34P (TCC→CCC) ,rob,DNA‑binding transcriptional activator,NA,NA,NA,k0007,0
-NA,NA,NA,NA,NA,NA,NA,NA,k0007,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0007,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0007,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0007,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0007,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0007,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0007,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0007,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0007,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0007,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0007,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0007,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0007,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0007,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0007,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0007,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0007,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0007,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0007,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0007,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0007,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0007,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0007,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0007,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0007,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0007,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0007,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0007,NA
-56273,G→A,L279L (CTC→CTT) ,lptD,"exported protein required for envelope biosynthesis and integrity, outer membrane lipopolysaccharide transport and assembly complex",NA,NA,NA,k0010,0
-62682,+G,coding (583/2907 nt),hepA,RNA polymerase‑associated helicase protein,NA,NA,NA,k0010,0
-105411,G→A,G36D (GGT→GAT) ,ftsZ,GTP‑binding tubulin‑like cell division protein,NA,NA,NA,k0010,0
-156056,T→G,N49T (AAT→ACT) ,ecpD,periplasmic pilin chaperone,NA,NA,NA,k0010,0
-277827,C→G,G67A (GGC→GCC) ,afuC ,ferric transporter subunit,NA,NA,NA,k0010,0
-425800,C→T,P147L (CCG→CTG) ,tgt,tRNA‑guanine transglycosylase,NA,NA,NA,k0010,0
-490998,Δ1 bp,coding (363/552 nt),apt,adenine phosphoribosyltransferase,NA,NA,NA,k0010,0
-520989,G→T,P450P (CCG→CCT) ,ybbP,inner membrane protein,NA,NA,NA,k0010,0
-556778,A→C,F63V (TTC→GTC) ,folD,"bifunctional 5,10‑methylene‑tetrahydrofolate dehydrogenase/5,10‑methylene‑tetrahydrofolate cyclohydrolase",NA,NA,NA,k0010,0
-666783,A→T,D619E (GAT→GAA) ,mrdA,transpeptidase involved in peptidoglycan synthesis,NA,NA,NA,k0010,0
-683143,"Δ5,116 bp",insH-3 IS5‑mediated,[hscC]–gltI,"[hscC], rihA, gltL, gltK, gltJ, gltI",NA,NA,NA,k0010,1
-899330,+C,coding (391/1128 nt),rumB,23S rRNA m(5)U747 methyltransferase,NA,NA,NA,k0010,0
-909411,G→A,P102P (CCC→CCT) ,ltaE,"L‑allo‑threonine aldolase, PLP‑dependent",NA,NA,NA,k0010,1
-1197854,C→T,N385N (AAC→AAT) ,icd,"isocitrate dehydrogenase,‑specific for NADP+",NA,NA,NA,k0010,0
-1215890,IS5 (+) +4 bp,coding (1160‑1163/1212 nt),ycgF,FAD‑binding phosphodiesterase,NA,NA,NA,k0010,0
-1218024,IS5 (+) +4 bp,coding (79‑82/267 nt),ariR (ymgB) ,acid stress activator of Gad; associated with biofilm,NA,NA,NA,k0010,0
-1285522,G→T,A114A (GCG→GCT) ,narH,"nitrate reductase 1, beta (Fe‑S) subunit",NA,NA,NA,k0010,0
-1349606,IS5 +5 bp,coding (1021/1935 nt),rnb,exoribonuclease 2,NA,NA,NA,k0010,0
-1372264,A→G,E112G (GAG→GGG) ,ycjM,glucosyltransferase,NA,NA,NA,k0010,0
-1459205,G→A,G354G (GGG→GGA) ,paaE,multicomponent oxygenase/reductase subunit for phenylacetic acid degradation,NA,NA,NA,k0010,0
-1485978,C→A,R383S (CGT→AGT) ,hrpA,ATP‑dependent helicase,NA,NA,NA,k0010,1
-1549542,IS5 (–) +4 bp,coding (428‑431/3048 nt),fdnG,"formate dehydrogenase‑N subunit alpha, nitrate‑inducible",NA,NA,NA,k0010,0
-1574188,IS5 (+) +4 bp,coding (2726‑2729/2796 nt),pqqL,peptidase,NA,NA,NA,k0010,1
-1618943,"Δ6,115 bp",coding inclusive deletion,[ydeA]–[ydeH],"[ydeA], marC, marR, marA, marB, eamA, ydeE, [ydeH]",NA,NA,NA,k0010,0
-1704037,Δ1 bp,coding (91/1002 nt),add,adenosine deaminase,NA,NA,NA,k0010,1
-1772682,IS5 (–) +4 bp,coding (354‑357/357 nt),ydiL,hypothetical protein,NA,NA,NA,k0010,0
-1822769,IS5 +4 bp,coding (160/1359 nt),chbC,"N,N'‑diacetylchitobiose permease IIC component",NA,NA,NA,k0010,0
-1881543,IS186/IS421 (+) +6 bp,coding (115‑120/360 nt),yeaR,hypothetical protein,NA,NA,NA,k0010,1
-1882210,G→A,L88L (CTC→CTT) ,yeaS,neutral amino‑acid efflux system,NA,NA,NA,k0010,0
-1908956,IS5 (–) +4 bp,coding (191‑194/210 nt),cspC,"stress protein, member of the CspA‑family",NA,NA,NA,k0010,0
-1909258,IS1 (+) +9 bp,coding (40‑48/144 nt),yobF,hypothetical protein,NA,NA,NA,k0010,0
-1932183,Δ1 bp,coding (279/291 nt),yebG,hypothetical protein,NA,NA,NA,k0010,0
-2093073,G→A,E249K (GAA→AAA) ,hisG,ATP phosphoribosyltransferase,NA,NA,NA,k0010,0
-2107019,(A)9→8,coding (203/591 nt),wbbJ,acyl transferase,NA,NA,NA,k0010,0
-2156723,C→A,L191M (CTG→ATG) ,mdtA,"multidrug efflux system, subunit A",NA,NA,NA,k0010,1
-2179217,Δ5 bp,coding (435‑439/1263 nt),gatZ,"D‑tagatose 1,6‑bisphosphate aldolase 2, subunit",NA,NA,NA,k0010,0
-2233458,gatA-insH IS5 (+) +4 bp,coding (259‑262/948 nt),dusC,tRNA‑dihydrouridine synthase C,NA,NA,NA,k0010,0
-2288259,(TTATCGCCT)2→3,coding (550/1761 nt),yejM,"hydrolase, inner membrane",NA,NA,NA,k0010,0
-2434645,A→T,V347E (GTG→GAG) ,purF,amidophosphoribosyltransferase,NA,NA,NA,k0010,0
-2487190,IS5 (+) +4 bp,coding (430‑433/1539 nt),emrY,multidrug efflux system,NA,NA,NA,k0010,0
-2634172,IS5 +4 bp,coding (1285/1371 nt),xseA,exodeoxyribonuclease 7 large subunit,NA,NA,NA,k0010,0
-2646569,C→A,E1459* (GAG→TAG) ,yfhM,hypothetical protein,NA,NA,NA,k0010,0
-2810717,IS2 (–) +5 bp,coding (635‑639/1173 nt),emrA,multidrug efflux system,NA,NA,NA,k0010,0
-2865825,A→T,I89N (ATC→AAC) ,rpoS,"RNA polymerase, sigma S (sigma 38) factor",NA,NA,NA,k0010,0
-2931775,C→A,P190P (CCG→CCT) ,fucA,L‑fuculose‑1‑phosphate aldolase,NA,NA,NA,k0010,0
-3104794,G→A,G142D (GGC→GAC) ,nupG,nucleoside transporter,NA,NA,NA,k0010,1
-3169126,A→C,T215P (ACA→CCA) ,qseB,DNA‑binding response regulator in two‑component regulatory system with QseC,NA,NA,NA,k0010,0
-3187655,IS5 (–) +4 bp,coding (1600‑1603/2466 nt),yqiG,outer membrane usher protein,NA,NA,NA,k0010,0
-3189138,IS5 (+) +4 bp,coding (602‑605/750 nt),yqiH,periplasmic pilin chaperone,NA,NA,NA,k0010,0
-3212340,A→C,D213A (GAC→GCC) ,rpoD,"RNA polymerase, sigma 70 (sigma D) factor",NA,NA,NA,k0010,1
-3241721,G→T,L84M (CTG→ATG) ,uxaA,altronate hydrolase,NA,NA,NA,k0010,0
-3277113,INDEL +5 bp,coding (257/336 nt),prlF,antitoxin PrlF,NA,NA,NA,k0010,0
-3277128,(TTCAACA)2→3,coding (272/336 nt),sohA,regulator,NA,NA,NA,k0010,0
-3454320,C→T,G373S (GGC→AGC) ,rpoB,RNA polymerase subunit beta,NA,NA,NA,k0010,0
-3532025,A→G,N107S (AAC→AGC) ,cpxA,sensory histidine kinase in two‑component regulatory system with CpxR,NA,NA,NA,k0010,0
-3840032,IS5 (–) +4 bp,coding (583‑586/699 nt),rfaY,lipopolysaccharide core biosynthesis protein,NA,NA,NA,k0010,0
-3948766,G→A,R320H (CGT→CAT) ,bcsB,"regulator of cellulose synthase, cyclic di‑GMP binding",NA,NA,NA,k0010,0
-3974240,"Δ14,146 bp",insH IS5-mediated,gadX–[yhiS],"gadX, gadW, mdtF, mdtE, gadE, hdeD, hdeA, hdeB, yhiD, yhiF, slp, insH, [yhiS]",NA,NA,NA,k0010,0
-3974244,"Δ7,921 bp",insH IS5-mediated,gadX–gadE,"gadX, gadW, mdtF, mdtE, gadE",NA,NA,NA,k0010,0
-3974646,Δ78 bp,coding (42‑119/825 nt),gadX,DNA‑binding transcriptional dual regulator,NA,NA,NA,k0010,1
-3976435,"Δ10,738 bp",insH‑mediated,[gadW]–slp,"[gadW], mdtF, mdtE, gadE, hdeD, hdeA, hdeB, yhiD, yhiF, slp",NA,NA,NA,k0010,0
-3988392,Δ443 bp,insH‑mediated,yhiS,hypothetical protein,NA,NA,NA,k0010,0
-3988392,"Δ1,268 bp",insH‑mediated,[yhiS],[yhiS],NA,NA,NA,k0010,0
-4136677,G→T,V191V (GTC→GTA) ,frlD,fructoselysine 6‑kinase,NA,NA,NA,k0010,0
-4200197,A→C,K271Q (AAA→CAA) ,rpoA,RNA polymerase subunit alpha,NA,NA,NA,k0010,0
-4221755,G→A,A353T (GCA→ACA) ,aceA,isocitrate lyase,NA,NA,NA,k0010,0
-4405094,G→A,V43M (GTG→ATG) ,hfq,"HF‑I, host factor for RNA phage Q beta replication",NA,NA,NA,k0010,1
-4485284,IS5 (–) +4 bp,coding (875‑878/1197 nt),yjgN,inner membrane protein,NA,NA,NA,k0010,1
-4495464,IS5 (+) +4 bp,coding (353‑356/999 nt),idnR,DNA‑binding transcriptional repressor,NA,NA,NA,k0010,0
-4546841,insH IS5 (–) +4 bp,coding (125‑128/597 nt),fimE,tyrosine recombinase/inversion of on/off regulator of fimA,NA,NA,NA,k0010,0
-4547860,(TCCCTCAGTTCTACAGCGGCTCTG)1→2,coding (66/549 nt),fimA,major type 1 subunit fimbrin,NA,NA,NA,k0010,0
-4626165,C→G,C201W (TGC→TGG) ,deoD,purine‑nucleoside phosphorylase,NA,NA,NA,k0010,0
-4639891,A→G,S34P (TCC→CCC) ,rob,DNA‑binding transcriptional activator,NA,NA,NA,k0010,1
-NA,NA,NA,NA,NA,NA,NA,NA,k0010,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0010,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0010,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0010,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0010,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0010,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0010,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0010,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0010,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0010,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0010,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0010,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0010,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0010,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0010,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0010,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0010,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0010,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0010,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0010,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0010,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0010,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0010,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0010,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0010,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0010,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0010,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0010,NA
-56273,G→A,L279L (CTC→CTT) ,lptD,"exported protein required for envelope biosynthesis and integrity, outer membrane lipopolysaccharide transport and assembly complex",NA,NA,NA,k0020,0
-62682,+G,coding (583/2907 nt),hepA,RNA polymerase‑associated helicase protein,NA,NA,NA,k0020,0
-105411,G→A,G36D (GGT→GAT) ,ftsZ,GTP‑binding tubulin‑like cell division protein,NA,NA,NA,k0020,0
-156056,T→G,N49T (AAT→ACT) ,ecpD,periplasmic pilin chaperone,NA,NA,NA,k0020,0
-277827,C→G,G67A (GGC→GCC) ,afuC ,ferric transporter subunit,NA,NA,NA,k0020,0
-425800,C→T,P147L (CCG→CTG) ,tgt,tRNA‑guanine transglycosylase,NA,NA,NA,k0020,0
-490998,Δ1 bp,coding (363/552 nt),apt,adenine phosphoribosyltransferase,NA,NA,NA,k0020,0
-520989,G→T,P450P (CCG→CCT) ,ybbP,inner membrane protein,NA,NA,NA,k0020,0
-556778,A→C,F63V (TTC→GTC) ,folD,"bifunctional 5,10‑methylene‑tetrahydrofolate dehydrogenase/5,10‑methylene‑tetrahydrofolate cyclohydrolase",NA,NA,NA,k0020,0
-666783,A→T,D619E (GAT→GAA) ,mrdA,transpeptidase involved in peptidoglycan synthesis,NA,NA,NA,k0020,0
-683143,"Δ5,116 bp",insH-3 IS5‑mediated,[hscC]–gltI,"[hscC], rihA, gltL, gltK, gltJ, gltI",NA,NA,NA,k0020,1
-899330,+C,coding (391/1128 nt),rumB,23S rRNA m(5)U747 methyltransferase,NA,NA,NA,k0020,0
-909411,G→A,P102P (CCC→CCT) ,ltaE,"L‑allo‑threonine aldolase, PLP‑dependent",NA,NA,NA,k0020,1
-1197854,C→T,N385N (AAC→AAT) ,icd,"isocitrate dehydrogenase,‑specific for NADP+",NA,NA,NA,k0020,0
-1215890,IS5 (+) +4 bp,coding (1160‑1163/1212 nt),ycgF,FAD‑binding phosphodiesterase,NA,NA,NA,k0020,0
-1218024,IS5 (+) +4 bp,coding (79‑82/267 nt),ariR (ymgB) ,acid stress activator of Gad; associated with biofilm,NA,NA,NA,k0020,0
-1285522,G→T,A114A (GCG→GCT) ,narH,"nitrate reductase 1, beta (Fe‑S) subunit",NA,NA,NA,k0020,1
-1349606,IS5 +5 bp,coding (1021/1935 nt),rnb,exoribonuclease 2,NA,NA,NA,k0020,0
-1372264,A→G,E112G (GAG→GGG) ,ycjM,glucosyltransferase,NA,NA,NA,k0020,0
-1459205,G→A,G354G (GGG→GGA) ,paaE,multicomponent oxygenase/reductase subunit for phenylacetic acid degradation,NA,NA,NA,k0020,0
-1485978,C→A,R383S (CGT→AGT) ,hrpA,ATP‑dependent helicase,NA,NA,NA,k0020,1
-1549542,IS5 (–) +4 bp,coding (428‑431/3048 nt),fdnG,"formate dehydrogenase‑N subunit alpha, nitrate‑inducible",NA,NA,NA,k0020,0
-1574188,IS5 (+) +4 bp,coding (2726‑2729/2796 nt),pqqL,peptidase,NA,NA,NA,k0020,1
-1618943,"Δ6,115 bp",coding inclusive deletion,[ydeA]–[ydeH],"[ydeA], marC, marR, marA, marB, eamA, ydeE, [ydeH]",NA,NA,NA,k0020,0
-1704037,Δ1 bp,coding (91/1002 nt),add,adenosine deaminase,NA,NA,NA,k0020,1
-1772682,IS5 (–) +4 bp,coding (354‑357/357 nt),ydiL,hypothetical protein,NA,NA,NA,k0020,0
-1822769,IS5 +4 bp,coding (160/1359 nt),chbC,"N,N'‑diacetylchitobiose permease IIC component",NA,NA,NA,k0020,0
-1881543,IS186/IS421 (+) +6 bp,coding (115‑120/360 nt),yeaR,hypothetical protein,NA,NA,NA,k0020,1
-1882210,G→A,L88L (CTC→CTT) ,yeaS,neutral amino‑acid efflux system,NA,NA,NA,k0020,0
-1908956,IS5 (–) +4 bp,coding (191‑194/210 nt),cspC,"stress protein, member of the CspA‑family",NA,NA,NA,k0020,0
-1909258,IS1 (+) +9 bp,coding (40‑48/144 nt),yobF,hypothetical protein,NA,NA,NA,k0020,0
-1932183,Δ1 bp,coding (279/291 nt),yebG,hypothetical protein,NA,NA,NA,k0020,0
-2093073,G→A,E249K (GAA→AAA) ,hisG,ATP phosphoribosyltransferase,NA,NA,NA,k0020,0
-2107019,(A)9→8,coding (203/591 nt),wbbJ,acyl transferase,NA,NA,NA,k0020,0
-2156723,C→A,L191M (CTG→ATG) ,mdtA,"multidrug efflux system, subunit A",NA,NA,NA,k0020,1
-2179217,Δ5 bp,coding (435‑439/1263 nt),gatZ,"D‑tagatose 1,6‑bisphosphate aldolase 2, subunit",NA,NA,NA,k0020,0
-2233458,gatA-insH IS5 (+) +4 bp,coding (259‑262/948 nt),dusC,tRNA‑dihydrouridine synthase C,NA,NA,NA,k0020,0
-2288259,(TTATCGCCT)2→3,coding (550/1761 nt),yejM,"hydrolase, inner membrane",NA,NA,NA,k0020,0
-2434645,A→T,V347E (GTG→GAG) ,purF,amidophosphoribosyltransferase,NA,NA,NA,k0020,0
-2487190,IS5 (+) +4 bp,coding (430‑433/1539 nt),emrY,multidrug efflux system,NA,NA,NA,k0020,0
-2634172,IS5 +4 bp,coding (1285/1371 nt),xseA,exodeoxyribonuclease 7 large subunit,NA,NA,NA,k0020,0
-2646569,C→A,E1459* (GAG→TAG) ,yfhM,hypothetical protein,NA,NA,NA,k0020,0
-2810717,IS2 (–) +5 bp,coding (635‑639/1173 nt),emrA,multidrug efflux system,NA,NA,NA,k0020,0
-2865825,A→T,I89N (ATC→AAC) ,rpoS,"RNA polymerase, sigma S (sigma 38) factor",NA,NA,NA,k0020,0
-2931775,C→A,P190P (CCG→CCT) ,fucA,L‑fuculose‑1‑phosphate aldolase,NA,NA,NA,k0020,0
-3104794,G→A,G142D (GGC→GAC) ,nupG,nucleoside transporter,NA,NA,NA,k0020,1
-3169126,A→C,T215P (ACA→CCA) ,qseB,DNA‑binding response regulator in two‑component regulatory system with QseC,NA,NA,NA,k0020,0
-3187655,IS5 (–) +4 bp,coding (1600‑1603/2466 nt),yqiG,outer membrane usher protein,NA,NA,NA,k0020,0
-3189138,IS5 (+) +4 bp,coding (602‑605/750 nt),yqiH,periplasmic pilin chaperone,NA,NA,NA,k0020,0
-3212340,A→C,D213A (GAC→GCC) ,rpoD,"RNA polymerase, sigma 70 (sigma D) factor",NA,NA,NA,k0020,1
-3241721,G→T,L84M (CTG→ATG) ,uxaA,altronate hydrolase,NA,NA,NA,k0020,0
-3277113,INDEL +5 bp,coding (257/336 nt),prlF,antitoxin PrlF,NA,NA,NA,k0020,0
-3277128,(TTCAACA)2→3,coding (272/336 nt),sohA,regulator,NA,NA,NA,k0020,0
-3454320,C→T,G373S (GGC→AGC) ,rpoB,RNA polymerase subunit beta,NA,NA,NA,k0020,0
-3532025,A→G,N107S (AAC→AGC) ,cpxA,sensory histidine kinase in two‑component regulatory system with CpxR,NA,NA,NA,k0020,0
-3840032,IS5 (–) +4 bp,coding (583‑586/699 nt),rfaY,lipopolysaccharide core biosynthesis protein,NA,NA,NA,k0020,0
-3948766,G→A,R320H (CGT→CAT) ,bcsB,"regulator of cellulose synthase, cyclic di‑GMP binding",NA,NA,NA,k0020,0
-3974240,"Δ14,146 bp",insH IS5-mediated,gadX–[yhiS],"gadX, gadW, mdtF, mdtE, gadE, hdeD, hdeA, hdeB, yhiD, yhiF, slp, insH, [yhiS]",NA,NA,NA,k0020,0
-3974244,"Δ7,921 bp",insH IS5-mediated,gadX–gadE,"gadX, gadW, mdtF, mdtE, gadE",NA,NA,NA,k0020,0
-3974646,Δ78 bp,coding (42‑119/825 nt),gadX,DNA‑binding transcriptional dual regulator,NA,NA,NA,k0020,1
-3976435,"Δ10,738 bp",insH‑mediated,[gadW]–slp,"[gadW], mdtF, mdtE, gadE, hdeD, hdeA, hdeB, yhiD, yhiF, slp",NA,NA,NA,k0020,0
-3988392,Δ443 bp,insH‑mediated,yhiS,hypothetical protein,NA,NA,NA,k0020,0
-3988392,"Δ1,268 bp",insH‑mediated,[yhiS],[yhiS],NA,NA,NA,k0020,0
-4136677,G→T,V191V (GTC→GTA) ,frlD,fructoselysine 6‑kinase,NA,NA,NA,k0020,0
-4200197,A→C,K271Q (AAA→CAA) ,rpoA,RNA polymerase subunit alpha,NA,NA,NA,k0020,0
-4221755,G→A,A353T (GCA→ACA) ,aceA,isocitrate lyase,NA,NA,NA,k0020,0
-4405094,G→A,V43M (GTG→ATG) ,hfq,"HF‑I, host factor for RNA phage Q beta replication",NA,NA,NA,k0020,1
-4485284,IS5 (–) +4 bp,coding (875‑878/1197 nt),yjgN,inner membrane protein,NA,NA,NA,k0020,1
-4495464,IS5 (+) +4 bp,coding (353‑356/999 nt),idnR,DNA‑binding transcriptional repressor,NA,NA,NA,k0020,0
-4546841,insH IS5 (–) +4 bp,coding (125‑128/597 nt),fimE,tyrosine recombinase/inversion of on/off regulator of fimA,NA,NA,NA,k0020,0
-4547860,(TCCCTCAGTTCTACAGCGGCTCTG)1→2,coding (66/549 nt),fimA,major type 1 subunit fimbrin,NA,NA,NA,k0020,0
-4626165,C→G,C201W (TGC→TGG) ,deoD,purine‑nucleoside phosphorylase,NA,NA,NA,k0020,0
-4639891,A→G,S34P (TCC→CCC) ,rob,DNA‑binding transcriptional activator,NA,NA,NA,k0020,1
-NA,NA,NA,NA,NA,NA,NA,NA,k0020,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0020,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0020,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0020,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0020,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0020,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0020,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0020,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0020,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0020,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0020,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0020,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0020,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0020,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0020,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0020,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0020,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0020,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0020,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0020,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0020,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0020,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0020,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0020,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0020,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0020,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0020,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0020,NA
-56273,G→A,L279L (CTC→CTT) ,lptD,"exported protein required for envelope biosynthesis and integrity, outer membrane lipopolysaccharide transport and assembly complex",NA,NA,NA,k0019,0
-62682,+G,coding (583/2907 nt),hepA,RNA polymerase‑associated helicase protein,NA,NA,NA,k0019,0
-105411,G→A,G36D (GGT→GAT) ,ftsZ,GTP‑binding tubulin‑like cell division protein,NA,NA,NA,k0019,0
-156056,T→G,N49T (AAT→ACT) ,ecpD,periplasmic pilin chaperone,NA,NA,NA,k0019,0
-277827,C→G,G67A (GGC→GCC) ,afuC ,ferric transporter subunit,NA,NA,NA,k0019,0
-425800,C→T,P147L (CCG→CTG) ,tgt,tRNA‑guanine transglycosylase,NA,NA,NA,k0019,0
-490998,Δ1 bp,coding (363/552 nt),apt,adenine phosphoribosyltransferase,NA,NA,NA,k0019,0
-520989,G→T,P450P (CCG→CCT) ,ybbP,inner membrane protein,NA,NA,NA,k0019,0
-556778,A→C,F63V (TTC→GTC) ,folD,"bifunctional 5,10‑methylene‑tetrahydrofolate dehydrogenase/5,10‑methylene‑tetrahydrofolate cyclohydrolase",NA,NA,NA,k0019,0
-666783,A→T,D619E (GAT→GAA) ,mrdA,transpeptidase involved in peptidoglycan synthesis,NA,NA,NA,k0019,0
-683143,"Δ5,116 bp",insH-3 IS5‑mediated,[hscC]–gltI,"[hscC], rihA, gltL, gltK, gltJ, gltI",NA,NA,NA,k0019,1
-899330,+C,coding (391/1128 nt),rumB,23S rRNA m(5)U747 methyltransferase,NA,NA,NA,k0019,0
-909411,G→A,P102P (CCC→CCT) ,ltaE,"L‑allo‑threonine aldolase, PLP‑dependent",NA,NA,NA,k0019,1
-1197854,C→T,N385N (AAC→AAT) ,icd,"isocitrate dehydrogenase,‑specific for NADP+",NA,NA,NA,k0019,0
-1215890,IS5 (+) +4 bp,coding (1160‑1163/1212 nt),ycgF,FAD‑binding phosphodiesterase,NA,NA,NA,k0019,0
-1218024,IS5 (+) +4 bp,coding (79‑82/267 nt),ariR (ymgB) ,acid stress activator of Gad; associated with biofilm,NA,NA,NA,k0019,0
-1285522,G→T,A114A (GCG→GCT) ,narH,"nitrate reductase 1, beta (Fe‑S) subunit",NA,NA,NA,k0019,1
-1349606,IS5 +5 bp,coding (1021/1935 nt),rnb,exoribonuclease 2,NA,NA,NA,k0019,0
-1372264,A→G,E112G (GAG→GGG) ,ycjM,glucosyltransferase,NA,NA,NA,k0019,0
-1459205,G→A,G354G (GGG→GGA) ,paaE,multicomponent oxygenase/reductase subunit for phenylacetic acid degradation,NA,NA,NA,k0019,0
-1485978,C→A,R383S (CGT→AGT) ,hrpA,ATP‑dependent helicase,NA,NA,NA,k0019,1
-1549542,IS5 (–) +4 bp,coding (428‑431/3048 nt),fdnG,"formate dehydrogenase‑N subunit alpha, nitrate‑inducible",NA,NA,NA,k0019,0
-1574188,IS5 (+) +4 bp,coding (2726‑2729/2796 nt),pqqL,peptidase,NA,NA,NA,k0019,1
-1618943,"Δ6,115 bp",coding inclusive deletion,[ydeA]–[ydeH],"[ydeA], marC, marR, marA, marB, eamA, ydeE, [ydeH]",NA,NA,NA,k0019,0
-1704037,Δ1 bp,coding (91/1002 nt),add,adenosine deaminase,NA,NA,NA,k0019,1
-1772682,IS5 (–) +4 bp,coding (354‑357/357 nt),ydiL,hypothetical protein,NA,NA,NA,k0019,0
-1822769,IS5 +4 bp,coding (160/1359 nt),chbC,"N,N'‑diacetylchitobiose permease IIC component",NA,NA,NA,k0019,0
-1881543,IS186/IS421 (+) +6 bp,coding (115‑120/360 nt),yeaR,hypothetical protein,NA,NA,NA,k0019,1
-1882210,G→A,L88L (CTC→CTT) ,yeaS,neutral amino‑acid efflux system,NA,NA,NA,k0019,0
-1908956,IS5 (–) +4 bp,coding (191‑194/210 nt),cspC,"stress protein, member of the CspA‑family",NA,NA,NA,k0019,0
-1909258,IS1 (+) +9 bp,coding (40‑48/144 nt),yobF,hypothetical protein,NA,NA,NA,k0019,0
-1932183,Δ1 bp,coding (279/291 nt),yebG,hypothetical protein,NA,NA,NA,k0019,0
-2093073,G→A,E249K (GAA→AAA) ,hisG,ATP phosphoribosyltransferase,NA,NA,NA,k0019,0
-2107019,(A)9→8,coding (203/591 nt),wbbJ,acyl transferase,NA,NA,NA,k0019,0
-2156723,C→A,L191M (CTG→ATG) ,mdtA,"multidrug efflux system, subunit A",NA,NA,NA,k0019,1
-2179217,Δ5 bp,coding (435‑439/1263 nt),gatZ,"D‑tagatose 1,6‑bisphosphate aldolase 2, subunit",NA,NA,NA,k0019,0
-2233458,gatA-insH IS5 (+) +4 bp,coding (259‑262/948 nt),dusC,tRNA‑dihydrouridine synthase C,NA,NA,NA,k0019,0
-2288259,(TTATCGCCT)2→3,coding (550/1761 nt),yejM,"hydrolase, inner membrane",NA,NA,NA,k0019,0
-2434645,A→T,V347E (GTG→GAG) ,purF,amidophosphoribosyltransferase,NA,NA,NA,k0019,0
-2487190,IS5 (+) +4 bp,coding (430‑433/1539 nt),emrY,multidrug efflux system,NA,NA,NA,k0019,0
-2634172,IS5 +4 bp,coding (1285/1371 nt),xseA,exodeoxyribonuclease 7 large subunit,NA,NA,NA,k0019,0
-2646569,C→A,E1459* (GAG→TAG) ,yfhM,hypothetical protein,NA,NA,NA,k0019,0
-2810717,IS2 (–) +5 bp,coding (635‑639/1173 nt),emrA,multidrug efflux system,NA,NA,NA,k0019,0
-2865825,A→T,I89N (ATC→AAC) ,rpoS,"RNA polymerase, sigma S (sigma 38) factor",NA,NA,NA,k0019,0
-2931775,C→A,P190P (CCG→CCT) ,fucA,L‑fuculose‑1‑phosphate aldolase,NA,NA,NA,k0019,0
-3104794,G→A,G142D (GGC→GAC) ,nupG,nucleoside transporter,NA,NA,NA,k0019,1
-3169126,A→C,T215P (ACA→CCA) ,qseB,DNA‑binding response regulator in two‑component regulatory system with QseC,NA,NA,NA,k0019,0
-3187655,IS5 (–) +4 bp,coding (1600‑1603/2466 nt),yqiG,outer membrane usher protein,NA,NA,NA,k0019,0
-3189138,IS5 (+) +4 bp,coding (602‑605/750 nt),yqiH,periplasmic pilin chaperone,NA,NA,NA,k0019,0
-3212340,A→C,D213A (GAC→GCC) ,rpoD,"RNA polymerase, sigma 70 (sigma D) factor",NA,NA,NA,k0019,1
-3241721,G→T,L84M (CTG→ATG) ,uxaA,altronate hydrolase,NA,NA,NA,k0019,0
-3277113,INDEL +5 bp,coding (257/336 nt),prlF,antitoxin PrlF,NA,NA,NA,k0019,0
-3277128,(TTCAACA)2→3,coding (272/336 nt),sohA,regulator,NA,NA,NA,k0019,0
-3454320,C→T,G373S (GGC→AGC) ,rpoB,RNA polymerase subunit beta,NA,NA,NA,k0019,0
-3532025,A→G,N107S (AAC→AGC) ,cpxA,sensory histidine kinase in two‑component regulatory system with CpxR,NA,NA,NA,k0019,0
-3840032,IS5 (–) +4 bp,coding (583‑586/699 nt),rfaY,lipopolysaccharide core biosynthesis protein,NA,NA,NA,k0019,0
-3948766,G→A,R320H (CGT→CAT) ,bcsB,"regulator of cellulose synthase, cyclic di‑GMP binding",NA,NA,NA,k0019,0
-3974240,"Δ14,146 bp",insH IS5-mediated,gadX–[yhiS],"gadX, gadW, mdtF, mdtE, gadE, hdeD, hdeA, hdeB, yhiD, yhiF, slp, insH, [yhiS]",NA,NA,NA,k0019,0
-3974244,"Δ7,921 bp",insH IS5-mediated,gadX–gadE,"gadX, gadW, mdtF, mdtE, gadE",NA,NA,NA,k0019,0
-3974646,Δ78 bp,coding (42‑119/825 nt),gadX,DNA‑binding transcriptional dual regulator,NA,NA,NA,k0019,1
-3976435,"Δ10,738 bp",insH‑mediated,[gadW]–slp,"[gadW], mdtF, mdtE, gadE, hdeD, hdeA, hdeB, yhiD, yhiF, slp",NA,NA,NA,k0019,0
-3988392,Δ443 bp,insH‑mediated,yhiS,hypothetical protein,NA,NA,NA,k0019,0
-3988392,"Δ1,268 bp",insH‑mediated,[yhiS],[yhiS],NA,NA,NA,k0019,0
-4136677,G→T,V191V (GTC→GTA) ,frlD,fructoselysine 6‑kinase,NA,NA,NA,k0019,0
-4200197,A→C,K271Q (AAA→CAA) ,rpoA,RNA polymerase subunit alpha,NA,NA,NA,k0019,0
-4221755,G→A,A353T (GCA→ACA) ,aceA,isocitrate lyase,NA,NA,NA,k0019,0
-4405094,G→A,V43M (GTG→ATG) ,hfq,"HF‑I, host factor for RNA phage Q beta replication",NA,NA,NA,k0019,1
-4485284,IS5 (–) +4 bp,coding (875‑878/1197 nt),yjgN,inner membrane protein,NA,NA,NA,k0019,1
-4495464,IS5 (+) +4 bp,coding (353‑356/999 nt),idnR,DNA‑binding transcriptional repressor,NA,NA,NA,k0019,0
-4546841,insH IS5 (–) +4 bp,coding (125‑128/597 nt),fimE,tyrosine recombinase/inversion of on/off regulator of fimA,NA,NA,NA,k0019,0
-4547860,(TCCCTCAGTTCTACAGCGGCTCTG)1→2,coding (66/549 nt),fimA,major type 1 subunit fimbrin,NA,NA,NA,k0019,0
-4626165,C→G,C201W (TGC→TGG) ,deoD,purine‑nucleoside phosphorylase,NA,NA,NA,k0019,0
-4639891,A→G,S34P (TCC→CCC) ,rob,DNA‑binding transcriptional activator,NA,NA,NA,k0019,1
-NA,NA,NA,NA,NA,NA,NA,NA,k0019,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0019,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0019,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0019,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0019,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0019,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0019,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0019,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0019,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0019,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0019,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0019,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0019,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0019,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0019,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0019,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0019,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0019,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0019,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0019,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0019,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0019,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0019,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0019,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0019,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0019,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0019,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0019,NA
-56273,G→A,L279L (CTC→CTT) ,lptD,"exported protein required for envelope biosynthesis and integrity, outer membrane lipopolysaccharide transport and assembly complex",NA,NA,NA,k0031,0
-62682,+G,coding (583/2907 nt),hepA,RNA polymerase‑associated helicase protein,NA,NA,NA,k0031,0
-105411,G→A,G36D (GGT→GAT) ,ftsZ,GTP‑binding tubulin‑like cell division protein,NA,NA,NA,k0031,0
-156056,T→G,N49T (AAT→ACT) ,ecpD,periplasmic pilin chaperone,NA,NA,NA,k0031,0
-277827,C→G,G67A (GGC→GCC) ,afuC ,ferric transporter subunit,NA,NA,NA,k0031,0
-425800,C→T,P147L (CCG→CTG) ,tgt,tRNA‑guanine transglycosylase,NA,NA,NA,k0031,0
-490998,Δ1 bp,coding (363/552 nt),apt,adenine phosphoribosyltransferase,NA,NA,NA,k0031,0
-520989,G→T,P450P (CCG→CCT) ,ybbP,inner membrane protein,NA,NA,NA,k0031,0
-556778,A→C,F63V (TTC→GTC) ,folD,"bifunctional 5,10‑methylene‑tetrahydrofolate dehydrogenase/5,10‑methylene‑tetrahydrofolate cyclohydrolase",NA,NA,NA,k0031,0
-666783,A→T,D619E (GAT→GAA) ,mrdA,transpeptidase involved in peptidoglycan synthesis,NA,NA,NA,k0031,0
-683143,"Δ5,116 bp",insH-3 IS5‑mediated,[hscC]–gltI,"[hscC], rihA, gltL, gltK, gltJ, gltI",NA,NA,NA,k0031,1
-899330,+C,coding (391/1128 nt),rumB,23S rRNA m(5)U747 methyltransferase,NA,NA,NA,k0031,0
-909411,G→A,P102P (CCC→CCT) ,ltaE,"L‑allo‑threonine aldolase, PLP‑dependent",NA,NA,NA,k0031,1
-1197854,C→T,N385N (AAC→AAT) ,icd,"isocitrate dehydrogenase,‑specific for NADP+",NA,NA,NA,k0031,0
-1215890,IS5 (+) +4 bp,coding (1160‑1163/1212 nt),ycgF,FAD‑binding phosphodiesterase,NA,NA,NA,k0031,0
-1218024,IS5 (+) +4 bp,coding (79‑82/267 nt),ariR (ymgB) ,acid stress activator of Gad; associated with biofilm,NA,NA,NA,k0031,0
-1285522,G→T,A114A (GCG→GCT) ,narH,"nitrate reductase 1, beta (Fe‑S) subunit",NA,NA,NA,k0031,0
-1349606,IS5 +5 bp,coding (1021/1935 nt),rnb,exoribonuclease 2,NA,NA,NA,k0031,0
-1372264,A→G,E112G (GAG→GGG) ,ycjM,glucosyltransferase,NA,NA,NA,k0031,0
-1459205,G→A,G354G (GGG→GGA) ,paaE,multicomponent oxygenase/reductase subunit for phenylacetic acid degradation,NA,NA,NA,k0031,0
-1485978,C→A,R383S (CGT→AGT) ,hrpA,ATP‑dependent helicase,NA,NA,NA,k0031,1
-1549542,IS5 (–) +4 bp,coding (428‑431/3048 nt),fdnG,"formate dehydrogenase‑N subunit alpha, nitrate‑inducible",NA,NA,NA,k0031,0
-1574188,IS5 (+) +4 bp,coding (2726‑2729/2796 nt),pqqL,peptidase,NA,NA,NA,k0031,1
-1618943,"Δ6,115 bp",coding inclusive deletion,[ydeA]–[ydeH],"[ydeA], marC, marR, marA, marB, eamA, ydeE, [ydeH]",NA,NA,NA,k0031,0
-1704037,Δ1 bp,coding (91/1002 nt),add,adenosine deaminase,NA,NA,NA,k0031,1
-1772682,IS5 (–) +4 bp,coding (354‑357/357 nt),ydiL,hypothetical protein,NA,NA,NA,k0031,0
-1822769,IS5 +4 bp,coding (160/1359 nt),chbC,"N,N'‑diacetylchitobiose permease IIC component",NA,NA,NA,k0031,0
-1881543,IS186/IS421 (+) +6 bp,coding (115‑120/360 nt),yeaR,hypothetical protein,NA,NA,NA,k0031,1
-1882210,G→A,L88L (CTC→CTT) ,yeaS,neutral amino‑acid efflux system,NA,NA,NA,k0031,0
-1908956,IS5 (–) +4 bp,coding (191‑194/210 nt),cspC,"stress protein, member of the CspA‑family",NA,NA,NA,k0031,0
-1909258,IS1 (+) +9 bp,coding (40‑48/144 nt),yobF,hypothetical protein,NA,NA,NA,k0031,0
-1932183,Δ1 bp,coding (279/291 nt),yebG,hypothetical protein,NA,NA,NA,k0031,0
-2093073,G→A,E249K (GAA→AAA) ,hisG,ATP phosphoribosyltransferase,NA,NA,NA,k0031,0
-2107019,(A)9→8,coding (203/591 nt),wbbJ,acyl transferase,NA,NA,NA,k0031,0
-2156723,C→A,L191M (CTG→ATG) ,mdtA,"multidrug efflux system, subunit A",NA,NA,NA,k0031,1
-2179217,Δ5 bp,coding (435‑439/1263 nt),gatZ,"D‑tagatose 1,6‑bisphosphate aldolase 2, subunit",NA,NA,NA,k0031,0
-2233458,gatA-insH IS5 (+) +4 bp,coding (259‑262/948 nt),dusC,tRNA‑dihydrouridine synthase C,NA,NA,NA,k0031,0
-2288259,(TTATCGCCT)2→3,coding (550/1761 nt),yejM,"hydrolase, inner membrane",NA,NA,NA,k0031,0
-2434645,A→T,V347E (GTG→GAG) ,purF,amidophosphoribosyltransferase,NA,NA,NA,k0031,0
-2487190,IS5 (+) +4 bp,coding (430‑433/1539 nt),emrY,multidrug efflux system,NA,NA,NA,k0031,0
-2634172,IS5 +4 bp,coding (1285/1371 nt),xseA,exodeoxyribonuclease 7 large subunit,NA,NA,NA,k0031,0
-2646569,C→A,E1459* (GAG→TAG) ,yfhM,hypothetical protein,NA,NA,NA,k0031,0
-2810717,IS2 (–) +5 bp,coding (635‑639/1173 nt),emrA,multidrug efflux system,NA,NA,NA,k0031,0
-2865825,A→T,I89N (ATC→AAC) ,rpoS,"RNA polymerase, sigma S (sigma 38) factor",NA,NA,NA,k0031,0
-2931775,C→A,P190P (CCG→CCT) ,fucA,L‑fuculose‑1‑phosphate aldolase,NA,NA,NA,k0031,0
-3104794,G→A,G142D (GGC→GAC) ,nupG,nucleoside transporter,NA,NA,NA,k0031,1
-3169126,A→C,T215P (ACA→CCA) ,qseB,DNA‑binding response regulator in two‑component regulatory system with QseC,NA,NA,NA,k0031,0
-3187655,IS5 (–) +4 bp,coding (1600‑1603/2466 nt),yqiG,outer membrane usher protein,NA,NA,NA,k0031,0
-3189138,IS5 (+) +4 bp,coding (602‑605/750 nt),yqiH,periplasmic pilin chaperone,NA,NA,NA,k0031,0
-3212340,A→C,D213A (GAC→GCC) ,rpoD,"RNA polymerase, sigma 70 (sigma D) factor",NA,NA,NA,k0031,1
-3241721,G→T,L84M (CTG→ATG) ,uxaA,altronate hydrolase,NA,NA,NA,k0031,0
-3277113,INDEL +5 bp,coding (257/336 nt),prlF,antitoxin PrlF,NA,NA,NA,k0031,0
-3277128,(TTCAACA)2→3,coding (272/336 nt),sohA,regulator,NA,NA,NA,k0031,0
-3454320,C→T,G373S (GGC→AGC) ,rpoB,RNA polymerase subunit beta,NA,NA,NA,k0031,0
-3532025,A→G,N107S (AAC→AGC) ,cpxA,sensory histidine kinase in two‑component regulatory system with CpxR,NA,NA,NA,k0031,0
-3840032,IS5 (–) +4 bp,coding (583‑586/699 nt),rfaY,lipopolysaccharide core biosynthesis protein,NA,NA,NA,k0031,0
-3948766,G→A,R320H (CGT→CAT) ,bcsB,"regulator of cellulose synthase, cyclic di‑GMP binding",NA,NA,NA,k0031,0
-3974240,"Δ14,146 bp",insH IS5-mediated,gadX–[yhiS],"gadX, gadW, mdtF, mdtE, gadE, hdeD, hdeA, hdeB, yhiD, yhiF, slp, insH, [yhiS]",NA,NA,NA,k0031,0
-3974244,"Δ7,921 bp",insH IS5-mediated,gadX–gadE,"gadX, gadW, mdtF, mdtE, gadE",NA,NA,NA,k0031,0
-3974646,Δ78 bp,coding (42‑119/825 nt),gadX,DNA‑binding transcriptional dual regulator,NA,NA,NA,k0031,1
-3976435,"Δ10,738 bp",insH‑mediated,[gadW]–slp,"[gadW], mdtF, mdtE, gadE, hdeD, hdeA, hdeB, yhiD, yhiF, slp",NA,NA,NA,k0031,0
-3988392,Δ443 bp,insH‑mediated,yhiS,hypothetical protein,NA,NA,NA,k0031,0
-3988392,"Δ1,268 bp",insH‑mediated,[yhiS],[yhiS],NA,NA,NA,k0031,0
-4136677,G→T,V191V (GTC→GTA) ,frlD,fructoselysine 6‑kinase,NA,NA,NA,k0031,0
-4200197,A→C,K271Q (AAA→CAA) ,rpoA,RNA polymerase subunit alpha,NA,NA,NA,k0031,0
-4221755,G→A,A353T (GCA→ACA) ,aceA,isocitrate lyase,NA,NA,NA,k0031,0
-4405094,G→A,V43M (GTG→ATG) ,hfq,"HF‑I, host factor for RNA phage Q beta replication",NA,NA,NA,k0031,1
-4485284,IS5 (–) +4 bp,coding (875‑878/1197 nt),yjgN,inner membrane protein,NA,NA,NA,k0031,1
-4495464,IS5 (+) +4 bp,coding (353‑356/999 nt),idnR,DNA‑binding transcriptional repressor,NA,NA,NA,k0031,0
-4546841,insH IS5 (–) +4 bp,coding (125‑128/597 nt),fimE,tyrosine recombinase/inversion of on/off regulator of fimA,NA,NA,NA,k0031,0
-4547860,(TCCCTCAGTTCTACAGCGGCTCTG)1→2,coding (66/549 nt),fimA,major type 1 subunit fimbrin,NA,NA,NA,k0031,0
-4626165,C→G,C201W (TGC→TGG) ,deoD,purine‑nucleoside phosphorylase,NA,NA,NA,k0031,0
-4639891,A→G,S34P (TCC→CCC) ,rob,DNA‑binding transcriptional activator,NA,NA,NA,k0031,1
-NA,NA,NA,NA,NA,NA,NA,NA,k0031,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0031,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0031,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0031,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0031,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0031,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0031,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0031,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0031,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0031,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0031,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0031,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0031,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0031,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0031,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0031,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0031,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0031,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0031,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0031,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0031,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0031,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0031,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0031,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0031,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0031,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0031,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0031,NA
-56273,G→A,L279L (CTC→CTT) ,lptD,"exported protein required for envelope biosynthesis and integrity, outer membrane lipopolysaccharide transport and assembly complex",NA,NA,NA,k0030,0
-62682,+G,coding (583/2907 nt),hepA,RNA polymerase‑associated helicase protein,NA,NA,NA,k0030,0
-105411,G→A,G36D (GGT→GAT) ,ftsZ,GTP‑binding tubulin‑like cell division protein,NA,NA,NA,k0030,0
-156056,T→G,N49T (AAT→ACT) ,ecpD,periplasmic pilin chaperone,NA,NA,NA,k0030,1
-277827,C→G,G67A (GGC→GCC) ,afuC ,ferric transporter subunit,NA,NA,NA,k0030,0
-425800,C→T,P147L (CCG→CTG) ,tgt,tRNA‑guanine transglycosylase,NA,NA,NA,k0030,0
-490998,Δ1 bp,coding (363/552 nt),apt,adenine phosphoribosyltransferase,NA,NA,NA,k0030,0
-520989,G→T,P450P (CCG→CCT) ,ybbP,inner membrane protein,NA,NA,NA,k0030,0
-556778,A→C,F63V (TTC→GTC) ,folD,"bifunctional 5,10‑methylene‑tetrahydrofolate dehydrogenase/5,10‑methylene‑tetrahydrofolate cyclohydrolase",NA,NA,NA,k0030,0
-666783,A→T,D619E (GAT→GAA) ,mrdA,transpeptidase involved in peptidoglycan synthesis,NA,NA,NA,k0030,1
-683143,"Δ5,116 bp",insH-3 IS5‑mediated,[hscC]–gltI,"[hscC], rihA, gltL, gltK, gltJ, gltI",NA,NA,NA,k0030,0
-899330,+C,coding (391/1128 nt),rumB,23S rRNA m(5)U747 methyltransferase,NA,NA,NA,k0030,0
-909411,G→A,P102P (CCC→CCT) ,ltaE,"L‑allo‑threonine aldolase, PLP‑dependent",NA,NA,NA,k0030,0
-1197854,C→T,N385N (AAC→AAT) ,icd,"isocitrate dehydrogenase,‑specific for NADP+",NA,NA,NA,k0030,0
-1215890,IS5 (+) +4 bp,coding (1160‑1163/1212 nt),ycgF,FAD‑binding phosphodiesterase,NA,NA,NA,k0030,0
-1218024,IS5 (+) +4 bp,coding (79‑82/267 nt),ariR (ymgB) ,acid stress activator of Gad; associated with biofilm,NA,NA,NA,k0030,0
-1285522,G→T,A114A (GCG→GCT) ,narH,"nitrate reductase 1, beta (Fe‑S) subunit",NA,NA,NA,k0030,0
-1349606,IS5 +5 bp,coding (1021/1935 nt),rnb,exoribonuclease 2,NA,NA,NA,k0030,0
-1372264,A→G,E112G (GAG→GGG) ,ycjM,glucosyltransferase,NA,NA,NA,k0030,0
-1459205,G→A,G354G (GGG→GGA) ,paaE,multicomponent oxygenase/reductase subunit for phenylacetic acid degradation,NA,NA,NA,k0030,1
-1485978,C→A,R383S (CGT→AGT) ,hrpA,ATP‑dependent helicase,NA,NA,NA,k0030,0
-1549542,IS5 (–) +4 bp,coding (428‑431/3048 nt),fdnG,"formate dehydrogenase‑N subunit alpha, nitrate‑inducible",NA,NA,NA,k0030,0
-1574188,IS5 (+) +4 bp,coding (2726‑2729/2796 nt),pqqL,peptidase,NA,NA,NA,k0030,0
-1618943,"Δ6,115 bp",coding inclusive deletion,[ydeA]–[ydeH],"[ydeA], marC, marR, marA, marB, eamA, ydeE, [ydeH]",NA,NA,NA,k0030,0
-1704037,Δ1 bp,coding (91/1002 nt),add,adenosine deaminase,NA,NA,NA,k0030,0
-1772682,IS5 (–) +4 bp,coding (354‑357/357 nt),ydiL,hypothetical protein,NA,NA,NA,k0030,0
-1822769,IS5 +4 bp,coding (160/1359 nt),chbC,"N,N'‑diacetylchitobiose permease IIC component",NA,NA,NA,k0030,0
-1881543,IS186/IS421 (+) +6 bp,coding (115‑120/360 nt),yeaR,hypothetical protein,NA,NA,NA,k0030,0
-1882210,G→A,L88L (CTC→CTT) ,yeaS,neutral amino‑acid efflux system,NA,NA,NA,k0030,0
-1908956,IS5 (–) +4 bp,coding (191‑194/210 nt),cspC,"stress protein, member of the CspA‑family",NA,NA,NA,k0030,0
-1909258,IS1 (+) +9 bp,coding (40‑48/144 nt),yobF,hypothetical protein,NA,NA,NA,k0030,0
-1932183,Δ1 bp,coding (279/291 nt),yebG,hypothetical protein,NA,NA,NA,k0030,0
-2093073,G→A,E249K (GAA→AAA) ,hisG,ATP phosphoribosyltransferase,NA,NA,NA,k0030,0
-2107019,(A)9→8,coding (203/591 nt),wbbJ,acyl transferase,NA,NA,NA,k0030,0
-2156723,C→A,L191M (CTG→ATG) ,mdtA,"multidrug efflux system, subunit A",NA,NA,NA,k0030,0
-2179217,Δ5 bp,coding (435‑439/1263 nt),gatZ,"D‑tagatose 1,6‑bisphosphate aldolase 2, subunit",NA,NA,NA,k0030,0
-2233458,gatA-insH IS5 (+) +4 bp,coding (259‑262/948 nt),dusC,tRNA‑dihydrouridine synthase C,NA,NA,NA,k0030,0
-2288259,(TTATCGCCT)2→3,coding (550/1761 nt),yejM,"hydrolase, inner membrane",NA,NA,NA,k0030,0
-2434645,A→T,V347E (GTG→GAG) ,purF,amidophosphoribosyltransferase,NA,NA,NA,k0030,0
-2487190,IS5 (+) +4 bp,coding (430‑433/1539 nt),emrY,multidrug efflux system,NA,NA,NA,k0030,0
-2634172,IS5 +4 bp,coding (1285/1371 nt),xseA,exodeoxyribonuclease 7 large subunit,NA,NA,NA,k0030,0
-2646569,C→A,E1459* (GAG→TAG) ,yfhM,hypothetical protein,NA,NA,NA,k0030,0
-2810717,IS2 (–) +5 bp,coding (635‑639/1173 nt),emrA,multidrug efflux system,NA,NA,NA,k0030,1
-2865825,A→T,I89N (ATC→AAC) ,rpoS,"RNA polymerase, sigma S (sigma 38) factor",NA,NA,NA,k0030,1
-2931775,C→A,P190P (CCG→CCT) ,fucA,L‑fuculose‑1‑phosphate aldolase,NA,NA,NA,k0030,0
-3104794,G→A,G142D (GGC→GAC) ,nupG,nucleoside transporter,NA,NA,NA,k0030,0
-3169126,A→C,T215P (ACA→CCA) ,qseB,DNA‑binding response regulator in two‑component regulatory system with QseC,NA,NA,NA,k0030,1
-3187655,IS5 (–) +4 bp,coding (1600‑1603/2466 nt),yqiG,outer membrane usher protein,NA,NA,NA,k0030,1
-3189138,IS5 (+) +4 bp,coding (602‑605/750 nt),yqiH,periplasmic pilin chaperone,NA,NA,NA,k0030,1
-3212340,A→C,D213A (GAC→GCC) ,rpoD,"RNA polymerase, sigma 70 (sigma D) factor",NA,NA,NA,k0030,0
-3241721,G→T,L84M (CTG→ATG) ,uxaA,altronate hydrolase,NA,NA,NA,k0030,0
-3277113,INDEL +5 bp,coding (257/336 nt),prlF,antitoxin PrlF,NA,NA,NA,k0030,0
-3277128,(TTCAACA)2→3,coding (272/336 nt),sohA,regulator,NA,NA,NA,k0030,0
-3454320,C→T,G373S (GGC→AGC) ,rpoB,RNA polymerase subunit beta,NA,NA,NA,k0030,0
-3532025,A→G,N107S (AAC→AGC) ,cpxA,sensory histidine kinase in two‑component regulatory system with CpxR,NA,NA,NA,k0030,0
-3840032,IS5 (–) +4 bp,coding (583‑586/699 nt),rfaY,lipopolysaccharide core biosynthesis protein,NA,NA,NA,k0030,0
-3948766,G→A,R320H (CGT→CAT) ,bcsB,"regulator of cellulose synthase, cyclic di‑GMP binding",NA,NA,NA,k0030,0
-3974240,"Δ14,146 bp",insH IS5-mediated,gadX–[yhiS],"gadX, gadW, mdtF, mdtE, gadE, hdeD, hdeA, hdeB, yhiD, yhiF, slp, insH, [yhiS]",NA,NA,NA,k0030,0
-3974244,"Δ7,921 bp",insH IS5-mediated,gadX–gadE,"gadX, gadW, mdtF, mdtE, gadE",NA,NA,NA,k0030,0
-3974646,Δ78 bp,coding (42‑119/825 nt),gadX,DNA‑binding transcriptional dual regulator,NA,NA,NA,k0030,1
-3976435,"Δ10,738 bp",insH‑mediated,[gadW]–slp,"[gadW], mdtF, mdtE, gadE, hdeD, hdeA, hdeB, yhiD, yhiF, slp",NA,NA,NA,k0030,0
-3988392,Δ443 bp,insH‑mediated,yhiS,hypothetical protein,NA,NA,NA,k0030,0
-3988392,"Δ1,268 bp",insH‑mediated,[yhiS],[yhiS],NA,NA,NA,k0030,0
-4136677,G→T,V191V (GTC→GTA) ,frlD,fructoselysine 6‑kinase,NA,NA,NA,k0030,0
-4200197,A→C,K271Q (AAA→CAA) ,rpoA,RNA polymerase subunit alpha,NA,NA,NA,k0030,0
-4221755,G→A,A353T (GCA→ACA) ,aceA,isocitrate lyase,NA,NA,NA,k0030,0
-4405094,G→A,V43M (GTG→ATG) ,hfq,"HF‑I, host factor for RNA phage Q beta replication",NA,NA,NA,k0030,0
-4485284,IS5 (–) +4 bp,coding (875‑878/1197 nt),yjgN,inner membrane protein,NA,NA,NA,k0030,0
-4495464,IS5 (+) +4 bp,coding (353‑356/999 nt),idnR,DNA‑binding transcriptional repressor,NA,NA,NA,k0030,0
-4546841,insH IS5 (–) +4 bp,coding (125‑128/597 nt),fimE,tyrosine recombinase/inversion of on/off regulator of fimA,NA,NA,NA,k0030,0
-4547860,(TCCCTCAGTTCTACAGCGGCTCTG)1→2,coding (66/549 nt),fimA,major type 1 subunit fimbrin,NA,NA,NA,k0030,0
-4626165,C→G,C201W (TGC→TGG) ,deoD,purine‑nucleoside phosphorylase,NA,NA,NA,k0030,1
-4639891,A→G,S34P (TCC→CCC) ,rob,DNA‑binding transcriptional activator,NA,NA,NA,k0030,0
-NA,NA,NA,NA,NA,NA,NA,NA,k0030,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0030,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0030,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0030,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0030,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0030,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0030,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0030,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0030,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0030,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0030,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0030,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0030,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0030,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0030,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0030,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0030,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0030,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0030,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0030,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0030,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0030,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0030,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0030,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0030,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0030,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0030,NA
-NA,NA,NA,NA,NA,NA,NA,NA,k0030,NA
+gene,population,frequency
+lptD (imp),a1,1
+hepA,a1,0
+ftsZ,a1,0
+ecpD,a1,0
+afuC,a1,0
+tgt,a1,0
+apt,a1,0
+ybbP,a1,0
+folD,a1,1
+mrdA,a1,0
+rumB,a1,0
+ltaE,a1,0
+icd,a1,0
+ycgF,a1,0
+ariR(ymgB),a1,1
+narH,a1,0
+rnb,a1,1
+ycjM,a1,0
+paaE,a1,0
+hrpA,a1,0
+fdnG,a1,0
+pqqL,a1,0
+add,a1,0
+ydiL,a1,0
+chbC,a1,0
+yeaR,a1,0
+yeaS,a1,0
+cspC,a1,0
+yobF,a1,0
+yebG,a1,0
+hisG,a1,0
+wbbJ,a1,0
+mdtA,a1,0
+gatZ,a1,0
+dusC,a1,0
+yejM,a1,0
+purF,a1,0
+emrY,a1,0
+xseA,a1,0
+yfhM,a1,1
+emrA,a1,0
+rpoS,a1,0
+fucA,a1,1
+nupG,a1,0
+qseB,a1,0
+yqiG,a1,0
+yqiG,a1,0
+yqiH,a1,0
+rpoD,a1,0
+uxaA,a1,0
+prlF,a1,0
+sohA,a1,0
+rpoB,a1,1
+cpxA,a1,0
+cpxA,a1,0
+cpxA,a1,1
+rfaY,a1,0
+bcsB,a1,1
+gadX�gadE,a1,0
+gadX,a1,0
+gadX,a1,0
+gadX,a1,0
+yhiS,a1,0
+frlD,a1,0
+rpoA,a1,1
+aceA,a1,0
+hfq,a1,0
+yjgN,a1,0
+idnR,a1,0
+fimE,a1,0
+fimE,a1,0
+fimA,a1,0
+fimA,a1,0
+deoD,a1,0
+rob,a1,0
+lptD (imp),a3,1
+hepA,a3,0
+ftsZ,a3,0
+ecpD,a3,0
+afuC,a3,0
+tgt,a3,0
+apt,a3,0
+ybbP,a3,0
+folD,a3,1
+mrdA,a3,0
+rumB,a3,0
+ltaE,a3,0
+icd,a3,0
+ycgF,a3,0
+ariR(ymgB),a3,1
+narH,a3,0
+rnb,a3,1
+ycjM,a3,0
+paaE,a3,0
+hrpA,a3,0
+fdnG,a3,0
+pqqL,a3,0
+add,a3,0
+ydiL,a3,0
+chbC,a3,0
+yeaR,a3,0
+yeaS,a3,0
+cspC,a3,0
+yobF,a3,0
+yebG,a3,0
+hisG,a3,0
+wbbJ,a3,0
+mdtA,a3,0
+gatZ,a3,0
+dusC,a3,1
+yejM,a3,0
+purF,a3,0
+emrY,a3,0
+xseA,a3,0
+yfhM,a3,1
+emrA,a3,0
+rpoS,a3,0
+fucA,a3,1
+nupG,a3,0
+qseB,a3,0
+yqiG,a3,0
+yqiG,a3,0
+yqiH,a3,0
+rpoD,a3,0
+uxaA,a3,0
+prlF,a3,0
+sohA,a3,0
+rpoB,a3,1
+cpxA,a3,0
+cpxA,a3,0
+cpxA,a3,1
+rfaY,a3,0
+bcsB,a3,1
+gadX�gadE,a3,0
+gadX,a3,0
+gadX,a3,0
+gadX,a3,0
+yhiS,a3,0
+frlD,a3,0
+rpoA,a3,1
+aceA,a3,0
+hfq,a3,0
+yjgN,a3,0
+idnR,a3,0
+fimE,a3,0
+fimE,a3,0
+fimA,a3,0
+fimA,a3,0
+deoD,a3,0
+rob,a3,0
+lptD (imp),b1,0
+hepA,b1,0
+ftsZ,b1,0
+ecpD,b1,0
+afuC,b1,0
+tgt,b1,1
+apt,b1,0
+ybbP,b1,0
+folD,b1,1
+mrdA,b1,0
+rumB,b1,0
+ltaE,b1,0
+icd,b1,0
+ycgF,b1,0
+ariR(ymgB),b1,1
+narH,b1,0
+rnb,b1,1
+ycjM,b1,0
+paaE,b1,0
+hrpA,b1,0
+fdnG,b1,0
+pqqL,b1,0
+add,b1,0
+ydiL,b1,0
+chbC,b1,0
+yeaR,b1,0
+yeaS,b1,0
+cspC,b1,0
+yobF,b1,0
+yebG,b1,0
+hisG,b1,0
+wbbJ,b1,1
+mdtA,b1,0
+gatZ,b1,0
+dusC,b1,0
+yejM,b1,0
+purF,b1,0
+emrY,b1,0
+xseA,b1,0
+yfhM,b1,1
+emrA,b1,0
+rpoS,b1,0
+fucA,b1,1
+nupG,b1,0
+qseB,b1,0
+yqiG,b1,0
+yqiG,b1,0
+yqiH,b1,0
+rpoD,b1,0
+uxaA,b1,0
+prlF,b1,0
+sohA,b1,0
+rpoB,b1,1
+cpxA,b1,0
+cpxA,b1,0
+cpxA,b1,1
+rfaY,b1,0
+bcsB,b1,1
+gadX�gadE,b1,0
+gadX,b1,0
+gadX,b1,0
+gadX,b1,0
+yhiS,b1,0
+frlD,b1,0
+rpoA,b1,1
+aceA,b1,0
+hfq,b1,0
+yjgN,b1,0
+idnR,b1,0
+fimE,b1,0
+fimE,b1,0
+fimA,b1,0
+fimA,b1,0
+deoD,b1,0
+rob,b1,0
+lptD (imp),c1,0
+hepA,c1,0
+ftsZ,c1,0
+ecpD,c1,0
+afuC,c1,0
+tgt,c1,0
+apt,c1,0
+ybbP,c1,0
+folD,c1,1
+mrdA,c1,0
+rumB,c1,0
+ltaE,c1,0
+icd,c1,0
+ycgF,c1,0
+ariR(ymgB),c1,0
+narH,c1,0
+rnb,c1,0
+ycjM,c1,1
+paaE,c1,0
+hrpA,c1,0
+fdnG,c1,0
+pqqL,c1,0
+add,c1,0
+ydiL,c1,0
+chbC,c1,0
+yeaR,c1,0
+yeaS,c1,0
+cspC,c1,1
+yobF,c1,0
+yebG,c1,0
+hisG,c1,0
+wbbJ,c1,0
+mdtA,c1,0
+gatZ,c1,0
+dusC,c1,0
+yejM,c1,1
+purF,c1,0
+emrY,c1,0
+xseA,c1,0
+yfhM,c1,0
+emrA,c1,0
+rpoS,c1,0
+fucA,c1,0
+nupG,c1,0
+qseB,c1,0
+yqiG,c1,0
+yqiG,c1,0
+yqiH,c1,0
+rpoD,c1,0
+uxaA,c1,0
+prlF,c1,0
+sohA,c1,0
+rpoB,c1,0
+cpxA,c1,1
+cpxA,c1,0
+cpxA,c1,0
+rfaY,c1,1
+bcsB,c1,0
+gadX�gadE,c1,0
+gadX,c1,0
+gadX,c1,0
+gadX,c1,0
+yhiS,c1,0
+frlD,c1,1
+rpoA,c1,0
+aceA,c1,1
+hfq,c1,0
+yjgN,c1,0
+idnR,c1,0
+fimE,c1,1
+fimE,c1,0
+fimA,c1,1
+fimA,c1,0
+deoD,c1,0
+rob,c1,0
+lptD (imp),c3,0
+hepA,c3,0
+ftsZ,c3,0
+ecpD,c3,0
+afuC,c3,0
+tgt,c3,0
+apt,c3,0
+ybbP,c3,0
+folD,c3,2
+mrdA,c3,0
+rumB,c3,0
+ltaE,c3,0
+icd,c3,0
+ycgF,c3,0
+ariR(ymgB),c3,0
+narH,c3,0
+rnb,c3,0
+ycjM,c3,2
+paaE,c3,0
+hrpA,c3,0
+fdnG,c3,0
+pqqL,c3,0
+add,c3,0
+ydiL,c3,0
+chbC,c3,0
+yeaR,c3,0
+yeaS,c3,0
+cspC,c3,2
+yobF,c3,0
+yebG,c3,0
+hisG,c3,0
+wbbJ,c3,0
+mdtA,c3,0
+gatZ,c3,0
+dusC,c3,0
+yejM,c3,0
+purF,c3,0
+emrY,c3,0
+xseA,c3,0
+yfhM,c3,0
+emrA,c3,0
+rpoS,c3,0
+fucA,c3,0
+nupG,c3,0
+qseB,c3,0
+yqiG,c3,0
+yqiG,c3,0
+yqiH,c3,0
+rpoD,c3,0
+uxaA,c3,0
+prlF,c3,0
+sohA,c3,0
+rpoB,c3,0
+cpxA,c3,0
+cpxA,c3,0
+cpxA,c3,0
+rfaY,c3,2
+bcsB,c3,0
+gadX�gadE,c3,0
+gadX,c3,0
+gadX,c3,0
+gadX,c3,0
+yhiS,c3,0
+frlD,c3,2
+rpoA,c3,0
+aceA,c3,2
+hfq,c3,0
+yjgN,c3,0
+idnR,c3,0
+fimE,c3,2
+fimE,c3,0
+fimA,c3,2
+fimA,c3,0
+deoD,c3,0
+rob,c3,0
+lptD (imp),d5,0
+hepA,d5,0
+ftsZ,d5,0
+ecpD,d5,0
+afuC,d5,0
+tgt,d5,0
+apt,d5,0
+ybbP,d5,0
+folD,d5,1
+mrdA,d5,0
+rumB,d5,0
+ltaE,d5,0
+icd,d5,1
+ycgF,d5,0
+ariR(ymgB),d5,0
+narH,d5,0
+rnb,d5,0
+ycjM,d5,1
+paaE,d5,0
+hrpA,d5,0
+fdnG,d5,0
+pqqL,d5,0
+add,d5,0
+ydiL,d5,0
+chbC,d5,0
+yeaR,d5,0
+yeaS,d5,0
+cspC,d5,1
+yobF,d5,0
+yebG,d5,0
+hisG,d5,0
+wbbJ,d5,0
+mdtA,d5,0
+gatZ,d5,0
+dusC,d5,0
+yejM,d5,1
+purF,d5,0
+emrY,d5,0
+xseA,d5,0
+yfhM,d5,0
+emrA,d5,0
+rpoS,d5,0
+fucA,d5,0
+nupG,d5,0
+qseB,d5,0
+yqiG,d5,0
+yqiG,d5,0
+yqiH,d5,0
+rpoD,d5,0
+uxaA,d5,0
+prlF,d5,0
+sohA,d5,0
+rpoB,d5,0
+cpxA,d5,1
+cpxA,d5,0
+cpxA,d5,0
+rfaY,d5,1
+bcsB,d5,0
+gadX�gadE,d5,0
+gadX,d5,0
+gadX,d5,0
+gadX,d5,0
+yhiS,d5,0
+frlD,d5,1
+rpoA,d5,0
+aceA,d5,1
+hfq,d5,0
+yjgN,d5,0
+idnR,d5,0
+fimE,d5,1
+fimE,d5,0
+fimA,d5,0
+fimA,d5,1
+deoD,d5,0
+rob,d5,0
+lptD (imp),a5,0
+hepA,a5,2
+ftsZ,a5,0
+ecpD,a5,0
+afuC,a5,0
+tgt,a5,0
+apt,a5,0
+ybbP,a5,0
+folD,a5,0
+mrdA,a5,0
+rumB,a5,0
+ltaE,a5,0
+icd,a5,0
+ycgF,a5,0
+ariR(ymgB),a5,0
+narH,a5,0
+rnb,a5,0
+ycjM,a5,0
+paaE,a5,0
+hrpA,a5,0
+fdnG,a5,2
+pqqL,a5,0
+add,a5,0
+ydiL,a5,0
+chbC,a5,2
+yeaR,a5,0
+yeaS,a5,0
+cspC,a5,0
+yobF,a5,0
+yebG,a5,0
+hisG,a5,2
+wbbJ,a5,0
+mdtA,a5,0
+gatZ,a5,0
+dusC,a5,0
+yejM,a5,0
+purF,a5,0
+emrY,a5,0
+xseA,a5,0
+yfhM,a5,0
+emrA,a5,0
+rpoS,a5,0
+fucA,a5,0
+nupG,a5,0
+qseB,a5,0
+yqiG,a5,0
+yqiG,a5,0
+yqiH,a5,0
+rpoD,a5,0
+uxaA,a5,2
+prlF,a5,2
+sohA,a5,0
+rpoB,a5,0
+cpxA,a5,0
+cpxA,a5,0
+cpxA,a5,0
+rfaY,a5,0
+bcsB,a5,0
+gadX�gadE,a5,0
+gadX,a5,0
+gadX,a5,0
+gadX,a5,2
+yhiS,a5,0
+frlD,a5,0
+rpoA,a5,0
+aceA,a5,0
+hfq,a5,0
+yjgN,a5,0
+idnR,a5,0
+fimE,a5,0
+fimE,a5,0
+fimA,a5,0
+fimA,a5,0
+deoD,a5,0
+rob,a5,0
+lptD (imp),e1,0
+hepA,e1,0
+ftsZ,e1,0
+ecpD,e1,0
+afuC,e1,0
+tgt,e1,0
+apt,e1,2
+ybbP,e1,0
+folD,e1,2
+mrdA,e1,0
+rumB,e1,0
+ltaE,e1,0
+icd,e1,0
+ycgF,e1,0
+ariR(ymgB),e1,0
+narH,e1,0
+rnb,e1,0
+ycjM,e1,0
+paaE,e1,0
+hrpA,e1,0
+fdnG,e1,0
+pqqL,e1,0
+add,e1,0
+ydiL,e1,0
+chbC,e1,0
+yeaR,e1,0
+yeaS,e1,2
+cspC,e1,0
+yobF,e1,0
+yebG,e1,2
+hisG,e1,0
+wbbJ,e1,0
+mdtA,e1,0
+gatZ,e1,0
+dusC,e1,0
+yejM,e1,0
+purF,e1,0
+emrY,e1,0
+xseA,e1,0
+yfhM,e1,0
+emrA,e1,0
+rpoS,e1,0
+fucA,e1,0
+nupG,e1,0
+qseB,e1,0
+yqiG,e1,0
+yqiG,e1,0
+yqiH,e1,0
+rpoD,e1,0
+uxaA,e1,0
+prlF,e1,0
+sohA,e1,2
+rpoB,e1,0
+cpxA,e1,0
+cpxA,e1,0
+cpxA,e1,0
+rfaY,e1,0
+bcsB,e1,0
+gadX�gadE,e1,2
+gadX,e1,2
+gadX,e1,2
+gadX,e1,2
+yhiS,e1,0
+frlD,e1,0
+rpoA,e1,0
+aceA,e1,0
+hfq,e1,0
+yjgN,e1,0
+idnR,e1,2
+fimE,e1,0
+fimE,e1,2
+fimA,e1,0
+fimA,e1,0
+deoD,e1,0
+rob,e1,0
+lptD (imp),h1,0
+hepA,h1,0
+ftsZ,h1,0
+ecpD,h1,0
+afuC,h1,0
+tgt,h1,0
+apt,h1,0
+ybbP,h1,0
+folD,h1,0
+mrdA,h1,0
+rumB,h1,0
+ltaE,h1,1
+icd,h1,0
+ycgF,h1,0
+ariR(ymgB),h1,0
+narH,h1,0
+rnb,h1,0
+ycjM,h1,0
+paaE,h1,0
+hrpA,h1,1
+fdnG,h1,0
+pqqL,h1,1
+add,h1,1
+ydiL,h1,0
+chbC,h1,0
+yeaR,h1,1
+yeaS,h1,0
+cspC,h1,0
+yobF,h1,0
+yebG,h1,0
+hisG,h1,0
+wbbJ,h1,0
+mdtA,h1,1
+gatZ,h1,0
+dusC,h1,0
+yejM,h1,0
+purF,h1,0
+emrY,h1,0
+xseA,h1,0
+yfhM,h1,0
+emrA,h1,0
+rpoS,h1,0
+fucA,h1,0
+nupG,h1,1
+qseB,h1,0
+yqiG,h1,0
+yqiG,h1,0
+yqiH,h1,0
+rpoD,h1,1
+uxaA,h1,0
+prlF,h1,0
+sohA,h1,0
+rpoB,h1,0
+cpxA,h1,0
+cpxA,h1,0
+cpxA,h1,0
+rfaY,h1,0
+bcsB,h1,0
+gadX�gadE,h1,0
+gadX,h1,1
+gadX,h1,0
+gadX,h1,0
+yhiS,h1,0
+frlD,h1,0
+rpoA,h1,0
+aceA,h1,0
+hfq,h1,1
+yjgN,h1,1
+idnR,h1,0
+fimE,h1,0
+fimE,h1,0
+fimA,h1,0
+fimA,h1,0
+deoD,h1,0
+rob,h1,1
+lptD (imp),h3,0
+hepA,h3,0
+ftsZ,h3,0
+ecpD,h3,0
+afuC,h3,0
+tgt,h3,0
+apt,h3,0
+ybbP,h3,0
+folD,h3,0
+mrdA,h3,0
+rumB,h3,0
+ltaE,h3,1
+icd,h3,0
+ycgF,h3,0
+ariR(ymgB),h3,0
+narH,h3,1
+rnb,h3,0
+ycjM,h3,0
+paaE,h3,0
+hrpA,h3,1
+fdnG,h3,0
+pqqL,h3,1
+add,h3,1
+ydiL,h3,0
+chbC,h3,0
+yeaR,h3,1
+yeaS,h3,0
+cspC,h3,0
+yobF,h3,0
+yebG,h3,0
+hisG,h3,0
+wbbJ,h3,0
+mdtA,h3,1
+gatZ,h3,0
+dusC,h3,0
+yejM,h3,0
+purF,h3,0
+emrY,h3,0
+xseA,h3,0
+yfhM,h3,0
+emrA,h3,0
+rpoS,h3,0
+fucA,h3,0
+nupG,h3,1
+qseB,h3,0
+yqiG,h3,0
+yqiG,h3,0
+yqiH,h3,0
+rpoD,h3,1
+uxaA,h3,0
+prlF,h3,0
+sohA,h3,0
+rpoB,h3,0
+cpxA,h3,0
+cpxA,h3,0
+cpxA,h3,0
+rfaY,h3,0
+bcsB,h3,0
+gadX�gadE,h3,0
+gadX,h3,1
+gadX,h3,0
+gadX,h3,0
+yhiS,h3,0
+frlD,h3,0
+rpoA,h3,0
+aceA,h3,0
+hfq,h3,1
+yjgN,h3,1
+idnR,h3,0
+fimE,h3,0
+fimE,h3,0
+fimA,h3,0
+fimA,h3,0
+deoD,h3,0
+rob,h3,1
+lptD (imp),g3,0
+hepA,g3,0
+ftsZ,g3,0
+ecpD,g3,0
+afuC,g3,0
+tgt,g3,0
+apt,g3,0
+ybbP,g3,0
+folD,g3,0
+mrdA,g3,0
+rumB,g3,0
+ltaE,g3,1
+icd,g3,0
+ycgF,g3,0
+ariR(ymgB),g3,0
+narH,g3,1
+rnb,g3,0
+ycjM,g3,0
+paaE,g3,0
+hrpA,g3,1
+fdnG,g3,0
+pqqL,g3,1
+add,g3,1
+ydiL,g3,0
+chbC,g3,0
+yeaR,g3,1
+yeaS,g3,0
+cspC,g3,0
+yobF,g3,0
+yebG,g3,0
+hisG,g3,0
+wbbJ,g3,0
+mdtA,g3,1
+gatZ,g3,0
+dusC,g3,0
+yejM,g3,0
+purF,g3,0
+emrY,g3,0
+xseA,g3,0
+yfhM,g3,0
+emrA,g3,0
+rpoS,g3,0
+fucA,g3,0
+nupG,g3,1
+qseB,g3,0
+yqiG,g3,0
+yqiG,g3,0
+yqiH,g3,0
+rpoD,g3,1
+uxaA,g3,0
+prlF,g3,0
+sohA,g3,0
+rpoB,g3,0
+cpxA,g3,0
+cpxA,g3,0
+cpxA,g3,0
+rfaY,g3,0
+bcsB,g3,0
+gadX�gadE,g3,0
+gadX,g3,1
+gadX,g3,0
+gadX,g3,0
+yhiS,g3,0
+frlD,g3,0
+rpoA,g3,0
+aceA,g3,0
+hfq,g3,1
+yjgN,g3,1
+idnR,g3,0
+fimE,g3,0
+fimE,g3,0
+fimA,g3,0
+fimA,g3,0
+deoD,g3,0
+rob,g3,1
+lptD (imp),g5,0
+hepA,g5,0
+ftsZ,g5,0
+ecpD,g5,0
+afuC,g5,0
+tgt,g5,0
+apt,g5,0
+ybbP,g5,0
+folD,g5,0
+mrdA,g5,0
+rumB,g5,0
+ltaE,g5,0
+icd,g5,0
+ycgF,g5,0
+ariR(ymgB),g5,0
+narH,g5,0
+rnb,g5,0
+ycjM,g5,0
+paaE,g5,0
+hrpA,g5,0
+fdnG,g5,0
+pqqL,g5,0
+add,g5,0
+ydiL,g5,0
+chbC,g5,0
+yeaR,g5,0
+yeaS,g5,0
+cspC,g5,0
+yobF,g5,0
+yebG,g5,0
+hisG,g5,0
+wbbJ,g5,0
+mdtA,g5,0
+gatZ,g5,0
+dusC,g5,0
+yejM,g5,0
+purF,g5,0
+emrY,g5,0
+xseA,g5,0
+yfhM,g5,0
+emrA,g5,0
+rpoS,g5,0
+fucA,g5,0
+nupG,g5,0
+qseB,g5,0
+yqiG,g5,0
+yqiG,g5,0
+yqiH,g5,0
+rpoD,g5,0
+uxaA,g5,0
+prlF,g5,0
+sohA,g5,0
+rpoB,g5,0
+cpxA,g5,0
+cpxA,g5,0
+cpxA,g5,0
+rfaY,g5,0
+bcsB,g5,0
+gadX�gadE,g5,0
+gadX,g5,0
+gadX,g5,0
+gadX,g5,0
+yhiS,g5,0
+frlD,g5,0
+rpoA,g5,0
+aceA,g5,0
+hfq,g5,0
+yjgN,g5,0
+idnR,g5,0
+fimE,g5,0
+fimE,g5,0
+fimA,g5,0
+fimA,g5,0
+deoD,g5,0
+rob,g5,0

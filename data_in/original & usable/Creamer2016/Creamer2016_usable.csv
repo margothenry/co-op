@@ -1,129 +1,111 @@
-ï»¿JLS,K0001,K0011,K0002,K0003,K0014,K0015,KB026,K0022,K0023,K0006,K0007,K0010,K0020,K0019,K0031,K0030,Mutation,Annotation,Gene,Description,,,
-"29,617",0.00,1.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,Aâ†’G,intergenicÂ (+422/â€‘34),dapB/carA,"4-hydroxy-tetrahydrodipicolinate reductase/carbamoyl phosphate synthetase small subunit, glutamine amidotransferase",,,
-"56,273",1.00,1.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,Gâ†’A,L279LÂ (CTCâ†’CTT)Â ,lptD,"exported protein required for envelope biosynthesis and integrity, outer membrane lipopolysaccharide transport and assembly complex",,,
-"62,682",0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,1.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,+G,codingÂ (583/2907Â nt),hepA,RNA polymeraseâ€‘associated helicase protein,,,
-"89,166",0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,IS5Â (+)Â +4Â bp,intergenicÂ (+134/â€‘465),fruR/Â mraZ,DNAâ€‘binding transcriptional dual regulator/DNA-binding transcriptional repressor,,,
-"105,411",0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,0.00,0.00,0.00,0.00,0.00,0.00,Gâ†’A,G36DÂ (GGTâ†’GAT)Â ,ftsZ,GTPâ€‘binding tubulinâ€‘like cell division protein,,,
-"156,056",0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,Tâ†’G,N49TÂ (AATâ†’ACT)Â ,ecpD,periplasmic pilin chaperone,,,
-"277,827",0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,Câ†’G,G67AÂ (GGCâ†’GCC)Â ,afuCÂ ,ferric transporter subunit,,,
-"310,704",0.00,0.00,1.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,(T)8â†’7,intergenicÂ (â€‘144/â€‘632),ykgKÂ /Â ykgL,regulator/hypothetical protein,,,
-"425,800",0.00,0.00,1.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,Câ†’T,P147LÂ (CCGâ†’CTG)Â ,tgt,tRNAâ€‘guanine transglycosylase,,,
-"444,525",0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,1.00,0.00,0.00,0.00,0.00,0.00,Tâ†’G,intergenicÂ (+127/+1),yajQÂ /yajR,nucleotide binding protein/transporter,,,
-"490,544",0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,1.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,Î”6Â bp,intergenicÂ (+61/â€‘87),ybaN/apt,inner membrane protein/adenine phosphoribosyltransferase,,,
-"490,998",0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,1.00,0.00,0.00,0.00,0.00,0.00,Î”1Â bp,codingÂ (363/552Â nt),apt,adenine phosphoribosyltransferase,,,
-"520,989",0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,0.00,0.00,0.00,0.00,0.00,0.00,Gâ†’T,P450PÂ (CCGâ†’CCT)Â ,ybbP,inner membrane protein,,,
-"556,778",1.00,1.00,1.00,1.00,1.00,1.00,1.00,0.00,0.00,1.00,1.00,0.00,0.00,0.00,0.00,0.00,Aâ†’C,F63VÂ (TTCâ†’GTC)Â ,folD,"bifunctional 5,10â€‘methyleneâ€‘tetrahydrofolate dehydrogenase/5,10â€‘methyleneâ€‘tetrahydrofolate cyclohydrolase",,,
-"573,671",0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,1.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,Tâ†’A,intergenicÂ (+109/+289),ybcQ/Â insH,antitermination protein/IS5 transposase and transâ€‘activator,,,
-"666,783",0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,Aâ†’T,D619EÂ (GATâ†’GAA)Â ,mrdA,transpeptidase involved in peptidoglycan synthesis,,,
-"683,143",0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,1.00,1.00,1.00,0.00,"Î”5,116Â bp",insH-3 IS5â€‘mediated,[hscC]â€“gltI,"[hscC], rihA, gltL, gltK, gltJ, gltI",,,
-"755,210",0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,IS5 +8bp,intergenic (+147/â€‘374),gltA/ sdhC,citrate synthase/succinate dehydrogenase cytochrome b556 large membrane subunit,,,
-"899,330",0.00,0.00,0.00,0.00,0.00,1.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,+C,codingÂ (391/1128Â nt),rumB,23S rRNA m(5)U747 methyltransferase,,,
-"909,411",0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,1.00,1.00,1.00,0.00,Gâ†’A,P102PÂ (CCCâ†’CCT)Â ,ltaE,"Lâ€‘alloâ€‘threonine aldolase, PLPâ€‘dependent",,,
-"991,031",0.00,0.00,0.00,1.00,1.00,1.00,1.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,IS5Â (â€“)Â +4Â bp,intergenicÂ (â€‘253/â€‘10),pncB/pepN,nicotinate phosphoribosyltransferase/aminopeptidase N,,,
-"1,197,854",0.00,0.00,0.00,0.00,0.00,0.00,1.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,Câ†’T,N385NÂ (AACâ†’AAT)Â ,icd,"isocitrate dehydrogenase,â€‘specific for NADP+",,,
-"1,213,665",1.00,1.00,1.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,(C)8â†’9,intergenicÂ (â€‘85/+615),elbAÂ /ycgX,hypothetical protein/hypothetical protein,,,
-"1,215,890",0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,0.00,0.00,0.00,0.00,0.00,IS5 (+)Â +4Â bp,codingÂ (1160â€‘1163/1212Â nt),ycgF,FADâ€‘binding phosphodiesterase,,,
-"1,218,024",1.00,1.00,1.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,IS5Â (+)Â +4Â bp,codingÂ (79â€‘82/267Â nt),ariR (ymgB)Â ,acid stress activator of Gad; associated with biofilm,,,
-"1,285,522",0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,1.00,0.00,0.00,Gâ†’T,A114AÂ (GCGâ†’GCT)Â ,narH,"nitrate reductase 1, beta (Feâ€‘S) subunit",,,
-"1,337,160",0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,1.00,1.00,1.00,0.00,Gâ†’A,intergenicÂ (+617/â€‘385),cysBÂ /acnA,DNAâ€‘binding transcriptional dual regulator/aconitate hydratase 1,,,
-"1,349,606",1.00,1.00,1.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,IS5 +5 bp,codingÂ (1021/1935Â nt),rnb ,exoribonuclease 2,,,
-"1,372,264",0.00,0.00,0.00,1.00,1.00,1.00,1.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,Aâ†’G,E112GÂ (GAGâ†’GGG)Â ,ycjM,glucosyltransferase,,,
-"1,459,205",0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,Gâ†’A,G354GÂ (GGGâ†’GGA)Â ,paaE,multicomponent oxygenase/reductase subunit for phenylacetic acid degradation,,,
-"1,485,978",0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,1.00,1.00,1.00,0.00,Câ†’A,R383SÂ (CGTâ†’AGT)Â ,hrpA,ATPâ€‘dependent helicase,,,
-"1,549,542",0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,1.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,IS5 (â€“)Â +4Â bp,codingÂ (428â€‘431/3048Â nt),fdnG,"formate dehydrogenaseâ€‘N subunit alpha, nitrateâ€‘inducible",,,
-"1,553,926",0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,1.00,1.00,1.00,0.00,Tâ†’C,intergenicÂ (+221/+186),fdnI/yddM,"formate dehydrogenaseâ€‘N, cytochrome B556 (gamma) subunit, nitrateâ€‘inducible/DNAâ€‘binding transcriptional regulator",,,
-"1,565,001",0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,1.00,0.00,0.00,0.00,0.00,0.00,Aâ†’G,intergenicÂ (â€‘211/+47),ddpXÂ /dos,"Dâ€‘Alaâ€‘Dâ€‘Ala dipeptidase, Znâ€‘dependent/cAMP phosphodiesterase, hemeâ€‘regulated",,,
-"1,574,188",0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,1.00,1.00,1.00,0.00,IS5Â (+)Â +4Â bp,codingÂ (2726â€‘2729/2796Â nt),pqqL,peptidase,,,
-"1,592,479",0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,1.00,1.00,1.00,0.00,Câ†’A,intergenicÂ (â€‘229/+89),yneL/Â hipA,transcriptional regulator/regulator with hipB,,,
-"1,618,943",0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,1.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,"Î”6,115Â bp",coding inclusive deletion,[ydeA]â€“[ydeH],"[ydeA], marC, marR, marA, marB, eamA, ydeE, [ydeH]",,,
-"1,704,037",0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,1.00,1.00,1.00,0.00,Î”1Â bp,codingÂ (91/1002Â nt),add,adenosine deaminase,,,
-"1,772,079",0.00,0.00,0.00,0.00,1.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,IS5 +4 bp,intergenicÂ (+179/â€‘250),ydiK/ ydiL,hypothetical protein/HTH domain DNAâ€‘binding protein,,,
-"1,772,682",0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,0.00,0.00,0.00,0.00,0.00,IS5Â (â€“)Â +4Â bp,codingÂ (354â€‘357/357Â nt),ydiL,hypothetical protein,,,
-"1,822,769",0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,1.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,IS5 +4 bp,codingÂ (160/1359Â nt),chbC,"N,N'â€‘diacetylchitobiose permease IIC component",,,
-"1,881,543",0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,1.00,1.00,1.00,0.00,IS186/IS421Â (+)Â +6Â bp,codingÂ (115â€‘120/360Â nt),yeaR,hypothetical protein,,,
-"1,882,210",0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,1.00,0.00,0.00,0.00,0.00,0.00,Gâ†’A,L88LÂ (CTCâ†’CTT)Â ,yeaS,neutral aminoâ€‘acid efflux system,,,
-"1,908,956",0.00,0.00,0.00,1.00,1.00,1.00,1.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,IS5Â (â€“)Â +4Â bp,codingÂ (191â€‘194/210Â nt),cspC,"stress protein, member of the CspAâ€‘family",,,
-"1,909,258",0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,IS1Â (+)Â +9Â bp,codingÂ (40â€‘48/144Â nt),yobF,hypothetical protein,,,
-"1,932,183",0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,1.00,0.00,0.00,0.00,0.00,0.00,Î”1Â bp,codingÂ (279/291Â nt),yebG,hypothetical protein,,,
-"2,093,073",0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,1.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,Gâ†’A,E249KÂ (GAAâ†’AAA)Â ,hisG,ATP phosphoribosyltransferase,,,
-"2,107,019",0.00,0.00,1.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,(A)9â†’8,codingÂ (203/591Â nt),wbbJ,acyl transferase,,,
-"2,156,723",0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,1.00,1.00,1.00,0.00,Câ†’A,L191MÂ (CTGâ†’ATG)Â ,mdtA,"multidrug efflux system, subunit A",,,
-"2,179,217",0.00,0.00,0.00,0.00,0.00,1.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,Î”5Â bp,codingÂ (435â€‘439/1263Â nt),gatZ,"Dâ€‘tagatose 1,6â€‘bisphosphate aldolase 2, subunit",,,
-"2,233,458",0.00,1.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,gatA-insH IS5Â (+)Â +4Â bp,codingÂ (259â€‘262/948Â nt),dusC,tRNAâ€‘dihydrouridine synthase C,,,
-"2,288,259",0.00,0.00,0.00,1.00,0.00,0.00,1.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,(TTATCGCCT)2â†’3,codingÂ (550/1761Â nt),yejM,"hydrolase, inner membrane",,,
-"2,434,645",0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,0.00,0.00,0.00,0.00,0.00,0.00,Aâ†’T,V347EÂ (GTGâ†’GAG)Â ,purF,amidophosphoribosyltransferase,,,
-"2,447,095",0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,1.00,1.00,1.00,0.00,Câ†’T,intergenicÂ (â€‘44/â€‘115),fabB/Â trmC,3â€‘oxoacylâ€‘[acylâ€‘carrierâ€‘protein] synthase I/bifunctional 5â€‘methylaminomethylâ€‘2â€‘thiouridine forming enzyme methyltransferase and FADâ€‘dependent demodification enzyme,,,
-"2,487,190",0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,0.00,0.00,0.00,0.00,0.00,0.00, IS5Â (+)Â +4Â bp,codingÂ (430â€‘433/1539Â nt),emrY,multidrug efflux system,,,
-"2,634,172",0.00,0.00,0.00,0.00,0.00,1.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,IS5 +4 bp,codingÂ (1285/1371Â nt),xseA,exodeoxyribonuclease 7 large subunit,,,
-"2,646,569",1.00,1.00,1.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,Câ†’A,E1459*Â (GAGâ†’TAG)Â ,yfhM,hypothetical protein,,,
-"2,739,952",0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,Câ†’A,intergenicÂ (â€‘146/â€‘64),aroF/yfiL,"3â€‘deoxyâ€‘Dâ€‘arabinoâ€‘heptulosonateâ€‘7â€‘phosphate synthase, tyrosineâ€‘repressible/hypothetical protein",,,
-"2,810,717",0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,IS2Â (â€“)Â +5Â bp,codingÂ (635â€‘639/1173Â nt),emrA,multidrug efflux system,,,
-"2,865,825",0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,Aâ†’T,I89NÂ (ATCâ†’AAC)Â ,rpoS,"RNA polymerase, sigma S (sigma 38) factor",,,
-"2,931,775",1.00,1.00,1.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,Câ†’A,P190PÂ (CCGâ†’CCT)Â ,fucA,Lâ€‘fuculoseâ€‘1â€‘phosphate aldolase,,,
-"3,104,794",0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,1.00,1.00,1.00,0.00,Gâ†’A,G142DÂ (GGCâ†’GAC)Â ,nupG,nucleoside transporter,,,
-"3,169,126",0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,Aâ†’C,T215PÂ (ACAâ†’CCA)Â ,qseB,DNAâ€‘binding response regulator in twoâ€‘component regulatory system with QseC,,,
-"3,187,655",0.00,0.00,0.00,0.00,1.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,IS5Â (â€“)Â +4Â bp,codingÂ (1600â€‘1603/2466Â nt),yqiG,outer membrane usher protein,,,
-"3,189,138",0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,IS5Â (+)Â +4Â bp,codingÂ (602â€‘605/750Â nt),yqiH,periplasmic pilin chaperone,,,
-"3,212,340",0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,1.00,1.00,1.00,0.00,Aâ†’C,D213AÂ (GACâ†’GCC)Â ,rpoD,"RNA polymerase, sigma 70 (sigma D) factor",,,
-"3,226,437",0.00,0.00,0.00,0.00,0.00,1.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,IS5Â (â€“)Â +4Â bp,intergenicÂ (+114/â€‘17),ygjIÂ /ygjJ,transporter/hypothetical protein,,,
-"3,241,721",0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,1.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,Gâ†’T,L84MÂ (CTGâ†’ATG)Â ,uxaA,altronate hydrolase,,,
-"3,277,113",0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,1.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,INDEL +5 bp,codingÂ (257/336Â nt),prlF,antitoxin PrlF,,,
-"3,277,128",0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,1.00,0.00,0.00,0.00,0.00,0.00,(TTCAACA)2â†’3,codingÂ (272/336Â nt),sohA,regulator,,,
-"3,454,320",1.00,1.00,1.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,Câ†’T,G373SÂ (GGCâ†’AGC)Â ,rpoB,RNA polymerase subunit beta,,,
-"3,532,025",1.00,1.00,1.00,1.00,0.00,0.00,1.00,0.00,0.00,0.00,1.00,0.00,0.00,0.00,0.00,0.00,Aâ†’G,N107SÂ (AACâ†’AGC)Â ,cpxA,sensory histidine kinase in twoâ€‘component regulatory system with CpxR,,,
-"3,840,032",0.00,0.00,0.00,1.00,1.00,1.00,1.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,IS5Â (â€“)Â +4Â bp,codingÂ (583â€‘586/699Â nt),rfaY,lipopolysaccharide core biosynthesis protein,,,
-"3,909,304",0.00,0.00,0.00,1.00,1.00,1.00,1.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,IS5Â (+)Â +4Â bp,intergenicÂ (â€‘20/â€‘343),xylFÂ /Â xylA,Dâ€‘xylose transporter subunit/Dâ€‘xylose isomerase,,,
-"3,948,766",1.00,1.00,1.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,Gâ†’A,R320HÂ (CGTâ†’CAT)Â ,bcsB,"regulator of cellulose synthase, cyclic diâ€‘GMP binding",,,
-"3,974,240",0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,0.00,0.00,0.00,0.00,0.00,0.00,"Î”14,146Â bp",insH IS5-mediated,gadXâ€“[yhiS],"gadX, gadW, mdtF, mdtE, gadE, hdeD, hdeA, hdeB, yhiD, yhiF, slp, insH, [yhiS]",,,
-"3,974,244",0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,0.00,0.00,0.00,0.00,0.00,"Î”7,921Â bp",insH IS5-mediated,gadXâ€“gadE,"gadX, gadW, mdtF, mdtE, gadE",,,
-"3,974,646",0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,1.00,0.00,0.00,1.00,1.00,1.00,1.00,1.00,Î”78Â bp,codingÂ (42â€‘119/825Â nt),gadX,DNAâ€‘binding transcriptional dual regulator,,,
-"3,976,435",1.00,1.00,1.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,"Î”10,738Â bp",insHâ€‘mediated,[gadW]â€“slp,"[gadW], mdtF, mdtE, gadE, hdeD, hdeA, hdeB, yhiD, yhiF, slp",,,
-"3,986,969",0.00,0.00,0.00,0.00,1.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,Î”204Â bp,insHâ€‘mediated,slpÂ /Â insH,outer membrane lipoprotein/IS5 transposase and transâ€‘activator,,,
-"3,988,392",0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,0.00,1.00,0.00,0.00,0.00,0.00,0.00,Î”443Â bp,insHâ€‘mediated,yhiS,hypothetical protein,,,
-"3,988,392",0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,0.00,0.00,0.00,0.00,0.00,"Î”1,268Â bp",insHâ€‘mediated,[yhiS],[yhiS],,,
-"4,114,118",0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,1.00,1.00,1.00,0.00,Câ†’A,intergenicÂ (â€‘171/â€‘149),yrfF/nudE,inner membrane protein/ADPâ€‘ribose diphosphatase,,,
-"4,136,677",0.00,0.00,0.00,1.00,1.00,1.00,1.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,Gâ†’T,V191VÂ (GTCâ†’GTA)Â ,frlD,fructoselysine 6â€‘kinase,,,
-"4,200,197",1.00,1.00,1.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,Aâ†’C,K271QÂ (AAAâ†’CAA)Â ,rpoA,RNA polymerase subunit alpha,,,
-"4,218,986",0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,1.00,0.00,0.00,0.00,0.00,0.00,IS5Â (â€“)Â +4Â bp,intergenicÂ (+187/â€‘79),metAÂ /aceB,homoserine transsuccinylase/malate synthase A,,,
-"4,221,755",0.00,0.00,0.00,1.00,1.00,1.00,1.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,Gâ†’A,A353TÂ (GCAâ†’ACA)Â ,aceA,isocitrate lyase,,,
-"4,297,865",0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,1.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,+T,intergenicÂ (+136/â€‘206),nrfGÂ /gltP,"heme lyase (NrfEFG) for insertion of heme into c552, subunit NrfG/glutamate/aspartate:proton symporter",,,
-"4,397,136",0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,1.00,1.00,1.00,0.00,Aâ†’G,intergenicÂ (+21/â€‘16),glyVÂ /Â glyX,tRNAâ€‘Gly/tRNAâ€‘Gly,,,
-"4,405,094",0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,1.00,1.00,1.00,0.00,Gâ†’A,V43MÂ (GTGâ†’ATG)Â ,hfq,"HFâ€‘I, host factor for RNA phage Q beta replication",,,
-"4,470,927",0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,0.00,0.00,0.00,0.00,Gâ†’A,intergenicÂ (â€‘67/+52),treB/Â treR,PTS system fused trehalose(maltose)â€‘specific transporter subunit IIBC/DNAâ€‘binding transcriptional repressor,,,
-"4,485,284",0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,1.00,1.00,1.00,0.00,IS5Â (â€“)Â +4Â bp,codingÂ (875â€‘878/1197Â nt),yjgN,inner membrane protein,,,
-"4,495,464",0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,1.00,0.00,0.00,0.00,0.00,0.00,IS5Â (+)Â +4Â bp,codingÂ (353â€‘356/999Â nt),idnR,DNAâ€‘binding transcriptional repressor,,,
-"4,544,235",0.00,0.00,0.00,1.00,0.00,0.00,1.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,IS5Â (+)Â +4Â bp,intergenicÂ (â€‘54/â€‘1399),yjhA/Â fimB,Nâ€‘acetylnuraminic acid outer membrane channel protein/tyrosine recombinase/inversion of on/off regulator of fimA,,,
-"4,546,700",0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,IS5Â (â€“)Â +4Â bp,intergenicÂ (+461/â€‘14),fimBÂ /fimE,tyrosine recombinase/inversion of on/off regulator of fimA/tyrosine recombinase/inversion of on/off regulator of fimA,,,
-"4,546,841",0.00,0.00,0.00,1.00,1.00,1.00,1.00,0.00,0.00,1.00,1.00,0.00,0.00,0.00,0.00,0.00,insH IS5Â (â€“)Â +4Â bp,codingÂ (125â€‘128/597Â nt),fimE,tyrosine recombinase/inversion of on/off regulator of fimA,,,
-"4,547,650",0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,1.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,Î”1Â bp,intergenicÂ (+337/â€‘145),fimE/fimA,tyrosine recombinase/inversion of on/off regulator of fimA/major type 1 subunit fimbrin,,,
-"4,547,860",0.00,0.00,0.00,1.00,1.00,1.00,1.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,(TCCCTCAGTTCTACAGCGGCTCTG)1â†’2,codingÂ (66/549Â nt),fimA,major type 1 subunit fimbrin,,,
-"4,626,165",0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,Câ†’G,C201WÂ (TGCâ†’TGG)Â ,deoD,purineâ€‘nucleoside phosphorylase,,,
-"4,639,891",0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,1.00,1.00,1.00,0.00,Aâ†’G,S34PÂ (TCCâ†’CCC)Â ,rob,DNAâ€‘binding transcriptional activator,,,
-,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,
+A1-1,A3-1,B1-1,C1-1,C3-1,C3-2,D5-1,A5-1,A5-2,E1-1,E1-2,H1-1,H3-1,G3-1,G5-2,G5-1,Details,Gene (name uncleaned),Gene
+,1,,,,,,,,,,,,,,,intergenic,dapB  /  carA,dapB / carA
+1,1,,,,,,,,,,,,,,,L279L (CTC CTT) ,lptD (imp),lptD (imp)
+,,,,,,,1,1,,,,,,,,coding (583/2907 nt),hepA,hepA
+,,,,,,,,1,,,,,,,,intergenic,fruR  /  mraZ,fruR / mraZ
+,,,,,,,,,1,,,,,,,G36D (GGT GAT) ,ftsZ ,ftsZ
+,,,,,,,,,,,,,,,1,N49T (AAT ACT) ,ecpD ,ecpD
+,,,,,,,,1,,,,,,,,G67A (GGC GCC) ,afuC ,afuC
+,,1,,,,,,,,,,,,,,intergenic,ykgK  /  ykgL,ykgK / ykgL
+,,1,,,,,,,,,,,,,,P147L (CCG CTG) ,tgt ,tgt
+,,,,,,,,,1,1,,,,,,intergenic,yajQ  /  yajR,yajQ / yajR
+,,,,,,,1,1,,,,,,,,intergenic,ybaN  /  apt,ybaN / apt
+,,,,,,,,,1,1,,,,,,coding (363/552 nt),apt ,apt
+,,,,,,,,,1,,,,,,,P450P (CCG CCT) ,ybbP ,ybbP
+1,1,1,1,1,1,1,,,1,1,,,,,,F63V (TTC GTC) ,folD ,folD
+,,,,,,,1,1,,,,,,,,intergenic,ybcQ  /  insH,ybcQ / insH
+,,,,,,,,,,,,,,,1,D619E (GAT GAA) ,mrdA ,mrdA
+,,,,,,,,,,,1,1,1,1,,insH-3 IS5 mediated,[hscC]–gltI,[hscC]–gltI
+,,,,,,,,,,,,,,1,1,intergenic,gltA/sdhC,gltA/sdhC
+,,,,,1,,,,,,,,,,,coding (391/1128 nt),rumB ,rumB
+,,,,,,,,,,,1,1,1,1,,P102P (CCC CCT) ,ltaE ,ltaE
+,,,1,1,1,1,,,,,,,,,,intergenic,pncB  /  pepN,pncB / pepN
+,,,,,,1,,,,,,,,,,N385N (AAC AAT) ,icd ,icd
+1,1,1,,,,,,,,,,,,,,intergenic,elbA  /  ycgX,elbA / ycgX
+,,,,,,,,,,1,,,,,,coding (1160 1163/1212 nt),ycgF ,ycgF
+1,1,1,,,,,,,,,,,,,,coding (79 82/267 nt),ariR(ymgB) ,ariR(ymgB)
+,,,,,,,,,,,,1,1,,,A114A (GCG GCT) ,narH ,narH
+,,,,,,,,,,,1,1,1,1,,intergenic,cysB  /  acnA,cysB / acnA
+1,1,1,,,,,,,,,,,,,,coding (1021/1935 nt),rnb,rnb
+,,,1,1,1,1,,,,,,,,,,E112G (GAG GGG) ,ycjM ,ycjM
+,,,,,,,,,,,,,,,1,G354G (GGG GGA) ,paaE ,paaE
+,,,,,,,,,,,1,1,1,1,,R383S (CGT AGT) ,hrpA ,hrpA
+,,,,,,,1,1,,,,,,,,coding (428 431/3048 nt),fdnG ,fdnG
+,,,,,,,,,,,1,1,1,,,intergenic,fdnI  /  yddM,fdnI / yddM
+,,,,,,,,,,,1,1,1,1,,intergenic,fdnI  /  yddM,fdnI / yddM
+,,,,,,,,,1,1,,,,,,intergenic,ddpX  /  dos,ddpX / dos
+,,,,,,,,,,,1,1,1,1,,coding (2726 2729/2796 nt),pqqL ,pqqL
+,,,,,,,,,,,1,1,1,1,,intergenic,yneL  /  hipA,yneL / hipA
+,,,,,,,1,1,,,,,,,,coding inclusive deletion,[ydeA]–[ydeH],[ydeA]–[ydeH]
+,,,,,,,,,,,1,1,1,1,,coding (91/1002 nt),add ,add
+,,,,1,,,,,,,,,,,,intergenic,ydiK/ydiL,ydiK/ydiL
+,,,,,,,,,,1,,,,,,coding (354 357/357 nt),ydiL ,ydiL
+,,,,,,,1,1,,,,,,,,coding (160/1359 nt),chbC,chbC
+,,,,,,,,,,,1,1,1,1,,coding (115 120/360 nt),yeaR ,yeaR
+,,,,,,,,,1,1,,,,,,L88L (CTC CTT) ,yeaS ,yeaS
+,,,1,1,1,1,,,,,,,,,,coding (191 194/210 nt),cspC ,cspC
+,,,,,,,1,,,,,,,,,coding (40 48/144 nt),yobF ,yobF
+,,,,,,,,,1,1,,,,,,coding (279/291 nt),yebG ,yebG
+,,,,,,,1,1,,,,,,,,E249K (GAA AAA) ,hisG ,hisG
+,,1,,,,,,,,,,,,,,coding (203/591 nt),wbbJ ,wbbJ
+,,,,,,,,,,,1,1,1,1,,L191M (CTG ATG) ,mdtA ,mdtA
+,,,,,1,,,,,,,,,,,coding (435 439/1263 nt),gatZ ,gatZ
+,1,,,,,,,,,,,,,,,coding (259 262/948 nt),dusC ,dusC
+,,,1,,,1,,,,,,,,,,coding (550/1761 nt),yejM ,yejM
+,,,,,,,,,1,,,,,,,V347E (GTG GAG) ,purF ,purF
+,,,,,,,,,,,1,1,1,1,,intergenic,fabB  /  trmC,fabB / trmC
+,,,,,,,,,1,,,,,,,coding (430 433/1539 nt),emrY ,emrY
+,,,,,1,,,,,,,,,,,coding (1285/1371 nt),xseA,xseA
+1,1,1,,,,,,,,,,,,,,E1459* (GAG TAG) ,yfhM ,yfhM
+,,,,,,,,,,,,,,,1,intergenic,aroF  /  yfiL,aroF / yfiL
+,,,,,,,,,,,,,,,1,coding (635 639/1173 nt),emrA ,emrA
+,,,,,,,,,,,,,,,1,I89N (ATC AAC) ,rpoS ,rpoS
+1,1,1,,,,,,,,,,,,,,P190P (CCG CCT) ,fucA ,fucA
+,,,,,,,,,,,1,1,1,1,,G142D (GGC GAC) ,nupG ,nupG
+,,,,,,,,,,,,,,,1,T215P (ACA CCA) ,qseB ,qseB
+,,,,1,,,,,,,,,,,,coding (1600 1603/2466 nt),yqiG ,yqiG
+,,,,,,,,,,,,,,,1,coding (2305 2308/2466 nt),yqiG ,yqiG
+,,,,,,,,,,,,,,,1,coding (602 605/750 nt),yqiH ,yqiH
+,,,,,,,,,,,1,1,1,1,,D213A (GAC GCC) ,rpoD ,rpoD
+,,,,,1,,,,,,,,,,,intergenic,ygjI  /  ygjJ,ygjI / ygjJ
+,,,,,,,1,1,,,,,,,,L84M (CTG ATG) ,uxaA ,uxaA
+,,,,,,,1,1,,,,,,,,coding (257/336 nt),prlF,prlF
+,,,,,,,,,1,1,,,,,,coding (272/336 nt),sohA ,sohA
+1,1,1,,,,,,,,,,,,,,G373S (GGC AGC) ,rpoB ,rpoB
+,,,1,,,1,,,,,,,,,,G92S (GGC AGC) ,cpxA ,cpxA
+,,,,,,,,,,1,,,,,,R106L (CGT CTT) ,cpxA ,cpxA
+1,1,1,,,,,,,,,,,,,,N107S (AAC AGC) ,cpxA ,cpxA
+,,,1,1,1,1,,,,,,,,,,coding (583 586/699 nt),rfaY ,rfaY
+,,,1,1,1,1,,,,,,,,,,intergenic,xylF  /  xylA,xylF / xylA
+1,1,1,,,,,,,,,,,,,,R320H (CGT CAT) ,bcsB ,bcsB
+,,,,,,,,,1,,,,,,,insH IS5-mediated,gadX–[yhiS],gadX–[yhiS]
+,,,,,,,,,1,1,,,,,,insH IS5-mediated,gadX–gadE,gadX–gadE
+,,,,,,,,,1,1,1,1,1,1,,coding (42 119/825 nt),gadX ,gadX
+,,,,,,,,,1,1,,,,,1,L199F (TTG TTT) ,gadX ,gadX
+,,,,,,,1,1,1,1,,,,,,coding (626 629/825 nt),gadX ,gadX
+1,1,1,,,,,,,1,,,,,,,insH mediated,[gadW]–slp,[gadW]–slp
+1,1,1,,1,,,,,,,,,,,,insH mediated,slp  /  insH,slp / insH
+,,,,,,,,1,,1,,,,,,insH mediated,yhiS ,yhiS
+,,,,,,,,,,1,,,,,,insH mediated,[yhiS],[yhiS]
+,,,,,,,,,,,1,1,1,1,,intergenic,yrfF  /  nudE,yrfF / nudE
+,,,1,1,1,1,,,,,,,,,,V191V (GTC GTA) ,frlD ,frlD
+1,1,1,,,,,,,,,,,,,,K271Q (AAA CAA) ,rpoA ,rpoA
+,,,,,,,,,1,1,,,,,,intergenic,metA  /  aceB,metA / aceB
+,,,1,1,1,1,,,,,,,,,,A353T (GCA ACA) ,aceA ,aceA
+,,,,,,,1,1,,,,,,,,intergenic,nrfG  /  gltP,nrfG / gltP
+,,,,,,,,,,,1,1,1,,,intergenic,glyV  /  glyX,glyV / glyX
+,,,,,,,,,,,1,1,1,1,,intergenic,glyV  /  glyX,glyV / glyX
+,,,,,,,,,,,1,1,1,1,,intergenic,glyV  /  glyX,glyV / glyX
+,,,,,,,,,,,1,1,1,1,,V43M (GTG ATG) ,hfq ,hfq
+,,,,,,,,,,,1,,,,,intergenic,treB  /  treR,treB / treR
+,,,,,,,,,,,1,1,1,1,,coding (875 878/1197 nt),yjgN ,yjgN
+,,,,,,,,,1,1,,,,,,coding (353 356/999 nt),idnR ,idnR
+,,,1,,,1,,,,,,,,,,intergenic,yjhA  /  fimB,yjhA / fimB
+,,,,,,,,,,,,,,,1,intergenic,fimB  /  fimE,fimB / fimE
+,,,1,1,1,1,,,,,,,,,,coding (125 128/597 nt),fimE ,fimE
+,,,,,,,,,1,1,,,,,,coding (412 415/597 nt),fimE ,fimE
+,,,,,,,1,1,,,,,,,,intergenic,fimE  /  fimA,fimE / fimA
+,,,1,1,1,,,,,,,,,,,coding (66/549 nt),fimA ,fimA
+,,,,,,1,,,,,,,,,,coding (66/549 nt),fimA ,fimA
+,,,,,,,,,,,,,,,1,C201W (TGC TGG) ,deoD ,deoD
+,,,,,,,,,,,1,1,1,1,,S34P (TCC CCC) ,rob ,rob

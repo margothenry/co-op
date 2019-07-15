@@ -470,7 +470,8 @@ Long2017 <- Long2017 %>%
   replace(is.na(.), 0) %>% 
   filter(details != "intergenic") %>%
   select(gene, population, frequency)
-Long2017_out <- c(grep(",", Long2017$gene), grep("/", Long2017$gene), grep("[*]", Long2017$gene), grep("-", Long2017$gene))
+Long2017_out <- c(grep(",", Long2017$gene), grep("/", Long2017$gene), grep("[*]", Long2017$gene), grep("-", Long2017$gene), 
+                  grep("prophage", Long2017$gene))
 if (length(Long2017_out) > 0) {
   Long2017 <- Long2017[-Long2017_out,] 
 } 
@@ -505,19 +506,23 @@ single_long(paper = "Sandberg2014", dataset_name = "Sandberg2014", environment =
 Creamer2016 <- read_csv(here("data_in", "original & usable", "Creamer2016", "Creamer2016_usable.csv"))
 Creamer2016 <- clean_names(Creamer2016, case = "snake")
 colnames(Creamer2016) <- tolower(colnames(Creamer2016))
-Creamer2016 <- gather(Creamer2016, population, frequency, "k0001":"k0030", factor_key=TRUE)
+Creamer2016 <- Creamer2016 %>% 
+  transmute(gene = gene, details = details, 
+           "a1" =  a1_1, 'a3' = a3_1, "b1" = b1_1, "c1" = c1_1, c3 = rowSums(Creamer2016[, 5:6]), "d5" = d5_1, a5 = rowSums(Creamer2016[, 8:9]), 
+            e1 = rowSums(Creamer2016[, 10:11]), "h1" = h1_1, "h3" = h3_1, "g3" = g3_1, g5 = rowSums(Creamer2016[, 15:16]))
+Creamer2016 <- gather(Creamer2016, population, frequency, "a1" : "g5", factor_key=TRUE)
 Creamer2016 <- Creamer2016 %>%
   replace(is.na(.), 0) %>% 
   filter(details != "intergenic") %>%
   select(gene, population, frequency)
-Creamer2016_out <- c(grep(",", Creamer2016$gene), grep("/", Creamer2016$gene), grep("[*]", Creamer2016$gene), 
+Creamer2016_out <- c(grep(",", Creamer2016$gene), grep("/", Creamer2016$gene), grep("\\[", Creamer2016$gene),
                      grep("-", Creamer2016$gene))
 if (length(Creamer2016_out) > 0) {
   Creamer2016 <- Creamer2016[-Creamer2016_out,] 
 } 
 
 write_csv(Creamer2016, here("data_in", "for_func", "Creamer2016.csv"))
-single_long(paper = "Creamer2016", dataset_name = "Creamer2016", environment = "LBK medium", generations = "3000", 
+single_long(paper = "Creamer2016", dataset_name = "Creamer2016", environment = "LBK medium", generations = "2000", 
             selective_pressure = "benzoate", species = "Ecoli_K12", ploidy = "haploid")
 
 
@@ -540,7 +545,7 @@ if (length(Deatherage2017_out) > 0) {
 
 write_csv(Deatherage2017, here("data_in", "for_func", "Deatherage2017.csv"))
 single_long(paper = "Deatherage2017", dataset_name = "Deatherage2017", environment = "Glucose minimal medium", generations = "2000", 
-            selective_pressure = "Glucose minimal medium", species = "Ecoli_K12", ploidy = "haploid")
+            selective_pressure = "Temperature", species = "Ecoli_K12", ploidy = "haploid")
 
 
 
@@ -823,27 +828,6 @@ if (length(Avrani2017_out) > 0) {
 write_csv(Avrani2017, here("data_in", "for_func", "Avrani2017.csv"))
 single_long(paper = "Avrani2017", dataset_name = "Avrani2017", environment = "LB", days = "11", 
             selective_pressure = "LB", species = "Ecoli_K12", ploidy = "haploid")
-
-
-
-# (TL): Charusanti2010:
-Charusanti2010 <- read_csv(here("data_in", "original & usable", "Charusanti2010", "Charusanti2010_usable.csv"))
-Charusanti2010 <- clean_names(Charusanti2010, case = "snake")
-colnames(Charusanti2010) <- tolower(colnames(Charusanti2010))
-Charusanti2010 <- gather(Charusanti2010, population, frequency, "a1" : "a10", factor_key=TRUE)
-Charusanti2010 <- Charusanti2010 %>%
-  replace(is.na(.), 0) %>% 
-  filter(details != "intergenic") %>%
-  select(gene, population, frequency)
-Charusanti2010_out <- c(grep(",", Charusanti2010$gene), grep("/", Charusanti2010$gene), grep("[*]", Charusanti2010$gene), 
-                        grep("-", Charusanti2010$gene))
-if (length(Charusanti2010_out) > 0) {   
-  Charusanti2010 <- Charusanti2010[-Charusanti2010_out,] 
-} 
-
-write_csv(Charusanti2010, here("data_in", "for_func", "Charusanti2010.csv"))
-single_long(paper = "Charusanti2010", dataset_name = "Charusanti2010", environment = "M9 minimal medium", days = "50", 
-            selective_pressure = "M9 minimal medium", species = "Ecoli_K12", ploidy = "haploid")
 
 
 
@@ -1299,7 +1283,7 @@ single_long(paper = "Wang2010", dataset_name = "Wang2010", environment = "T-salt
 ### (TL): [Remove "likely mutator" & "likely diploid" rows]
 ### (TL): [Remove rows if "distance to gene" > 0]
 ####################################
-
+### (TL): Run this every time a new dataset is analyzed, or when a dataset is analyzed in a new way.
 # (TL) Combine all the analysis files:
 file_list <- list.files("data_out/analyses", full.names = TRUE)
 ### (TL) Load the library "plyr" for this particular line of code only - calling this library earlier would lead to "unused arguments" error when using here().

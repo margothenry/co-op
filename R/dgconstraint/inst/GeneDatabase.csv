@@ -1,6 +1,7 @@
-"Species	",NumGenes
-"Ecoli_K12	",4377
-"Ecoli_O157_H7	",5416
-"Sac	",6604
-"Ecoli_ATCC	",4901
-"P_aeruginosa_PA14	",5994
+"Species	",NumGenes,Source,Comments
+"Ecoli_K12	",4377,,
+Ecoli_B,4209,https://www.genome.jp/kegg-bin/show_organism?org=ebr),Species added by TL.
+"Ecoli_O157_H7	",5416,,
+"Sac	",6604,https://www.yeastgenome.org/genomesnapshot,TL added source.
+"Ecoli_ATCC	",4901,,
+"P_aeruginosa_PA14	",5994,,
