@@ -18,7 +18,6 @@
 "Msh2-4","YAL056W",1
 "Msh2-1","YAL063C",1
 "Msh2-4","YAL063C",1
-"Msh2-1","YAL064C-A",1
 "Msh2-2","YAR014C",1
 "Msh2-3","YAR014C",1
 "Msh2-3","YAR014C",1
@@ -106,9 +105,6 @@
 "Msh2-1","YCL034W",1
 "Msh2-1","YCL034W",1
 "Msh2-3","YCL034W",1
-"Msh2-1","YCR024C-B",1
-"Msh2-2","YCR024C-B",1
-"Msh2-4","YCR024C-B",1
 "Msh2-1","YCR048W",1
 "Msh2-2","YCR077C",1
 "Msh2-1","YCR079W",1
@@ -185,7 +181,6 @@
 "Msh2-3","YER094C",1
 "Msh2-1","YFL003C",1
 "Msh2-1","YFL008W",1
-"Msh2-1","YFL021C-A",1
 "Msh2-1","YFL022C",1
 "Msh2-1","YFL026W",1
 "Msh2-4","YFL026W",1
@@ -258,8 +253,6 @@
 "Msh2-3","YHR043C",1
 "Msh2-3","YHR045W",1
 "Msh2-2","YHR046C",1
-"Msh2-1","YHR049C-A",1
-"Msh2-3","YHR049C-A",1
 "Msh2-2","YHR049W",1
 "Msh2-1","YHR058C",1
 "Msh2-1","YHR072W",1
@@ -286,7 +279,6 @@
 "Msh2-1","YIL017C",1
 "Msh2-2","YIL017C",1
 "Msh2-1","YIL050W",1
-"Msh2-4","YIL068W-A",1
 "Msh2-3","YIL085C",1
 "Msh2-1","YIL092W",1
 "Msh2-2","YIL101C",1
@@ -411,7 +403,6 @@
 "Msh2-2","YLR345W",1
 "Msh2-3","YLR402W",1
 "Msh2-1","YLR452C",1
-"Msh2-1","YML100W-A",1
 "Msh2-4","YML116W",1
 "Msh2-3","YMR002W",1
 "Msh2-3","YMR023C",1
@@ -422,8 +413,6 @@
 "Msh2-3","YMR115W",1
 "Msh2-3","YMR116C",1
 "Msh2-4","YMR119W",1
-"Msh2-1","YMR122W-A",1
-"Msh2-2","YMR135W-A",1
 "Msh2-3","YMR150C",1
 "Msh2-1","YMR185W",1
 "Msh2-2","YMR204C",1
@@ -435,8 +424,6 @@
 "Msh2-3","YMR279C",1
 "Msh2-3","YMR292W",1
 "Msh2-2","YMR299C",1
-"Msh2-2","YMR306C-A",1
-"Msh2-4","YMR306C-A",1
 "Msh2-1","YMR306W",1
 "Msh2-1","YMR308C",1
 "Msh2-4","YMR313C",1
@@ -446,7 +433,6 @@
 "Msh2-2","YNL018C",1
 "Msh2-3","YNL021W",1
 "Msh2-1","YNL039W",1
-"Msh2-2","YNL067W-B",1
 "Msh2-2","YNL083W",1
 "Msh2-3","YNL083W",1
 "Msh2-2","YNL088W",1
@@ -532,7 +518,6 @@
 "Msh2-1","YPL137C",1
 "Msh2-3","YPL150W",1
 "Msh2-2","YPL157W",1
-"Msh2-4","YPL183W-A",1
 "Msh2-3","YPL222W",1
 "Msh2-3","YPR026W",1
 "Msh2-4","YPR029C",1

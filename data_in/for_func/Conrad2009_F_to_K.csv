@@ -1,10 +1,8 @@
 gene,population,frequency
-rph-pyrE,LactF,1
 kdtA,LactF,1
 rpoC,LactF,1
 argS,LactF,1
 0,LactF,1
-rph-pyrE,LactG,1
 trpB,LactG,1
 nadB,LactG,1
 rpoB,LactG,1
@@ -12,16 +10,13 @@ rpoS,LactG,1
 kdtA,LactG,1
 osmF,LactG,1
 proQ,LactG,1
-rph-pyrE,LactH,1
 pdxB,LactH,1
 ilvG_1,LactH,1
 rpoB,LactH,1
 kdtA,LactH,1
 wcaA,LactH,1
-rph-pyrE,LactI,1
 relA,LactI,1
 proQ,LactI,1
-rph-pyrE,LactJ,1
 mrdA,LactJ,1
 rpsA,LactJ,1
 kgtP,LactJ,1

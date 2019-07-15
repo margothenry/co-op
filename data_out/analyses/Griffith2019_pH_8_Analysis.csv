@@ -1,2 +1,2 @@
 "paper","environment","generation","day","flask","selective_pressure","species","ploidy","strain_info","c_hyper","p_chisq","estimate","N_genes.notParallel","N_genes.parallel","parallel_genes","func"
-"Griffith2019","Modified LBK medium","1000",NA,NA,"pH 8","Ecoli_K12","haploid",NA,20.624,0.005,0.01,25,9,"adhE<U+00A0>?, cecR<U+00A0>?, crr ?, cyaA<U+00A0>?, emrB<U+00A0>?, fimE<U+00A0>?, mprA<U+00A0>?, plsB<U+00A0>?, rng<U+00A0>?","single_long"
+"Griffith2019","Modified LBK medium","1000",NA,NA,"pH 8","Ecoli_K12","haploid",NA,21.117,0.005,0.01,24,9,"adhE<U+00A0>?, cecR<U+00A0>?, crr ?, cyaA<U+00A0>?, emrB<U+00A0>?, fimE<U+00A0>?, mprA<U+00A0>?, plsB<U+00A0>?, rng<U+00A0>?","single_long"

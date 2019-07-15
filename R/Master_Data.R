@@ -42,8 +42,7 @@ Tenaillon2016 <- Tenaillon2016 %>%
 ### (TL): Create a new variable to store the index of rows that contain intergenic mutations not notated by breseq.
 ### (TL): If there are any rows of this kind, remove them from the dataset. The if() was used because the dataset will be empty if there are no badly-notated rows (dataset(-0,) is empty!)
 ### (TL): grep() is used for all hitherto known patterns indicating intergenicness in the colum "gene". Future updates could include more patterns, depending on how creative people could get with their notations.
-Tenaillon2016_out <- c(grep(",", Tenaillon2016$gene), grep("/", Tenaillon2016$gene), grep("[", Tenaillon2016$gene), grep("]", Tenaillon2016$gene), 
-                       grep("-", Tenaillon2016$gene))
+Tenaillon2016_out <- c(grep(",", Tenaillon2016$gene), grep("/", Tenaillon2016$gene), grep("[*]", Tenaillon2016$gene), grep("-", Tenaillon2016$gene))
 if (length(Tenaillon2016_out) > 0) {
   Tenaillon2016 <- Tenaillon2016[-Tenaillon2016_out,]
 }
@@ -67,8 +66,7 @@ Lang2013 <- Lang2013 %>%
   filter(details != "intergenic", gene != "0")
 Lang2013 <- Lang2013 %>%
   select(gene, population, '0', '140', '240', '335', '415', '505', '585', '665', '745', '825', '910', '1000')
-Lang2013_out <- c(grep(",", Lang2013$gene), grep("/", Lang2013$gene), grep("[", Lang2013$gene), grep("]", Lang2013$gene), 
-                  grep("-", Lang2013$gene))
+Lang2013_out <- c(grep(",", Lang2013$gene), grep("/", Lang2013$gene), grep("[*]", Lang2013$gene), grep("-", Lang2013$gene))
 if (length(Lang2013_out) > 0) {
   Lang2013 <- Lang2013[-Lang2013_out,]
 }
@@ -94,8 +92,7 @@ Sherlock2013 <- Sherlock2013 %>%
   filter(details != "intergenic") 
 Sherlock2013 <- Sherlock2013 %>%
   select(gene, population, "7", "70", "133", "196", "266", "322", "385", "448")
-Sherlock2013_out <- c(grep(",", Sherlock2013$gene), grep("/", Sherlock2013$gene), grep("[", Sherlock2013$gene), grep("]", Sherlock2013$gene), 
-                      grep("-", Sherlock2013$gene))
+Sherlock2013_out <- c(grep(",", Sherlock2013$gene), grep("/", Sherlock2013$gene), grep("[*]", Sherlock2013$gene), grep("-", Sherlock2013$gene))
 if (length(Sherlock2013_out) > 0) {
   Sherlock2013 <- Sherlock2013[-Sherlock2013_out,]
 }
@@ -117,8 +114,7 @@ Sherlock2019 <- Sherlock2019 %>%
   filter(details != "intergenic", gene != "0")
 Sherlock2019 <- Sherlock2019 %>%
   select(gene, population, "0", "50", "100", "150", "200", "250", "300", "350", "400", "450", "500")
-Sherlock2019_out <- c(grep(",", Sherlock2019$gene), grep("/", Sherlock2019$gene), grep("[", Sherlock2019$gene), grep("]", Sherlock2019$gene), 
-                      grep("-", Sherlock2019$gene))
+Sherlock2019_out <- c(grep(",", Sherlock2019$gene), grep("/", Sherlock2019$gene), grep("[*]", Sherlock2019$gene), grep("-", Sherlock2019$gene))
 if (length(Sherlock2019_out) > 0) {   
   Sherlock2019 <- Sherlock2019[-Sherlock2019_out,] 
 } 
@@ -140,8 +136,8 @@ Wielgoss2016_mucoid <- Wielgoss2016_mucoid %>%
   filter(details != "intergenic")
 Wielgoss2016_mucoid <- Wielgoss2016_mucoid %>%
   select(gene, population, "0", "10")
-Wielgoss2016_mucoid_out <- c(grep(",", Wielgoss2016_mucoid$gene), grep("/", Wielgoss2016_mucoid$gene), grep("[", Wielgoss2016_mucoid$gene), 
-                             grep("]", Wielgoss2016_mucoid$gene), grep("-", Wielgoss2016_mucoid$gene))
+Wielgoss2016_mucoid_out <- c(grep(",", Wielgoss2016_mucoid$gene), grep("/", Wielgoss2016_mucoid$gene), grep("[*]", Wielgoss2016_mucoid$gene), 
+                             grep("-", Wielgoss2016_mucoid$gene))
 if (length(Wielgoss2016_mucoid_out) > 0) {   
   Wielgoss2016_mucoid <- Wielgoss2016_mucoid[-Wielgoss2016_mucoid_out,] 
 } 
@@ -161,8 +157,8 @@ Wielgoss2016_nonMucoid <- Wielgoss2016_nonMucoid %>%
   filter(details != "intergenic")
 Wielgoss2016_nonMucoid <- Wielgoss2016_nonMucoid %>%
   select(gene, population, "0", "10")
-Wielgoss2016_nonMucoid_out <- c(grep(",", Wielgoss2016_nonMucoid$gene), grep("/", Wielgoss2016_nonMucoid$gene), grep("[", Wielgoss2016_nonMucoid$gene), 
-                                grep("]", Wielgoss2016_nonMucoid$gene), grep("-", Wielgoss2016_nonMucoid$gene))
+Wielgoss2016_nonMucoid_out <- c(grep(",", Wielgoss2016_nonMucoid$gene), grep("/", Wielgoss2016_nonMucoid$gene), 
+                                grep("[*]", Wielgoss2016_nonMucoid$gene), grep("-", Wielgoss2016_nonMucoid$gene))
 if (length(Wielgoss2016_nonMucoid_out) > 0) {   
   Wielgoss2016_nonMucoid <- Wielgoss2016_nonMucoid[-Wielgoss2016_nonMucoid_out,] 
 } 
@@ -182,8 +178,7 @@ Sandberg2016 <- Sandberg2016 %>%
   filter(details != "intergenic")
 Sandberg2016 <- Sandberg2016 %>%
   transmute(gene, population, "23" = Sandberg2016$"flask_23", "58" = Sandberg2016$"flask_58", "133" = Sandberg2016$"flask_133")
-Sandberg2016_out <- c(grep(",", Sandberg2016$gene), grep("/", Sandberg2016$gene), grep("[", Sandberg2016$gene), grep("]", Sandberg2016$gene), 
-                      grep("-", Sandberg2016$gene))
+Sandberg2016_out <- c(grep(",", Sandberg2016$gene), grep("/", Sandberg2016$gene), grep("[*]", Sandberg2016$gene), grep("-", Sandberg2016$gene))
 if (length(Sandberg2016_out) > 0) {   
   Sandberg2016 <- Sandberg2016[-Sandberg2016_out,] 
 } 
@@ -205,8 +200,7 @@ Kacar2017 <- Kacar2017 %>%
   filter(details != "intergenic", gene != "0")
 Kacar2017 <- Kacar2017 %>%
   select(gene, population, "500", "1000", "1500", "2000")
-Kacar2017_out <- c(grep(",", Kacar2017$gene), grep("/", Kacar2017$gene), grep("[", Kacar2017$gene), grep("]", Kacar2017$gene), 
-                   grep("-", Kacar2017$gene))
+Kacar2017_out <- c(grep(",", Kacar2017$gene), grep("/", Kacar2017$gene), grep("[*]", Kacar2017$gene), grep("-", Kacar2017$gene))
 if (length(Kacar2017_out) > 0) {   
   Kacar2017 <- Kacar2017[-Kacar2017_out,] 
   } 
@@ -226,8 +220,8 @@ Morgenthaler2019 <- Morgenthaler2019 %>%
   filter(details != "intergenic")
 Morgenthaler2019 <- Morgenthaler2019 %>%
   transmute(gene, population, "42" = "day_42", "50" = "day_50")
-Morgenthaler2019_out <- c(grep(",", Morgenthaler2019$gene), grep("/", Morgenthaler2019$gene), grep("[", Morgenthaler2019$gene), 
-                          grep("]", Morgenthaler2019$gene), grep("-", Morgenthaler2019$gene))
+Morgenthaler2019_out <- c(grep(",", Morgenthaler2019$gene), grep("/", Morgenthaler2019$gene), grep("[*]", Morgenthaler2019$gene), 
+                          grep("-", Morgenthaler2019$gene))
 if (length(Morgenthaler2019_out) > 0) {   
   Morgenthaler2019 <- Morgenthaler2019[-Morgenthaler2019_out,] 
 } 
@@ -255,7 +249,7 @@ Du2019 <- Du2019 %>%
   replace(is.na(.), 0)
 Du2019 <- Du2019 %>%
   select(gene, population, "intermediate", "late")
-Du2019_out <- c(grep(",", Du2019$gene), grep("/", Du2019$gene), grep("[", Du2019$gene), grep("]", Du2019$gene), grep("-", Du2019$gene))
+Du2019_out <- c(grep(",", Du2019$gene), grep("/", Du2019$gene), grep("[*]", Du2019$gene), grep("-", Du2019$gene))
 if (length(Du2019_out) > 0) {   
   Du2019 <- Du2019[-Du2019_out,] 
 } 
@@ -277,8 +271,8 @@ Flynn2014_biofilm <- Flynn2014_biofilm %>%
   filter(details != "intergenic", gene != "0")
 Flynn2014_biofilm <- Flynn2014_biofilm %>%
   select(gene, population, "102", "150", "264", "396", "450", "540")
-Flynn2014_biofilm_out <- c(grep(",", Flynn2014_biofilm$gene), grep("/", Flynn2014_biofilm$gene), grep("[", Flynn2014_biofilm$gene), 
-                           grep("]", Flynn2014_biofilm$gene), grep("-", Flynn2014_biofilm$gene))
+Flynn2014_biofilm_out <- c(grep(",", Flynn2014_biofilm$gene), grep("/", Flynn2014_biofilm$gene), grep("[*]", Flynn2014_biofilm$gene), 
+                           grep("-", Flynn2014_biofilm$gene))
 if (length(Flynn2014_biofilm_out) > 0) {   
   Flynn2014_biofilm <- Flynn2014_biofilm[-Flynn2014_biofilm_out,] 
 } 
@@ -298,8 +292,8 @@ Flynn2014_planktonic <- Flynn2014_planktonic %>%
   filter(details != "intergenic", gene != "0")
 Flynn2014_planktonic <- Flynn2014_planktonic %>%
   select(gene, population, "396", "540")
-Flynn2014_planktonic_out <- c(grep(",", Flynn2014_planktonic$gene), grep("/", Flynn2014_planktonic$gene), grep("[", Flynn2014_planktonic$gene), 
-                              grep("]", Flynn2014_planktonic$gene), grep("-", Flynn2014_planktonic$gene))
+Flynn2014_planktonic_out <- c(grep(",", Flynn2014_planktonic$gene), grep("/", Flynn2014_planktonic$gene), grep("[*]", Flynn2014_planktonic$gene), 
+                              grep("-", Flynn2014_planktonic$gene))
 if (length(Flynn2014_planktonic_out) > 0) {   
   Flynn2014_planktonic <- Flynn2014_planktonic[-Flynn2014_planktonic_out,] 
 } 
@@ -326,7 +320,7 @@ Keane2014[, 4:ncol(Keane2014)] <- Keane2014[, 4:ncol(Keane2014)] %>%
 Keane2014 <- Keane2014 %>%
   as.data.frame() %>%
   select(gene, population, "0", "440", "1100", "1540", "1980", "2200")
-Keane2014_out <- c(grep(",", Keane2014$gene), grep("/", Keane2014$gene), grep("[", Keane2014$gene), grep("]", Keane2014$gene), grep("-", Keane2014$gene))
+Keane2014_out <- c(grep(",", Keane2014$gene), grep("/", Keane2014$gene), grep("[*]", Keane2014$gene), grep("-", Keane2014$gene))
 if (length(Keane2014_out) > 0) {   
   Keane2014 <- Keane2014[-Keane2014_out,] 
 } 
@@ -351,8 +345,7 @@ Jerison2017 <- Jerison2017 %>%
   filter(frequency != "clone")
 Jerison2017 <- Jerison2017 %>%
   select(gene, population, selective_pressure, frequency)
-Jerison2017_out <- c(grep(",", Jerison2017$gene), grep("/", Jerison2017$gene), grep("[", Jerison2017$gene), grep("]", Jerison2017$gene), 
-                     grep("-", Jerison2017$gene))
+Jerison2017_out <- c(grep(",", Jerison2017$gene), grep("/", Jerison2017$gene), grep("[*]", Jerison2017$gene), grep("-", Jerison2017$gene))
 if (length(Jerison2017_out) > 0) {   
   Jerison2017 <- Jerison2017[-Jerison2017_out,] 
 } 
@@ -374,8 +367,7 @@ Payen2016 <- Payen2016 %>%
   ### (TL): To fix this, we need to also filter out the values whose frequencies are "0" [Not sure if this should be included in all analyses - theoretically speaking, this filter would make the func run faster].
   filter(details != "intergenic", frequency != "clone", frequency != "0", gene != "0")
   
-Payen2016_out <- c(grep(",", Payen2016$gene), grep("/", Payen2016$gene), grep("[", Payen2016$gene), grep("]", Payen2016$gene), 
-                   grep("-", Payen2016$gene))
+Payen2016_out <- c(grep(",", Payen2016$gene), grep("/", Payen2016$gene), grep("[*]", Payen2016$gene), grep("-", Payen2016$gene))
 if (length(Payen2016_out) > 0) {   
   Payen2016 <- Payen2016[-Payen2016_out,] 
 }
@@ -419,7 +411,7 @@ Lennen2015_pMA1 <- Lennen2015_pMA1 %>%
   replace(is.na(.), 0) %>%
   filter(details != "intergenic", frequency != "clone", gene != "0") %>%
   select(gene, population, selective_pressure, frequency)
-Lennen2015_pMA1_out <- c(grep(",", Lennen2015_pMA1$gene), grep("/", Lennen2015_pMA1$gene), grep("[", Lennen2015_pMA1$gene), grep("]", Lennen2015_pMA1$gene), 
+Lennen2015_pMA1_out <- c(grep(",", Lennen2015_pMA1$gene), grep("/", Lennen2015_pMA1$gene), grep("[*]", Lennen2015_pMA1$gene),  
                          grep("-", Lennen2015_pMA1$gene))
 if (length(Lennen2015_pMA1_out) > 0) {   
   Lennen2015_pMA1 <- Lennen2015_pMA1[-Lennen2015_pMA1_out,] 
@@ -447,7 +439,7 @@ Lennen2015_pMA7 <- Lennen2015_pMA7 %>%
   replace(is.na(.), 0) %>%
   filter(details != "intergenic", frequency != "clone", gene != "0") %>%
   select(gene, population, selective_pressure, frequency)
-Lennen2015_pMA7_out <- c(grep(",", Lennen2015_pMA7$gene), grep("/", Lennen2015_pMA7$gene), grep("[", Lennen2015_pMA7$gene), grep("]", Lennen2015_pMA7$gene), 
+Lennen2015_pMA7_out <- c(grep(",", Lennen2015_pMA7$gene), grep("/", Lennen2015_pMA7$gene), grep("[*]", Lennen2015_pMA7$gene), 
                          grep("-", Lennen2015_pMA7$gene))
 if (length(Lennen2015_pMA7_out) > 0) {   
   Lennen2015_pMA7 <- Lennen2015_pMA7[-Lennen2015_pMA7_out,] 
@@ -478,7 +470,7 @@ Long2017 <- Long2017 %>%
   replace(is.na(.), 0) %>% 
   filter(details != "intergenic") %>%
   select(gene, population, frequency)
-Long2017_out <- c(grep(",", Long2017$gene), grep("/", Long2017$gene), grep("[", Long2017$gene), grep("]", Long2017$gene), grep("-", Long2017$gene))
+Long2017_out <- c(grep(",", Long2017$gene), grep("/", Long2017$gene), grep("[*]", Long2017$gene), grep("-", Long2017$gene))
 if (length(Long2017_out) > 0) {
   Long2017 <- Long2017[-Long2017_out,] 
 } 
@@ -498,8 +490,7 @@ Sandberg2014 <- Sandberg2014 %>%
   replace(is.na(.), 0) %>% 
   filter(details != "intergenic") %>%
   select(gene, population, frequency)
-Sandberg2014_out <- c(grep(",", Sandberg2014$gene), grep("/", Sandberg2014$gene), grep("[", Sandberg2014$gene), grep("]", Sandberg2014$gene), 
-                      grep("-", Sandberg2014$gene))
+Sandberg2014_out <- c(grep(",", Sandberg2014$gene), grep("/", Sandberg2014$gene), grep("[*]", Sandberg2014$gene), grep("-", Sandberg2014$gene))
 if (length(Sandberg2014_out) > 0) {
   Sandberg2014 <- Sandberg2014[-Sandberg2014_out,] 
 } 
@@ -519,7 +510,7 @@ Creamer2016 <- Creamer2016 %>%
   replace(is.na(.), 0) %>% 
   filter(details != "intergenic") %>%
   select(gene, population, frequency)
-Creamer2016_out <- c(grep(",", Creamer2016$gene), grep("/", Creamer2016$gene), grep("[", Creamer2016$gene), grep("]", Creamer2016$gene), 
+Creamer2016_out <- c(grep(",", Creamer2016$gene), grep("/", Creamer2016$gene), grep("[*]", Creamer2016$gene), 
                      grep("-", Creamer2016$gene))
 if (length(Creamer2016_out) > 0) {
   Creamer2016 <- Creamer2016[-Creamer2016_out,] 
@@ -541,7 +532,7 @@ Deatherage2017 <- Deatherage2017 %>%
   filter(details != "intergenic")
 Deatherage2017 <- Deatherage2017 %>%
   transmute(gene = gene, population = population, "frequency" = `f1_i1_r1` + `f1_i2_r1` + `f1_i3_r1`)
-Deatherage2017_out <- c(grep(",", Deatherage2017$gene), grep("/", Deatherage2017$gene), grep("[", Deatherage2017$gene), grep("]", Deatherage2017$gene), 
+Deatherage2017_out <- c(grep(",", Deatherage2017$gene), grep("/", Deatherage2017$gene), grep("[*]", Deatherage2017$gene), 
                         grep("-", Deatherage2017$gene))
 if (length(Deatherage2017_out) > 0) {   
   Deatherage2017 <- Deatherage2017[-Deatherage2017_out,] 
@@ -561,7 +552,7 @@ McCloskey2018 <- McCloskey2018 %>%
   replace(is.na(.), 0) %>% 
   filter(details != "intergenic", gene != "0") %>%
   select(gene, population, frequency)
-McCloskey2018_out <- c(grep(",", McCloskey2018$gene), grep("/", McCloskey2018$gene), grep("[", McCloskey2018$gene), grep("]", McCloskey2018$gene), 
+McCloskey2018_out <- c(grep(",", McCloskey2018$gene), grep("/", McCloskey2018$gene), grep("[*]", McCloskey2018$gene), 
                        grep("-", McCloskey2018$gene))
 if (length(McCloskey2018_out) > 0) {   
   McCloskey2018 <- McCloskey2018[-McCloskey2018_out,] 
@@ -630,8 +621,7 @@ Sandra2016 <- Sandra2016 %>%
   replace(is.na(.), 0) %>% 
   filter(details != "intergenic") %>%
   select(gene, population, frequency)
-Sandra2016_out <- c(grep(",", Sandra2016$gene), grep("/", Sandra2016$gene), grep("[", Sandra2016$gene), grep("]", Sandra2016$gene), 
-                    grep("-", Sandra2016$gene))
+Sandra2016_out <- c(grep(",", Sandra2016$gene), grep("/", Sandra2016$gene), grep("[*]", Sandra2016$gene), grep("-", Sandra2016$gene))
 if (length(Sandra2016_out) > 0) {   
   Sandra2016 <- Sandra2016[-Sandra2016_out,] 
 } 
@@ -650,8 +640,7 @@ Khare2015 <- Khare2015 %>%
   filter(details != "intergenic") %>%
   select(gene, population, frequency)
 ### (TL): (190703) New indicators of multiple genes involved: "[", "]", & "-".
-Khare2015_out <- c(grep(",", Khare2015$gene), grep("/", Khare2015$gene), grep("[", Khare2015$gene), grep("]", Khare2015$gene), 
-                   grep("-", Khare2015$gene))
+Khare2015_out <- c(grep(",", Khare2015$gene), grep("/", Khare2015$gene), grep("[*]", Khare2015$gene), grep("-", Khare2015$gene))
 if (length(Khare2015_out) > 0) {   
   Khare2015 <- Khare2015[-Khare2015_out,] 
 } 
@@ -672,7 +661,7 @@ Sandberg2017_ac <- Sandberg2017_ac %>%
   replace(is.na(.), 0) %>% 
   filter(details != "intergenic") %>%
   select(gene, population, frequency)
-Sandberg2017_ac_out <- c(grep(",", Sandberg2017_ac$gene), grep("/", Sandberg2017_ac$gene), grep("[", Sandberg2017_ac$gene), grep("]", Sandberg2017_ac$gene), 
+Sandberg2017_ac_out <- c(grep(",", Sandberg2017_ac$gene), grep("/", Sandberg2017_ac$gene), grep("[*]", Sandberg2017_ac$gene), 
                          grep("-", Sandberg2017_ac$gene))
 if (length(Sandberg2017_ac_out) > 0) {   
   Sandberg2017_ac <- Sandberg2017_ac[-Sandberg2017_ac_out,] 
@@ -697,8 +686,8 @@ Sandberg2017_glu_ac <- Sandberg2017_glu_ac %>%
   replace(is.na(.), 0) %>% 
   filter(details != "intergenic") %>%
   select(gene, population, frequency)
-Sandberg2017_glu_ac_out <- c(grep(",", Sandberg2017_glu_ac$gene), grep("/", Sandberg2017_glu_ac$gene), grep("[", Sandberg2017_glu_ac$gene), 
-                             grep("]", Sandberg2017_glu_ac$gene), grep("-", Sandberg2017_glu_ac$gene))
+Sandberg2017_glu_ac_out <- c(grep(",", Sandberg2017_glu_ac$gene), grep("/", Sandberg2017_glu_ac$gene), grep("[*]", Sandberg2017_glu_ac$gene), 
+                             grep("-", Sandberg2017_glu_ac$gene))
 if (length(Sandberg2017_glu_ac_out) > 0) {   
   Sandberg2017_glu_ac <- Sandberg2017_glu_ac[-Sandberg2017_glu_ac_out,] 
 } 
@@ -721,8 +710,8 @@ Sandberg2017_glu_gly <- Sandberg2017_glu_gly %>%
   replace(is.na(.), 0) %>% 
   filter(details != "intergenic") %>%
   select(gene, population, frequency)
-Sandberg2017_glu_gly_out <- c(grep(",", Sandberg2017_glu_gly$gene), grep("/", Sandberg2017_glu_gly$gene), grep("[", Sandberg2017_glu_gly$gene), 
-                              grep("]", Sandberg2017_glu_gly$gene), grep("-", Sandberg2017_glu_gly$gene))
+Sandberg2017_glu_gly_out <- c(grep(",", Sandberg2017_glu_gly$gene), grep("/", Sandberg2017_glu_gly$gene), grep("[*]", Sandberg2017_glu_gly$gene), 
+                              grep("-", Sandberg2017_glu_gly$gene))
 if (length(Sandberg2017_glu_gly_out) > 0) {   
   Sandberg2017_glu_gly <- Sandberg2017_glu_gly[-Sandberg2017_glu_gly_out,] 
 } 
@@ -744,8 +733,8 @@ Sandberg2017_glu_xyl <- Sandberg2017_glu_xyl %>%
   replace(is.na(.), 0) %>% 
   filter(details != "intergenic") %>%
   select(gene, population, frequency)
-Sandberg2017_glu_xyl_out <- c(grep(",", Sandberg2017_glu_xyl$gene), grep("/", Sandberg2017_glu_xyl$gene), grep("[", Sandberg2017_glu_xyl$gene), 
-                              grep("]", Sandberg2017_glu_xyl$gene), grep("-", Sandberg2017_glu_xyl$gene))
+Sandberg2017_glu_xyl_out <- c(grep(",", Sandberg2017_glu_xyl$gene), grep("/", Sandberg2017_glu_xyl$gene), grep("[*]", Sandberg2017_glu_xyl$gene), 
+                              grep("-", Sandberg2017_glu_xyl$gene))
 if (length(Sandberg2017_glu_xyl_out) > 0) {   
   Sandberg2017_glu_xyl <- Sandberg2017_glu_xyl[-Sandberg2017_glu_xyl_out,] 
 } 
@@ -764,8 +753,8 @@ Sandberg2017_xyl <- Sandberg2017_xyl %>%
   replace(is.na(.), 0) %>% 
   filter(details != "intergenic") %>%
   select(gene, population, frequency)
-Sandberg2017_xyl_out <- c(grep(",", Sandberg2017_xyl$gene), grep("/", Sandberg2017_xyl$gene), grep("[", Sandberg2017_xyl$gene), 
-                          grep("]", Sandberg2017_xyl$gene), grep("-", Sandberg2017_xyl$gene))
+Sandberg2017_xyl_out <- c(grep(",", Sandberg2017_xyl$gene), grep("/", Sandberg2017_xyl$gene), grep("[*]", Sandberg2017_xyl$gene), 
+                          grep("-", Sandberg2017_xyl$gene))
 if (length(Sandberg2017_xyl_out) > 0) {   
   Sandberg2017_xyl <- Sandberg2017_xyl[-Sandberg2017_xyl_out,] 
 } 
@@ -786,8 +775,8 @@ Griffith2019_pH_6.5 <- Griffith2019_pH_6.5 %>%
   replace(is.na(.), 0) %>% 
   filter(details != "intergenic") %>%
   select(gene, population, frequency)
-Griffith2019_pH_6.5_out <- c(grep(",", Griffith2019_pH_6.5$gene), grep("/", Griffith2019_pH_6.5$gene), grep("[", Griffith2019_pH_6.5$gene), 
-                             grep("]", Griffith2019_pH_6.5$gene), grep("-", Griffith2019_pH_6.5$gene))
+Griffith2019_pH_6.5_out <- c(grep(",", Griffith2019_pH_6.5$gene), grep("/", Griffith2019_pH_6.5$gene), grep("[*]", Griffith2019_pH_6.5$gene), 
+                             grep("-", Griffith2019_pH_6.5$gene))
 if (length(Griffith2019_pH_6.5_out) > 0) {   
   Griffith2019_pH_6.5 <- Griffith2019_pH_6.5[-Griffith2019_pH_6.5_out,] 
 } 
@@ -806,8 +795,8 @@ Griffith2019_pH_8 <- Griffith2019_pH_8 %>%
   replace(is.na(.), 0) %>% 
   filter(details != "intergenic") %>%
   select(gene, population, frequency)
-Griffith2019_pH_8_out <- c(grep(",", Griffith2019_pH_8$gene), grep("/", Griffith2019_pH_8$gene), grep("[", Griffith2019_pH_8$gene), 
-                           grep("]", Griffith2019_pH_8$gene), grep("-", Griffith2019_pH_8$gene))
+Griffith2019_pH_8_out <- c(grep(",", Griffith2019_pH_8$gene), grep("/", Griffith2019_pH_8$gene), grep("[*]", Griffith2019_pH_8$gene), 
+                           grep("-", Griffith2019_pH_8$gene))
 if (length(Griffith2019_pH_8_out) > 0) {   
   Griffith2019_pH_8 <- Griffith2019_pH_8[-Griffith2019_pH_8_out,] 
 } 
@@ -826,8 +815,7 @@ Avrani2017 <- Avrani2017 %>%
   replace(is.na(.), 0) %>% 
   filter(details != "intergenic") %>%
   select(gene, population, frequency)
-Avrani2017_out <- c(grep(",", Avrani2017$gene), grep("/", Avrani2017$gene), grep("[", Avrani2017$gene), grep("]", Avrani2017$gene), 
-                    grep("-", Avrani2017$gene))
+Avrani2017_out <- c(grep(",", Avrani2017$gene), grep("/", Avrani2017$gene), grep("[*]", Avrani2017$gene), grep("-", Avrani2017$gene))
 if (length(Avrani2017_out) > 0) {   
   Avrani2017 <- Avrani2017[-Avrani2017_out,] 
 } 
@@ -847,7 +835,7 @@ Charusanti2010 <- Charusanti2010 %>%
   replace(is.na(.), 0) %>% 
   filter(details != "intergenic") %>%
   select(gene, population, frequency)
-Charusanti2010_out <- c(grep(",", Charusanti2010$gene), grep("/", Charusanti2010$gene), grep("[", Charusanti2010$gene), grep("]", Charusanti2010$gene), 
+Charusanti2010_out <- c(grep(",", Charusanti2010$gene), grep("/", Charusanti2010$gene), grep("[*]", Charusanti2010$gene), 
                         grep("-", Charusanti2010$gene))
 if (length(Charusanti2010_out) > 0) {   
   Charusanti2010 <- Charusanti2010[-Charusanti2010_out,] 
@@ -868,8 +856,7 @@ Anand2019_menF_entC_ubiC <- Anand2019_menF_entC_ubiC %>%
   filter(details != "intergenic") %>%
   select(gene, population, frequency)
 Anand2019_menF_entC_ubiC_out <- c(grep(",", Anand2019_menF_entC_ubiC$gene), grep("/", Anand2019_menF_entC_ubiC$gene), 
-                                  grep("[", Anand2019_menF_entC_ubiC$gene), grep("]", Anand2019_menF_entC_ubiC$gene), 
-                                  grep("-", Anand2019_menF_entC_ubiC$gene))
+                                  grep("[*]", Anand2019_menF_entC_ubiC$gene), grep("-", Anand2019_menF_entC_ubiC$gene))
 if (length(Anand2019_menF_entC_ubiC_out) > 0) {   
   Anand2019_menF_entC_ubiC <- Anand2019_menF_entC_ubiC[-Anand2019_menF_entC_ubiC_out,] 
 } 
@@ -889,7 +876,7 @@ Tenaillon2012 <- Tenaillon2012 %>%
   replace(is.na(.), 0) %>% 
   filter(details != "intergenic") %>%
   select(gene, population, frequency)
-Tenaillon2012_out <- c(grep(",", Tenaillon2012$gene), grep("/", Tenaillon2012$gene), grep("[", Tenaillon2012$gene), grep("]", Tenaillon2012$gene), 
+Tenaillon2012_out <- c(grep(",", Tenaillon2012$gene), grep("/", Tenaillon2012$gene), grep("[*]", Tenaillon2012$gene),  
                        grep("-", Tenaillon2012$gene))
 if (length(Tenaillon2012_out) > 0) {   
   Tenaillon2012 <- Tenaillon2012[-Tenaillon2012_out,] 
@@ -933,8 +920,7 @@ Wannier2018 <- Wannier2018 %>%
 Wannier2018 <- gather(Wannier2018, population, frequency, "a1" : "a14", factor_key=TRUE)
 Wannier2018 <- Wannier2018 %>%
   select(gene, population, frequency)
-Wannier2018_out <- c(grep(",", Wannier2018$gene), grep("/", Wannier2018$gene), grep("[", Wannier2018$gene), grep("]", Wannier2018$gene), 
-                     grep("-", Wannier2018$gene))
+Wannier2018_out <- c(grep(",", Wannier2018$gene), grep("/", Wannier2018$gene), grep("[*]", Wannier2018$gene), grep("-", Wannier2018$gene))
 if (length(Wannier2018_out) > 0) {   
   Wannier2018 <- Wannier2018[-Wannier2018_out,] 
 } 
@@ -967,7 +953,7 @@ KuzdzalFick2018 <- KuzdzalFick2018 %>%
   replace(is.na(.), 0) %>% 
   filter(details != "intergenic") %>%
   select(gene, population, frequency)
-KuzdzalFick2018_out <- c(grep(",", KuzdzalFick2018$gene), grep("/", KuzdzalFick2018$gene), grep("[", KuzdzalFick2018$gene), grep("]", KuzdzalFick2018$gene), 
+KuzdzalFick2018_out <- c(grep(",", KuzdzalFick2018$gene), grep("/", KuzdzalFick2018$gene), grep("[*]", KuzdzalFick2018$gene), 
                          grep("-", KuzdzalFick2018$gene))
 if (length(KuzdzalFick2018_out) > 0) {   
   KuzdzalFick2018 <- KuzdzalFick2018[-KuzdzalFick2018_out,] 
@@ -987,8 +973,7 @@ Boyle2017 <- Boyle2017 %>%
   replace(is.na(.), 0) %>% 
   filter(details != "intergenic") %>%
   select(gene, population, frequency)
-Boyle2017_out <- c(grep(",", Boyle2017$gene), grep("/", Boyle2017$gene), grep("[", Boyle2017$gene), grep("]", Boyle2017$gene), 
-                   grep("-", Boyle2017$gene))
+Boyle2017_out <- c(grep(",", Boyle2017$gene), grep("/", Boyle2017$gene), grep("[*]", Boyle2017$gene), grep("-", Boyle2017$gene))
 if (length(Boyle2017_out) > 0) {   
   Boyle2017 <- Boyle2017[-Boyle2017_out,] 
 } 
@@ -1008,8 +993,8 @@ Conrad2009_A_to_E <- Conrad2009_A_to_E %>%
   replace(is.na(.), 0) %>% 
   filter(details != "intergenic") %>%
   select(gene, population, frequency)
-Conrad2009_A_to_E_out <- c(grep(",", Conrad2009_A_to_E$gene), grep("/", Conrad2009_A_to_E$gene), grep("[", Conrad2009_A_to_E$gene), 
-                           grep("]", Conrad2009_A_to_E$gene), grep("-", Conrad2009_A_to_E$gene))
+Conrad2009_A_to_E_out <- c(grep(",", Conrad2009_A_to_E$gene), grep("/", Conrad2009_A_to_E$gene), grep("[*]", Conrad2009_A_to_E$gene), 
+                           grep("-", Conrad2009_A_to_E$gene))
 if (length(Conrad2009_A_to_E_out) > 0) {   
   Conrad2009_A_to_E <- Conrad2009_A_to_E[-Conrad2009_A_to_E_out,] 
 } 
@@ -1027,8 +1012,8 @@ Conrad2009_F_to_K <- Conrad2009_F_to_K %>%
   replace(is.na(.), 0) %>% 
   filter(details != "intergenic") %>%
   select(gene, population, frequency)
-Conrad2009_F_to_K_out <- c(grep(",", Conrad2009_F_to_K$gene), grep("/", Conrad2009_F_to_K$gene), grep("[", Conrad2009_F_to_K$gene), 
-                           grep("]", Conrad2009_F_to_K$gene), grep("-", Conrad2009_F_to_K$gene))
+Conrad2009_F_to_K_out <- c(grep(",", Conrad2009_F_to_K$gene), grep("/", Conrad2009_F_to_K$gene), grep("[*]", Conrad2009_F_to_K$gene), 
+                           grep("-", Conrad2009_F_to_K$gene))
 if (length(Conrad2009_F_to_K_out) > 0) {   
   Conrad2009_F_to_K <- Conrad2009_F_to_K[-Conrad2009_F_to_K_out,] 
 } 
@@ -1048,8 +1033,8 @@ Echenique2019_ADE2 <- Echenique2019_ADE2 %>%
   replace(is.na(.), 0) %>% 
   filter(details != "intergenic") %>%
   select(gene, population, frequency)
-Echenique2019_ADE2_out <- c(grep(",", Echenique2019_ADE2$gene), grep("/", Echenique2019_ADE2$gene), grep("[", Echenique2019_ADE2$gene), 
-                            grep("]", Echenique2019_ADE2$gene), grep("-", Echenique2019_ADE2$gene))
+Echenique2019_ADE2_out <- c(grep(",", Echenique2019_ADE2$gene), grep("/", Echenique2019_ADE2$gene), grep("[*]", Echenique2019_ADE2$gene), 
+                            grep("-", Echenique2019_ADE2$gene))
 if (length(Echenique2019_ADE2_out) > 0) {   
   Echenique2019_ADE2 <- Echenique2019_ADE2[-Echenique2019_ADE2_out,] 
 } 
@@ -1067,8 +1052,8 @@ Echenique2019_BMH1 <- Echenique2019_BMH1 %>%
   replace(is.na(.), 0) %>% 
   filter(details != "intergenic") %>%
   select(gene, population, frequency)
-Echenique2019_BMH1_out <- c(grep(",", Echenique2019_BMH1$gene), grep("/", Echenique2019_BMH1$gene), grep("[", Echenique2019_BMH1$gene), 
-                            grep("]", Echenique2019_BMH1$gene), grep("-", Echenique2019_BMH1$gene))
+Echenique2019_BMH1_out <- c(grep(",", Echenique2019_BMH1$gene), grep("/", Echenique2019_BMH1$gene), grep("[*]", Echenique2019_BMH1$gene), 
+                            grep("-", Echenique2019_BMH1$gene))
 if (length(Echenique2019_BMH1_out) > 0) {   
   Echenique2019_BMH1 <- Echenique2019_BMH1[-Echenique2019_BMH1_out,] 
 } 
@@ -1086,8 +1071,8 @@ Echenique2019_COQ2 <- Echenique2019_COQ2 %>%
   replace(is.na(.), 0) %>% 
   filter(details != "intergenic") %>%
   select(gene, population, frequency)
-Echenique2019_COQ2_out <- c(grep(",", Echenique2019_COQ2$gene), grep("/", Echenique2019_COQ2$gene), grep("[", Echenique2019_COQ2$gene), 
-                            grep("]", Echenique2019_COQ2$gene), grep("-", Echenique2019_COQ2$gene))
+Echenique2019_COQ2_out <- c(grep(",", Echenique2019_COQ2$gene), grep("/", Echenique2019_COQ2$gene), grep("[*]", Echenique2019_COQ2$gene), 
+                            grep("-", Echenique2019_COQ2$gene))
 if (length(Echenique2019_COQ2_out) > 0) {   
   Echenique2019_COQ2 <- Echenique2019_COQ2[-Echenique2019_COQ2_out,] 
 } 
@@ -1105,8 +1090,8 @@ Echenique2019_COX6 <- Echenique2019_COX6 %>%
   replace(is.na(.), 0) %>% 
   filter(details != "intergenic") %>%
   select(gene, population, frequency)
-Echenique2019_COX6_out <- c(grep(",", Echenique2019_COX6$gene), grep("/", Echenique2019_COX6$gene), grep("[", Echenique2019_COX6$gene), 
-                            grep("]", Echenique2019_COX6$gene), grep("-", Echenique2019_COX6$gene))
+Echenique2019_COX6_out <- c(grep(",", Echenique2019_COX6$gene), grep("/", Echenique2019_COX6$gene), grep("[*]", Echenique2019_COX6$gene), 
+                            grep("-", Echenique2019_COX6$gene))
 if (length(Echenique2019_COX6_out) > 0) {   
   Echenique2019_COX6 <- Echenique2019_COX6[-Echenique2019_COX6_out,] 
 } 
@@ -1124,8 +1109,8 @@ Echenique2019_CTF19 <- Echenique2019_CTF19 %>%
   replace(is.na(.), 0) %>% 
   filter(details != "intergenic") %>%
   select(gene, population, frequency)
-Echenique2019_CTF19_out <- c(grep(",", Echenique2019_CTF19$gene), grep("/", Echenique2019_CTF19$gene), grep("[", Echenique2019_CTF19$gene), 
-                             grep("]", Echenique2019_CTF19$gene), grep("-", Echenique2019_CTF19$gene))
+Echenique2019_CTF19_out <- c(grep(",", Echenique2019_CTF19$gene), grep("/", Echenique2019_CTF19$gene), grep("[*]", Echenique2019_CTF19$gene), 
+                             grep("-", Echenique2019_CTF19$gene))
 if (length(Echenique2019_CTF19_out) > 0) {   
   Echenique2019_CTF19 <- Echenique2019_CTF19[-Echenique2019_CTF19_out,] 
 } 
@@ -1143,8 +1128,8 @@ Echenique2019_ELP4 <- Echenique2019_ELP4 %>%
   replace(is.na(.), 0) %>% 
   filter(details != "intergenic") %>%
   select(gene, population, frequency)
-Echenique2019_ELP4_out <- c(grep(",", Echenique2019_ELP4$gene), grep("/", Echenique2019_ELP4$gene), grep("[", Echenique2019_ELP4$gene), 
-                            grep("]", Echenique2019_ELP4$gene), grep("-", Echenique2019_ELP4$gene))
+Echenique2019_ELP4_out <- c(grep(",", Echenique2019_ELP4$gene), grep("/", Echenique2019_ELP4$gene), grep("[*]", Echenique2019_ELP4$gene), 
+                            grep("-", Echenique2019_ELP4$gene))
 if (length(Echenique2019_ELP4_out) > 0) {   
   Echenique2019_ELP4 <- Echenique2019_ELP4[-Echenique2019_ELP4_out,] 
 } 
@@ -1162,8 +1147,8 @@ Echenique2019_HXK2 <- Echenique2019_HXK2 %>%
   replace(is.na(.), 0) %>% 
   filter(details != "intergenic") %>%
   select(gene, population, frequency)
-Echenique2019_HXK2_out <- c(grep(",", Echenique2019_HXK2$gene), grep("/", Echenique2019_HXK2$gene), grep("[", Echenique2019_HXK2$gene), 
-                            grep("]", Echenique2019_HXK2$gene), grep("-", Echenique2019_HXK2$gene))
+Echenique2019_HXK2_out <- c(grep(",", Echenique2019_HXK2$gene), grep("/", Echenique2019_HXK2$gene), grep("[*]", Echenique2019_HXK2$gene), 
+                            grep("-", Echenique2019_HXK2$gene))
 if (length(Echenique2019_HXK2_out) > 0) {   
   Echenique2019_HXK2 <- Echenique2019_HXK2[-Echenique2019_HXK2_out,] 
 } 
@@ -1181,8 +1166,8 @@ Echenique2019_IML3 <- Echenique2019_IML3 %>%
   replace(is.na(.), 0) %>% 
   filter(details != "intergenic") %>%
   select(gene, population, frequency)
-Echenique2019_IML3_out <- c(grep(",", Echenique2019_IML3$gene), grep("/", Echenique2019_IML3$gene), grep("[", Echenique2019_IML3$gene), 
-                            grep("]", Echenique2019_IML3$gene), grep("-", Echenique2019_IML3$gene))
+Echenique2019_IML3_out <- c(grep(",", Echenique2019_IML3$gene), grep("/", Echenique2019_IML3$gene), grep("[*]", Echenique2019_IML3$gene), 
+                            grep("-", Echenique2019_IML3$gene))
 if (length(Echenique2019_IML3_out) > 0) {   
   Echenique2019_IML3 <- Echenique2019_IML3[-Echenique2019_IML3_out,] 
 } 
@@ -1200,8 +1185,8 @@ Echenique2019_KTI12 <- Echenique2019_KTI12 %>%
   replace(is.na(.), 0) %>% 
   filter(details != "intergenic") %>%
   select(gene, population, frequency)
-Echenique2019_KTI12_out <- c(grep(",", Echenique2019_KTI12$gene), grep("/", Echenique2019_KTI12$gene), grep("[", Echenique2019_KTI12$gene), 
-                             grep("]", Echenique2019_KTI12$gene), grep("-", Echenique2019_KTI12$gene))
+Echenique2019_KTI12_out <- c(grep(",", Echenique2019_KTI12$gene), grep("/", Echenique2019_KTI12$gene), grep("[*]", Echenique2019_KTI12$gene), 
+                             grep("-", Echenique2019_KTI12$gene))
 if (length(Echenique2019_KTI12_out) > 0) {   
   Echenique2019_KTI12 <- Echenique2019_KTI12[-Echenique2019_KTI12_out,] 
 } 
@@ -1219,8 +1204,8 @@ Echenique2019_SOK2 <- Echenique2019_SOK2 %>%
   replace(is.na(.), 0) %>% 
   filter(details != "intergenic") %>%
   select(gene, population, frequency)
-Echenique2019_SOK2_out <- c(grep(",", Echenique2019_SOK2$gene), grep("/", Echenique2019_SOK2$gene), grep("[", Echenique2019_SOK2$gene), 
-                            grep("]", Echenique2019_SOK2$gene), grep("-", Echenique2019_SOK2$gene))
+Echenique2019_SOK2_out <- c(grep(",", Echenique2019_SOK2$gene), grep("/", Echenique2019_SOK2$gene), grep("[*]", Echenique2019_SOK2$gene), 
+                            grep("-", Echenique2019_SOK2$gene))
 if (length(Echenique2019_SOK2_out) > 0) {   
   Echenique2019_SOK2 <- Echenique2019_SOK2[-Echenique2019_SOK2_out,] 
 } 
@@ -1238,8 +1223,8 @@ Echenique2019_VPS29 <- Echenique2019_VPS29 %>%
   replace(is.na(.), 0) %>% 
   filter(details != "intergenic") %>%
   select(gene, population, frequency)
-Echenique2019_VPS29_out <- c(grep(",", Echenique2019_VPS29$gene), grep("/", Echenique2019_VPS29$gene), grep("[", Echenique2019_VPS29$gene), 
-                             grep("]", Echenique2019_VPS29$gene), grep("-", Echenique2019_VPS29$gene))
+Echenique2019_VPS29_out <- c(grep(",", Echenique2019_VPS29$gene), grep("/", Echenique2019_VPS29$gene), grep("[*]", Echenique2019_VPS29$gene), 
+                             grep("-", Echenique2019_VPS29$gene))
 if (length(Echenique2019_VPS29_out) > 0) {   
   Echenique2019_VPS29 <- Echenique2019_VPS29[-Echenique2019_VPS29_out,] 
 } 
@@ -1248,6 +1233,71 @@ write_csv(Echenique2019_VPS29, here("data_in", "for_func", "Echenique2019_VPS29.
 single_long(paper = "Echenique2019", dataset_name = "Echenique2019_VPS29", strain_info = "VPS29 deleted", environment = "YPD", generations = "500", 
             selective_pressure = "YPD", species = "Sac", ploidy = "haploid")
 
+
+
+# (TL): Kintses2019:
+Kintses2019 <- read_csv(here("data_in", "original & usable", "Kintses2019", "Kintses2019_usable.csv"))
+Kintses2019 <- clean_names(Kintses2019, case = "snake")
+colnames(Kintses2019) <- tolower(colnames(Kintses2019))
+Kintses2019 <- Kintses2019 %>%
+  replace(is.na(.), 0) %>% 
+  filter(details != "intergenic") %>%
+  select(gene, population, frequency)
+Kintses2019_out <- c(grep(",", Kintses2019$gene), grep("/", Kintses2019$gene), grep("[*]", Kintses2019$gene), grep("-", Kintses2019$gene))
+if (length(Kintses2019_out) > 0) {   
+  Kintses2019 <- Kintses2019[-Kintses2019_out,] 
+} 
+
+write_csv(Kintses2019, here("data_in", "for_func", "Kintses2019.csv"))
+single_long(paper = "Kintses2019", dataset_name = "Kintses2019", environment = "MS", generations = "120", 
+            selective_pressure = "HBD-3", species = "Ecoli_K12", ploidy = "haploid")
+
+
+
+### (TL): Mundhada2017:
+Mundhada2017 <- read_csv(here("data_in", "original & usable", "Mundhada2017", "Mundhada2017_usable.csv"))
+Mundhada2017 <- clean_names(Mundhada2017, case = "snake")
+colnames(Mundhada2017) <- tolower(colnames(Mundhada2017))
+Mundhada2017 <- Mundhada2017 %>% 
+  transmute(gene = gene, details = details, 
+            a3 = rowSums(Mundhada2017[, 3:4]), a4 = rowSums(Mundhada2017[, 5:6]), 
+            a5 = rowSums(Mundhada2017[, 7:8]))
+Mundhada2017 <- gather(Mundhada2017, population, frequency, "a3" : "a5", factor_key=TRUE)
+Mundhada2017 <- Mundhada2017 %>%
+  replace(is.na(.), 0) %>% 
+  filter(details != "intergenic") %>%
+  select(gene, population, frequency)
+Mundhada2017_out <- c(grep(",", Mundhada2017$gene), grep("/", Mundhada2017$gene), grep("[*]", Mundhada2017$gene), grep("-", Mundhada2017$gene))
+if (length(Mundhada2017_out) > 0) {   
+  Mundhada2017 <- Mundhada2017[-Mundhada2017_out,] 
+} 
+
+write_csv(Mundhada2017, here("data_in", "for_func", "Mundhada2017.csv"))
+single_long(paper = "Sandberg2017", dataset_name = "Mundhada2017", environment = "M9 minimal medium + glucose + acetate", generations = "650", 
+            selective_pressure = "glucose + acetate", species = "Ecoli_K12", ploidy = "haploid")
+
+# (TL): Wang2010:
+Wang2010 <- read_csv(here("data_in", "original & usable", "Wang2010", "Wang2010_usable.csv"))
+Wang2010 <- clean_names(Wang2010, case = "snake")
+colnames(Wang2010) <- tolower(colnames(Wang2010))
+Wang2010 <- Wang2010 %>%
+  replace(is.na(.), 0) %>% 
+  filter(details != "intergenic") %>%
+  select(gene, population, frequency)
+Wang2010_out <- c(grep(",", Wang2010$gene), grep("/", Wang2010$gene), grep("[*]", Wang2010$gene), grep("-", Wang2010$gene))
+if (length(Wang2010_out) > 0) {   
+  Wang2010 <- Wang2010[-Wang2010_out,] 
+} 
+
+write_csv(Wang2010, here("data_in", "for_func", "Wang2010.csv"))
+single_long(paper = "Wang2010", dataset_name = "Wang2010", environment = "T-salts minimal medium", days = "37", 
+            selective_pressure = "phosphate limitation", species = "Ecoli_K12", ploidy = "haploid")
+
+
+
+# (TL): Kryazhimskiy2014:
+### (TL): [Remove "likely mutator" & "likely diploid" rows]
+### (TL): [Remove rows if "distance to gene" > 0]
 ####################################
 
 # (TL) Combine all the analysis files:
