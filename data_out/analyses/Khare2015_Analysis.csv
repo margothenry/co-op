@@ -1,2 +1,2 @@
-"paper","environment","generation","day","flask","selective_pressure","species","ploidy","strain_info","c_hyper","p_chisq","estimate","N_genes.notParallel","N_genes.parallel","parallel_genes","func"
-"Khare2015","LB",NA,"15",NA,"pvdJ spent media","Ecoli_K12","haploid",NA,28.264,0.005,0.003,6,1,"mprA","single_long"
+"paper","environment","generation","day","flask","selective_pressure","species","ploidy","strain_info","c_hyper","p_chisq","estimate","N_genes.notParallel","N_genes.parallel","parallel_genes","who_analyzed","func"
+"Khare2015","LB",NA,"15",NA,"pvdJ spent media","Ecoli_K12","haploid",NA,28.264,0.005,0.003,6,1,"mprA","TL","single_long"

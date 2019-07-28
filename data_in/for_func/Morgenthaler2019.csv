@@ -1,4 +1,5 @@
 gene,population,42,50
+proA,3,day_42,day_50
 carB,3,day_42,day_50
 carB,3,day_42,day_50
 carB,3,day_42,day_50
@@ -122,6 +123,7 @@ bcsG,3,day_42,day_50
 polA,3,day_42,day_50
 polA,3,day_42,day_50
 polA,3,day_42,day_50
+proA,4,day_42,day_50
 carB,4,day_42,day_50
 carB,4,day_42,day_50
 carB,4,day_42,day_50
@@ -245,6 +247,7 @@ bcsG,4,day_42,day_50
 polA,4,day_42,day_50
 polA,4,day_42,day_50
 polA,4,day_42,day_50
+proA,6,day_42,day_50
 carB,6,day_42,day_50
 carB,6,day_42,day_50
 carB,6,day_42,day_50

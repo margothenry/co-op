@@ -1,5 +1,6 @@
 gene,population,frequency
 hfq,ale1,0
+prophage,ale1,0
 acnB,ale1,0
 fruK,ale1,0
 nagC,ale1,0
@@ -23,6 +24,7 @@ yiiD,ale1,0
 ysgA,ale1,0
 zwf,ale1,0
 hfq,ale2,0
+prophage,ale2,1
 acnB,ale2,0
 fruK,ale2,0
 nagC,ale2,0
@@ -46,6 +48,7 @@ yiiD,ale2,0
 ysgA,ale2,0
 zwf,ale2,0
 hfq,ale3,0
+prophage,ale3,0
 acnB,ale3,0
 fruK,ale3,0
 nagC,ale3,0
@@ -69,6 +72,7 @@ yiiD,ale3,1
 ysgA,ale3,0
 zwf,ale3,0
 hfq,ale4,0
+prophage,ale4,0
 acnB,ale4,0
 fruK,ale4,0
 nagC,ale4,0
@@ -92,6 +96,7 @@ yiiD,ale4,0
 ysgA,ale4,0
 zwf,ale4,0
 hfq,ale5,0
+prophage,ale5,1
 acnB,ale5,1
 fruK,ale5,1
 nagC,ale5,0
@@ -115,6 +120,7 @@ yiiD,ale5,0
 ysgA,ale5,0
 zwf,ale5,0
 hfq,ale6,1
+prophage,ale6,0
 acnB,ale6,0
 fruK,ale6,0
 nagC,ale6,0
@@ -138,6 +144,7 @@ yiiD,ale6,0
 ysgA,ale6,0
 zwf,ale6,0
 hfq,ale7,0
+prophage,ale7,0
 acnB,ale7,0
 fruK,ale7,0
 nagC,ale7,0
@@ -161,6 +168,7 @@ yiiD,ale7,0
 ysgA,ale7,0
 zwf,ale7,0
 hfq,ale8,0
+prophage,ale8,0
 acnB,ale8,0
 fruK,ale8,0
 nagC,ale8,1
@@ -184,6 +192,7 @@ yiiD,ale8,0
 ysgA,ale8,0
 zwf,ale8,0
 hfq,ale9,0
+prophage,ale9,0
 acnB,ale9,0
 fruK,ale9,0
 nagC,ale9,1
@@ -207,6 +216,7 @@ yiiD,ale9,0
 ysgA,ale9,0
 zwf,ale9,1
 hfq,ale10,0
+prophage,ale10,0
 acnB,ale10,0
 fruK,ale10,0
 nagC,ale10,0

@@ -1,2 +1,2 @@
-"paper","environment","generation","day","flask","selective_pressure","species","ploidy","strain_info","c_hyper","p_chisq","estimate","N_genes.notParallel","N_genes.parallel","parallel_genes","func"
-"Sandberg2017","M9 minimal medium + acetate","1000",NA,NA,"acetate","Ecoli_K12","haploid",NA,29.883,0.005,0.004,10,4,"crl, fliK, rho, tnaA","single_long"
+"paper","environment","generation","day","flask","selective_pressure","species","ploidy","strain_info","c_hyper","p_chisq","estimate","N_genes.notParallel","N_genes.parallel","parallel_genes","who_analyzed","func"
+"Sandberg2017","M9 minimal medium + acetate","1000",NA,NA,"acetate","Ecoli_K12","haploid",NA,29.883,0.005,0.004,10,4,"crl, fliK, rho, tnaA","TL","single_long"

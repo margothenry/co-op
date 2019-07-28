@@ -1,3 +1,0 @@
-"paper","environment","generation","day","flask","selective_pressure","species","ploidy","strain_info","c_hyper","p_chisq","estimate","N_genes.notParallel","N_genes.parallel","parallel_genes","func"
-"Lennen2015","M9",NA,"5",NA,"no NaCl","Ecoli_K12","haploid","pMA1",59.614,0.005,0.002,2,5,"araC, crl, gatC, glpR, insB1insA","multiple_long"
-"Lennen2015","M9",NA,"5",NA,"NaCl","Ecoli_K12","haploid","pMA1",37.181,0.005,0.019,40,7,"araC, crl, gatC, glpR, insB1insA, mrdA, nagA","multiple_long"

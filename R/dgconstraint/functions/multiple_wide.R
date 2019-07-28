@@ -14,13 +14,14 @@
 #' @param strain_info The specifics of the strain (i.e. the "mucoid" in "Wielgoss2016_mucoid")
 #' @param days Timepoint(s) in the data, if days are used to notate. Remember to call with "days = ".
 #' @param flasks Timepoint(s) in the data, if flasks are are used to notate. Remember to call with "flasks = ". Only 1 of the 3 potential timepoint types shall be called.
+#' @param who_analyzed Who analyzed this dataset? Use initials of 1st & last names.
 #' @return A table with all the calculated information.
 #' @export 
 #' @examples [update]
 #' 
 library(dplyr)
 library(sjmisc)
-multiple_wide <- function(paper, dataset_name, environment, generations = NA, selective_pressure, species = NA, ploidy, numgenes = NA, strain_info = NA, days = NA, flasks = NA){
+multiple_wide <- function(paper, dataset_name, environment, generations = NA, selective_pressure, species = NA, ploidy, numgenes = NA, strain_info = NA, days = NA, flasks = NA, who_analyzed){
 
   geneNumbers <- read_csv(file.path(getwd(),"R/dgconstraint/inst/GeneDatabase.csv"), col_types = cols())
 
@@ -150,7 +151,7 @@ multiple_wide <- function(paper, dataset_name, environment, generations = NA, se
   }
   df <- tibble(paper = paper, environment = environment, generation = generations, day = days, flask = flasks, selective_pressure = selective_pressure, species = species, 
                ploidy = ploidy, strain_info = strain_info, c_hyper = round(c_hyper, 3), p_chisq, estimate = round(estimate, 3), 
-               N_genes.notParallel = num_non_parallel_genes, N_genes.parallel = num_parallel_genes, parallel_genes, func = "multiple_wide")
+               N_genes.notParallel = num_non_parallel_genes, N_genes.parallel = num_parallel_genes, parallel_genes, who_analyzed, func = "multiple_wide")
   
   filename2 <- file.path(getwd(), "data_out", "analyses", paste(dataset_name, "_Analysis.csv", sep=""))
   cat("\n")

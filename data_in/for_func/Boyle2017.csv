@@ -1,46 +1,46 @@
 gene,population,frequency
-fleR ?,1,1
-crc ?,1,1
-cbrA ?,1,1
-cbrA ?,2,1
-PA14_29390 ?,2,1
-cbrA ?,2,1
-crc ?,2,1
-cbrA ?,2,1
-crc ?,3,1
-cbrA ?,3,1
-crc ?,3,1
-cbrA ?,3,1
-PA14_29390 ?,3,1
-cbrA ?,3,1
-hfq ?,3,1
-cbrA ?,3,1
-crc ?,4,1
-PA14_29390 ?,4,1
-PA14_29390 ?,4,1
-cbrA ?,4,1
-crc ?,4,1
-cbrA ?,4,1
-crc ?,4,1
-polB ?,4,1
-cbrA ?,4,1
-hfq ?,4,1
-cbrA ?,4,1
-hfq ?,4,1
-cbrA ?,4,1
-crc ?,5,1
-cbrA ?,5,1
-crc ?,5,1
-fleQ ?,5,1
-cbrA ?,5,1
-crc ?,5,1
-cbrA ?,5,1
-crc ?,5,1
-cbrA ?,5,1
-crc ?,6,1
-fleN ?,6,1
-cbrA ?,6,1
-crc ?,6,1
-cbrA ?,6,1
-fleN ?,6,1
-cbrA ?,6,1
+fleR,1,1
+crc,1,1
+cbrA,1,1
+cbrA,2,1
+PA1429390,2,1
+cbrA,2,1
+crc,2,1
+cbrA,2,1
+crc,3,1
+cbrA,3,1
+crc,3,1
+cbrA,3,1
+PA1429390,3,1
+cbrA,3,1
+hfq,3,1
+cbrA,3,1
+crc,4,1
+PA1429390,4,1
+PA1429390,4,1
+cbrA,4,1
+crc,4,1
+cbrA,4,1
+crc,4,1
+polB,4,1
+cbrA,4,1
+hfq,4,1
+cbrA,4,1
+hfq,4,1
+cbrA,4,1
+crc,5,1
+cbrA,5,1
+crc,5,1
+fleQ,5,1
+cbrA,5,1
+crc,5,1
+cbrA,5,1
+crc,5,1
+cbrA,5,1
+crc,6,1
+fleN,6,1
+cbrA,6,1
+crc,6,1
+cbrA,6,1
+fleN,6,1
+cbrA,6,1

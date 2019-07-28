@@ -1,5 +1,5 @@
 gene,population,frequency
-lptD (imp),a1,1
+lptD imp,a1,1
 hepA,a1,0
 ftsZ,a1,0
 ecpD,a1,0
@@ -13,7 +13,7 @@ rumB,a1,0
 ltaE,a1,0
 icd,a1,0
 ycgF,a1,0
-ariR(ymgB),a1,1
+ariRymgB,a1,1
 narH,a1,0
 rnb,a1,1
 ycjM,a1,0
@@ -57,7 +57,7 @@ cpxA,a1,0
 cpxA,a1,1
 rfaY,a1,0
 bcsB,a1,1
-gadX–gadE,a1,0
+gadXgadE,a1,0
 gadX,a1,0
 gadX,a1,0
 gadX,a1,0
@@ -74,7 +74,7 @@ fimA,a1,0
 fimA,a1,0
 deoD,a1,0
 rob,a1,0
-lptD (imp),a3,1
+lptD imp,a3,1
 hepA,a3,0
 ftsZ,a3,0
 ecpD,a3,0
@@ -88,7 +88,7 @@ rumB,a3,0
 ltaE,a3,0
 icd,a3,0
 ycgF,a3,0
-ariR(ymgB),a3,1
+ariRymgB,a3,1
 narH,a3,0
 rnb,a3,1
 ycjM,a3,0
@@ -132,7 +132,7 @@ cpxA,a3,0
 cpxA,a3,1
 rfaY,a3,0
 bcsB,a3,1
-gadX–gadE,a3,0
+gadXgadE,a3,0
 gadX,a3,0
 gadX,a3,0
 gadX,a3,0
@@ -149,7 +149,7 @@ fimA,a3,0
 fimA,a3,0
 deoD,a3,0
 rob,a3,0
-lptD (imp),b1,0
+lptD imp,b1,0
 hepA,b1,0
 ftsZ,b1,0
 ecpD,b1,0
@@ -163,7 +163,7 @@ rumB,b1,0
 ltaE,b1,0
 icd,b1,0
 ycgF,b1,0
-ariR(ymgB),b1,1
+ariRymgB,b1,1
 narH,b1,0
 rnb,b1,1
 ycjM,b1,0
@@ -207,7 +207,7 @@ cpxA,b1,0
 cpxA,b1,1
 rfaY,b1,0
 bcsB,b1,1
-gadX–gadE,b1,0
+gadXgadE,b1,0
 gadX,b1,0
 gadX,b1,0
 gadX,b1,0
@@ -224,7 +224,7 @@ fimA,b1,0
 fimA,b1,0
 deoD,b1,0
 rob,b1,0
-lptD (imp),c1,0
+lptD imp,c1,0
 hepA,c1,0
 ftsZ,c1,0
 ecpD,c1,0
@@ -238,7 +238,7 @@ rumB,c1,0
 ltaE,c1,0
 icd,c1,0
 ycgF,c1,0
-ariR(ymgB),c1,0
+ariRymgB,c1,0
 narH,c1,0
 rnb,c1,0
 ycjM,c1,1
@@ -282,7 +282,7 @@ cpxA,c1,0
 cpxA,c1,0
 rfaY,c1,1
 bcsB,c1,0
-gadX–gadE,c1,0
+gadXgadE,c1,0
 gadX,c1,0
 gadX,c1,0
 gadX,c1,0
@@ -299,7 +299,7 @@ fimA,c1,1
 fimA,c1,0
 deoD,c1,0
 rob,c1,0
-lptD (imp),c3,0
+lptD imp,c3,0
 hepA,c3,0
 ftsZ,c3,0
 ecpD,c3,0
@@ -313,7 +313,7 @@ rumB,c3,0
 ltaE,c3,0
 icd,c3,0
 ycgF,c3,0
-ariR(ymgB),c3,0
+ariRymgB,c3,0
 narH,c3,0
 rnb,c3,0
 ycjM,c3,2
@@ -357,7 +357,7 @@ cpxA,c3,0
 cpxA,c3,0
 rfaY,c3,2
 bcsB,c3,0
-gadX–gadE,c3,0
+gadXgadE,c3,0
 gadX,c3,0
 gadX,c3,0
 gadX,c3,0
@@ -374,7 +374,7 @@ fimA,c3,2
 fimA,c3,0
 deoD,c3,0
 rob,c3,0
-lptD (imp),d5,0
+lptD imp,d5,0
 hepA,d5,0
 ftsZ,d5,0
 ecpD,d5,0
@@ -388,7 +388,7 @@ rumB,d5,0
 ltaE,d5,0
 icd,d5,1
 ycgF,d5,0
-ariR(ymgB),d5,0
+ariRymgB,d5,0
 narH,d5,0
 rnb,d5,0
 ycjM,d5,1
@@ -432,7 +432,7 @@ cpxA,d5,0
 cpxA,d5,0
 rfaY,d5,1
 bcsB,d5,0
-gadX–gadE,d5,0
+gadXgadE,d5,0
 gadX,d5,0
 gadX,d5,0
 gadX,d5,0
@@ -449,7 +449,7 @@ fimA,d5,0
 fimA,d5,1
 deoD,d5,0
 rob,d5,0
-lptD (imp),a5,0
+lptD imp,a5,0
 hepA,a5,2
 ftsZ,a5,0
 ecpD,a5,0
@@ -463,7 +463,7 @@ rumB,a5,0
 ltaE,a5,0
 icd,a5,0
 ycgF,a5,0
-ariR(ymgB),a5,0
+ariRymgB,a5,0
 narH,a5,0
 rnb,a5,0
 ycjM,a5,0
@@ -507,7 +507,7 @@ cpxA,a5,0
 cpxA,a5,0
 rfaY,a5,0
 bcsB,a5,0
-gadX–gadE,a5,0
+gadXgadE,a5,0
 gadX,a5,0
 gadX,a5,0
 gadX,a5,2
@@ -524,7 +524,7 @@ fimA,a5,0
 fimA,a5,0
 deoD,a5,0
 rob,a5,0
-lptD (imp),e1,0
+lptD imp,e1,0
 hepA,e1,0
 ftsZ,e1,0
 ecpD,e1,0
@@ -538,7 +538,7 @@ rumB,e1,0
 ltaE,e1,0
 icd,e1,0
 ycgF,e1,0
-ariR(ymgB),e1,0
+ariRymgB,e1,0
 narH,e1,0
 rnb,e1,0
 ycjM,e1,0
@@ -582,7 +582,7 @@ cpxA,e1,0
 cpxA,e1,0
 rfaY,e1,0
 bcsB,e1,0
-gadX–gadE,e1,2
+gadXgadE,e1,2
 gadX,e1,2
 gadX,e1,2
 gadX,e1,2
@@ -599,7 +599,7 @@ fimA,e1,0
 fimA,e1,0
 deoD,e1,0
 rob,e1,0
-lptD (imp),h1,0
+lptD imp,h1,0
 hepA,h1,0
 ftsZ,h1,0
 ecpD,h1,0
@@ -613,7 +613,7 @@ rumB,h1,0
 ltaE,h1,1
 icd,h1,0
 ycgF,h1,0
-ariR(ymgB),h1,0
+ariRymgB,h1,0
 narH,h1,0
 rnb,h1,0
 ycjM,h1,0
@@ -657,7 +657,7 @@ cpxA,h1,0
 cpxA,h1,0
 rfaY,h1,0
 bcsB,h1,0
-gadX–gadE,h1,0
+gadXgadE,h1,0
 gadX,h1,1
 gadX,h1,0
 gadX,h1,0
@@ -674,7 +674,7 @@ fimA,h1,0
 fimA,h1,0
 deoD,h1,0
 rob,h1,1
-lptD (imp),h3,0
+lptD imp,h3,0
 hepA,h3,0
 ftsZ,h3,0
 ecpD,h3,0
@@ -688,7 +688,7 @@ rumB,h3,0
 ltaE,h3,1
 icd,h3,0
 ycgF,h3,0
-ariR(ymgB),h3,0
+ariRymgB,h3,0
 narH,h3,1
 rnb,h3,0
 ycjM,h3,0
@@ -732,7 +732,7 @@ cpxA,h3,0
 cpxA,h3,0
 rfaY,h3,0
 bcsB,h3,0
-gadX–gadE,h3,0
+gadXgadE,h3,0
 gadX,h3,1
 gadX,h3,0
 gadX,h3,0
@@ -749,7 +749,7 @@ fimA,h3,0
 fimA,h3,0
 deoD,h3,0
 rob,h3,1
-lptD (imp),g3,0
+lptD imp,g3,0
 hepA,g3,0
 ftsZ,g3,0
 ecpD,g3,0
@@ -763,7 +763,7 @@ rumB,g3,0
 ltaE,g3,1
 icd,g3,0
 ycgF,g3,0
-ariR(ymgB),g3,0
+ariRymgB,g3,0
 narH,g3,1
 rnb,g3,0
 ycjM,g3,0
@@ -807,7 +807,7 @@ cpxA,g3,0
 cpxA,g3,0
 rfaY,g3,0
 bcsB,g3,0
-gadX–gadE,g3,0
+gadXgadE,g3,0
 gadX,g3,1
 gadX,g3,0
 gadX,g3,0
@@ -824,7 +824,7 @@ fimA,g3,0
 fimA,g3,0
 deoD,g3,0
 rob,g3,1
-lptD (imp),g5,0
+lptD imp,g5,0
 hepA,g5,0
 ftsZ,g5,0
 ecpD,g5,0
@@ -838,7 +838,7 @@ rumB,g5,0
 ltaE,g5,0
 icd,g5,0
 ycgF,g5,0
-ariR(ymgB),g5,0
+ariRymgB,g5,0
 narH,g5,0
 rnb,g5,0
 ycjM,g5,0
@@ -882,7 +882,7 @@ cpxA,g5,0
 cpxA,g5,0
 rfaY,g5,0
 bcsB,g5,0
-gadX–gadE,g5,0
+gadXgadE,g5,0
 gadX,g5,0
 gadX,g5,0
 gadX,g5,0

@@ -1,2 +1,2 @@
-"paper","environment","generation","day","flask","selective_pressure","species","ploidy","strain_info","c_hyper","p_chisq","estimate","N_genes.notParallel","N_genes.parallel","parallel_genes","func"
-"Avrani2017","LB",NA,"11",NA,"LB","Ecoli_K12","haploid",NA,30.109,0.005,0.004,9,5,"cytR <-, deoR <-, rhaT <-, rpoB ->, rpoC ->","single_long"
+"paper","environment","generation","day","flask","selective_pressure","species","ploidy","strain_info","c_hyper","p_chisq","estimate","N_genes.notParallel","N_genes.parallel","parallel_genes","who_analyzed","func"
+"Avrani2017","LB",NA,"11",NA,"LB","Ecoli_K12","haploid",NA,30.109,0.005,0.004,9,5,"cytR, deoR, rhaT, rpoB, rpoC","TL","single_long"

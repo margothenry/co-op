@@ -1,1936 +1,1931 @@
 gene,population,frequency
-dnaK ?,c_g7_1,0
-nhaA ?,c_g7_1,0
-rrlH ?,c_g7_1,0
-ykfJ–[insH],c_g7_1,0
-Y75_RS01440 ?,c_g7_1,0
-acrB ?,c_g7_1,0
-acrA ?,c_g7_1,0
-ybbA ?,c_g7_1,0
-allR ?,c_g7_1,0
-cecR ?,c_g7_1,0
-cecR ?,c_g7_1,0
-lrp ?,c_g7_1,0
-ycaM ?,c_g7_1,1
-mukB ?,c_g7_1,0
-hyaC ?,c_g7_1,0
-ycdO ?,c_g7_1,0
-fabF ?,c_g7_1,0
-ptsG ?,c_g7_1,0
-nhaB ?,c_g7_1,0
-nhaB ?,c_g7_1,0
-adhE ?,c_g7_1,0
-adhE ?,c_g7_1,1
-adhE ?,c_g7_1,0
-adhE ?,c_g7_1,0
-adhE ?,c_g7_1,0
-adhE ?,c_g7_1,0
-sapD ?,c_g7_1,0
-ydcI ?,c_g7_1,0
-yncD ?,c_g7_1,1
-Y75_RS07695 ?,c_g7_1,0
-ydiM ?,c_g7_1,0
-yeaA ?,c_g7_1,0
-yeaR ?,c_g7_1,0
-Y75_RS09615 ?,c_g7_1,0
-otsB ?,c_g7_1,0
-gatD ?,c_g7_1,0
-glpB ?,c_g7_1,0
-menC ?,c_g7_1,0
-purF ?,c_g7_1,0
-aroC ?,c_g7_1,0
-crr ?,c_g7_1,0
-nlpB ?,c_g7_1,0
-pbpC ?,c_g7_1,1
-csiE ?,c_g7_1,0
-srmB ?,c_g7_1,0
-kgtP ?,c_g7_1,0
-mprA ?,c_g7_1,1
-mprA ?,c_g7_1,0
-mprA ?,c_g7_1,0
-mprA ?,c_g7_1,0
-mprA ?,c_g7_1,0
-mprA ?,c_g7_1,0
-mprA ?,c_g7_1,0
-mprA ?,c_g7_1,0
-mprA ?,c_g7_1,0
-mprA ?,c_g7_1,0
-emrA ?,c_g7_1,0
-emrA ?,c_g7_1,0
-emrB ?,c_g7_1,0
-emrB ?,c_g7_1,0
-emrB ?,c_g7_1,0
-emrB ?,c_g7_1,1
-emrB ?,c_g7_1,1
-rpoS ?,c_g7_1,0
-rpoS ?,c_g7_1,0
-nlpD ?,c_g7_1,0
-ygbE ?,c_g7_1,0
-yghB ?,c_g7_1,0
-rpoD ?,c_g7_1,0
-yhaC ?,c_g7_1,0
-sohA ?,c_g7_1,0
-rng ?,c_g7_1,1
-rng ?,c_g7_1,0
-rng ?,c_g7_1,0
-rng ?,c_g7_1,0
-rpoC ?,c_g7_1,0
-rpoB ?,c_g7_1,0
-rpoB ?,c_g7_1,1
-cyaA ?,c_g7_1,1
-cyaA ?,c_g7_1,0
-cyaA ?,c_g7_1,0
-rho ?,c_g7_1,0
-rbsR ?,c_g7_1,0
-spoT ?,c_g7_1,0
-glyQ ?,c_g7_1,1
-bcsB ?,c_g7_1,0
-gadE ?,c_g7_1,0
-yhiF ?,c_g7_1,0
-pitA ?,c_g7_1,0
-greB ?,c_g7_1,0
-rpoA ?,c_g7_1,0
-metH ?,c_g7_1,0
-plsB ?,c_g7_1,0
-plsB ?,c_g7_1,0
-plsB ?,c_g7_1,0
-plsB ?,c_g7_1,0
-plsB ?,c_g7_1,0
-plsB ?,c_g7_1,1
-alsE ?,c_g7_1,0
-yjeP ?,c_g7_1,0
-ytfI ?,c_g7_1,1
-ytfQ ?,c_g7_1,0
-treB ?,c_g7_1,0
-Y75_RS22485 ?,c_g7_1,0
-fimE ?,c_g7_1,0
-fimE ?,c_g7_1,0
-fimE ?,c_g7_1,0
-fimE ?,c_g7_1,1
-fimE ?,c_g7_1,0
-yjjM ?,c_g7_1,0
-arcA ?,c_g7_1,0
-arcA ?,c_g7_1,0
-carB ?,c_g7_1,0
-ksgA ?,c_g7_1,0
-imp ?,c_g7_1,0
-yabQ ?,c_g7_1,0
-araA ?,c_g7_1,0
-yabI ?,c_g7_1,0
-leuO ?,c_g7_1,0
-mraZ ?,c_g7_1,0
-ampE ?,c_g7_1,0
-lpd ?,c_g7_1,0
-mrcB ?,c_g7_1,0
-fhuB ?,c_g7_1,0
-proS ?,c_g7_1,0
-metQ ?,c_g7_1,0
-yafU ?,c_g7_1,0
-ivy ?,c_g7_1,0
-fadE ?,c_g7_1,0
-ykfJ ?,c_g7_1,0
-insI ?,c_g7_1,0
-ykfC ?,c_g7_1,0
-mmuP ?,c_g7_1,0
-yagJ ?,c_g7_1,0
-yagM ?,c_g7_1,0
-intF ?,c_g7_1,0
-ykgL ?,c_g7_1,0
-insF ?,c_g7_1,0
-ykgC ?,c_g7_1,0
-betI ?,c_g7_1,0
-yahJ ?,c_g7_1,0
-lacZ ?,c_g7_1,0
-frmA ?,c_g7_1,0
-yaiU ?,c_g7_1,0
-mak ?,c_g7_1,0
-tsx ?,c_g7_1,0
-yajL ?,c_g7_1,0
-lon ?,c_g7_1,0
-acrB ?,c_g7_1,0
-rhsD ?,c_g7_1,0
-rzpD ?,c_g7_1,0
-cusS ?,c_g7_1,0
-insL ?,c_g7_1,0
-fepA ?,c_g7_1,0
-entB ?,c_g7_1,0
-ybdH ?,c_g7_1,0
+dnaK,c_g7_1,0
+nhaA,c_g7_1,0
+rrlH,c_g7_1,0
+Y75RS01440 ,c_g7_1,0
+acrB,c_g7_1,0
+acrA,c_g7_1,0
+ybbA,c_g7_1,0
+allR,c_g7_1,0
+cecR,c_g7_1,0
+cecR,c_g7_1,0
+lrp ,c_g7_1,0
+ycaM ,c_g7_1,1
+mukB,c_g7_1,0
+hyaC,c_g7_1,0
+ycdO,c_g7_1,0
+fabF,c_g7_1,0
+ptsG,c_g7_1,0
+nhaB,c_g7_1,0
+nhaB,c_g7_1,0
+adhE,c_g7_1,0
+adhE,c_g7_1,1
+adhE,c_g7_1,0
+adhE,c_g7_1,0
+adhE,c_g7_1,0
+adhE,c_g7_1,0
+sapD,c_g7_1,0
+ydcI,c_g7_1,0
+yncD,c_g7_1,1
+Y75RS07695 ,c_g7_1,0
+ydiM ,c_g7_1,0
+yeaA ,c_g7_1,0
+yeaR ,c_g7_1,0
+Y75RS09615 ,c_g7_1,0
+otsB,c_g7_1,0
+gatD ,c_g7_1,0
+glpB,c_g7_1,0
+menC ,c_g7_1,0
+purF,c_g7_1,0
+aroC,c_g7_1,0
+crr ,c_g7_1,0
+nlpB,c_g7_1,0
+pbpC,c_g7_1,1
+csiE,c_g7_1,0
+srmB,c_g7_1,0
+kgtP,c_g7_1,0
+mprA,c_g7_1,1
+mprA,c_g7_1,0
+mprA,c_g7_1,0
+mprA,c_g7_1,0
+mprA,c_g7_1,0
+mprA,c_g7_1,0
+mprA,c_g7_1,0
+mprA,c_g7_1,0
+mprA,c_g7_1,0
+mprA,c_g7_1,0
+emrA,c_g7_1,0
+emrA,c_g7_1,0
+emrB,c_g7_1,0
+emrB,c_g7_1,0
+emrB,c_g7_1,0
+emrB,c_g7_1,1
+emrB,c_g7_1,1
+rpoS,c_g7_1,0
+rpoS,c_g7_1,0
+nlpD ,c_g7_1,0
+ygbE,c_g7_1,0
+yghB,c_g7_1,0
+rpoD,c_g7_1,0
+yhaC,c_g7_1,0
+sohA,c_g7_1,0
+rng,c_g7_1,1
+rng,c_g7_1,0
+rng,c_g7_1,0
+rng,c_g7_1,0
+rpoC,c_g7_1,0
+rpoB,c_g7_1,0
+rpoB,c_g7_1,1
+cyaA,c_g7_1,1
+cyaA,c_g7_1,0
+cyaA,c_g7_1,0
+rho,c_g7_1,0
+rbsR,c_g7_1,0
+spoT,c_g7_1,0
+glyQ,c_g7_1,1
+bcsB,c_g7_1,0
+gadE ,c_g7_1,0
+yhiF ,c_g7_1,0
+pitA,c_g7_1,0
+greB,c_g7_1,0
+rpoA,c_g7_1,0
+metH,c_g7_1,0
+plsB,c_g7_1,0
+plsB,c_g7_1,0
+plsB,c_g7_1,0
+plsB,c_g7_1,0
+plsB,c_g7_1,0
+plsB,c_g7_1,1
+alsE,c_g7_1,0
+yjeP,c_g7_1,0
+ytfI,c_g7_1,1
+ytfQ,c_g7_1,0
+treB,c_g7_1,0
+Y75RS22485 ,c_g7_1,0
+fimE,c_g7_1,0
+fimE,c_g7_1,0
+fimE,c_g7_1,0
+fimE,c_g7_1,1
+fimE,c_g7_1,0
+yjjM ,c_g7_1,0
+arcA,c_g7_1,0
+arcA,c_g7_1,0
+carB,c_g7_1,0
+ksgA,c_g7_1,0
+imp,c_g7_1,0
+yabQ,c_g7_1,0
+araA,c_g7_1,0
+yabI,c_g7_1,0
+leuO,c_g7_1,0
+mraZ,c_g7_1,0
+ampE,c_g7_1,0
+lpd,c_g7_1,0
+mrcB,c_g7_1,0
+fhuB,c_g7_1,0
+proS,c_g7_1,0
+metQ,c_g7_1,0
+yafU,c_g7_1,0
+ivy,c_g7_1,0
+fadE,c_g7_1,0
+ykfJ,c_g7_1,0
+insI,c_g7_1,0
+ykfC,c_g7_1,0
+mmuP,c_g7_1,0
+yagJ,c_g7_1,0
+yagM,c_g7_1,0
+intF,c_g7_1,0
+ykgL,c_g7_1,0
+insF,c_g7_1,0
+ykgC,c_g7_1,0
+betI,c_g7_1,0
+yahJ,c_g7_1,0
+lacZ,c_g7_1,0
+frmA,c_g7_1,0
+yaiU,c_g7_1,0
+mak,c_g7_1,0
+tsx,c_g7_1,0
+yajL,c_g7_1,0
+lon,c_g7_1,0
+acrB,c_g7_1,0
+rhsD,c_g7_1,0
+rzpD,c_g7_1,0
+cusS,c_g7_1,0
+insL,c_g7_1,0
+fepA,c_g7_1,0
+entB,c_g7_1,0
+ybdH,c_g7_1,0
 insH,c_g7_1,0
-mrdA ?,c_g7_1,0
-miaB ?,c_g7_1,0
-ybfO ?,c_g7_1,0
-tolQ ?,c_g7_1,0
-modF ?,c_g7_1,0
-ybhI ?,c_g7_1,0
-bioF ?,c_g7_1,0
-ybhS ?,c_g7_1,0
-dinG ?,c_g7_1,0
-glnP ?,c_g7_1,0
-ybiW ?,c_g7_1,0
-ftsK ?,c_g7_1,0
-ycaM ?,c_g7_1,0
-ycbX ?,c_g7_1,0
-ycbY ?,c_g7_1,0
-yccR ?,c_g7_1,0
-torS ?,c_g7_1,0
-ycdC ?,c_g7_1,0
-ycdQ ?,c_g7_1,0
-ycdU ?,c_g7_1,0
-ycdU ?,c_g7_1,0
-mdoH ?,c_g7_1,0
-mviM ?,c_g7_1,0
-flgG ?,c_g7_1,0
-rne ?,c_g7_1,0
-plsX ?,c_g7_1,0
-ycfH ?,c_g7_1,0
-icd ?,c_g7_1,0
-icd ?,c_g7_1,0
-dsbB ?,c_g7_1,0
-nhaB ?,c_g7_1,0
-nhaB ?,c_g7_1,0
-cvrA ?,c_g7_1,0
-ycgV ?,c_g7_1,0
-ychM ?,c_g7_1,0
-chaA ?,c_g7_1,0
-yciS ?,c_g7_1,0
-sapA ?,c_g7_1,0
-puuB ?,c_g7_1,0
-pspF ?,c_g7_1,0
-pspC ?,c_g7_1,0
-ycjG ?,c_g7_1,0
-intR ?,c_g7_1,0
-ldhA ?,c_g7_1,0
-feaB ?,c_g7_1,0
-feaB ?,c_g7_1,0
-ydcM ?,c_g7_1,0
-ydcU ?,c_g7_1,0
-fdnG ?,c_g7_1,0
-ydeK ?,c_g7_1,0
-ydeK ?,c_g7_1,0
-ydeK ?,c_g7_1,0
-ydeK ?,c_g7_1,0
-stfQ ?,c_g7_1,0
-dgsA ?,c_g7_1,0
-ydhH ?,c_g7_1,0
-ydhK ?,c_g7_1,0
-ydhK ?,c_g7_1,0
-lhr ?,c_g7_1,0
-lhr ?,c_g7_1,0
-ydhP ?,c_g7_1,0
-ydiD ?,c_g7_1,0
-ansA ?,c_g7_1,0
-gapA ?,c_g7_1,0
-yeaW ?,c_g7_1,0
-yoaE ?,c_g7_1,0
-flhA ?,c_g7_1,0
-fliK ?,c_g7_1,0
-dcm ?,c_g7_1,0
-yedW ?,c_g7_1,0
-yeeR ?,c_g7_1,0
-yeeF ?,c_g7_1,0
-wzxC ?,c_g7_1,0
-wcaC ?,c_g7_1,0
-asmA ?,c_g7_1,0
-yegE ?,c_g7_1,0
-yegD ?,c_g7_1,0
-yegS ?,c_g7_1,0
+mrdA,c_g7_1,0
+miaB,c_g7_1,0
+ybfO,c_g7_1,0
+tolQ,c_g7_1,0
+modF,c_g7_1,0
+ybhI,c_g7_1,0
+bioF,c_g7_1,0
+ybhS,c_g7_1,0
+dinG,c_g7_1,0
+glnP,c_g7_1,0
+ybiW,c_g7_1,0
+ftsK,c_g7_1,0
+ycaM,c_g7_1,0
+ycbX,c_g7_1,0
+ycbY,c_g7_1,0
+yccR,c_g7_1,0
+torS,c_g7_1,0
+ycdC,c_g7_1,0
+ycdQ,c_g7_1,0
+ycdU,c_g7_1,0
+ycdU,c_g7_1,0
+mdoH,c_g7_1,0
+mviM,c_g7_1,0
+flgG,c_g7_1,0
+rne,c_g7_1,0
+plsX,c_g7_1,0
+ycfH,c_g7_1,0
+icd,c_g7_1,0
+icd,c_g7_1,0
+dsbB,c_g7_1,0
+nhaB,c_g7_1,0
+nhaB,c_g7_1,0
+cvrA,c_g7_1,0
+ycgV,c_g7_1,0
+ychM,c_g7_1,0
+chaA,c_g7_1,0
+yciS,c_g7_1,0
+sapA,c_g7_1,0
+puuB,c_g7_1,0
+pspF,c_g7_1,0
+pspC,c_g7_1,0
+ycjG,c_g7_1,0
+intR,c_g7_1,0
+ldhA,c_g7_1,0
+feaB,c_g7_1,0
+feaB,c_g7_1,0
+ydcM,c_g7_1,0
+ydcU,c_g7_1,0
+fdnG,c_g7_1,0
+ydeK,c_g7_1,0
+ydeK,c_g7_1,0
+ydeK,c_g7_1,0
+ydeK,c_g7_1,0
+stfQ,c_g7_1,0
+dgsA,c_g7_1,0
+ydhH,c_g7_1,0
+ydhK,c_g7_1,0
+ydhK,c_g7_1,0
+lhr,c_g7_1,0
+lhr,c_g7_1,0
+ydhP,c_g7_1,0
+ydiD,c_g7_1,0
+ansA,c_g7_1,0
+gapA,c_g7_1,0
+yeaW,c_g7_1,0
+yoaE,c_g7_1,0
+flhA,c_g7_1,0
+fliK,c_g7_1,0
+dcm,c_g7_1,0
+yedW,c_g7_1,0
+yeeR,c_g7_1,0
+yeeF,c_g7_1,0
+wzxC,c_g7_1,0
+wcaC,c_g7_1,0
+asmA,c_g7_1,0
+yegE,c_g7_1,0
+yegD,c_g7_1,0
+yegS,c_g7_1,0
 insH,c_g7_1,0
-metG ?,c_g7_1,0
-yejH ?,c_g7_1,0
-ccmA ?,c_g7_1,0
-mqo ?,c_g7_1,0
-insD–insC,c_g7_1,0
-atoE ?,c_g7_1,0
-nrdA ?,c_g7_1,0
-nrdB ?,c_g7_1,0
-yfbH ?,c_g7_1,0
-menC ?,c_g7_1,0
-yfbK ?,c_g7_1,0
-yfcG ?,c_g7_1,0
-accD ?,c_g7_1,0
-pdxB ?,c_g7_1,0
-yfcJ ?,c_g7_1,0
-mepA ?,c_g7_1,0
-yfcP ?,c_g7_1,0
-yfcU ?,c_g7_1,0
-intS ?,c_g7_1,0
-dsdX ?,c_g7_1,0
-oxc ?,c_g7_1,0
-cysA ?,c_g7_1,0
-hemF ?,c_g7_1,0
-hemF ?,c_g7_1,0
-maeB ?,c_g7_1,0
-hyfB ?,c_g7_1,0
-focB ?,c_g7_1,0
-yfgL ?,c_g7_1,0
-hcaT ?,c_g7_1,0
-yphH ?,c_g7_1,0
-lepB ?,c_g7_1,0
-kgtP ?,c_g7_1,0
-rrsG ?,c_g7_1,0
-rrsG ?,c_g7_1,0
-rrsG ?,c_g7_1,0
-yfiO ?,c_g7_1,0
-ypjD ?,c_g7_1,0
-yfjH ?,c_g7_1,0
-yfjK ?,c_g7_1,0
-yfjP ?,c_g7_1,0
-gabT ?,c_g7_1,0
-mprA ?,c_g7_1,0
-emrB ?,c_g7_1,0
-alaS ?,c_g7_1,0
-hycH ?,c_g7_1,0
-fhlA ?,c_g7_1,0
-mutS ?,c_g7_1,0
-iap ?,c_g7_1,0
-ygcL ?,c_g7_1,0
-eno ?,c_g7_1,0
-mazG ?,c_g7_1,0
-relA ?,c_g7_1,0
-gudD ?,c_g7_1,0
-yqcA ?,c_g7_1,0
-sdaC ?,c_g7_1,0
-ppdC ?,c_g7_1,0
-yqeH ?,c_g7_1,0
-ygeF ?,c_g7_1,0
-hyuA ?,c_g7_1,0
-recJ ?,c_g7_1,0
-gcvP ?,c_g7_1,0
-visC ?,c_g7_1,0
-argO ?,c_g7_1,0
-pgk ?,c_g7_1,0
-sprT ?,c_g7_1,0
-yggJ ?,c_g7_1,0
-mutY ?,c_g7_1,0
-glcB ?,c_g7_1,0
-hybD ?,c_g7_1,0
-exbB ?,c_g7_1,0
-exbB ?,c_g7_1,0
-metC ?,c_g7_1,0
-metC ?,c_g7_1,0
-yqhC ?,c_g7_1,0
-nudF ?,c_g7_1,0
-yqiK ?,c_g7_1,0
-rfaE ?,c_g7_1,0
-ygjK ?,c_g7_1,0
-ygjP ?,c_g7_1,0
-sstT ?,c_g7_1,0
-exuT ?,c_g7_1,0
-yhaK ?,c_g7_1,0
-yhaK ?,c_g7_1,0
-tdcB ?,c_g7_1,0
-garK ?,c_g7_1,0
-garP ?,c_g7_1,0
-sohA ?,c_g7_1,0
-truB ?,c_g7_1,0
-yhbX ?,c_g7_1,0
-gltB ?,c_g7_1,0
-yhdW ?,c_g7_1,0
-yhdY ?,c_g7_1,0
-thiC ?,c_g7_1,0
-metJ ?,c_g7_1,0
-yiiQ ?,c_g7_1,0
-rhaA ?,c_g7_1,0
-dapF ?,c_g7_1,0
-cyaA ?,c_g7_1,0
-yifK ?,c_g7_1,0
-rho ?,c_g7_1,0
-ilvC ?,c_g7_1,0
-asnC ?,c_g7_1,0
-pstA ?,c_g7_1,0
-yieG ?,c_g7_1,0
+metG,c_g7_1,0
+yejH,c_g7_1,0
+ccmA,c_g7_1,0
+mqo,c_g7_1,0
+insDinsC,c_g7_1,0
+atoE,c_g7_1,0
+nrdA,c_g7_1,0
+nrdB,c_g7_1,0
+yfbH,c_g7_1,0
+menC,c_g7_1,0
+yfbK,c_g7_1,0
+yfcG,c_g7_1,0
+accD,c_g7_1,0
+pdxB,c_g7_1,0
+yfcJ,c_g7_1,0
+mepA,c_g7_1,0
+yfcP,c_g7_1,0
+yfcU,c_g7_1,0
+intS,c_g7_1,0
+dsdX,c_g7_1,0
+oxc,c_g7_1,0
+cysA,c_g7_1,0
+hemF,c_g7_1,0
+hemF,c_g7_1,0
+maeB,c_g7_1,0
+hyfB,c_g7_1,0
+focB,c_g7_1,0
+yfgL,c_g7_1,0
+hcaT,c_g7_1,0
+yphH,c_g7_1,0
+lepB,c_g7_1,0
+kgtP,c_g7_1,0
+rrsG,c_g7_1,0
+rrsG,c_g7_1,0
+rrsG,c_g7_1,0
+yfiO,c_g7_1,0
+ypjD,c_g7_1,0
+yfjH,c_g7_1,0
+yfjK,c_g7_1,0
+yfjP,c_g7_1,0
+gabT,c_g7_1,0
+mprA,c_g7_1,0
+emrB,c_g7_1,0
+alaS,c_g7_1,0
+hycH,c_g7_1,0
+fhlA,c_g7_1,0
+mutS,c_g7_1,0
+iap,c_g7_1,0
+ygcL,c_g7_1,0
+eno,c_g7_1,0
+mazG,c_g7_1,0
+relA,c_g7_1,0
+gudD,c_g7_1,0
+yqcA,c_g7_1,0
+sdaC,c_g7_1,0
+ppdC,c_g7_1,0
+yqeH,c_g7_1,0
+ygeF,c_g7_1,0
+hyuA,c_g7_1,0
+recJ,c_g7_1,0
+gcvP,c_g7_1,0
+visC,c_g7_1,0
+argO,c_g7_1,0
+pgk,c_g7_1,0
+sprT,c_g7_1,0
+yggJ,c_g7_1,0
+mutY,c_g7_1,0
+glcB,c_g7_1,0
+hybD,c_g7_1,0
+exbB,c_g7_1,0
+exbB,c_g7_1,0
+metC,c_g7_1,0
+metC,c_g7_1,0
+yqhC,c_g7_1,0
+nudF,c_g7_1,0
+yqiK,c_g7_1,0
+rfaE,c_g7_1,0
+ygjK,c_g7_1,0
+ygjP,c_g7_1,0
+sstT,c_g7_1,0
+exuT,c_g7_1,0
+yhaK,c_g7_1,0
+yhaK,c_g7_1,0
+tdcB,c_g7_1,0
+garK,c_g7_1,0
+garP,c_g7_1,0
+sohA,c_g7_1,0
+truB,c_g7_1,0
+yhbX,c_g7_1,0
+gltB,c_g7_1,0
+yhdW,c_g7_1,0
+yhdY,c_g7_1,0
+thiC,c_g7_1,0
+metJ,c_g7_1,0
+yiiQ,c_g7_1,0
+rhaA,c_g7_1,0
+dapF,c_g7_1,0
+cyaA,c_g7_1,0
+yifK,c_g7_1,0
+rho,c_g7_1,0
+ilvC,c_g7_1,0
+asnC,c_g7_1,0
+pstA,c_g7_1,0
+yieG,c_g7_1,0
 insH,c_g7_1,0
-yidH ?,c_g7_1,0
-yicN ?,c_g7_1,0
-yicR ?,c_g7_1,0
-rfaD ?,c_g7_1,0
-selA ?,c_g7_1,0
-bcsE ?,c_g7_1,0
-bcsB ?,c_g7_1,0
-yhjK ?,c_g7_1,0
-gadA ?,c_g7_1,0
-prlC ?,c_g7_1,0
-pitA ?,c_g7_1,0
-yhhT ?,c_g7_1,0
-livG ?,c_g7_1,0
-glgX ?,c_g7_1,0
-malQ ?,c_g7_1,0
-yhgF ?,c_g7_1,0
-frlR ?,c_g7_1,0
-nirC ?,c_g7_1,0
-yheS ?,c_g7_1,0
-fusA ?,c_g7_1,0
-metH ?,c_g7_1,0
-metH ?,c_g7_1,0
-yjbB ?,c_g7_1,0
-pgi ?,c_g7_1,0
-yjbI ?,c_g7_1,0
-nrfC ?,c_g7_1,0
-proP ?,c_g7_1,0
-lysU ?,c_g7_1,0
-cadB ?,c_g7_1,0
-cadC ?,c_g7_1,0
-blc ?,c_g7_1,0
-mutL ?,c_g7_1,0
-yjfK ?,c_g7_1,0
-ulaE ?,c_g7_1,0
-ytfR ?,c_g7_1,0
-nrdD ?,c_g7_1,0
-yjgN ?,c_g7_1,0
-pepA ?,c_g7_1,0
-yjgB ?,c_g7_1,0
-sgcA ?,c_g7_1,0
-yjhR ?,c_g7_1,0
-fimE ?,c_g7_1,0
-iadA ?,c_g7_1,0
-yjiK ?,c_g7_1,0
-leuV ?,c_g7_1,0
-creD ?,c_g7_1,0
-dnaK ?,c_a9_1,0
-nhaA ?,c_a9_1,0
-rrlH ?,c_a9_1,0
-ykfJ–[insH],c_a9_1,0
-Y75_RS01440 ?,c_a9_1,1
-acrB ?,c_a9_1,0
-acrA ?,c_a9_1,0
-ybbA ?,c_a9_1,0
-allR ?,c_a9_1,0
-cecR ?,c_a9_1,0
-cecR ?,c_a9_1,0
-lrp ?,c_a9_1,0
-ycaM ?,c_a9_1,0
-mukB ?,c_a9_1,0
-hyaC ?,c_a9_1,0
-ycdO ?,c_a9_1,0
-fabF ?,c_a9_1,0
-ptsG ?,c_a9_1,0
-nhaB ?,c_a9_1,0
-nhaB ?,c_a9_1,0
-adhE ?,c_a9_1,0
-adhE ?,c_a9_1,0
-adhE ?,c_a9_1,1
-adhE ?,c_a9_1,0
-adhE ?,c_a9_1,0
-adhE ?,c_a9_1,0
-sapD ?,c_a9_1,0
-ydcI ?,c_a9_1,0
-yncD ?,c_a9_1,0
-Y75_RS07695 ?,c_a9_1,0
-ydiM ?,c_a9_1,0
-yeaA ?,c_a9_1,0
-yeaR ?,c_a9_1,0
-Y75_RS09615 ?,c_a9_1,0
-otsB ?,c_a9_1,0
-gatD ?,c_a9_1,0
-glpB ?,c_a9_1,0
-menC ?,c_a9_1,0
-purF ?,c_a9_1,0
-aroC ?,c_a9_1,0
-crr ?,c_a9_1,0
-nlpB ?,c_a9_1,0
-pbpC ?,c_a9_1,0
-csiE ?,c_a9_1,0
-srmB ?,c_a9_1,0
-kgtP ?,c_a9_1,0
-mprA ?,c_a9_1,0
-mprA ?,c_a9_1,0
-mprA ?,c_a9_1,0
-mprA ?,c_a9_1,0
-mprA ?,c_a9_1,0
-mprA ?,c_a9_1,0
-mprA ?,c_a9_1,0
-mprA ?,c_a9_1,1
-mprA ?,c_a9_1,0
-mprA ?,c_a9_1,0
-emrA ?,c_a9_1,0
-emrA ?,c_a9_1,0
-emrB ?,c_a9_1,0
-emrB ?,c_a9_1,0
-emrB ?,c_a9_1,1
-emrB ?,c_a9_1,0
-emrB ?,c_a9_1,0
-rpoS ?,c_a9_1,0
-rpoS ?,c_a9_1,0
-nlpD ?,c_a9_1,0
-ygbE ?,c_a9_1,0
-yghB ?,c_a9_1,0
-rpoD ?,c_a9_1,1
-yhaC ?,c_a9_1,0
-sohA ?,c_a9_1,0
-rng ?,c_a9_1,0
-rng ?,c_a9_1,0
-rng ?,c_a9_1,0
-rng ?,c_a9_1,0
-rpoC ?,c_a9_1,0
-rpoB ?,c_a9_1,0
-rpoB ?,c_a9_1,0
-cyaA ?,c_a9_1,0
-cyaA ?,c_a9_1,0
-cyaA ?,c_a9_1,1
-rho ?,c_a9_1,0
-rbsR ?,c_a9_1,1
-spoT ?,c_a9_1,0
-glyQ ?,c_a9_1,0
-bcsB ?,c_a9_1,0
-gadE ?,c_a9_1,0
-yhiF ?,c_a9_1,0
-pitA ?,c_a9_1,0
-greB ?,c_a9_1,0
-rpoA ?,c_a9_1,0
-metH ?,c_a9_1,0
-plsB ?,c_a9_1,0
-plsB ?,c_a9_1,0
-plsB ?,c_a9_1,1
-plsB ?,c_a9_1,0
-plsB ?,c_a9_1,0
-plsB ?,c_a9_1,0
-alsE ?,c_a9_1,0
-yjeP ?,c_a9_1,0
-ytfI ?,c_a9_1,0
-ytfQ ?,c_a9_1,0
-treB ?,c_a9_1,0
-Y75_RS22485 ?,c_a9_1,0
-fimE ?,c_a9_1,0
-fimE ?,c_a9_1,0
-fimE ?,c_a9_1,1
-fimE ?,c_a9_1,0
-fimE ?,c_a9_1,0
-yjjM ?,c_a9_1,0
-arcA ?,c_a9_1,0
-arcA ?,c_a9_1,0
-carB ?,c_a9_1,0
-ksgA ?,c_a9_1,0
-imp ?,c_a9_1,0
-yabQ ?,c_a9_1,0
-araA ?,c_a9_1,0
-yabI ?,c_a9_1,0
-leuO ?,c_a9_1,0
-mraZ ?,c_a9_1,0
-ampE ?,c_a9_1,0
-lpd ?,c_a9_1,0
-mrcB ?,c_a9_1,0
-fhuB ?,c_a9_1,0
-proS ?,c_a9_1,0
-metQ ?,c_a9_1,0
-yafU ?,c_a9_1,0
-ivy ?,c_a9_1,0
-fadE ?,c_a9_1,0
-ykfJ ?,c_a9_1,0
-insI ?,c_a9_1,0
-ykfC ?,c_a9_1,0
-mmuP ?,c_a9_1,0
-yagJ ?,c_a9_1,0
-yagM ?,c_a9_1,0
-intF ?,c_a9_1,0
-ykgL ?,c_a9_1,0
-insF ?,c_a9_1,0
-ykgC ?,c_a9_1,0
-betI ?,c_a9_1,0
-yahJ ?,c_a9_1,0
-lacZ ?,c_a9_1,0
-frmA ?,c_a9_1,0
-yaiU ?,c_a9_1,0
-mak ?,c_a9_1,0
-tsx ?,c_a9_1,0
-yajL ?,c_a9_1,0
-lon ?,c_a9_1,0
-acrB ?,c_a9_1,0
-rhsD ?,c_a9_1,0
-rzpD ?,c_a9_1,0
-cusS ?,c_a9_1,0
-insL ?,c_a9_1,0
-fepA ?,c_a9_1,0
-entB ?,c_a9_1,0
-ybdH ?,c_a9_1,0
+yidH,c_g7_1,0
+yicN,c_g7_1,0
+yicR,c_g7_1,0
+rfaD,c_g7_1,0
+selA,c_g7_1,0
+bcsE,c_g7_1,0
+bcsB,c_g7_1,0
+yhjK,c_g7_1,0
+gadA,c_g7_1,0
+prlC,c_g7_1,0
+pitA,c_g7_1,0
+yhhT,c_g7_1,0
+livG,c_g7_1,0
+glgX,c_g7_1,0
+malQ,c_g7_1,0
+yhgF,c_g7_1,0
+frlR,c_g7_1,0
+nirC,c_g7_1,0
+yheS,c_g7_1,0
+fusA,c_g7_1,0
+metH,c_g7_1,0
+metH,c_g7_1,0
+yjbB,c_g7_1,0
+pgi,c_g7_1,0
+yjbI,c_g7_1,0
+nrfC,c_g7_1,0
+proP,c_g7_1,0
+lysU,c_g7_1,0
+cadB,c_g7_1,0
+cadC,c_g7_1,0
+blc,c_g7_1,0
+mutL,c_g7_1,0
+yjfK,c_g7_1,0
+ulaE,c_g7_1,0
+ytfR,c_g7_1,0
+nrdD,c_g7_1,0
+yjgN,c_g7_1,0
+pepA,c_g7_1,0
+yjgB,c_g7_1,0
+sgcA,c_g7_1,0
+yjhR,c_g7_1,0
+fimE,c_g7_1,0
+iadA,c_g7_1,0
+yjiK,c_g7_1,0
+leuV,c_g7_1,0
+creD,c_g7_1,0
+dnaK,c_a9_1,0
+nhaA,c_a9_1,0
+rrlH,c_a9_1,0
+Y75RS01440 ,c_a9_1,1
+acrB,c_a9_1,0
+acrA,c_a9_1,0
+ybbA,c_a9_1,0
+allR,c_a9_1,0
+cecR,c_a9_1,0
+cecR,c_a9_1,0
+lrp ,c_a9_1,0
+ycaM ,c_a9_1,0
+mukB,c_a9_1,0
+hyaC,c_a9_1,0
+ycdO,c_a9_1,0
+fabF,c_a9_1,0
+ptsG,c_a9_1,0
+nhaB,c_a9_1,0
+nhaB,c_a9_1,0
+adhE,c_a9_1,0
+adhE,c_a9_1,0
+adhE,c_a9_1,1
+adhE,c_a9_1,0
+adhE,c_a9_1,0
+adhE,c_a9_1,0
+sapD,c_a9_1,0
+ydcI,c_a9_1,0
+yncD,c_a9_1,0
+Y75RS07695 ,c_a9_1,0
+ydiM ,c_a9_1,0
+yeaA ,c_a9_1,0
+yeaR ,c_a9_1,0
+Y75RS09615 ,c_a9_1,0
+otsB,c_a9_1,0
+gatD ,c_a9_1,0
+glpB,c_a9_1,0
+menC ,c_a9_1,0
+purF,c_a9_1,0
+aroC,c_a9_1,0
+crr ,c_a9_1,0
+nlpB,c_a9_1,0
+pbpC,c_a9_1,0
+csiE,c_a9_1,0
+srmB,c_a9_1,0
+kgtP,c_a9_1,0
+mprA,c_a9_1,0
+mprA,c_a9_1,0
+mprA,c_a9_1,0
+mprA,c_a9_1,0
+mprA,c_a9_1,0
+mprA,c_a9_1,0
+mprA,c_a9_1,0
+mprA,c_a9_1,1
+mprA,c_a9_1,0
+mprA,c_a9_1,0
+emrA,c_a9_1,0
+emrA,c_a9_1,0
+emrB,c_a9_1,0
+emrB,c_a9_1,0
+emrB,c_a9_1,1
+emrB,c_a9_1,0
+emrB,c_a9_1,0
+rpoS,c_a9_1,0
+rpoS,c_a9_1,0
+nlpD ,c_a9_1,0
+ygbE,c_a9_1,0
+yghB,c_a9_1,0
+rpoD,c_a9_1,1
+yhaC,c_a9_1,0
+sohA,c_a9_1,0
+rng,c_a9_1,0
+rng,c_a9_1,0
+rng,c_a9_1,0
+rng,c_a9_1,0
+rpoC,c_a9_1,0
+rpoB,c_a9_1,0
+rpoB,c_a9_1,0
+cyaA,c_a9_1,0
+cyaA,c_a9_1,0
+cyaA,c_a9_1,1
+rho,c_a9_1,0
+rbsR,c_a9_1,1
+spoT,c_a9_1,0
+glyQ,c_a9_1,0
+bcsB,c_a9_1,0
+gadE ,c_a9_1,0
+yhiF ,c_a9_1,0
+pitA,c_a9_1,0
+greB,c_a9_1,0
+rpoA,c_a9_1,0
+metH,c_a9_1,0
+plsB,c_a9_1,0
+plsB,c_a9_1,0
+plsB,c_a9_1,1
+plsB,c_a9_1,0
+plsB,c_a9_1,0
+plsB,c_a9_1,0
+alsE,c_a9_1,0
+yjeP,c_a9_1,0
+ytfI,c_a9_1,0
+ytfQ,c_a9_1,0
+treB,c_a9_1,0
+Y75RS22485 ,c_a9_1,0
+fimE,c_a9_1,0
+fimE,c_a9_1,0
+fimE,c_a9_1,1
+fimE,c_a9_1,0
+fimE,c_a9_1,0
+yjjM ,c_a9_1,0
+arcA,c_a9_1,0
+arcA,c_a9_1,0
+carB,c_a9_1,0
+ksgA,c_a9_1,0
+imp,c_a9_1,0
+yabQ,c_a9_1,0
+araA,c_a9_1,0
+yabI,c_a9_1,0
+leuO,c_a9_1,0
+mraZ,c_a9_1,0
+ampE,c_a9_1,0
+lpd,c_a9_1,0
+mrcB,c_a9_1,0
+fhuB,c_a9_1,0
+proS,c_a9_1,0
+metQ,c_a9_1,0
+yafU,c_a9_1,0
+ivy,c_a9_1,0
+fadE,c_a9_1,0
+ykfJ,c_a9_1,0
+insI,c_a9_1,0
+ykfC,c_a9_1,0
+mmuP,c_a9_1,0
+yagJ,c_a9_1,0
+yagM,c_a9_1,0
+intF,c_a9_1,0
+ykgL,c_a9_1,0
+insF,c_a9_1,0
+ykgC,c_a9_1,0
+betI,c_a9_1,0
+yahJ,c_a9_1,0
+lacZ,c_a9_1,0
+frmA,c_a9_1,0
+yaiU,c_a9_1,0
+mak,c_a9_1,0
+tsx,c_a9_1,0
+yajL,c_a9_1,0
+lon,c_a9_1,0
+acrB,c_a9_1,0
+rhsD,c_a9_1,0
+rzpD,c_a9_1,0
+cusS,c_a9_1,0
+insL,c_a9_1,0
+fepA,c_a9_1,0
+entB,c_a9_1,0
+ybdH,c_a9_1,0
 insH,c_a9_1,0
-mrdA ?,c_a9_1,0
-miaB ?,c_a9_1,0
-ybfO ?,c_a9_1,0
-tolQ ?,c_a9_1,0
-modF ?,c_a9_1,0
-ybhI ?,c_a9_1,0
-bioF ?,c_a9_1,0
-ybhS ?,c_a9_1,0
-dinG ?,c_a9_1,0
-glnP ?,c_a9_1,0
-ybiW ?,c_a9_1,0
-ftsK ?,c_a9_1,0
-ycaM ?,c_a9_1,0
-ycbX ?,c_a9_1,0
-ycbY ?,c_a9_1,0
-yccR ?,c_a9_1,0
-torS ?,c_a9_1,0
-ycdC ?,c_a9_1,0
-ycdQ ?,c_a9_1,0
-ycdU ?,c_a9_1,0
-ycdU ?,c_a9_1,0
-mdoH ?,c_a9_1,0
-mviM ?,c_a9_1,0
-flgG ?,c_a9_1,0
-rne ?,c_a9_1,0
-plsX ?,c_a9_1,0
-ycfH ?,c_a9_1,0
-icd ?,c_a9_1,0
-icd ?,c_a9_1,0
-dsbB ?,c_a9_1,0
-nhaB ?,c_a9_1,0
-nhaB ?,c_a9_1,0
-cvrA ?,c_a9_1,0
-ycgV ?,c_a9_1,0
-ychM ?,c_a9_1,0
-chaA ?,c_a9_1,0
-yciS ?,c_a9_1,0
-sapA ?,c_a9_1,0
-puuB ?,c_a9_1,0
-pspF ?,c_a9_1,0
-pspC ?,c_a9_1,0
-ycjG ?,c_a9_1,0
-intR ?,c_a9_1,0
-ldhA ?,c_a9_1,0
-feaB ?,c_a9_1,0
-feaB ?,c_a9_1,0
-ydcM ?,c_a9_1,0
-ydcU ?,c_a9_1,0
-fdnG ?,c_a9_1,0
-ydeK ?,c_a9_1,0
-ydeK ?,c_a9_1,0
-ydeK ?,c_a9_1,0
-ydeK ?,c_a9_1,0
-stfQ ?,c_a9_1,0
-dgsA ?,c_a9_1,0
-ydhH ?,c_a9_1,0
-ydhK ?,c_a9_1,0
-ydhK ?,c_a9_1,0
-lhr ?,c_a9_1,0
-lhr ?,c_a9_1,0
-ydhP ?,c_a9_1,0
-ydiD ?,c_a9_1,0
-ansA ?,c_a9_1,0
-gapA ?,c_a9_1,0
-yeaW ?,c_a9_1,0
-yoaE ?,c_a9_1,0
-flhA ?,c_a9_1,0
-fliK ?,c_a9_1,0
-dcm ?,c_a9_1,0
-yedW ?,c_a9_1,0
-yeeR ?,c_a9_1,0
-yeeF ?,c_a9_1,0
-wzxC ?,c_a9_1,0
-wcaC ?,c_a9_1,0
-asmA ?,c_a9_1,0
-yegE ?,c_a9_1,0
-yegD ?,c_a9_1,0
-yegS ?,c_a9_1,0
+mrdA,c_a9_1,0
+miaB,c_a9_1,0
+ybfO,c_a9_1,0
+tolQ,c_a9_1,0
+modF,c_a9_1,0
+ybhI,c_a9_1,0
+bioF,c_a9_1,0
+ybhS,c_a9_1,0
+dinG,c_a9_1,0
+glnP,c_a9_1,0
+ybiW,c_a9_1,0
+ftsK,c_a9_1,0
+ycaM,c_a9_1,0
+ycbX,c_a9_1,0
+ycbY,c_a9_1,0
+yccR,c_a9_1,0
+torS,c_a9_1,0
+ycdC,c_a9_1,0
+ycdQ,c_a9_1,0
+ycdU,c_a9_1,0
+ycdU,c_a9_1,0
+mdoH,c_a9_1,0
+mviM,c_a9_1,0
+flgG,c_a9_1,0
+rne,c_a9_1,0
+plsX,c_a9_1,0
+ycfH,c_a9_1,0
+icd,c_a9_1,0
+icd,c_a9_1,0
+dsbB,c_a9_1,0
+nhaB,c_a9_1,0
+nhaB,c_a9_1,0
+cvrA,c_a9_1,0
+ycgV,c_a9_1,0
+ychM,c_a9_1,0
+chaA,c_a9_1,0
+yciS,c_a9_1,0
+sapA,c_a9_1,0
+puuB,c_a9_1,0
+pspF,c_a9_1,0
+pspC,c_a9_1,0
+ycjG,c_a9_1,0
+intR,c_a9_1,0
+ldhA,c_a9_1,0
+feaB,c_a9_1,0
+feaB,c_a9_1,0
+ydcM,c_a9_1,0
+ydcU,c_a9_1,0
+fdnG,c_a9_1,0
+ydeK,c_a9_1,0
+ydeK,c_a9_1,0
+ydeK,c_a9_1,0
+ydeK,c_a9_1,0
+stfQ,c_a9_1,0
+dgsA,c_a9_1,0
+ydhH,c_a9_1,0
+ydhK,c_a9_1,0
+ydhK,c_a9_1,0
+lhr,c_a9_1,0
+lhr,c_a9_1,0
+ydhP,c_a9_1,0
+ydiD,c_a9_1,0
+ansA,c_a9_1,0
+gapA,c_a9_1,0
+yeaW,c_a9_1,0
+yoaE,c_a9_1,0
+flhA,c_a9_1,0
+fliK,c_a9_1,0
+dcm,c_a9_1,0
+yedW,c_a9_1,0
+yeeR,c_a9_1,0
+yeeF,c_a9_1,0
+wzxC,c_a9_1,0
+wcaC,c_a9_1,0
+asmA,c_a9_1,0
+yegE,c_a9_1,0
+yegD,c_a9_1,0
+yegS,c_a9_1,0
 insH,c_a9_1,0
-metG ?,c_a9_1,0
-yejH ?,c_a9_1,0
-ccmA ?,c_a9_1,0
-mqo ?,c_a9_1,0
-insD–insC,c_a9_1,0
-atoE ?,c_a9_1,0
-nrdA ?,c_a9_1,0
-nrdB ?,c_a9_1,0
-yfbH ?,c_a9_1,0
-menC ?,c_a9_1,0
-yfbK ?,c_a9_1,0
-yfcG ?,c_a9_1,0
-accD ?,c_a9_1,0
-pdxB ?,c_a9_1,0
-yfcJ ?,c_a9_1,0
-mepA ?,c_a9_1,0
-yfcP ?,c_a9_1,0
-yfcU ?,c_a9_1,0
-intS ?,c_a9_1,0
-dsdX ?,c_a9_1,0
-oxc ?,c_a9_1,0
-cysA ?,c_a9_1,0
-hemF ?,c_a9_1,0
-hemF ?,c_a9_1,0
-maeB ?,c_a9_1,0
-hyfB ?,c_a9_1,0
-focB ?,c_a9_1,0
-yfgL ?,c_a9_1,0
-hcaT ?,c_a9_1,0
-yphH ?,c_a9_1,0
-lepB ?,c_a9_1,0
-kgtP ?,c_a9_1,0
-rrsG ?,c_a9_1,0
-rrsG ?,c_a9_1,0
-rrsG ?,c_a9_1,0
-yfiO ?,c_a9_1,0
-ypjD ?,c_a9_1,0
-yfjH ?,c_a9_1,0
-yfjK ?,c_a9_1,0
-yfjP ?,c_a9_1,0
-gabT ?,c_a9_1,0
-mprA ?,c_a9_1,0
-emrB ?,c_a9_1,0
-alaS ?,c_a9_1,0
-hycH ?,c_a9_1,0
-fhlA ?,c_a9_1,0
-mutS ?,c_a9_1,0
-iap ?,c_a9_1,0
-ygcL ?,c_a9_1,0
-eno ?,c_a9_1,0
-mazG ?,c_a9_1,0
-relA ?,c_a9_1,0
-gudD ?,c_a9_1,0
-yqcA ?,c_a9_1,0
-sdaC ?,c_a9_1,0
-ppdC ?,c_a9_1,0
-yqeH ?,c_a9_1,0
-ygeF ?,c_a9_1,0
-hyuA ?,c_a9_1,0
-recJ ?,c_a9_1,0
-gcvP ?,c_a9_1,0
-visC ?,c_a9_1,0
-argO ?,c_a9_1,0
-pgk ?,c_a9_1,0
-sprT ?,c_a9_1,0
-yggJ ?,c_a9_1,0
-mutY ?,c_a9_1,0
-glcB ?,c_a9_1,0
-hybD ?,c_a9_1,0
-exbB ?,c_a9_1,0
-exbB ?,c_a9_1,0
-metC ?,c_a9_1,0
-metC ?,c_a9_1,0
-yqhC ?,c_a9_1,0
-nudF ?,c_a9_1,0
-yqiK ?,c_a9_1,0
-rfaE ?,c_a9_1,0
-ygjK ?,c_a9_1,0
-ygjP ?,c_a9_1,0
-sstT ?,c_a9_1,0
-exuT ?,c_a9_1,0
-yhaK ?,c_a9_1,0
-yhaK ?,c_a9_1,0
-tdcB ?,c_a9_1,0
-garK ?,c_a9_1,0
-garP ?,c_a9_1,0
-sohA ?,c_a9_1,0
-truB ?,c_a9_1,0
-yhbX ?,c_a9_1,0
-gltB ?,c_a9_1,0
-yhdW ?,c_a9_1,0
-yhdY ?,c_a9_1,0
-thiC ?,c_a9_1,0
-metJ ?,c_a9_1,0
-yiiQ ?,c_a9_1,0
-rhaA ?,c_a9_1,0
-dapF ?,c_a9_1,0
-cyaA ?,c_a9_1,0
-yifK ?,c_a9_1,0
-rho ?,c_a9_1,0
-ilvC ?,c_a9_1,0
-asnC ?,c_a9_1,0
-pstA ?,c_a9_1,0
-yieG ?,c_a9_1,0
+metG,c_a9_1,0
+yejH,c_a9_1,0
+ccmA,c_a9_1,0
+mqo,c_a9_1,0
+insDinsC,c_a9_1,0
+atoE,c_a9_1,0
+nrdA,c_a9_1,0
+nrdB,c_a9_1,0
+yfbH,c_a9_1,0
+menC,c_a9_1,0
+yfbK,c_a9_1,0
+yfcG,c_a9_1,0
+accD,c_a9_1,0
+pdxB,c_a9_1,0
+yfcJ,c_a9_1,0
+mepA,c_a9_1,0
+yfcP,c_a9_1,0
+yfcU,c_a9_1,0
+intS,c_a9_1,0
+dsdX,c_a9_1,0
+oxc,c_a9_1,0
+cysA,c_a9_1,0
+hemF,c_a9_1,0
+hemF,c_a9_1,0
+maeB,c_a9_1,0
+hyfB,c_a9_1,0
+focB,c_a9_1,0
+yfgL,c_a9_1,0
+hcaT,c_a9_1,0
+yphH,c_a9_1,0
+lepB,c_a9_1,0
+kgtP,c_a9_1,0
+rrsG,c_a9_1,0
+rrsG,c_a9_1,0
+rrsG,c_a9_1,0
+yfiO,c_a9_1,0
+ypjD,c_a9_1,0
+yfjH,c_a9_1,0
+yfjK,c_a9_1,0
+yfjP,c_a9_1,0
+gabT,c_a9_1,0
+mprA,c_a9_1,0
+emrB,c_a9_1,0
+alaS,c_a9_1,0
+hycH,c_a9_1,0
+fhlA,c_a9_1,0
+mutS,c_a9_1,0
+iap,c_a9_1,0
+ygcL,c_a9_1,0
+eno,c_a9_1,0
+mazG,c_a9_1,0
+relA,c_a9_1,0
+gudD,c_a9_1,0
+yqcA,c_a9_1,0
+sdaC,c_a9_1,0
+ppdC,c_a9_1,0
+yqeH,c_a9_1,0
+ygeF,c_a9_1,0
+hyuA,c_a9_1,0
+recJ,c_a9_1,0
+gcvP,c_a9_1,0
+visC,c_a9_1,0
+argO,c_a9_1,0
+pgk,c_a9_1,0
+sprT,c_a9_1,0
+yggJ,c_a9_1,0
+mutY,c_a9_1,0
+glcB,c_a9_1,0
+hybD,c_a9_1,0
+exbB,c_a9_1,0
+exbB,c_a9_1,0
+metC,c_a9_1,0
+metC,c_a9_1,0
+yqhC,c_a9_1,0
+nudF,c_a9_1,0
+yqiK,c_a9_1,0
+rfaE,c_a9_1,0
+ygjK,c_a9_1,0
+ygjP,c_a9_1,0
+sstT,c_a9_1,0
+exuT,c_a9_1,0
+yhaK,c_a9_1,0
+yhaK,c_a9_1,0
+tdcB,c_a9_1,0
+garK,c_a9_1,0
+garP,c_a9_1,0
+sohA,c_a9_1,0
+truB,c_a9_1,0
+yhbX,c_a9_1,0
+gltB,c_a9_1,0
+yhdW,c_a9_1,0
+yhdY,c_a9_1,0
+thiC,c_a9_1,0
+metJ,c_a9_1,0
+yiiQ,c_a9_1,0
+rhaA,c_a9_1,0
+dapF,c_a9_1,0
+cyaA,c_a9_1,0
+yifK,c_a9_1,0
+rho,c_a9_1,0
+ilvC,c_a9_1,0
+asnC,c_a9_1,0
+pstA,c_a9_1,0
+yieG,c_a9_1,0
 insH,c_a9_1,0
-yidH ?,c_a9_1,0
-yicN ?,c_a9_1,0
-yicR ?,c_a9_1,0
-rfaD ?,c_a9_1,0
-selA ?,c_a9_1,0
-bcsE ?,c_a9_1,0
-bcsB ?,c_a9_1,0
-yhjK ?,c_a9_1,0
-gadA ?,c_a9_1,0
-prlC ?,c_a9_1,0
-pitA ?,c_a9_1,0
-yhhT ?,c_a9_1,0
-livG ?,c_a9_1,0
-glgX ?,c_a9_1,0
-malQ ?,c_a9_1,0
-yhgF ?,c_a9_1,0
-frlR ?,c_a9_1,0
-nirC ?,c_a9_1,0
-yheS ?,c_a9_1,0
-fusA ?,c_a9_1,0
-metH ?,c_a9_1,0
-metH ?,c_a9_1,0
-yjbB ?,c_a9_1,0
-pgi ?,c_a9_1,0
-yjbI ?,c_a9_1,0
-nrfC ?,c_a9_1,0
-proP ?,c_a9_1,0
-lysU ?,c_a9_1,0
-cadB ?,c_a9_1,0
-cadC ?,c_a9_1,0
-blc ?,c_a9_1,0
-mutL ?,c_a9_1,0
-yjfK ?,c_a9_1,0
-ulaE ?,c_a9_1,0
-ytfR ?,c_a9_1,0
-nrdD ?,c_a9_1,0
-yjgN ?,c_a9_1,0
-pepA ?,c_a9_1,0
-yjgB ?,c_a9_1,0
-sgcA ?,c_a9_1,0
-yjhR ?,c_a9_1,0
-fimE ?,c_a9_1,0
-iadA ?,c_a9_1,0
-yjiK ?,c_a9_1,0
-leuV ?,c_a9_1,0
-creD ?,c_a9_1,0
-dnaK ?,c_f9_1,0
-nhaA ?,c_f9_1,0
-rrlH ?,c_f9_1,0
-ykfJ–[insH],c_f9_1,0
-Y75_RS01440 ?,c_f9_1,0
-acrB ?,c_f9_1,0
-acrA ?,c_f9_1,0
-ybbA ?,c_f9_1,1
-allR ?,c_f9_1,0
-cecR ?,c_f9_1,0
-cecR ?,c_f9_1,0
-lrp ?,c_f9_1,1
-ycaM ?,c_f9_1,0
-mukB ?,c_f9_1,0
-hyaC ?,c_f9_1,0
-ycdO ?,c_f9_1,0
-fabF ?,c_f9_1,0
-ptsG ?,c_f9_1,0
-nhaB ?,c_f9_1,0
-nhaB ?,c_f9_1,0
-adhE ?,c_f9_1,0
-adhE ?,c_f9_1,1
-adhE ?,c_f9_1,0
-adhE ?,c_f9_1,0
-adhE ?,c_f9_1,0
-adhE ?,c_f9_1,0
-sapD ?,c_f9_1,0
-ydcI ?,c_f9_1,0
-yncD ?,c_f9_1,0
-Y75_RS07695 ?,c_f9_1,0
-ydiM ?,c_f9_1,0
-yeaA ?,c_f9_1,0
-yeaR ?,c_f9_1,0
-Y75_RS09615 ?,c_f9_1,0
-otsB ?,c_f9_1,0
-gatD ?,c_f9_1,0
-glpB ?,c_f9_1,0
-menC ?,c_f9_1,0
-purF ?,c_f9_1,0
-aroC ?,c_f9_1,0
-crr ?,c_f9_1,1
-nlpB ?,c_f9_1,0
-pbpC ?,c_f9_1,0
-csiE ?,c_f9_1,0
-srmB ?,c_f9_1,0
-kgtP ?,c_f9_1,0
-mprA ?,c_f9_1,1
-mprA ?,c_f9_1,0
-mprA ?,c_f9_1,0
-mprA ?,c_f9_1,0
-mprA ?,c_f9_1,0
-mprA ?,c_f9_1,0
-mprA ?,c_f9_1,0
-mprA ?,c_f9_1,0
-mprA ?,c_f9_1,0
-mprA ?,c_f9_1,0
-emrA ?,c_f9_1,1
-emrA ?,c_f9_1,0
-emrB ?,c_f9_1,0
-emrB ?,c_f9_1,0
-emrB ?,c_f9_1,0
-emrB ?,c_f9_1,0
-emrB ?,c_f9_1,0
-rpoS ?,c_f9_1,1
-rpoS ?,c_f9_1,0
-nlpD ?,c_f9_1,0
-ygbE ?,c_f9_1,0
-yghB ?,c_f9_1,0
-rpoD ?,c_f9_1,0
-yhaC ?,c_f9_1,0
-sohA ?,c_f9_1,0
-rng ?,c_f9_1,0
-rng ?,c_f9_1,0
-rng ?,c_f9_1,0
-rng ?,c_f9_1,0
-rpoC ?,c_f9_1,0
-rpoB ?,c_f9_1,0
-rpoB ?,c_f9_1,0
-cyaA ?,c_f9_1,0
-cyaA ?,c_f9_1,0
-cyaA ?,c_f9_1,0
-rho ?,c_f9_1,0
-rbsR ?,c_f9_1,0
-spoT ?,c_f9_1,0
-glyQ ?,c_f9_1,0
-bcsB ?,c_f9_1,0
-gadE ?,c_f9_1,0
-yhiF ?,c_f9_1,0
-pitA ?,c_f9_1,0
-greB ?,c_f9_1,0
-rpoA ?,c_f9_1,0
-metH ?,c_f9_1,0
-plsB ?,c_f9_1,0
-plsB ?,c_f9_1,0
-plsB ?,c_f9_1,0
-plsB ?,c_f9_1,0
-plsB ?,c_f9_1,0
-plsB ?,c_f9_1,0
-alsE ?,c_f9_1,1
-yjeP ?,c_f9_1,0
-ytfI ?,c_f9_1,0
-ytfQ ?,c_f9_1,0
-treB ?,c_f9_1,0
-Y75_RS22485 ?,c_f9_1,0
-fimE ?,c_f9_1,0
-fimE ?,c_f9_1,0
-fimE ?,c_f9_1,0
-fimE ?,c_f9_1,0
-fimE ?,c_f9_1,0
-yjjM ?,c_f9_1,0
-arcA ?,c_f9_1,0
-arcA ?,c_f9_1,0
-carB ?,c_f9_1,0
-ksgA ?,c_f9_1,0
-imp ?,c_f9_1,0
-yabQ ?,c_f9_1,0
-araA ?,c_f9_1,0
-yabI ?,c_f9_1,0
-leuO ?,c_f9_1,0
-mraZ ?,c_f9_1,0
-ampE ?,c_f9_1,0
-lpd ?,c_f9_1,0
-mrcB ?,c_f9_1,0
-fhuB ?,c_f9_1,0
-proS ?,c_f9_1,0
-metQ ?,c_f9_1,0
-yafU ?,c_f9_1,0
-ivy ?,c_f9_1,0
-fadE ?,c_f9_1,0
-ykfJ ?,c_f9_1,0
-insI ?,c_f9_1,0
-ykfC ?,c_f9_1,0
-mmuP ?,c_f9_1,0
-yagJ ?,c_f9_1,0
-yagM ?,c_f9_1,0
-intF ?,c_f9_1,0
-ykgL ?,c_f9_1,0
-insF ?,c_f9_1,0
-ykgC ?,c_f9_1,0
-betI ?,c_f9_1,0
-yahJ ?,c_f9_1,0
-lacZ ?,c_f9_1,0
-frmA ?,c_f9_1,0
-yaiU ?,c_f9_1,0
-mak ?,c_f9_1,0
-tsx ?,c_f9_1,0
-yajL ?,c_f9_1,0
-lon ?,c_f9_1,0
-acrB ?,c_f9_1,0
-rhsD ?,c_f9_1,0
-rzpD ?,c_f9_1,0
-cusS ?,c_f9_1,0
-insL ?,c_f9_1,0
-fepA ?,c_f9_1,0
-entB ?,c_f9_1,0
-ybdH ?,c_f9_1,0
+yidH,c_a9_1,0
+yicN,c_a9_1,0
+yicR,c_a9_1,0
+rfaD,c_a9_1,0
+selA,c_a9_1,0
+bcsE,c_a9_1,0
+bcsB,c_a9_1,0
+yhjK,c_a9_1,0
+gadA,c_a9_1,0
+prlC,c_a9_1,0
+pitA,c_a9_1,0
+yhhT,c_a9_1,0
+livG,c_a9_1,0
+glgX,c_a9_1,0
+malQ,c_a9_1,0
+yhgF,c_a9_1,0
+frlR,c_a9_1,0
+nirC,c_a9_1,0
+yheS,c_a9_1,0
+fusA,c_a9_1,0
+metH,c_a9_1,0
+metH,c_a9_1,0
+yjbB,c_a9_1,0
+pgi,c_a9_1,0
+yjbI,c_a9_1,0
+nrfC,c_a9_1,0
+proP,c_a9_1,0
+lysU,c_a9_1,0
+cadB,c_a9_1,0
+cadC,c_a9_1,0
+blc,c_a9_1,0
+mutL,c_a9_1,0
+yjfK,c_a9_1,0
+ulaE,c_a9_1,0
+ytfR,c_a9_1,0
+nrdD,c_a9_1,0
+yjgN,c_a9_1,0
+pepA,c_a9_1,0
+yjgB,c_a9_1,0
+sgcA,c_a9_1,0
+yjhR,c_a9_1,0
+fimE,c_a9_1,0
+iadA,c_a9_1,0
+yjiK,c_a9_1,0
+leuV,c_a9_1,0
+creD,c_a9_1,0
+dnaK,c_f9_1,0
+nhaA,c_f9_1,0
+rrlH,c_f9_1,0
+Y75RS01440 ,c_f9_1,0
+acrB,c_f9_1,0
+acrA,c_f9_1,0
+ybbA,c_f9_1,1
+allR,c_f9_1,0
+cecR,c_f9_1,0
+cecR,c_f9_1,0
+lrp ,c_f9_1,1
+ycaM ,c_f9_1,0
+mukB,c_f9_1,0
+hyaC,c_f9_1,0
+ycdO,c_f9_1,0
+fabF,c_f9_1,0
+ptsG,c_f9_1,0
+nhaB,c_f9_1,0
+nhaB,c_f9_1,0
+adhE,c_f9_1,0
+adhE,c_f9_1,1
+adhE,c_f9_1,0
+adhE,c_f9_1,0
+adhE,c_f9_1,0
+adhE,c_f9_1,0
+sapD,c_f9_1,0
+ydcI,c_f9_1,0
+yncD,c_f9_1,0
+Y75RS07695 ,c_f9_1,0
+ydiM ,c_f9_1,0
+yeaA ,c_f9_1,0
+yeaR ,c_f9_1,0
+Y75RS09615 ,c_f9_1,0
+otsB,c_f9_1,0
+gatD ,c_f9_1,0
+glpB,c_f9_1,0
+menC ,c_f9_1,0
+purF,c_f9_1,0
+aroC,c_f9_1,0
+crr ,c_f9_1,1
+nlpB,c_f9_1,0
+pbpC,c_f9_1,0
+csiE,c_f9_1,0
+srmB,c_f9_1,0
+kgtP,c_f9_1,0
+mprA,c_f9_1,1
+mprA,c_f9_1,0
+mprA,c_f9_1,0
+mprA,c_f9_1,0
+mprA,c_f9_1,0
+mprA,c_f9_1,0
+mprA,c_f9_1,0
+mprA,c_f9_1,0
+mprA,c_f9_1,0
+mprA,c_f9_1,0
+emrA,c_f9_1,1
+emrA,c_f9_1,0
+emrB,c_f9_1,0
+emrB,c_f9_1,0
+emrB,c_f9_1,0
+emrB,c_f9_1,0
+emrB,c_f9_1,0
+rpoS,c_f9_1,1
+rpoS,c_f9_1,0
+nlpD ,c_f9_1,0
+ygbE,c_f9_1,0
+yghB,c_f9_1,0
+rpoD,c_f9_1,0
+yhaC,c_f9_1,0
+sohA,c_f9_1,0
+rng,c_f9_1,0
+rng,c_f9_1,0
+rng,c_f9_1,0
+rng,c_f9_1,0
+rpoC,c_f9_1,0
+rpoB,c_f9_1,0
+rpoB,c_f9_1,0
+cyaA,c_f9_1,0
+cyaA,c_f9_1,0
+cyaA,c_f9_1,0
+rho,c_f9_1,0
+rbsR,c_f9_1,0
+spoT,c_f9_1,0
+glyQ,c_f9_1,0
+bcsB,c_f9_1,0
+gadE ,c_f9_1,0
+yhiF ,c_f9_1,0
+pitA,c_f9_1,0
+greB,c_f9_1,0
+rpoA,c_f9_1,0
+metH,c_f9_1,0
+plsB,c_f9_1,0
+plsB,c_f9_1,0
+plsB,c_f9_1,0
+plsB,c_f9_1,0
+plsB,c_f9_1,0
+plsB,c_f9_1,0
+alsE,c_f9_1,1
+yjeP,c_f9_1,0
+ytfI,c_f9_1,0
+ytfQ,c_f9_1,0
+treB,c_f9_1,0
+Y75RS22485 ,c_f9_1,0
+fimE,c_f9_1,0
+fimE,c_f9_1,0
+fimE,c_f9_1,0
+fimE,c_f9_1,0
+fimE,c_f9_1,0
+yjjM ,c_f9_1,0
+arcA,c_f9_1,0
+arcA,c_f9_1,0
+carB,c_f9_1,0
+ksgA,c_f9_1,0
+imp,c_f9_1,0
+yabQ,c_f9_1,0
+araA,c_f9_1,0
+yabI,c_f9_1,0
+leuO,c_f9_1,0
+mraZ,c_f9_1,0
+ampE,c_f9_1,0
+lpd,c_f9_1,0
+mrcB,c_f9_1,0
+fhuB,c_f9_1,0
+proS,c_f9_1,0
+metQ,c_f9_1,0
+yafU,c_f9_1,0
+ivy,c_f9_1,0
+fadE,c_f9_1,0
+ykfJ,c_f9_1,0
+insI,c_f9_1,0
+ykfC,c_f9_1,0
+mmuP,c_f9_1,0
+yagJ,c_f9_1,0
+yagM,c_f9_1,0
+intF,c_f9_1,0
+ykgL,c_f9_1,0
+insF,c_f9_1,0
+ykgC,c_f9_1,0
+betI,c_f9_1,0
+yahJ,c_f9_1,0
+lacZ,c_f9_1,0
+frmA,c_f9_1,0
+yaiU,c_f9_1,0
+mak,c_f9_1,0
+tsx,c_f9_1,0
+yajL,c_f9_1,0
+lon,c_f9_1,0
+acrB,c_f9_1,0
+rhsD,c_f9_1,0
+rzpD,c_f9_1,0
+cusS,c_f9_1,0
+insL,c_f9_1,0
+fepA,c_f9_1,0
+entB,c_f9_1,0
+ybdH,c_f9_1,0
 insH,c_f9_1,0
-mrdA ?,c_f9_1,0
-miaB ?,c_f9_1,0
-ybfO ?,c_f9_1,0
-tolQ ?,c_f9_1,0
-modF ?,c_f9_1,0
-ybhI ?,c_f9_1,0
-bioF ?,c_f9_1,0
-ybhS ?,c_f9_1,0
-dinG ?,c_f9_1,0
-glnP ?,c_f9_1,0
-ybiW ?,c_f9_1,0
-ftsK ?,c_f9_1,0
-ycaM ?,c_f9_1,0
-ycbX ?,c_f9_1,0
-ycbY ?,c_f9_1,0
-yccR ?,c_f9_1,0
-torS ?,c_f9_1,0
-ycdC ?,c_f9_1,0
-ycdQ ?,c_f9_1,0
-ycdU ?,c_f9_1,0
-ycdU ?,c_f9_1,0
-mdoH ?,c_f9_1,0
-mviM ?,c_f9_1,0
-flgG ?,c_f9_1,0
-rne ?,c_f9_1,0
-plsX ?,c_f9_1,0
-ycfH ?,c_f9_1,0
-icd ?,c_f9_1,0
-icd ?,c_f9_1,0
-dsbB ?,c_f9_1,0
-nhaB ?,c_f9_1,0
-nhaB ?,c_f9_1,0
-cvrA ?,c_f9_1,0
-ycgV ?,c_f9_1,0
-ychM ?,c_f9_1,0
-chaA ?,c_f9_1,0
-yciS ?,c_f9_1,0
-sapA ?,c_f9_1,0
-puuB ?,c_f9_1,0
-pspF ?,c_f9_1,0
-pspC ?,c_f9_1,0
-ycjG ?,c_f9_1,0
-intR ?,c_f9_1,0
-ldhA ?,c_f9_1,0
-feaB ?,c_f9_1,0
-feaB ?,c_f9_1,0
-ydcM ?,c_f9_1,0
-ydcU ?,c_f9_1,0
-fdnG ?,c_f9_1,0
-ydeK ?,c_f9_1,0
-ydeK ?,c_f9_1,0
-ydeK ?,c_f9_1,0
-ydeK ?,c_f9_1,0
-stfQ ?,c_f9_1,0
-dgsA ?,c_f9_1,0
-ydhH ?,c_f9_1,0
-ydhK ?,c_f9_1,0
-ydhK ?,c_f9_1,0
-lhr ?,c_f9_1,0
-lhr ?,c_f9_1,0
-ydhP ?,c_f9_1,0
-ydiD ?,c_f9_1,0
-ansA ?,c_f9_1,0
-gapA ?,c_f9_1,0
-yeaW ?,c_f9_1,0
-yoaE ?,c_f9_1,0
-flhA ?,c_f9_1,0
-fliK ?,c_f9_1,0
-dcm ?,c_f9_1,0
-yedW ?,c_f9_1,0
-yeeR ?,c_f9_1,0
-yeeF ?,c_f9_1,0
-wzxC ?,c_f9_1,0
-wcaC ?,c_f9_1,0
-asmA ?,c_f9_1,0
-yegE ?,c_f9_1,0
-yegD ?,c_f9_1,0
-yegS ?,c_f9_1,0
+mrdA,c_f9_1,0
+miaB,c_f9_1,0
+ybfO,c_f9_1,0
+tolQ,c_f9_1,0
+modF,c_f9_1,0
+ybhI,c_f9_1,0
+bioF,c_f9_1,0
+ybhS,c_f9_1,0
+dinG,c_f9_1,0
+glnP,c_f9_1,0
+ybiW,c_f9_1,0
+ftsK,c_f9_1,0
+ycaM,c_f9_1,0
+ycbX,c_f9_1,0
+ycbY,c_f9_1,0
+yccR,c_f9_1,0
+torS,c_f9_1,0
+ycdC,c_f9_1,0
+ycdQ,c_f9_1,0
+ycdU,c_f9_1,0
+ycdU,c_f9_1,0
+mdoH,c_f9_1,0
+mviM,c_f9_1,0
+flgG,c_f9_1,0
+rne,c_f9_1,0
+plsX,c_f9_1,0
+ycfH,c_f9_1,0
+icd,c_f9_1,0
+icd,c_f9_1,0
+dsbB,c_f9_1,0
+nhaB,c_f9_1,0
+nhaB,c_f9_1,0
+cvrA,c_f9_1,0
+ycgV,c_f9_1,0
+ychM,c_f9_1,0
+chaA,c_f9_1,0
+yciS,c_f9_1,0
+sapA,c_f9_1,0
+puuB,c_f9_1,0
+pspF,c_f9_1,0
+pspC,c_f9_1,0
+ycjG,c_f9_1,0
+intR,c_f9_1,0
+ldhA,c_f9_1,0
+feaB,c_f9_1,0
+feaB,c_f9_1,0
+ydcM,c_f9_1,0
+ydcU,c_f9_1,0
+fdnG,c_f9_1,0
+ydeK,c_f9_1,0
+ydeK,c_f9_1,0
+ydeK,c_f9_1,0
+ydeK,c_f9_1,0
+stfQ,c_f9_1,0
+dgsA,c_f9_1,0
+ydhH,c_f9_1,0
+ydhK,c_f9_1,0
+ydhK,c_f9_1,0
+lhr,c_f9_1,0
+lhr,c_f9_1,0
+ydhP,c_f9_1,0
+ydiD,c_f9_1,0
+ansA,c_f9_1,0
+gapA,c_f9_1,0
+yeaW,c_f9_1,0
+yoaE,c_f9_1,0
+flhA,c_f9_1,0
+fliK,c_f9_1,0
+dcm,c_f9_1,0
+yedW,c_f9_1,0
+yeeR,c_f9_1,0
+yeeF,c_f9_1,0
+wzxC,c_f9_1,0
+wcaC,c_f9_1,0
+asmA,c_f9_1,0
+yegE,c_f9_1,0
+yegD,c_f9_1,0
+yegS,c_f9_1,0
 insH,c_f9_1,0
-metG ?,c_f9_1,0
-yejH ?,c_f9_1,0
-ccmA ?,c_f9_1,0
-mqo ?,c_f9_1,0
-insD–insC,c_f9_1,0
-atoE ?,c_f9_1,0
-nrdA ?,c_f9_1,0
-nrdB ?,c_f9_1,0
-yfbH ?,c_f9_1,0
-menC ?,c_f9_1,0
-yfbK ?,c_f9_1,0
-yfcG ?,c_f9_1,0
-accD ?,c_f9_1,0
-pdxB ?,c_f9_1,0
-yfcJ ?,c_f9_1,0
-mepA ?,c_f9_1,0
-yfcP ?,c_f9_1,0
-yfcU ?,c_f9_1,0
-intS ?,c_f9_1,0
-dsdX ?,c_f9_1,0
-oxc ?,c_f9_1,0
-cysA ?,c_f9_1,0
-hemF ?,c_f9_1,0
-hemF ?,c_f9_1,0
-maeB ?,c_f9_1,0
-hyfB ?,c_f9_1,0
-focB ?,c_f9_1,0
-yfgL ?,c_f9_1,0
-hcaT ?,c_f9_1,0
-yphH ?,c_f9_1,0
-lepB ?,c_f9_1,0
-kgtP ?,c_f9_1,0
-rrsG ?,c_f9_1,0
-rrsG ?,c_f9_1,0
-rrsG ?,c_f9_1,0
-yfiO ?,c_f9_1,0
-ypjD ?,c_f9_1,0
-yfjH ?,c_f9_1,0
-yfjK ?,c_f9_1,0
-yfjP ?,c_f9_1,0
-gabT ?,c_f9_1,0
-mprA ?,c_f9_1,0
-emrB ?,c_f9_1,0
-alaS ?,c_f9_1,0
-hycH ?,c_f9_1,0
-fhlA ?,c_f9_1,0
-mutS ?,c_f9_1,0
-iap ?,c_f9_1,0
-ygcL ?,c_f9_1,0
-eno ?,c_f9_1,0
-mazG ?,c_f9_1,0
-relA ?,c_f9_1,0
-gudD ?,c_f9_1,0
-yqcA ?,c_f9_1,0
-sdaC ?,c_f9_1,0
-ppdC ?,c_f9_1,0
-yqeH ?,c_f9_1,0
-ygeF ?,c_f9_1,0
-hyuA ?,c_f9_1,0
-recJ ?,c_f9_1,0
-gcvP ?,c_f9_1,0
-visC ?,c_f9_1,0
-argO ?,c_f9_1,0
-pgk ?,c_f9_1,0
-sprT ?,c_f9_1,0
-yggJ ?,c_f9_1,0
-mutY ?,c_f9_1,0
-glcB ?,c_f9_1,0
-hybD ?,c_f9_1,0
-exbB ?,c_f9_1,0
-exbB ?,c_f9_1,0
-metC ?,c_f9_1,0
-metC ?,c_f9_1,0
-yqhC ?,c_f9_1,0
-nudF ?,c_f9_1,0
-yqiK ?,c_f9_1,0
-rfaE ?,c_f9_1,0
-ygjK ?,c_f9_1,0
-ygjP ?,c_f9_1,0
-sstT ?,c_f9_1,0
-exuT ?,c_f9_1,0
-yhaK ?,c_f9_1,0
-yhaK ?,c_f9_1,0
-tdcB ?,c_f9_1,0
-garK ?,c_f9_1,0
-garP ?,c_f9_1,0
-sohA ?,c_f9_1,0
-truB ?,c_f9_1,0
-yhbX ?,c_f9_1,0
-gltB ?,c_f9_1,0
-yhdW ?,c_f9_1,0
-yhdY ?,c_f9_1,0
-thiC ?,c_f9_1,0
-metJ ?,c_f9_1,0
-yiiQ ?,c_f9_1,0
-rhaA ?,c_f9_1,0
-dapF ?,c_f9_1,0
-cyaA ?,c_f9_1,0
-yifK ?,c_f9_1,0
-rho ?,c_f9_1,0
-ilvC ?,c_f9_1,0
-asnC ?,c_f9_1,0
-pstA ?,c_f9_1,0
-yieG ?,c_f9_1,0
+metG,c_f9_1,0
+yejH,c_f9_1,0
+ccmA,c_f9_1,0
+mqo,c_f9_1,0
+insDinsC,c_f9_1,0
+atoE,c_f9_1,0
+nrdA,c_f9_1,0
+nrdB,c_f9_1,0
+yfbH,c_f9_1,0
+menC,c_f9_1,0
+yfbK,c_f9_1,0
+yfcG,c_f9_1,0
+accD,c_f9_1,0
+pdxB,c_f9_1,0
+yfcJ,c_f9_1,0
+mepA,c_f9_1,0
+yfcP,c_f9_1,0
+yfcU,c_f9_1,0
+intS,c_f9_1,0
+dsdX,c_f9_1,0
+oxc,c_f9_1,0
+cysA,c_f9_1,0
+hemF,c_f9_1,0
+hemF,c_f9_1,0
+maeB,c_f9_1,0
+hyfB,c_f9_1,0
+focB,c_f9_1,0
+yfgL,c_f9_1,0
+hcaT,c_f9_1,0
+yphH,c_f9_1,0
+lepB,c_f9_1,0
+kgtP,c_f9_1,0
+rrsG,c_f9_1,0
+rrsG,c_f9_1,0
+rrsG,c_f9_1,0
+yfiO,c_f9_1,0
+ypjD,c_f9_1,0
+yfjH,c_f9_1,0
+yfjK,c_f9_1,0
+yfjP,c_f9_1,0
+gabT,c_f9_1,0
+mprA,c_f9_1,0
+emrB,c_f9_1,0
+alaS,c_f9_1,0
+hycH,c_f9_1,0
+fhlA,c_f9_1,0
+mutS,c_f9_1,0
+iap,c_f9_1,0
+ygcL,c_f9_1,0
+eno,c_f9_1,0
+mazG,c_f9_1,0
+relA,c_f9_1,0
+gudD,c_f9_1,0
+yqcA,c_f9_1,0
+sdaC,c_f9_1,0
+ppdC,c_f9_1,0
+yqeH,c_f9_1,0
+ygeF,c_f9_1,0
+hyuA,c_f9_1,0
+recJ,c_f9_1,0
+gcvP,c_f9_1,0
+visC,c_f9_1,0
+argO,c_f9_1,0
+pgk,c_f9_1,0
+sprT,c_f9_1,0
+yggJ,c_f9_1,0
+mutY,c_f9_1,0
+glcB,c_f9_1,0
+hybD,c_f9_1,0
+exbB,c_f9_1,0
+exbB,c_f9_1,0
+metC,c_f9_1,0
+metC,c_f9_1,0
+yqhC,c_f9_1,0
+nudF,c_f9_1,0
+yqiK,c_f9_1,0
+rfaE,c_f9_1,0
+ygjK,c_f9_1,0
+ygjP,c_f9_1,0
+sstT,c_f9_1,0
+exuT,c_f9_1,0
+yhaK,c_f9_1,0
+yhaK,c_f9_1,0
+tdcB,c_f9_1,0
+garK,c_f9_1,0
+garP,c_f9_1,0
+sohA,c_f9_1,0
+truB,c_f9_1,0
+yhbX,c_f9_1,0
+gltB,c_f9_1,0
+yhdW,c_f9_1,0
+yhdY,c_f9_1,0
+thiC,c_f9_1,0
+metJ,c_f9_1,0
+yiiQ,c_f9_1,0
+rhaA,c_f9_1,0
+dapF,c_f9_1,0
+cyaA,c_f9_1,0
+yifK,c_f9_1,0
+rho,c_f9_1,0
+ilvC,c_f9_1,0
+asnC,c_f9_1,0
+pstA,c_f9_1,0
+yieG,c_f9_1,0
 insH,c_f9_1,0
-yidH ?,c_f9_1,0
-yicN ?,c_f9_1,0
-yicR ?,c_f9_1,0
-rfaD ?,c_f9_1,0
-selA ?,c_f9_1,0
-bcsE ?,c_f9_1,0
-bcsB ?,c_f9_1,0
-yhjK ?,c_f9_1,0
-gadA ?,c_f9_1,0
-prlC ?,c_f9_1,0
-pitA ?,c_f9_1,0
-yhhT ?,c_f9_1,0
-livG ?,c_f9_1,0
-glgX ?,c_f9_1,0
-malQ ?,c_f9_1,0
-yhgF ?,c_f9_1,0
-frlR ?,c_f9_1,0
-nirC ?,c_f9_1,0
-yheS ?,c_f9_1,0
-fusA ?,c_f9_1,0
-metH ?,c_f9_1,0
-metH ?,c_f9_1,0
-yjbB ?,c_f9_1,0
-pgi ?,c_f9_1,0
-yjbI ?,c_f9_1,0
-nrfC ?,c_f9_1,0
-proP ?,c_f9_1,0
-lysU ?,c_f9_1,0
-cadB ?,c_f9_1,0
-cadC ?,c_f9_1,0
-blc ?,c_f9_1,0
-mutL ?,c_f9_1,0
-yjfK ?,c_f9_1,0
-ulaE ?,c_f9_1,0
-ytfR ?,c_f9_1,0
-nrdD ?,c_f9_1,0
-yjgN ?,c_f9_1,0
-pepA ?,c_f9_1,0
-yjgB ?,c_f9_1,0
-sgcA ?,c_f9_1,0
-yjhR ?,c_f9_1,0
-fimE ?,c_f9_1,0
-iadA ?,c_f9_1,0
-yjiK ?,c_f9_1,0
-leuV ?,c_f9_1,0
-creD ?,c_f9_1,0
-dnaK ?,c_b11_1,0
-nhaA ?,c_b11_1,0
-rrlH ?,c_b11_1,0
-ykfJ–[insH],c_b11_1,1
-Y75_RS01440 ?,c_b11_1,0
-acrB ?,c_b11_1,0
-acrA ?,c_b11_1,0
-ybbA ?,c_b11_1,0
-allR ?,c_b11_1,0
-cecR ?,c_b11_1,1
-cecR ?,c_b11_1,0
-lrp ?,c_b11_1,0
-ycaM ?,c_b11_1,0
-mukB ?,c_b11_1,0
-hyaC ?,c_b11_1,0
-ycdO ?,c_b11_1,0
-fabF ?,c_b11_1,0
-ptsG ?,c_b11_1,0
-nhaB ?,c_b11_1,0
-nhaB ?,c_b11_1,0
-adhE ?,c_b11_1,1
-adhE ?,c_b11_1,0
-adhE ?,c_b11_1,0
-adhE ?,c_b11_1,0
-adhE ?,c_b11_1,0
-adhE ?,c_b11_1,0
-sapD ?,c_b11_1,0
-ydcI ?,c_b11_1,0
-yncD ?,c_b11_1,0
-Y75_RS07695 ?,c_b11_1,1
-ydiM ?,c_b11_1,0
-yeaA ?,c_b11_1,0
-yeaR ?,c_b11_1,0
-Y75_RS09615 ?,c_b11_1,0
-otsB ?,c_b11_1,0
-gatD ?,c_b11_1,0
-glpB ?,c_b11_1,0
-menC ?,c_b11_1,0
-purF ?,c_b11_1,0
-aroC ?,c_b11_1,0
-crr ?,c_b11_1,0
-nlpB ?,c_b11_1,0
-pbpC ?,c_b11_1,0
-csiE ?,c_b11_1,0
-srmB ?,c_b11_1,0
-kgtP ?,c_b11_1,0
-mprA ?,c_b11_1,0
-mprA ?,c_b11_1,0
-mprA ?,c_b11_1,0
-mprA ?,c_b11_1,0
-mprA ?,c_b11_1,0
-mprA ?,c_b11_1,0
-mprA ?,c_b11_1,0
-mprA ?,c_b11_1,0
-mprA ?,c_b11_1,0
-mprA ?,c_b11_1,0
-emrA ?,c_b11_1,0
-emrA ?,c_b11_1,0
-emrB ?,c_b11_1,0
-emrB ?,c_b11_1,0
-emrB ?,c_b11_1,0
-emrB ?,c_b11_1,0
-emrB ?,c_b11_1,0
-rpoS ?,c_b11_1,0
-rpoS ?,c_b11_1,0
-nlpD ?,c_b11_1,0
-ygbE ?,c_b11_1,0
-yghB ?,c_b11_1,0
-rpoD ?,c_b11_1,0
-yhaC ?,c_b11_1,0
-sohA ?,c_b11_1,0
-rng ?,c_b11_1,0
-rng ?,c_b11_1,1
-rng ?,c_b11_1,0
-rng ?,c_b11_1,0
-rpoC ?,c_b11_1,1
-rpoB ?,c_b11_1,0
-rpoB ?,c_b11_1,0
-cyaA ?,c_b11_1,0
-cyaA ?,c_b11_1,1
-cyaA ?,c_b11_1,0
-rho ?,c_b11_1,0
-rbsR ?,c_b11_1,0
-spoT ?,c_b11_1,0
-glyQ ?,c_b11_1,0
-bcsB ?,c_b11_1,0
-gadE ?,c_b11_1,1
-yhiF ?,c_b11_1,0
-pitA ?,c_b11_1,0
-greB ?,c_b11_1,0
-rpoA ?,c_b11_1,0
-metH ?,c_b11_1,0
-plsB ?,c_b11_1,0
-plsB ?,c_b11_1,0
-plsB ?,c_b11_1,0
-plsB ?,c_b11_1,0
-plsB ?,c_b11_1,0
-plsB ?,c_b11_1,0
-alsE ?,c_b11_1,0
-yjeP ?,c_b11_1,0
-ytfI ?,c_b11_1,0
-ytfQ ?,c_b11_1,0
-treB ?,c_b11_1,0
-Y75_RS22485 ?,c_b11_1,0
-fimE ?,c_b11_1,0
-fimE ?,c_b11_1,0
-fimE ?,c_b11_1,0
-fimE ?,c_b11_1,0
-fimE ?,c_b11_1,1
-yjjM ?,c_b11_1,0
-arcA ?,c_b11_1,0
-arcA ?,c_b11_1,0
-carB ?,c_b11_1,0
-ksgA ?,c_b11_1,0
-imp ?,c_b11_1,0
-yabQ ?,c_b11_1,0
-araA ?,c_b11_1,0
-yabI ?,c_b11_1,0
-leuO ?,c_b11_1,0
-mraZ ?,c_b11_1,0
-ampE ?,c_b11_1,0
-lpd ?,c_b11_1,0
-mrcB ?,c_b11_1,0
-fhuB ?,c_b11_1,0
-proS ?,c_b11_1,0
-metQ ?,c_b11_1,0
-yafU ?,c_b11_1,0
-ivy ?,c_b11_1,0
-fadE ?,c_b11_1,0
-ykfJ ?,c_b11_1,0
-insI ?,c_b11_1,0
-ykfC ?,c_b11_1,0
-mmuP ?,c_b11_1,0
-yagJ ?,c_b11_1,0
-yagM ?,c_b11_1,0
-intF ?,c_b11_1,0
-ykgL ?,c_b11_1,0
-insF ?,c_b11_1,0
-ykgC ?,c_b11_1,0
-betI ?,c_b11_1,0
-yahJ ?,c_b11_1,0
-lacZ ?,c_b11_1,0
-frmA ?,c_b11_1,0
-yaiU ?,c_b11_1,0
-mak ?,c_b11_1,0
-tsx ?,c_b11_1,0
-yajL ?,c_b11_1,0
-lon ?,c_b11_1,0
-acrB ?,c_b11_1,0
-rhsD ?,c_b11_1,0
-rzpD ?,c_b11_1,0
-cusS ?,c_b11_1,0
-insL ?,c_b11_1,0
-fepA ?,c_b11_1,0
-entB ?,c_b11_1,0
-ybdH ?,c_b11_1,0
+yidH,c_f9_1,0
+yicN,c_f9_1,0
+yicR,c_f9_1,0
+rfaD,c_f9_1,0
+selA,c_f9_1,0
+bcsE,c_f9_1,0
+bcsB,c_f9_1,0
+yhjK,c_f9_1,0
+gadA,c_f9_1,0
+prlC,c_f9_1,0
+pitA,c_f9_1,0
+yhhT,c_f9_1,0
+livG,c_f9_1,0
+glgX,c_f9_1,0
+malQ,c_f9_1,0
+yhgF,c_f9_1,0
+frlR,c_f9_1,0
+nirC,c_f9_1,0
+yheS,c_f9_1,0
+fusA,c_f9_1,0
+metH,c_f9_1,0
+metH,c_f9_1,0
+yjbB,c_f9_1,0
+pgi,c_f9_1,0
+yjbI,c_f9_1,0
+nrfC,c_f9_1,0
+proP,c_f9_1,0
+lysU,c_f9_1,0
+cadB,c_f9_1,0
+cadC,c_f9_1,0
+blc,c_f9_1,0
+mutL,c_f9_1,0
+yjfK,c_f9_1,0
+ulaE,c_f9_1,0
+ytfR,c_f9_1,0
+nrdD,c_f9_1,0
+yjgN,c_f9_1,0
+pepA,c_f9_1,0
+yjgB,c_f9_1,0
+sgcA,c_f9_1,0
+yjhR,c_f9_1,0
+fimE,c_f9_1,0
+iadA,c_f9_1,0
+yjiK,c_f9_1,0
+leuV,c_f9_1,0
+creD,c_f9_1,0
+dnaK,c_b11_1,0
+nhaA,c_b11_1,0
+rrlH,c_b11_1,0
+Y75RS01440 ,c_b11_1,0
+acrB,c_b11_1,0
+acrA,c_b11_1,0
+ybbA,c_b11_1,0
+allR,c_b11_1,0
+cecR,c_b11_1,1
+cecR,c_b11_1,0
+lrp ,c_b11_1,0
+ycaM ,c_b11_1,0
+mukB,c_b11_1,0
+hyaC,c_b11_1,0
+ycdO,c_b11_1,0
+fabF,c_b11_1,0
+ptsG,c_b11_1,0
+nhaB,c_b11_1,0
+nhaB,c_b11_1,0
+adhE,c_b11_1,1
+adhE,c_b11_1,0
+adhE,c_b11_1,0
+adhE,c_b11_1,0
+adhE,c_b11_1,0
+adhE,c_b11_1,0
+sapD,c_b11_1,0
+ydcI,c_b11_1,0
+yncD,c_b11_1,0
+Y75RS07695 ,c_b11_1,1
+ydiM ,c_b11_1,0
+yeaA ,c_b11_1,0
+yeaR ,c_b11_1,0
+Y75RS09615 ,c_b11_1,0
+otsB,c_b11_1,0
+gatD ,c_b11_1,0
+glpB,c_b11_1,0
+menC ,c_b11_1,0
+purF,c_b11_1,0
+aroC,c_b11_1,0
+crr ,c_b11_1,0
+nlpB,c_b11_1,0
+pbpC,c_b11_1,0
+csiE,c_b11_1,0
+srmB,c_b11_1,0
+kgtP,c_b11_1,0
+mprA,c_b11_1,0
+mprA,c_b11_1,0
+mprA,c_b11_1,0
+mprA,c_b11_1,0
+mprA,c_b11_1,0
+mprA,c_b11_1,0
+mprA,c_b11_1,0
+mprA,c_b11_1,0
+mprA,c_b11_1,0
+mprA,c_b11_1,0
+emrA,c_b11_1,0
+emrA,c_b11_1,0
+emrB,c_b11_1,0
+emrB,c_b11_1,0
+emrB,c_b11_1,0
+emrB,c_b11_1,0
+emrB,c_b11_1,0
+rpoS,c_b11_1,0
+rpoS,c_b11_1,0
+nlpD ,c_b11_1,0
+ygbE,c_b11_1,0
+yghB,c_b11_1,0
+rpoD,c_b11_1,0
+yhaC,c_b11_1,0
+sohA,c_b11_1,0
+rng,c_b11_1,0
+rng,c_b11_1,1
+rng,c_b11_1,0
+rng,c_b11_1,0
+rpoC,c_b11_1,1
+rpoB,c_b11_1,0
+rpoB,c_b11_1,0
+cyaA,c_b11_1,0
+cyaA,c_b11_1,1
+cyaA,c_b11_1,0
+rho,c_b11_1,0
+rbsR,c_b11_1,0
+spoT,c_b11_1,0
+glyQ,c_b11_1,0
+bcsB,c_b11_1,0
+gadE ,c_b11_1,1
+yhiF ,c_b11_1,0
+pitA,c_b11_1,0
+greB,c_b11_1,0
+rpoA,c_b11_1,0
+metH,c_b11_1,0
+plsB,c_b11_1,0
+plsB,c_b11_1,0
+plsB,c_b11_1,0
+plsB,c_b11_1,0
+plsB,c_b11_1,0
+plsB,c_b11_1,0
+alsE,c_b11_1,0
+yjeP,c_b11_1,0
+ytfI,c_b11_1,0
+ytfQ,c_b11_1,0
+treB,c_b11_1,0
+Y75RS22485 ,c_b11_1,0
+fimE,c_b11_1,0
+fimE,c_b11_1,0
+fimE,c_b11_1,0
+fimE,c_b11_1,0
+fimE,c_b11_1,1
+yjjM ,c_b11_1,0
+arcA,c_b11_1,0
+arcA,c_b11_1,0
+carB,c_b11_1,0
+ksgA,c_b11_1,0
+imp,c_b11_1,0
+yabQ,c_b11_1,0
+araA,c_b11_1,0
+yabI,c_b11_1,0
+leuO,c_b11_1,0
+mraZ,c_b11_1,0
+ampE,c_b11_1,0
+lpd,c_b11_1,0
+mrcB,c_b11_1,0
+fhuB,c_b11_1,0
+proS,c_b11_1,0
+metQ,c_b11_1,0
+yafU,c_b11_1,0
+ivy,c_b11_1,0
+fadE,c_b11_1,0
+ykfJ,c_b11_1,0
+insI,c_b11_1,0
+ykfC,c_b11_1,0
+mmuP,c_b11_1,0
+yagJ,c_b11_1,0
+yagM,c_b11_1,0
+intF,c_b11_1,0
+ykgL,c_b11_1,0
+insF,c_b11_1,0
+ykgC,c_b11_1,0
+betI,c_b11_1,0
+yahJ,c_b11_1,0
+lacZ,c_b11_1,0
+frmA,c_b11_1,0
+yaiU,c_b11_1,0
+mak,c_b11_1,0
+tsx,c_b11_1,0
+yajL,c_b11_1,0
+lon,c_b11_1,0
+acrB,c_b11_1,0
+rhsD,c_b11_1,0
+rzpD,c_b11_1,0
+cusS,c_b11_1,0
+insL,c_b11_1,0
+fepA,c_b11_1,0
+entB,c_b11_1,0
+ybdH,c_b11_1,0
 insH,c_b11_1,0
-mrdA ?,c_b11_1,0
-miaB ?,c_b11_1,0
-ybfO ?,c_b11_1,0
-tolQ ?,c_b11_1,0
-modF ?,c_b11_1,0
-ybhI ?,c_b11_1,0
-bioF ?,c_b11_1,0
-ybhS ?,c_b11_1,0
-dinG ?,c_b11_1,0
-glnP ?,c_b11_1,0
-ybiW ?,c_b11_1,0
-ftsK ?,c_b11_1,0
-ycaM ?,c_b11_1,0
-ycbX ?,c_b11_1,0
-ycbY ?,c_b11_1,0
-yccR ?,c_b11_1,0
-torS ?,c_b11_1,0
-ycdC ?,c_b11_1,0
-ycdQ ?,c_b11_1,0
-ycdU ?,c_b11_1,0
-ycdU ?,c_b11_1,0
-mdoH ?,c_b11_1,0
-mviM ?,c_b11_1,0
-flgG ?,c_b11_1,0
-rne ?,c_b11_1,0
-plsX ?,c_b11_1,0
-ycfH ?,c_b11_1,0
-icd ?,c_b11_1,0
-icd ?,c_b11_1,0
-dsbB ?,c_b11_1,0
-nhaB ?,c_b11_1,0
-nhaB ?,c_b11_1,0
-cvrA ?,c_b11_1,0
-ycgV ?,c_b11_1,0
-ychM ?,c_b11_1,0
-chaA ?,c_b11_1,0
-yciS ?,c_b11_1,0
-sapA ?,c_b11_1,0
-puuB ?,c_b11_1,0
-pspF ?,c_b11_1,0
-pspC ?,c_b11_1,0
-ycjG ?,c_b11_1,0
-intR ?,c_b11_1,0
-ldhA ?,c_b11_1,0
-feaB ?,c_b11_1,0
-feaB ?,c_b11_1,0
-ydcM ?,c_b11_1,0
-ydcU ?,c_b11_1,0
-fdnG ?,c_b11_1,0
-ydeK ?,c_b11_1,0
-ydeK ?,c_b11_1,0
-ydeK ?,c_b11_1,0
-ydeK ?,c_b11_1,0
-stfQ ?,c_b11_1,0
-dgsA ?,c_b11_1,0
-ydhH ?,c_b11_1,0
-ydhK ?,c_b11_1,0
-ydhK ?,c_b11_1,0
-lhr ?,c_b11_1,0
-lhr ?,c_b11_1,0
-ydhP ?,c_b11_1,0
-ydiD ?,c_b11_1,0
-ansA ?,c_b11_1,0
-gapA ?,c_b11_1,0
-yeaW ?,c_b11_1,0
-yoaE ?,c_b11_1,0
-flhA ?,c_b11_1,0
-fliK ?,c_b11_1,0
-dcm ?,c_b11_1,0
-yedW ?,c_b11_1,0
-yeeR ?,c_b11_1,0
-yeeF ?,c_b11_1,0
-wzxC ?,c_b11_1,0
-wcaC ?,c_b11_1,0
-asmA ?,c_b11_1,0
-yegE ?,c_b11_1,0
-yegD ?,c_b11_1,0
-yegS ?,c_b11_1,0
+mrdA,c_b11_1,0
+miaB,c_b11_1,0
+ybfO,c_b11_1,0
+tolQ,c_b11_1,0
+modF,c_b11_1,0
+ybhI,c_b11_1,0
+bioF,c_b11_1,0
+ybhS,c_b11_1,0
+dinG,c_b11_1,0
+glnP,c_b11_1,0
+ybiW,c_b11_1,0
+ftsK,c_b11_1,0
+ycaM,c_b11_1,0
+ycbX,c_b11_1,0
+ycbY,c_b11_1,0
+yccR,c_b11_1,0
+torS,c_b11_1,0
+ycdC,c_b11_1,0
+ycdQ,c_b11_1,0
+ycdU,c_b11_1,0
+ycdU,c_b11_1,0
+mdoH,c_b11_1,0
+mviM,c_b11_1,0
+flgG,c_b11_1,0
+rne,c_b11_1,0
+plsX,c_b11_1,0
+ycfH,c_b11_1,0
+icd,c_b11_1,0
+icd,c_b11_1,0
+dsbB,c_b11_1,0
+nhaB,c_b11_1,0
+nhaB,c_b11_1,0
+cvrA,c_b11_1,0
+ycgV,c_b11_1,0
+ychM,c_b11_1,0
+chaA,c_b11_1,0
+yciS,c_b11_1,0
+sapA,c_b11_1,0
+puuB,c_b11_1,0
+pspF,c_b11_1,0
+pspC,c_b11_1,0
+ycjG,c_b11_1,0
+intR,c_b11_1,0
+ldhA,c_b11_1,0
+feaB,c_b11_1,0
+feaB,c_b11_1,0
+ydcM,c_b11_1,0
+ydcU,c_b11_1,0
+fdnG,c_b11_1,0
+ydeK,c_b11_1,0
+ydeK,c_b11_1,0
+ydeK,c_b11_1,0
+ydeK,c_b11_1,0
+stfQ,c_b11_1,0
+dgsA,c_b11_1,0
+ydhH,c_b11_1,0
+ydhK,c_b11_1,0
+ydhK,c_b11_1,0
+lhr,c_b11_1,0
+lhr,c_b11_1,0
+ydhP,c_b11_1,0
+ydiD,c_b11_1,0
+ansA,c_b11_1,0
+gapA,c_b11_1,0
+yeaW,c_b11_1,0
+yoaE,c_b11_1,0
+flhA,c_b11_1,0
+fliK,c_b11_1,0
+dcm,c_b11_1,0
+yedW,c_b11_1,0
+yeeR,c_b11_1,0
+yeeF,c_b11_1,0
+wzxC,c_b11_1,0
+wcaC,c_b11_1,0
+asmA,c_b11_1,0
+yegE,c_b11_1,0
+yegD,c_b11_1,0
+yegS,c_b11_1,0
 insH,c_b11_1,0
-metG ?,c_b11_1,0
-yejH ?,c_b11_1,0
-ccmA ?,c_b11_1,0
-mqo ?,c_b11_1,0
-insD–insC,c_b11_1,0
-atoE ?,c_b11_1,0
-nrdA ?,c_b11_1,0
-nrdB ?,c_b11_1,0
-yfbH ?,c_b11_1,0
-menC ?,c_b11_1,0
-yfbK ?,c_b11_1,0
-yfcG ?,c_b11_1,0
-accD ?,c_b11_1,0
-pdxB ?,c_b11_1,0
-yfcJ ?,c_b11_1,0
-mepA ?,c_b11_1,0
-yfcP ?,c_b11_1,0
-yfcU ?,c_b11_1,0
-intS ?,c_b11_1,0
-dsdX ?,c_b11_1,0
-oxc ?,c_b11_1,0
-cysA ?,c_b11_1,0
-hemF ?,c_b11_1,0
-hemF ?,c_b11_1,0
-maeB ?,c_b11_1,0
-hyfB ?,c_b11_1,0
-focB ?,c_b11_1,0
-yfgL ?,c_b11_1,0
-hcaT ?,c_b11_1,0
-yphH ?,c_b11_1,0
-lepB ?,c_b11_1,0
-kgtP ?,c_b11_1,0
-rrsG ?,c_b11_1,0
-rrsG ?,c_b11_1,0
-rrsG ?,c_b11_1,0
-yfiO ?,c_b11_1,0
-ypjD ?,c_b11_1,0
-yfjH ?,c_b11_1,0
-yfjK ?,c_b11_1,0
-yfjP ?,c_b11_1,0
-gabT ?,c_b11_1,0
-mprA ?,c_b11_1,0
-emrB ?,c_b11_1,0
-alaS ?,c_b11_1,0
-hycH ?,c_b11_1,0
-fhlA ?,c_b11_1,0
-mutS ?,c_b11_1,0
-iap ?,c_b11_1,0
-ygcL ?,c_b11_1,0
-eno ?,c_b11_1,0
-mazG ?,c_b11_1,0
-relA ?,c_b11_1,0
-gudD ?,c_b11_1,0
-yqcA ?,c_b11_1,0
-sdaC ?,c_b11_1,0
-ppdC ?,c_b11_1,0
-yqeH ?,c_b11_1,0
-ygeF ?,c_b11_1,0
-hyuA ?,c_b11_1,0
-recJ ?,c_b11_1,0
-gcvP ?,c_b11_1,0
-visC ?,c_b11_1,0
-argO ?,c_b11_1,0
-pgk ?,c_b11_1,0
-sprT ?,c_b11_1,0
-yggJ ?,c_b11_1,0
-mutY ?,c_b11_1,0
-glcB ?,c_b11_1,0
-hybD ?,c_b11_1,0
-exbB ?,c_b11_1,0
-exbB ?,c_b11_1,0
-metC ?,c_b11_1,0
-metC ?,c_b11_1,0
-yqhC ?,c_b11_1,0
-nudF ?,c_b11_1,0
-yqiK ?,c_b11_1,0
-rfaE ?,c_b11_1,0
-ygjK ?,c_b11_1,0
-ygjP ?,c_b11_1,0
-sstT ?,c_b11_1,0
-exuT ?,c_b11_1,0
-yhaK ?,c_b11_1,0
-yhaK ?,c_b11_1,0
-tdcB ?,c_b11_1,0
-garK ?,c_b11_1,0
-garP ?,c_b11_1,0
-sohA ?,c_b11_1,0
-truB ?,c_b11_1,0
-yhbX ?,c_b11_1,0
-gltB ?,c_b11_1,0
-yhdW ?,c_b11_1,0
-yhdY ?,c_b11_1,0
-thiC ?,c_b11_1,0
-metJ ?,c_b11_1,0
-yiiQ ?,c_b11_1,0
-rhaA ?,c_b11_1,0
-dapF ?,c_b11_1,0
-cyaA ?,c_b11_1,0
-yifK ?,c_b11_1,0
-rho ?,c_b11_1,0
-ilvC ?,c_b11_1,0
-asnC ?,c_b11_1,0
-pstA ?,c_b11_1,0
-yieG ?,c_b11_1,0
+metG,c_b11_1,0
+yejH,c_b11_1,0
+ccmA,c_b11_1,0
+mqo,c_b11_1,0
+insDinsC,c_b11_1,0
+atoE,c_b11_1,0
+nrdA,c_b11_1,0
+nrdB,c_b11_1,0
+yfbH,c_b11_1,0
+menC,c_b11_1,0
+yfbK,c_b11_1,0
+yfcG,c_b11_1,0
+accD,c_b11_1,0
+pdxB,c_b11_1,0
+yfcJ,c_b11_1,0
+mepA,c_b11_1,0
+yfcP,c_b11_1,0
+yfcU,c_b11_1,0
+intS,c_b11_1,0
+dsdX,c_b11_1,0
+oxc,c_b11_1,0
+cysA,c_b11_1,0
+hemF,c_b11_1,0
+hemF,c_b11_1,0
+maeB,c_b11_1,0
+hyfB,c_b11_1,0
+focB,c_b11_1,0
+yfgL,c_b11_1,0
+hcaT,c_b11_1,0
+yphH,c_b11_1,0
+lepB,c_b11_1,0
+kgtP,c_b11_1,0
+rrsG,c_b11_1,0
+rrsG,c_b11_1,0
+rrsG,c_b11_1,0
+yfiO,c_b11_1,0
+ypjD,c_b11_1,0
+yfjH,c_b11_1,0
+yfjK,c_b11_1,0
+yfjP,c_b11_1,0
+gabT,c_b11_1,0
+mprA,c_b11_1,0
+emrB,c_b11_1,0
+alaS,c_b11_1,0
+hycH,c_b11_1,0
+fhlA,c_b11_1,0
+mutS,c_b11_1,0
+iap,c_b11_1,0
+ygcL,c_b11_1,0
+eno,c_b11_1,0
+mazG,c_b11_1,0
+relA,c_b11_1,0
+gudD,c_b11_1,0
+yqcA,c_b11_1,0
+sdaC,c_b11_1,0
+ppdC,c_b11_1,0
+yqeH,c_b11_1,0
+ygeF,c_b11_1,0
+hyuA,c_b11_1,0
+recJ,c_b11_1,0
+gcvP,c_b11_1,0
+visC,c_b11_1,0
+argO,c_b11_1,0
+pgk,c_b11_1,0
+sprT,c_b11_1,0
+yggJ,c_b11_1,0
+mutY,c_b11_1,0
+glcB,c_b11_1,0
+hybD,c_b11_1,0
+exbB,c_b11_1,0
+exbB,c_b11_1,0
+metC,c_b11_1,0
+metC,c_b11_1,0
+yqhC,c_b11_1,0
+nudF,c_b11_1,0
+yqiK,c_b11_1,0
+rfaE,c_b11_1,0
+ygjK,c_b11_1,0
+ygjP,c_b11_1,0
+sstT,c_b11_1,0
+exuT,c_b11_1,0
+yhaK,c_b11_1,0
+yhaK,c_b11_1,0
+tdcB,c_b11_1,0
+garK,c_b11_1,0
+garP,c_b11_1,0
+sohA,c_b11_1,0
+truB,c_b11_1,0
+yhbX,c_b11_1,0
+gltB,c_b11_1,0
+yhdW,c_b11_1,0
+yhdY,c_b11_1,0
+thiC,c_b11_1,0
+metJ,c_b11_1,0
+yiiQ,c_b11_1,0
+rhaA,c_b11_1,0
+dapF,c_b11_1,0
+cyaA,c_b11_1,0
+yifK,c_b11_1,0
+rho,c_b11_1,0
+ilvC,c_b11_1,0
+asnC,c_b11_1,0
+pstA,c_b11_1,0
+yieG,c_b11_1,0
 insH,c_b11_1,0
-yidH ?,c_b11_1,0
-yicN ?,c_b11_1,0
-yicR ?,c_b11_1,0
-rfaD ?,c_b11_1,0
-selA ?,c_b11_1,0
-bcsE ?,c_b11_1,0
-bcsB ?,c_b11_1,0
-yhjK ?,c_b11_1,0
-gadA ?,c_b11_1,0
-prlC ?,c_b11_1,0
-pitA ?,c_b11_1,0
-yhhT ?,c_b11_1,0
-livG ?,c_b11_1,0
-glgX ?,c_b11_1,0
-malQ ?,c_b11_1,0
-yhgF ?,c_b11_1,0
-frlR ?,c_b11_1,0
-nirC ?,c_b11_1,0
-yheS ?,c_b11_1,0
-fusA ?,c_b11_1,0
-metH ?,c_b11_1,0
-metH ?,c_b11_1,0
-yjbB ?,c_b11_1,0
-pgi ?,c_b11_1,0
-yjbI ?,c_b11_1,0
-nrfC ?,c_b11_1,0
-proP ?,c_b11_1,0
-lysU ?,c_b11_1,0
-cadB ?,c_b11_1,0
-cadC ?,c_b11_1,0
-blc ?,c_b11_1,0
-mutL ?,c_b11_1,0
-yjfK ?,c_b11_1,0
-ulaE ?,c_b11_1,0
-ytfR ?,c_b11_1,0
-nrdD ?,c_b11_1,0
-yjgN ?,c_b11_1,0
-pepA ?,c_b11_1,0
-yjgB ?,c_b11_1,0
-sgcA ?,c_b11_1,0
-yjhR ?,c_b11_1,0
-fimE ?,c_b11_1,0
-iadA ?,c_b11_1,0
-yjiK ?,c_b11_1,0
-leuV ?,c_b11_1,0
-creD ?,c_b11_1,0
-dnaK ?,c_d11_1,0
-nhaA ?,c_d11_1,0
-rrlH ?,c_d11_1,0
-ykfJ–[insH],c_d11_1,0
-Y75_RS01440 ?,c_d11_1,0
-acrB ?,c_d11_1,0
-acrA ?,c_d11_1,0
-ybbA ?,c_d11_1,0
-allR ?,c_d11_1,0
-cecR ?,c_d11_1,0
-cecR ?,c_d11_1,1
-lrp ?,c_d11_1,0
-ycaM ?,c_d11_1,0
-mukB ?,c_d11_1,0
-hyaC ?,c_d11_1,0
-ycdO ?,c_d11_1,0
-fabF ?,c_d11_1,1
-ptsG ?,c_d11_1,0
-nhaB ?,c_d11_1,0
-nhaB ?,c_d11_1,0
-adhE ?,c_d11_1,0
-adhE ?,c_d11_1,0
-adhE ?,c_d11_1,0
-adhE ?,c_d11_1,1
-adhE ?,c_d11_1,0
-adhE ?,c_d11_1,0
-sapD ?,c_d11_1,0
-ydcI ?,c_d11_1,0
-yncD ?,c_d11_1,0
-Y75_RS07695 ?,c_d11_1,0
-ydiM ?,c_d11_1,1
-yeaA ?,c_d11_1,0
-yeaR ?,c_d11_1,0
-Y75_RS09615 ?,c_d11_1,0
-otsB ?,c_d11_1,0
-gatD ?,c_d11_1,1
-glpB ?,c_d11_1,0
-menC ?,c_d11_1,0
-purF ?,c_d11_1,1
-aroC ?,c_d11_1,0
-crr ?,c_d11_1,1
-nlpB ?,c_d11_1,0
-pbpC ?,c_d11_1,0
-csiE ?,c_d11_1,0
-srmB ?,c_d11_1,0
-kgtP ?,c_d11_1,0
-mprA ?,c_d11_1,0
-mprA ?,c_d11_1,0
-mprA ?,c_d11_1,1
-mprA ?,c_d11_1,0
-mprA ?,c_d11_1,0
-mprA ?,c_d11_1,0
-mprA ?,c_d11_1,0
-mprA ?,c_d11_1,0
-mprA ?,c_d11_1,0
-mprA ?,c_d11_1,0
-emrA ?,c_d11_1,0
-emrA ?,c_d11_1,0
-emrB ?,c_d11_1,0
-emrB ?,c_d11_1,0
-emrB ?,c_d11_1,0
-emrB ?,c_d11_1,0
-emrB ?,c_d11_1,0
-rpoS ?,c_d11_1,0
-rpoS ?,c_d11_1,0
-nlpD ?,c_d11_1,0
-ygbE ?,c_d11_1,0
-yghB ?,c_d11_1,0
-rpoD ?,c_d11_1,0
-yhaC ?,c_d11_1,0
-sohA ?,c_d11_1,0
-rng ?,c_d11_1,0
-rng ?,c_d11_1,0
-rng ?,c_d11_1,1
-rng ?,c_d11_1,0
-rpoC ?,c_d11_1,0
-rpoB ?,c_d11_1,0
-rpoB ?,c_d11_1,0
-cyaA ?,c_d11_1,0
-cyaA ?,c_d11_1,0
-cyaA ?,c_d11_1,0
-rho ?,c_d11_1,1
-rbsR ?,c_d11_1,0
-spoT ?,c_d11_1,0
-glyQ ?,c_d11_1,0
-bcsB ?,c_d11_1,1
-gadE ?,c_d11_1,0
-yhiF ?,c_d11_1,0
-pitA ?,c_d11_1,0
-greB ?,c_d11_1,0
-rpoA ?,c_d11_1,0
-metH ?,c_d11_1,0
-plsB ?,c_d11_1,0
-plsB ?,c_d11_1,0
-plsB ?,c_d11_1,0
-plsB ?,c_d11_1,0
-plsB ?,c_d11_1,0
-plsB ?,c_d11_1,0
-alsE ?,c_d11_1,0
-yjeP ?,c_d11_1,0
-ytfI ?,c_d11_1,0
-ytfQ ?,c_d11_1,0
-treB ?,c_d11_1,0
-Y75_RS22485 ?,c_d11_1,0
-fimE ?,c_d11_1,0
-fimE ?,c_d11_1,1
-fimE ?,c_d11_1,0
-fimE ?,c_d11_1,0
-fimE ?,c_d11_1,0
-yjjM ?,c_d11_1,0
-arcA ?,c_d11_1,0
-arcA ?,c_d11_1,0
-carB ?,c_d11_1,0
-ksgA ?,c_d11_1,0
-imp ?,c_d11_1,0
-yabQ ?,c_d11_1,0
-araA ?,c_d11_1,0
-yabI ?,c_d11_1,0
-leuO ?,c_d11_1,0
-mraZ ?,c_d11_1,0
-ampE ?,c_d11_1,0
-lpd ?,c_d11_1,0
-mrcB ?,c_d11_1,0
-fhuB ?,c_d11_1,0
-proS ?,c_d11_1,0
-metQ ?,c_d11_1,0
-yafU ?,c_d11_1,0
-ivy ?,c_d11_1,0
-fadE ?,c_d11_1,0
-ykfJ ?,c_d11_1,0
-insI ?,c_d11_1,0
-ykfC ?,c_d11_1,0
-mmuP ?,c_d11_1,0
-yagJ ?,c_d11_1,0
-yagM ?,c_d11_1,0
-intF ?,c_d11_1,0
-ykgL ?,c_d11_1,0
-insF ?,c_d11_1,0
-ykgC ?,c_d11_1,0
-betI ?,c_d11_1,0
-yahJ ?,c_d11_1,0
-lacZ ?,c_d11_1,0
-frmA ?,c_d11_1,0
-yaiU ?,c_d11_1,0
-mak ?,c_d11_1,0
-tsx ?,c_d11_1,0
-yajL ?,c_d11_1,0
-lon ?,c_d11_1,0
-acrB ?,c_d11_1,0
-rhsD ?,c_d11_1,0
-rzpD ?,c_d11_1,0
-cusS ?,c_d11_1,0
-insL ?,c_d11_1,0
-fepA ?,c_d11_1,0
-entB ?,c_d11_1,0
-ybdH ?,c_d11_1,0
+yidH,c_b11_1,0
+yicN,c_b11_1,0
+yicR,c_b11_1,0
+rfaD,c_b11_1,0
+selA,c_b11_1,0
+bcsE,c_b11_1,0
+bcsB,c_b11_1,0
+yhjK,c_b11_1,0
+gadA,c_b11_1,0
+prlC,c_b11_1,0
+pitA,c_b11_1,0
+yhhT,c_b11_1,0
+livG,c_b11_1,0
+glgX,c_b11_1,0
+malQ,c_b11_1,0
+yhgF,c_b11_1,0
+frlR,c_b11_1,0
+nirC,c_b11_1,0
+yheS,c_b11_1,0
+fusA,c_b11_1,0
+metH,c_b11_1,0
+metH,c_b11_1,0
+yjbB,c_b11_1,0
+pgi,c_b11_1,0
+yjbI,c_b11_1,0
+nrfC,c_b11_1,0
+proP,c_b11_1,0
+lysU,c_b11_1,0
+cadB,c_b11_1,0
+cadC,c_b11_1,0
+blc,c_b11_1,0
+mutL,c_b11_1,0
+yjfK,c_b11_1,0
+ulaE,c_b11_1,0
+ytfR,c_b11_1,0
+nrdD,c_b11_1,0
+yjgN,c_b11_1,0
+pepA,c_b11_1,0
+yjgB,c_b11_1,0
+sgcA,c_b11_1,0
+yjhR,c_b11_1,0
+fimE,c_b11_1,0
+iadA,c_b11_1,0
+yjiK,c_b11_1,0
+leuV,c_b11_1,0
+creD,c_b11_1,0
+dnaK,c_d11_1,0
+nhaA,c_d11_1,0
+rrlH,c_d11_1,0
+Y75RS01440 ,c_d11_1,0
+acrB,c_d11_1,0
+acrA,c_d11_1,0
+ybbA,c_d11_1,0
+allR,c_d11_1,0
+cecR,c_d11_1,0
+cecR,c_d11_1,1
+lrp ,c_d11_1,0
+ycaM ,c_d11_1,0
+mukB,c_d11_1,0
+hyaC,c_d11_1,0
+ycdO,c_d11_1,0
+fabF,c_d11_1,1
+ptsG,c_d11_1,0
+nhaB,c_d11_1,0
+nhaB,c_d11_1,0
+adhE,c_d11_1,0
+adhE,c_d11_1,0
+adhE,c_d11_1,0
+adhE,c_d11_1,1
+adhE,c_d11_1,0
+adhE,c_d11_1,0
+sapD,c_d11_1,0
+ydcI,c_d11_1,0
+yncD,c_d11_1,0
+Y75RS07695 ,c_d11_1,0
+ydiM ,c_d11_1,1
+yeaA ,c_d11_1,0
+yeaR ,c_d11_1,0
+Y75RS09615 ,c_d11_1,0
+otsB,c_d11_1,0
+gatD ,c_d11_1,1
+glpB,c_d11_1,0
+menC ,c_d11_1,0
+purF,c_d11_1,1
+aroC,c_d11_1,0
+crr ,c_d11_1,1
+nlpB,c_d11_1,0
+pbpC,c_d11_1,0
+csiE,c_d11_1,0
+srmB,c_d11_1,0
+kgtP,c_d11_1,0
+mprA,c_d11_1,0
+mprA,c_d11_1,0
+mprA,c_d11_1,1
+mprA,c_d11_1,0
+mprA,c_d11_1,0
+mprA,c_d11_1,0
+mprA,c_d11_1,0
+mprA,c_d11_1,0
+mprA,c_d11_1,0
+mprA,c_d11_1,0
+emrA,c_d11_1,0
+emrA,c_d11_1,0
+emrB,c_d11_1,0
+emrB,c_d11_1,0
+emrB,c_d11_1,0
+emrB,c_d11_1,0
+emrB,c_d11_1,0
+rpoS,c_d11_1,0
+rpoS,c_d11_1,0
+nlpD ,c_d11_1,0
+ygbE,c_d11_1,0
+yghB,c_d11_1,0
+rpoD,c_d11_1,0
+yhaC,c_d11_1,0
+sohA,c_d11_1,0
+rng,c_d11_1,0
+rng,c_d11_1,0
+rng,c_d11_1,1
+rng,c_d11_1,0
+rpoC,c_d11_1,0
+rpoB,c_d11_1,0
+rpoB,c_d11_1,0
+cyaA,c_d11_1,0
+cyaA,c_d11_1,0
+cyaA,c_d11_1,0
+rho,c_d11_1,1
+rbsR,c_d11_1,0
+spoT,c_d11_1,0
+glyQ,c_d11_1,0
+bcsB,c_d11_1,1
+gadE ,c_d11_1,0
+yhiF ,c_d11_1,0
+pitA,c_d11_1,0
+greB,c_d11_1,0
+rpoA,c_d11_1,0
+metH,c_d11_1,0
+plsB,c_d11_1,0
+plsB,c_d11_1,0
+plsB,c_d11_1,0
+plsB,c_d11_1,0
+plsB,c_d11_1,0
+plsB,c_d11_1,0
+alsE,c_d11_1,0
+yjeP,c_d11_1,0
+ytfI,c_d11_1,0
+ytfQ,c_d11_1,0
+treB,c_d11_1,0
+Y75RS22485 ,c_d11_1,0
+fimE,c_d11_1,0
+fimE,c_d11_1,1
+fimE,c_d11_1,0
+fimE,c_d11_1,0
+fimE,c_d11_1,0
+yjjM ,c_d11_1,0
+arcA,c_d11_1,0
+arcA,c_d11_1,0
+carB,c_d11_1,0
+ksgA,c_d11_1,0
+imp,c_d11_1,0
+yabQ,c_d11_1,0
+araA,c_d11_1,0
+yabI,c_d11_1,0
+leuO,c_d11_1,0
+mraZ,c_d11_1,0
+ampE,c_d11_1,0
+lpd,c_d11_1,0
+mrcB,c_d11_1,0
+fhuB,c_d11_1,0
+proS,c_d11_1,0
+metQ,c_d11_1,0
+yafU,c_d11_1,0
+ivy,c_d11_1,0
+fadE,c_d11_1,0
+ykfJ,c_d11_1,0
+insI,c_d11_1,0
+ykfC,c_d11_1,0
+mmuP,c_d11_1,0
+yagJ,c_d11_1,0
+yagM,c_d11_1,0
+intF,c_d11_1,0
+ykgL,c_d11_1,0
+insF,c_d11_1,0
+ykgC,c_d11_1,0
+betI,c_d11_1,0
+yahJ,c_d11_1,0
+lacZ,c_d11_1,0
+frmA,c_d11_1,0
+yaiU,c_d11_1,0
+mak,c_d11_1,0
+tsx,c_d11_1,0
+yajL,c_d11_1,0
+lon,c_d11_1,0
+acrB,c_d11_1,0
+rhsD,c_d11_1,0
+rzpD,c_d11_1,0
+cusS,c_d11_1,0
+insL,c_d11_1,0
+fepA,c_d11_1,0
+entB,c_d11_1,0
+ybdH,c_d11_1,0
 insH,c_d11_1,0
-mrdA ?,c_d11_1,0
-miaB ?,c_d11_1,0
-ybfO ?,c_d11_1,0
-tolQ ?,c_d11_1,0
-modF ?,c_d11_1,0
-ybhI ?,c_d11_1,0
-bioF ?,c_d11_1,0
-ybhS ?,c_d11_1,0
-dinG ?,c_d11_1,0
-glnP ?,c_d11_1,0
-ybiW ?,c_d11_1,0
-ftsK ?,c_d11_1,0
-ycaM ?,c_d11_1,0
-ycbX ?,c_d11_1,0
-ycbY ?,c_d11_1,0
-yccR ?,c_d11_1,0
-torS ?,c_d11_1,0
-ycdC ?,c_d11_1,0
-ycdQ ?,c_d11_1,0
-ycdU ?,c_d11_1,0
-ycdU ?,c_d11_1,0
-mdoH ?,c_d11_1,0
-mviM ?,c_d11_1,0
-flgG ?,c_d11_1,0
-rne ?,c_d11_1,0
-plsX ?,c_d11_1,0
-ycfH ?,c_d11_1,0
-icd ?,c_d11_1,0
-icd ?,c_d11_1,0
-dsbB ?,c_d11_1,0
-nhaB ?,c_d11_1,0
-nhaB ?,c_d11_1,0
-cvrA ?,c_d11_1,0
-ycgV ?,c_d11_1,0
-ychM ?,c_d11_1,0
-chaA ?,c_d11_1,0
-yciS ?,c_d11_1,0
-sapA ?,c_d11_1,0
-puuB ?,c_d11_1,0
-pspF ?,c_d11_1,0
-pspC ?,c_d11_1,0
-ycjG ?,c_d11_1,0
-intR ?,c_d11_1,0
-ldhA ?,c_d11_1,0
-feaB ?,c_d11_1,0
-feaB ?,c_d11_1,0
-ydcM ?,c_d11_1,0
-ydcU ?,c_d11_1,0
-fdnG ?,c_d11_1,0
-ydeK ?,c_d11_1,0
-ydeK ?,c_d11_1,0
-ydeK ?,c_d11_1,0
-ydeK ?,c_d11_1,0
-stfQ ?,c_d11_1,0
-dgsA ?,c_d11_1,0
-ydhH ?,c_d11_1,0
-ydhK ?,c_d11_1,0
-ydhK ?,c_d11_1,0
-lhr ?,c_d11_1,0
-lhr ?,c_d11_1,0
-ydhP ?,c_d11_1,0
-ydiD ?,c_d11_1,0
-ansA ?,c_d11_1,0
-gapA ?,c_d11_1,0
-yeaW ?,c_d11_1,0
-yoaE ?,c_d11_1,0
-flhA ?,c_d11_1,0
-fliK ?,c_d11_1,0
-dcm ?,c_d11_1,0
-yedW ?,c_d11_1,0
-yeeR ?,c_d11_1,0
-yeeF ?,c_d11_1,0
-wzxC ?,c_d11_1,0
-wcaC ?,c_d11_1,0
-asmA ?,c_d11_1,0
-yegE ?,c_d11_1,0
-yegD ?,c_d11_1,0
-yegS ?,c_d11_1,0
+mrdA,c_d11_1,0
+miaB,c_d11_1,0
+ybfO,c_d11_1,0
+tolQ,c_d11_1,0
+modF,c_d11_1,0
+ybhI,c_d11_1,0
+bioF,c_d11_1,0
+ybhS,c_d11_1,0
+dinG,c_d11_1,0
+glnP,c_d11_1,0
+ybiW,c_d11_1,0
+ftsK,c_d11_1,0
+ycaM,c_d11_1,0
+ycbX,c_d11_1,0
+ycbY,c_d11_1,0
+yccR,c_d11_1,0
+torS,c_d11_1,0
+ycdC,c_d11_1,0
+ycdQ,c_d11_1,0
+ycdU,c_d11_1,0
+ycdU,c_d11_1,0
+mdoH,c_d11_1,0
+mviM,c_d11_1,0
+flgG,c_d11_1,0
+rne,c_d11_1,0
+plsX,c_d11_1,0
+ycfH,c_d11_1,0
+icd,c_d11_1,0
+icd,c_d11_1,0
+dsbB,c_d11_1,0
+nhaB,c_d11_1,0
+nhaB,c_d11_1,0
+cvrA,c_d11_1,0
+ycgV,c_d11_1,0
+ychM,c_d11_1,0
+chaA,c_d11_1,0
+yciS,c_d11_1,0
+sapA,c_d11_1,0
+puuB,c_d11_1,0
+pspF,c_d11_1,0
+pspC,c_d11_1,0
+ycjG,c_d11_1,0
+intR,c_d11_1,0
+ldhA,c_d11_1,0
+feaB,c_d11_1,0
+feaB,c_d11_1,0
+ydcM,c_d11_1,0
+ydcU,c_d11_1,0
+fdnG,c_d11_1,0
+ydeK,c_d11_1,0
+ydeK,c_d11_1,0
+ydeK,c_d11_1,0
+ydeK,c_d11_1,0
+stfQ,c_d11_1,0
+dgsA,c_d11_1,0
+ydhH,c_d11_1,0
+ydhK,c_d11_1,0
+ydhK,c_d11_1,0
+lhr,c_d11_1,0
+lhr,c_d11_1,0
+ydhP,c_d11_1,0
+ydiD,c_d11_1,0
+ansA,c_d11_1,0
+gapA,c_d11_1,0
+yeaW,c_d11_1,0
+yoaE,c_d11_1,0
+flhA,c_d11_1,0
+fliK,c_d11_1,0
+dcm,c_d11_1,0
+yedW,c_d11_1,0
+yeeR,c_d11_1,0
+yeeF,c_d11_1,0
+wzxC,c_d11_1,0
+wcaC,c_d11_1,0
+asmA,c_d11_1,0
+yegE,c_d11_1,0
+yegD,c_d11_1,0
+yegS,c_d11_1,0
 insH,c_d11_1,0
-metG ?,c_d11_1,0
-yejH ?,c_d11_1,0
-ccmA ?,c_d11_1,0
-mqo ?,c_d11_1,0
-insD–insC,c_d11_1,0
-atoE ?,c_d11_1,0
-nrdA ?,c_d11_1,0
-nrdB ?,c_d11_1,0
-yfbH ?,c_d11_1,0
-menC ?,c_d11_1,0
-yfbK ?,c_d11_1,0
-yfcG ?,c_d11_1,0
-accD ?,c_d11_1,0
-pdxB ?,c_d11_1,0
-yfcJ ?,c_d11_1,0
-mepA ?,c_d11_1,0
-yfcP ?,c_d11_1,0
-yfcU ?,c_d11_1,0
-intS ?,c_d11_1,0
-dsdX ?,c_d11_1,0
-oxc ?,c_d11_1,0
-cysA ?,c_d11_1,0
-hemF ?,c_d11_1,0
-hemF ?,c_d11_1,0
-maeB ?,c_d11_1,0
-hyfB ?,c_d11_1,0
-focB ?,c_d11_1,0
-yfgL ?,c_d11_1,0
-hcaT ?,c_d11_1,0
-yphH ?,c_d11_1,0
-lepB ?,c_d11_1,0
-kgtP ?,c_d11_1,0
-rrsG ?,c_d11_1,0
-rrsG ?,c_d11_1,0
-rrsG ?,c_d11_1,0
-yfiO ?,c_d11_1,0
-ypjD ?,c_d11_1,0
-yfjH ?,c_d11_1,0
-yfjK ?,c_d11_1,0
-yfjP ?,c_d11_1,0
-gabT ?,c_d11_1,0
-mprA ?,c_d11_1,0
-emrB ?,c_d11_1,0
-alaS ?,c_d11_1,0
-hycH ?,c_d11_1,0
-fhlA ?,c_d11_1,0
-mutS ?,c_d11_1,0
-iap ?,c_d11_1,0
-ygcL ?,c_d11_1,0
-eno ?,c_d11_1,0
-mazG ?,c_d11_1,0
-relA ?,c_d11_1,0
-gudD ?,c_d11_1,0
-yqcA ?,c_d11_1,0
-sdaC ?,c_d11_1,0
-ppdC ?,c_d11_1,0
-yqeH ?,c_d11_1,0
-ygeF ?,c_d11_1,0
-hyuA ?,c_d11_1,0
-recJ ?,c_d11_1,0
-gcvP ?,c_d11_1,0
-visC ?,c_d11_1,0
-argO ?,c_d11_1,0
-pgk ?,c_d11_1,0
-sprT ?,c_d11_1,0
-yggJ ?,c_d11_1,0
-mutY ?,c_d11_1,0
-glcB ?,c_d11_1,0
-hybD ?,c_d11_1,0
-exbB ?,c_d11_1,0
-exbB ?,c_d11_1,0
-metC ?,c_d11_1,0
-metC ?,c_d11_1,0
-yqhC ?,c_d11_1,0
-nudF ?,c_d11_1,0
-yqiK ?,c_d11_1,0
-rfaE ?,c_d11_1,0
-ygjK ?,c_d11_1,0
-ygjP ?,c_d11_1,0
-sstT ?,c_d11_1,0
-exuT ?,c_d11_1,0
-yhaK ?,c_d11_1,0
-yhaK ?,c_d11_1,0
-tdcB ?,c_d11_1,0
-garK ?,c_d11_1,0
-garP ?,c_d11_1,0
-sohA ?,c_d11_1,0
-truB ?,c_d11_1,0
-yhbX ?,c_d11_1,0
-gltB ?,c_d11_1,0
-yhdW ?,c_d11_1,0
-yhdY ?,c_d11_1,0
-thiC ?,c_d11_1,0
-metJ ?,c_d11_1,0
-yiiQ ?,c_d11_1,0
-rhaA ?,c_d11_1,0
-dapF ?,c_d11_1,0
-cyaA ?,c_d11_1,0
-yifK ?,c_d11_1,0
-rho ?,c_d11_1,0
-ilvC ?,c_d11_1,0
-asnC ?,c_d11_1,0
-pstA ?,c_d11_1,0
-yieG ?,c_d11_1,0
+metG,c_d11_1,0
+yejH,c_d11_1,0
+ccmA,c_d11_1,0
+mqo,c_d11_1,0
+insDinsC,c_d11_1,0
+atoE,c_d11_1,0
+nrdA,c_d11_1,0
+nrdB,c_d11_1,0
+yfbH,c_d11_1,0
+menC,c_d11_1,0
+yfbK,c_d11_1,0
+yfcG,c_d11_1,0
+accD,c_d11_1,0
+pdxB,c_d11_1,0
+yfcJ,c_d11_1,0
+mepA,c_d11_1,0
+yfcP,c_d11_1,0
+yfcU,c_d11_1,0
+intS,c_d11_1,0
+dsdX,c_d11_1,0
+oxc,c_d11_1,0
+cysA,c_d11_1,0
+hemF,c_d11_1,0
+hemF,c_d11_1,0
+maeB,c_d11_1,0
+hyfB,c_d11_1,0
+focB,c_d11_1,0
+yfgL,c_d11_1,0
+hcaT,c_d11_1,0
+yphH,c_d11_1,0
+lepB,c_d11_1,0
+kgtP,c_d11_1,0
+rrsG,c_d11_1,0
+rrsG,c_d11_1,0
+rrsG,c_d11_1,0
+yfiO,c_d11_1,0
+ypjD,c_d11_1,0
+yfjH,c_d11_1,0
+yfjK,c_d11_1,0
+yfjP,c_d11_1,0
+gabT,c_d11_1,0
+mprA,c_d11_1,0
+emrB,c_d11_1,0
+alaS,c_d11_1,0
+hycH,c_d11_1,0
+fhlA,c_d11_1,0
+mutS,c_d11_1,0
+iap,c_d11_1,0
+ygcL,c_d11_1,0
+eno,c_d11_1,0
+mazG,c_d11_1,0
+relA,c_d11_1,0
+gudD,c_d11_1,0
+yqcA,c_d11_1,0
+sdaC,c_d11_1,0
+ppdC,c_d11_1,0
+yqeH,c_d11_1,0
+ygeF,c_d11_1,0
+hyuA,c_d11_1,0
+recJ,c_d11_1,0
+gcvP,c_d11_1,0
+visC,c_d11_1,0
+argO,c_d11_1,0
+pgk,c_d11_1,0
+sprT,c_d11_1,0
+yggJ,c_d11_1,0
+mutY,c_d11_1,0
+glcB,c_d11_1,0
+hybD,c_d11_1,0
+exbB,c_d11_1,0
+exbB,c_d11_1,0
+metC,c_d11_1,0
+metC,c_d11_1,0
+yqhC,c_d11_1,0
+nudF,c_d11_1,0
+yqiK,c_d11_1,0
+rfaE,c_d11_1,0
+ygjK,c_d11_1,0
+ygjP,c_d11_1,0
+sstT,c_d11_1,0
+exuT,c_d11_1,0
+yhaK,c_d11_1,0
+yhaK,c_d11_1,0
+tdcB,c_d11_1,0
+garK,c_d11_1,0
+garP,c_d11_1,0
+sohA,c_d11_1,0
+truB,c_d11_1,0
+yhbX,c_d11_1,0
+gltB,c_d11_1,0
+yhdW,c_d11_1,0
+yhdY,c_d11_1,0
+thiC,c_d11_1,0
+metJ,c_d11_1,0
+yiiQ,c_d11_1,0
+rhaA,c_d11_1,0
+dapF,c_d11_1,0
+cyaA,c_d11_1,0
+yifK,c_d11_1,0
+rho,c_d11_1,0
+ilvC,c_d11_1,0
+asnC,c_d11_1,0
+pstA,c_d11_1,0
+yieG,c_d11_1,0
 insH,c_d11_1,0
-yidH ?,c_d11_1,0
-yicN ?,c_d11_1,0
-yicR ?,c_d11_1,0
-rfaD ?,c_d11_1,0
-selA ?,c_d11_1,0
-bcsE ?,c_d11_1,0
-bcsB ?,c_d11_1,0
-yhjK ?,c_d11_1,0
-gadA ?,c_d11_1,0
-prlC ?,c_d11_1,0
-pitA ?,c_d11_1,0
-yhhT ?,c_d11_1,0
-livG ?,c_d11_1,0
-glgX ?,c_d11_1,0
-malQ ?,c_d11_1,0
-yhgF ?,c_d11_1,0
-frlR ?,c_d11_1,0
-nirC ?,c_d11_1,0
-yheS ?,c_d11_1,0
-fusA ?,c_d11_1,0
-metH ?,c_d11_1,0
-metH ?,c_d11_1,0
-yjbB ?,c_d11_1,0
-pgi ?,c_d11_1,0
-yjbI ?,c_d11_1,0
-nrfC ?,c_d11_1,0
-proP ?,c_d11_1,0
-lysU ?,c_d11_1,0
-cadB ?,c_d11_1,0
-cadC ?,c_d11_1,0
-blc ?,c_d11_1,0
-mutL ?,c_d11_1,0
-yjfK ?,c_d11_1,0
-ulaE ?,c_d11_1,0
-ytfR ?,c_d11_1,0
-nrdD ?,c_d11_1,0
-yjgN ?,c_d11_1,0
-pepA ?,c_d11_1,0
-yjgB ?,c_d11_1,0
-sgcA ?,c_d11_1,0
-yjhR ?,c_d11_1,0
-fimE ?,c_d11_1,0
-iadA ?,c_d11_1,0
-yjiK ?,c_d11_1,0
-leuV ?,c_d11_1,0
-creD ?,c_d11_1,0
+yidH,c_d11_1,0
+yicN,c_d11_1,0
+yicR,c_d11_1,0
+rfaD,c_d11_1,0
+selA,c_d11_1,0
+bcsE,c_d11_1,0
+bcsB,c_d11_1,0
+yhjK,c_d11_1,0
+gadA,c_d11_1,0
+prlC,c_d11_1,0
+pitA,c_d11_1,0
+yhhT,c_d11_1,0
+livG,c_d11_1,0
+glgX,c_d11_1,0
+malQ,c_d11_1,0
+yhgF,c_d11_1,0
+frlR,c_d11_1,0
+nirC,c_d11_1,0
+yheS,c_d11_1,0
+fusA,c_d11_1,0
+metH,c_d11_1,0
+metH,c_d11_1,0
+yjbB,c_d11_1,0
+pgi,c_d11_1,0
+yjbI,c_d11_1,0
+nrfC,c_d11_1,0
+proP,c_d11_1,0
+lysU,c_d11_1,0
+cadB,c_d11_1,0
+cadC,c_d11_1,0
+blc,c_d11_1,0
+mutL,c_d11_1,0
+yjfK,c_d11_1,0
+ulaE,c_d11_1,0
+ytfR,c_d11_1,0
+nrdD,c_d11_1,0
+yjgN,c_d11_1,0
+pepA,c_d11_1,0
+yjgB,c_d11_1,0
+sgcA,c_d11_1,0
+yjhR,c_d11_1,0
+fimE,c_d11_1,0
+iadA,c_d11_1,0
+yjiK,c_d11_1,0
+leuV,c_d11_1,0
+creD,c_d11_1,0
