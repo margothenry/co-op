@@ -1,4 +1,4 @@
 "paper","environment","generation","day","flask","selective_pressure","species","ploidy","strain_info","c_hyper","p_chisq","estimate","N_genes.notParallel","N_genes.parallel","parallel_genes","who_analyzed","func"
-"Sandberg2016","Davis minimal medium",NA,NA,"23","Davis minimal medium","Ecoli_K12","haploid",NA,15.42,0.005,0.002,3,2,"rhsE, rpoB","MH","multiple_wide"
-"Sandberg2016","Davis minimal medium",NA,NA,"58","Davis minimal medium","Ecoli_K12","haploid",NA,34.132,0.005,0.002,5,1,"rpoB","MH","multiple_wide"
-"Sandberg2016","Davis minimal medium",NA,NA,"133","Davis minimal medium","Ecoli_K12","haploid",NA,24.328,0.005,0.005,10,2,"rhsE, rpoB","MH","multiple_wide"
+"Sandberg2016","Davis minimal medium",NA,NA,"23","13C isotope","Ecoli_K12","haploid",NA,15.42,0.005,0.002,3,2,"rhsE, rpoB","MH","multiple_wide"
+"Sandberg2016","Davis minimal medium",NA,NA,"58","13C isotope","Ecoli_K12","haploid",NA,34.132,0.005,0.002,5,1,"rpoB","MH","multiple_wide"
+"Sandberg2016","Davis minimal medium",NA,NA,"133","13C isotope","Ecoli_K12","haploid",NA,24.328,0.005,0.005,10,2,"rhsE, rpoB","MH","multiple_wide"
