@@ -66,11 +66,11 @@ if (length(Lang2013_out) > 0) {
   Lang2013 <- Lang2013[-Lang2013_out,]
 }
 Lang2013 <- Lang2013 %>%
-  select(gene, population, '0', '140', '240', '335', '415', '505', '585', '665', '745', '825', '910', '1000')
+  select(gene, population, '140', '240', '335', '415', '505', '585', '665', '745', '825', '910', '1000')
 Lang2013$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Lang2013$gene)
 
 write_csv(Lang2013, here("data_in", "for_func", "Lang2013.csv"))
-multiple_wide(paper = "Lang2013", dataset_name = "Lang2013", environment = "YPD", generations = c('0', '140', '240', '335', '415', '505', '585', '665', '745', '825', '910', '1000'), 
+multiple_wide(paper = "Lang2013", dataset_name = "Lang2013", environment = "YPD", generations = c('140', '240', '335', '415', '505', '585', '665', '745', '825', '910', '1000'), 
               selective_pressure = "YPD", species = "Sac", who_analyzed = "MH", ploidy = "haploid")
 
 
@@ -113,12 +113,12 @@ if (length(Sherlock2019_out) > 0) {
   Sherlock2019 <- Sherlock2019[-Sherlock2019_out,] 
 } 
 Sherlock2019 <- Sherlock2019 %>%
-  select(gene, population, "0", "50", "100", "150", "200", "250", "300", "350", "400", "450", "500")
+  select(gene, population, "50", "100", "150", "200", "250", "300", "350", "400", "450", "500")
 Sherlock2019$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Sherlock2019$gene)
 
 write_csv(Sherlock2019, here("data_in", "for_func", "Sherlock2019.csv"))
 multiple_wide(paper = "Sherlock2019", dataset_name = "Sherlock2019", environment = "Davis minimal medium", 
-              generations = c('0', "50", "100", "150", "200", "250", "300", "350", "400", "450", "500"), selective_pressure = "Constant, glucose-limited environment", 
+              generations = c("50", "100", "150", "200", "250", "300", "350", "400", "450", "500"), selective_pressure = "Constant, glucose-limited environment", 
               species = "Ecoli_K12", who_analyzed = "MH", ploidy = "haploid")
 
 
@@ -134,11 +134,11 @@ if (length(Wielgoss2016_mucoid_out) > 0) {
   Wielgoss2016_mucoid <- Wielgoss2016_mucoid[-Wielgoss2016_mucoid_out,] 
 } 
 Wielgoss2016_mucoid <- Wielgoss2016_mucoid %>%
-  select(gene, population, "0", "10")
+  transmute(gene, population, frequency)
 Wielgoss2016_mucoid$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Wielgoss2016_mucoid$gene)
 
 write_csv(Wielgoss2016_mucoid, here("data_in", "for_func", "Wielgoss2016_mucoid.csv"))
-multiple_wide(paper = "Wielgoss2016", dataset_name = "Wielgoss2016_mucoid", environment = "Lysogeny broth", generations = c("0", "10"), 
+single_long(paper = "Wielgoss2016", dataset_name = "Wielgoss2016_mucoid", environment = "Lysogeny broth", generations = "10", 
               selective_pressure = "Lysogeny broth", species = "Ecoli_K12", who_analyzed = "MH", ploidy = "haploid", strain_info = "mucoid")
 
 
@@ -152,11 +152,11 @@ if (length(Wielgoss2016_nonMucoid_out) > 0) {
   Wielgoss2016_nonMucoid <- Wielgoss2016_nonMucoid[-Wielgoss2016_nonMucoid_out,] 
 } 
 Wielgoss2016_nonMucoid <- Wielgoss2016_nonMucoid %>%
-  select(gene, population, "0", "10")
+  select(gene, population, "2", "10")
 Wielgoss2016_nonMucoid$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Wielgoss2016_nonMucoid$gene)
 
 write_csv(Wielgoss2016_nonMucoid, here("data_in", "for_func", "Wielgoss2016_nonMucoid.csv"))
-multiple_wide(paper = "Wielgoss2016", dataset_name = "Wielgoss2016_nonMucoid", environment = "Lysogeny broth", generations = c("0", "10"), 
+multiple_wide(paper = "Wielgoss2016", dataset_name = "Wielgoss2016_nonMucoid", environment = "Lysogeny broth", generations = c("2", "10"), 
               selective_pressure = "Lysogeny broth", species = "Ecoli_K12", who_analyzed = "MH", ploidy = "haploid", strain_info = "non-mucoid")
 
 
@@ -291,16 +291,16 @@ if (length(Keane2014_out) > 0) {
 } 
 ### (TL): Replace "0" values with "NA" - many funcs are built for NA's, so it's easier to mass-replace NA's than some other values:
 Keane2014 <- Keane2014 %>%
-  replace_with_na(replace = list("0" = 0, "440" = 0, "1100" = 0, "1540" = 0, "1980" = 0, "2200" = 0)) %>%
+  replace_with_na(replace = list("440" = 0, "1100" = 0, "1540" = 0, "1980" = 0, "2200" = 0)) %>%
   as.data.frame() %>%
-  select(gene, population, "0", "440", "1100", "1540", "1980", "2200")
+  select(gene, population, "440", "1100", "1540", "1980", "2200")
 ### (TL): Change non-zero values in pop cols to "1".
 Keane2014[, 3:ncol(Keane2014)] <- Keane2014[, 3:ncol(Keane2014)] %>%
   replace(!is.na(.), 1)
 Keane2014$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Keane2014$gene)
 
 write_csv(Keane2014, here("data_in", "for_func", "Keane2014.csv"))
-multiple_wide(paper = "Keane2014", dataset_name = "Keane2014", environment = "YPD", generations = c("0", "440", "1100", "1540", "1980", "2200"), 
+multiple_wide(paper = "Keane2014", dataset_name = "Keane2014", environment = "YPD", generations = c("440", "1100", "1540", "1980", "2200"), 
               selective_pressure = "YPD", species = "Sac", who_analyzed = "TL", ploidy = "haploid", strain_info = "msh2 deleted")
 
 #####################################
@@ -351,7 +351,7 @@ Payen2016_dip <- Payen2016 %>%
 
 write_csv(Payen2016_dip, here("data_in", "for_func", "Payen2016_dip.csv"))
 multiple_long(paper = "Payen2016", dataset_name = "Payen2016_dip", environment = "phosphate", generations = "20", selective_pressure = c("phosphate"), species = "Sac", 
-              who_analyzed = "MH", ploidy = "diploid")
+              who_analyzed = "MH", ploidy = "diploid", strain_info = "diploid")
 
 
 ## Payen2016_hap:
@@ -362,7 +362,7 @@ Payen2016_hap <- Payen2016 %>%
 
 write_csv(Payen2016_hap, here("data_in", "for_func", "Payen2016_hap.csv"))
 multiple_long(paper = "Payen2016", dataset_name = "Payen2016_hap", environment = "LB", generations = "20", selective_pressure = c("phosphate"), species = "Sac", 
-              who_analyzed = "MH", ploidy = "haploid")
+              who_analyzed = "MH", ploidy = "haploid", strain_info = "haploid")
 
 ##############################
 # Single wide:
@@ -1105,7 +1105,7 @@ Mundhada2017 <- Mundhada2017 %>%
 Mundhada2017$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Mundhada2017$gene)
 
 write_csv(Mundhada2017, here("data_in", "for_func", "Mundhada2017.csv"))
-single_long(paper = "Sandberg2017", dataset_name = "Mundhada2017", environment = "M9 minimal medium + glucose + acetate", generations = "650", 
+single_long(paper = "Mundhada2017", dataset_name = "Mundhada2017", environment = "M9 minimal medium + glucose + acetate", generations = "650", 
             selective_pressure = "glucose + acetate", species = "Ecoli_K12", who_analyzed = "TL", ploidy = "haploid")
 
 # (TL): Wang2010:

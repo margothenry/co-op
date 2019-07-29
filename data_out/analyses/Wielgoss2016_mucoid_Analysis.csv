@@ -1,3 +1,2 @@
 "paper","environment","generation","day","flask","selective_pressure","species","ploidy","strain_info","c_hyper","p_chisq","estimate","N_genes.notParallel","N_genes.parallel","parallel_genes","who_analyzed","func"
-"Wielgoss2016","Lysogeny broth","0",NA,NA,"Lysogeny broth","Ecoli_K12","haploid","mucoid",4.81,0.005,0.016,18,2,"ompC, waaO","MH","multiple_wide"
-"Wielgoss2016","Lysogeny broth","10",NA,NA,"Lysogeny broth","Ecoli_K12","haploid","mucoid",2.789,0.005,0.031,27,2,"ompC, waaO","MH","multiple_wide"
+"Wielgoss2016","Lysogeny broth","10",NA,NA,"Lysogeny broth","Ecoli_K12","haploid","mucoid",2.801,0.005,0.031,27,2,"ompC, waaO","MH","single_long"

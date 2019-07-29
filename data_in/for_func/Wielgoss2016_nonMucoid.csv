@@ -1,4 +1,4 @@
-gene,population,0,10
+gene,population,2,10
 ftsZ ,wt4,NA,NA
 lpxC ,wt4,NA,NA
 dnaE ,wt4,NA,NA
@@ -33,7 +33,7 @@ ompC ,wt4,NA,NA
 ompC ,wt4,NA,NA
 ompC ,wt4,NA,NA
 rcsD ,wt4,NA,NA
-rcsD ,wt4,NA,NA
+rcsD ,wt4,1,NA
 rcsB ,wt4,NA,NA
 rcsB ,wt4,NA,NA
 rcsC ,wt4,NA,NA
@@ -108,7 +108,7 @@ yejM ,wt5,NA,NA
 ompC ,wt5,NA,NA
 ompC ,wt5,NA,NA
 ompC ,wt5,NA,NA
-rcsD ,wt5,NA,NA
+rcsD ,wt5,1,NA
 rcsD ,wt5,NA,NA
 rcsB ,wt5,NA,NA
 rcsB ,wt5,NA,NA
@@ -188,7 +188,7 @@ rcsD ,wt6,NA,NA
 rcsD ,wt6,NA,NA
 rcsB ,wt6,NA,NA
 rcsB ,wt6,NA,NA
-rcsC ,wt6,NA,1
+rcsC ,wt6,1,1
 rcsC ,wt6,NA,NA
 rcsC ,wt6,NA,NA
 rcsC ,wt6,NA,NA
@@ -222,7 +222,7 @@ yjaA ,wt6,NA,NA
 yjbH ,wt6,NA,NA
 lamB ,wt6,NA,NA
 yjhG ,wt6,NA,NA
-fimE ,wt6,1,NA
+fimE ,wt6,NA,NA
 fimE ,wt6,NA,NA
 fimE ,wt6,NA,NA
 hsdM ,wt6,NA,NA
@@ -262,7 +262,7 @@ ompC ,µ4,NA,NA
 ompC ,µ4,NA,NA
 rcsD ,µ4,NA,NA
 rcsD ,µ4,NA,NA
-rcsB ,µ4,0,NA
+rcsB ,µ4,1,NA
 rcsB ,µ4,NA,NA
 rcsC ,µ4,NA,NA
 rcsC ,µ4,1,1
@@ -326,7 +326,7 @@ arpB ,µ5,NA,NA
 nudG ,µ5,NA,NA
 yeaD ,µ5,NA,1
 manZ ,µ5,NA,NA
-proQ ,µ5,0,NA
+proQ ,µ5,NA,NA
 yebK ,µ5,1,1
 tyrP ,µ5,NA,NA
 fliR ,µ5,NA,NA
@@ -339,7 +339,7 @@ ompC ,µ5,NA,NA
 rcsD ,µ5,NA,NA
 rcsD ,µ5,NA,NA
 rcsB ,µ5,NA,NA
-rcsB ,µ5,NA,1
+rcsB ,µ5,1,1
 rcsC ,µ5,NA,NA
 rcsC ,µ5,NA,NA
 rcsC ,µ5,NA,NA
@@ -419,7 +419,7 @@ rcsB ,µ6,NA,NA
 rcsC ,µ6,NA,NA
 rcsC ,µ6,NA,NA
 rcsC ,µ6,NA,NA
-rcsC ,µ6,NA,NA
+rcsC ,µ6,1,NA
 rcsC ,µ6,NA,NA
 yfcG ,µ6,NA,NA
 evgA ,µ6,NA,NA
