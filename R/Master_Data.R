@@ -1126,9 +1126,253 @@ single_long(paper = "Wang2010", dataset_name = "Wang2010", environment = "T-salt
 
 
 
-# (TL): Kryazhimskiy2014:
-### (TL): [Remove "likely mutator" & "likely diploid" rows]
-### (TL): [Remove rows if "distance to gene" > 0]
+# (TL): Kryazhimskiy2014, subset by founder:
+## (TL): Kryazhimskiy2014_L003:
+Kryazhimskiy2014_L003 <- read_csv(here("data_in", "original & usable", "Kryazhimskiy2014", "Kryazhimskiy2014_L003_usable.csv"))
+Kryazhimskiy2014_L003 <- clean_names(Kryazhimskiy2014_L003, case = "snake")
+colnames(Kryazhimskiy2014_L003) <- tolower(colnames(Kryazhimskiy2014_L003))
+Kryazhimskiy2014_L003_out <- c(grep(out_patterns_column_gene, Kryazhimskiy2014_L003$gene), grep(out_patterns_column_details, Kryazhimskiy2014_L003$details))
+if (length(Kryazhimskiy2014_L003_out) > 0) {   
+  Kryazhimskiy2014_L003 <- Kryazhimskiy2014_L003[-Kryazhimskiy2014_L003_out,] 
+} 
+### (TL): Also, remove entries whose values for "distance_to_gene" is > 0 (indicative of non-genic mutations). In other words, keep the entries w/o a value for this column.
+Kryazhimskiy2014_L003 <- Kryazhimskiy2014_L003 %>%
+  subset(is.na(distance_to_gene)) %>%
+  select(gene, population, frequency)
+Kryazhimskiy2014_L003$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Kryazhimskiy2014_L003$gene)
+
+write_csv(Kryazhimskiy2014_L003, here("data_in", "for_func", "Kryazhimskiy2014_L003.csv"))
+single_long(paper = "Kryazhimskiy2014", dataset_name = "Kryazhimskiy2014_L003", strain_info = "Founder L003", environment = "YPD", generations = "500", 
+            selective_pressure = "YPD", species = "Sac", who_analyzed = "TL", ploidy = "haploid")
+
+
+## (TL): Kryazhimskiy2014_L013:
+Kryazhimskiy2014_L013 <- read_csv(here("data_in", "original & usable", "Kryazhimskiy2014", "Kryazhimskiy2014_L013_usable.csv"))
+Kryazhimskiy2014_L013 <- clean_names(Kryazhimskiy2014_L013, case = "snake")
+colnames(Kryazhimskiy2014_L013) <- tolower(colnames(Kryazhimskiy2014_L013))
+Kryazhimskiy2014_L013_out <- c(grep(out_patterns_column_gene, Kryazhimskiy2014_L013$gene), grep(out_patterns_column_details, Kryazhimskiy2014_L013$details))
+if (length(Kryazhimskiy2014_L013_out) > 0) {   
+  Kryazhimskiy2014_L013 <- Kryazhimskiy2014_L013[-Kryazhimskiy2014_L013_out,] 
+} 
+### (TL): Also, remove entries whose values for "distance_to_gene" is > 0 (indicative of non-genic mutations). In other words, keep the entries w/o a value for this column.
+Kryazhimskiy2014_L013 <- Kryazhimskiy2014_L013 %>%
+  subset(is.na(distance_to_gene)) %>%
+  select(gene, population, frequency)
+Kryazhimskiy2014_L013$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Kryazhimskiy2014_L013$gene)
+
+write_csv(Kryazhimskiy2014_L013, here("data_in", "for_func", "Kryazhimskiy2014_L013.csv"))
+single_long(paper = "Kryazhimskiy2014", dataset_name = "Kryazhimskiy2014_L013", strain_info = "Founder L013", environment = "YPD", generations = "500", 
+            selective_pressure = "YPD", species = "Sac", who_analyzed = "TL", ploidy = "haploid")
+
+
+## (TL): Kryazhimskiy2014_L041:
+Kryazhimskiy2014_L041 <- read_csv(here("data_in", "original & usable", "Kryazhimskiy2014", "Kryazhimskiy2014_L041_usable.csv"))
+Kryazhimskiy2014_L041 <- clean_names(Kryazhimskiy2014_L041, case = "snake")
+colnames(Kryazhimskiy2014_L041) <- tolower(colnames(Kryazhimskiy2014_L041))
+Kryazhimskiy2014_L041_out <- c(grep(out_patterns_column_gene, Kryazhimskiy2014_L041$gene), grep(out_patterns_column_details, Kryazhimskiy2014_L041$details))
+if (length(Kryazhimskiy2014_L041_out) > 0) {   
+  Kryazhimskiy2014_L041 <- Kryazhimskiy2014_L041[-Kryazhimskiy2014_L041_out,] 
+} 
+### (TL): Also, remove entries whose values for "distance_to_gene" is > 0 (indicative of non-genic mutations). In other words, keep the entries w/o a value for this column.
+Kryazhimskiy2014_L041 <- Kryazhimskiy2014_L041 %>%
+  subset(is.na(distance_to_gene)) %>%
+  select(gene, population, frequency)
+Kryazhimskiy2014_L041$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Kryazhimskiy2014_L041$gene)
+
+write_csv(Kryazhimskiy2014_L041, here("data_in", "for_func", "Kryazhimskiy2014_L041.csv"))
+single_long(paper = "Kryazhimskiy2014", dataset_name = "Kryazhimskiy2014_L041", strain_info = "Founder L041", environment = "YPD", generations = "500", 
+            selective_pressure = "YPD", species = "Sac", who_analyzed = "TL", ploidy = "haploid")
+
+
+## (TL): Kryazhimskiy2014_L048:
+Kryazhimskiy2014_L048 <- read_csv(here("data_in", "original & usable", "Kryazhimskiy2014", "Kryazhimskiy2014_L048_usable.csv"))
+Kryazhimskiy2014_L048 <- clean_names(Kryazhimskiy2014_L048, case = "snake")
+colnames(Kryazhimskiy2014_L048) <- tolower(colnames(Kryazhimskiy2014_L048))
+Kryazhimskiy2014_L048_out <- c(grep(out_patterns_column_gene, Kryazhimskiy2014_L048$gene), grep(out_patterns_column_details, Kryazhimskiy2014_L048$details))
+if (length(Kryazhimskiy2014_L048_out) > 0) {   
+  Kryazhimskiy2014_L048 <- Kryazhimskiy2014_L048[-Kryazhimskiy2014_L048_out,] 
+} 
+### (TL): Also, remove entries whose values for "distance_to_gene" is > 0 (indicative of non-genic mutations). In other words, keep the entries w/o a value for this column.
+Kryazhimskiy2014_L048 <- Kryazhimskiy2014_L048 %>%
+  subset(is.na(distance_to_gene)) %>%
+  select(gene, population, frequency)
+Kryazhimskiy2014_L048$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Kryazhimskiy2014_L048$gene)
+
+write_csv(Kryazhimskiy2014_L048, here("data_in", "for_func", "Kryazhimskiy2014_L048.csv"))
+single_long(paper = "Kryazhimskiy2014", dataset_name = "Kryazhimskiy2014_L048", strain_info = "Founder L048", environment = "YPD", generations = "500", 
+            selective_pressure = "YPD", species = "Sac", who_analyzed = "TL", ploidy = "haploid")
+
+
+## (TL): Kryazhimskiy2014_L094:
+Kryazhimskiy2014_L094 <- read_csv(here("data_in", "original & usable", "Kryazhimskiy2014", "Kryazhimskiy2014_L094_usable.csv"))
+Kryazhimskiy2014_L094 <- clean_names(Kryazhimskiy2014_L094, case = "snake")
+colnames(Kryazhimskiy2014_L094) <- tolower(colnames(Kryazhimskiy2014_L094))
+Kryazhimskiy2014_L094_out <- c(grep(out_patterns_column_gene, Kryazhimskiy2014_L094$gene), grep(out_patterns_column_details, Kryazhimskiy2014_L094$details))
+if (length(Kryazhimskiy2014_L094_out) > 0) {   
+  Kryazhimskiy2014_L094 <- Kryazhimskiy2014_L094[-Kryazhimskiy2014_L094_out,] 
+} 
+### (TL): Also, remove entries whose values for "distance_to_gene" is > 0 (indicative of non-genic mutations). In other words, keep the entries w/o a value for this column.
+Kryazhimskiy2014_L094 <- Kryazhimskiy2014_L094 %>%
+  subset(is.na(distance_to_gene)) %>%
+  select(gene, population, frequency)
+Kryazhimskiy2014_L094$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Kryazhimskiy2014_L094$gene)
+
+write_csv(Kryazhimskiy2014_L094, here("data_in", "for_func", "Kryazhimskiy2014_L094.csv"))
+single_long(paper = "Kryazhimskiy2014", dataset_name = "Kryazhimskiy2014_L094", strain_info = "Founder L094", environment = "YPD", generations = "500", 
+            selective_pressure = "YPD", species = "Sac", who_analyzed = "TL", ploidy = "haploid")
+
+
+## (TL): Kryazhimskiy2014_L096a:
+Kryazhimskiy2014_L096a <- read_csv(here("data_in", "original & usable", "Kryazhimskiy2014", "Kryazhimskiy2014_L096a_usable.csv"))
+Kryazhimskiy2014_L096a <- clean_names(Kryazhimskiy2014_L096a, case = "snake")
+colnames(Kryazhimskiy2014_L096a) <- tolower(colnames(Kryazhimskiy2014_L096a))
+Kryazhimskiy2014_L096a_out <- c(grep(out_patterns_column_gene, Kryazhimskiy2014_L096a$gene), grep(out_patterns_column_details, Kryazhimskiy2014_L096a$details))
+if (length(Kryazhimskiy2014_L096a_out) > 0) {   
+  Kryazhimskiy2014_L096a <- Kryazhimskiy2014_L096a[-Kryazhimskiy2014_L096a_out,] 
+} 
+### (TL): Also, remove entries whose values for "distance_to_gene" is > 0 (indicative of non-genic mutations). In other words, keep the entries w/o a value for this column.
+Kryazhimskiy2014_L096a <- Kryazhimskiy2014_L096a %>%
+  subset(is.na(distance_to_gene)) %>%
+  select(gene, population, frequency)
+Kryazhimskiy2014_L096a$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Kryazhimskiy2014_L096a$gene)
+
+write_csv(Kryazhimskiy2014_L096a, here("data_in", "for_func", "Kryazhimskiy2014_L096a.csv"))
+single_long(paper = "Kryazhimskiy2014", dataset_name = "Kryazhimskiy2014_L096a", strain_info = "Founder L096a", environment = "YPD", generations = "500", 
+            selective_pressure = "YPD", species = "Sac", who_analyzed = "TL", ploidy = "haploid")
+
+
+## (TL): Kryazhimskiy2014_L096b:
+Kryazhimskiy2014_L096b <- read_csv(here("data_in", "original & usable", "Kryazhimskiy2014", "Kryazhimskiy2014_L096b_usable.csv"))
+Kryazhimskiy2014_L096b <- clean_names(Kryazhimskiy2014_L096b, case = "snake")
+colnames(Kryazhimskiy2014_L096b) <- tolower(colnames(Kryazhimskiy2014_L096b))
+Kryazhimskiy2014_L096b_out <- c(grep(out_patterns_column_gene, Kryazhimskiy2014_L096b$gene), grep(out_patterns_column_details, Kryazhimskiy2014_L096b$details))
+if (length(Kryazhimskiy2014_L096b_out) > 0) {   
+  Kryazhimskiy2014_L096b <- Kryazhimskiy2014_L096b[-Kryazhimskiy2014_L096b_out,] 
+} 
+### (TL): Also, remove entries whose values for "distance_to_gene" is > 0 (indicative of non-genic mutations). In other words, keep the entries w/o a value for this column.
+Kryazhimskiy2014_L096b <- Kryazhimskiy2014_L096b %>%
+  subset(is.na(distance_to_gene)) %>%
+  select(gene, population, frequency)
+Kryazhimskiy2014_L096b$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Kryazhimskiy2014_L096b$gene)
+
+write_csv(Kryazhimskiy2014_L096b, here("data_in", "for_func", "Kryazhimskiy2014_L096b.csv"))
+single_long(paper = "Kryazhimskiy2014", dataset_name = "Kryazhimskiy2014_L096b", strain_info = "Founder L096b", environment = "YPD", generations = "500", 
+            selective_pressure = "YPD", species = "Sac", who_analyzed = "TL", ploidy = "haploid")
+
+
+## (TL): Kryazhimskiy2014_L098:
+Kryazhimskiy2014_L098 <- read_csv(here("data_in", "original & usable", "Kryazhimskiy2014", "Kryazhimskiy2014_L098_usable.csv"))
+Kryazhimskiy2014_L098 <- clean_names(Kryazhimskiy2014_L098, case = "snake")
+colnames(Kryazhimskiy2014_L098) <- tolower(colnames(Kryazhimskiy2014_L098))
+Kryazhimskiy2014_L098_out <- c(grep(out_patterns_column_gene, Kryazhimskiy2014_L098$gene), grep(out_patterns_column_details, Kryazhimskiy2014_L098$details))
+if (length(Kryazhimskiy2014_L098_out) > 0) {   
+  Kryazhimskiy2014_L098 <- Kryazhimskiy2014_L098[-Kryazhimskiy2014_L098_out,] 
+} 
+### (TL): Also, remove entries whose values for "distance_to_gene" is > 0 (indicative of non-genic mutations). In other words, keep the entries w/o a value for this column.
+Kryazhimskiy2014_L098 <- Kryazhimskiy2014_L098 %>%
+  subset(is.na(distance_to_gene)) %>%
+  select(gene, population, frequency)
+Kryazhimskiy2014_L098$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Kryazhimskiy2014_L098$gene)
+
+write_csv(Kryazhimskiy2014_L098, here("data_in", "for_func", "Kryazhimskiy2014_L098.csv"))
+single_long(paper = "Kryazhimskiy2014", dataset_name = "Kryazhimskiy2014_L098", strain_info = "Founder L098", environment = "YPD", generations = "500", 
+            selective_pressure = "YPD", species = "Sac", who_analyzed = "TL", ploidy = "haploid")
+
+
+## (TL): Kryazhimskiy2014_L102:
+Kryazhimskiy2014_L102 <- read_csv(here("data_in", "original & usable", "Kryazhimskiy2014", "Kryazhimskiy2014_L102_usable.csv"))
+Kryazhimskiy2014_L102 <- clean_names(Kryazhimskiy2014_L102, case = "snake")
+colnames(Kryazhimskiy2014_L102) <- tolower(colnames(Kryazhimskiy2014_L102))
+Kryazhimskiy2014_L102_out <- c(grep(out_patterns_column_gene, Kryazhimskiy2014_L102$gene), grep(out_patterns_column_details, Kryazhimskiy2014_L102$details))
+if (length(Kryazhimskiy2014_L102_out) > 0) {   
+  Kryazhimskiy2014_L102 <- Kryazhimskiy2014_L102[-Kryazhimskiy2014_L102_out,] 
+} 
+### (TL): Also, remove entries whose values for "distance_to_gene" is > 0 (indicative of non-genic mutations). In other words, keep the entries w/o a value for this column.
+Kryazhimskiy2014_L102 <- Kryazhimskiy2014_L102 %>%
+  subset(is.na(distance_to_gene)) %>%
+  select(gene, population, frequency)
+Kryazhimskiy2014_L102$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Kryazhimskiy2014_L102$gene)
+
+write_csv(Kryazhimskiy2014_L102, here("data_in", "for_func", "Kryazhimskiy2014_L102.csv"))
+single_long(paper = "Kryazhimskiy2014", dataset_name = "Kryazhimskiy2014_L102", strain_info = "Founder L102", environment = "YPD", generations = "500", 
+            selective_pressure = "YPD", species = "Sac", who_analyzed = "TL", ploidy = "haploid")
+
+
+## (TL): Kryazhimskiy2014_L102a:
+Kryazhimskiy2014_L102a <- read_csv(here("data_in", "original & usable", "Kryazhimskiy2014", "Kryazhimskiy2014_L102a_usable.csv"))
+Kryazhimskiy2014_L102a <- clean_names(Kryazhimskiy2014_L102a, case = "snake")
+colnames(Kryazhimskiy2014_L102a) <- tolower(colnames(Kryazhimskiy2014_L102a))
+Kryazhimskiy2014_L102a_out <- c(grep(out_patterns_column_gene, Kryazhimskiy2014_L102a$gene), grep(out_patterns_column_details, Kryazhimskiy2014_L102a$details))
+if (length(Kryazhimskiy2014_L102a_out) > 0) {   
+  Kryazhimskiy2014_L102a <- Kryazhimskiy2014_L102a[-Kryazhimskiy2014_L102a_out,] 
+} 
+### (TL): Also, remove entries whose values for "distance_to_gene" is > 0 (indicative of non-genic mutations). In other words, keep the entries w/o a value for this column.
+Kryazhimskiy2014_L102a <- Kryazhimskiy2014_L102a %>%
+  subset(is.na(distance_to_gene)) %>%
+  select(gene, population, frequency)
+Kryazhimskiy2014_L102a$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Kryazhimskiy2014_L102a$gene)
+
+write_csv(Kryazhimskiy2014_L102a, here("data_in", "for_func", "Kryazhimskiy2014_L102a.csv"))
+single_long(paper = "Kryazhimskiy2014", dataset_name = "Kryazhimskiy2014_L102a", strain_info = "Founder L102a", environment = "YPD", generations = "500", 
+            selective_pressure = "YPD", species = "Sac", who_analyzed = "TL", ploidy = "haploid")
+
+
+## (TL): Kryazhimskiy2014_S002:
+Kryazhimskiy2014_S002 <- read_csv(here("data_in", "original & usable", "Kryazhimskiy2014", "Kryazhimskiy2014_S002_usable.csv"))
+Kryazhimskiy2014_S002 <- clean_names(Kryazhimskiy2014_S002, case = "snake")
+colnames(Kryazhimskiy2014_S002) <- tolower(colnames(Kryazhimskiy2014_S002))
+Kryazhimskiy2014_S002_out <- c(grep(out_patterns_column_gene, Kryazhimskiy2014_S002$gene), grep(out_patterns_column_details, Kryazhimskiy2014_S002$details))
+if (length(Kryazhimskiy2014_S002_out) > 0) {   
+  Kryazhimskiy2014_S002 <- Kryazhimskiy2014_S002[-Kryazhimskiy2014_S002_out,] 
+} 
+### (TL): Also, remove entries whose values for "distance_to_gene" is > 0 (indicative of non-genic mutations). In other words, keep the entries w/o a value for this column.
+Kryazhimskiy2014_S002 <- Kryazhimskiy2014_S002 %>%
+  subset(is.na(distance_to_gene)) %>%
+  select(gene, population, frequency)
+Kryazhimskiy2014_S002$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Kryazhimskiy2014_S002$gene)
+
+write_csv(Kryazhimskiy2014_S002, here("data_in", "for_func", "Kryazhimskiy2014_S002.csv"))
+single_long(paper = "Kryazhimskiy2014", dataset_name = "Kryazhimskiy2014_S002", strain_info = "Founder S002", environment = "YPD", generations = "500", 
+            selective_pressure = "YPD", species = "Sac", who_analyzed = "TL", ploidy = "haploid")
+
+
+## (TL): Kryazhimskiy2014_S028:
+Kryazhimskiy2014_S028 <- read_csv(here("data_in", "original & usable", "Kryazhimskiy2014", "Kryazhimskiy2014_S028_usable.csv"))
+Kryazhimskiy2014_S028 <- clean_names(Kryazhimskiy2014_S028, case = "snake")
+colnames(Kryazhimskiy2014_S028) <- tolower(colnames(Kryazhimskiy2014_S028))
+Kryazhimskiy2014_S028_out <- c(grep(out_patterns_column_gene, Kryazhimskiy2014_S028$gene), grep(out_patterns_column_details, Kryazhimskiy2014_S028$details))
+if (length(Kryazhimskiy2014_S028_out) > 0) {   
+  Kryazhimskiy2014_S028 <- Kryazhimskiy2014_S028[-Kryazhimskiy2014_S028_out,] 
+} 
+### (TL): Also, remove entries whose values for "distance_to_gene" is > 0 (indicative of non-genic mutations). In other words, keep the entries w/o a value for this column.
+Kryazhimskiy2014_S028 <- Kryazhimskiy2014_S028 %>%
+  subset(is.na(distance_to_gene)) %>%
+  select(gene, population, frequency)
+Kryazhimskiy2014_S028$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Kryazhimskiy2014_S028$gene)
+
+write_csv(Kryazhimskiy2014_S028, here("data_in", "for_func", "Kryazhimskiy2014_S028.csv"))
+single_long(paper = "Kryazhimskiy2014", dataset_name = "Kryazhimskiy2014_S028", strain_info = "Founder S028", environment = "YPD", generations = "500", 
+            selective_pressure = "YPD", species = "Sac", who_analyzed = "TL", ploidy = "haploid")
+
+
+## (TL): Kryazhimskiy2014_S121:
+Kryazhimskiy2014_S121 <- read_csv(here("data_in", "original & usable", "Kryazhimskiy2014", "Kryazhimskiy2014_S121_usable.csv"))
+Kryazhimskiy2014_S121 <- clean_names(Kryazhimskiy2014_S121, case = "snake")
+colnames(Kryazhimskiy2014_S121) <- tolower(colnames(Kryazhimskiy2014_S121))
+Kryazhimskiy2014_S121_out <- c(grep(out_patterns_column_gene, Kryazhimskiy2014_S121$gene), grep(out_patterns_column_details, Kryazhimskiy2014_S121$details))
+if (length(Kryazhimskiy2014_S121_out) > 0) {   
+  Kryazhimskiy2014_S121 <- Kryazhimskiy2014_S121[-Kryazhimskiy2014_S121_out,] 
+} 
+### (TL): Also, remove entries whose values for "distance_to_gene" is > 0 (indicative of non-genic mutations). In other words, keep the entries w/o a value for this column.
+Kryazhimskiy2014_S121 <- Kryazhimskiy2014_S121 %>%
+  subset(is.na(distance_to_gene)) %>%
+  select(gene, population, frequency)
+Kryazhimskiy2014_S121$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Kryazhimskiy2014_S121$gene)
+
+write_csv(Kryazhimskiy2014_S121, here("data_in", "for_func", "Kryazhimskiy2014_S121.csv"))
+single_long(paper = "Kryazhimskiy2014", dataset_name = "Kryazhimskiy2014_S121", strain_info = "Founder S121", environment = "YPD", generations = "500", 
+            selective_pressure = "YPD", species = "Sac", who_analyzed = "TL", ploidy = "haploid")
+
 ####################################
 ### (TL): Run this every time a new dataset is analyzed, or when a dataset is analyzed in a new way.
 # (TL) Combine all the analysis files:

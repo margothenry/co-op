@@ -54,6 +54,7 @@ aeruginosa_entries_strain_info_added <- master_analyses[aeruginosa_entries_index
 (aeruginosa_dataset_count <- length(unique(aeruginosa_entries_strain_info_added$paper)))
 
 # c-hyper vs generation (all datasets):
+## 190729 - FIX GRIFFITH2019 & JERISON2017 - DATASETS DIFFER IN SELECTIVE PRESSURE.
 ### Most datasets use generations to notate timepoints. However, there are still some that uses days or flasks. 
 ### Will need to clump all timepoints into more general ones (i.e. early/intermediate/late or convert everything to generations).
 generation_analysis <- master_analyses %>%
