@@ -30,6 +30,7 @@ _ docs: Some documents to help you with your analyses.
 --- Finding a paper: Contains different versions of the eponymous document, written to help you look for suitable papers for the analysis.
 --- Paper errors: Mistakes spotted in the papers you have read. 
 --- Recommended data cleaning steps: Helps you clean data in Excel & R.
+_ paper_screening: Info about paper screening. As of 190806, the folder includes an overview of the papers screened.
 _ papers_done: All papers analyzed. Subfolders are named after the first & last name initials of the analyst.
 _ papers_toAnalyze: Papers deemed useful, but whose data has yet to be analyzed.
 _ R: Contains R scripts.
