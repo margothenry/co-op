@@ -1,2 +1,2 @@
 "paper","environment","generation","day","flask","selective_pressure","species","ploidy","strain_info","c_hyper","p_chisq","estimate","N_genes.notParallel","N_genes.parallel","parallel_genes","who_analyzed","func"
-"Kryazhimskiy2014","YPD","500",NA,NA,"YPD","Sac","haploid","Founder L003",10.591,0.005,0.035,67,5,"ACE2, CDC28, none, SUR2, YEL023C","TL","single_long"
+"Kryazhimskiy2014","YPD","500",NA,NA,"YPD","Sac","haploid","Founder L003",0.687,0.005,0.094,67,4,"ACE2, CDC28, SUR2, YEL023C","TL","single_long"

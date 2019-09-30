@@ -41,9 +41,12 @@ if (length(Tenaillon2016_out) > 0) {
   Tenaillon2016 <- Tenaillon2016[-Tenaillon2016_out,]
 }
 Tenaillon2016 <- Tenaillon2016 %>% 
-  transmute(gene, population, "500" = `x500_i1_r1`+`x500_i2_r1`, "1000" =`x1000_i1_r1`+`x1000_i2_r1`, "1500" =`x1500_i1_r1`+`x1500_i2_r1`,  "2000"= `x2000_i1_r1`+`x2000_i2_r1`, "5000"=`x5000_i1_r1`+`x5000_i2_r1`, "10000"= `x10000_i1_r1`+`x10000_i2_r1`, "15000"=`x15000_i1_r1`+`x15000_i2_r1`,"20000"=`x20000_i1_r1`+`x20000_i2_r1`,"30000"= `x30000_i1_r1`+`x30000_i2_r1`,"40000"=`x40000_i1_r1`+`x40000_i2_r1`,"50000"=`x50000_i1_r1`+`x50000_i2_r1`)
-  # filter(details != "intergenic")
-### (TL): Purpose of [^[:alnum:][:blank:]&/\\-]: To remove anything that's not ("^[...]") alphanumeric characters (A-z, 0-9) ("[:alnum]"), spaces & tabs (":[blank]:"), "&", "/", and "-".
+  transmute(gene, population, "500" = `x500_i1_r1`+`x500_i2_r1`, "1000" =`x1000_i1_r1`+`x1000_i2_r1`, "1500" =`x1500_i1_r1`+`x1500_i2_r1`,  "2000"= `x2000_i1_r1`+`x2000_i2_r1`, "5000"=`x5000_i1_r1`+`x5000_i2_r1`, "10000"= `x10000_i1_r1`+`x10000_i2_r1`, "15000"=`x15000_i1_r1`+`x15000_i2_r1`,"20000"=`x20000_i1_r1`+`x20000_i2_r1`,"30000"= `x30000_i1_r1`+`x30000_i2_r1`,"40000"=`x40000_i1_r1`+`x40000_i2_r1`,"50000"=`x50000_i1_r1`+`x50000_i2_r1`) 
+### (TL): Replacing NA's with 0's is necessary to prevent parsing failures. 
+### (TL): Because the number of fields is determined via the first 5 rows, if these 5 rows don't contain values for all the fields in the dataset, parsing failures will occur if there are values below row 5 that are in fields beyond those covered by the first 5 rows.
+Tenaillon2016 <- Tenaillon2016 %>%
+  replace_na(value = 0)
+### (TL): Purpose of [^[:alnum:][:blank:]&/\\-]: To remove anything that's not (the "^[...]" part) alphanumeric characters (A-z, 0-9) ("[:alnum]"), spaces & tabs (":[blank]:"), "&", "/", and "-".
 Tenaillon2016$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Tenaillon2016$gene)
 
 write_csv(Tenaillon2016, here("data_in", "for_func", "Tenaillon2016.csv"))
@@ -68,6 +71,8 @@ if (length(Lang2013_out) > 0) {
 }
 Lang2013 <- Lang2013 %>%
   select(gene, population, '140', '240', '335', '415', '505', '585', '665', '745', '825', '910', '1000')
+Lang2013 <- Lang2013 %>%
+  replace_na(value = 0)
 Lang2013$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Lang2013$gene)
 
 write_csv(Lang2013, here("data_in", "for_func", "Lang2013.csv"))
@@ -94,6 +99,8 @@ if (length(Sherlock2013_out) > 0) {
 }
 Sherlock2013 <- Sherlock2013 %>%
   select(gene, population, "7", "70", "133", "196", "266", "322", "385", "448")
+Sherlock2013 <- Sherlock2013 %>%
+  replace_na(value = 0)
 Sherlock2013$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Sherlock2013$gene)
 
 
@@ -115,6 +122,8 @@ if (length(Sherlock2019_out) > 0) {
 } 
 Sherlock2019 <- Sherlock2019 %>%
   select(gene, population, "50", "100", "150", "200", "250", "300", "350", "400", "450", "500")
+Sherlock2019 <- Sherlock2019 %>%
+  replace_na(value = 0)
 Sherlock2019$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Sherlock2019$gene)
 
 write_csv(Sherlock2019, here("data_in", "for_func", "Sherlock2019.csv"))
@@ -136,6 +145,8 @@ if (length(Wielgoss2016_mucoid_out) > 0) {
 } 
 Wielgoss2016_mucoid <- Wielgoss2016_mucoid %>%
   transmute(gene, population, frequency)
+Wielgoss2016_mucoid <- Wielgoss2016_mucoid %>%
+  replace_na(value = 0)
 Wielgoss2016_mucoid$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Wielgoss2016_mucoid$gene)
 
 write_csv(Wielgoss2016_mucoid, here("data_in", "for_func", "Wielgoss2016_mucoid.csv"))
@@ -154,6 +165,8 @@ if (length(Wielgoss2016_nonMucoid_out) > 0) {
 } 
 Wielgoss2016_nonMucoid <- Wielgoss2016_nonMucoid %>%
   select(gene, population, "2", "10")
+Wielgoss2016_nonMucoid <- Wielgoss2016_nonMucoid %>%
+  replace_na(value = 0)
 Wielgoss2016_nonMucoid$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Wielgoss2016_nonMucoid$gene)
 
 write_csv(Wielgoss2016_nonMucoid, here("data_in", "for_func", "Wielgoss2016_nonMucoid.csv"))
@@ -172,6 +185,8 @@ if (length(Sandberg2016_out) > 0) {
 } 
 Sandberg2016 <- Sandberg2016 %>%
   transmute(gene, population, "23" = Sandberg2016$"flask_23", "58" = Sandberg2016$"flask_58", "133" = Sandberg2016$"flask_133")
+Sandberg2016 <- Sandberg2016 %>%
+  replace_na(value = 0)
 Sandberg2016$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Sandberg2016$gene)
 
 write_csv(Sandberg2016, here("data_in", "for_func", "Sandberg2016.csv"))
@@ -192,6 +207,8 @@ if (length(Kacar2017_out) > 0) {
 } 
 Kacar2017 <- Kacar2017 %>%
   select(gene, population, "500", "1000", "1500", "2000")
+Kacar2017 <- Kacar2017 %>%
+  replace_na(value = 0)
 Kacar2017$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Kacar2017$gene)
 
 write_csv(Kacar2017, here("data_in", "for_func", "Kacar2017.csv"))
@@ -210,6 +227,8 @@ if (length(Morgenthaler2019_out) > 0) {
 } 
 Morgenthaler2019 <- Morgenthaler2019 %>%
   transmute(gene, population, "42" = "day_42", "50" = "day_50")
+Morgenthaler2019 <- Morgenthaler2019 %>%
+  replace_na(value = 0)
 Morgenthaler2019$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Morgenthaler2019$gene)
 
 
@@ -235,6 +254,8 @@ Du2019 <- spread(Du2019, flask, value)
 Du2019 <- gather(Du2019, population, frequency, "aa1" : "aa6", factor_key=TRUE)
 Du2019 <- Du2019 %>%
   select(gene, population, "intermediate", "late")
+Du2019 <- Du2019 %>%
+  replace_na(value = 0)
 Du2019$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Du2019$gene)
 
 write_csv(Du2019, here("data_in", "for_func", "Du2019.csv"))
@@ -255,6 +276,8 @@ if (length(Flynn2014_biofilm_out) > 0) {
 } 
 Flynn2014_biofilm <- Flynn2014_biofilm %>%
   select(gene, population, "102", "150", "264", "396", "450", "540")
+Flynn2014_biofilm <- Flynn2014_biofilm %>%
+  replace_na(value = 0)
 Flynn2014_biofilm$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Flynn2014_biofilm$gene)
 
 write_csv(Flynn2014_biofilm, here("data_in", "for_func", "Flynn2014_biofilm.csv"))
@@ -273,6 +296,8 @@ if (length(Flynn2014_planktonic_out) > 0) {
 } 
 Flynn2014_planktonic <- Flynn2014_planktonic %>%
   select(gene, population, "396", "540")
+Flynn2014_planktonic <- Flynn2014_planktonic %>%
+  replace_na(value = 0)
 Flynn2014_planktonic$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Flynn2014_planktonic$gene)
 
 write_csv(Flynn2014_planktonic, here("data_in", "for_func", "Flynn2014_planktonic.csv"))
@@ -298,6 +323,8 @@ Keane2014 <- Keane2014 %>%
 ### (TL): Change non-zero values in pop cols to "1".
 Keane2014[, 3:ncol(Keane2014)] <- Keane2014[, 3:ncol(Keane2014)] %>%
   replace(!is.na(.), 1)
+Keane2014 <- Keane2014 %>%
+  replace_na(value = 0)
 Keane2014$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Keane2014$gene)
 
 write_csv(Keane2014, here("data_in", "for_func", "Keane2014.csv"))
@@ -320,6 +347,8 @@ if (length(Jerison2017_out) > 0) {
 } 
 Jerison2017 <- Jerison2017 %>%
   select(gene, population, selective_pressure, frequency)
+Jerison2017 <- Jerison2017 %>%
+  replace_na(value = 0)
 Jerison2017$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Jerison2017$gene)
 
 write_csv(Jerison2017, here("data_in", "for_func", "Jerison2017.csv"))
@@ -342,6 +371,8 @@ if (length(Payen2016_out) > 0) {
   ### (TL): Put these filters into a vector variable for a grep() of the "frequency" col if more occurences appear.
 Payen2016 <- Payen2016 %>%  
   filter(frequency != "clone", frequency != "0")
+Payen2016 <- Payen2016 %>%
+  replace_na(value = 0)
 Payen2016$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Payen2016$gene)
 
 ## Payen2016_dip:
@@ -388,6 +419,8 @@ if (length(Long2017_out) > 0) {
 Long2017 <- gather(Long2017, population, frequency, "ale1":"ale10", factor_key=TRUE)
 Long2017 <- Long2017 %>%
   select(gene, population, frequency)
+Long2017 <- Long2017 %>%
+  replace_na(value = 0)
 Long2017$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Long2017$gene)
 
 write_csv(Long2017, here("data_in", "for_func", "Long2017.csv"))
@@ -407,6 +440,8 @@ if (length(Sandberg2014_out) > 0) {
 Sandberg2014 <- gather(Sandberg2014, population, frequency, "ale_number_1":"ale_number_10", factor_key=TRUE)
 Sandberg2014 <- Sandberg2014 %>%
   select(gene, population, frequency)
+Sandberg2014 <- Sandberg2014 %>%
+  replace_na(value = 0)
 Sandberg2014$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Sandberg2014$gene)
 
 write_csv(Sandberg2014, here("data_in", "for_func", "Sandberg2014.csv"))
@@ -430,6 +465,8 @@ Creamer2016 <- Creamer2016 %>%
 Creamer2016 <- gather(Creamer2016, population, frequency, "a1" : "g5", factor_key=TRUE)
 Creamer2016 <- Creamer2016 %>%
   select(gene, population, frequency)
+Creamer2016 <- Creamer2016 %>%
+  replace_na(value = 0)
 Creamer2016$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Creamer2016$gene)
 
 write_csv(Creamer2016, here("data_in", "for_func", "Creamer2016.csv"))
@@ -449,6 +486,8 @@ if (length(Deatherage2017_out) > 0) {
 } 
 Deatherage2017 <- Deatherage2017 %>%
   transmute(gene = gene, population = population, "frequency" = `f1_i1_r1` + `f1_i2_r1` + `f1_i3_r1`)
+Deatherage2017 <- Deatherage2017 %>%
+  replace_na(value = 0)
 Deatherage2017$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Deatherage2017$gene)
 
 write_csv(Deatherage2017, here("data_in", "for_func", "Deatherage2017.csv"))
@@ -467,6 +506,8 @@ if (length(McCloskey2018_out) > 0) {
 }
 McCloskey2018 <- McCloskey2018 %>%
   select(gene, population, frequency)
+McCloskey2018 <- McCloskey2018 %>%
+  replace_na(value = 0)
 McCloskey2018$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", McCloskey2018$gene)
             
 ## (TL) McCloskey2018_gnd:
@@ -534,6 +575,8 @@ if (length(Sandra2016_out) > 0) {
 } 
 Sandra2016 <- Sandra2016 %>%
   select(gene, population, frequency)
+Sandra2016 <- Sandra2016 %>%
+  replace_na(value = 0)
 Sandra2016$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Sandra2016$gene)
 
 write_csv(Sandra2016, here("data_in", "for_func", "Sandra2016.csv"))
@@ -551,12 +594,13 @@ if (length(Khare2015_out) > 0) {
 } 
 Khare2015 <- Khare2015 %>%
   select(gene, population, frequency)
+Khare2015 <- Khare2015 %>%
+  replace_na(value = 0)
 Khare2015$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Khare2015$gene)
 
 write_csv(Khare2015, here("data_in", "for_func", "Khare2015.csv"))
 single_long(paper = "Khare2015", dataset_name = "Khare2015", environment = "LB", days = "15", 
             selective_pressure = "pvdJ spent media", species = "Ecoli_K12", who_analyzed = "TL", ploidy = "haploid")
-
 
 
 # (TL): Sandberg2017, subsetted by environment. 
@@ -571,6 +615,8 @@ if (length(Sandberg2017_ac_out) > 0) {
 Sandberg2017_ac <- gather(Sandberg2017_ac, population, frequency, "a1_f56_i1_r1" : "a4_f55_i1_r1", factor_key=TRUE)
 Sandberg2017_ac <- Sandberg2017_ac %>%
   select(gene, population, frequency)
+Sandberg2017_ac <- Sandberg2017_ac %>%
+  replace_na(value = 0)
 Sandberg2017_ac$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Sandberg2017_ac$gene)
 
 write_csv(Sandberg2017_ac, here("data_in", "for_func", "Sandberg2017_ac.csv"))
@@ -594,6 +640,8 @@ Sandberg2017_glu_ac <- Sandberg2017_glu_ac %>%
 Sandberg2017_glu_ac <- gather(Sandberg2017_glu_ac, population, frequency, "a7" : "a9", factor_key=TRUE)
 Sandberg2017_glu_ac <- Sandberg2017_glu_ac %>%
   select(gene, population, frequency)
+Sandberg2017_glu_ac <- Sandberg2017_glu_ac %>%
+  replace_na(value = 0)
 Sandberg2017_glu_ac$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Sandberg2017_glu_ac$gene)
 
 write_csv(Sandberg2017_glu_ac, here("data_in", "for_func", "Sandberg2017_glu_ac.csv"))
@@ -616,6 +664,8 @@ Sandberg2017_glu_gly <- Sandberg2017_glu_gly %>%
 Sandberg2017_glu_gly <- gather(Sandberg2017_glu_gly, population, frequency, "a4" : "a6", factor_key=TRUE)
 Sandberg2017_glu_gly <- Sandberg2017_glu_gly %>%
   select(gene, population, frequency)
+Sandberg2017_glu_gly <- Sandberg2017_glu_gly %>%
+  replace_na(value = 0)
 Sandberg2017_glu_gly$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Sandberg2017_glu_gly$gene)
 
 write_csv(Sandberg2017_glu_gly, here("data_in", "for_func", "Sandberg2017_glu_gly.csv"))
@@ -637,6 +687,8 @@ Sandberg2017_glu_xyl <- Sandberg2017_glu_xyl %>%
 Sandberg2017_glu_xyl <- gather(Sandberg2017_glu_xyl, population, frequency, "a1" : "a3", factor_key=TRUE)
 Sandberg2017_glu_xyl <- Sandberg2017_glu_xyl %>%
   select(gene, population, frequency)
+Sandberg2017_glu_xyl <- Sandberg2017_glu_xyl %>%
+  replace_na(value = 0)
 Sandberg2017_glu_xyl$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Sandberg2017_glu_xyl$gene)
 
 write_csv(Sandberg2017_glu_xyl, here("data_in", "for_func", "Sandberg2017_glu_xyl.csv"))
@@ -655,6 +707,8 @@ if (length(Sandberg2017_xyl_out) > 0) {
 Sandberg2017_xyl <- gather(Sandberg2017_xyl, population, frequency, "a1_f116_i1_r1" : "a4_f113_i1_r1", factor_key=TRUE)
 Sandberg2017_xyl <- Sandberg2017_xyl %>%
   select(gene, population, frequency)
+Sandberg2017_xyl <- Sandberg2017_xyl %>%
+  replace_na(value = 0)
 Sandberg2017_xyl$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Sandberg2017_xyl$gene)
 
 write_csv(Sandberg2017_xyl, here("data_in", "for_func", "Sandberg2017_xyl.csv"))
@@ -675,6 +729,8 @@ if (length(Griffith2019_pH_6.5_out) > 0) {
 Griffith2019_pH_6.5 <- gather(Griffith2019_pH_6.5, population, frequency, "c_a1_1" : "c_h5_1", factor_key=TRUE)
 Griffith2019_pH_6.5 <- Griffith2019_pH_6.5 %>%
   select(gene, population, frequency)
+Griffith2019_pH_6.5 <- Griffith2019_pH_6.5 %>%
+  replace_na(value = 0)
 Griffith2019_pH_6.5$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Griffith2019_pH_6.5$gene)
 
 write_csv(Griffith2019_pH_6.5, here("data_in", "for_func", "Griffith2019_pH_6.5.csv"))
@@ -693,6 +749,8 @@ if (length(Griffith2019_pH_8_out) > 0) {
 Griffith2019_pH_8 <- gather(Griffith2019_pH_8, population, frequency, "c_g7_1" : "c_d11_1", factor_key=TRUE)
 Griffith2019_pH_8 <- Griffith2019_pH_8 %>%
   select(gene, population, frequency)
+Griffith2019_pH_8 <- Griffith2019_pH_8 %>%
+  replace_na(value = 0)
 Griffith2019_pH_8$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Griffith2019_pH_8$gene)
 
 write_csv(Griffith2019_pH_8, here("data_in", "for_func", "Griffith2019_pH_8.csv"))
@@ -711,6 +769,8 @@ if (length(Avrani2017_out) > 0) {
 } 
 Avrani2017 <- Avrani2017 %>%
   select(gene, population, frequency)
+Avrani2017 <- Avrani2017 %>%
+  replace_na(value = 0)
 Avrani2017$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Avrani2017$gene)
 
 write_csv(Avrani2017, here("data_in", "for_func", "Avrani2017.csv"))
@@ -729,6 +789,8 @@ if (length(Anand2019_menF_entC_ubiC_out) > 0) {
 } 
 Anand2019_menF_entC_ubiC <- Anand2019_menF_entC_ubiC %>%
   select(gene, population, frequency)
+Anand2019_menF_entC_ubiC <- Anand2019_menF_entC_ubiC %>%
+  replace_na(value = 0)
 Anand2019_menF_entC_ubiC$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Anand2019_menF_entC_ubiC$gene)
 
 write_csv(Anand2019_menF_entC_ubiC, here("data_in", "for_func", "Anand2019_menF_entC_ubiC.csv"))
@@ -748,6 +810,8 @@ if (length(Tenaillon2012_out) > 0) {
 Tenaillon2012 <- gather(Tenaillon2012, population, frequency, "a0_f1_i1_r1": "a143_f1_i1_r1", factor_key=TRUE)
 Tenaillon2012 <- Tenaillon2012 %>%
   select(gene, population, frequency)
+Tenaillon2012 <- Tenaillon2012 %>%
+  replace_na(value = 0)
 Tenaillon2012$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Tenaillon2012$gene)
 
 write_csv(Tenaillon2012, here("data_in", "for_func", "Tenaillon2012.csv"))
@@ -788,6 +852,8 @@ Wannier2018 <- Wannier2018 %>%
 ### (TL): MH's code didn't work (see below), so I converted the dataset to single long & analyze w/ single_long().
   gather(population, frequency, "a1" : "a14", factor_key=TRUE) %>%
   select(gene, population, frequency)
+Wannier2018 <- Wannier2018 %>%
+  replace_na(value = 0)
 Wannier2018$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Wannier2018$gene)
 
 write_csv(Wannier2018, here("data_in", "for_func", "Wannier2018.csv"))
@@ -819,6 +885,8 @@ if (length(KuzdzalFick2018_out) > 0) {
 } 
 KuzdzalFick2018 <- KuzdzalFick2018 %>%
   select(gene, population, frequency)
+KuzdzalFick2018 <- KuzdzalFick2018 %>%
+  replace_na(value = 0)
 KuzdzalFick2018$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", KuzdzalFick2018$gene)
 
 write_csv(KuzdzalFick2018, here("data_in", "for_func", "KuzdzalFick2018.csv"))
@@ -837,6 +905,8 @@ if (length(Boyle2017_out) > 0) {
 } 
 Boyle2017 <- Boyle2017 %>%
   select(gene, population, frequency)
+Boyle2017 <- Boyle2017 %>%
+  replace_na(value = 0)
 Boyle2017$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Boyle2017$gene)
 
 write_csv(Boyle2017, here("data_in", "for_func", "Boyle2017.csv"))
@@ -856,6 +926,8 @@ if (length(Conrad2009_A_to_E_out) > 0) {
 } 
 Conrad2009_A_to_E <- Conrad2009_A_to_E %>%
   select(gene, population, frequency)
+Conrad2009_A_to_E <- Conrad2009_A_to_E %>%
+  replace_na(value = 0)
 Conrad2009_A_to_E$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Conrad2009_A_to_E$gene)
 
 write_csv(Conrad2009_A_to_E, here("data_in", "for_func", "Conrad2009_A_to_E.csv"))
@@ -873,6 +945,8 @@ if (length(Conrad2009_F_to_K_out) > 0) {
 } 
 Conrad2009_F_to_K <- Conrad2009_F_to_K %>%
   select(gene, population, frequency)
+Conrad2009_F_to_K <- Conrad2009_F_to_K %>%
+  replace_na(value = 0)
 Conrad2009_F_to_K$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Conrad2009_F_to_K$gene)
 
 write_csv(Conrad2009_F_to_K, here("data_in", "for_func", "Conrad2009_F_to_K.csv"))
@@ -892,6 +966,8 @@ if (length(Echenique2019_ADE2_out) > 0) {
 } 
 Echenique2019_ADE2 <- Echenique2019_ADE2 %>%
   select(gene, population, frequency)
+Echenique2019_ADE2 <- Echenique2019_ADE2 %>%
+  replace_na(value = 0)
 Echenique2019_ADE2$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Echenique2019_ADE2$gene)
 
 write_csv(Echenique2019_ADE2, here("data_in", "for_func", "Echenique2019_ADE2.csv"))
@@ -909,6 +985,8 @@ if (length(Echenique2019_BMH1_out) > 0) {
 } 
 Echenique2019_BMH1 <- Echenique2019_BMH1 %>%
   select(gene, population, frequency)
+Echenique2019_BMH1 <- Echenique2019_BMH1 %>%
+  replace_na(value = 0)
 Echenique2019_BMH1$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Echenique2019_BMH1$gene)
 
 write_csv(Echenique2019_BMH1, here("data_in", "for_func", "Echenique2019_BMH1.csv"))
@@ -926,6 +1004,8 @@ if (length(Echenique2019_COQ2_out) > 0) {
 } 
 Echenique2019_COQ2 <- Echenique2019_COQ2 %>%
   select(gene, population, frequency)
+Echenique2019_COQ2 <- Echenique2019_COQ2 %>%
+  replace_na(value = 0)
 Echenique2019_COQ2$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Echenique2019_COQ2$gene)
 
 write_csv(Echenique2019_COQ2, here("data_in", "for_func", "Echenique2019_COQ2.csv"))
@@ -943,6 +1023,8 @@ if (length(Echenique2019_COX6_out) > 0) {
 } 
 Echenique2019_COX6 <- Echenique2019_COX6 %>%
   select(gene, population, frequency)
+Echenique2019_COX6 <- Echenique2019_COX6 %>%
+  replace_na(value = 0)
 Echenique2019_COX6$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Echenique2019_COX6$gene)
 
 write_csv(Echenique2019_COX6, here("data_in", "for_func", "Echenique2019_COX6.csv"))
@@ -960,6 +1042,8 @@ if (length(Echenique2019_CTF19_out) > 0) {
 } 
 Echenique2019_CTF19 <- Echenique2019_CTF19 %>%
   select(gene, population, frequency)
+Echenique2019_CTF19 <- Echenique2019_CTF19 %>%
+  replace_na(value = 0)
 Echenique2019_CTF19$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Echenique2019_CTF19$gene)
 
 write_csv(Echenique2019_CTF19, here("data_in", "for_func", "Echenique2019_CTF19.csv"))
@@ -977,6 +1061,8 @@ if (length(Echenique2019_ELP4_out) > 0) {
 } 
 Echenique2019_ELP4 <- Echenique2019_ELP4 %>%
   select(gene, population, frequency)
+Echenique2019_ELP4 <- Echenique2019_ELP4 %>%
+  replace_na(value = 0)
 Echenique2019_ELP4$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Echenique2019_ELP4$gene)
 
 write_csv(Echenique2019_ELP4, here("data_in", "for_func", "Echenique2019_ELP4.csv"))
@@ -994,6 +1080,8 @@ if (length(Echenique2019_HXK2_out) > 0) {
 } 
 Echenique2019_HXK2 <- Echenique2019_HXK2 %>%
   select(gene, population, frequency)
+Echenique2019_HXK2 <- Echenique2019_HXK2 %>%
+  replace_na(value = 0)
 Echenique2019_HXK2$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Echenique2019_HXK2$gene)
 
 write_csv(Echenique2019_HXK2, here("data_in", "for_func", "Echenique2019_HXK2.csv"))
@@ -1011,6 +1099,8 @@ if (length(Echenique2019_IML3_out) > 0) {
 } 
 Echenique2019_IML3 <- Echenique2019_IML3 %>%
   select(gene, population, frequency)
+Echenique2019_IML3 <- Echenique2019_IML3 %>%
+  replace_na(value = 0)
 Echenique2019_IML3$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Echenique2019_IML3$gene)
 
 write_csv(Echenique2019_IML3, here("data_in", "for_func", "Echenique2019_IML3.csv"))
@@ -1028,6 +1118,8 @@ if (length(Echenique2019_KTI12_out) > 0) {
 } 
 Echenique2019_KTI12 <- Echenique2019_KTI12 %>%
   select(gene, population, frequency)
+Echenique2019_KTI12 <- Echenique2019_KTI12 %>%
+  replace_na(value = 0)
 Echenique2019_KTI12$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Echenique2019_KTI12$gene)
 
 write_csv(Echenique2019_KTI12, here("data_in", "for_func", "Echenique2019_KTI12.csv"))
@@ -1045,6 +1137,8 @@ if (length(Echenique2019_SOK2_out) > 0) {
 } 
 Echenique2019_SOK2 <- Echenique2019_SOK2 %>%
   select(gene, population, frequency)
+Echenique2019_SOK2 <- Echenique2019_SOK2 %>%
+  replace_na(value = 0)
 Echenique2019_SOK2$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Echenique2019_SOK2$gene)
 
 write_csv(Echenique2019_SOK2, here("data_in", "for_func", "Echenique2019_SOK2.csv"))
@@ -1062,6 +1156,8 @@ if (length(Echenique2019_VPS29_out) > 0) {
 }
 Echenique2019_VPS29 <- Echenique2019_VPS29 %>%
   select(gene, population, frequency)
+Echenique2019_VPS29 <- Echenique2019_VPS29 %>%
+  replace_na(value = 0)
 Echenique2019_VPS29$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Echenique2019_VPS29$gene)
  
 
@@ -1081,6 +1177,8 @@ if (length(Kintses2019_out) > 0) {
 } 
 Kintses2019 <- Kintses2019 %>%
   select(gene, population, frequency)
+Kintses2019 <- Kintses2019 %>%
+  replace_na(value = 0)
 Kintses2019$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Kintses2019$gene)
 
 write_csv(Kintses2019, here("data_in", "for_func", "Kintses2019.csv"))
@@ -1103,6 +1201,8 @@ Mundhada2017 <- Mundhada2017 %>%
             a5 = rowSums(Mundhada2017[, 7:8])) %>%
   gather(population, frequency, "a3" : "a5", factor_key=TRUE) %>%
   select(gene, population, frequency)
+Mundhada2017 <- Mundhada2017 %>%
+  replace_na(value = 0)
 Mundhada2017$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Mundhada2017$gene)
 
 write_csv(Mundhada2017, here("data_in", "for_func", "Mundhada2017.csv"))
@@ -1119,6 +1219,8 @@ if (length(Wang2010_out) > 0) {
 } 
 Wang2010 <- Wang2010 %>%
   select(gene, population, frequency)
+Wang2010 <- Wang2010 %>%
+  replace_na(value = 0)
 Wang2010$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Wang2010$gene)
 
 write_csv(Wang2010, here("data_in", "for_func", "Wang2010.csv"))
@@ -1140,6 +1242,8 @@ if (length(Kryazhimskiy2014_L003_out) > 0) {
 Kryazhimskiy2014_L003 <- Kryazhimskiy2014_L003 %>%
   subset(is.na(distance_to_gene)) %>%
   select(gene, population, frequency)
+Kryazhimskiy2014_L003 <- Kryazhimskiy2014_L003 %>%
+  replace_na(value = 0)
 Kryazhimskiy2014_L003$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Kryazhimskiy2014_L003$gene)
 
 write_csv(Kryazhimskiy2014_L003, here("data_in", "for_func", "Kryazhimskiy2014_L003.csv"))
@@ -1159,6 +1263,8 @@ if (length(Kryazhimskiy2014_L013_out) > 0) {
 Kryazhimskiy2014_L013 <- Kryazhimskiy2014_L013 %>%
   subset(is.na(distance_to_gene)) %>%
   select(gene, population, frequency)
+Kryazhimskiy2014_L013 <- Kryazhimskiy2014_L013 %>%
+  replace_na(value = 0)
 Kryazhimskiy2014_L013$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Kryazhimskiy2014_L013$gene)
 
 write_csv(Kryazhimskiy2014_L013, here("data_in", "for_func", "Kryazhimskiy2014_L013.csv"))
@@ -1178,6 +1284,8 @@ if (length(Kryazhimskiy2014_L041_out) > 0) {
 Kryazhimskiy2014_L041 <- Kryazhimskiy2014_L041 %>%
   subset(is.na(distance_to_gene)) %>%
   select(gene, population, frequency)
+Kryazhimskiy2014_L041 <- Kryazhimskiy2014_L041 %>%
+  replace_na(value = 0)
 Kryazhimskiy2014_L041$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Kryazhimskiy2014_L041$gene)
 
 write_csv(Kryazhimskiy2014_L041, here("data_in", "for_func", "Kryazhimskiy2014_L041.csv"))
@@ -1197,6 +1305,8 @@ if (length(Kryazhimskiy2014_L048_out) > 0) {
 Kryazhimskiy2014_L048 <- Kryazhimskiy2014_L048 %>%
   subset(is.na(distance_to_gene)) %>%
   select(gene, population, frequency)
+Kryazhimskiy2014_L048 <- Kryazhimskiy2014_L048 %>%
+  replace_na(value = 0)
 Kryazhimskiy2014_L048$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Kryazhimskiy2014_L048$gene)
 
 write_csv(Kryazhimskiy2014_L048, here("data_in", "for_func", "Kryazhimskiy2014_L048.csv"))
@@ -1216,6 +1326,8 @@ if (length(Kryazhimskiy2014_L094_out) > 0) {
 Kryazhimskiy2014_L094 <- Kryazhimskiy2014_L094 %>%
   subset(is.na(distance_to_gene)) %>%
   select(gene, population, frequency)
+Kryazhimskiy2014_L094 <- Kryazhimskiy2014_L094 %>%
+  replace_na(value = 0)
 Kryazhimskiy2014_L094$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Kryazhimskiy2014_L094$gene)
 
 write_csv(Kryazhimskiy2014_L094, here("data_in", "for_func", "Kryazhimskiy2014_L094.csv"))
@@ -1235,6 +1347,8 @@ if (length(Kryazhimskiy2014_L096a_out) > 0) {
 Kryazhimskiy2014_L096a <- Kryazhimskiy2014_L096a %>%
   subset(is.na(distance_to_gene)) %>%
   select(gene, population, frequency)
+Kryazhimskiy2014_L096a <- Kryazhimskiy2014_L096a %>%
+  replace_na(value = 0)
 Kryazhimskiy2014_L096a$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Kryazhimskiy2014_L096a$gene)
 
 write_csv(Kryazhimskiy2014_L096a, here("data_in", "for_func", "Kryazhimskiy2014_L096a.csv"))
@@ -1254,6 +1368,8 @@ if (length(Kryazhimskiy2014_L096b_out) > 0) {
 Kryazhimskiy2014_L096b <- Kryazhimskiy2014_L096b %>%
   subset(is.na(distance_to_gene)) %>%
   select(gene, population, frequency)
+Kryazhimskiy2014_L096b <- Kryazhimskiy2014_L096b %>%
+  replace_na(value = 0)
 Kryazhimskiy2014_L096b$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Kryazhimskiy2014_L096b$gene)
 
 write_csv(Kryazhimskiy2014_L096b, here("data_in", "for_func", "Kryazhimskiy2014_L096b.csv"))
@@ -1273,6 +1389,8 @@ if (length(Kryazhimskiy2014_L098_out) > 0) {
 Kryazhimskiy2014_L098 <- Kryazhimskiy2014_L098 %>%
   subset(is.na(distance_to_gene)) %>%
   select(gene, population, frequency)
+Kryazhimskiy2014_L098 <- Kryazhimskiy2014_L098 %>%
+  replace_na(value = 0)
 Kryazhimskiy2014_L098$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Kryazhimskiy2014_L098$gene)
 
 write_csv(Kryazhimskiy2014_L098, here("data_in", "for_func", "Kryazhimskiy2014_L098.csv"))
@@ -1292,6 +1410,8 @@ if (length(Kryazhimskiy2014_L102_out) > 0) {
 Kryazhimskiy2014_L102 <- Kryazhimskiy2014_L102 %>%
   subset(is.na(distance_to_gene)) %>%
   select(gene, population, frequency)
+Kryazhimskiy2014_L102 <- Kryazhimskiy2014_L102 %>%
+  replace_na(value = 0)
 Kryazhimskiy2014_L102$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Kryazhimskiy2014_L102$gene)
 
 write_csv(Kryazhimskiy2014_L102, here("data_in", "for_func", "Kryazhimskiy2014_L102.csv"))
@@ -1311,6 +1431,8 @@ if (length(Kryazhimskiy2014_L102a_out) > 0) {
 Kryazhimskiy2014_L102a <- Kryazhimskiy2014_L102a %>%
   subset(is.na(distance_to_gene)) %>%
   select(gene, population, frequency)
+Kryazhimskiy2014_L102a <- Kryazhimskiy2014_L102a %>%
+  replace_na(value = 0)
 Kryazhimskiy2014_L102a$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Kryazhimskiy2014_L102a$gene)
 
 write_csv(Kryazhimskiy2014_L102a, here("data_in", "for_func", "Kryazhimskiy2014_L102a.csv"))
@@ -1330,6 +1452,8 @@ if (length(Kryazhimskiy2014_S002_out) > 0) {
 Kryazhimskiy2014_S002 <- Kryazhimskiy2014_S002 %>%
   subset(is.na(distance_to_gene)) %>%
   select(gene, population, frequency)
+Kryazhimskiy2014_S002 <- Kryazhimskiy2014_S002 %>%
+  replace_na(value = 0)
 Kryazhimskiy2014_S002$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Kryazhimskiy2014_S002$gene)
 
 write_csv(Kryazhimskiy2014_S002, here("data_in", "for_func", "Kryazhimskiy2014_S002.csv"))
@@ -1349,6 +1473,8 @@ if (length(Kryazhimskiy2014_S028_out) > 0) {
 Kryazhimskiy2014_S028 <- Kryazhimskiy2014_S028 %>%
   subset(is.na(distance_to_gene)) %>%
   select(gene, population, frequency)
+Kryazhimskiy2014_S028 <- Kryazhimskiy2014_S028 %>%
+  replace_na(value = 0)
 Kryazhimskiy2014_S028$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Kryazhimskiy2014_S028$gene)
 
 write_csv(Kryazhimskiy2014_S028, here("data_in", "for_func", "Kryazhimskiy2014_S028.csv"))
@@ -1368,6 +1494,8 @@ if (length(Kryazhimskiy2014_S121_out) > 0) {
 Kryazhimskiy2014_S121 <- Kryazhimskiy2014_S121 %>%
   subset(is.na(distance_to_gene)) %>%
   select(gene, population, frequency)
+Kryazhimskiy2014_S121 <- Kryazhimskiy2014_S121 %>%
+  replace_na(value = 0)
 Kryazhimskiy2014_S121$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Kryazhimskiy2014_S121$gene)
 
 write_csv(Kryazhimskiy2014_S121, here("data_in", "for_func", "Kryazhimskiy2014_S121.csv"))
@@ -1386,6 +1514,8 @@ if (length(Dai2018_out) > 0) {
 } 
 Dai2018 <- Dai2018 %>%
   select(gene, population, frequency)
+Dai2018 <- Dai2018 %>%
+  replace_na(value = 0)
 Dai2018$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Dai2018$gene)
 
 write_csv(Dai2018, here("data_in", "for_func", "Dai2018.csv"))

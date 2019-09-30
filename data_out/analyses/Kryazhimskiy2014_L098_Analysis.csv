@@ -1,2 +1,2 @@
 "paper","environment","generation","day","flask","selective_pressure","species","ploidy","strain_info","c_hyper","p_chisq","estimate","N_genes.notParallel","N_genes.parallel","parallel_genes","who_analyzed","func"
-"Kryazhimskiy2014","YPD","500",NA,NA,"YPD","Sac","haploid","Founder L098",6.969,0.005,0.045,71,3,"ANP1, CSI1, none","TL","single_long"
+"Kryazhimskiy2014","YPD","500",NA,NA,"YPD","Sac","haploid","Founder L098",0.282,0.015,0.19,71,2,"ANP1, CSI1","TL","single_long"

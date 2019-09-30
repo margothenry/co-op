@@ -22,6 +22,7 @@
 library(dplyr)
 library(sjmisc)
 ###########################
+
 multiple_wide <- function(paper, dataset_name, environment, generations = NA, selective_pressure, species = NA, ploidy, numgenes = NA, strain_info = NA, days = NA, flasks = NA, who_analyzed){
 
   geneNumbers <- read_csv(file.path(getwd(),"R/dgconstraint/inst/GeneDatabase.csv"), col_types = cols())
@@ -68,7 +69,7 @@ multiple_wide <- function(paper, dataset_name, environment, generations = NA, se
     num_lineages <- length(unique(data.g$population))
     numLineages <- append(numLineages, num_lineages)
     
-    #making the matrix
+    # Making the matrix. Dimensions are (num_genes rows) x (num_lineages columns) and named after gene and population names, respectively.
     data.array <- array(0, dim =c(num_genes, num_lineages), dimnames = list(unique(data.g$gene), unique(data.g$population)))
     
     # In development.
@@ -86,32 +87,33 @@ multiple_wide <- function(paper, dataset_name, environment, generations = NA, se
     #     for (k in 1:length(multiple_entry_genes)){
     #       sub <- subset(data.1, gene == names(multiple_entry_genes)[k])
     #       for (j in unique(population)){
-    #         # (Tri): Each (k,j) co-ordinate is filled with the sum of all the values in the same population, thereby collapsing all potential cases of multiple mutations within the same gene.
+    #         # (TL): Each (k,j) co-ordinate is filled with the sum of all the values in the same population, thereby collapsing all potential cases of multiple mutations within the same gene.
     #         multi_genes_matrix[k, j] <- sum(sub[1:nrow(sub), j])
     #       }
     #     }
     #   }
     # }
-    #   # (Tri) "multi_genes_matrix" is bound to "data.1". The multi-mutation genes are now treated as single-mutation genes.
+    #   # (TL) "multi_genes_matrix" is bound to "data.1". The multi-mutation genes are now treated as single-mutation genes.
     #   data.1 <- rbind(single_mutation_genes, multi_genes_matrix)
-    #   # (Tri): Rearrange "data.1" by gene names A-Z (to facilitate any changes from the newly-bound "multi_genes_matrix").
+    #   # (TL): Rearrange "data.1" by gene names A-Z (to facilitate any changes from the newly-bound "multi_genes_matrix").
     #   data.1 <- data.1 %>% 
     #     arrange(gene) %>% 
-    #     # (Tri): Remove the columns that have nothing but NA values:
+    #     # (TL): Remove the columns that have nothing but NA values:
     #     filter(Reduce(`+`, lapply(., is.na)) != ncol(.))
     # }
     # 
      
+    # (TL): In every column:
     for(i in 1:num_lineages) {
-      # (Tri): Subset by population (via variable "sub").
+      # (TL): Subset by population (via variable "sub").
       sub <- subset(data.g, data.g$population == unique(data.g$population)[i])
-      # (Tri): Eliminate those whose effective proportions of adaptive loci are 0 (via "sub2").
+      # (TL): Eliminate those whose effective proportions of adaptive loci are 0 (via "sub2").
       sub2 <- subset(sub, prop > 0)
-      # (Tri): In "data.array", assign to "geneRows" only the rows whose names are in "sub2".
+      # (TL): In "data.array", assign to "geneRows" only the rows whose names are in "sub2".
       geneRows <- which(row.names(data.array) %in% sub2$gene)
-      # (Tri): These rows (for this particular iteration of "i") get the value of 1, essentially clumping all mutations into binary form (1 for presence):
+      # (TL): These rows (for this particular iteration of "i") get the value of 1, essentially clumping all mutations into binary form (1 for presence):
       data.array[geneRows, i] <- 1
-      # (Tri): Creates a dataframe from the "population" column of "data.1", a "Count" column from all the values under said "population" column, and the row names are from the "gene" column in "data.1":
+      # (TL): Creates a dataframe from the "population" column of "data.1", a "Count" column from all the values under said "population" column, and the row names are from the "gene" column in "data.1":
       num_parallel <- data.frame(data.array, Count=rowSums(data.array, na.rm = FALSE, dims = 1), genes = row.names(data.array))
     }
     
@@ -128,10 +130,10 @@ multiple_wide <- function(paper, dataset_name, environment, generations = NA, se
     
     num_parallel_genes <- append(num_parallel_genes, num_parallel_genes_g)
     num_non_parallel_genes <- append(num_non_parallel_genes, num_non_parallel_genes_g)
-    # (Tri): Get the values in the "genes" column, separated by ", ":
+    # (TL): Get the values in the "genes" column, separated by ", ":
     parallel_genes <- append(parallel_genes, paste0(genes_parallel$genes, collapse=", ")) 
     
-    # (Tri): The full matrix consists of data.array and an all-0 array of (numgenes - total_genes) rows x (ncol(data.array)) columns:
+    # (TL): The full matrix consists of data.array and an all-0 array of (numgenes - total_genes) rows x (ncol(data.array)) columns:
     full_matrix <- rbind(data.array, array(0,c(numgenes-total_genes,ncol(data.array))))
   
     newdir <- file.path(getwd(), "data_out")
@@ -160,4 +162,3 @@ multiple_wide <- function(paper, dataset_name, environment, generations = NA, se
   write.csv(df, file=filename2, row.names=FALSE)
   cat("\n")
 }
-
