@@ -11,6 +11,7 @@ library(readr)
 library(devtools)
 library(Hmisc)
 library(naniar)
+library(sjmisc)
 source("R/dgconstraint/functions/multiple_wide.R")
 source("R/dgconstraint/functions/multiple_long.R")
 source("R/dgconstraint/functions/single_wide.R")
@@ -1372,6 +1373,25 @@ Kryazhimskiy2014_S121$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Kryazhimski
 write_csv(Kryazhimskiy2014_S121, here("data_in", "for_func", "Kryazhimskiy2014_S121.csv"))
 single_long(paper = "Kryazhimskiy2014", dataset_name = "Kryazhimskiy2014_S121", strain_info = "Founder S121", environment = "YPD", generations = "500", 
             selective_pressure = "YPD", species = "Sac", who_analyzed = "TL", ploidy = "haploid")
+
+
+
+# (TL): Dai2018:
+Dai2018 <- read_csv(here("data_in", "original & usable", "Dai2018", "Dai2018_usable.csv"))
+Dai2018 <- clean_names(Dai2018, case = "snake")
+colnames(Dai2018) <- tolower(colnames(Dai2018))
+Dai2018_out <- c(grep(out_patterns_column_gene, Dai2018$gene), grep(out_patterns_column_details, Dai2018$details))
+if (length(Dai2018_out) > 0) {   
+  Dai2018 <- Dai2018[-Dai2018_out,] 
+} 
+Dai2018 <- Dai2018 %>%
+  select(gene, population, frequency)
+Dai2018$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Dai2018$gene)
+
+write_csv(Dai2018, here("data_in", "for_func", "Dai2018.csv"))
+single_long(paper = "Dai2018", dataset_name = "Dai2018", environment = "Minimal glucose medium", days = "40", 
+            selective_pressure = "Minimal glucose medium", species = "Sac", who_analyzed = "TL", ploidy = "haploid")
+
 
 ####################################
 ### (TL): Run this every time a new dataset is analyzed, or when a dataset is analyzed in a new way.

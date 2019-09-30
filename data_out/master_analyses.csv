@@ -5,6 +5,7 @@ Boyle2017,LB,49,NA,NA,LB,P_aeruginosa_PA14,haploid,cbrA deleted,50.647,0.005,0.0
 Conrad2009,M9,1100,NA,NA,Lactate,Ecoli_K12,haploid,NA,4.177,0.005,0.009,12,3,"crp, hfq, ppsA",TL,single_long
 Conrad2009,M9,750,NA,NA,Lactate,Ecoli_K12,haploid,NA,5.754,0.005,0.012,17,4,"kdtA, proQ, rpoB, rpoC",TL,single_long
 Creamer2016,LBK medium,2000,NA,NA,benzoate,Ecoli_K12,haploid,NA,11.344,0.005,0.012,16,31,"aceA, add, ariRymgB, bcsB, cpxA, cspC, fimA, fimE, folD, frlD, fucA, gadX, hfq, hrpA, lptD imp, ltaE, mdtA, narH, nupG, pqqL, rfaY, rnb, rob, rpoA, rpoB, rpoD, ycjM, yeaR, yejM, yfhM, yjgN",MH,single_long
+Dai2018,Minimal glucose medium,NA,40,NA,Minimal glucose medium,Sac,haploid,NA,35.723,0.005,0.004,12,6,"GPD1, HXK2, MED2, MED3, MHO1, SIW14",TL,single_long
 Deatherage2017,Glucose minimal medium,2000,NA,NA,Temperature,Ecoli_K12,haploid,NA,61.138,0.005,0.001,1,5,"fimA, pykF, spoT, topA, yeiB",MH,single_long
 Du2019,Minimal glucose medium,NA,NA,intermediate,pH 5.5,Ecoli_K12,haploid,NA,66.151,0.005,0.002,0,7,"nagA, phoQ, rpoC, ycjX, yejH, yjcB, yraJ",L,multiple_wide
 Du2019,Minimal glucose medium,NA,NA,late,pH 5.5,Ecoli_K12,haploid,NA,66.151,0.005,0.001,0,6,"ilvL, rho, rpoC, tam, ycgJ, yiaA",L,multiple_wide

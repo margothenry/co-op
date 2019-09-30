@@ -18,9 +18,10 @@
 #' @return A table with all the calculated information.
 #' @export 
 #' @examples [update]
-#' 
+###########################
 library(dplyr)
 library(sjmisc)
+###########################
 multiple_wide <- function(paper, dataset_name, environment, generations = NA, selective_pressure, species = NA, ploidy, numgenes = NA, strain_info = NA, days = NA, flasks = NA, who_analyzed){
 
   geneNumbers <- read_csv(file.path(getwd(),"R/dgconstraint/inst/GeneDatabase.csv"), col_types = cols())
