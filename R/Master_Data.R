@@ -25,6 +25,8 @@ source("R/dgconstraint/functions/single_long.R")
 out_patterns_column_gene <- c(",|/|\\[|-|\\b0\\b")
 out_patterns_column_details <- c("prophage|extragenic|upstream|intergenic")
 ############################
+# (TL): Potential future updates: Create a function of all the prelim data-cleaning steps.
+############################
 # Multiple wide:
 ############################
 ### (TL): A template for func calling (use EITHER generations, days, or flasks; use strain_info if paper has datasets from multiple founder strains):
@@ -1521,6 +1523,31 @@ Dai2018$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Dai2018$gene)
 write_csv(Dai2018, here("data_in", "for_func", "Dai2018.csv"))
 single_long(paper = "Dai2018", dataset_name = "Dai2018", environment = "Minimal glucose medium", days = "40", 
             selective_pressure = "Minimal glucose medium", species = "Sac", who_analyzed = "TL", ploidy = "haploid")
+
+
+
+## (TL): He2017:
+He2017 <- read_csv(here("data_in", "original & usable", "He2017", "He2017_usable.csv"))
+He2017 <- clean_names(He2017, case = "snake")
+colnames(He2017) <- tolower(colnames(He2017))
+He2017_out <- c(grep(out_patterns_column_gene, He2017$gene), grep(out_patterns_column_details, He2017$details))
+if (length(He2017_out) > 0) {   
+  He2017 <- He2017[-He2017_out,] 
+} 
+He2017 <- He2017 %>% 
+  transmute(gene = gene, details = details, 
+            b11 = rowSums(He2017[,1:2]), f9 = rowSums(He2017[, 3:4]), 
+            f11 = rowSums(He2017[, 5:6]), h9 = rowSums(He2017[, 7:8]))
+He2017 <- gather(He2017, population, frequency, "b11" : "h9", factor_key=TRUE)
+He2017 <- He2017 %>%
+  select(gene, population, frequency)
+He2017 <- He2017 %>%
+  replace_na(value = 0)
+He2017$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", He2017$gene)
+
+write_csv(He2017, here("data_in", "for_func", "He2017.csv"))
+single_long(paper = "He2017", dataset_name = "He2017", environment = "Malic acid-supplemented LBK", generations = "1180", 
+            selective_pressure = "pH 4.6 - 4.8", species = "Ecoli_K12", who_analyzed = "TL", ploidy = "haploid")
 
 
 ####################################
