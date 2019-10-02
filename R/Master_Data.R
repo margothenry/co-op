@@ -1546,9 +1546,28 @@ He2017 <- He2017 %>%
 He2017$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", He2017$gene)
 
 write_csv(He2017, here("data_in", "for_func", "He2017.csv"))
-single_long(paper = "He2017", dataset_name = "He2017", environment = "Malic acid-supplemented LBK", generations = "1180", 
+single_long(paper = "He2017", dataset_name = "He2017", environment = "Malic acid-supplemented LBK", generations = "2000", 
             selective_pressure = "pH 4.6 - 4.8", species = "Ecoli_K12", who_analyzed = "TL", ploidy = "haploid")
 
+
+
+# (TL): Monk2016:
+Monk2016 <- read_csv(here("data_in", "original & usable", "Monk2016", "Monk2016_usable.csv"))
+Monk2016 <- clean_names(Monk2016, case = "snake")
+colnames(Monk2016) <- tolower(colnames(Monk2016))
+Monk2016_out <- c(grep(out_patterns_column_gene, Monk2016$gene), grep(out_patterns_column_details, Monk2016$details))
+if (length(Monk2016_out) > 0) {   
+  Monk2016 <- Monk2016[-Monk2016_out,] 
+} 
+Monk2016 <- Monk2016 %>%
+  select(gene, population, frequency)
+Monk2016 <- Monk2016 %>%
+  replace_na(value = 0)
+Monk2016$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Monk2016$gene)
+
+write_csv(Monk2016, here("data_in", "for_func", "Monk2016.csv"))
+single_long(paper = "Monk2016", dataset_name = "Monk2016", environment = "LB alternating with M9GBT (M9 + glucose + biotin + thiamine)", days = "18", 
+            selective_pressure = "TAG amber codons replaced with TAA stop codons", species = "Ecoli_K12", who_analyzed = "TL", ploidy = "haploid")
 
 ####################################
 ### (TL): Run this every time a new dataset is analyzed, or when a dataset is analyzed in a new way.
@@ -1560,7 +1579,6 @@ master_analyses <- plyr::ldply(file_list, read_csv)
 write_csv(master_analyses, "data_out/master_analyses.csv")
 
 ####################################
-# (TL) In development: Integrate gather() to single_wide() - easier to process, less repetitive codes.
-# (TL) In development: Argument "collapseMutations()" - treat all mutations in a gene as 1 - sort data by pop, then by gene.
-# (TL) In development: Import all papers at the beginning, create "all_dataset_names" variable by getting all variables in environment, then do a "for (i in all_dataset_name) {clean_names, lower colnames, grep() filters, etc. - all the initial steps all datasets have in common.}"
+# (TL) In development: Develop single_wide() - incoporate single_long() and a gather().
+# (TL) In development: Create a function for all the initial data-cleaning steps.
 
