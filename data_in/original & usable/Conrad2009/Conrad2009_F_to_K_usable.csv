@@ -3,7 +3,6 @@ LactF,rph-pyrE,RNase PH/orotate phosphoribosyltransferase,1
 LactF,kdtA,KDO transferase,1
 LactF,rpoC,RNA polymerase,1
 LactF,argS,Arginyl-tRNA synthetase,1
-LactF,,~12 kb duplication (1774000-1786000),1
 LactG,rph-pyrE,RNase PH/orotate phosphoribosyltransferase,1
 LactG,trpB,Tryptophan synthase,1
 LactG,nadB,NAD biosynthesis,1
@@ -26,11 +25,9 @@ LactJ,mrdA,"Peptidoglycan synthetase, PBP2",1
 LactJ,rpsA,30S ribosomal subunit,1
 LactJ,kgtP,Á-ketoglutarate MFS transporter,1
 LactJ,kgtP,,1
-LactJ,,Intergenic,1
 LactK,ppsA,Phosphoenolpyruvate synthase,1
 LactK,rpoC,RNA polymerase,1
 LactK,ryhA,Small RNA that interacts with Hfq,1
 LactK,treA,Trehalase,1
 LactK,secE,Sec protein secretion complex,1
 LactK,secF,Sec protein secretion complex,1
-LactK,,~40 kb duplication (1253000-1294000),1

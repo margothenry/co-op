@@ -26,6 +26,17 @@ out_patterns_column_gene <- c(",|/|\\[|-|\\b0\\b")
 out_patterns_column_details <- c("prophage|extragenic|upstream|intergenic")
 ############################
 # (TL): Potential future updates: Create a function of all the prelim data-cleaning steps.
+# prelim_data_cleaning <- function(paper_name, dataset_name){
+#   # dataset_name <- read_csv(here("data_in", "original & usable", paste(paper_name), paste(dataset_name, "_usable.csv", sep = "")))
+#   # dataset_name <- clean_names(dataset_name, case = "snake")
+#   colnames(dataset_name) <- tolower(colnames(dataset_name))
+#   # ### (TL): If there are any unsuitable entries, remove them from the dataset. The if() was used because the dataset will be empty if there are no badly-notated rows (dataset(-0,) is empty!)
+#   # rows_out <- c(grep(out_patterns_column_gene, dataset_name$gene), grep(out_patterns_column_details, dataset_name$details))
+#   # if (length(rows_out) > 0) {
+#   #   dataset_name <- dataset_name[-rows_out,]
+#   # }
+# }
+# prelim_data_cleaning("Tenaillon2016", "Tenaillon2016")
 ############################
 # Multiple wide:
 ############################

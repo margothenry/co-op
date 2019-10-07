@@ -2,7 +2,6 @@ gene,population,frequency
 kdtA,LactF,1
 rpoC,LactF,1
 argS,LactF,1
-0,LactF,1
 trpB,LactG,1
 nadB,LactG,1
 rpoB,LactG,1
@@ -21,11 +20,9 @@ mrdA,LactJ,1
 rpsA,LactJ,1
 kgtP,LactJ,1
 kgtP,LactJ,1
-0,LactJ,1
 ppsA,LactK,1
 rpoC,LactK,1
 ryhA,LactK,1
 treA,LactK,1
 secE,LactK,1
 secF,LactK,1
-0,LactK,1

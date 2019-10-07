@@ -53,21 +53,67 @@ Sac_entries_strain_info_added <- master_analyses[Sac_entries_index,]
 aeruginosa_entries_strain_info_added <- master_analyses[aeruginosa_entries_index,]
 (aeruginosa_dataset_count <- length(unique(aeruginosa_entries_strain_info_added$paper)))
 
-# c-hyper vs generation (all datasets):
-## 190729 - FIX GRIFFITH2019 & JERISON2017 - DATASETS DIFFER IN SELECTIVE PRESSURE.
+# c-hyper vs generation:
 ### Most datasets use generations to notate timepoints. However, there are still some that uses days or flasks. 
 ### Will need to clump all timepoints into more general ones (i.e. early/intermediate/late or convert everything to generations).
 generation_analysis <- master_analyses %>%
   subset(generation != "NA")
-## A dot & line chart:
+## A dot & line chart, color coded by paper. Remove whatever elements you don't need:
 ggplot(generation_analysis, aes(x = generation, y = c_hyper, color = paper)) + geom_point() + labs(color = "Datasets") + geom_line(size = 0.75) + 
-  scale_x_log10() + ggtitle("c-hyper vs generation") + theme(plot.title = element_text(hjust = 0.5, size = 11), legend.position = "bottom") 
+  scale_x_log10() + ggtitle("c-hyper vs generation") + theme(plot.title = element_text(hjust = 0.5, size = 20, face = "bold"), legend.position = "bottom") 
+### A version optimized for the poster competition i.e. graph legend & title removed:
+ggplot(generation_analysis, aes(x = generation, y = c_hyper, color = paper)) + geom_point() + geom_line(size = 0.75) + 
+  scale_x_log10() + theme(legend.position = "none")
+
+## Split the chart by species:
+### E. coli:
+generation_analysis_Ecoli_index <- grep("E. coli", generation_analysis$species)
+generation_analysis_Ecoli <- generation_analysis[generation_analysis_Ecoli_index,]
+ggplot(generation_analysis_Ecoli, aes(x = generation, y = c_hyper, color = paper)) + geom_point() + geom_line(size = 0.75) + 
+  scale_x_log10() + theme(legend.position = "none")
+### S. cerevisiae:
+generation_analysis_Sac_index <- grep("S. cerevisiae", generation_analysis$species)
+generation_analysis_Sac <- generation_analysis[generation_analysis_Sac_index,]
+ggplot(generation_analysis_Sac, aes(x = generation, y = c_hyper, color = paper)) + geom_point() + geom_line(size = 0.75) + 
+  scale_x_log10() + theme(legend.position = "none")
+### P. aeruginosa:
+generation_analysis_P_aeruginosa_index <- grep("P. aeruginosa", generation_analysis$species)
+generation_analysis_P_aeruginosa <- generation_analysis[generation_analysis_P_aeruginosa_index,]
+ggplot(generation_analysis_P_aeruginosa, aes(x = generation, y = c_hyper, color = paper)) + geom_point() + geom_line(size = 0.75) + 
+  scale_x_log10() + theme(legend.position = "none")
+
+# ## IN DEVELOPMENT - If you just need to color-code by species:
+# ### First, we need to remove the strain names and just keep the general species name. 
+# ### Also, use a neater-looking form of species names for the graph legend.
+# #### E. coli:
+# generation_analysis$species <- generation_analysis$species %>%
+#   replace(grep("coli", generation_analysis$species), "E. coli")
+# #### S. cerevisiae:
+# generation_analysis$species <- generation_analysis$species %>%
+#   replace(grep("Sac", generation_analysis$species), "S. cerevisiae")
+# #### P. aeruginosa:
+# generation_analysis$species <- generation_analysis$species %>%
+#   replace(grep("aeruginosa", generation_analysis$species), "P. aeruginosa")
+# ### Designate colors to each species:
+# #### Since we designate color by species, why not set the stage for color-coding with the species?
+# generation_analysis$graph_color <- generation_analysis$species
+# #### Then, replace each species' name with the color you want:
+# generation_analysis$graph_color <- generation_analysis$graph_color %>%
+#   replace(grep("E. coli", generation_analysis$graph_color), "green")
+# generation_analysis$graph_color <- generation_analysis$graph_color %>%
+#   replace(grep("S. cerevisiae", generation_analysis$graph_color), "red")
+# generation_analysis$graph_color <- generation_analysis$graph_color %>%
+#   replace(grep("P. aeruginosa", generation_analysis$graph_color), "blue")
+# ### Finally, the plot:
+# ggplot(generation_analysis, aes(x = generation, y = c_hyper, color = graph_color)) + geom_point() + geom_line(size = 0.75) + 
+#   labs(color = "Species") + scale_x_log10() + ggtitle("c-hyper vs generation") + theme(plot.title = element_text(hjust = 0.5, size = 11), legend.position = "bottom")
 
 # c-hyper vs generation (multiple generations):
 multiple_wide_generation_analysis <- generation_analysis %>%
   subset(func == "multiple_wide")
 ggplot(multiple_wide_generation_analysis, aes(x = generation, y = c_hyper, color = paper)) + geom_point() + labs(color = "Datasets") + geom_line(size = 0.75) + 
   scale_x_log10() + ggtitle("c-hyper vs generation, experiments with multiple generations") + theme(plot.title = element_text(hjust = 0.5, size = 11), legend.position = "bottom")
+## Get the correlation between generation and c-hyper:
 cor(multiple_wide_generation_analysis$c_hyper, multiple_wide_generation_analysis$generation)
 
 # c-hyper vs generation (generation-notated end points only):
@@ -83,7 +129,7 @@ ggplot(end_point_generation_analysis, aes(x = generation, y = c_hyper)) + geom_p
 
 ## End-point analysis, by species:
 ### E. coli (also omitting Tenaillon2016 for the same reason as mentioned above):
-end_point_generation_Ecoli_entries <- grep("Ecoli", end_point_generation_analysis$species)
+end_point_generation_Ecoli_entries <- grep("E.", end_point_generation_analysis$species)
 end_point_generation_Ecoli_analysis <- end_point_generation_analysis[end_point_generation_Ecoli_entries,]
 ggplot(end_point_generation_Ecoli_analysis, aes(x = generation, y = c_hyper)) + geom_point() +  geom_smooth(method=lm, se=FALSE) + labs(color = "Datasets") + 
   ggtitle("c-hyper vs generation, generation-notating end points only, E. coli") + theme(plot.title = element_text(hjust = 0.5, size = 11), legend.position = "bottom") 
