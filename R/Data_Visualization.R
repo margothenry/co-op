@@ -129,7 +129,7 @@ end_point_entries_multiple_wide <- c(6, 8, 12, 17, 28, 36, 46, 57, 59)
 end_point_generation_analysis <- rbind(end_point_generation_analysis, multiple_wide_generation_analysis[end_point_entries_multiple_wide,])
 ### The plot is currently optimized for the poster competition (bigger axis.text, bigger legend.title, etc.)
 ggplot(end_point_generation_analysis, aes(x = generation, y = c_hyper, color = species)) + xlab("Generations") + ylab("c-hyper") + 
-  geom_jitter(size = 3, width = 0.12) + labs(color = "Species") + scale_x_log10() +
+  geom_jitter(size = 4, width = 0.2) + labs(color = "Species") + scale_x_log10() +
   theme(axis.text = element_text(size = 14), axis.title = element_text(size = 18, face = "bold"), 
         legend.title = element_text(size = 18, face = "bold"), legend.position = "right", legend.text = element_text(size = 14, face = "italic")) 
 # Include this if need a title: "+ ggtitle("c-hyper vs generation, generation-notating end points only") + theme(plot.title = element_text(hjust = 0.5, size = 11))" 
