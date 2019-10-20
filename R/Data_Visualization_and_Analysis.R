@@ -1,17 +1,17 @@
-library(ggplot2)
-library(readr)
-library(Hmisc)
-library(RColorBrewer)
-library(janitor)
-library(here)
-library (scales)
+### The "easypackages" package allows for easier installation of packages & calling of libraries.
+install.packages("easypackages")
+library("easypackages")
+my_packages <- c("ggplot2", "readr", "Hmisc", "RColorBrewer", "janitor", "here", "scales", "goeveg")
+packages(my_packages)
+libraries(my_packages)
 ##############################
 ### (TL): Below are the codes I use to generate the visualizations in "data_out/images".
 ##############################
-# Import analyses:
+# Import:
 master_analyses <- read_csv(here("data_out", "master_analyses.csv"))
 # Inspect the number of papers analyzed:
 (paper_count <- length(unique(master_analyses$paper)))
+
 
 # Inspect the number of papers, by species:
 ## E. coli:
@@ -29,9 +29,11 @@ aeruginosa_entries_index <- grep("aeruginosa", master_analyses$species)
 aeruginosa_entries <- master_analyses[aeruginosa_entries_index,]
 (aeruginosa_paper_count <- length(unique(aeruginosa_entries$paper)))
 
+
 # Replace N/A values for "strain_info" with "0".
 master_analyses$strain_info <- master_analyses$strain_info %>%
   replace(is.na(.), "0")
+
 
 # If there are multiple strain backgrounds in 1 paper, include the value for "strain_info" in the "paper" column (for now).
 for (i in 1:nrow(master_analyses)) {
@@ -40,8 +42,10 @@ for (i in 1:nrow(master_analyses)) {
   }
 }
 
+
 ### Inspect the number of datasets (some papers have > 1 dataset):
 (dataset_count <- length(unique(master_analyses$paper)))
+
 
 # Inspect the number of datasets, by species:
 ## E. coli:
@@ -56,6 +60,7 @@ Sac_entries_strain_info_added <- master_analyses[Sac_entries_index,]
 aeruginosa_entries_strain_info_added <- master_analyses[aeruginosa_entries_index,]
 (aeruginosa_dataset_count <- length(unique(aeruginosa_entries_strain_info_added$paper)))
 
+
 # c-hyper vs generation:
 ### Most datasets use generations to notate timepoints. However, there are still some that uses days or flasks. 
 ### Will need to clump all timepoints into more general ones (i.e. early/intermediate/late or convert everything to generations).
@@ -68,24 +73,28 @@ ggplot(generation_analysis, aes(x = generation, y = c_hyper, color = paper)) + g
 ggplot(generation_analysis, aes(x = generation, y = c_hyper, color = paper)) + geom_point() + geom_line(size = 0.75) + 
   scale_x_log10() + theme(legend.position = "none")
 
+
 ## Split the chart by species:
 ### E. coli:
 generation_analysis_Ecoli_index <- grep("E. coli", generation_analysis$species)
 generation_analysis_Ecoli <- generation_analysis[generation_analysis_Ecoli_index,]
 ggplot(generation_analysis_Ecoli, aes(x = generation, y = c_hyper, color = paper)) + geom_point() + geom_line(size = 0.75) + 
   scale_x_log10() + theme(legend.position = "none")
+
 ### S. cerevisiae:
 generation_analysis_Sac_index <- grep("S. cerevisiae", generation_analysis$species)
 generation_analysis_Sac <- generation_analysis[generation_analysis_Sac_index,]
 ggplot(generation_analysis_Sac, aes(x = generation, y = c_hyper, color = paper)) + geom_point() + geom_line(size = 0.75) + 
   scale_x_log10() + theme(legend.position = "none")
+
 ### P. aeruginosa:
 generation_analysis_P_aeruginosa_index <- grep("P. aeruginosa", generation_analysis$species)
 generation_analysis_P_aeruginosa <- generation_analysis[generation_analysis_P_aeruginosa_index,]
 ggplot(generation_analysis_P_aeruginosa, aes(x = generation, y = c_hyper, color = paper)) + geom_point() + geom_line(size = 0.75) + 
   scale_x_log10() + theme(legend.position = "none")
 
-# ## IN DEVELOPMENT - If you just need to color-code by species:
+
+# ## If you just need to color-code by species:
 # ### First, we need to remove the strain names and just keep the general species name. 
 # ### Also, use a neater-looking form of species names for the graph legend.
 # #### E. coli:
@@ -111,22 +120,27 @@ ggplot(generation_analysis_P_aeruginosa, aes(x = generation, y = c_hyper, color 
 # ggplot(generation_analysis, aes(x = generation, y = c_hyper, color = graph_color)) + geom_point() + geom_line(size = 0.75) + 
 #   labs(color = "Species") + scale_x_log10() + ggtitle("c-hyper vs generation") + theme(plot.title = element_text(hjust = 0.5, size = 11), legend.position = "bottom")
 
+
 # c-hyper vs generation (multiple generations):
 multiple_wide_generation_analysis <- generation_analysis %>%
   subset(func == "multiple_wide")
+multiple_wide_generation_analysis <- multiple_wide_generation_analysis[order(multiple_wide_generation_analysis$paper, multiple_wide_generation_analysis$generation),]
+
 ggplot(multiple_wide_generation_analysis, aes(x = generation, y = c_hyper, color = paper)) + geom_point() + labs(color = "Datasets") + geom_line(size = 0.75) + 
   scale_x_log10() + ggtitle("c-hyper vs generation, experiments with multiple generations") + theme(plot.title = element_text(hjust = 0.5, size = 11), legend.position = "bottom")
 ## Get the correlation between generation and c-hyper:
 cor(multiple_wide_generation_analysis$c_hyper, multiple_wide_generation_analysis$generation)
+
 
 # c-hyper vs generation (generation-notated end points only):
 end_point_generation_analysis <- c()
 end_point_generation_analysis <- generation_analysis %>%
   subset(func != "multiple_wide")
 ### Get only the end points of experiments with data for multiple generations (from multiple_wide_generation_analysis):
-### [The selection of rows in this step is still manual & can be made automatic].
+### [The selection of rows in this step is still manual & should be made automatic - for loop?].
 end_point_entries_multiple_wide <- c(6, 8, 12, 17, 28, 36, 46, 57, 59)
 end_point_generation_analysis <- rbind(end_point_generation_analysis, multiple_wide_generation_analysis[end_point_entries_multiple_wide,])
+write.csv(end_point_generation_analysis, "end_point_generation_analysis.csv")
 ### The plot is currently optimized for the poster competition (bigger axis.text, bigger legend.title, etc.)
 ggplot(end_point_generation_analysis, aes(x = generation, y = c_hyper, color = species)) + xlab("Generations") + ylab("c-hyper") + 
   geom_jitter(size = 4, width = 0.2) + labs(color = "Species") + scale_x_log10() +
@@ -136,20 +150,68 @@ ggplot(end_point_generation_analysis, aes(x = generation, y = c_hyper, color = s
 # Include this if need a linear regression line: "+ geom_smooth(method=lm, se = FALSE)"
 # Include this if need a log curve: "+ geom_smooth(method = lm, formula = y ~ log(x), se = FALSE)"
 
+
 ## c-hyper vs generation (generation-notated end points only), by species:
 ### E. coli (also omitting Tenaillon2016 for the same reason as mentioned above):
 end_point_generation_Ecoli_entries <- grep("E.", end_point_generation_analysis$species)
 end_point_generation_Ecoli_analysis <- end_point_generation_analysis[end_point_generation_Ecoli_entries,]
 ggplot(end_point_generation_Ecoli_analysis, aes(x = generation, y = c_hyper)) + geom_point() +  geom_smooth(method=lm, se=FALSE) + labs(color = "Datasets") + 
   ggtitle("c-hyper vs generation, generation-notating end points only, E. coli") + theme(plot.title = element_text(hjust = 0.5, size = 11), legend.position = "bottom") 
+
 ### Sac:
 end_point_generation_Sac_entries <- grep("Sac", end_point_generation_analysis$species)
 end_point_generation_Sac_analysis <- end_point_generation_analysis[end_point_generation_Sac_entries,]
 ggplot(end_point_generation_Sac_analysis, aes(x = generation, y = c_hyper)) + geom_point() +  geom_smooth(method=lm, se=FALSE) + labs(color = "Datasets") + 
   ggtitle("c-hyper vs generation, generation-notating end points only, S. cerevisiae") + theme(plot.title = element_text(hjust = 0.5, size = 11), legend.position = "bottom") 
+
 ### P. aeruginosa:
 end_point_generation_aeruginosa_entries <- grep("aeruginosa", end_point_generation_analysis$species)
 end_point_generation_aeruginosa_analysis <- end_point_generation_analysis[end_point_generation_aeruginosa_entries,]
 ggplot(end_point_generation_aeruginosa_analysis, aes(x = generation, y = c_hyper)) + geom_point() +  geom_smooth(method=lm, se=FALSE) + labs(color = "Datasets") + 
   ggtitle("c-hyper vs generation, generation-notating end points only, P. aeruginosa") + theme(plot.title = element_text(hjust = 0.5, size = 11), legend.position = "bottom") 
+
+
+# Statistical analysis, by species:
+## [Could create a function to get all the basic statistical values]
+## End-point analyses:
+### E. coli:
+#### # of datasets:
+endpoint_generation_paper_count_Ecoli <- length(unique(end_point_generation_Ecoli_analysis$paper))
+#### Mean:
+c_hyper_mean_Ecoli <- mean(end_point_generation_Ecoli_analysis$c_hyper)
+#### Standard deviation:
+c_hyper_sd_Ecoli <- sd(end_point_generation_Ecoli_analysis$c_hyper)
+
+### Sac:
+#### # of datasets:
+endpoint_generation_paper_count_Sac <- length(unique(end_point_generation_Sac_analysis$paper))
+#### Mean:
+c_hyper_mean_Sac <- mean(end_point_generation_Sac_analysis$c_hyper)
+#### Standard deviation:
+c_hyper_sd_Sac <- sd(end_point_generation_Sac_analysis$c_hyper)
+#### Coefficient of variation:
+c_hyper_coevar_Sac <- cv(end_point_generation_Sac_analysis$c_hyper)
+#### Variance:
+c_hyper_var_Sac <- var(end_point_generation_Sac_analysis$c_hyper)
+
+### P. aeruginosa:
+#### # of datasets:
+endpoint_generation_paper_count_aeruginosa <- length(unique(end_point_generation_aeruginosa_analysis$paper))
+#### Mean:
+c_hyper_mean_aeruginosa <- mean(end_point_generation_aeruginosa_analysis$c_hyper)
+#### Standard deviation:
+c_hyper_sd_aeruginosa <- sd(end_point_generation_aeruginosa_analysis$c_hyper)
+
+### Bacteria (E. coli & P. aeruginosa):
+end_point_generation_bacteria_analysis <- rbind(end_point_generation_Ecoli_analysis, end_point_generation_aeruginosa_analysis)
+#### # of datasets:
+endpoint_generation_paper_count_bacteria <- length(unique(end_point_generation_bacteria_analysis$paper))
+#### Mean:
+c_hyper_mean_bacteria <- mean(end_point_generation_bacteria_analysis$c_hyper)
+#### Standard deviation:
+c_hyper_sd_bacteria <- sd(end_point_generation_bacteria_analysis$c_hyper)
+#### Coefficient of variation:
+c_hyper_coevar_bacteria <- cv(end_point_generation_bacteria_analysis$c_hyper)
+#### Variance:
+c_hyper_var_bacteria <- var(end_point_generation_bacteria_analysis$c_hyper)
 
