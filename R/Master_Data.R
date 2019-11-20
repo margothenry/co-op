@@ -1601,6 +1601,27 @@ single_long(paper = "Wenger2011", dataset_name = "Wenger2011", environment = "YE
             selective_pressure = "Continuous aerobic glucose limitation", species = "Sac", who_analyzed = "TL", ploidy = "diploid")
 
 
+
+# (TL): Hong2011:
+Hong2011 <- read_csv(here("data_in", "original & usable", "Hong2011", "Hong2011_usable.csv"))
+Hong2011 <- clean_names(Hong2011, case = "snake")
+colnames(Hong2011) <- tolower(colnames(Hong2011))
+Hong2011_out <- c(grep(out_patterns_column_gene, Hong2011$gene), grep(out_patterns_column_details, Hong2011$details))
+if (length(Hong2011_out) > 0) {   
+  Hong2011 <- Hong2011[-Hong2011_out,] 
+} 
+### (TL): Only keep values whose "Details" column is "Coding":
+Hong2011 <- Hong2011 %>%
+  subset(details == "Coding")
+Hong2011 <- Hong2011 %>%
+  select(gene, population, frequency)
+Hong2011 <- Hong2011 %>%
+  replace_na(value = 0)
+Hong2011$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Hong2011$gene)
+
+write_csv(Hong2011, here("data_in", "for_func", "Hong2011.csv"))
+single_long(paper = "Hong2011", dataset_name = "Hong2011", environment = "YEPD (2% glucose)", generations = "250", 
+            selective_pressure = "Continuous aerobic glucose limitation", species = "Sac", who_analyzed = "TL", ploidy = "diploid")
 ####################################
 ### (TL): Run this every time a new dataset is analyzed, or when a dataset is analyzed in a new way.
 # (TL) Combine all the analysis files:
