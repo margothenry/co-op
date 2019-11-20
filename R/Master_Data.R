@@ -23,7 +23,7 @@ source("R/dgconstraint/functions/single_long.R")
 ### (TL): Create 2 variables containing all patterns of unsuitable entries for grep() to find - 1 variable for patterns in the "gene" column, 1 for "details":
 ### (TL): "\\b" denotes "word boundary". So, "\\b0\\b" looks for entries whose values in the "gene" column are just "0".
 out_patterns_column_gene <- c(",|/|\\[|-|\\b0\\b")
-out_patterns_column_details <- c("prophage|extragenic|upstream|intergenic")
+out_patterns_column_details <- c("prophage|extragenic|upstream|intergenic|5' UTR|LTR|Intron")
 ############################
 # (TL): Potential future updates: Create a function of all the prelim data-cleaning steps.
 # prelim_data_cleaning <- function(paper_name, dataset_name){
@@ -1579,6 +1579,27 @@ Monk2016$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Monk2016$gene)
 write_csv(Monk2016, here("data_in", "for_func", "Monk2016.csv"))
 single_long(paper = "Monk2016", dataset_name = "Monk2016", environment = "LB alternating with M9GBT (M9 + glucose + biotin + thiamine)", days = "18", 
             selective_pressure = "TAG amber codons replaced with TAA stop codons", species = "Ecoli_K12", who_analyzed = "TL", ploidy = "haploid")
+
+
+
+# (TL): Wenger2011:
+Wenger2011 <- read_csv(here("data_in", "original & usable", "Wenger2011", "Wenger2011_usable.csv"))
+Wenger2011 <- clean_names(Wenger2011, case = "snake")
+colnames(Wenger2011) <- tolower(colnames(Wenger2011))
+Wenger2011_out <- c(grep(out_patterns_column_gene, Wenger2011$gene), grep(out_patterns_column_details, Wenger2011$details))
+if (length(Wenger2011_out) > 0) {   
+  Wenger2011 <- Wenger2011[-Wenger2011_out,] 
+} 
+Wenger2011 <- Wenger2011 %>%
+  select(gene, population, frequency)
+Wenger2011 <- Wenger2011 %>%
+  replace_na(value = 0)
+Wenger2011$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Wenger2011$gene)
+
+write_csv(Wenger2011, here("data_in", "for_func", "Wenger2011.csv"))
+single_long(paper = "Wenger2011", dataset_name = "Wenger2011", environment = "YEPD (2% glucose)", generations = "250", 
+            selective_pressure = "Continuous aerobic glucose limitation", species = "Sac", who_analyzed = "TL", ploidy = "diploid")
+
 
 ####################################
 ### (TL): Run this every time a new dataset is analyzed, or when a dataset is analyzed in a new way.

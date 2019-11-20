@@ -1,7 +1,7 @@
 ### The "easypackages" package allows for easier installation of packages & calling of libraries.
 install.packages("easypackages")
 library("easypackages")
-my_packages <- c("ggplot2", "readr", "Hmisc", "RColorBrewer", "janitor", "here", "scales", "goeveg")
+my_packages <- c("ggplot2", "readr", "Hmisc", "RColorBrewer", "janitor", "here", "scales", "goeveg","ggpubr", "dplyr")
 packages(my_packages)
 libraries(my_packages)
 ##############################
@@ -140,12 +140,13 @@ end_point_generation_analysis <- generation_analysis %>%
 ### [The selection of rows in this step is still manual & should be made automatic - for loop?].
 end_point_entries_multiple_wide <- c(6, 8, 12, 17, 28, 36, 46, 57, 59)
 end_point_generation_analysis <- rbind(end_point_generation_analysis, multiple_wide_generation_analysis[end_point_entries_multiple_wide,])
-write.csv(end_point_generation_analysis, "end_point_generation_analysis.csv")
 ### The plot is currently optimized for the poster competition (bigger axis.text, bigger legend.title, etc.)
 ggplot(end_point_generation_analysis, aes(x = generation, y = c_hyper, color = species)) + xlab("Generations") + ylab("c-hyper") + 
-  geom_jitter(size = 4, width = 0.2) + labs(color = "Species") + scale_x_log10() +
+  geom_jitter(size = 4, width = 0.2) + labs(color = "Species") + scale_x_log10() + scale_y_continuous(breaks = seq(0,80,5)) +
   theme(axis.text = element_text(size = 14), axis.title = element_text(size = 18, face = "bold"), 
         legend.title = element_text(size = 18, face = "bold"), legend.position = "right", legend.text = element_text(size = 14, face = "italic")) 
+end_point_generation_analysis_small_c_hyper <- subset(end_point_generation_analysis, c_hyper == 0)
+end_point_generation_analysis_small_c_hyper <- end_point_generation_analysis_small_c_hyper[order(end_point_generation_analysis_small_c_hyper$c_hyper),]
 # Include this if need a title: "+ ggtitle("c-hyper vs generation, generation-notating end points only") + theme(plot.title = element_text(hjust = 0.5, size = 11))" 
 # Include this if need a linear regression line: "+ geom_smooth(method=lm, se = FALSE)"
 # Include this if need a log curve: "+ geom_smooth(method = lm, formula = y ~ log(x), se = FALSE)"
@@ -176,7 +177,7 @@ ggplot(end_point_generation_aeruginosa_analysis, aes(x = generation, y = c_hyper
 ## End-point analyses:
 ### E. coli:
 #### # of datasets:
-endpoint_generation_paper_count_Ecoli <- length(unique(end_point_generation_Ecoli_analysis$paper))
+endpoint_generation_paper_count_Ecoli <- length(end_point_generation_Ecoli_analysis)
 #### Mean:
 c_hyper_mean_Ecoli <- mean(end_point_generation_Ecoli_analysis$c_hyper)
 #### Standard deviation:
@@ -184,7 +185,7 @@ c_hyper_sd_Ecoli <- sd(end_point_generation_Ecoli_analysis$c_hyper)
 
 ### Sac:
 #### # of datasets:
-endpoint_generation_paper_count_Sac <- length(unique(end_point_generation_Sac_analysis$paper))
+endpoint_generation_paper_count_Sac <- length(end_point_generation_Sac_analysis)
 #### Mean:
 c_hyper_mean_Sac <- mean(end_point_generation_Sac_analysis$c_hyper)
 #### Standard deviation:
@@ -196,7 +197,7 @@ c_hyper_var_Sac <- var(end_point_generation_Sac_analysis$c_hyper)
 
 ### P. aeruginosa:
 #### # of datasets:
-endpoint_generation_paper_count_aeruginosa <- length(unique(end_point_generation_aeruginosa_analysis$paper))
+endpoint_generation_paper_count_aeruginosa <- length(end_point_generation_aeruginosa_analysis$paper)
 #### Mean:
 c_hyper_mean_aeruginosa <- mean(end_point_generation_aeruginosa_analysis$c_hyper)
 #### Standard deviation:
@@ -214,4 +215,31 @@ c_hyper_sd_bacteria <- sd(end_point_generation_bacteria_analysis$c_hyper)
 c_hyper_coevar_bacteria <- cv(end_point_generation_bacteria_analysis$c_hyper)
 #### Variance:
 c_hyper_var_bacteria <- var(end_point_generation_bacteria_analysis$c_hyper)
+
+
+# MH's Wilcox Test (E. coli vs Sac):
+## Testing if the median in E.coli is different then the median in Sac for their c_yper value.
+### SOOOO our data can not use anova since it doesnt meet the assumptions of normality or equal variances. so we can use the wilcox test. 
+end_point_generation_analysis_grouped_species <- end_point_generation_analysis %>% select(species, c_hyper)
+end_point_generation_analysis_grouped_species$species <- gsub("Ecoli_K12", "bacteria", end_point_generation_analysis_grouped_species$species)
+end_point_generation_analysis_grouped_species$species <- gsub("P_aeruginosa_PA14", "bacteria", end_point_generation_analysis_grouped_species$species)
+
+
+summary = end_point_generation_analysis_grouped_species %>% group_by(species) %>%
+  summarise(
+    count = n(),
+    median = median(c_hyper, na.rm = TRUE),
+    IQR = IQR(c_hyper, na.rm = TRUE)
+  )
+summary
+
+ggboxplot(end_point_generation_analysis_grouped_species, x = "species", y = "c_hyper", 
+          color = "species", palette = c("#00AFBB", "#E7B800"),
+          ylab = "C_hyper", xlab = "Species")
+
+test <- wilcox.test(c_hyper ~ species, end_point_generation_analysis_grouped_species = end_point_generation_analysis_grouped_species,
+                    exact = FALSE)
+test
+### Reject Ho big time
+### We can conclude that E.coli's median c_hyper is significantly different from Sac's median c_hyper with a p-value = 1.325e-06, which correcsponds with the graph above.
 
