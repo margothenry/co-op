@@ -1620,8 +1620,8 @@ Hong2011 <- Hong2011 %>%
 Hong2011$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Hong2011$gene)
 
 write_csv(Hong2011, here("data_in", "for_func", "Hong2011.csv"))
-single_long(paper = "Hong2011", dataset_name = "Hong2011", environment = "YEPD (2% glucose)", generations = "250", 
-            selective_pressure = "Continuous aerobic glucose limitation", species = "Sac", who_analyzed = "TL", ploidy = "diploid")
+single_long(paper = "Hong2011", dataset_name = "Hong2011", environment = "Galactose minimal media", generations = "250", 
+            selective_pressure = "Galactose", species = "Sac", who_analyzed = "TL", ploidy = "haploid")
 ####################################
 ### (TL): Run this every time a new dataset is analyzed, or when a dataset is analyzed in a new way.
 # (TL) Combine all the analysis files:
