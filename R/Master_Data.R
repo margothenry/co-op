@@ -22,7 +22,7 @@ source("R/dgconstraint/functions/single_long.R")
 ############################
 ### (TL): Create 2 variables containing all patterns of unsuitable entries for grep() to find - 1 variable for patterns in the "gene" column, 1 for "details":
 ### (TL): "\\b" denotes "word boundary". So, "\\b0\\b" looks for entries whose values in the "gene" column are just "0".
-out_patterns_column_gene <- c(",|/|\\[|-|\\b0\\b")
+out_patterns_column_gene <- c(",|/|\\[|-|\\b0\\b|")
 out_patterns_column_details <- c("prophage|extragenic|upstream|intergenic|5' UTR|LTR|Intron")
 ############################
 # (TL): Potential future updates: Create a function of all the prelim data-cleaning steps.
@@ -1620,8 +1620,29 @@ Hong2011 <- Hong2011 %>%
 Hong2011$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Hong2011$gene)
 
 write_csv(Hong2011, here("data_in", "for_func", "Hong2011.csv"))
-single_long(paper = "Hong2011", dataset_name = "Hong2011", environment = "Galactose minimal media", generations = "250", 
+single_long(paper = "Hong2011", dataset_name = "Hong2011", environment = "Galactose minimal media", generations = "400", 
             selective_pressure = "Galactose", species = "Sac", who_analyzed = "TL", ploidy = "haploid")
+
+
+
+# (TL): Chib2017:
+Chib2017 <- read_csv(here("data_in", "original & usable", "Chib2017", "Chib2017_usable.csv"))
+Chib2017 <- clean_names(Chib2017, case = "snake")
+colnames(Chib2017) <- tolower(colnames(Chib2017))
+Chib2017_out <- c(grep(out_patterns_column_gene, Chib2017$gene), grep(out_patterns_column_details, Chib2017$details))
+if (length(Chib2017_out) > 0) {   
+  Chib2017 <- Chib2017[-Chib2017_out,] 
+} 
+Chib2017 <- Chib2017 %>%
+  select(gene, population, frequency)
+Chib2017 <- Chib2017 %>%
+  replace_na(value = 0)
+Chib2017$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Chib2017$gene)
+
+write_csv(Chib2017, here("data_in", "for_func", "Chib2017.csv"))
+single_long(paper = "Chib2017", dataset_name = "Chib2017", environment = "LB", days = "28", 
+            selective_pressure = "Prolonged stationary phase", species = "Ecoli_K12", who_analyzed = "TL", ploidy = "haploid")
+
 ####################################
 ### (TL): Run this every time a new dataset is analyzed, or when a dataset is analyzed in a new way.
 # (TL) Combine all the analysis files:

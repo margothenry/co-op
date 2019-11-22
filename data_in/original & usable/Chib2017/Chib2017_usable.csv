@@ -1,0 +1,542 @@
+Population,Gene,Details,Frequency
+R1,apaH ?,L19* (TTG?TAG) ,1
+R1,araD ?,V32F (GTT?TTT) ,1
+R1,murD ?,S265F (TCC?TTC) ,1
+R1,secA ?,E73V (GAG?GTG) ,1
+R1,fhuA ?,P50Q (CCG?CAG) ,1
+R1,insH ? / ? mmuP,intergenic (?206/?2),1
+R1,[mmuP]-[mhpD],,1
+R1,ybaL ?,D294E (GAT?GAA) ,1
+R1,fdrA ? / ? ylbF,intergenic (+123/?1156),1
+R1,fdrA ? / ? ylbF,intergenic (+260/?1019),1
+R1,folD ?,L36Q (CTG?CAG) ,1
+R1,ybcK ? / ? ybcL,intergenic (+345/?120),1
+R1,ybgO ?,P17P (CCG?CCT) ,1
+R1,sdhB ?,L151H (CTC?CAC) ,1
+R1,ybjJ ?,A176A (GCG?GCT) ,1
+R1,ompF ? / ? asnS,intergenic (?170/+433),1
+R1,ycdT ?,V130A (GTA?GCA) ,1
+R1,ycdU ? / ? serX,intergenic (+329/+226),1
+R1,ycfQ ? / ? ycfR,intergenic (?164/?77),1
+R1,icd ?,H366H (CAC?CAT) ,1
+R1,icd ?,T370T (ACC?ACT) ,1
+R1,icd ?,L375L (TTA?CTA) ,1
+R1,icd ?,L375L (TTA?TTG) ,1
+R1,icd ?,N385N (AAC?AAT) ,1
+R1,icd ?,A386A (GCG?GCC) ,1
+R1,icd ?,K387K (AAA?AAG) ,1
+R1,mcrA ? / ? elbA,intergenic (+245/+256),1
+R1,mcrA ? / ? elbA,intergenic (+257/+244),1
+R1,mcrA ? / ? elbA,intergenic (+270/+231),1
+R1,mcrA ? / ? elbA,intergenic (+272/+229),1
+R1,mcrA ? / ? elbA,intergenic (+302/+199),1
+R1,insC-insD,,1
+R1,trpA ?,P21S (CCT?TCT) ,1
+R1,[ydaO]-ynaE,,1
+R1,ynbD ?,L322L (CTG?CTA) ,1
+R1,ydcI ?,coding (11/924 nt),1
+R1,adhP ? / ? sfcA,intergenic (?73/+61),1
+R1,yneI ?,D202Y (GAC?TAC) ,1
+R1,dgsA ?,coding (680/1221 nt),1
+R1,ynjH ? / ? gdhA,intergenic (?224/?12),1
+R1,yebS ?,S301T (TCC?ACC) ,1
+R1,tar ?,L310L (CTC?CTT) ,1
+R1,fliC ?,E115K (GAA?AAA) ,1
+R1,ogrK ? / ? yegR,intergenic (?437/+32),1
+R1,insD-insC,,1
+R1,nuoF ?,V51I (GTT?ATT) ,1
+R1,yfbS ?,L233L (CTG?TTG) ,1
+R1,cysK ?,T258T (ACC?ACT) ,1
+R1,rpoS ?,L288P (CTG?CCG) ,1
+R1,rpoS ?,coding (817/876 nt),1
+R1,rpoS ?,coding (813/876 nt),1
+R1,rpoS ? / ? nlpD,intergenic (?21/+159),1
+R1,ygeV ?,L371L (CTC?CTT) ,1
+R1,visC ?,R387S (CGC?AGC) ,1
+R1,yhdE ?,D141H (GAT?CAT) ,1
+R1,rpoC ?,A494V (GCG?GTG) ,1
+R1,rpoC ?,A426S (GCA?TCA) ,1
+R1,rpoB ?,Q1268L (CAG?CTG) ,1
+R1,insD-insC,,1
+R1,insH,,1
+R1,tnaA ?,coding (365/1416 nt),1
+R1,tnaA ?,G122S (GGC?AGC) ,1
+R1,insH,,1
+R1,yiaJ ?,L259V (CTG?GTG) ,1
+R1,dctA ?,coding (1156?1189/1287 nt),1
+R1,glpR ?,R38C (CGC?TGC) ,1
+R1,malQ ?,Q135L (CAG?CTG) ,1
+R1,prkB ?,coding (62?64/870 nt),1
+R1,rpsL ?,K43T (AAA?ACA) ,1
+R1,rpoA ?,K271E (AAA?GAA) ,1
+R1,insH-[alsK],,1
+R1,dcuA ? / ? aspA,intergenic (?6/+299),1
+R1,dcuA ? / ? aspA,intergenic (?202/+104),1
+R1,fimB ? / ? fimE,intergenic (+296/?182),1
+R1,apaH ?,L19* (TTG?TAG) ,1
+R1,araD ?,V32F (GTT?TTT) ,1
+R1,murD ?,S265F (TCC?TTC) ,1
+R1,secA ?,E73V (GAG?GTG) ,1
+R1,fhuA ?,P50Q (CCG?CAG) ,1
+R1,insH ? / ? mmuP,intergenic (?206/?2),1
+R1,[mmuP]-[mhpD],,1
+R1,ybaL ?,D294E (GAT?GAA) ,1
+R1,fdrA ? / ? ylbF,intergenic (+123/?1156),1
+R1,fdrA ? / ? ylbF,intergenic (+260/?1019),1
+R1,folD ?,L36Q (CTG?CAG) ,1
+R1,ybcK ? / ? ybcL,intergenic (+345/?120),1
+R1,ybgO ?,P17P (CCG?CCT) ,1
+R1,sdhB ?,L151H (CTC?CAC) ,1
+R1,ybjJ ?,A176A (GCG?GCT) ,1
+R1,ompF ? / ? asnS,intergenic (?170/+433),1
+R1,ycdT ?,V130A (GTA?GCA) ,1
+R1,ycdU ? / ? serX,intergenic (+329/+226),1
+R1,ycfQ ? / ? ycfR,intergenic (?164/?77),1
+R1,icd ?,H366H (CAC?CAT) ,1
+R1,icd ?,T370T (ACC?ACT) ,1
+R1,icd ?,L375L (TTA?CTA) ,1
+R1,icd ?,L375L (TTA?TTG) ,1
+R1,icd ?,N385N (AAC?AAT) ,1
+R1,icd ?,A386A (GCG?GCC) ,1
+R1,mcrA ? / ? elbA,intergenic (+245/+256),1
+R1,mcrA ? / ? elbA,intergenic (+257/+244),1
+R1,mcrA ? / ? elbA,intergenic (+270/+231),1
+R1,mcrA ? / ? elbA,intergenic (+272/+229),1
+R1,mcrA ? / ? elbA,intergenic (+302/+199),1
+R1,mcrA ? / ? elbA,intergenic (+305/+196),1
+R1,ychS ?,A27T (GCG?ACG) ,1
+R1,ychS ?,K29E (AAG?GAG) ,1
+R1,ychS ?,S59S (AGT?AGC) ,1
+R1,insC-insD,,1
+R1,trpA ?,P21S (CCT?TCT) ,1
+R1,topA ?,W76C (TGG?TGT) ,1
+R1,[ydaO]-ynaE,,1
+R1,paaY ? / ? insD,intergenic (+1077/+1783),1
+R1,ynbD ?,L322L (CTG?CTA) ,1
+R1,ydcI ?,coding (11/924 nt),1
+R1,adhP ? / ? sfcA,intergenic (?73/+61),1
+R1,yneI ?,D202Y (GAC?TAC) ,1
+R1,dgsA ?,coding (680/1221 nt),1
+R1,ydhK ?,coding (493?495/2013 nt),1
+R1,ynjH ? / ? gdhA,intergenic (?224/?12),1
+R1,yebS ?,S301T (TCC?ACC) ,1
+R1,tar ?,L310L (CTC?CTT) ,1
+R1,fliC ?,E115K (GAA?AAA) ,1
+R1,ogrK ? / ? yegR,intergenic (?437/+32),1
+R1,insH ? / ? gatZ,intergenic (+179/+183),1
+R1,nuoF ?,V51I (GTT?ATT) ,1
+R1,yfbS ?,L233L (CTG?TTG) ,1
+R1,cysK ?,T258T (ACC?ACT) ,1
+R1,rpoS ?,L288P (CTG?CCG) ,1
+R1,rpoS ?,coding (817/876 nt),1
+R1,rpoS ?,coding (813/876 nt),1
+R1,rpoS ? / ? nlpD,intergenic (?21/+159),1
+R1,ygeV ?,L371L (CTC?CTT) ,1
+R1,visC ?,R387S (CGC?AGC) ,1
+R1,yhdE ?,D141H (GAT?CAT) ,1
+R1,rpoC ?,A494V (GCG?GTG) ,1
+R1,rpoB ?,Q1268L (CAG?CTG) ,1
+R1,insD-insC,,1
+R1,tnaA ?,coding (365/1416 nt),1
+R1,tnaA ?,G122S (GGC?AGC) ,1
+R1,insH,,1
+R1,yiaJ ?,L259V (CTG?GTG) ,1
+R1,dctA ?,coding (1156?1189/1287 nt),1
+R1,glpR ?,R38C (CGC?TGC) ,1
+R1,malQ ?,Q135L (CAG?CTG) ,1
+R1,rpsL ?,K43T (AAA?ACA) ,1
+R1,rpoA ?,K271E (AAA?GAA) ,1
+R1,insH-[alsK],,1
+R1,dcuA ? / ? aspA,intergenic (?6/+299),1
+R1,dcuA ? / ? aspA,intergenic (?202/+104),1
+R1,fimB ? / ? fimE,intergenic (+296/?182),1
+R2,araD ?,V32F (GTT?TTT) ,1
+R2,murD ?,S265F (TCC?TTC) ,1
+R2,fhuA ?,P50Q (CCG?CAG) ,1
+R2,insH ? / ? mmuP,intergenic (?206/?2),1
+R2,[mmuP]-[mhpD],,1
+R2,fdrA ? / ? ylbF,intergenic (+123/?1156),1
+R2,fdrA ? / ? ylbF,intergenic (+260/?1019),1
+R2,folD ?,L36Q (CTG?CAG) ,1
+R2,ybcK ? / ? ybcL,intergenic (+345/?120),1
+R2,insH,,1
+R2,ybgO ?,P17P (CCG?CCT) ,1
+R2,sdhB ?,F110L (TTC?TTA) ,1
+R2,ybjJ ?,A176A (GCG?GCT) ,1
+R2,ompF ? / ? asnS,intergenic (?170/+433),1
+R2,ycdT ?,V130A (GTA?GCA) ,1
+R2,ycdU ? / ? serX,intergenic (+329/+226),1
+R2,ycfQ ? / ? ycfR,intergenic (?164/?77),1
+R2,mcrA ? / ? elbA,intergenic (+245/+256),1
+R2,mcrA ? / ? elbA,intergenic (+257/+244),1
+R2,mcrA ? / ? elbA,intergenic (+270/+231),1
+R2,mcrA ? / ? elbA,intergenic (+272/+229),1
+R2,prsA ?,V146I (GTA?ATA) ,1
+R2,hns ?,K32N (AAA?AAT) ,1
+R2,insC-insD,,1
+R2,trpA ?,P21S (CCT?TCT) ,1
+R2,[ydaO]-ynaE,,1
+R2,ynbD ?,L322L (CTG?CTA) ,1
+R2,ydcI ?,coding (11/924 nt),1
+R2,yneI ?,D202Y (GAC?TAC) ,1
+R2,dgsA ?,coding (680/1221 nt),1
+R2,ydhK ?,coding (493?495/2013 nt),1
+R2,ynjH ? / ? gdhA,intergenic (?224/?12),1
+R2,yebS ?,S301T (TCC?ACC) ,1
+R2,tar ?,L310L (CTC?CTT) ,1
+R2,fliC ?,E115K (GAA?AAA) ,1
+R2,ogrK ? / ? yegR,intergenic (?437/+32),1
+R2,yeiC ? / ? fruA,intergenic (?126/+297),1
+R2,insD-insC,,1
+R2,nuoF ?,V51I (GTT?ATT) ,1
+R2,yfbS ?,L233L (CTG?TTG) ,1
+R2,cysK ?,T258T (ACC?ACT) ,1
+R2,rpoS ?,coding (817/876 nt),1
+R2,rpoS ?,coding (813/876 nt),1
+R2,rpoS ? / ? nlpD,intergenic (?21/+159),1
+R2,gcvA ? / ? ygdI,intergenic (?122/+229),1
+R2,ygeV ?,L371L (CTC?CTT) ,1
+R2,visC ?,R387S (CGC?AGC) ,1
+R2,cpdA ?,S222L (TCG?TTG) ,1
+R2,yhdE ?,D141H (GAT?CAT) ,1
+R2,rpoC ?,R692P (CGT?CCT) ,1
+R2,insD-insC,,1
+R2,insH,,1
+R2,tnaA ?,coding (365/1416 nt),1
+R2,tnaA ?,G122S (GGC?AGC) ,1
+R2,yiaJ ?,L259V (CTG?GTG) ,1
+R2,dctA ?,coding (1156?1189/1287 nt),1
+R2,malQ ?,Q135L (CAG?CTG) ,1
+R2,rpsL ?,K43T (AAA?ACA) ,1
+R2,rpsK ?,A63D (GCT?GAT) ,1
+R2,actP ?,coding (475/1650 nt),1
+R2,actP ?,coding (474/1650 nt),1
+R2,actP ?,coding (473/1650 nt),1
+R2,insH-[alsK],,1
+R2,alsA ? / ? alsB,intergenic (?98/+29),1
+R2,dcuB ? / ? dcuR,intergenic (?118/+453),1
+R2,dcuA ? / ? aspA,intergenic (?6/+299),1
+R2,fimB ? / ? fimE,intergenic (+296/?182),1
+R2,araD ?,V32F (GTT?TTT) ,1
+R2,murD ?,S265F (TCC?TTC) ,1
+R2,fhuA ?,P50Q (CCG?CAG) ,1
+R2,insH ? / ? mmuP,intergenic (?206/?2),1
+R2,[mmuP]-[mhpD],,1
+R2,fdrA ? / ? ylbF,intergenic (+123/?1156),1
+R2,fdrA ? / ? ylbF,intergenic (+260/?1019),1
+R2,folD ?,L36Q (CTG?CAG) ,1
+R2,ybcK ? / ? ybcL,intergenic (+345/?120),1
+R2,ybgO ?,P17P (CCG?CCT) ,1
+R2,sdhB ?,F110L (TTC?TTA) ,1
+R2,ybjJ ?,A176A (GCG?GCT) ,1
+R2,ompF ? / ? asnS,intergenic (?170/+433),1
+R2,ycdT ?,V130A (GTA?GCA) ,1
+R2,ycdU ? / ? serX,intergenic (+329/+226),1
+R2,ycfQ ? / ? ycfR,intergenic (?164/?77),1
+R2,mcrA ? / ? elbA,intergenic (+245/+256),1
+R2,mcrA ? / ? elbA,intergenic (+257/+244),1
+R2,mcrA ? / ? elbA,intergenic (+270/+231),1
+R2,mcrA ? / ? elbA,intergenic (+272/+229),1
+R2,prsA ?,D188N (GAT?AAT) ,1
+R2,prsA ?,V146I (GTA?ATA) ,1
+R2,ychS ?,A27T (GCG?ACG) ,1
+R2,ychS ?,K29E (AAG?GAG) ,1
+R2,ychS ?,S59S (AGT?AGC) ,1
+R2,hns ?,K32N (AAA?AAT) ,1
+R2,trpA ?,P21S (CCT?TCT) ,1
+R2,[ydaO]-ynaE,,1
+R2,paaY ? / ? insD,intergenic (+1668/+1192),1
+R2,ynbD ?,L322L (CTG?CTA) ,1
+R2,ydcI ?,coding (11/924 nt),1
+R2,adhP ? / ? sfcA,intergenic (?73/+61),1
+R2,yneI ?,D202Y (GAC?TAC) ,1
+R2,dgsA ?,coding (680/1221 nt),1
+R2,ynjH ? / ? gdhA,intergenic (?224/?12),1
+R2,yebS ?,S301T (TCC?ACC) ,1
+R2,tar ?,L310L (CTC?CTT) ,1
+R2,fliC ?,E115K (GAA?AAA) ,1
+R2,ogrK ? / ? yegR,intergenic (?437/+32),1
+R2,insH ? / ? gatZ,intergenic (+179/+183),1
+R2,yeiC ? / ? fruA,intergenic (?126/+297),1
+R2,insD-insC,,1
+R2,nuoF ?,V51I (GTT?ATT) ,1
+R2,yfbS ?,L233L (CTG?TTG) ,1
+R2,cysK ?,T258T (ACC?ACT) ,1
+R2,rpoS ?,coding (817/876 nt),1
+R2,rpoS ? / ? nlpD,intergenic (?21/+159),1
+R2,gcvA ? / ? ygdI,intergenic (?122/+229),1
+R2,ygeV ?,L371L (CTC?CTT) ,1
+R2,visC ?,R387S (CGC?AGC) ,1
+R2,cpdA ?,S222L (TCG?TTG) ,1
+R2,yhaC ? / ? garK,intergenic (+354/+669),1
+R2,yhdE ?,D141H (GAT?CAT) ,1
+R2,rpoC ?,R692P (CGT?CCT) ,1
+R2,insD-insC,,1
+R2,tnaA ?,coding (365/1416 nt),1
+R2,tnaA ?,G122S (GGC?AGC) ,1
+R2,yiaJ ?,L259V (CTG?GTG) ,1
+R2,dctA ?,coding (1156?1189/1287 nt),1
+R2,malQ ?,Q135L (CAG?CTG) ,1
+R2,rpsL ?,K43T (AAA?ACA) ,1
+R2,rpsK ?,A63D (GCT?GAT) ,1
+R2,alsA ? / ? alsB,intergenic (?98/+29),1
+R2,dcuB ? / ? dcuR,intergenic (?118/+453),1
+R2,dcuA ? / ? aspA,intergenic (?6/+299),1
+R2,fimB ? / ? fimE,intergenic (+296/?182),1
+R3,imp ?,coding (64?84/2355 nt),1
+R3,araD ?,V32F (GTT?TTT) ,1
+R3,murD ?,S265F (TCC?TTC) ,1
+R3,fhuA ?,P50Q (CCG?CAG) ,1
+R3,insH ? / ? mmuP,intergenic (?206/?2),1
+R3,[mmuP]-[mhpD],,1
+R3,fdrA ? / ? ylbF,intergenic (+123/?1156),1
+R3,fdrA ? / ? ylbF,intergenic (+260/?1019),1
+R3,folD ?,L36Q (CTG?CAG) ,1
+R3,ybcK ? / ? ybcL,intergenic (+345/?120),1
+R3,insH,,1
+R3,ybgO ?,P17P (CCG?CCT) ,1
+R3,sdhB ?,F110L (TTC?TTA) ,1
+R3,ybjJ ?,A176A (GCG?GCT) ,1
+R3,ompF ? / ? asnS,intergenic (?170/+433),1
+R3,ycdT ?,V130A (GTA?GCA) ,1
+R3,ycdU ? / ? serX,intergenic (+329/+226),1
+R3,fabH ?,T84M (ACG?ATG) ,1
+R3,ycfQ ? / ? ycfR,intergenic (?164/?77),1
+R3,prsA ?,P276L (CCG?CTG) ,1
+R3,prsA ?,V141A (GTT?GCT) ,1
+R3,insC-insD,,1
+R3,cls ?,D244A (GAT?GCT) ,1
+R3,trpA ?,P21S (CCT?TCT) ,1
+R3,[ydaO]-ynaE,,1
+R3,ynbD ?,L322L (CTG?CTA) ,1
+R3,ydcI ?,coding (11/924 nt),1
+R3,yneI ?,D202Y (GAC?TAC) ,1
+R3,dgsA ?,coding (680/1221 nt),1
+R3,ynjH ? / ? gdhA,intergenic (?224/?12),1
+R3,yebS ?,S301T (TCC?ACC) ,1
+R3,tar ?,L310L (CTC?CTT) ,1
+R3,fliC ?,E115K (GAA?AAA) ,1
+R3,ogrK ? / ? yegR,intergenic (?437/+32),1
+R3,yeiC ? / ? fruA,intergenic (?126/+297),1
+R3,insD-insC,,1
+R3,nuoF ?,V51I (GTT?ATT) ,1
+R3,yfbS ?,L233L (CTG?TTG) ,1
+R3,cysK ?,T258T (ACC?ACT) ,1
+R3,rpoS ?,L288P (CTG?CCG) ,1
+R3,rpoS ?,coding (817/876 nt),1
+R3,rpoS ?,coding (813/876 nt),1
+R3,rpoS ? / ? nlpD,intergenic (?21/+159),1
+R3,ygeV ?,L371L (CTC?CTT) ,1
+R3,visC ?,R387S (CGC?AGC) ,1
+R3,cpdA ?,coding (488?490/828 nt),1
+R3,cpdA ?,L147P (CTG?CCG) ,1
+R3,cpdA ?,coding (356/828 nt),1
+R3,cpdA ?,coding (116?118/828 nt),1
+R3,yrbK ?,G56V (GGG?GTG) ,1
+R3,yhdE ?,D141H (GAT?CAT) ,1
+R3,ubiB ?,L464L (CTG?CTT) ,1
+R3,insD-insC,,1
+R3,insH,,1
+R3,tnaA ?,coding (365/1416 nt),1
+R3,tnaA ?,G122S (GGC?AGC) ,1
+R3,yiaJ ?,L259V (CTG?GTG) ,1
+R3,dctA ?,coding (1156?1189/1287 nt),1
+R3,malQ ?,Q135L (CAG?CTG) ,1
+R3,rpsL ?,K43T (AAA?ACA) ,1
+R3,insH-[alsK],,1
+R3,dcuS ?,L415M (CTG?ATG) ,1
+R3,dcuA ? / ? aspA,intergenic (?6/+299),1
+R3,fimB ? / ? fimE,intergenic (+296/?182),1
+R3,imp ?,coding (64?84/2355 nt),1
+R3,araD ?,V32F (GTT?TTT) ,1
+R3,murD ?,S265F (TCC?TTC) ,1
+R3,fhuA ?,P50Q (CCG?CAG) ,1
+R3,insH ? / ? mmuP,intergenic (?206/?2),1
+R3,[mmuP]-[mhpD],,1
+R3,fdrA ? / ? ylbF,intergenic (+123/?1156),1
+R3,fdrA ? / ? ylbF,intergenic (+260/?1019),1
+R3,folD ?,L36Q (CTG?CAG) ,1
+R3,ybcK ? / ? ybcL,intergenic (+345/?120),1
+R3,ybgO ?,P17P (CCG?CCT) ,1
+R3,sdhB ?,F110L (TTC?TTA) ,1
+R3,ybjJ ?,A176A (GCG?GCT) ,1
+R3,ompF ? / ? asnS,intergenic (?170/+433),1
+R3,ycdT ?,V130A (GTA?GCA) ,1
+R3,ycdU ? / ? serX,intergenic (+329/+226),1
+R3,fabH ?,T84M (ACG?ATG) ,1
+R3,ycfQ ? / ? ycfR,intergenic (?164/?77),1
+R3,prsA ?,D188N (GAT?AAT) ,1
+R3,prsA ?,V141A (GTT?GCT) ,1
+R3,prsA ?,F7L (TTT?TTA) ,1
+R3,insC-insD,,1
+R3,cls ?,D244A (GAT?GCT) ,1
+R3,trpA ?,P21S (CCT?TCT) ,1
+R3,[ydaO]-ynaE,,1
+R3,ynbD ?,L322L (CTG?CTA) ,1
+R3,ydcI ?,coding (11/924 nt),1
+R3,yneI ?,D202Y (GAC?TAC) ,1
+R3,dgsA ?,coding (680/1221 nt),1
+R3,ynjH ? / ? gdhA,intergenic (?224/?12),1
+R3,yebS ?,S301T (TCC?ACC) ,1
+R3,tar ?,L310L (CTC?CTT) ,1
+R3,fliC ?,E115K (GAA?AAA) ,1
+R3,ogrK ? / ? yegR,intergenic (?437/+32),1
+R3,yeiC ? / ? fruA,intergenic (?126/+297),1
+R3,insD-insC,,1
+R3,nuoF ?,V51I (GTT?ATT) ,1
+R3,yfbS ?,L233L (CTG?TTG) ,1
+R3,cysK ?,T258T (ACC?ACT) ,1
+R3,rpoS ?,L288P (CTG?CCG) ,1
+R3,rpoS ?,coding (817/876 nt),1
+R3,rpoS ?,coding (813/876 nt),1
+R3,rpoS ? / ? nlpD,intergenic (?21/+159),1
+R3,ygeV ?,L371L (CTC?CTT) ,1
+R3,visC ?,R387S (CGC?AGC) ,1
+R3,cpdA ?,coding (488?490/828 nt),1
+R3,cpdA ?,L147P (CTG?CCG) ,1
+R3,cpdA ?,coding (116?118/828 nt),1
+R3,ygjK ?,L247I (CTC?ATC) ,1
+R3,yrbK ?,G56V (GGG?GTG) ,1
+R3,yhdE ?,D141H (GAT?CAT) ,1
+R3,insD-insC,,1
+R3,insH,,1
+R3,tnaA ?,coding (365/1416 nt),1
+R3,insH,,1
+R3,yiaJ ?,L259V (CTG?GTG) ,1
+R3,dctA ?,coding (1156?1189/1287 nt),1
+R3,malQ ?,Q135L (CAG?CTG) ,1
+R3,rpsL ?,K43T (AAA?ACA) ,1
+R3,insH-[alsK],,1
+R3,dcuA ? / ? aspA,intergenic (?6/+299),1
+R3,fimB ? / ? fimE,intergenic (+296/?182),1
+R6,araD ?,V32F (GTT?TTT) ,1
+R6,murD ?,S265F (TCC?TTC) ,1
+R6,fhuA ?,P50Q (CCG?CAG) ,1
+R6,insH ? / ? mmuP,intergenic (?206/?2),1
+R6,[mmuP]-[mhpD],,1
+R6,fdrA ? / ? ylbF,intergenic (+123/?1156),1
+R6,fdrA ? / ? ylbF,intergenic (+260/?1019),1
+R6,folD ?,L36Q (CTG?CAG) ,1
+R6,ybcK ? / ? ybcL,intergenic (+345/?120),1
+R6,ybgO ?,P17P (CCG?CCT) ,1
+R6,sdhB ?,F110L (TTC?TTA) ,1
+R6,ybjJ ?,A176A (GCG?GCT) ,1
+R6,ompF ? / ? asnS,intergenic (?170/+433),1
+R6,putA ?,R339S (CGC?AGC) ,1
+R6,putA ?,A270D (GCC?GAC) ,1
+R6,ycdT ?,V130A (GTA?GCA) ,1
+R6,ycdU ? / ? serX,intergenic (+329/+226),1
+R6,ycfQ ? / ? ycfR,intergenic (?164/?77),1
+R6,icd ?,H366H (CAC?CAT) ,1
+R6,icd ?,T370T (ACC?ACT) ,1
+R6,icd ?,L375L (TTA?CTA) ,1
+R6,icd ?,L375L (TTA?TTG) ,1
+R6,icd ?,N385N (AAC?AAT) ,1
+R6,icd ?,A386A (GCG?GCC) ,1
+R6,icd ?,K387K (AAA?AAG) ,1
+R6,icd ?,T390T (ACC?ACT) ,1
+R6,insC-insD,,1
+R6,trpA ?,P21S (CCT?TCT) ,1
+R6,[ydaO]-ynaE,,1
+R6,ynbD ?,L322L (CTG?CTA) ,1
+R6,ydcI ?,coding (11/924 nt),1
+R6,yneI ?,D202Y (GAC?TAC) ,1
+R6,dgsA ?,coding (680/1221 nt),1
+R6,ynjH ? / ? gdhA,intergenic (?224/?12),1
+R6,yebS ?,S301T (TCC?ACC) ,1
+R6,tar ?,L310L (CTC?CTT) ,1
+R6,fliC ?,E115K (GAA?AAA) ,1
+R6,ogrK ? / ? yegR,intergenic (?437/+32),1
+R6,insD-insC,,1
+R6,nuoF ?,V51I (GTT?ATT) ,1
+R6,yfbS ?,L233L (CTG?TTG) ,1
+R6,cysK ?,T258T (ACC?ACT) ,1
+R6,csiE ?,L87S (TTA?TCA) ,1
+R6,rpoS ?,L288P (CTG?CCG) ,1
+R6,rpoS ?,coding (817/876 nt),1
+R6,rpoS ?,coding (813/876 nt),1
+R6,rpoS ? / ? nlpD,intergenic (?21/+159),1
+R6,ygeV ?,L371L (CTC?CTT) ,1
+R6,visC ?,R387S (CGC?AGC) ,1
+R6,cpdA ?,coding (622/828 nt),1
+R6,cpdA ?,coding (488?490/828 nt),1
+R6,yhdE ?,D141H (GAT?CAT) ,1
+R6,rpoC ?,A426S (GCA?TCA) ,1
+R6,insD-insC,,1
+R6,insH,,1
+R6,tnaA ?,coding (365/1416 nt),1
+R6,tnaA ?,G122S (GGC?AGC) ,1
+R6,insH,,1
+R6,yiaJ ?,L259V (CTG?GTG) ,1
+R6,dctA ?,coding (1156?1189/1287 nt),1
+R6,malQ ?,Q135L (CAG?CTG) ,1
+R6,rpsL ?,K43T (AAA?ACA) ,1
+R6,insH-[alsK],,1
+R6,dcuA ? / ? aspA,intergenic (?6/+299),1
+R6,dcuA ? / ? aspA,intergenic (?202/+104),1
+R6,fimB ? / ? fimE,intergenic (+296/?182),1
+R6,araD ?,V32F (GTT?TTT) ,1
+R6,murD ?,S265F (TCC?TTC) ,1
+R6,fhuA ?,P50Q (CCG?CAG) ,1
+R6,insH ? / ? mmuP,intergenic (?206/?2),1
+R6,[mmuP]-[mhpD],,1
+R6,fdrA ? / ? ylbF,intergenic (+123/?1156),1
+R6,fdrA ? / ? ylbF,intergenic (+260/?1019),1
+R6,folD ?,L36Q (CTG?CAG) ,1
+R6,ybcK ? / ? ybcL,intergenic (+345/?120),1
+R6,ybgO ?,P17P (CCG?CCT) ,1
+R6,sdhB ?,F110L (TTC?TTA) ,1
+R6,ybjJ ?,A176A (GCG?GCT) ,1
+R6,ompF ? / ? asnS,intergenic (?170/+433),1
+R6,putA ?,R339S (CGC?AGC) ,1
+R6,putA ?,A270D (GCC?GAC) ,1
+R6,ycdT ?,V130A (GTA?GCA) ,1
+R6,ycdU ? / ? serX,intergenic (+329/+226),1
+R6,ycfQ ? / ? ycfR,intergenic (?164/?77),1
+R6,icd ?,H366H (CAC?CAT) ,1
+R6,icd ?,T370T (ACC?ACT) ,1
+R6,icd ?,L375L (TTA?CTA) ,1
+R6,icd ?,L375L (TTA?TTG) ,1
+R6,icd ?,N385N (AAC?AAT) ,1
+R6,icd ?,A386A (GCG?GCC) ,1
+R6,icd ?,K387K (AAA?AAG) ,1
+R6,icd ?,T390T (ACC?ACT) ,1
+R6,ychS ?,A27T (GCG?ACG) ,1
+R6,ychS ?,S59S (AGT?AGC) ,1
+R6,insC-insD,,1
+R6,trpA ?,P21S (CCT?TCT) ,1
+R6,[ydaO]-ynaE,,1
+R6,ynbD ?,L322L (CTG?CTA) ,1
+R6,ydcI ?,coding (11/924 nt),1
+R6,yneI ?,D202Y (GAC?TAC) ,1
+R6,dgsA ?,coding (680/1221 nt),1
+R6,ynjH ? / ? gdhA,intergenic (?224/?12),1
+R6,yebS ?,S301T (TCC?ACC) ,1
+R6,yobA ? / ? holE,intergenic (?63/?76),1
+R6,tar ?,L310L (CTC?CTT) ,1
+R6,fliC ?,E115K (GAA?AAA) ,1
+R6,ogrK ? / ? yegR,intergenic (?437/+32),1
+R6,insD-insC,,1
+R6,nuoF ?,V51I (GTT?ATT) ,1
+R6,yfbS ?,L233L (CTG?TTG) ,1
+R6,cysK ?,T258T (ACC?ACT) ,1
+R6,rpoS ?,coding (817/876 nt),1
+R6,rpoS ?,coding (813/876 nt),1
+R6,rpoS ? / ? nlpD,intergenic (?21/+159),1
+R6,ygeV ?,L371L (CTC?CTT) ,1
+R6,visC ?,R387S (CGC?AGC) ,1
+R6,cpdA ?,coding (488?490/828 nt),1
+R6,yhdE ?,D141H (GAT?CAT) ,1
+R6,rpoC ?,A426S (GCA?TCA) ,1
+R6,insH,,1
+R6,tnaA ?,coding (365/1416 nt),1
+R6,tnaA ?,G122S (GGC?AGC) ,1
+R6,insH,,1
+R6,yiaJ ?,L259V (CTG?GTG) ,1
+R6,dctA ?,coding (1156?1189/1287 nt),1
+R6,malQ ?,Q135L (CAG?CTG) ,1
+R6,rpsL ?,K43T (AAA?ACA) ,1
+R6,insH-[alsK],,1
+R6,dcuA ? / ? aspA,intergenic (?6/+299),1
+R6,dcuA ? / ? aspA,intergenic (?202/+104),1
+R6,fimB ? / ? fimE,intergenic (+296/?182),1
