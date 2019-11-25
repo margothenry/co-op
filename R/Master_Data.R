@@ -1643,6 +1643,68 @@ write_csv(Chib2017, here("data_in", "for_func", "Chib2017.csv"))
 single_long(paper = "Chib2017", dataset_name = "Chib2017", environment = "LB", days = "28", 
             selective_pressure = "Prolonged stationary phase", species = "Ecoli_K12", who_analyzed = "TL", ploidy = "haploid")
 
+
+
+# (TL): Saxer2014:
+## Saxer2014_ancestorA:
+Saxer2014_ancestorA <- read_csv(here("data_in", "original & usable", "Saxer2014", "Saxer2014_ancestorA_usable.csv"))
+Saxer2014_ancestorA <- clean_names(Saxer2014, case = "snake")
+colnames(Saxer2014_ancestorA) <- tolower(colnames(Saxer2014_ancestorA))
+Saxer2014_ancestorA_out <- c(grep(out_patterns_column_gene, Saxer2014_ancestorA$gene), grep(out_patterns_column_details, Saxer2014_ancestorA$details))
+if (length(Saxer2014_ancestorA_out) > 0) {   
+  Saxer2014_ancestorA <- Saxer2014[-Saxer2014_ancestorA_out,] 
+} 
+Saxer2014_ancestorA <- Saxer2014_ancestorA %>%
+  select(gene, population, frequency)
+Saxer2014_ancestorA <- Saxer2014_ancestorA %>%
+  replace_na(value = 0)
+Saxer2014_ancestorA$frequency <- as.integer(as.logical(Saxer2014_ancestorA$frequency))
+Saxer2014_ancestorA$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Saxer2014_ancestorA$gene)
+
+write_csv(Saxer2014_ancestorA, here("data_in", "for_func", "Saxer2014_ancestorA.csv"))
+single_long(paper = "Saxer2014", dataset_name = "Saxer2014_ancestorA", environment = "BHI", generations = "765", 
+            selective_pressure = "Rich media (BBL BHI)", species = "Ecoli_K12", who_analyzed = "TL", ploidy = "haploid")
+
+
+## Saxer2014_ancestorB:
+Saxer2014_ancestorB <- read_csv(here("data_in", "original & usable", "Saxer2014", "Saxer2014_ancestorB_usable.csv"))
+Saxer2014_ancestorB <- clean_names(Saxer2014, case = "snake")
+colnames(Saxer2014_ancestorB) <- tolower(colnames(Saxer2014_ancestorB))
+Saxer2014_ancestorB_out <- c(grep(out_patterns_column_gene, Saxer2014_ancestorB$gene), grep(out_patterns_column_details, Saxer2014_ancestorB$details))
+if (length(Saxer2014_ancestorB_out) > 0) {   
+  Saxer2014_ancestorB <- Saxer2014[-Saxer2014_ancestorB_out,] 
+} 
+Saxer2014_ancestorB <- Saxer2014_ancestorB %>%
+  select(gene, population, frequency)
+Saxer2014_ancestorB <- Saxer2014_ancestorB %>%
+  replace_na(value = 0)
+Saxer2014_ancestorB$frequency <- as.integer(as.logical(Saxer2014_ancestorB$frequency))
+Saxer2014_ancestorB$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Saxer2014_ancestorB$gene)
+
+write_csv(Saxer2014_ancestorB, here("data_in", "for_func", "Saxer2014_ancestorB.csv"))
+single_long(paper = "Saxer2014", dataset_name = "Saxer2014_ancestorB", environment = "BHI", generations = "765", 
+            selective_pressure = "Rich media (BBL BHI)", species = "Ecoli_K12", who_analyzed = "TL", ploidy = "haploid")
+
+
+## Saxer2014_ancestorC:
+Saxer2014_ancestorC <- read_csv(here("data_in", "original & usable", "Saxer2014", "Saxer2014_ancestorC_usable.csv"))
+Saxer2014_ancestorC <- clean_names(Saxer2014, case = "snake")
+colnames(Saxer2014_ancestorC) <- tolower(colnames(Saxer2014_ancestorC))
+Saxer2014_ancestorC_out <- c(grep(out_patterns_column_gene, Saxer2014_ancestorC$gene), grep(out_patterns_column_details, Saxer2014_ancestorC$details))
+if (length(Saxer2014_ancestorC_out) > 0) {   
+  Saxer2014_ancestorC <- Saxer2014[-Saxer2014_ancestorC_out,] 
+} 
+Saxer2014_ancestorC <- Saxer2014_ancestorC %>%
+  select(gene, population, frequency)
+Saxer2014_ancestorC <- Saxer2014_ancestorC %>%
+  replace_na(value = 0)
+Saxer2014_ancestorC$frequency <- as.integer(as.logical(Saxer2014_ancestorC$frequency))
+Saxer2014_ancestorC$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Saxer2014_ancestorC$gene)
+
+write_csv(Saxer2014_ancestorC, here("data_in", "for_func", "Saxer2014_ancestorC.csv"))
+single_long(paper = "Saxer2014", dataset_name = "Saxer2014_ancestorC", environment = "BHI", generations = "765", 
+            selective_pressure = "Rich media (BBL BHI)", species = "Ecoli_K12", who_analyzed = "TL", ploidy = "haploid")
+
 ####################################
 ### (TL): Run this every time a new dataset is analyzed, or when a dataset is analyzed in a new way.
 # (TL) Combine all the analysis files:
