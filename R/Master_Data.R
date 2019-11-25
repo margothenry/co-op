@@ -409,6 +409,26 @@ write_csv(Payen2016_hap, here("data_in", "for_func", "Payen2016_hap.csv"))
 multiple_long(paper = "Payen2016", dataset_name = "Payen2016_hap", environment = "LB", generations = "20", selective_pressure = c("phosphate"), species = "Sac", 
               who_analyzed = "MH", ploidy = "haploid", strain_info = "haploid")
 
+
+
+# Suzuki2017:
+Suzuki2017 <- read_csv(here("data_in", "original & usable", "Suzuki2017", "Suzuki2017_usable.csv"))
+Suzuki2017 <- clean_names(Suzuki2017, case = "snake")
+colnames(Suzuki2017) <- tolower(colnames(Suzuki2017))
+Suzuki2017_out <- c(grep(out_patterns_column_gene, Suzuki2017$gene), grep(out_patterns_column_details, Suzuki2017$details))
+if (length(Suzuki2017_out) > 0) {   
+  Suzuki2017 <- Suzuki2017[-Suzuki2017_out,] 
+} 
+Suzuki2017 <- Suzuki2017 %>%
+  select(gene, population, selective_pressure, frequency)
+Suzuki2017 <- Suzuki2017 %>%
+  replace_na(value = 0)
+Suzuki2017$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Suzuki2017$gene)
+
+write_csv(Suzuki2017, here("data_in", "for_func", "Suzuki2017.csv"))
+multiple_long(paper = "Suzuki2017", dataset_name = "Suzuki2017", environment = "M9", days = "33", selective_pressure = c("AMK & CP", "AMK & ENX", "CP & ENX", "AMK", "CP", "ENX"), 
+              species = "Ecoli_K12", who_analyzed = "TL", ploidy = "haploid")
+
 ##############################
 # Single wide:
 #############################
@@ -1704,6 +1724,10 @@ Saxer2014_ancestorC$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Saxer2014_anc
 write_csv(Saxer2014_ancestorC, here("data_in", "for_func", "Saxer2014_ancestorC.csv"))
 single_long(paper = "Saxer2014", dataset_name = "Saxer2014_ancestorC", environment = "BHI", generations = "765", 
             selective_pressure = "Rich media (BBL BHI)", species = "Ecoli_K12", who_analyzed = "TL", ploidy = "haploid")
+
+
+
+
 
 ####################################
 ### (TL): Run this every time a new dataset is analyzed, or when a dataset is analyzed in a new way.
