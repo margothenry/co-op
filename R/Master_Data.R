@@ -429,6 +429,46 @@ write_csv(Suzuki2017, here("data_in", "for_func", "Suzuki2017.csv"))
 multiple_long(paper = "Suzuki2017", dataset_name = "Suzuki2017", environment = "M9", days = "33", selective_pressure = c("AMK & CP", "AMK & ENX", "CP & ENX", "AMK", "CP", "ENX"), 
               species = "Ecoli_K12", who_analyzed = "TL", ploidy = "haploid")
 
+
+
+# Tack2018:
+## Tack2018_control:
+Tack2018_control <- read_csv(here("data_in", "original & usable", "Tack2018", "Tack2018_control_usable.csv"))
+Tack2018_control <- clean_names(Tack2018_control, case = "snake")
+colnames(Tack2018_control) <- tolower(colnames(Tack2018_control))
+Tack2018_control_out <- c(grep(out_patterns_column_gene, Tack2018_control$gene), grep(out_patterns_column_details, Tack2018_control$details))
+if (length(Tack2018_control_out) > 0) {   
+  Tack2018_control <- Tack2018_control[-Tack2018_control_out,] 
+} 
+Tack2018_control <- Tack2018_control %>%
+  select(gene, population, selective_pressure, frequency)
+Tack2018_control <- Tack2018_control %>%
+  replace_na(value = 0)
+Tack2018_control$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Tack2018_control$gene)
+
+write_csv(Tack2018_control, here("data_in", "for_func", "Tack2018_control.csv"))
+multiple_long(paper = "Tack2018", dataset_name = "Tack2018_control", environment = "Rich defined media", generations = "2000", selective_pressure = c("RDM20", "RDM19", "RDM13"), 
+              species = "Ecoli_K12", who_analyzed = "TL", ploidy = "haploid")
+
+
+## Tack2018_addicted:
+Tack2018_addicted <- read_csv(here("data_in", "original & usable", "Tack2018", "Tack2018_addicted_usable.csv"))
+Tack2018_addicted <- clean_names(Tack2018_addicted, case = "snake")
+colnames(Tack2018_addicted) <- tolower(colnames(Tack2018_addicted))
+Tack2018_addicted_out <- c(grep(out_patterns_column_gene, Tack2018_addicted$gene), grep(out_patterns_column_details, Tack2018_addicted$details))
+if (length(Tack2018_addicted_out) > 0) {   
+  Tack2018_addicted <- Tack2018_addicted[-Tack2018_addicted_out,] 
+} 
+Tack2018_addicted <- Tack2018_addicted %>%
+  select(gene, population, selective_pressure, frequency)
+Tack2018_addicted <- Tack2018_addicted %>%
+  replace_na(value = 0)
+Tack2018_addicted$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Tack2018_addicted$gene)
+
+write_csv(Tack2018_addicted, here("data_in", "for_func", "Tack2018_addicted.csv"))
+multiple_long(paper = "Tack2018", dataset_name = "Tack2018_addicted", environment = "Rich defined media", generations = "2000", selective_pressure = c("RDM20", "RDM19", "RDM13"), 
+              species = "Ecoli_K12", who_analyzed = "TL", ploidy = "haploid")
+
 ##############################
 # Single wide:
 #############################
