@@ -1,2 +1,2 @@
-"paper","environment","generation","day","flask","selective_pressure","species","ploidy","strain_info","c_hyper","p_chisq","estimate","N_genes.notParallel","N_genes.parallel","parallel_genes","who_analyzed","func"
-"Payen2016","LB","20",NA,NA,"phosphate","Sac","haploid","haploid",16.539,0.005,0.004,8,1,"YML123C","MH","multiple_long"
+"paper","dataset_name","environment","generation","day","flask","selective_pressure","species","ploidy","strain_info","c_hyper","p_chisq","estimate","N_genes.notParallel","N_genes.parallel","parallel_genes","who_analyzed","func"
+"Payen2016","Payen2016_hap","LB","20",NA,NA,"phosphate","Sac","haploid","haploid",16.539,0.005,0.004,8,1,"YML123C","MH","multiple_long"

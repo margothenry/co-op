@@ -1,2 +1,2 @@
-"paper","environment","generation","day","flask","selective_pressure","species","ploidy","strain_info","c_hyper","p_chisq","estimate","N_genes.notParallel","N_genes.parallel","parallel_genes","who_analyzed","func"
-"Deatherage2017","Glucose minimal medium","2000",NA,NA,"Temperature","Ecoli_K12","haploid",NA,61.138,0.005,0.001,1,5,"fimA, pykF, spoT, topA, yeiB","MH","single_long"
+"paper","dataset_name","environment","generation","day","flask","selective_pressure","species","ploidy","strain_info","c_hyper","p_chisq","estimate","N_genes.notParallel","N_genes.parallel","parallel_genes","who_analyzed","func"
+"Deatherage2017","Deatherage2017","Glucose minimal medium","2000",NA,NA,"Temperature","Ecoli_K12","haploid",NA,61.138,0.005,0.001,1,5,"fimA, pykF, spoT, topA, yeiB","MH","single_long"

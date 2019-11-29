@@ -1,2 +1,2 @@
-"paper","environment","generation","day","flask","selective_pressure","species","ploidy","strain_info","c_hyper","p_chisq","estimate","N_genes.notParallel","N_genes.parallel","parallel_genes","who_analyzed","func"
-"KuzdzalFick2018","YPD",NA,"28",NA,"M9 minimal medium","Sac","haploid","TBR1, a segregant obtained by multiple crosses of baking strains.",28.728,0.005,0.003,9,3,"YBR158WCDSAMN1, YDR170CCDSSEC7, YJL123CCDSMTC1","TL","single_long"
+"paper","dataset_name","environment","generation","day","flask","selective_pressure","species","ploidy","strain_info","c_hyper","p_chisq","estimate","N_genes.notParallel","N_genes.parallel","parallel_genes","who_analyzed","func"
+"KuzdzalFick2018","KuzdzalFick2018","YPD",NA,"28",NA,"M9 minimal medium","Sac","haploid","TBR1, a segregant obtained by multiple crosses of baking strains.",28.728,0.005,0.003,9,3,"YBR158WCDSAMN1, YDR170CCDSSEC7, YJL123CCDSMTC1","TL","single_long"

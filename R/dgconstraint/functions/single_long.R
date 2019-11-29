@@ -114,7 +114,7 @@ data.array <- array(0, dim =c(num_genes, num_lineages), dimnames = list(unique(d
   c_hyper[c_hyper == "NaN"] <- 0
   
   
-  df <- tibble(paper = paper, environment = environment, generation = generations, day = days, flask = flasks, selective_pressure = selective_pressure, species = species, 
+  df <- tibble(paper = paper, dataset_name = dataset_name, environment = environment, generation = generations, day = days, flask = flasks, selective_pressure = selective_pressure, species = species, 
                ploidy = ploidy, strain_info = strain_info, c_hyper = round(c_hyper, 3), p_chisq, estimate = round(estimate, 3), 
                N_genes.notParallel = num_non_parallel_genes, N_genes.parallel = num_parallel_genes, parallel_genes, who_analyzed, func = "single_long")
   

@@ -1,7 +1,7 @@
-paper,environment,generation,day,flask,selective_pressure,species,ploidy,strain_info,c_hyper,p_chisq,estimate,N_genes.notParallel,N_genes.parallel,parallel_genes,who_analyzed,func
-Suzuki2017,M9,NA,33,NA,AMK & CP,Ecoli_K12,haploid,NA,2.694,0.005,0.013,13,2,"ybeX, yojL",TL,multiple_long
-Suzuki2017,M9,NA,33,NA,AMK & ENX,Ecoli_K12,haploid,NA,6.95,0.005,0.012,20,8,"acrR, cyaA, cyoB, fusA, ompF, ptsP, rfe, rssB",TL,multiple_long
-Suzuki2017,M9,NA,33,NA,CP & ENX,Ecoli_K12,haploid,NA,17.292,0.005,0.008,16,7,"acrR, atpD, atpF, marR, ompF, rsxC, ygaZ",TL,multiple_long
-Suzuki2017,M9,NA,33,NA,AMK,Ecoli_K12,haploid,NA,1.649,0.005,0.043,31,3,"cyoB, cyoE, metQ",TL,multiple_long
-Suzuki2017,M9,NA,33,NA,CP,Ecoli_K12,haploid,NA,2.535,0.005,0.015,14,2,"acrB, ompF",TL,multiple_long
-Suzuki2017,M9,NA,33,NA,ENX,Ecoli_K12,haploid,NA,2.05,0.005,0.041,34,4,"atpC, clpX, gidA, rssB",TL,multiple_long
+"paper","dataset_name","environment","generation","day","flask","selective_pressure","species","ploidy","strain_info","c_hyper","p_chisq","estimate","N_genes.notParallel","N_genes.parallel","parallel_genes","who_analyzed","func"
+"Suzuki2017","Suzuki2017","M9",NA,"33",NA,"AMK & CP","Ecoli_K12","haploid",NA,2.694,0.005,0.013,13,2,"ybeX, yojL","TL","multiple_long"
+"Suzuki2017","Suzuki2017","M9",NA,"33",NA,"AMK & ENX","Ecoli_K12","haploid",NA,6.95,0.005,0.012,20,8,"acrR, cyaA, cyoB, fusA, ompF, ptsP, rfe, rssB","TL","multiple_long"
+"Suzuki2017","Suzuki2017","M9",NA,"33",NA,"CP & ENX","Ecoli_K12","haploid",NA,17.292,0.005,0.008,16,7,"acrR, atpD, atpF, marR, ompF, rsxC, ygaZ","TL","multiple_long"
+"Suzuki2017","Suzuki2017","M9",NA,"33",NA,"AMK","Ecoli_K12","haploid",NA,1.649,0.005,0.043,31,3,"cyoB, cyoE, metQ","TL","multiple_long"
+"Suzuki2017","Suzuki2017","M9",NA,"33",NA,"CP","Ecoli_K12","haploid",NA,2.535,0.005,0.015,14,2,"acrB, ompF","TL","multiple_long"
+"Suzuki2017","Suzuki2017","M9",NA,"33",NA,"ENX","Ecoli_K12","haploid",NA,2.05,0.005,0.041,34,4,"atpC, clpX, gidA, rssB","TL","multiple_long"

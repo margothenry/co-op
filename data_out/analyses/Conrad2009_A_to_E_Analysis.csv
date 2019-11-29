@@ -1,2 +1,2 @@
-"paper","environment","generation","day","flask","selective_pressure","species","ploidy","strain_info","c_hyper","p_chisq","estimate","N_genes.notParallel","N_genes.parallel","parallel_genes","who_analyzed","func"
-"Conrad2009","M9","1100",NA,NA,"Lactate","Ecoli_K12","haploid",NA,4.177,0.005,0.009,12,3,"crp, hfq, ppsA","TL","single_long"
+"paper","dataset_name","environment","generation","day","flask","selective_pressure","species","ploidy","strain_info","c_hyper","p_chisq","estimate","N_genes.notParallel","N_genes.parallel","parallel_genes","who_analyzed","func"
+"Conrad2009","Conrad2009_A_to_E","M9","1100",NA,NA,"Lactate","Ecoli_K12","haploid",NA,4.177,0.005,0.009,12,3,"crp, hfq, ppsA","TL","single_long"

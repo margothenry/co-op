@@ -1,2 +1,2 @@
-"paper","environment","generation","day","flask","selective_pressure","species","ploidy","strain_info","c_hyper","p_chisq","estimate","N_genes.notParallel","N_genes.parallel","parallel_genes","who_analyzed","func"
-"Sandberg2017","M9 minimal medium + glucose + glycerol","1170",NA,NA,"glucose + glycerol","Ecoli_K12","haploid",NA,51.5,0.005,0.001,1,3,"glpK, rhsE, rpoB","TL","single_long"
+"paper","dataset_name","environment","generation","day","flask","selective_pressure","species","ploidy","strain_info","c_hyper","p_chisq","estimate","N_genes.notParallel","N_genes.parallel","parallel_genes","who_analyzed","func"
+"Sandberg2017","Sandberg2017_glu_gly","M9 minimal medium + glucose + glycerol","1170",NA,NA,"glucose + glycerol","Ecoli_K12","haploid",NA,51.5,0.005,0.001,1,3,"glpK, rhsE, rpoB","TL","single_long"

@@ -1,12 +1,12 @@
 "Population	",Gene,Details,Frequency
-"E2	",FZO1/DTR1,Intergenic,1
+"E2	",FZO1/DTR1,intergenic,1
 "E2	",GID7,Coding sequence,1
-"E2	",YCR101/2,Intergenic,1
+"E2	",YCR101/2,intergenic,1
 "E2		",MAK21,Coding sequence,1
-"E2		",FOB1/ALT2,Intergenic,1
+"E2		",FOB1/ALT2,intergenic,1
 "E2		",MCM6,Coding sequence,1
 "E2			",tG(GCC)G1,tRNA,1
-"E2		",YAP3/tRNA-Val,Intergenic,1
+"E2		",YAP3/tRNA-Val,intergenic,1
 "E2		",YHR112C,Coding sequence,1
 "E2		",NVJ1,Coding sequence,1
 "E2	",CYR1,Coding sequence,1
@@ -24,7 +24,7 @@
 "E3		",GPA1,Coding sequence,1
 "E3		",RTT107,Coding sequence,1
 "E3	","YIL029C	",Coding sequence,1
-"E3		",CTK3/BUL2,Intergenic,1
+"E3		",CTK3/BUL2,intergenic,1
 "E3	",ORC5,Coding sequence,1
 "E3		",ALR1,Coding sequence,1
 "E3		",AEP3,Coding sequence,1
@@ -34,7 +34,7 @@
 "E5		",YHRCdelta10,LTR,1
 "E5		",MOB1,Intron,1
 "E5		",TOR1,Coding sequence,1
-"E5		",SIR1/FLO10,Intergenic,1
+"E5		",SIR1/FLO10,intergenic,1
 "E5		",YLR407W,Coding sequence,1
 "E5		",GAL11,Coding sequence,1
 "E5		",ALG8,Coding sequence,1

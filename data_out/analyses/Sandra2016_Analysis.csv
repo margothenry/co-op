@@ -1,2 +1,2 @@
-"paper","environment","generation","day","flask","selective_pressure","species","ploidy","strain_info","c_hyper","p_chisq","estimate","N_genes.notParallel","N_genes.parallel","parallel_genes","who_analyzed","func"
-"Sandra2016","M9 minimal medium",NA,"8",NA,"Combined UVA and UVB irradiation","Ecoli_K12","haploid",NA,16.714,0.005,0.027,46,2,"icd, thiI","TL","single_long"
+"paper","dataset_name","environment","generation","day","flask","selective_pressure","species","ploidy","strain_info","c_hyper","p_chisq","estimate","N_genes.notParallel","N_genes.parallel","parallel_genes","who_analyzed","func"
+"Sandra2016","Sandra2016","M9 minimal medium",NA,"8",NA,"Combined UVA and UVB irradiation","Ecoli_K12","haploid",NA,16.714,0.005,0.027,46,2,"icd, thiI","TL","single_long"

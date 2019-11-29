@@ -1,2 +1,2 @@
-"paper","environment","generation","day","flask","selective_pressure","species","ploidy","strain_info","c_hyper","p_chisq","estimate","N_genes.notParallel","N_genes.parallel","parallel_genes","who_analyzed","func"
-"Echenique2019","YPD","500",NA,NA,"YPD","Sac","haploid","CTF19 deleted",4.754,0.005,0.008,10,1,"PDE2","TL","single_long"
+"paper","dataset_name","environment","generation","day","flask","selective_pressure","species","ploidy","strain_info","c_hyper","p_chisq","estimate","N_genes.notParallel","N_genes.parallel","parallel_genes","who_analyzed","func"
+"Echenique2019","Echenique2019_CTF19","YPD","500",NA,NA,"YPD","Sac","haploid","CTF19 deleted",4.754,0.005,0.008,10,1,"PDE2","TL","single_long"

@@ -1,2 +1,2 @@
-"paper","environment","generation","day","flask","selective_pressure","species","ploidy","strain_info","c_hyper","p_chisq","estimate","N_genes.notParallel","N_genes.parallel","parallel_genes","who_analyzed","func"
-"Hong2011","Galactose minimal media","400",NA,NA,"Galactose","Sac","haploid",NA,2.347,0.005,0.061,33,1,"YNL098C","TL","single_long"
+"paper","dataset_name","environment","generation","day","flask","selective_pressure","species","ploidy","strain_info","c_hyper","p_chisq","estimate","N_genes.notParallel","N_genes.parallel","parallel_genes","who_analyzed","func"
+"Hong2011","Hong2011","Galactose minimal media","400",NA,NA,"Galactose","Sac","haploid",NA,2.347,0.005,0.061,33,1,"YNL098C","TL","single_long"

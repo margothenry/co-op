@@ -138,7 +138,7 @@ multiple_long <- function(paper, dataset_name, environment, generations = NA, se
   c_hyper[c_hyper == "NaN"] <- 0
   }
   # (TL): The "func" column here will help with subsetting analyses for visualization:
-  df <- tibble(paper = paper, environment = environment, generation = generations, day = days, flask = flasks, selective_pressure = selective_pressure, species = species, 
+  df <- tibble(paper = paper, dataset_name = dataset_name, environment = environment, generation = generations, day = days, flask = flasks, selective_pressure = selective_pressure, species = species, 
                ploidy = ploidy, strain_info = strain_info, c_hyper = round(c_hyper, 3), p_chisq, estimate = round(estimate, 3), 
                N_genes.notParallel = num_non_parallel_genes, N_genes.parallel = num_parallel_genes, parallel_genes, who_analyzed, func = "multiple_long")
   filename2 <- file.path(getwd(), "data_out", "analyses", paste(dataset_name, "_Analysis.csv", sep=""))

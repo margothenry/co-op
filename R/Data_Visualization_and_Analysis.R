@@ -11,24 +11,26 @@ libraries(my_packages)
 master_analyses <- read_csv(here("data_out", "master_analyses.csv"))
 # Inspect the number of papers analyzed:
 (paper_count <- length(unique(master_analyses$paper)))
-
+### As of 191129: 43 papers.
 
 # Inspect the number of papers, by species:
 ## E. coli:
 Ecoli_entries_index <- grep("Ecoli", master_analyses$species)
 Ecoli_entries <- master_analyses[Ecoli_entries_index,]
 (Ecoli_paper_count <- length(unique(Ecoli_entries$paper)))
+### As of 191129: 30 papers.
 
 ## S. cerevisiae:
 Sac_entries_index <- grep("Sac", master_analyses$species)
 Sac_entries <- master_analyses[Sac_entries_index,]
 (Sac_paper_count <- length(unique(Sac_entries$paper)))
+### As of 191129: 11 papers.
 
 ## P. aeruginosa:
 aeruginosa_entries_index <- grep("aeruginosa", master_analyses$species)
 aeruginosa_entries <- master_analyses[aeruginosa_entries_index,]
 (aeruginosa_paper_count <- length(unique(aeruginosa_entries$paper)))
-
+### As of 191129: 2 papers.
 
 # Replace N/A values for "strain_info" with "0".
 master_analyses$strain_info <- master_analyses$strain_info %>%
@@ -38,28 +40,34 @@ master_analyses$strain_info <- master_analyses$strain_info %>%
 # If there are multiple strain backgrounds in 1 paper, include the value for "strain_info" in the "paper" column (for now).
 for (i in 1:nrow(master_analyses)) {
   if (master_analyses[i, "strain_info"] != "0"){
-    master_analyses[i, "paper"] <- paste(master_analyses[i, "paper"], " ", "(", master_analyses[i, "strain_info"], ")", sep = "")
+    master_analyses[i, "dataset_name"] <- paste(master_analyses[i, "dataset_name"], " ", "(", master_analyses[i, "strain_info"], ")", sep = "")
+    } else {
+      if (master_analyses[i, "selective_pressure"] != "0") {
+        master_analyses[i, "dataset_name"] <- paste(master_analyses[i, "dataset_name"], " ", "(", master_analyses[i, "selective_pressure"], ")", sep = "")
+      }
+    }
   }
-}
 
 
-### Inspect the number of datasets (some papers have > 1 dataset):
-(dataset_count <- length(unique(master_analyses$paper)))
-
+### Inspect the number of datasets (some papers have > 1 dataset) (1 dataset: 1 ancestor, 1 environment/selective pressure)
+(dataset_count <- length(unique(master_analyses$dataset_name)))
+### As of 191129: 90 datasets.
 
 # Inspect the number of datasets, by species:
 ## E. coli:
 Ecoli_entries_strain_info_added <- master_analyses[Ecoli_entries_index,]
-(Ecoli_dataset_count <- length(unique(Ecoli_entries_strain_info_added$paper)))
+(Ecoli_dataset_count <- length(unique(Ecoli_entries_strain_info_added$dataset_name)))
+### As of 191129: 52 datasets.
 
 ## S. cerevisiae:
 Sac_entries_strain_info_added <- master_analyses[Sac_entries_index,]
-(Sac_dataset_count <- length(unique(Sac_entries_strain_info_added$paper)))
+(Sac_dataset_count <- length(unique(Sac_entries_strain_info_added$dataset_name)))
+### As of 191129: 35 datasets.
 
 ## P. aeruginosa:
 aeruginosa_entries_strain_info_added <- master_analyses[aeruginosa_entries_index,]
-(aeruginosa_dataset_count <- length(unique(aeruginosa_entries_strain_info_added$paper)))
-
+(aeruginosa_dataset_count <- length(unique(aeruginosa_entries_strain_info_added$dataset_name)))
+### As of 191129: 3 datasets.
 
 # c-hyper vs generation:
 ### Most datasets use generations to notate timepoints. However, there are still some that uses days or flasks. 
@@ -67,31 +75,31 @@ aeruginosa_entries_strain_info_added <- master_analyses[aeruginosa_entries_index
 generation_analysis <- master_analyses %>%
   subset(generation != "NA")
 ## A dot & line chart, color coded by paper. Remove whatever elements you don't need:
-ggplot(generation_analysis, aes(x = generation, y = c_hyper, color = paper)) + geom_point() + labs(color = "Datasets") + geom_line(size = 0.75) + 
+ggplot(generation_analysis, aes(x = generation, y = c_hyper, color = dataset_name)) + geom_point() + labs(color = "Datasets") + geom_line(size = 0.75) + 
   scale_x_log10() + ggtitle("c-hyper vs generation") + theme(plot.title = element_text(hjust = 0.5, size = 20, face = "bold"), legend.position = "bottom") 
 ### A version optimized for the poster competition i.e. graph legend & title removed:
-ggplot(generation_analysis, aes(x = generation, y = c_hyper, color = paper)) + geom_point() + geom_line(size = 0.75) + 
+ggplot(generation_analysis, aes(x = generation, y = c_hyper, color = dataset_name)) + geom_point() + geom_line(size = 0.75) + 
   scale_x_log10() + theme(legend.position = "none")
 
 
 ## Split the chart by species:
 ### E. coli:
-generation_analysis_Ecoli_index <- grep("E. coli", generation_analysis$species)
+generation_analysis_Ecoli_index <- grep("Ecoli", generation_analysis$species)
 generation_analysis_Ecoli <- generation_analysis[generation_analysis_Ecoli_index,]
-ggplot(generation_analysis_Ecoli, aes(x = generation, y = c_hyper, color = paper)) + geom_point() + geom_line(size = 0.75) + 
-  scale_x_log10() + theme(legend.position = "none")
+ggplot(generation_analysis_Ecoli, aes(x = generation, y = c_hyper, color = dataset_name)) + geom_point() + geom_line(size = 0.75) + 
+  scale_x_log10() + ggtitle("c-hyper vs generation, E. coli") + theme(plot.title = element_text(hjust = 0.5, size = 20, face = "bold"), legend.position = "bottom")
 
 ### S. cerevisiae:
-generation_analysis_Sac_index <- grep("S. cerevisiae", generation_analysis$species)
+generation_analysis_Sac_index <- grep("Sac", generation_analysis$species)
 generation_analysis_Sac <- generation_analysis[generation_analysis_Sac_index,]
-ggplot(generation_analysis_Sac, aes(x = generation, y = c_hyper, color = paper)) + geom_point() + geom_line(size = 0.75) + 
-  scale_x_log10() + theme(legend.position = "none")
+ggplot(generation_analysis_Sac, aes(x = generation, y = c_hyper, color = dataset_name)) + geom_point() + geom_line(size = 0.75) + 
+  scale_x_log10() + ggtitle("c-hyper vs generation, S. cerevisiae") + theme(plot.title = element_text(hjust = 0.5, size = 20, face = "bold"), legend.position = "none")
 
 ### P. aeruginosa:
 generation_analysis_P_aeruginosa_index <- grep("P. aeruginosa", generation_analysis$species)
 generation_analysis_P_aeruginosa <- generation_analysis[generation_analysis_P_aeruginosa_index,]
-ggplot(generation_analysis_P_aeruginosa, aes(x = generation, y = c_hyper, color = paper)) + geom_point() + geom_line(size = 0.75) + 
-  scale_x_log10() + theme(legend.position = "none")
+ggplot(generation_analysis_P_aeruginosa, aes(x = generation, y = c_hyper, color = dataset_name)) + geom_point() + geom_line(size = 0.75) + 
+  scale_x_log10() + + ggtitle("c-hyper vs generation, P. aeruginosa") + theme(plot.title = element_text(hjust = 0.5, size = 20, face = "bold"), legend.position = "none")
 
 
 # ## If you just need to color-code by species:
@@ -126,7 +134,7 @@ multiple_wide_generation_analysis <- generation_analysis %>%
   subset(func == "multiple_wide")
 multiple_wide_generation_analysis <- multiple_wide_generation_analysis[order(multiple_wide_generation_analysis$paper, multiple_wide_generation_analysis$generation),]
 
-ggplot(multiple_wide_generation_analysis, aes(x = generation, y = c_hyper, color = paper)) + geom_point() + labs(color = "Datasets") + geom_line(size = 0.75) + 
+ggplot(multiple_wide_generation_analysis, aes(x = generation, y = c_hyper, color = dataset_name)) + geom_point() + labs(color = "Datasets") + geom_line(size = 0.75) + 
   scale_x_log10() + ggtitle("c-hyper vs generation, experiments with multiple generations") + theme(plot.title = element_text(hjust = 0.5, size = 11), legend.position = "bottom")
 ## Get the correlation between generation and c-hyper:
 cor(multiple_wide_generation_analysis$c_hyper, multiple_wide_generation_analysis$generation)

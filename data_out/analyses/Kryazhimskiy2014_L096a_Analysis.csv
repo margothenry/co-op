@@ -1,2 +1,2 @@
-"paper","environment","generation","day","flask","selective_pressure","species","ploidy","strain_info","c_hyper","p_chisq","estimate","N_genes.notParallel","N_genes.parallel","parallel_genes","who_analyzed","func"
-"Kryazhimskiy2014","YPD","500",NA,NA,"YPD","Sac","haploid","Founder L096a",0.49,0.095,0.102,38,1,"GRR1","TL","single_long"
+"paper","dataset_name","environment","generation","day","flask","selective_pressure","species","ploidy","strain_info","c_hyper","p_chisq","estimate","N_genes.notParallel","N_genes.parallel","parallel_genes","who_analyzed","func"
+"Kryazhimskiy2014","Kryazhimskiy2014_L096a","YPD","500",NA,NA,"YPD","Sac","haploid","Founder L096a",0.49,0.085,0.102,38,1,"GRR1","TL","single_long"

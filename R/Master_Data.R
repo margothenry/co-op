@@ -20,9 +20,9 @@ source("R/dgconstraint/functions/single_long.R")
 ############################
 # (TL): Note: All files imported for the analysis must have "_usable.csv" at the end, for uniformity.
 ############################
-### (TL): Create 2 variables containing all patterns of unsuitable entries for grep() to find - 1 variable for patterns in the "gene" column, 1 for "details":
+### (TL): Create 2 variables containing all patterns of unsuitable entries for grep() to find: 1 variable for patterns in the "gene" column, 1 for "details":
 ### (TL): "\\b" denotes "word boundary". So, "\\b0\\b" looks for entries whose values in the "gene" column are just "0".
-out_patterns_column_gene <- c(",|/|\\[|-|\\b0\\b|")
+out_patterns_column_gene <- c(",|/|\\[|-|\\b0\\b")
 out_patterns_column_details <- c("prophage|extragenic|upstream|intergenic|5' UTR|LTR|Intron")
 ############################
 # (TL): Potential future updates: Create a function of all the prelim data-cleaning steps.
@@ -206,7 +206,6 @@ write_csv(Sandberg2016, here("data_in", "for_func", "Sandberg2016.csv"))
 ### (TL): Make sure to call out the argument "flasks"!
 multiple_wide(paper = "Sandberg2016", dataset_name = "Sandberg2016", environment = "Davis minimal medium", selective_pressure = "13C isotope", 
               species = "Ecoli_K12", who_analyzed = "MH", ploidy = "haploid", flasks = c("23", "58", "133"))
-
 
 
 # (TL): Kacar2017:
@@ -1646,7 +1645,7 @@ single_long(paper = "Monk2016", dataset_name = "Monk2016", environment = "LB alt
 Wenger2011 <- read_csv(here("data_in", "original & usable", "Wenger2011", "Wenger2011_usable.csv"))
 Wenger2011 <- clean_names(Wenger2011, case = "snake")
 colnames(Wenger2011) <- tolower(colnames(Wenger2011))
-Wenger2011_out <- c(grep(out_patterns_column_gene, Wenger2011$gene), grep(out_patterns_column_details, Wenger2011$details))
+Wenger2011_out <- c(grep(out_patterns_column_gene, Wenger2011$gene), Wenger2011_out <-grep(out_patterns_column_details, Wenger2011$details))
 if (length(Wenger2011_out) > 0) {   
   Wenger2011 <- Wenger2011[-Wenger2011_out,] 
 } 
