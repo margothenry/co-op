@@ -96,10 +96,10 @@ ggplot(generation_analysis_Sac, aes(x = generation, y = c_hyper, color = dataset
   scale_x_log10() + ggtitle("c-hyper vs generation, S. cerevisiae") + theme(plot.title = element_text(hjust = 0.5, size = 20, face = "bold"), legend.position = "none")
 
 ### P. aeruginosa:
-generation_analysis_P_aeruginosa_index <- grep("P. aeruginosa", generation_analysis$species)
+generation_analysis_P_aeruginosa_index <- grep("aeruginosa", generation_analysis$species)
 generation_analysis_P_aeruginosa <- generation_analysis[generation_analysis_P_aeruginosa_index,]
 ggplot(generation_analysis_P_aeruginosa, aes(x = generation, y = c_hyper, color = dataset_name)) + geom_point() + geom_line(size = 0.75) + 
-  scale_x_log10() + + ggtitle("c-hyper vs generation, P. aeruginosa") + theme(plot.title = element_text(hjust = 0.5, size = 20, face = "bold"), legend.position = "none")
+  scale_x_log10() + ggtitle("c-hyper vs generation, P. aeruginosa") + theme(plot.title = element_text(hjust = 0.5, size = 20, face = "bold"), legend.position = "none")
 
 
 # ## If you just need to color-code by species:
