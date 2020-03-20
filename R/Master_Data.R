@@ -63,7 +63,7 @@ Tenaillon2016 <- Tenaillon2016 %>%
 Tenaillon2016$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Tenaillon2016$gene)
 
 write_csv(Tenaillon2016, here("data_in", "for_func", "Tenaillon2016.csv"))
-### (TL): Make sure to call out ALL arguments - there are lots of parameter. so position-based value input isn't reliable.
+### (TL): Make sure to call out ALL arguments pertaining to each dataset - there are lots of parameter. so position-based value input isn't reliable.
 multiple_wide(paper = "Tenaillon2016", dataset_name = "Tenaillon2016", environment = "Davis minimal medium", 
               generations = c("500", "1000", "1500", "2000", '5000', '10000', '15000', '20000', '30000', '40000','50000'), selective_pressure = "Davis minimal medium", 
               species = "Ecoli_K12", who_analyzed = "MH", ploidy = "haploid")

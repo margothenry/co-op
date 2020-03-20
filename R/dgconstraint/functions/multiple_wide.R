@@ -7,7 +7,7 @@
 #' @param environment The environment in which the experiment occured.
 #' @param generations Timepoint(s) in the data, if generations are used to notate. Must be numeric.
 #' @param selective_pressure A list of the selective pressures in the data. i.e: temperatures, media, stressors.
-#' @param species Specify if the organism is "Sac" or "Ecoli_K12" or "Ecoli_O157-H7", or manually input the gene count of your species when prompted.
+#' @param species Specifies if the organism is "Sac" or "Ecoli_K12" or "Ecoli_O157-H7", or manually input the gene count of your species when prompted.
 #' @param ploidy Haploid, diploid, etc. For E. coli, it's always haploid. 
 #' (190620: In development) @param collapseMutations Specifies whether to run the analysis at the gene level or on distinct mutations within a gene. The default is at the gene level, i.e. to collapse all different mutations within a gene to one entry in the analysis.
 #' @param numgenes The number of genes of the investigated species. If the species specified above is in the database, there's no need to enter a number here.
@@ -22,15 +22,12 @@
 library(dplyr)
 library(sjmisc)
 ###########################
-
-multiple_wide <- function(paper, dataset_name, environment, generations = NA, selective_pressure, species = NA, ploidy, numgenes = NA, strain_info = NA, days = NA, flasks = NA, who_analyzed){
-
+.multiple_wide <- function(paper, dataset_name, environment, generations = NA, selective_pressure, species = NA, ploidy, numgenes = NA, strain_info = NA, 
+                          days = NA, flasks = NA, who_analyzed){
   geneNumbers <- read_csv(file.path(getwd(),"R/dgconstraint/inst/GeneDatabase.csv"), col_types = cols())
-
   data <- read_csv(file.path(getwd(), "data_in", "for_func", paste0(dataset_name, ".csv")), col_types = cols())
-
   if (species %in% geneNumbers$Species){
-  numgenes <- filter(geneNumbers, Species == species)$NumGenes  
+    numgenes <- filter(geneNumbers, Species == species)$NumGenes  
   }
 
   if(is.na(numgenes)){

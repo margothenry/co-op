@@ -5,7 +5,7 @@
 #' @param paper The name of the paper containing the dataset of interest.
 #' @param dataset_name The actual name of the dataset (the part before "_usable.csv")
 #' @param environment The environment in which the experiment occured.
-#' @param generations Timepoint(s) in the data, if generation is used to notate. Must be numeric.
+#' @param generations Timepoint(s) in the data, if generations are used to notate. Must be numeric.
 #' @param selective_pressure A list of the selective pressures in the data. i.e: temperatures, media, stressors.
 #' @param species Specifies if the organism is "Sac" or "Ecoli_K12" or "Ecoli_O157-H7", or manually input the gene count of your species when prompted.
 #' @param ploidy Haploid, diploid, etc. For E. coli, it's always haploid. 
@@ -19,8 +19,11 @@
 #' @return A table with all the calculated information.
 #' @export 
 #' @examples: [update]
-#'
-single_wide <- function(paper, dataset_name, environment, generations = NA, selective_pressure, species = NA, ploidy, numgenes = NA, strain_info = NA, population, days = NA, 
+###########################
+library(dplyr)
+library(sjmisc)
+###########################
+.single_wide <- function(paper, dataset_name, environment, generations = NA, selective_pressure, species = NA, ploidy, numgenes = NA, strain_info = NA, population, days = NA, 
                         flasks = NA, who_analyzed){
 
   geneNumbers <- read_csv(file.path(getwd(),"R/dgconstraint/inst/GeneDatabase.csv"), col_types = cols())
