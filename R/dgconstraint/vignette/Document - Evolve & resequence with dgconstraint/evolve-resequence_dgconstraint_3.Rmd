@@ -1,0 +1,325 @@
+---
+title: <center> Evolve-and-resequence experiment parallelism with dgconstraint </center>
+output: 
+  rmarkdown::html_document:
+# If html_vignette is needed: Remove "toc" & "toc_float".
+    toc: true  
+    toc_float: true 
+    theme: flatly
+    highlight: tango
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(png)
+library(grid)
+```
+The `dgconstraint` package provides functions for calculating the constraint metrics described in the manuscript [Quantifying how constraints limit the diversity of viable routes to adaptation](https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1007717)
+
+# Step 1: Finding useful data
+A good analysis always starts with quality data, and sometimes it can prove challenging. Here are some steps you could follow to make your research a bit easier:
+
+1. Initial scanning:
+    * Year: 2010 or newer.
+        * 2008 or 2009 could also be helpful.
+    * Species: Saccharomyces cerevisiae or Escherichia coli.
+    * Whole-genome sequencing (WGS): Look for words like "whole-genome sequencing", "genome resequencing", or "sequencing" (you get the idea) in the abstract. If you can't find it in the abstract, go to "Methods & Material" (or a section of a similar nature) to look for WGS. If you can't find WGS in either, there's a high chance that paper isn't useful.  
+
+2. Once you've done the initial scanning, check if the proper information is there:
+    * Pro tip: Some helpful keywords:
+        * "sequenc": This checks for WGS and scans both "sequence." & "sequencing".
+        *	"evolution": This looks for the use of adaptive laboratory evolution.
+        *	"figure" & "table": If the publishing site doesn't have a dedicated section for them, these helps you quickly scan the paper for useful info.
+        *	"@": This looks for the emails of corresponding authors.
+    *	Go to "Supplementary Material" and check data.
+        *	Check for files with a list of mutations, which genes those mutations occurred in, which Population these genes were in, and frequencies are a bonus. If they do not have frequencies, then it usually means those genes listed were collected at a certain time point, indicating their presence.
+            *	At least 3 populations. Must have replicates for each.
+        *	We only consider experiments on lab media (M9, YPD, Davis etc.). Other environments (e.g. mice) sounds exciting but it's almost impossible to determine (even approximately) how many duplications the bacteria would undergo per day/transfer.
+        *	Also, we only consider mutations up until the point a mutator appears. Once a mutator appears, the number of mutations increase significantly, adding a layer of complexity which will not be included in this analysis.
+    * If the SI doesn't seem to have any data that works, then look through the paper, sometimes (not usually) they put useful tables in the paper.
+        * Certain papers/hosting sites have a "Figures & Tables" section.
+    *	If you're missing any data, i.e, the mutations don't mention which genes occurred in them. Potential reasons:
+        *	It might be in a different file/in the paper somewhere.
+        *	It doesn't exist at all.
+        *	It would exist (i.e. the analysis shown would not have been possible without that piece of info), but just wasn't included.
+    *	If all else fails but the data and tables provided look so, so promising, email the author in hopes that they reply and provide the missing information. 
+        *	Find the corresponding author's email. Usually, it is right under the title where they list the authors (look for an envelope icon), in the "Supplementary Information" section., or in a "Correspondence" section of its own.  
+
+3.	Now that you have your information, we have to check how accurate it is.  
+
+4.	I finally read the paper to make sure it's actually what we want, it does whole genome sequencing, has more than 2 populations, it's not a dissertation or a thesis paper and its microbial (a.k.a not viral).  
+
+5.	At this point I look in the paper to see if the following information matches the information provided in the data:
+    * Number of mutations. 
+    * Number of generations (if any).
+    * Number of populations.
+    * Number of clones (if any).
+    * Any other information that is listed in the paper.  
+
+6.	If the data matches everything the paper says, great, conduct the analysis. If not, try to figure out why it doesn't add up.  
+
+7.	Sometimes you simply won't find an answer and it might be due to a mistake made by the author. Other times it's a lack of information by the author, as in they might not include the synonymous mutations in their mutation count but won't say that in their paper.  
+
+8.	Overall, do as much sleuthing as you can, in the end of the day if you can't figure out why it doesn't match, you can either get another set of eyes to see if they can figure it out or email the author with your very  specific questions.
+
+
+# Step 2: Setting up 
+Before you start the analysis, you need to ensure that:
+
+* Useful data is saved in .csv format. We recommend naming files `AuthorYear` but any file name without spaces or special characters is fine. 
+* You have `data_in` and `data_out` folders in your working directory: `data_in` will contain the data to analyze (i.e., the .csv files) and the analysis will be written to the `data_out` folder.
+* Decide which function to use with your data:
+    * `single_wide`: sequencing data was obtained from a single generation. Mutation presence/absence is in a separate column for each population. Population information are column headers.
+    * `single_long`: sequencing data was obtained from a single generation. Mutation presence/absence is in a single column. Population information is indicated in a single, separate column.
+    * `multiple_wide`: sequencing data was obtained from multiple generations or treatments (indicated in the columnn headers). Mutation presence/absence is in a separate column for each generation or treatment. Population information is located in a single, separate column.
+    * `multiple_long`: sequencing data was obtained from multiple generations or treatments. Mutation presence/absence is in a single column. There is only one column for generation/treatment and one for population information.
+  
+
+# Step 3: Organizing the data
+
+Most of the time, datasets will need to be re-organized before being fed into your functions. Here are some requirements your data should meet:
+
+### All datasets, regardless of which function you will use, require a column labelled **gene**
+Some datasets record mutations at this level, while others record the specific (i.e. base-pair level) mutations within a gene. For this analysis, the functions will automatically collapse all mutations within a gene. 
+
+### We only consider genic mutations
+A component of the analysis is to compare observed parallelism to possible parallelism. To do this we need to know how many different genes *could* be mutated. In our current functions we use the total number of genes for this. Since we don't know how many intergenic, chromosomal or tranposable element targets exist (or how to computationally consider them), for now we restrict our analysis to genic mutations. Hence non-genic mutations should be removed. Of course you are free to include these mutations as influencing the target gene if you have this information (i.e., a TE that disrupts a gene can be recorded as such and counted in the analysis). 
+
+### Mutation presence/absence must be indicated by 1/0
+
+Example 1: This dataset used X's to indicate mutation presence and blank squares to indicate absence. 
+```{r, echo=FALSE, out.width = '80%', fig.pos = "H", fig.align="center"}
+knitr::include_graphics("figs/Sandberg_1.png")
+```
+
+Example 2: Here, coloured boxes were used to indicate mutation presence/absence. 
+```{r, echo=FALSE, out.width = '80%', fig.pos = "H", fig.align="center"}
+knitr::include_graphics("figs/Creamer.png")
+```
+
+The functions require that mutation presence/absence is recorded numerically by 1 (presence) or 0 (absence). This can be done by hand (e.g. in excel) or programatically in R.
+
+### Multiple clones from the same population need to be collapsed into one
+The goal of this analysis is to examine parallelism among populations. Although of course it is great to have information at the within-population level, for our puposes we consider all mutations equal, regardless of their frequency within the population. Future versions of this analysis could be extended to consider mutation frequency. Hence, information about multiple clones will have to be collapsed into mutation information at the population level.
+
+Here's a couple of examples for how to do it programatically:
+
+Example 1: This dataset is sequenced multiple clones from the same population (e.g., *A1 F1 I1 R1* and *A1 F1 I2 R1*). From [*Wannier et al.*](https://www-pnas-org.uml.idm.oclc.org/content/115/12/3090.short)
+
+```{r, echo=FALSE, out.width = '80%', fig.pos = "H", fig.align="center"}
+knitr::include_graphics("figs/Wannier_1.png")
+```
+
+We combined those two columns as population *A1*, with 0 when both clones have an *NA* (= no mutation) and 1 when either of the clones have the mutation. 
+
+The first step is to replace all of the NA's with 0s, then use ```transmute``` to add together information from different clones. Also, intergenic mutations are filtered out, since we only consider single-gene mutations (as mentioned above - See Step 3 [have a link to Step 3 in the page]):
+
+```{r, eval=FALSE}
+data_m <- data %>% 
+  replace(is.na(.), 0) %>% 
+  transmute(gene= data$gene, Details = data$Details, A1= "A1 F1 I1 R1"+ "A1 F1 I2 R1", A2 = "A2 F1 I1 R1"+ "A2 F1 I2 R1", A3 = "A3 F1 I1 R1"+ "A3 F1 I2 R1", A4 = "A4 F1 I1 R1"+ "A4 F1 I2 R1", A5 = "A5 F1 I1 R1"+ "A5 F1 I2 R1", A6 = "A6 F1 I1 R1"+ "A6 F1 I2 R1", A7 = "A7 F1 I1 R1"+ "A7 F1 I2 R1", A8 = "A8 F1 I1 R1"+ "A8 F1 I2 R1", A9 = "A9 F1 I1 R1"+ "A9 F1 I2 R1", A10 = "A10 F1 I1 R1"+ "A10 F1 I2 R1",A11 = "A1 F1 I1 R1"+ "A11 F1 I2 R1", A12 = "A12 F1 I1 R1"+ "A12 F1 I2 R1", A13 = "A13 F1 I1 R1"+ "A13 F1 I2 R1", A14 = "A14 F1 I1 R1"+ "A14 F1 I2 R1") %>% 
+  filter(Details != "intergenic") 
+```
+
+This is the resulting intermediate dataset:
+
+```{r, echo=FALSE, out.width = '80%', fig.pos = "H", fig.align="center"}
+knitr::include_graphics("figs/Wannier_2.png")
+```
+
+Notice that there are a few 2's in places where both clones had the mutation, so we change all mutations with a frequency above 0 to 1.
+ 
+
+Specify the populations (column headers):
+``` {r, eval=FALSE}
+population <-  paste0("A", 1:14)
+```
+
+Create a matrix that only contains the poulation column:
+```{r, eval=FALSE}
+data.matrix <- as.matrix(data[, population])
+```
+
+Change anything with frequency above 0 to 1:
+```{r, eval=FALSE}
+data.matrix[data.matrix > 0]<-1
+```
+Add back the gene information as a column in the dataframe that will be used to run the constraint function:
+```{r, eval=FALSE}
+AuthorYear <- cbind(as.data.frame(data.matrix), gene = data$gene)
+```
+
+And the dataset now looks like this:  
+
+```{r, echo=FALSE, out.width = '80%', fig.pos = "H", fig.align="center"}
+knitr::include_graphics("figs/Wannier_3.png")
+```
+
+
+Example 2: 
+```{r, echo=FALSE, out.width = '80%', fig.pos = "H", fig.align="center"}
+knitr::include_graphics("figs/Tenaillon_0.png")
+```
+
+Lots of columns, and lots of information in them. To get the data to look like the form in the multiple generation function, we need to do some data cleaning. 
+
+First, I remove some columns that are unnecessary for the purpose of our analysis (e.g. "Mut ID", "Reference Seq"):  
+
+```{r, echo=FALSE, out.width = '80%', fig.pos = "H", fig.align="center"}
+knitr::include_graphics("figs/Tenaillon_1.png")
+```
+
+```{r, echo=FALSE, out.width = '80%', fig.pos = "H", fig.align="center"}
+knitr::include_graphics("figs/Tenaillon_2.png")
+```
+
+As you can see, the column names contain a lot of information, including the generation (e.g. 500), the clone number (e.g. I1), and the replicate number (e.g. R1). I combine both clones into one column and name that column with the generation number. Also, I change the NA's to 0.  
+```{r, eval=FALSE}
+data <- data %>% transmute(gene = data$gene, population = data$population, Details = data$Details, "500" = "500 I1 R1"+"500 I2 R1", "1000" = "1000 I1 R1"+"1000 I2 R1", "1500" ="1500 I1 R1"+"1500 I2 R1", "2000" = "2000 I1 R1"+"2000 I2 R1", "5000" = "5000 I1 R1"+"5000 I2 R1", "10000" = "10000 I1 R1"+"10000 I2 R1", "15000" = "15000 I1 R1"+"15000 I2 R1", "20000" = "20000 I1 R1"+"20000 I2 R1", "30000" = "30000 I1 R1"+"30000 I2 R1", "40000" = "40000 I1 R1"+"40000 I2 R1", "50000" = "50000 I1 R1"+"50000 I2 R1") %>% replace(is.na(.), 0)
+```
+
+In this case, it doesn't matter if the gene count in each column is off (from adding the columns together) because we have a code in the function that changes any value greater then 0 to a 1. So now the dataset will look like this:  
+
+```{r, echo=FALSE, out.width = '80%', fig.pos = "H", fig.align="center"}
+knitr::include_graphics("figs/Tenaillon_3.png")
+```
+
+# Description of each function
+
+## `single_wide`
+This is a wrapper function. It is used to calculate the pairwise C-score using the hypergeometric approach `c_hyper()`, a p-value for 'all lineages' contrast using chi-square `p_chisq()`, and an estimate of the effective proportion of adaptive loci `estimate()` for a dataset.
+
+### Data  
+The dataset should have a column for *gene* and separate columns for each population. This data represents only one generation, typically at the end of the experiment.
+
+e.g.: For the paper by [*Sandberg et al., 2014*](https://academic.oup.com/mbe/article/31/10/2647/1011712)
+```{r, echo=FALSE, out.width = '80%', fig.pos = "H", fig.align="center"}
+knitr::include_graphics("figs/Sandberg_2.png")
+```
+Here you can see that the gene *cbpA* was only present in the population ALE2.
+
+Example usage:
+
+```{r, eval=FALSE}
+single_wide("Sandberg2014", c("ALE1", "ALE2", "ALE3", "ALE4", "ALE5", "ALE6", "ALE7", "ALE8", "ALE9", "ALE10"), "glucose minimal media", "Ecoli_K12")  
+```
+
+### Results  
+The function will give you the results in a table containing the paper name, the environment, c-hyper, the p-value (in practice this isn't typically very informative), the estimate, the number of non-parallel genes, the number of parallel genes, and a list of the parallel genes.  
+
+
+
+```{r, echo=FALSE, out.width = '125%', fig.pos = "H", fig.align="center"}
+knitr::include_graphics("figs/Sandberg_3.png")
+```
+
+## `single_long`
+This is a wrapper function. It is used to calculate the pairwise C-score using the hypergeometric approach `c_hyper()`, a p-value for 'all lineages' contrast using chi-square `p_chisq()`, and an estimate of the effective proportion of adaptive loci `estimate()` for a dataset.
+
+### Data  
+The dataset should have a column for *gene*, a single column specifying the *population*, and a single column that indicates mutation presence/absence (*frequency*).
+
+e.g. For the paper by [*McCloskey et al., 2018*](https://www-nature-com.uml.idm.oclc.org/articles/s41467-018-06219-9)
+
+
+```{r, echo=FALSE, out.width = '80%', fig.pos = "H", fig.align="center"}
+knitr::include_graphics("figs/McCloskey_1.png")
+```
+
+Example usage:
+```{r, eval =FALSE}
+single_long("McCloskey2018", "Ecoli_K12", "YPD")
+```
+
+### Results  
+
+The function will give you the results in a table containing the paper name, the environment, c-hyper, the p-value (in practice this isn't typically very informative), the estimate, the number of non-parallel genes, the number of parallel genes, and a list of the parallel genes.  
+
+
+```{r, echo=FALSE, out.width = '125%', fig.pos = "H", fig.align="center"}
+knitr::include_graphics("figs/McCloskey_2.png")
+```
+
+## `multiple_wide`
+This is a wrapper function. It is used to calculate the pairwise C-score using the hypergeometric approach `c_hyper()`, a p-value for 'all lineages' contrast using chi-square `p_chisq()`, and an estimate of the effective proportion of adaptive loci `estimate()` for a dataset that contains multiple generations or treatments in separate columns.
+
+### Data  
+The dataset should contain the columns *gene* and *population*. Additional columns that specify the multiple generations or treatments indicate mutation presence/absence.
+
+e.g. For the paper by [*Lang et al., 2013*](https://www-nature-com.uml.idm.oclc.org/articles/nature12344)
+```{r, echo=FALSE, out.width = '80%', fig.pos = "H", fig.align="center"}
+knitr::include_graphics("figs/Lang_1.png")
+```
+
+Here you can see that the gene *UBX5* has a frequency of 0.94 at generation 335 in the population BYB1-B01.  
+
+Example usage:
+
+```{r, eval =FALSE}
+multiple_wide("Lang2013", "YPD", "Sac", c("0", "140", "240", "335", "415", "505", "585", "665", "745", "825", "910", "1000"))
+```
+
+
+### Results  
+The function will give you the results in a multi-row table. Each row contains the paper name, the environment, the generations, c-hyper, the p-value (in practice this isn’t typically very informative), the estimate, the number of non-parallel genes, the number of parallel genes, and a list of the parallel genes.
+
+
+```{r, echo=FALSE, out.width = '100%', fig.pos = "H", fig.align="center"}
+knitr::include_graphics("figs/Lang_2.png")
+```
+
+## `multiple_long`
+This is a wrapper function. It is used to calculate the pairwise C-score using the hypergeometric approach `c_hyper()`, a p-value for 'all lineages' contrast using chi-square `p_chisq()`, and an estimate of the effective proportion of adaptive loci `estimate()` for a dataset that contains multiple generations or treatments recorded in a single column.
+
+### Data  
+The dataset should contain the columns *gene*, *population*, *frequency*, and *selective_pressure*.
+
+e.g. For the paper by [*Jerison et al., 2017*](https://elifesciences.org/articles/27167)
+```{r, echo=FALSE, out.width = '80%', fig.pos = "H", fig.align="center"}
+knitr::include_graphics("figs/Jerison_1.png")
+```
+Here we can see that the selective pressures are OT (Optimal Temperature) and HT (High Temperature). Gene *AFI1* has a frequency of 0.6666667 in the population LK5-F08 with HT as the selective pressure.
+
+Example usage:
+
+```{r, eval =FALSE}
+multiple_long("Jerison2017", "YPD", "Ecoli_K12", c("OT", "HT"))
+```
+
+### Results  
+The function will give you the results in a multi-row table containing the paper name, the environment, the selective pressure (or generation), c-hyper, the p-value (in practice this isn’t typically very informative), the estimate, the number of non-parallel genes, the number of parallel genes, and a list of the parallel genes.
+
+
+```{r, echo=FALSE, out.width = '125%', fig.pos = "H", fig.align="center"}
+knitr::include_graphics("figs/Jerison_2.png")
+```
+
+# Step 4: Walk-through
+Once your data is in the proper format you are ready to analyze your data!  
+
+Here, we will use the `multiple_wide` function as an example.  
+
+The function call is
+```{r, eval = FALSE}
+multiple_wide(paper, generations, environment, species)
+```
+This sets the parameters to be used by the function:
+
+* `paper` = "AuthorYear".
+* `generations`: A vector of the generations in the dataset e.g. c("0", "100", "500", "1000", "1500").
+* `environment`: The base environment used in the experiment e.g. "YPD" (this will be recorded in the metadata).
+* `species`: The number of genes in the genome. We have built-in information for *Saccharomyces cerevisiae* `species = "Sac"` and  *Escherichia coli* (either `species =  "Ecoli_K12"` or `species = "Ecoli_O157-H7"`). If you are working with a different organism you can leave this blank and you will be prompted to enter the number of genes.
+    
+In this case, your function will look like this:
+```{r, eval=FALSE}
+multiple_wide(paper = "AuthorYear", generations = c("0", "100", "500", "1000", "1500"), environment = "YPD", species = "Sac")  
+```
+
+After the function is run, the resulting analysis will be saved into the`data_out` folder that you already created. It will be called *AuthorYear_Analysis.csv*. Since this is a multiple-generation example, you will also have separate files for each generation. Each will include the populations, genes, and frequencies at that time point. It will also be saved in the `data_out` folder under the name *AuthorYear_g.csv* (g corresponds to the generation; in this case, there will be five different files, one for each generation [0, 100, 500, 1000, 1500]).
+
+# Step 5: Trouble-shooting
+If you come across an error while running your function: 
+
+* Make sure you picked the right function for your data. Wide-format functions can't run long-format datasets and vice versa.
+* Double check that all the parameters are set properly and that they match the information in your dataset.      
+* Make sure the column names are correct. R is case-sensitive!    
+* Lastly, if there is an error when it tries to calculate the c-hyper, it might be because there is no parallelism in a given generation or selective pressure. When in doubt, take a look at the original data to see if this is the case.

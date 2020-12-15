@@ -1,0 +1,111 @@
+A1-1,A3-1,B1-1,C1-1,C3-1,C3-2,D5-1,A5-1,A5-2,E1-1,E1-2,H1-1,H3-1,G3-1,G5-2,G5-1,Details,Gene (name uncleaned),Gene
+,1,,,,,,,,,,,,,,,intergenic,dapB  /  carA,dapB / carA
+1,1,,,,,,,,,,,,,,,L279L (CTC CTT) ,lptD (imp),lptD (imp)
+,,,,,,,1,1,,,,,,,,coding (583/2907 nt),hepA,hepA
+,,,,,,,,1,,,,,,,,intergenic,fruR  /  mraZ,fruR / mraZ
+,,,,,,,,,1,,,,,,,G36D (GGT GAT) ,ftsZ ,ftsZ
+,,,,,,,,,,,,,,,1,N49T (AAT ACT) ,ecpD ,ecpD
+,,,,,,,,1,,,,,,,,G67A (GGC GCC) ,afuC ,afuC
+,,1,,,,,,,,,,,,,,intergenic,ykgK  /  ykgL,ykgK / ykgL
+,,1,,,,,,,,,,,,,,P147L (CCG CTG) ,tgt ,tgt
+,,,,,,,,,1,1,,,,,,intergenic,yajQ  /  yajR,yajQ / yajR
+,,,,,,,1,1,,,,,,,,intergenic,ybaN  /  apt,ybaN / apt
+,,,,,,,,,1,1,,,,,,coding (363/552 nt),apt ,apt
+,,,,,,,,,1,,,,,,,P450P (CCG CCT) ,ybbP ,ybbP
+1,1,1,1,1,1,1,,,1,1,,,,,,F63V (TTC GTC) ,folD ,folD
+,,,,,,,1,1,,,,,,,,intergenic,ybcQ  /  insH,ybcQ / insH
+,,,,,,,,,,,,,,,1,D619E (GAT GAA) ,mrdA ,mrdA
+,,,,,,,,,,,1,1,1,1,,insH-3 IS5 mediated,[hscC]–gltI,[hscC]–gltI
+,,,,,,,,,,,,,,1,1,intergenic,gltA/sdhC,gltA/sdhC
+,,,,,1,,,,,,,,,,,coding (391/1128 nt),rumB ,rumB
+,,,,,,,,,,,1,1,1,1,,P102P (CCC CCT) ,ltaE ,ltaE
+,,,1,1,1,1,,,,,,,,,,intergenic,pncB  /  pepN,pncB / pepN
+,,,,,,1,,,,,,,,,,N385N (AAC AAT) ,icd ,icd
+1,1,1,,,,,,,,,,,,,,intergenic,elbA  /  ycgX,elbA / ycgX
+,,,,,,,,,,1,,,,,,coding (1160 1163/1212 nt),ycgF ,ycgF
+1,1,1,,,,,,,,,,,,,,coding (79 82/267 nt),ariR(ymgB) ,ariR(ymgB)
+,,,,,,,,,,,,1,1,,,A114A (GCG GCT) ,narH ,narH
+,,,,,,,,,,,1,1,1,1,,intergenic,cysB  /  acnA,cysB / acnA
+1,1,1,,,,,,,,,,,,,,coding (1021/1935 nt),rnb,rnb
+,,,1,1,1,1,,,,,,,,,,E112G (GAG GGG) ,ycjM ,ycjM
+,,,,,,,,,,,,,,,1,G354G (GGG GGA) ,paaE ,paaE
+,,,,,,,,,,,1,1,1,1,,R383S (CGT AGT) ,hrpA ,hrpA
+,,,,,,,1,1,,,,,,,,coding (428 431/3048 nt),fdnG ,fdnG
+,,,,,,,,,,,1,1,1,,,intergenic,fdnI  /  yddM,fdnI / yddM
+,,,,,,,,,,,1,1,1,1,,intergenic,fdnI  /  yddM,fdnI / yddM
+,,,,,,,,,1,1,,,,,,intergenic,ddpX  /  dos,ddpX / dos
+,,,,,,,,,,,1,1,1,1,,coding (2726 2729/2796 nt),pqqL ,pqqL
+,,,,,,,,,,,1,1,1,1,,intergenic,yneL  /  hipA,yneL / hipA
+,,,,,,,1,1,,,,,,,,coding inclusive deletion,[ydeA]–[ydeH],[ydeA]–[ydeH]
+,,,,,,,,,,,1,1,1,1,,coding (91/1002 nt),add ,add
+,,,,1,,,,,,,,,,,,intergenic,ydiK/ydiL,ydiK/ydiL
+,,,,,,,,,,1,,,,,,coding (354 357/357 nt),ydiL ,ydiL
+,,,,,,,1,1,,,,,,,,coding (160/1359 nt),chbC,chbC
+,,,,,,,,,,,1,1,1,1,,coding (115 120/360 nt),yeaR ,yeaR
+,,,,,,,,,1,1,,,,,,L88L (CTC CTT) ,yeaS ,yeaS
+,,,1,1,1,1,,,,,,,,,,coding (191 194/210 nt),cspC ,cspC
+,,,,,,,1,,,,,,,,,coding (40 48/144 nt),yobF ,yobF
+,,,,,,,,,1,1,,,,,,coding (279/291 nt),yebG ,yebG
+,,,,,,,1,1,,,,,,,,E249K (GAA AAA) ,hisG ,hisG
+,,1,,,,,,,,,,,,,,coding (203/591 nt),wbbJ ,wbbJ
+,,,,,,,,,,,1,1,1,1,,L191M (CTG ATG) ,mdtA ,mdtA
+,,,,,1,,,,,,,,,,,coding (435 439/1263 nt),gatZ ,gatZ
+,1,,,,,,,,,,,,,,,coding (259 262/948 nt),dusC ,dusC
+,,,1,,,1,,,,,,,,,,coding (550/1761 nt),yejM ,yejM
+,,,,,,,,,1,,,,,,,V347E (GTG GAG) ,purF ,purF
+,,,,,,,,,,,1,1,1,1,,intergenic,fabB  /  trmC,fabB / trmC
+,,,,,,,,,1,,,,,,,coding (430 433/1539 nt),emrY ,emrY
+,,,,,1,,,,,,,,,,,coding (1285/1371 nt),xseA,xseA
+1,1,1,,,,,,,,,,,,,,E1459* (GAG TAG) ,yfhM ,yfhM
+,,,,,,,,,,,,,,,1,intergenic,aroF  /  yfiL,aroF / yfiL
+,,,,,,,,,,,,,,,1,coding (635 639/1173 nt),emrA ,emrA
+,,,,,,,,,,,,,,,1,I89N (ATC AAC) ,rpoS ,rpoS
+1,1,1,,,,,,,,,,,,,,P190P (CCG CCT) ,fucA ,fucA
+,,,,,,,,,,,1,1,1,1,,G142D (GGC GAC) ,nupG ,nupG
+,,,,,,,,,,,,,,,1,T215P (ACA CCA) ,qseB ,qseB
+,,,,1,,,,,,,,,,,,coding (1600 1603/2466 nt),yqiG ,yqiG
+,,,,,,,,,,,,,,,1,coding (2305 2308/2466 nt),yqiG ,yqiG
+,,,,,,,,,,,,,,,1,coding (602 605/750 nt),yqiH ,yqiH
+,,,,,,,,,,,1,1,1,1,,D213A (GAC GCC) ,rpoD ,rpoD
+,,,,,1,,,,,,,,,,,intergenic,ygjI  /  ygjJ,ygjI / ygjJ
+,,,,,,,1,1,,,,,,,,L84M (CTG ATG) ,uxaA ,uxaA
+,,,,,,,1,1,,,,,,,,coding (257/336 nt),prlF,prlF
+,,,,,,,,,1,1,,,,,,coding (272/336 nt),sohA ,sohA
+1,1,1,,,,,,,,,,,,,,G373S (GGC AGC) ,rpoB ,rpoB
+,,,1,,,1,,,,,,,,,,G92S (GGC AGC) ,cpxA ,cpxA
+,,,,,,,,,,1,,,,,,R106L (CGT CTT) ,cpxA ,cpxA
+1,1,1,,,,,,,,,,,,,,N107S (AAC AGC) ,cpxA ,cpxA
+,,,1,1,1,1,,,,,,,,,,coding (583 586/699 nt),rfaY ,rfaY
+,,,1,1,1,1,,,,,,,,,,intergenic,xylF  /  xylA,xylF / xylA
+1,1,1,,,,,,,,,,,,,,R320H (CGT CAT) ,bcsB ,bcsB
+,,,,,,,,,1,,,,,,,insH IS5-mediated,gadX–[yhiS],gadX–[yhiS]
+,,,,,,,,,1,1,,,,,,insH IS5-mediated,gadX–gadE,gadX–gadE
+,,,,,,,,,1,1,1,1,1,1,,coding (42 119/825 nt),gadX ,gadX
+,,,,,,,,,1,1,,,,,1,L199F (TTG TTT) ,gadX ,gadX
+,,,,,,,1,1,1,1,,,,,,coding (626 629/825 nt),gadX ,gadX
+1,1,1,,,,,,,1,,,,,,,insH mediated,[gadW]–slp,[gadW]–slp
+1,1,1,,1,,,,,,,,,,,,insH mediated,slp  /  insH,slp / insH
+,,,,,,,,1,,1,,,,,,insH mediated,yhiS ,yhiS
+,,,,,,,,,,1,,,,,,insH mediated,[yhiS],[yhiS]
+,,,,,,,,,,,1,1,1,1,,intergenic,yrfF  /  nudE,yrfF / nudE
+,,,1,1,1,1,,,,,,,,,,V191V (GTC GTA) ,frlD ,frlD
+1,1,1,,,,,,,,,,,,,,K271Q (AAA CAA) ,rpoA ,rpoA
+,,,,,,,,,1,1,,,,,,intergenic,metA  /  aceB,metA / aceB
+,,,1,1,1,1,,,,,,,,,,A353T (GCA ACA) ,aceA ,aceA
+,,,,,,,1,1,,,,,,,,intergenic,nrfG  /  gltP,nrfG / gltP
+,,,,,,,,,,,1,1,1,,,intergenic,glyV  /  glyX,glyV / glyX
+,,,,,,,,,,,1,1,1,1,,intergenic,glyV  /  glyX,glyV / glyX
+,,,,,,,,,,,1,1,1,1,,intergenic,glyV  /  glyX,glyV / glyX
+,,,,,,,,,,,1,1,1,1,,V43M (GTG ATG) ,hfq ,hfq
+,,,,,,,,,,,1,,,,,intergenic,treB  /  treR,treB / treR
+,,,,,,,,,,,1,1,1,1,,coding (875 878/1197 nt),yjgN ,yjgN
+,,,,,,,,,1,1,,,,,,coding (353 356/999 nt),idnR ,idnR
+,,,1,,,1,,,,,,,,,,intergenic,yjhA  /  fimB,yjhA / fimB
+,,,,,,,,,,,,,,,1,intergenic,fimB  /  fimE,fimB / fimE
+,,,1,1,1,1,,,,,,,,,,coding (125 128/597 nt),fimE ,fimE
+,,,,,,,,,1,1,,,,,,coding (412 415/597 nt),fimE ,fimE
+,,,,,,,1,1,,,,,,,,intergenic,fimE  /  fimA,fimE / fimA
+,,,1,1,1,,,,,,,,,,,coding (66/549 nt),fimA ,fimA
+,,,,,,1,,,,,,,,,,coding (66/549 nt),fimA ,fimA
+,,,,,,,,,,,,,,,1,C201W (TGC TGG) ,deoD ,deoD
+,,,,,,,,,,,1,1,1,1,,S34P (TCC CCC) ,rob ,rob

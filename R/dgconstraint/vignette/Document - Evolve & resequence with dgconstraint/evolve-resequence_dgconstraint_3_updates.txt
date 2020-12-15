@@ -1,0 +1,4 @@
+Vignette 3.0! Updates:
+_ Added a section to help with finding useful datasets from papers.
+_ Added a second example to "Multiple clones from the same population need to be collapsed into one" section.
+_ Minor formatting (highlight style, bolds, italics, etc.).

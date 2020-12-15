@@ -1,0 +1,55 @@
+B11-1,B11-2,F9-2,F9-3,F11-1,F11-2,H9-1,H9-2,Details,Gene
+1,1,,,,,,,coding (1138/2907 nt),hepA ?
+,,,,,,,1,intergenic (?545/?1035),Y75_p4289 ? / ? eaeH
+,,,,,1,,,D226Y (GAT?TAT),mhpB ?
+,,,,1,1,,,G150C (GGT?TGT),msbA ?
+,,,,,,1,,intergenic (+40/+36),ycbG ? / ? ompA
+,,,1,1,1,1,1,K387K (AAA?AAG) ,icd ?
+,,,,,,1,1,T390T (ACC?ACT) ,icd ?
+,,,,,,,1,E394E (GAG?GAA),icd ?
+,,,,,,,1,D398E (GAT?GAA) ,icd ?
+,,,,1,,,,IS?mediated,[ycjZ]–ynaI
+,,,,1,,1,1,IS?mediated,[mppA]–ynaI
+,,1,1,,,,,IS?mediated,[ynaI]-[ogt]
+,,,,,1,,,intergenic (?61/?63),racR ? / ? ydaS
+,,,,,,1,1,A162E (GCG?GAG),flu ?
+,,,,,,,1,A245S (GCG?TCG),yeiH ?
+,,,,,1,,,Q73K (CAG?AAG),spr ?
+,,1,1,,,1,1,coding (550/1761 nt),yejM ?
+,,,,,,,1,coding (53?58/2673 nt),rcsD ?
+1,1,,,,,,,D79Y (GAC?TAC) ,yfbB ?
+,,1,1,,,,,intergenic (?87/+544),nuoA ? / ? lrhA
+1,,,,,,,,V7L (GTA?TTA) ,yfdI ?
+,,,1,,,,,T400I (ACT?ATT) ,yfjK ?
+,,,,,1,,,intergenic (?310/+50),yfjL ? / ? yfjM
+,,,,,,1,1,R363S (CGT?AGT),fucI ?
+,,,,,,,1,T854A (ACG?GCG) ,gcvP ?
+,,,,1,1,,,M273I (ATG?ATA) ,rpoD ?
+,,1,1,,,,,I774S (ATC?AGC),rpoC ?
+1,1,,,,,,,V507L (GTA?TTA),rpoC ?
+,,,,,,1,1,A679V (GCA?GTA),rpoB ?
+,,,,,,1,1,intergenic (+202/?249),rhaA ? / ? rhaD
+,,,,,,1,1,intergenic (+204/?247),rhaA ? / ? rhaD
+,,,,,,1,1,intergenic (+207/?244),rhaA ? / ? rhaD
+,,,,,,1,1,intergenic (+224/?227),rhaA ? / ? rhaD
+,,,,,,1,1,intergenic (+308/?143),rhaA ? / ? rhaD
+,1,,,,,,,R337S (CGT?AGT) ,metE ?
+,,1,1,,,,,P314Q (CCG?CAG) ,wzzE ?
+,,,,1,1,,,intergenic (?79/+59),rhoL ? / ? trxA
+,,,,1,1,,,IS?mediated,[gadA]–slp
+,,1,1,1,1,,,IS?mediated,[gadX]–slp
+1,1,,,,,,,A101V (GCG?GTG),ftsX ?
+1,1,,,,,,,intergenic (+34/?52),pabA ? / ? argD
+,,,,,,1,1,intergenic (+84/?139),yjbI ? / ? ubiC
+,,1,1,,,,,intergenic (?228/?165),acs ? / ? nrfA
+1,1,,,,,,,R119P (CGC?CCC),adiY ?
+,,,,,,1,1,intergenic (?39/+283),adiY ? / ? adiA
+,,,,1,,,,coding (89?97/297 nt),yjdK ?
+,,,,,1,,,IS?mediated,[ghoS]–cadC  
+,1,,,,,,,IS?mediated,[cadA]-[cadC]
+,,,,1,,,,coding (702?710/1539 nt),cadC ?
+,,,,,,1,1,coding (692?695/1539 nt),cadC ?
+1,,,,,,,,coding (143?146/1539 nt),cadC ?
+1,1,,,,,,,intergenic (?202/+104),dcuA ? / ? aspA
+,,,,1,,,,coding (494?499/549 nt),fimA ?
+,,,,,,1,,S321S (TCG?TCA) ,yjiK ?

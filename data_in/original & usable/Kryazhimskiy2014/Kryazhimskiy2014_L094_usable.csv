@@ -1,0 +1,168 @@
+Population,Notes,Details,Gene,Distance to gene,Frequency
+0,,intergenic,none,,1
+0,,non,PHO89,,1
+0,,non,YDR089W,,1
+0,,intergenic,none,,1
+0,,prom,STO1,37,1
+2,,non,FUS3,,1
+2,,non,YBR139W,,1
+2,,intergenic,none,,1
+2,,prom,YBL008W-A,160,1
+2,,frame,YHR045W,,1
+2,not used,non,YLL058W,,1
+2,not used,non,YNL144C,,1
+2,not used,complex-syn,HXT7,,1
+2,not used,complex-syn,HXT7,,1
+2,not used,non,YEL076C-A,,1
+2,not used,prom,PRE9,161,1
+2,not used,intergenic,none,,1
+2,not used,non,PAH1,,1
+2,not used,stop,CTS1,,1
+2,not used,non,HUT1,,1
+3,,prom,YBR220C,294,1
+3,,intergenic,none,,1
+3,,syn,REV3,,1
+3,,intergenic,none,,1
+3,,intergenic,none,,1
+3,,non,GLR1,,1
+3,,prom,YDR341C,73,1
+3,,non,CKA2,,1
+3,not used,syn,SHR5,,1
+3,not used,non,IRA1,,1
+3,not used,prom,YCL022C,481,1
+3,not used,non,ICY2,,1
+3,not used,non,YDR186C,,1
+3,not used,non,RPH1,,1
+3,not used,non,YHR112C,,1
+3,not used,non,AIM33,,1
+3,not used,non,YOL087C,,1
+3,not used,prom,YBR220C,298,1
+3,not used,intergenic,none,,1
+4,,prom,NAB6,246,1
+4,,frame,HHF2,,1
+4,,intergenic,none,,1
+4,,non,TAH11,,1
+4,,non,DGR2,,1
+4,,stop,ACE2,,1
+4,,non,IRA1,,1
+4,,non,FKS3,,1
+4,,non,YPR097W,,1
+5,,non,YNR029C,,1
+5,,syn,PDH1,,1
+5,,syn,TAD2,,1
+5,,syn,FEN1,,1
+5,,non,PSY2,,1
+5,,non,GRR1,,1
+5,,intergenic,none,,1
+5,,syn,CKA2,,1
+5,,non,BNR1,,1
+5,,syn,IME2,,1
+5,,non,ERG6,,1
+5,,prom,CCT6,294,1
+5,,non,KIC1,,1
+5,,non,YLR278C,,1
+5,,non,CDC55,,1
+5,,non,AGA1,,1
+5,,non,APL4,,1
+5,,prom,MET3,30,1
+5,,non,MSH3,,1
+5,,stop,MKT1,,1
+5,,syn,RET1,,1
+5,,non,INP51,,1
+5,,prom,DFG5,23,1
+6,,non,YTH1,,1
+6,,non,NOP56,,1
+6,,prom,YLR287C,236,1
+6,,stop,DIG1,,1
+6,,syn,CRN1,,1
+6,,syn,CBP3,,1
+6,,non,LTE1,,1
+6,,stop,YIL055C,,1
+6,,non,YJR098C,,1
+6,,non,YMR206W,,1
+6,,non,MRPL22,,1
+6,,prom,YGR250C,458,1
+6,,intergenic,none,,1
+6,,non,CLB2,,1
+6,,non,YLR225C,,1
+7,,frame,FRE1,,1
+7,,non,CIN1,,1
+7,,prom,RPC11,201,1
+7,,non,YGR250C,,1
+7,,non,KEL1,,1
+7,,non,IMA5,,1
+7,,non,NTH2,,1
+7,,prom,YLR365W,364,1
+7,,syn,PTM1,,1
+7,,prom,CAX4,382,1
+7,,intergenic,none,,1
+7,not used,syn,PEX6,,1
+9,,prom,FMP32,199,1
+9,,non,YDL027C,,1
+9,,non,GSF2,,1
+9,,syn,IRA1,,1
+9,,syn,SGF73,,1
+9,,syn,ASG1,,1
+9,,non,PEX1,,1
+9,,stop,OTU1,,1
+9,,non,UTP5,,1
+9,,syn,YNL305C,,1
+10,,non,RPD3,,1
+10,,intergenic,none,,1
+10,,intergenic,none,,1
+10,,prom,URA10,225,1
+10,,prom,JJJ1,148,1
+10,,non,IES4,,1
+10,,syn,RPL14A,,1
+10,,non,TRS130,,1
+10,,non,APL4,,1
+10,,syn,PNP1,,1
+10,,syn,GPR1,,1
+10,,non,REV1,,1
+10,,non,ECM16,,1
+10,,prom,VPH2,66,1
+10,,non,YNR066C,,1
+10,,intergenic,none,,1
+10,,non,IDS2,,1
+10,,non,TIF4631,,1
+10,,frame,VNX1,,1
+10,,non,SPC110,,1
+10,,non,VPS16,,1
+10,,syn,ATM1,,1
+10,,syn,IPI3,,1
+10,,non,APC5,,1
+10,,non,CCP1,,1
+10,,intergenic,none,,1
+10,,non,FOB1,,1
+11,,syn,FIG2,,1
+11,,non,PCS60,,1
+11,,non,POL2,,1
+11,,prom,YBR204C,65,1
+11,,prom,YDR396W,124,1
+11,,non,EOS1,,1
+11,,prom,SCO2,170,1
+11,,syn,CSE1,,1
+11,,prom,ECM4,438,1
+11,,complex-stop,TAL1,,1
+11,,complex-stop,TAL1,,1
+11,,non,MSH3,,1
+11,,non,OM14,,1
+11,,non,VPS75,,1
+11,,stop,EUG1,,1
+12,,non,IRA1,,1
+12,,syn,IRA1,,1
+12,,intron,YRA1,,1
+12,,syn,RIA1,,1
+12,,non,SEC66,,1
+12,,non,SPT23,,1
+12,,prom,HTA2,146,1
+12,,non,KRS1,,1
+12,,non,YOR296W,,1
+12,,prom,CRH1,467,1
+12,,intron,COF1,,1
+12,,non,STB2,,1
+12,,non,ACS1,,1
+12,,syn,IRA1,,1
+12,,non,UBA2,,1
+12,,non,MEP2,,1
+12,,non,YKR070W,,1

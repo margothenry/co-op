@@ -1,0 +1,31 @@
+gene,details,A0 F0 I1 R1,A4 F165 I0 R1,A4 F165 I0 R2,A4 F165 I1 R1,A4 F165 I2 R1,A5 F160 I0 R1,A5 F160 I0 R2,A5 F160 I1 R1,A5 F160 I2 R1,A5 F160 I3 R1,A6 F162 I0 R1,A6 F162 I0 R2,A6 F162 I1 R1,A6 F162 I2 R1
+"insB1, insA",,,1,1,1,1,1,,1,1,1,,,1,1
+"ychE, oppA",intergenic,,,1,1,1,,,,,,1,,,1
+"rph, rph",,,,,,,0.83,0.9,1,1,1,,,,
+"pyrE, rph",intergenic,,,,1,1,,,,,,,,,1
+rhsE,pseudogene (1317/2037 nt),,1,1,1,1,1,1,1,1,1,1,1,1,1
+gatC,pseudogene (1‑2/442 nt),,1,1,,,1,1,,,,1,1,,
+"ilvL, ilvX",intergenic,,0.23,0.23,,,,,,,,,,,
+rpoC,N720H (AAC→CAC),,1,1,1,1,,,,,,,,,
+"gltP, yjcO",intergenic,,,,,,,0.2,,,,0.29,0.21,,
+"gltP, yjcO",intergenic,,,,,,,0.26,,,,0.34,0.21,,
+"gltP, yjcO",intergenic,,0.29,0.29,,,0.33,0.25,,,,0.23,0.27,,
+"gltP, yjcO",intergenic,,0.22,,,,0.24,,,,,,0.23,,
+"gltP, yjcO",intergenic,,1,1,,,1,1,,,,1,1,,
+"pyrE, rph",intergenic,,,,,,,,,,,0.55,0.62,,
+sdaA,coding (35‑38/1365 nt),,,,,,,,,,,,,1,
+rph,pseudogene (632‑641/669 nt),,,,,,,,,,,,,1,
+glpK,M272I (ATG→ATT),,,,,,1,1,1,1,1,1,0.94,1,1
+rpoB,E672K (GAA→AAA),,,,,,1,1,1,1,1,1,1,1,1
+ybbD,pseudogene (258‑261/491 nt),,,,,,0.35,0.42,,,,,,,
+"rtcR, glpR",,,,,,,,,1,,1,,,,
+glpR,pseudogene (146/150 nt),,,0.2,,,,,,,,,,,
+cirA,I547N (ATC→AAC),,,,,,,,,,,,,,1
+tauD,A246G (GCG→GGG),,,,,1,,,,,,,,,
+yajQ,E25* (GAA→TAA),,0.55,0.6,,1,,,,,,,,,
+"ybcM, ylcH",intergenic,,0.69,0.54,,1,,,,,,,,,
+glpR,pseudogene (125/606 nt),,0.61,0.5,,1,,,,,,,,,
+glpK,K173Q (AAA→CAA),,1,1,1,1,,,,,,,,,
+leuP,noncoding (72/87 nt),,,,,1,,,,,,,,,
+ptsP,P557L (CCG→CTG),,,,1,,,,,,,,,,
+glpR,pseudogene (382‑383/606 nt),,,,1,,,,,,,,,,

@@ -1,0 +1,192 @@
+gene,population,selective_pressure,frequency
+ybeX,1,AMK & CP,1
+pspF,1,AMK & CP,1
+yojL,1,AMK & CP,1
+sapB,2,AMK & CP,1
+rsxD,2,AMK & CP,1
+yecE,2,AMK & CP,1
+yafS,3,AMK & CP,1
+rssB,3,AMK & CP,1
+rssB,3,AMK & CP,1
+yojL,4,AMK & CP,1
+clpX,5,AMK & CP,1
+ybeX,5,AMK & CP,1
+adhE,5,AMK & CP,1
+rpoS,5,AMK & CP,1
+rsxC,6,AMK & CP,1
+yfaL,6,AMK & CP,1
+rne,7,AMK & CP,1
+rcsC,7,AMK & CP,1
+acrR,1,AMK & ENX,1
+rsxA,1,AMK & ENX,1
+cyaA,1,AMK & ENX,1
+cyoB,2,AMK & ENX,1
+yheM,2,AMK & ENX,1
+rfe,2,AMK & ENX,1
+cyaA,2,AMK & ENX,1
+acrR,3,AMK & ENX,1
+ompF,3,AMK & ENX,1
+nuoM,3,AMK & ENX,1
+ptsP,3,AMK & ENX,1
+nudH,3,AMK & ENX,1
+fusA,3,AMK & ENX,1
+cyaA,3,AMK & ENX,1
+yjeP,3,AMK & ENX,1
+cyoB,4,AMK & ENX,1
+rssB,4,AMK & ENX,1
+yedP,4,AMK & ENX,1
+ptsP,4,AMK & ENX,1
+rpsS,4,AMK & ENX,1
+cpxA,4,AMK & ENX,1
+ftsZ,5,AMK & ENX,1
+cyoD,5,AMK & ENX,1
+rssB,5,AMK & ENX,1
+gshA,5,AMK & ENX,1
+pnp,5,AMK & ENX,1
+cyoB,6,AMK & ENX,1
+nuoG,6,AMK & ENX,1
+yqcC,6,AMK & ENX,1
+fusA,6,AMK & ENX,1
+fusA,6,AMK & ENX,1
+pitA,6,AMK & ENX,1
+rfaB,6,AMK & ENX,1
+rfe,6,AMK & ENX,1
+cyoE,7,AMK & ENX,1
+glnV,7,AMK & ENX,1
+glnU,7,AMK & ENX,1
+ompF,7,AMK & ENX,1
+cpxR,7,AMK & ENX,1
+acrR,1,CP & ENX,1
+ompF,1,CP & ENX,1
+yddV,1,CP & ENX,1
+atpA,1,CP & ENX,1
+murB,1,CP & ENX,1
+yjjK,1,CP & ENX,1
+acrR,2,CP & ENX,1
+mrdA,2,CP & ENX,1
+ompF,2,CP & ENX,1
+rssB,2,CP & ENX,1
+rsxC,2,CP & ENX,1
+atpD,2,CP & ENX,1
+mltD,3,CP & ENX,1
+ompF,3,CP & ENX,1
+rne,3,CP & ENX,1
+atpF,3,CP & ENX,1
+ompF,4,CP & ENX,1
+marR,4,CP & ENX,1
+ygaZ,4,CP & ENX,1
+atpF,4,CP & ENX,1
+rpoB,4,CP & ENX,1
+ompF,5,CP & ENX,1
+norR,5,CP & ENX,1
+atpB,5,CP & ENX,1
+ybgH,6,CP & ENX,1
+aroA,6,CP & ENX,1
+ompF,6,CP & ENX,1
+plsX,6,CP & ENX,1
+rsxC,6,CP & ENX,1
+rsxC,6,CP & ENX,1
+rffH,6,CP & ENX,1
+ompF,7,CP & ENX,1
+marR,7,CP & ENX,1
+ygaZ,7,CP & ENX,1
+ygaH,7,CP & ENX,1
+atpD,7,CP & ENX,1
+cyoE,1,AMK,1
+ybhQ,1,AMK,1
+nuoL,1,AMK,1
+fusA,1,AMK,1
+arcA,1,AMK,1
+cyoE,2,AMK,1
+nuoI,2,AMK,1
+rplF,2,AMK,1
+crp,2,AMK,1
+dgoT,2,AMK,1
+cpxA,2,AMK,1
+cyoB,3,AMK,1
+sapA,3,AMK,1
+ydiO,3,AMK,1
+rpsO,3,AMK,1
+atpG,3,AMK,1
+serX,4,AMK,1
+yfgB,4,AMK,1
+yjbA,4,AMK,1
+metQ,5,AMK,1
+cyoB,5,AMK,1
+nuoG,5,AMK,1
+clpB,5,AMK,1
+ptsP,5,AMK,1
+cyaA,5,AMK,1
+metQ,6,AMK,1
+yafS,6,AMK,1
+nuoM,6,AMK,1
+pta,6,AMK,1
+tktB,6,AMK,1
+cyoD,7,AMK,1
+mrdB,7,AMK,1
+htpX,7,AMK,1
+pyrG,7,AMK,1
+arcB,7,AMK,1
+rplB,7,AMK,1
+yjjK,7,AMK,1
+acrB,1,CP,1
+ompF,1,CP,1
+guaA,2,CP,1
+gyrB,2,CP,1
+atpB,2,CP,1
+rne,3,CP,1
+nudE,3,CP,1
+acrB,4,CP,1
+rssB,4,CP,1
+atpA,4,CP,1
+murD,5,CP,1
+rrlA,5,CP,1
+crr,6,CP,1
+atpF,6,CP,1
+rffH,6,CP,1
+ompF,7,CP,1
+rsmB,7,CP,1
+atpE,7,CP,1
+clpX,1,ENX,1
+helD,1,ENX,1
+ygbE,1,ENX,1
+yhiJ,1,ENX,1
+gyrB,1,ENX,1
+pepA,1,ENX,1
+rssB,2,ENX,1
+ynfC,2,ENX,1
+dcm,2,ENX,1
+iscR,2,ENX,1
+atpC,2,ENX,1
+atpD,2,ENX,1
+soxR,2,ENX,1
+acrR,3,ENX,1
+ycbC,3,ENX,1
+yejB,3,ENX,1
+trmE,3,ENX,1
+trkH,3,ENX,1
+clpA,4,ENX,1
+marR,4,ENX,1
+mprA,4,ENX,1
+plsC,4,ENX,1
+envZ,4,ENX,1
+atpC,4,ENX,1
+rffE,4,ENX,1
+bipA,4,ENX,1
+secA,5,ENX,1
+ybeA,5,ENX,1
+rssB,5,ENX,1
+mipA,5,ENX,1
+rfaC,5,ENX,1
+gidA,5,ENX,1
+clpX,6,ENX,1
+yfgA,6,ENX,1
+nusG,6,ENX,1
+dnaK,7,ENX,1
+yciH,7,ENX,1
+lpp,7,ENX,1
+lpp,7,ENX,1
+gyrA,7,ENX,1
+bcsE,7,ENX,1
+gidA,7,ENX,1
+rob,7,ENX,1

@@ -1,0 +1,1993 @@
+Population,Gene,Details,Frequency
+BHI1,Ecoli_contig00001_211037_211429,Protein ygiW precursor,-3.00
+BHI1,Ecoli_contig00045_35127_35732,Osmotically inducible protein OsmY,-2.58
+BHI1,Ecoli_contig00044_29629_29967,Chaperone HdeB,-0.29
+BHI1,Ecoli_contig00044_30071_30403,Chaperone HdeA,-5.39
+BHI1,Ecoli_contig00015_25505_25948,PhnB protein; putative DNA binding 3-demethylubiquinone-9 3-methyltransferase domain protein,-5.09
+BHI1,Ecoli_contig00022_5625_6146,Superoxide dismutase [Cu-Zn] precursor (EC 1.15.1.1),-4.44
+BHI1,Ecoli_contig00055_21093_21542,FIG00638941: hypothetical protein,-0.96
+BHI1,Ecoli_contig00050_590_1990,Glutamate decarboxylase (EC 4.1.1.15),-4.08
+BHI1,Ecoli_contig00023_22286_22495,UPF0337 protein yjbJ,-1.56
+BHI1,Ecoli_contig00022_39196_40200,"L,D-transpeptidase YnhG",-3.98
+BHI1,Ecoli_contig00002_143000_143332,FIG00638559: hypothetical protein,-2.81
+BHI1,Ecoli_contig00003_202553_202828,FIG00639237: hypothetical protein,-3.49
+BHI1,Ecoli_contig00041_3652_4128,Bacterioferritin Ecoli_contig00041_3652_4128|Bacterioferritin,-1.12
+BHI1,Ecoli_contig00014_31118_31516,FIG00638813: hypothetical protein,-5.12
+BHI1,Ecoli_contig00003_76107_76679,Glycoprotein-polysaccharide metabolism,-5.36
+BHI1,Ecoli_contig00006_31820_32260,FIG00638953: hypothetical protein,-7.94
+BHI1,Ecoli_contig00059_6428_7279,Chaperone protein hchA,-1.67
+BHI1,Ecoli_contig00008_108643_108981,Osmotically inducible lipoprotein E precursor,-0.32
+BHI1,Ecoli_contig00037_16112_16339,Putative cytoplasmic protein,-3.21
+BHI1,Ecoli_contig00026_23548_23979,Osmotically inducible protein C,-1.86
+BHI1,Ecoli_contig00001_126901_127206,Uncharacterized membrane protein YqjD,-0.59
+BHI1,Ecoli_contig00012_25898_26545,Glutaredoxin 2,-4.06
+BHI1,Ecoli_contig00010_26964_27467,Non-specific DNA-binding protein Dps / Iron-binding ferritin-like antioxidant protein / Ferroxidase (EC 1.16.3.1),-0.05
+BHI1,Ecoli_contig00069_85_366,hypothetical protein,-1.19
+BHI1,Ecoli_contig00029_32534_33202,Uncharacterized membrane lipoprotein clustered with tellurite resistance proteins TehA/TehB,-5.01
+BHI1,Ecoli_contig00040_5204_6427,Phosphopentomutase (EC 5.4.2.7),-2.91
+BHI1,Ecoli_contig00008_136790_137341,Glutathione peroxidase (EC 1.11.1.9),-4.51
+BHI1,Ecoli_contig00017_21328_22068,Protein of unknown function DUF541,-4.48
+BHI1,Ecoli_contig00091_1340_2665,"Putative Dihydrolipoamide dehydrogenase (EC 1.8.1.4); Mercuric ion reductase (EC 1.16.1.1); PF00070 family, FAD-dependent NAD(P)-disulphide oxidoreductase",-4.93
+BHI1,Ecoli_contig00010_81701_82432,"Arginine ABC transporter, periplasmic arginine-binding protein ArtI",-4.23
+BHI1,Ecoli_contig00001_223263_224090,"Methylglyoxal reductase, acetol producing (EC 1.1.1.-) / 2,5-diketo-D-gluconate reductase A (EC 1.1.1.274)",-4.52
+BHI1,Ecoli_contig00087_3350_3976,Nicotinamidase family protein YcaC,-3.69
+BHI1,Ecoli_contig00018_24926_25177,Glutaredoxin 3 (Grx3),-3.75
+BHI1,Ecoli_contig00036_17112_18107,6-phosphogluconolactonase (EC 3.1.1.31),-4.24
+BHI1,Ecoli_contig00055_3042_3557,S-ribosylhomocysteine lyase (EC 4.4.1.21) / Autoinducer-2 production protein LuxS,-1.05
+BHI1,Ecoli_contig00010_83396_83911,probable lipoprotein,-3.47
+BHI1,Ecoli_contig00028_9339_9539,FIG00639395: hypothetical protein,-5.50
+BHI1,Ecoli_contig00040_38339_40255,Chaperone protein DnaK,-0.24
+BHI1,Ecoli_contig00022_15245_15592,hypothetical protein,-7.01
+BHI1,Ecoli_contig00070_10744_11364,YciO family,-4.12
+BHI1,Ecoli_contig00017_36865_37785,Agmatinase (EC 3.5.3.11),-3.71
+BHI1,Ecoli_contig00019_14091_14573,Uncharacterized protein YbeL / FIG002095: hypothetical protein,-5.89
+BHI1,Ecoli_contig00039_29914_30978,Outer membrane protein A precursor,-0.88
+BHI1,Ecoli_contig00018_10600_10809,Putative cytoplasmic protein,-4.15
+BHI1,Ecoli_contig00039_21632_22045,"Succinyl-CoA synthetase, alpha subunit-related enzymes",-4.20
+BHI1,Ecoli_contig00018_59647_59922,DNA-directed RNA polymerase omega subunit (EC 2.7.7.6),-3.26
+BHI1,Ecoli_contig00058_19752_20045,Heat shock protein 60 family co-chaperone GroES,0.49
+BHI1,Ecoli_contig00040_24114_24830,Aerobic respiration control protein arcA,-2.44
+BHI1,Ecoli_contig00008_135347_135646,Integration host factor alpha subunit,-2.35
+BHI1,Ecoli_contig00004_10511_11020,"PTS system, glucose-specific IIA component (EC 2.7.1.69)",-0.33
+BHI1,Ecoli_contig00017_55807_56133,FIG002060: uncharacterized protein YggL,-4.89
+BHI1,Ecoli_contig00004_124412_124747,"Ferredoxin, 2Fe-2S",-5.07
+BHI1,Ecoli_contig00003_106892_107383,FIG001943: hypothetical protein YajQ,-2.95
+BHI1,Ecoli_contig00041_36179_36688,Peptide deformylase (EC 3.5.1.88),-4.54
+BHI1,Ecoli_contig00055_19384_19788,DNA-binding protein H-NS,-5.56
+BHI1,Ecoli_contig00076_4276_4527,Protein yciN,-5.49
+BHI1,Ecoli_contig00006_129169_129741,Peptidyl-prolyl cis-trans isomerase ppiA precursor (EC 5.2.1.8),-4.25
+BHI1,Ecoli_contig00021_674_859,Carbon storage regulator,-3.38
+BHI1,Ecoli_contig00010_110642_111607,Thioredoxin reductase (EC 1.8.1.9),-3.83
+BHI1,Ecoli_contig00002_70478_71362,Cytidine deaminase (EC 3.5.4.5),-10.09
+BHI1,Ecoli_contig00012_51248_52201,"3-oxoacyl-[acyl-carrier-protein] synthase, KASIII (EC 2.3.1.41)",-4.15
+BHI1,Ecoli_contig00004_7086_8057,Cysteine synthase (EC 2.5.1.47),-0.37
+BHI1,Ecoli_contig00046_20883_21671,Enoyl-[acyl-carrier-protein] reductase [NADH] (EC 1.3.1.9),-3.20
+BHI1,Ecoli_contig00013_1438_2079,4-Hydroxy-2-oxoglutarate aldolase (EC 4.1.3.16) / 2-dehydro-3-deoxyphosphogluconate aldolase (EC 4.1.2.14),-4.61
+BHI1,Ecoli_contig00040_13434_15101,"ABC transporter, ATP-binding protein",-4.71
+BHI1,Ecoli_contig00079_5225_5491,Cell division topological specificity factor MinE,-3.30
+BHI1,Ecoli_contig00022_1882_2316,Transcriptional regulator SlyA,-6.73
+BHI1,Ecoli_contig00067_9196_9813,2-dehydro-3-deoxyphosphogalactonate aldolase (EC 4.1.2.21),-2.14
+BHI1,Ecoli_contig00007_128045_128839,3-methyl-2-oxobutanoate hydroxymethyltransferase (EC 2.1.2.11),-4.89
+BHI1,Ecoli_contig00011_65794_67014,"3-oxoacyl-[acyl-carrier-protein] synthase, KASI (EC 2.3.1.41)",-2.56
+BHI1,Ecoli_contig00022_16869_17450,Superoxide dismutase [Fe] (EC 1.15.1.1),-0.43
+BHI1,Ecoli_contig00010_25814_26560,"Glutamine ABC transporter, periplasmic glutamine-binding protein (TC 3.A.1.3.2)",-0.92
+BHI1,Ecoli_contig00049_16500_18140,Phosphoglucomutase (EC 5.4.2.2),-3.14
+BHI1,Ecoli_contig00009_92956_94254,Adenylosuccinate synthetase (EC 6.3.4.4),-3.52
+BHI1,Ecoli_contig00025_44742_45692,Universal stress protein E,-3.85
+BHI1,Ecoli_contig00001_224195_225358,NADPH-dependent broad range aldehyde dehydrogenase YqhD,-6.64
+BHI1,Ecoli_contig00043_300_1154,2-Keto-3-deoxy-D-manno-octulosonate-8-phosphate synthase (EC 2.5.1.55),-2.62
+BHI1,Ecoli_contig00079_4409_5221,Septum site-determining protein MinD,-3.18
+BHI1,Ecoli_contig00011_79636_80418,Lysine-arginine-ornithine-binding periplasmic protein precursor (TC 3.A.1.3.1),-3.14
+BHI1,Ecoli_contig00006_107825_108829,Tryptophanyl-tRNA synthetase (EC 6.1.1.2),-5.87
+BHI1,Ecoli_contig00004_151826_153079,Serine hydroxymethyltransferase (EC 2.1.2.1),-1.31
+BHI1,Ecoli_contig00009_20985_21446,Aspartate carbamoyltransferase regulatory chain (PyrI),-5.56
+BHI1,Ecoli_contig00008_122244_123104,"Fructosamine kinase family protein, At3g61080 homolog",-4.64
+BHI1,Ecoli_contig00018_25995_27539,"2,3-bisphosphoglycerate-independent phosphoglycerate mutase (EC 5.4.2.1)",-4.80
+BHI1,Ecoli_contig00051_5348_5926,Phosphoheptose isomerase 1 (EC 5.3.1.-),-2.85
+BHI1,Ecoli_contig00004_64646_65359,Phosphoribosylaminoimidazole-succinocarboxamide synthase (EC 6.3.2.6),-1.24
+BHI1,Ecoli_contig00011_92755_93957,Acetate kinase (EC 2.7.2.1),-2.30
+BHI1,Ecoli_contig00062_13108_13461,Putative ACR protein,-3.82
+BHI1,Ecoli_contig00009_33020_34372,"TldE/PmbA protein, part of proposed TldE/TldD proteolytic complex (PMID 12029038)",-7.36
+BHI1,Ecoli_contig00013_6972_8414,Pyruvate kinase (EC 2.7.1.40),-4.23
+BHI1,Ecoli_contig00025_30805_31239,Universal stress protein F,0.27
+BHI1,Ecoli_contig00040_35482_36069,"Molybdopterin biosynthesis Mog protein, molybdochelatase",-9.74
+BHI1,Ecoli_contig00012_53159_53893,3-oxoacyl-[acyl-carrier protein] reductase (EC 1.1.1.100),-4.91
+BHI1,Ecoli_contig00012_54428_55669,"3-oxoacyl-[acyl-carrier-protein] synthase, KASII (EC 2.3.1.41)",-5.68
+BHI1,Ecoli_contig00024_12834_14465,"Oligopeptide ABC transporter, periplasmic oligopeptide-binding protein OppA (TC 3.A.1.5.1)",-2.64
+BHI1,Ecoli_contig00044_14971_15405,Universal stress protein A,-0.12
+BHI1,Ecoli_contig00054_26806_28095,Phosphoribosylamine--glycine ligase (EC 6.3.4.13),-4.15
+BHI1,Ecoli_contig00014_70053_71435,ATP synthase beta chain (EC 3.6.3.14),-2.50
+BHI1,Ecoli_contig00004_122859_124142,Peptidase B (EC 3.4.11.23),-4.62
+BHI1,Ecoli_contig00016_54484_55587,Glycerol dehydrogenase (EC 1.1.1.6),-7.03
+BHI1,Ecoli_contig00001_16768_17421,Sigma cross-reacting protein 27A,-4.84
+BHI1,Ecoli_contig00014_73930_74463,ATP synthase delta chain (EC 3.6.3.14),-2.49
+BHI1,Ecoli_contig00028_33958_34752,Methionine aminopeptidase (EC 3.4.11.18),-5.01
+BHI1,Ecoli_contig00011_58959_59891,"Protein-N(5)-glutamine methyltransferase PrmB, methylates LSU ribosomal protein L3p",-7.06
+BHI1,Ecoli_contig00034_28034_28750,Succinate dehydrogenase iron-sulfur protein (EC 1.3.99.1),-1.18
+BHI1,Ecoli_contig00003_120053_120937,Nucleoside-specific channel-forming protein Tsx precursor,-4.35
+BHI1,Ecoli_contig00092_501_1916,Glutamyl-tRNA synthetase (EC 6.1.1.17),-4.84
+BHI1,Ecoli_contig00008_82891_83934,"Selenide,water dikinase (EC 2.7.9.3)",-5.67
+BHI1,Ecoli_contig00003_150419_150679,Cytoplasmic protein YaiB,-4.49
+BHI1,Ecoli_contig00018_32090_33286,2-amino-3-ketobutyrate coenzyme A ligase (EC 2.3.1.29),-4.53
+BHI1,Ecoli_contig00001_66469_66972,FIG002208: Acetyltransferase (EC 2.3.1.-),-4.54
+BHI1,Ecoli_contig00010_118981_120273,Seryl-tRNA synthetase (EC 6.1.1.11),-2.59
+BHI1,Ecoli_contig00054_28107_29696,IMP cyclohydrolase (EC 3.5.4.10) / Phosphoribosylaminoimidazolecarboxamide formyltransferase (EC 2.1.2.3),-4.64
+BHI1,Ecoli_contig00014_90338_91228,"Ribose ABC transport system, periplasmic ribose-binding protein RbsB (TC 3.A.1.2.1)",-2.54
+BHI1,Ecoli_contig00007_107118_108575,Dihydrolipoamide dehydrogenase of pyruvate dehydrogenase complex (EC 1.8.1.4) @ Dihydrolipoamide dehydrogenase (EC 1.8.1.4),-1.39
+BHI1,Ecoli_contig00019_50085_50648,Alkyl hydroperoxide reductase protein C (EC 1.6.4.-),0.43
+BHI1,Ecoli_contig00013_59597_60262,FIG00637942: hypothetical protein,-3.64
+BHI1,Ecoli_contig00007_8887_9708,Dihydrodipicolinate reductase (EC 1.3.1.26),-6.75
+BHI1,Ecoli_contig00028_37517_38341,"2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase (EC 2.3.1.117)",-4.99
+BHI1,Ecoli_contig00034_26252_28018,Succinate dehydrogenase flavoprotein subunit (EC 1.3.99.1),-2.59
+BHI1,Ecoli_contig00085_296_901,Glutathione S-transferase (EC 2.5.1.18),-5.76
+BHI1,Ecoli_contig00019_47726_48154,Universal stress protein G,0.17
+BHI1,Ecoli_contig00004_112217_112648,Nucleoside diphosphate kinase (EC 2.7.4.6),-3.56
+BHI1,Ecoli_contig00017_3562_4656,Aminomethyltransferase (glycine cleavage system T protein) (EC 2.1.2.10),-5.80
+BHI1,Ecoli_contig00034_33350_34516,Succinyl-CoA ligase [ADP-forming] beta chain (EC 6.2.1.5),-0.77
+BHI1,Ecoli_contig00007_10164_11312,Carbamoyl-phosphate synthase small chain (EC 6.3.5.5),-6.62
+BHI1,Ecoli_contig00042_22445_23854,Glutamine synthetase type I (EC 6.3.1.2),-3.60
+BHI1,Ecoli_contig00034_28951_31752,2-oxoglutarate dehydrogenase E1 component (EC 1.2.4.2),-4.06
+BHI1,Ecoli_contig00066_11818_12471,Oxygen-insensitive NAD(P)H nitroreductase (EC 1.-.-.-) / Dihydropteridine reductase (EC 1.5.1.34),-4.97
+BHI1,Ecoli_contig00007_110932_113451,Aconitate hydratase 2 (EC 4.2.1.3) @ 2-methylisocitrate dehydratase (EC 4.2.1.99),-2.38
+BHI1,Ecoli_contig00016_50387_52567,Catalase (EC 1.11.1.6) / Peroxidase (EC 1.11.1.7),-4.19
+BHI1,Ecoli_contig00023_62818_64122,Isocitrate lyase (EC 4.1.3.1),-2.35
+BHI1,Ecoli_contig00002_62858_63856,"Galactose/methyl galactoside ABC transport system, D-galactose-binding periplasmic protein MglB (TC 3.A.1.2.3)",-3.41
+BHI1,Ecoli_contig00023_51604_52293,Alpha-aspartyl dipeptidase Peptidase E (EC 3.4.13.21),-5.13
+BHI1,Ecoli_contig00019_9781_10689,Glutamate Aspartate periplasmic binding protein precursor GltI (TC 3.A.1.3.4),-2.46
+BHI1,Ecoli_contig00005_19069_20244,Mannose-6-phosphate isomerase (EC 5.3.1.8),-5.38
+BHI1,Ecoli_contig00014_71462_72325,ATP synthase gamma chain (EC 3.6.3.14),-3.74
+BHI1,Ecoli_contig00013_57359_57856,Ferritin-like protein 2,-2.57
+BHI1,Ecoli_contig00039_22976_23434,Methylglyoxal synthase (EC 4.2.3.3),-5.61
+BHI1,Ecoli_contig00037_14833_16074,Glucose-1-phosphatase (EC 3.1.3.10),-2.53
+BHI1,Ecoli_contig00027_49668_50606,Malate dehydrogenase (EC 1.1.1.37),0.16
+BHI1,Ecoli_contig00034_34516_35385,Succinyl-CoA ligase [ADP-forming] alpha chain (EC 6.2.1.5),-0.47
+BHI1,Ecoli_contig00067_5696_6628,D-3-phosphoglycerate dehydrogenase (EC 1.1.1.95),-6.77
+BHI1,Ecoli_contig00034_31767_32984,Dihydrolipoamide succinyltransferase component (E2) of 2-oxoglutarate dehydrogenase complex (EC 2.3.1.61),-2.35
+BHI1,Ecoli_contig00008_27657_28628,"PTS system, mannose-specific IIA component (EC 2.7.1.69) / PTS system, mannose-specific IIB component (EC 2.7.1.69)",-4.30
+BHI1,Ecoli_contig00019_77100_79340,"TonB-dependent receptor; Outer membrane receptor for ferric enterobactin and colicins B, D",-4.11
+BHI1,Ecoli_contig00021_70220_71932,Sulfite reductase [NADPH] hemoprotein beta-component (EC 1.8.1.2),-5.71
+BHI1,Ecoli_contig00006_87075_88697,Phosphoenolpyruvate carboxykinase [ATP] (EC 4.1.1.49),-3.35
+BHI1,Ecoli_contig00029_53358_54419,FIG00638561: hypothetical protein,-3.62
+BHI1,Ecoli_contig00019_61043_61900,Isochorismatase (EC 3.3.2.1) [enterobactin] siderophore / Apo-aryl carrier domain of EntB,-4.53
+BHI1,Ecoli_contig00014_42781_44196,Tryptophanase (EC 4.1.99.1),-3.99
+BHI1,Ecoli_contig00015_4418_6064,"Fumarate hydratase class I, anaerobic (EC 4.2.1.2)",-6.67
+BHI1,Ecoli_contig00004_43839_46118,NADP-dependent malic enzyme (EC 1.1.1.40),-3.85
+BHI1,Ecoli_contig00011_80639_81421,"Histidine ABC transporter, histidine-binding periplasmic protein precursor HisJ (TC 3.A.1.3.1)",-4.47
+BHI1,Ecoli_contig00017_40694_41848,S-adenosylmethionine synthetase (EC 2.5.1.6),-4.63
+BHI1,Ecoli_contig00006_43547_44650,Aspartate-semialdehyde dehydrogenase (EC 1.2.1.11),-8.67
+BHI1,Ecoli_contig00043_20205_21623,"Phosphoenolpyruvate-dihydroxyacetone phosphotransferase (EC 2.7.1.121), subunit DhaM; DHA-specific IIA component / DHA-specific phosphocarrier protein HPr / DHA-specific EI component",-8.30
+BHI1,Ecoli_contig00012_96344_97594,Isocitrate dehydrogenase [NADP] (EC 1.1.1.42),-0.41
+BHI1,Ecoli_contig00018_20606_21796,L-lactate dehydrogenase (EC 1.1.2.3),-5.06
+BHI1,Ecoli_contig00017_53682_54728,L-asparaginase (EC 3.5.1.1),-2.33
+BHI1,Ecoli_contig00067_8051_9199,Galactonate dehydratase (EC 4.2.1.6),-4.62
+BHI1,Ecoli_contig00020_44902_45978,"Glycerophosphoryl diester phosphodiesterase, periplasmic (EC 3.1.4.46)",-3.61
+BHI1,Ecoli_contig00004_18363_19154,3-oxoacyl-[acyl-carrier protein] reductase (EC 1.1.1.100),-3.81
+BHI1,Ecoli_contig00023_35313_36503,"Maltose/maltodextrin ABC transporter, substrate binding periplasmic protein MalE",-5.36
+BHI1,Ecoli_contig00070_666_1304,Outer membrane protein W precursor,-2.32
+BHI1,Ecoli_contig00005_20443_22089,"Fumarate hydratase class I, aerobic (EC 4.2.1.2)",-3.09
+BHI2,Ecoli_contig00001_211037_211429,Protein ygiW precursor,-6.32
+BHI2,Ecoli_contig00045_35127_35732,Osmotically inducible protein OsmY,-4.11
+BHI2,Ecoli_contig00044_29629_29967,Chaperone HdeB,-0.77
+BHI2,Ecoli_contig00044_30071_30403,Chaperone HdeA,-5.79
+BHI2,Ecoli_contig00015_25505_25948,PhnB protein; putative DNA binding 3-demethylubiquinone-9 3-methyltransferase domain protein,-6.79
+BHI2,Ecoli_contig00022_5625_6146,Superoxide dismutase [Cu-Zn] precursor (EC 1.15.1.1),
+BHI2,Ecoli_contig00055_21093_21542,FIG00638941: hypothetical protein,-2.14
+BHI2,Ecoli_contig00050_590_1990,Glutamate decarboxylase (EC 4.1.1.15),-6.28
+BHI2,Ecoli_contig00023_22286_22495,UPF0337 protein yjbJ,-2.95
+BHI2,Ecoli_contig00022_39196_40200,"L,D-transpeptidase YnhG",-5.72
+BHI2,Ecoli_contig00002_143000_143332,FIG00638559: hypothetical protein,-4.45
+BHI2,Ecoli_contig00003_202553_202828,FIG00639237: hypothetical protein,-5.41
+BHI2,Ecoli_contig00041_3652_4128,Bacterioferritin Ecoli_contig00041_3652_4128|Bacterioferritin,-2.29
+BHI2,Ecoli_contig00014_31118_31516,FIG00638813: hypothetical protein,-6.64
+BHI2,Ecoli_contig00003_76107_76679,Glycoprotein-polysaccharide metabolism,-8.06
+BHI2,Ecoli_contig00006_31820_32260,FIG00638953: hypothetical protein,
+BHI2,Ecoli_contig00059_6428_7279,Chaperone protein hchA,-2.57
+BHI2,Ecoli_contig00008_108643_108981,Osmotically inducible lipoprotein E precursor,-1.30
+BHI2,Ecoli_contig00037_16112_16339,Putative cytoplasmic protein,-4.02
+BHI2,Ecoli_contig00026_23548_23979,Osmotically inducible protein C,-2.04
+BHI2,Ecoli_contig00001_126901_127206,Uncharacterized membrane protein YqjD,-1.96
+BHI2,Ecoli_contig00012_25898_26545,Glutaredoxin 2,-4.46
+BHI2,Ecoli_contig00010_26964_27467,Non-specific DNA-binding protein Dps / Iron-binding ferritin-like antioxidant protein / Ferroxidase (EC 1.16.3.1),-1.00
+BHI2,Ecoli_contig00069_85_366,hypothetical protein,-1.15
+BHI2,Ecoli_contig00029_32534_33202,Uncharacterized membrane lipoprotein clustered with tellurite resistance proteins TehA/TehB,-6.65
+BHI2,Ecoli_contig00040_5204_6427,Phosphopentomutase (EC 5.4.2.7),-3.54
+BHI2,Ecoli_contig00008_136790_137341,Glutathione peroxidase (EC 1.11.1.9),-4.78
+BHI2,Ecoli_contig00017_21328_22068,Protein of unknown function DUF541,-5.15
+BHI2,Ecoli_contig00091_1340_2665,"Putative Dihydrolipoamide dehydrogenase (EC 1.8.1.4); Mercuric ion reductase (EC 1.16.1.1); PF00070 family, FAD-dependent NAD(P)-disulphide oxidoreductase",-7.47
+BHI2,Ecoli_contig00010_81701_82432,"Arginine ABC transporter, periplasmic arginine-binding protein ArtI",-5.64
+BHI2,Ecoli_contig00001_223263_224090,"Methylglyoxal reductase, acetol producing (EC 1.1.1.-) / 2,5-diketo-D-gluconate reductase A (EC 1.1.1.274)",-5.20
+BHI2,Ecoli_contig00087_3350_3976,Nicotinamidase family protein YcaC,-5.41
+BHI2,Ecoli_contig00018_24926_25177,Glutaredoxin 3 (Grx3),-3.76
+BHI2,Ecoli_contig00036_17112_18107,6-phosphogluconolactonase (EC 3.1.1.31),-4.66
+BHI2,Ecoli_contig00055_3042_3557,S-ribosylhomocysteine lyase (EC 4.4.1.21) / Autoinducer-2 production protein LuxS,-1.44
+BHI2,Ecoli_contig00010_83396_83911,probable lipoprotein,-4.26
+BHI2,Ecoli_contig00028_9339_9539,FIG00639395: hypothetical protein,-5.22
+BHI2,Ecoli_contig00040_38339_40255,Chaperone protein DnaK,-0.47
+BHI2,Ecoli_contig00022_15245_15592,hypothetical protein,-7.42
+BHI2,Ecoli_contig00070_10744_11364,YciO family,-4.19
+BHI2,Ecoli_contig00017_36865_37785,Agmatinase (EC 3.5.3.11),-4.09
+BHI2,Ecoli_contig00019_14091_14573,Uncharacterized protein YbeL / FIG002095: hypothetical protein,-6.05
+BHI2,Ecoli_contig00039_29914_30978,Outer membrane protein A precursor,-1.58
+BHI2,Ecoli_contig00018_10600_10809,Putative cytoplasmic protein,-4.51
+BHI2,Ecoli_contig00039_21632_22045,"Succinyl-CoA synthetase, alpha subunit-related enzymes",-4.83
+BHI2,Ecoli_contig00018_59647_59922,DNA-directed RNA polymerase omega subunit (EC 2.7.7.6),-3.66
+BHI2,Ecoli_contig00058_19752_20045,Heat shock protein 60 family co-chaperone GroES,0.64
+BHI2,Ecoli_contig00040_24114_24830,Aerobic respiration control protein arcA,-2.67
+BHI2,Ecoli_contig00008_135347_135646,Integration host factor alpha subunit,-2.13
+BHI2,Ecoli_contig00004_10511_11020,"PTS system, glucose-specific IIA component (EC 2.7.1.69)",-0.47
+BHI2,Ecoli_contig00017_55807_56133,FIG002060: uncharacterized protein YggL,-4.85
+BHI2,Ecoli_contig00004_124412_124747,"Ferredoxin, 2Fe-2S",-4.52
+BHI2,Ecoli_contig00003_106892_107383,FIG001943: hypothetical protein YajQ,-2.95
+BHI2,Ecoli_contig00041_36179_36688,Peptide deformylase (EC 3.5.1.88),-4.84
+BHI2,Ecoli_contig00055_19384_19788,DNA-binding protein H-NS,-4.92
+BHI2,Ecoli_contig00076_4276_4527,Protein yciN,-5.29
+BHI2,Ecoli_contig00006_129169_129741,Peptidyl-prolyl cis-trans isomerase ppiA precursor (EC 5.2.1.8),-3.98
+BHI2,Ecoli_contig00021_674_859,Carbon storage regulator,-3.21
+BHI2,Ecoli_contig00010_110642_111607,Thioredoxin reductase (EC 1.8.1.9),-2.88
+BHI2,Ecoli_contig00002_70478_71362,Cytidine deaminase (EC 3.5.4.5),-10.08
+BHI2,Ecoli_contig00012_51248_52201,"3-oxoacyl-[acyl-carrier-protein] synthase, KASIII (EC 2.3.1.41)",-3.73
+BHI2,Ecoli_contig00004_7086_8057,Cysteine synthase (EC 2.5.1.47),-0.34
+BHI2,Ecoli_contig00046_20883_21671,Enoyl-[acyl-carrier-protein] reductase [NADH] (EC 1.3.1.9),-3.16
+BHI2,Ecoli_contig00013_1438_2079,4-Hydroxy-2-oxoglutarate aldolase (EC 4.1.3.16) / 2-dehydro-3-deoxyphosphogluconate aldolase (EC 4.1.2.14),-4.12
+BHI2,Ecoli_contig00040_13434_15101,"ABC transporter, ATP-binding protein",-4.63
+BHI2,Ecoli_contig00079_5225_5491,Cell division topological specificity factor MinE,-2.70
+BHI2,Ecoli_contig00022_1882_2316,Transcriptional regulator SlyA,-6.05
+BHI2,Ecoli_contig00067_9196_9813,2-dehydro-3-deoxyphosphogalactonate aldolase (EC 4.1.2.21),-2.22
+BHI2,Ecoli_contig00007_128045_128839,3-methyl-2-oxobutanoate hydroxymethyltransferase (EC 2.1.2.11),-4.40
+BHI2,Ecoli_contig00011_65794_67014,"3-oxoacyl-[acyl-carrier-protein] synthase, KASI (EC 2.3.1.41)",-2.50
+BHI2,Ecoli_contig00022_16869_17450,Superoxide dismutase [Fe] (EC 1.15.1.1),-0.41
+BHI2,Ecoli_contig00010_25814_26560,"Glutamine ABC transporter, periplasmic glutamine-binding protein (TC 3.A.1.3.2)",-0.82
+BHI2,Ecoli_contig00049_16500_18140,Phosphoglucomutase (EC 5.4.2.2),-3.33
+BHI2,Ecoli_contig00009_92956_94254,Adenylosuccinate synthetase (EC 6.3.4.4),-3.78
+BHI2,Ecoli_contig00025_44742_45692,Universal stress protein E,-3.98
+BHI2,Ecoli_contig00001_224195_225358,NADPH-dependent broad range aldehyde dehydrogenase YqhD,-6.64
+BHI2,Ecoli_contig00043_300_1154,2-Keto-3-deoxy-D-manno-octulosonate-8-phosphate synthase (EC 2.5.1.55),-2.16
+BHI2,Ecoli_contig00079_4409_5221,Septum site-determining protein MinD,-2.94
+BHI2,Ecoli_contig00011_79636_80418,Lysine-arginine-ornithine-binding periplasmic protein precursor (TC 3.A.1.3.1),-3.15
+BHI2,Ecoli_contig00006_107825_108829,Tryptophanyl-tRNA synthetase (EC 6.1.1.2),-5.42
+BHI2,Ecoli_contig00004_151826_153079,Serine hydroxymethyltransferase (EC 2.1.2.1),-0.86
+BHI2,Ecoli_contig00009_20985_21446,Aspartate carbamoyltransferase regulatory chain (PyrI),-4.86
+BHI2,Ecoli_contig00008_122244_123104,"Fructosamine kinase family protein, At3g61080 homolog",-4.20
+BHI2,Ecoli_contig00018_25995_27539,"2,3-bisphosphoglycerate-independent phosphoglycerate mutase (EC 5.4.2.1)",-5.16
+BHI2,Ecoli_contig00051_5348_5926,Phosphoheptose isomerase 1 (EC 5.3.1.-),-2.89
+BHI2,Ecoli_contig00004_64646_65359,Phosphoribosylaminoimidazole-succinocarboxamide synthase (EC 6.3.2.6),-0.88
+BHI2,Ecoli_contig00011_92755_93957,Acetate kinase (EC 2.7.2.1),-2.04
+BHI2,Ecoli_contig00062_13108_13461,Putative ACR protein,-2.95
+BHI2,Ecoli_contig00009_33020_34372,"TldE/PmbA protein, part of proposed TldE/TldD proteolytic complex (PMID 12029038)",-7.93
+BHI2,Ecoli_contig00013_6972_8414,Pyruvate kinase (EC 2.7.1.40),-4.14
+BHI2,Ecoli_contig00025_30805_31239,Universal stress protein F,0.74
+BHI2,Ecoli_contig00040_35482_36069,"Molybdopterin biosynthesis Mog protein, molybdochelatase",-9.66
+BHI2,Ecoli_contig00012_53159_53893,3-oxoacyl-[acyl-carrier protein] reductase (EC 1.1.1.100),-4.29
+BHI2,Ecoli_contig00012_54428_55669,"3-oxoacyl-[acyl-carrier-protein] synthase, KASII (EC 2.3.1.41)",-5.16
+BHI2,Ecoli_contig00024_12834_14465,"Oligopeptide ABC transporter, periplasmic oligopeptide-binding protein OppA (TC 3.A.1.5.1)",-2.49
+BHI2,Ecoli_contig00044_14971_15405,Universal stress protein A,0.52
+BHI2,Ecoli_contig00054_26806_28095,Phosphoribosylamine--glycine ligase (EC 6.3.4.13),-3.82
+BHI2,Ecoli_contig00014_70053_71435,ATP synthase beta chain (EC 3.6.3.14),-2.46
+BHI2,Ecoli_contig00004_122859_124142,Peptidase B (EC 3.4.11.23),-3.91
+BHI2,Ecoli_contig00016_54484_55587,Glycerol dehydrogenase (EC 1.1.1.6),-6.68
+BHI2,Ecoli_contig00001_16768_17421,Sigma cross-reacting protein 27A,-2.66
+BHI2,Ecoli_contig00014_73930_74463,ATP synthase delta chain (EC 3.6.3.14),-2.10
+BHI2,Ecoli_contig00028_33958_34752,Methionine aminopeptidase (EC 3.4.11.18),-4.73
+BHI2,Ecoli_contig00011_58959_59891,"Protein-N(5)-glutamine methyltransferase PrmB, methylates LSU ribosomal protein L3p",-6.92
+BHI2,Ecoli_contig00034_28034_28750,Succinate dehydrogenase iron-sulfur protein (EC 1.3.99.1),-1.26
+BHI2,Ecoli_contig00003_120053_120937,Nucleoside-specific channel-forming protein Tsx precursor,-4.51
+BHI2,Ecoli_contig00092_501_1916,Glutamyl-tRNA synthetase (EC 6.1.1.17),-4.95
+BHI2,Ecoli_contig00008_82891_83934,"Selenide,water dikinase (EC 2.7.9.3)",-4.77
+BHI2,Ecoli_contig00003_150419_150679,Cytoplasmic protein YaiB,-3.51
+BHI2,Ecoli_contig00018_32090_33286,2-amino-3-ketobutyrate coenzyme A ligase (EC 2.3.1.29),-4.54
+BHI2,Ecoli_contig00001_66469_66972,FIG002208: Acetyltransferase (EC 2.3.1.-),-4.94
+BHI2,Ecoli_contig00010_118981_120273,Seryl-tRNA synthetase (EC 6.1.1.11),-3.09
+BHI2,Ecoli_contig00054_28107_29696,IMP cyclohydrolase (EC 3.5.4.10) / Phosphoribosylaminoimidazolecarboxamide formyltransferase (EC 2.1.2.3),-5.18
+BHI2,Ecoli_contig00014_90338_91228,"Ribose ABC transport system, periplasmic ribose-binding protein RbsB (TC 3.A.1.2.1)",-2.59
+BHI2,Ecoli_contig00007_107118_108575,Dihydrolipoamide dehydrogenase of pyruvate dehydrogenase complex (EC 1.8.1.4) @ Dihydrolipoamide dehydrogenase (EC 1.8.1.4),-1.65
+BHI2,Ecoli_contig00019_50085_50648,Alkyl hydroperoxide reductase protein C (EC 1.6.4.-),0.69
+BHI2,Ecoli_contig00013_59597_60262,FIG00637942: hypothetical protein,-3.16
+BHI2,Ecoli_contig00007_8887_9708,Dihydrodipicolinate reductase (EC 1.3.1.26),-5.70
+BHI2,Ecoli_contig00028_37517_38341,"2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase (EC 2.3.1.117)",-5.16
+BHI2,Ecoli_contig00034_26252_28018,Succinate dehydrogenase flavoprotein subunit (EC 1.3.99.1),-3.49
+BHI2,Ecoli_contig00085_296_901,Glutathione S-transferase (EC 2.5.1.18),-5.36
+BHI2,Ecoli_contig00019_47726_48154,Universal stress protein G,0.62
+BHI2,Ecoli_contig00004_112217_112648,Nucleoside diphosphate kinase (EC 2.7.4.6),-3.30
+BHI2,Ecoli_contig00017_3562_4656,Aminomethyltransferase (glycine cleavage system T protein) (EC 2.1.2.10),-5.41
+BHI2,Ecoli_contig00034_33350_34516,Succinyl-CoA ligase [ADP-forming] beta chain (EC 6.2.1.5),-1.74
+BHI2,Ecoli_contig00007_10164_11312,Carbamoyl-phosphate synthase small chain (EC 6.3.5.5),-6.17
+BHI2,Ecoli_contig00042_22445_23854,Glutamine synthetase type I (EC 6.3.1.2),-3.13
+BHI2,Ecoli_contig00034_28951_31752,2-oxoglutarate dehydrogenase E1 component (EC 1.2.4.2),-5.01
+BHI2,Ecoli_contig00066_11818_12471,Oxygen-insensitive NAD(P)H nitroreductase (EC 1.-.-.-) / Dihydropteridine reductase (EC 1.5.1.34),-3.86
+BHI2,Ecoli_contig00007_110932_113451,Aconitate hydratase 2 (EC 4.2.1.3) @ 2-methylisocitrate dehydratase (EC 4.2.1.99),-3.08
+BHI2,Ecoli_contig00016_50387_52567,Catalase (EC 1.11.1.6) / Peroxidase (EC 1.11.1.7),-4.64
+BHI2,Ecoli_contig00023_62818_64122,Isocitrate lyase (EC 4.1.3.1),-2.39
+BHI2,Ecoli_contig00002_62858_63856,"Galactose/methyl galactoside ABC transport system, D-galactose-binding periplasmic protein MglB (TC 3.A.1.2.3)",-3.40
+BHI2,Ecoli_contig00023_51604_52293,Alpha-aspartyl dipeptidase Peptidase E (EC 3.4.13.21),-4.79
+BHI2,Ecoli_contig00019_9781_10689,Glutamate Aspartate periplasmic binding protein precursor GltI (TC 3.A.1.3.4),-2.47
+BHI2,Ecoli_contig00005_19069_20244,Mannose-6-phosphate isomerase (EC 5.3.1.8),-5.25
+BHI2,Ecoli_contig00014_71462_72325,ATP synthase gamma chain (EC 3.6.3.14),-3.33
+BHI2,Ecoli_contig00013_57359_57856,Ferritin-like protein 2,-1.98
+BHI2,Ecoli_contig00039_22976_23434,Methylglyoxal synthase (EC 4.2.3.3),-4.19
+BHI2,Ecoli_contig00037_14833_16074,Glucose-1-phosphatase (EC 3.1.3.10),-2.63
+BHI2,Ecoli_contig00027_49668_50606,Malate dehydrogenase (EC 1.1.1.37),0.41
+BHI2,Ecoli_contig00034_34516_35385,Succinyl-CoA ligase [ADP-forming] alpha chain (EC 6.2.1.5),-0.34
+BHI2,Ecoli_contig00067_5696_6628,D-3-phosphoglycerate dehydrogenase (EC 1.1.1.95),-7.20
+BHI2,Ecoli_contig00034_31767_32984,Dihydrolipoamide succinyltransferase component (E2) of 2-oxoglutarate dehydrogenase complex (EC 2.3.1.61),-2.70
+BHI2,Ecoli_contig00008_27657_28628,"PTS system, mannose-specific IIA component (EC 2.7.1.69) / PTS system, mannose-specific IIB component (EC 2.7.1.69)",-4.41
+BHI2,Ecoli_contig00019_77100_79340,"TonB-dependent receptor; Outer membrane receptor for ferric enterobactin and colicins B, D",-3.36
+BHI2,Ecoli_contig00021_70220_71932,Sulfite reductase [NADPH] hemoprotein beta-component (EC 1.8.1.2),-5.79
+BHI2,Ecoli_contig00006_87075_88697,Phosphoenolpyruvate carboxykinase [ATP] (EC 4.1.1.49),-4.08
+BHI2,Ecoli_contig00029_53358_54419,FIG00638561: hypothetical protein,-2.75
+BHI2,Ecoli_contig00019_61043_61900,Isochorismatase (EC 3.3.2.1) [enterobactin] siderophore / Apo-aryl carrier domain of EntB,-4.08
+BHI2,Ecoli_contig00014_42781_44196,Tryptophanase (EC 4.1.99.1),-4.33
+BHI2,Ecoli_contig00015_4418_6064,"Fumarate hydratase class I, anaerobic (EC 4.2.1.2)",-5.36
+BHI2,Ecoli_contig00004_43839_46118,NADP-dependent malic enzyme (EC 1.1.1.40),-4.74
+BHI2,Ecoli_contig00011_80639_81421,"Histidine ABC transporter, histidine-binding periplasmic protein precursor HisJ (TC 3.A.1.3.1)",-4.77
+BHI2,Ecoli_contig00017_40694_41848,S-adenosylmethionine synthetase (EC 2.5.1.6),-3.96
+BHI2,Ecoli_contig00006_43547_44650,Aspartate-semialdehyde dehydrogenase (EC 1.2.1.11),-6.97
+BHI2,Ecoli_contig00043_20205_21623,"Phosphoenolpyruvate-dihydroxyacetone phosphotransferase (EC 2.7.1.121), subunit DhaM; DHA-specific IIA component / DHA-specific phosphocarrier protein HPr / DHA-specific EI component",-8.17
+BHI2,Ecoli_contig00012_96344_97594,Isocitrate dehydrogenase [NADP] (EC 1.1.1.42),-0.16
+BHI2,Ecoli_contig00018_20606_21796,L-lactate dehydrogenase (EC 1.1.2.3),-6.50
+BHI2,Ecoli_contig00017_53682_54728,L-asparaginase (EC 3.5.1.1),-1.23
+BHI2,Ecoli_contig00067_8051_9199,Galactonate dehydratase (EC 4.2.1.6),-4.85
+BHI2,Ecoli_contig00020_44902_45978,"Glycerophosphoryl diester phosphodiesterase, periplasmic (EC 3.1.4.46)",-2.92
+BHI2,Ecoli_contig00004_18363_19154,3-oxoacyl-[acyl-carrier protein] reductase (EC 1.1.1.100),-3.06
+BHI2,Ecoli_contig00023_35313_36503,"Maltose/maltodextrin ABC transporter, substrate binding periplasmic protein MalE",-5.21
+BHI2,Ecoli_contig00070_666_1304,Outer membrane protein W precursor,-1.38
+BHI2,Ecoli_contig00005_20443_22089,"Fumarate hydratase class I, aerobic (EC 4.2.1.2)",-2.78
+BHI3,Ecoli_contig00001_211037_211429,Protein ygiW precursor,-7.20
+BHI3,Ecoli_contig00045_35127_35732,Osmotically inducible protein OsmY,-5.23
+BHI3,Ecoli_contig00044_29629_29967,Chaperone HdeB,-0.20
+BHI3,Ecoli_contig00044_30071_30403,Chaperone HdeA,-4.72
+BHI3,Ecoli_contig00015_25505_25948,PhnB protein; putative DNA binding 3-demethylubiquinone-9 3-methyltransferase domain protein,
+BHI3,Ecoli_contig00022_5625_6146,Superoxide dismutase [Cu-Zn] precursor (EC 1.15.1.1),
+BHI3,Ecoli_contig00055_21093_21542,FIG00638941: hypothetical protein,-3.34
+BHI3,Ecoli_contig00050_590_1990,Glutamate decarboxylase (EC 4.1.1.15),
+BHI3,Ecoli_contig00023_22286_22495,UPF0337 protein yjbJ,-4.50
+BHI3,Ecoli_contig00022_39196_40200,"L,D-transpeptidase YnhG",-5.82
+BHI3,Ecoli_contig00002_143000_143332,FIG00638559: hypothetical protein,-5.66
+BHI3,Ecoli_contig00003_202553_202828,FIG00639237: hypothetical protein,
+BHI3,Ecoli_contig00041_3652_4128,Bacterioferritin Ecoli_contig00041_3652_4128|Bacterioferritin,-3.28
+BHI3,Ecoli_contig00014_31118_31516,FIG00638813: hypothetical protein,
+BHI3,Ecoli_contig00003_76107_76679,Glycoprotein-polysaccharide metabolism,
+BHI3,Ecoli_contig00006_31820_32260,FIG00638953: hypothetical protein,-8.88
+BHI3,Ecoli_contig00059_6428_7279,Chaperone protein hchA,-3.75
+BHI3,Ecoli_contig00008_108643_108981,Osmotically inducible lipoprotein E precursor,-2.80
+BHI3,Ecoli_contig00037_16112_16339,Putative cytoplasmic protein,-5.14
+BHI3,Ecoli_contig00026_23548_23979,Osmotically inducible protein C,-2.31
+BHI3,Ecoli_contig00001_126901_127206,Uncharacterized membrane protein YqjD,-3.21
+BHI3,Ecoli_contig00012_25898_26545,Glutaredoxin 2,-4.83
+BHI3,Ecoli_contig00010_26964_27467,Non-specific DNA-binding protein Dps / Iron-binding ferritin-like antioxidant protein / Ferroxidase (EC 1.16.3.1),-2.06
+BHI3,Ecoli_contig00069_85_366,hypothetical protein,-1.43
+BHI3,Ecoli_contig00029_32534_33202,Uncharacterized membrane lipoprotein clustered with tellurite resistance proteins TehA/TehB,-7.33
+BHI3,Ecoli_contig00040_5204_6427,Phosphopentomutase (EC 5.4.2.7),-4.01
+BHI3,Ecoli_contig00008_136790_137341,Glutathione peroxidase (EC 1.11.1.9),-5.29
+BHI3,Ecoli_contig00017_21328_22068,Protein of unknown function DUF541,-5.16
+BHI3,Ecoli_contig00091_1340_2665,"Putative Dihydrolipoamide dehydrogenase (EC 1.8.1.4); Mercuric ion reductase (EC 1.16.1.1); PF00070 family, FAD-dependent NAD(P)-disulphide oxidoreductase",
+BHI3,Ecoli_contig00010_81701_82432,"Arginine ABC transporter, periplasmic arginine-binding protein ArtI",-5.69
+BHI3,Ecoli_contig00001_223263_224090,"Methylglyoxal reductase, acetol producing (EC 1.1.1.-) / 2,5-diketo-D-gluconate reductase A (EC 1.1.1.274)",-6.39
+BHI3,Ecoli_contig00087_3350_3976,Nicotinamidase family protein YcaC,-8.06
+BHI3,Ecoli_contig00018_24926_25177,Glutaredoxin 3 (Grx3),-3.83
+BHI3,Ecoli_contig00036_17112_18107,6-phosphogluconolactonase (EC 3.1.1.31),-4.99
+BHI3,Ecoli_contig00055_3042_3557,S-ribosylhomocysteine lyase (EC 4.4.1.21) / Autoinducer-2 production protein LuxS,-1.64
+BHI3,Ecoli_contig00010_83396_83911,probable lipoprotein,-5.50
+BHI3,Ecoli_contig00028_9339_9539,FIG00639395: hypothetical protein,-6.13
+BHI3,Ecoli_contig00040_38339_40255,Chaperone protein DnaK,-0.32
+BHI3,Ecoli_contig00022_15245_15592,hypothetical protein,-7.62
+BHI3,Ecoli_contig00070_10744_11364,YciO family,-4.21
+BHI3,Ecoli_contig00017_36865_37785,Agmatinase (EC 3.5.3.11),-4.02
+BHI3,Ecoli_contig00019_14091_14573,Uncharacterized protein YbeL / FIG002095: hypothetical protein,-5.83
+BHI3,Ecoli_contig00039_29914_30978,Outer membrane protein A precursor,-2.42
+BHI3,Ecoli_contig00018_10600_10809,Putative cytoplasmic protein,-4.39
+BHI3,Ecoli_contig00039_21632_22045,"Succinyl-CoA synthetase, alpha subunit-related enzymes",-5.06
+BHI3,Ecoli_contig00018_59647_59922,DNA-directed RNA polymerase omega subunit (EC 2.7.7.6),-4.07
+BHI3,Ecoli_contig00058_19752_20045,Heat shock protein 60 family co-chaperone GroES,0.61
+BHI3,Ecoli_contig00040_24114_24830,Aerobic respiration control protein arcA,-2.77
+BHI3,Ecoli_contig00008_135347_135646,Integration host factor alpha subunit,-3.07
+BHI3,Ecoli_contig00004_10511_11020,"PTS system, glucose-specific IIA component (EC 2.7.1.69)",-0.54
+BHI3,Ecoli_contig00017_55807_56133,FIG002060: uncharacterized protein YggL,-5.78
+BHI3,Ecoli_contig00004_124412_124747,"Ferredoxin, 2Fe-2S",-4.73
+BHI3,Ecoli_contig00003_106892_107383,FIG001943: hypothetical protein YajQ,-2.98
+BHI3,Ecoli_contig00041_36179_36688,Peptide deformylase (EC 3.5.1.88),-4.70
+BHI3,Ecoli_contig00055_19384_19788,DNA-binding protein H-NS,-5.33
+BHI3,Ecoli_contig00076_4276_4527,Protein yciN,-4.93
+BHI3,Ecoli_contig00006_129169_129741,Peptidyl-prolyl cis-trans isomerase ppiA precursor (EC 5.2.1.8),-3.71
+BHI3,Ecoli_contig00021_674_859,Carbon storage regulator,-3.80
+BHI3,Ecoli_contig00010_110642_111607,Thioredoxin reductase (EC 1.8.1.9),-2.46
+BHI3,Ecoli_contig00002_70478_71362,Cytidine deaminase (EC 3.5.4.5),-10.40
+BHI3,Ecoli_contig00012_51248_52201,"3-oxoacyl-[acyl-carrier-protein] synthase, KASIII (EC 2.3.1.41)",-4.52
+BHI3,Ecoli_contig00004_7086_8057,Cysteine synthase (EC 2.5.1.47),-0.27
+BHI3,Ecoli_contig00046_20883_21671,Enoyl-[acyl-carrier-protein] reductase [NADH] (EC 1.3.1.9),-3.17
+BHI3,Ecoli_contig00013_1438_2079,4-Hydroxy-2-oxoglutarate aldolase (EC 4.1.3.16) / 2-dehydro-3-deoxyphosphogluconate aldolase (EC 4.1.2.14),-4.10
+BHI3,Ecoli_contig00040_13434_15101,"ABC transporter, ATP-binding protein",-5.08
+BHI3,Ecoli_contig00079_5225_5491,Cell division topological specificity factor MinE,-2.74
+BHI3,Ecoli_contig00022_1882_2316,Transcriptional regulator SlyA,-5.95
+BHI3,Ecoli_contig00067_9196_9813,2-dehydro-3-deoxyphosphogalactonate aldolase (EC 4.1.2.21),-1.95
+BHI3,Ecoli_contig00007_128045_128839,3-methyl-2-oxobutanoate hydroxymethyltransferase (EC 2.1.2.11),-4.52
+BHI3,Ecoli_contig00011_65794_67014,"3-oxoacyl-[acyl-carrier-protein] synthase, KASI (EC 2.3.1.41)",-2.65
+BHI3,Ecoli_contig00022_16869_17450,Superoxide dismutase [Fe] (EC 1.15.1.1),-0.27
+BHI3,Ecoli_contig00010_25814_26560,"Glutamine ABC transporter, periplasmic glutamine-binding protein (TC 3.A.1.3.2)",-0.45
+BHI3,Ecoli_contig00049_16500_18140,Phosphoglucomutase (EC 5.4.2.2),-3.86
+BHI3,Ecoli_contig00009_92956_94254,Adenylosuccinate synthetase (EC 6.3.4.4),-4.36
+BHI3,Ecoli_contig00025_44742_45692,Universal stress protein E,-4.23
+BHI3,Ecoli_contig00001_224195_225358,NADPH-dependent broad range aldehyde dehydrogenase YqhD,-6.25
+BHI3,Ecoli_contig00043_300_1154,2-Keto-3-deoxy-D-manno-octulosonate-8-phosphate synthase (EC 2.5.1.55),-2.37
+BHI3,Ecoli_contig00079_4409_5221,Septum site-determining protein MinD,-3.04
+BHI3,Ecoli_contig00011_79636_80418,Lysine-arginine-ornithine-binding periplasmic protein precursor (TC 3.A.1.3.1),-2.45
+BHI3,Ecoli_contig00006_107825_108829,Tryptophanyl-tRNA synthetase (EC 6.1.1.2),-5.75
+BHI3,Ecoli_contig00004_151826_153079,Serine hydroxymethyltransferase (EC 2.1.2.1),-1.05
+BHI3,Ecoli_contig00009_20985_21446,Aspartate carbamoyltransferase regulatory chain (PyrI),-5.28
+BHI3,Ecoli_contig00008_122244_123104,"Fructosamine kinase family protein, At3g61080 homolog",-4.18
+BHI3,Ecoli_contig00018_25995_27539,"2,3-bisphosphoglycerate-independent phosphoglycerate mutase (EC 5.4.2.1)",-5.17
+BHI3,Ecoli_contig00051_5348_5926,Phosphoheptose isomerase 1 (EC 5.3.1.-),-2.72
+BHI3,Ecoli_contig00004_64646_65359,Phosphoribosylaminoimidazole-succinocarboxamide synthase (EC 6.3.2.6),-1.10
+BHI3,Ecoli_contig00011_92755_93957,Acetate kinase (EC 2.7.2.1),-2.23
+BHI3,Ecoli_contig00062_13108_13461,Putative ACR protein,-3.40
+BHI3,Ecoli_contig00009_33020_34372,"TldE/PmbA protein, part of proposed TldE/TldD proteolytic complex (PMID 12029038)",-7.34
+BHI3,Ecoli_contig00013_6972_8414,Pyruvate kinase (EC 2.7.1.40),-5.12
+BHI3,Ecoli_contig00025_30805_31239,Universal stress protein F,0.65
+BHI3,Ecoli_contig00040_35482_36069,"Molybdopterin biosynthesis Mog protein, molybdochelatase",-9.55
+BHI3,Ecoli_contig00012_53159_53893,3-oxoacyl-[acyl-carrier protein] reductase (EC 1.1.1.100),-4.54
+BHI3,Ecoli_contig00012_54428_55669,"3-oxoacyl-[acyl-carrier-protein] synthase, KASII (EC 2.3.1.41)",-5.55
+BHI3,Ecoli_contig00024_12834_14465,"Oligopeptide ABC transporter, periplasmic oligopeptide-binding protein OppA (TC 3.A.1.5.1)",-2.89
+BHI3,Ecoli_contig00044_14971_15405,Universal stress protein A,0.53
+BHI3,Ecoli_contig00054_26806_28095,Phosphoribosylamine--glycine ligase (EC 6.3.4.13),-3.91
+BHI3,Ecoli_contig00014_70053_71435,ATP synthase beta chain (EC 3.6.3.14),-2.76
+BHI3,Ecoli_contig00004_122859_124142,Peptidase B (EC 3.4.11.23),-4.78
+BHI3,Ecoli_contig00016_54484_55587,Glycerol dehydrogenase (EC 1.1.1.6),-7.04
+BHI3,Ecoli_contig00001_16768_17421,Sigma cross-reacting protein 27A,-4.76
+BHI3,Ecoli_contig00014_73930_74463,ATP synthase delta chain (EC 3.6.3.14),-2.11
+BHI3,Ecoli_contig00028_33958_34752,Methionine aminopeptidase (EC 3.4.11.18),-5.26
+BHI3,Ecoli_contig00011_58959_59891,"Protein-N(5)-glutamine methyltransferase PrmB, methylates LSU ribosomal protein L3p",-7.12
+BHI3,Ecoli_contig00034_28034_28750,Succinate dehydrogenase iron-sulfur protein (EC 1.3.99.1),-0.42
+BHI3,Ecoli_contig00003_120053_120937,Nucleoside-specific channel-forming protein Tsx precursor,-3.90
+BHI3,Ecoli_contig00092_501_1916,Glutamyl-tRNA synthetase (EC 6.1.1.17),-4.90
+BHI3,Ecoli_contig00008_82891_83934,"Selenide,water dikinase (EC 2.7.9.3)",-4.61
+BHI3,Ecoli_contig00003_150419_150679,Cytoplasmic protein YaiB,-3.17
+BHI3,Ecoli_contig00018_32090_33286,2-amino-3-ketobutyrate coenzyme A ligase (EC 2.3.1.29),-4.71
+BHI3,Ecoli_contig00001_66469_66972,FIG002208: Acetyltransferase (EC 2.3.1.-),-4.96
+BHI3,Ecoli_contig00010_118981_120273,Seryl-tRNA synthetase (EC 6.1.1.11),-3.01
+BHI3,Ecoli_contig00054_28107_29696,IMP cyclohydrolase (EC 3.5.4.10) / Phosphoribosylaminoimidazolecarboxamide formyltransferase (EC 2.1.2.3),-5.69
+BHI3,Ecoli_contig00014_90338_91228,"Ribose ABC transport system, periplasmic ribose-binding protein RbsB (TC 3.A.1.2.1)",-2.27
+BHI3,Ecoli_contig00007_107118_108575,Dihydrolipoamide dehydrogenase of pyruvate dehydrogenase complex (EC 1.8.1.4) @ Dihydrolipoamide dehydrogenase (EC 1.8.1.4),-1.50
+BHI3,Ecoli_contig00019_50085_50648,Alkyl hydroperoxide reductase protein C (EC 1.6.4.-),0.59
+BHI3,Ecoli_contig00013_59597_60262,FIG00637942: hypothetical protein,-3.16
+BHI3,Ecoli_contig00007_8887_9708,Dihydrodipicolinate reductase (EC 1.3.1.26),-6.51
+BHI3,Ecoli_contig00028_37517_38341,"2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase (EC 2.3.1.117)",-5.16
+BHI3,Ecoli_contig00034_26252_28018,Succinate dehydrogenase flavoprotein subunit (EC 1.3.99.1),-3.35
+BHI3,Ecoli_contig00085_296_901,Glutathione S-transferase (EC 2.5.1.18),-5.37
+BHI3,Ecoli_contig00019_47726_48154,Universal stress protein G,0.79
+BHI3,Ecoli_contig00004_112217_112648,Nucleoside diphosphate kinase (EC 2.7.4.6),-2.57
+BHI3,Ecoli_contig00017_3562_4656,Aminomethyltransferase (glycine cleavage system T protein) (EC 2.1.2.10),-6.18
+BHI3,Ecoli_contig00034_33350_34516,Succinyl-CoA ligase [ADP-forming] beta chain (EC 6.2.1.5),-1.57
+BHI3,Ecoli_contig00007_10164_11312,Carbamoyl-phosphate synthase small chain (EC 6.3.5.5),-6.27
+BHI3,Ecoli_contig00042_22445_23854,Glutamine synthetase type I (EC 6.3.1.2),-3.61
+BHI3,Ecoli_contig00034_28951_31752,2-oxoglutarate dehydrogenase E1 component (EC 1.2.4.2),-5.18
+BHI3,Ecoli_contig00066_11818_12471,Oxygen-insensitive NAD(P)H nitroreductase (EC 1.-.-.-) / Dihydropteridine reductase (EC 1.5.1.34),-3.68
+BHI3,Ecoli_contig00007_110932_113451,Aconitate hydratase 2 (EC 4.2.1.3) @ 2-methylisocitrate dehydratase (EC 4.2.1.99),-2.94
+BHI3,Ecoli_contig00016_50387_52567,Catalase (EC 1.11.1.6) / Peroxidase (EC 1.11.1.7),-5.33
+BHI3,Ecoli_contig00023_62818_64122,Isocitrate lyase (EC 4.1.3.1),-2.49
+BHI3,Ecoli_contig00002_62858_63856,"Galactose/methyl galactoside ABC transport system, D-galactose-binding periplasmic protein MglB (TC 3.A.1.2.3)",-3.16
+BHI3,Ecoli_contig00023_51604_52293,Alpha-aspartyl dipeptidase Peptidase E (EC 3.4.13.21),-4.43
+BHI3,Ecoli_contig00019_9781_10689,Glutamate Aspartate periplasmic binding protein precursor GltI (TC 3.A.1.3.4),-1.84
+BHI3,Ecoli_contig00005_19069_20244,Mannose-6-phosphate isomerase (EC 5.3.1.8),-5.71
+BHI3,Ecoli_contig00014_71462_72325,ATP synthase gamma chain (EC 3.6.3.14),-3.51
+BHI3,Ecoli_contig00013_57359_57856,Ferritin-like protein 2,-1.80
+BHI3,Ecoli_contig00039_22976_23434,Methylglyoxal synthase (EC 4.2.3.3),-4.60
+BHI3,Ecoli_contig00037_14833_16074,Glucose-1-phosphatase (EC 3.1.3.10),-2.98
+BHI3,Ecoli_contig00027_49668_50606,Malate dehydrogenase (EC 1.1.1.37),0.89
+BHI3,Ecoli_contig00034_34516_35385,Succinyl-CoA ligase [ADP-forming] alpha chain (EC 6.2.1.5),0.44
+BHI3,Ecoli_contig00067_5696_6628,D-3-phosphoglycerate dehydrogenase (EC 1.1.1.95),-7.72
+BHI3,Ecoli_contig00034_31767_32984,Dihydrolipoamide succinyltransferase component (E2) of 2-oxoglutarate dehydrogenase complex (EC 2.3.1.61),-2.53
+BHI3,Ecoli_contig00008_27657_28628,"PTS system, mannose-specific IIA component (EC 2.7.1.69) / PTS system, mannose-specific IIB component (EC 2.7.1.69)",-4.68
+BHI3,Ecoli_contig00019_77100_79340,"TonB-dependent receptor; Outer membrane receptor for ferric enterobactin and colicins B, D",-3.81
+BHI3,Ecoli_contig00021_70220_71932,Sulfite reductase [NADPH] hemoprotein beta-component (EC 1.8.1.2),-7.01
+BHI3,Ecoli_contig00006_87075_88697,Phosphoenolpyruvate carboxykinase [ATP] (EC 4.1.1.49),-5.48
+BHI3,Ecoli_contig00029_53358_54419,FIG00638561: hypothetical protein,-2.60
+BHI3,Ecoli_contig00019_61043_61900,Isochorismatase (EC 3.3.2.1) [enterobactin] siderophore / Apo-aryl carrier domain of EntB,-4.59
+BHI3,Ecoli_contig00014_42781_44196,Tryptophanase (EC 4.1.99.1),-5.43
+BHI3,Ecoli_contig00015_4418_6064,"Fumarate hydratase class I, anaerobic (EC 4.2.1.2)",-7.18
+BHI3,Ecoli_contig00004_43839_46118,NADP-dependent malic enzyme (EC 1.1.1.40),-5.47
+BHI3,Ecoli_contig00011_80639_81421,"Histidine ABC transporter, histidine-binding periplasmic protein precursor HisJ (TC 3.A.1.3.1)",-4.55
+BHI3,Ecoli_contig00017_40694_41848,S-adenosylmethionine synthetase (EC 2.5.1.6),-4.01
+BHI3,Ecoli_contig00006_43547_44650,Aspartate-semialdehyde dehydrogenase (EC 1.2.1.11),-8.31
+BHI3,Ecoli_contig00043_20205_21623,"Phosphoenolpyruvate-dihydroxyacetone phosphotransferase (EC 2.7.1.121), subunit DhaM; DHA-specific IIA component / DHA-specific phosphocarrier protein HPr / DHA-specific EI component",-7.98
+BHI3,Ecoli_contig00012_96344_97594,Isocitrate dehydrogenase [NADP] (EC 1.1.1.42),0.41
+BHI3,Ecoli_contig00018_20606_21796,L-lactate dehydrogenase (EC 1.1.2.3),-5.92
+BHI3,Ecoli_contig00017_53682_54728,L-asparaginase (EC 3.5.1.1),-1.76
+BHI3,Ecoli_contig00067_8051_9199,Galactonate dehydratase (EC 4.2.1.6),-5.20
+BHI3,Ecoli_contig00020_44902_45978,"Glycerophosphoryl diester phosphodiesterase, periplasmic (EC 3.1.4.46)",-3.05
+BHI3,Ecoli_contig00004_18363_19154,3-oxoacyl-[acyl-carrier protein] reductase (EC 1.1.1.100),-3.72
+BHI3,Ecoli_contig00023_35313_36503,"Maltose/maltodextrin ABC transporter, substrate binding periplasmic protein MalE",-6.58
+BHI3,Ecoli_contig00070_666_1304,Outer membrane protein W precursor,-1.53
+BHI3,Ecoli_contig00005_20443_22089,"Fumarate hydratase class I, aerobic (EC 4.2.1.2)",-2.28
+BHI4,Ecoli_contig00001_211037_211429,Protein ygiW precursor,-5.27
+BHI4,Ecoli_contig00045_35127_35732,Osmotically inducible protein OsmY,-3.74
+BHI4,Ecoli_contig00044_29629_29967,Chaperone HdeB,0.12
+BHI4,Ecoli_contig00044_30071_30403,Chaperone HdeA,-5.01
+BHI4,Ecoli_contig00015_25505_25948,PhnB protein; putative DNA binding 3-demethylubiquinone-9 3-methyltransferase domain protein,-6.27
+BHI4,Ecoli_contig00022_5625_6146,Superoxide dismutase [Cu-Zn] precursor (EC 1.15.1.1),-6.09
+BHI4,Ecoli_contig00055_21093_21542,FIG00638941: hypothetical protein,-1.71
+BHI4,Ecoli_contig00050_590_1990,Glutamate decarboxylase (EC 4.1.1.15),-4.10
+BHI4,Ecoli_contig00023_22286_22495,UPF0337 protein yjbJ,-2.68
+BHI4,Ecoli_contig00022_39196_40200,"L,D-transpeptidase YnhG",-4.82
+BHI4,Ecoli_contig00002_143000_143332,FIG00638559: hypothetical protein,-3.86
+BHI4,Ecoli_contig00003_202553_202828,FIG00639237: hypothetical protein,-5.36
+BHI4,Ecoli_contig00041_3652_4128,Bacterioferritin Ecoli_contig00041_3652_4128|Bacterioferritin,-1.49
+BHI4,Ecoli_contig00014_31118_31516,FIG00638813: hypothetical protein,-6.38
+BHI4,Ecoli_contig00003_76107_76679,Glycoprotein-polysaccharide metabolism,-5.69
+BHI4,Ecoli_contig00006_31820_32260,FIG00638953: hypothetical protein,-8.51
+BHI4,Ecoli_contig00059_6428_7279,Chaperone protein hchA,-2.03
+BHI4,Ecoli_contig00008_108643_108981,Osmotically inducible lipoprotein E precursor,-0.90
+BHI4,Ecoli_contig00037_16112_16339,Putative cytoplasmic protein,-4.12
+BHI4,Ecoli_contig00026_23548_23979,Osmotically inducible protein C,-2.82
+BHI4,Ecoli_contig00001_126901_127206,Uncharacterized membrane protein YqjD,-1.22
+BHI4,Ecoli_contig00012_25898_26545,Glutaredoxin 2,-4.65
+BHI4,Ecoli_contig00010_26964_27467,Non-specific DNA-binding protein Dps / Iron-binding ferritin-like antioxidant protein / Ferroxidase (EC 1.16.3.1),-0.07
+BHI4,Ecoli_contig00069_85_366,hypothetical protein,-1.13
+BHI4,Ecoli_contig00029_32534_33202,Uncharacterized membrane lipoprotein clustered with tellurite resistance proteins TehA/TehB,-5.90
+BHI4,Ecoli_contig00040_5204_6427,Phosphopentomutase (EC 5.4.2.7),-3.25
+BHI4,Ecoli_contig00008_136790_137341,Glutathione peroxidase (EC 1.11.1.9),-5.15
+BHI4,Ecoli_contig00017_21328_22068,Protein of unknown function DUF541,-4.68
+BHI4,Ecoli_contig00091_1340_2665,"Putative Dihydrolipoamide dehydrogenase (EC 1.8.1.4); Mercuric ion reductase (EC 1.16.1.1); PF00070 family, FAD-dependent NAD(P)-disulphide oxidoreductase",-5.36
+BHI4,Ecoli_contig00010_81701_82432,"Arginine ABC transporter, periplasmic arginine-binding protein ArtI",-5.22
+BHI4,Ecoli_contig00001_223263_224090,"Methylglyoxal reductase, acetol producing (EC 1.1.1.-) / 2,5-diketo-D-gluconate reductase A (EC 1.1.1.274)",-4.98
+BHI4,Ecoli_contig00087_3350_3976,Nicotinamidase family protein YcaC,-4.40
+BHI4,Ecoli_contig00018_24926_25177,Glutaredoxin 3 (Grx3),-3.59
+BHI4,Ecoli_contig00036_17112_18107,6-phosphogluconolactonase (EC 3.1.1.31),-4.63
+BHI4,Ecoli_contig00055_3042_3557,S-ribosylhomocysteine lyase (EC 4.4.1.21) / Autoinducer-2 production protein LuxS,-1.41
+BHI4,Ecoli_contig00010_83396_83911,probable lipoprotein,-4.64
+BHI4,Ecoli_contig00028_9339_9539,FIG00639395: hypothetical protein,-5.83
+BHI4,Ecoli_contig00040_38339_40255,Chaperone protein DnaK,-0.37
+BHI4,Ecoli_contig00022_15245_15592,hypothetical protein,-7.82
+BHI4,Ecoli_contig00070_10744_11364,YciO family,-4.77
+BHI4,Ecoli_contig00017_36865_37785,Agmatinase (EC 3.5.3.11),-3.67
+BHI4,Ecoli_contig00019_14091_14573,Uncharacterized protein YbeL / FIG002095: hypothetical protein,-5.95
+BHI4,Ecoli_contig00039_29914_30978,Outer membrane protein A precursor,-1.11
+BHI4,Ecoli_contig00018_10600_10809,Putative cytoplasmic protein,-3.69
+BHI4,Ecoli_contig00039_21632_22045,"Succinyl-CoA synthetase, alpha subunit-related enzymes",-4.99
+BHI4,Ecoli_contig00018_59647_59922,DNA-directed RNA polymerase omega subunit (EC 2.7.7.6),-3.71
+BHI4,Ecoli_contig00058_19752_20045,Heat shock protein 60 family co-chaperone GroES,0.50
+BHI4,Ecoli_contig00040_24114_24830,Aerobic respiration control protein arcA,-2.66
+BHI4,Ecoli_contig00008_135347_135646,Integration host factor alpha subunit,-2.68
+BHI4,Ecoli_contig00004_10511_11020,"PTS system, glucose-specific IIA component (EC 2.7.1.69)",-0.60
+BHI4,Ecoli_contig00017_55807_56133,FIG002060: uncharacterized protein YggL,-5.34
+BHI4,Ecoli_contig00004_124412_124747,"Ferredoxin, 2Fe-2S",-4.97
+BHI4,Ecoli_contig00003_106892_107383,FIG001943: hypothetical protein YajQ,-3.31
+BHI4,Ecoli_contig00041_36179_36688,Peptide deformylase (EC 3.5.1.88),-4.81
+BHI4,Ecoli_contig00055_19384_19788,DNA-binding protein H-NS,-5.33
+BHI4,Ecoli_contig00076_4276_4527,Protein yciN,-5.09
+BHI4,Ecoli_contig00006_129169_129741,Peptidyl-prolyl cis-trans isomerase ppiA precursor (EC 5.2.1.8),-4.22
+BHI4,Ecoli_contig00021_674_859,Carbon storage regulator,-3.55
+BHI4,Ecoli_contig00010_110642_111607,Thioredoxin reductase (EC 1.8.1.9),-3.06
+BHI4,Ecoli_contig00002_70478_71362,Cytidine deaminase (EC 3.5.4.5),-9.96
+BHI4,Ecoli_contig00012_51248_52201,"3-oxoacyl-[acyl-carrier-protein] synthase, KASIII (EC 2.3.1.41)",-3.83
+BHI4,Ecoli_contig00004_7086_8057,Cysteine synthase (EC 2.5.1.47),0.25
+BHI4,Ecoli_contig00046_20883_21671,Enoyl-[acyl-carrier-protein] reductase [NADH] (EC 1.3.1.9),-3.17
+BHI4,Ecoli_contig00013_1438_2079,4-Hydroxy-2-oxoglutarate aldolase (EC 4.1.3.16) / 2-dehydro-3-deoxyphosphogluconate aldolase (EC 4.1.2.14),-4.44
+BHI4,Ecoli_contig00040_13434_15101,"ABC transporter, ATP-binding protein",-4.98
+BHI4,Ecoli_contig00079_5225_5491,Cell division topological specificity factor MinE,-3.40
+BHI4,Ecoli_contig00022_1882_2316,Transcriptional regulator SlyA,-6.57
+BHI4,Ecoli_contig00067_9196_9813,2-dehydro-3-deoxyphosphogalactonate aldolase (EC 4.1.2.21),-2.16
+BHI4,Ecoli_contig00007_128045_128839,3-methyl-2-oxobutanoate hydroxymethyltransferase (EC 2.1.2.11),-4.84
+BHI4,Ecoli_contig00011_65794_67014,"3-oxoacyl-[acyl-carrier-protein] synthase, KASI (EC 2.3.1.41)",-2.59
+BHI4,Ecoli_contig00022_16869_17450,Superoxide dismutase [Fe] (EC 1.15.1.1),-0.26
+BHI4,Ecoli_contig00010_25814_26560,"Glutamine ABC transporter, periplasmic glutamine-binding protein (TC 3.A.1.3.2)",-1.18
+BHI4,Ecoli_contig00049_16500_18140,Phosphoglucomutase (EC 5.4.2.2),-3.09
+BHI4,Ecoli_contig00009_92956_94254,Adenylosuccinate synthetase (EC 6.3.4.4),-3.46
+BHI4,Ecoli_contig00025_44742_45692,Universal stress protein E,-3.75
+BHI4,Ecoli_contig00001_224195_225358,NADPH-dependent broad range aldehyde dehydrogenase YqhD,-5.83
+BHI4,Ecoli_contig00043_300_1154,2-Keto-3-deoxy-D-manno-octulosonate-8-phosphate synthase (EC 2.5.1.55),-2.35
+BHI4,Ecoli_contig00079_4409_5221,Septum site-determining protein MinD,-3.03
+BHI4,Ecoli_contig00011_79636_80418,Lysine-arginine-ornithine-binding periplasmic protein precursor (TC 3.A.1.3.1),-3.52
+BHI4,Ecoli_contig00006_107825_108829,Tryptophanyl-tRNA synthetase (EC 6.1.1.2),-5.53
+BHI4,Ecoli_contig00004_151826_153079,Serine hydroxymethyltransferase (EC 2.1.2.1),-1.28
+BHI4,Ecoli_contig00009_20985_21446,Aspartate carbamoyltransferase regulatory chain (PyrI),-5.68
+BHI4,Ecoli_contig00008_122244_123104,"Fructosamine kinase family protein, At3g61080 homolog",-4.14
+BHI4,Ecoli_contig00018_25995_27539,"2,3-bisphosphoglycerate-independent phosphoglycerate mutase (EC 5.4.2.1)",-4.65
+BHI4,Ecoli_contig00051_5348_5926,Phosphoheptose isomerase 1 (EC 5.3.1.-),-3.01
+BHI4,Ecoli_contig00004_64646_65359,Phosphoribosylaminoimidazole-succinocarboxamide synthase (EC 6.3.2.6),-1.11
+BHI4,Ecoli_contig00011_92755_93957,Acetate kinase (EC 2.7.2.1),-2.35
+BHI4,Ecoli_contig00062_13108_13461,Putative ACR protein,-4.22
+BHI4,Ecoli_contig00009_33020_34372,"TldE/PmbA protein, part of proposed TldE/TldD proteolytic complex (PMID 12029038)",-6.36
+BHI4,Ecoli_contig00013_6972_8414,Pyruvate kinase (EC 2.7.1.40),-4.14
+BHI4,Ecoli_contig00025_30805_31239,Universal stress protein F,0.10
+BHI4,Ecoli_contig00040_35482_36069,"Molybdopterin biosynthesis Mog protein, molybdochelatase",-9.77
+BHI4,Ecoli_contig00012_53159_53893,3-oxoacyl-[acyl-carrier protein] reductase (EC 1.1.1.100),-4.47
+BHI4,Ecoli_contig00012_54428_55669,"3-oxoacyl-[acyl-carrier-protein] synthase, KASII (EC 2.3.1.41)",-5.04
+BHI4,Ecoli_contig00024_12834_14465,"Oligopeptide ABC transporter, periplasmic oligopeptide-binding protein OppA (TC 3.A.1.5.1)",-2.91
+BHI4,Ecoli_contig00044_14971_15405,Universal stress protein A,0.08
+BHI4,Ecoli_contig00054_26806_28095,Phosphoribosylamine--glycine ligase (EC 6.3.4.13),-4.39
+BHI4,Ecoli_contig00014_70053_71435,ATP synthase beta chain (EC 3.6.3.14),-2.28
+BHI4,Ecoli_contig00004_122859_124142,Peptidase B (EC 3.4.11.23),-4.79
+BHI4,Ecoli_contig00016_54484_55587,Glycerol dehydrogenase (EC 1.1.1.6),-7.47
+BHI4,Ecoli_contig00001_16768_17421,Sigma cross-reacting protein 27A,-4.81
+BHI4,Ecoli_contig00014_73930_74463,ATP synthase delta chain (EC 3.6.3.14),-2.46
+BHI4,Ecoli_contig00028_33958_34752,Methionine aminopeptidase (EC 3.4.11.18),-4.83
+BHI4,Ecoli_contig00011_58959_59891,"Protein-N(5)-glutamine methyltransferase PrmB, methylates LSU ribosomal protein L3p",-7.09
+BHI4,Ecoli_contig00034_28034_28750,Succinate dehydrogenase iron-sulfur protein (EC 1.3.99.1),-1.28
+BHI4,Ecoli_contig00003_120053_120937,Nucleoside-specific channel-forming protein Tsx precursor,-4.36
+BHI4,Ecoli_contig00092_501_1916,Glutamyl-tRNA synthetase (EC 6.1.1.17),-5.10
+BHI4,Ecoli_contig00008_82891_83934,"Selenide,water dikinase (EC 2.7.9.3)",-5.12
+BHI4,Ecoli_contig00003_150419_150679,Cytoplasmic protein YaiB,-3.64
+BHI4,Ecoli_contig00018_32090_33286,2-amino-3-ketobutyrate coenzyme A ligase (EC 2.3.1.29),-4.79
+BHI4,Ecoli_contig00001_66469_66972,FIG002208: Acetyltransferase (EC 2.3.1.-),
+BHI4,Ecoli_contig00010_118981_120273,Seryl-tRNA synthetase (EC 6.1.1.11),-2.66
+BHI4,Ecoli_contig00054_28107_29696,IMP cyclohydrolase (EC 3.5.4.10) / Phosphoribosylaminoimidazolecarboxamide formyltransferase (EC 2.1.2.3),-5.00
+BHI4,Ecoli_contig00014_90338_91228,"Ribose ABC transport system, periplasmic ribose-binding protein RbsB (TC 3.A.1.2.1)",-2.90
+BHI4,Ecoli_contig00007_107118_108575,Dihydrolipoamide dehydrogenase of pyruvate dehydrogenase complex (EC 1.8.1.4) @ Dihydrolipoamide dehydrogenase (EC 1.8.1.4),-1.01
+BHI4,Ecoli_contig00019_50085_50648,Alkyl hydroperoxide reductase protein C (EC 1.6.4.-),0.47
+BHI4,Ecoli_contig00013_59597_60262,FIG00637942: hypothetical protein,-3.93
+BHI4,Ecoli_contig00007_8887_9708,Dihydrodipicolinate reductase (EC 1.3.1.26),-5.68
+BHI4,Ecoli_contig00028_37517_38341,"2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase (EC 2.3.1.117)",-5.34
+BHI4,Ecoli_contig00034_26252_28018,Succinate dehydrogenase flavoprotein subunit (EC 1.3.99.1),-2.40
+BHI4,Ecoli_contig00085_296_901,Glutathione S-transferase (EC 2.5.1.18),-5.31
+BHI4,Ecoli_contig00019_47726_48154,Universal stress protein G,0.26
+BHI4,Ecoli_contig00004_112217_112648,Nucleoside diphosphate kinase (EC 2.7.4.6),-3.25
+BHI4,Ecoli_contig00017_3562_4656,Aminomethyltransferase (glycine cleavage system T protein) (EC 2.1.2.10),-5.53
+BHI4,Ecoli_contig00034_33350_34516,Succinyl-CoA ligase [ADP-forming] beta chain (EC 6.2.1.5),-0.50
+BHI4,Ecoli_contig00007_10164_11312,Carbamoyl-phosphate synthase small chain (EC 6.3.5.5),-6.50
+BHI4,Ecoli_contig00042_22445_23854,Glutamine synthetase type I (EC 6.3.1.2),-3.44
+BHI4,Ecoli_contig00034_28951_31752,2-oxoglutarate dehydrogenase E1 component (EC 1.2.4.2),-3.80
+BHI4,Ecoli_contig00066_11818_12471,Oxygen-insensitive NAD(P)H nitroreductase (EC 1.-.-.-) / Dihydropteridine reductase (EC 1.5.1.34),-5.03
+BHI4,Ecoli_contig00007_110932_113451,Aconitate hydratase 2 (EC 4.2.1.3) @ 2-methylisocitrate dehydratase (EC 4.2.1.99),-2.15
+BHI4,Ecoli_contig00016_50387_52567,Catalase (EC 1.11.1.6) / Peroxidase (EC 1.11.1.7),-3.88
+BHI4,Ecoli_contig00023_62818_64122,Isocitrate lyase (EC 4.1.3.1),-2.29
+BHI4,Ecoli_contig00002_62858_63856,"Galactose/methyl galactoside ABC transport system, D-galactose-binding periplasmic protein MglB (TC 3.A.1.2.3)",-3.48
+BHI4,Ecoli_contig00023_51604_52293,Alpha-aspartyl dipeptidase Peptidase E (EC 3.4.13.21),-4.85
+BHI4,Ecoli_contig00019_9781_10689,Glutamate Aspartate periplasmic binding protein precursor GltI (TC 3.A.1.3.4),-2.73
+BHI4,Ecoli_contig00005_19069_20244,Mannose-6-phosphate isomerase (EC 5.3.1.8),-5.34
+BHI4,Ecoli_contig00014_71462_72325,ATP synthase gamma chain (EC 3.6.3.14),-3.64
+BHI4,Ecoli_contig00013_57359_57856,Ferritin-like protein 2,-2.31
+BHI4,Ecoli_contig00039_22976_23434,Methylglyoxal synthase (EC 4.2.3.3),-4.48
+BHI4,Ecoli_contig00037_14833_16074,Glucose-1-phosphatase (EC 3.1.3.10),-2.66
+BHI4,Ecoli_contig00027_49668_50606,Malate dehydrogenase (EC 1.1.1.37),0.37
+BHI4,Ecoli_contig00034_34516_35385,Succinyl-CoA ligase [ADP-forming] alpha chain (EC 6.2.1.5),-0.45
+BHI4,Ecoli_contig00067_5696_6628,D-3-phosphoglycerate dehydrogenase (EC 1.1.1.95),-6.74
+BHI4,Ecoli_contig00034_31767_32984,Dihydrolipoamide succinyltransferase component (E2) of 2-oxoglutarate dehydrogenase complex (EC 2.3.1.61),-2.09
+BHI4,Ecoli_contig00008_27657_28628,"PTS system, mannose-specific IIA component (EC 2.7.1.69) / PTS system, mannose-specific IIB component (EC 2.7.1.69)",-4.65
+BHI4,Ecoli_contig00019_77100_79340,"TonB-dependent receptor; Outer membrane receptor for ferric enterobactin and colicins B, D",-3.79
+BHI4,Ecoli_contig00021_70220_71932,Sulfite reductase [NADPH] hemoprotein beta-component (EC 1.8.1.2),-5.50
+BHI4,Ecoli_contig00006_87075_88697,Phosphoenolpyruvate carboxykinase [ATP] (EC 4.1.1.49),-3.16
+BHI4,Ecoli_contig00029_53358_54419,FIG00638561: hypothetical protein,-3.08
+BHI4,Ecoli_contig00019_61043_61900,Isochorismatase (EC 3.3.2.1) [enterobactin] siderophore / Apo-aryl carrier domain of EntB,-4.17
+BHI4,Ecoli_contig00014_42781_44196,Tryptophanase (EC 4.1.99.1),-4.05
+BHI4,Ecoli_contig00015_4418_6064,"Fumarate hydratase class I, anaerobic (EC 4.2.1.2)",-6.84
+BHI4,Ecoli_contig00004_43839_46118,NADP-dependent malic enzyme (EC 1.1.1.40),-3.48
+BHI4,Ecoli_contig00011_80639_81421,"Histidine ABC transporter, histidine-binding periplasmic protein precursor HisJ (TC 3.A.1.3.1)",-4.18
+BHI4,Ecoli_contig00017_40694_41848,S-adenosylmethionine synthetase (EC 2.5.1.6),-4.34
+BHI4,Ecoli_contig00006_43547_44650,Aspartate-semialdehyde dehydrogenase (EC 1.2.1.11),-7.06
+BHI4,Ecoli_contig00043_20205_21623,"Phosphoenolpyruvate-dihydroxyacetone phosphotransferase (EC 2.7.1.121), subunit DhaM; DHA-specific IIA component / DHA-specific phosphocarrier protein HPr / DHA-specific EI component",-8.24
+BHI4,Ecoli_contig00012_96344_97594,Isocitrate dehydrogenase [NADP] (EC 1.1.1.42),0.01
+BHI4,Ecoli_contig00018_20606_21796,L-lactate dehydrogenase (EC 1.1.2.3),-5.12
+BHI4,Ecoli_contig00017_53682_54728,L-asparaginase (EC 3.5.1.1),-2.51
+BHI4,Ecoli_contig00067_8051_9199,Galactonate dehydratase (EC 4.2.1.6),-4.33
+BHI4,Ecoli_contig00020_44902_45978,"Glycerophosphoryl diester phosphodiesterase, periplasmic (EC 3.1.4.46)",-4.30
+BHI4,Ecoli_contig00004_18363_19154,3-oxoacyl-[acyl-carrier protein] reductase (EC 1.1.1.100),-4.10
+BHI4,Ecoli_contig00023_35313_36503,"Maltose/maltodextrin ABC transporter, substrate binding periplasmic protein MalE",-5.39
+BHI4,Ecoli_contig00070_666_1304,Outer membrane protein W precursor,-2.34
+BHI4,Ecoli_contig00005_20443_22089,"Fumarate hydratase class I, aerobic (EC 4.2.1.2)",-2.88
+BHI5,Protein ygiW precursor,Stress/biolfilm,-4.39
+BHI5,Osmotically inducible protein OsmY,Osmotic stuff,-3.51
+BHI5,Chaperone HdeB,Chaperon,-2.32
+BHI5,Chaperone HdeA,Chaperon,-7.12
+BHI5,PhnB protein; putative DNA binding 3-demethylubiquinone-9 3-methyltransferase domain protein,DNA binding,-6.69
+BHI5,Superoxide dismutase [Cu-Zn] precursor (EC 1.15.1.1),Oxidoreductases,-5.28
+BHI5,FIG00638941: hypothetical protein,,-1.15
+BHI5,Glutamate decarboxylase (EC 4.1.1.15),"Alanine, aspartate and glutamate metabolism",
+BHI5,UPF0337 protein yjbJ,,-1.06
+BHI5,"L,D-transpeptidase YnhG",Cell surface (peptidoglycan),-4.19
+BHI5,FIG00638559: hypothetical protein,,-2.52
+BHI5,FIG00639237: hypothetical protein,,-3.97
+BHI5,Bacterioferritin Ecoli_contig00041_3652_4128|Bacterioferritin,Iron,-1.35
+BHI5,FIG00638813: hypothetical protein,,
+BHI5,Glycoprotein-polysaccharide metabolism,,-6.57
+BHI5,FIG00638953: hypothetical protein,,-6.87
+BHI5,Chaperone protein hchA,Chaperon,-2.54
+BHI5,Osmotically inducible lipoprotein E precursor,Osmotic stuff,-1.39
+BHI5,Putative cytoplasmic protein,,-3.29
+BHI5,Osmotically inducible protein C,Osmotic stuff,-1.90
+BHI5,Uncharacterized membrane protein YqjD,,-1.39
+BHI5,Glutaredoxin 2,Glutaredoxin,-4.14
+BHI5,Non-specific DNA-binding protein Dps / Iron-binding ferritin-like antioxidant protein / Ferroxidase (EC 1.16.3.1),,-0.38
+BHI5,hypothetical protein,,-0.64
+BHI5,Uncharacterized membrane lipoprotein clustered with tellurite resistance proteins TehA/TehB,,-6.49
+BHI5,Phosphopentomutase (EC 5.4.2.7),Pentose phosphate pathway,-3.03
+BHI5,Glutathione peroxidase (EC 1.11.1.9),Glutaredoxin,-4.60
+BHI5,Protein of unknown function DUF541,,-5.15
+BHI5,"Putative Dihydrolipoamide dehydrogenase (EC 1.8.1.4); Mercuric ion reductase (EC 1.16.1.1); PF00070 family, FAD-dependent NAD(P)-disulphide oxidoreductase",Glycolysis / Gluconeogenesis; Citrate cycle (TCA cycle),-7.16
+BHI5,"Arginine ABC transporter, periplasmic arginine-binding protein ArtI",Transporter,-3.64
+BHI5,"Methylglyoxal reductase, acetol producing (EC 1.1.1.-) / 2,5-diketo-D-gluconate reductase A (EC 1.1.1.274)",Oxidoreductases,-4.75
+BHI5,Nicotinamidase family protein YcaC,,-3.94
+BHI5,Glutaredoxin 3 (Grx3),Glutaredoxin,-3.24
+BHI5,6-phosphogluconolactonase (EC 3.1.1.31),Pentose phosphate pathway,-4.43
+BHI5,S-ribosylhomocysteine lyase (EC 4.4.1.21) / Autoinducer-2 production protein LuxS,,-1.88
+BHI5,probable lipoprotein,,-4.36
+BHI5,FIG00639395: hypothetical protein,,-6.10
+BHI5,Chaperone protein DnaK,chaperone,-0.67
+BHI5,hypothetical protein,,-7.65
+BHI5,YciO family,,-4.27
+BHI5,Agmatinase (EC 3.5.3.11),Arginine and proline metabolism,-3.89
+BHI5,Uncharacterized protein YbeL / FIG002095: hypothetical protein,,-4.87
+BHI5,Outer membrane protein A precursor,,-0.79
+BHI5,Putative cytoplasmic protein,,-3.32
+BHI5,"Succinyl-CoA synthetase, alpha subunit-related enzymes",Citrate cycle (TCA cycle),-4.95
+BHI5,DNA-directed RNA polymerase omega subunit (EC 2.7.7.6),DNA binding,-3.41
+BHI5,Heat shock protein 60 family co-chaperone GroES,,0.15
+BHI5,Aerobic respiration control protein arcA,,-2.77
+BHI5,Integration host factor alpha subunit,,-2.75
+BHI5,"PTS system, glucose-specific IIA component (EC 2.7.1.69)",Glycolysis / Gluconeogenesis,-0.19
+BHI5,FIG002060: uncharacterized protein YggL,,-5.01
+BHI5,"Ferredoxin, 2Fe-2S",,-5.37
+BHI5,FIG001943: hypothetical protein YajQ,,-2.92
+BHI5,Peptide deformylase (EC 3.5.1.88),Hydrolases,-4.33
+BHI5,DNA-binding protein H-NS,DNA binding,-4.70
+BHI5,Protein yciN,,-4.58
+BHI5,Peptidyl-prolyl cis-trans isomerase ppiA precursor (EC 5.2.1.8),,-4.78
+BHI5,Carbon storage regulator,,-3.01
+BHI5,Thioredoxin reductase (EC 1.8.1.9),Pyrimidine metabolism,-3.47
+BHI5,Cytidine deaminase (EC 3.5.4.5),Pyrimidine metabolism,-9.66
+BHI5,"3-oxoacyl-[acyl-carrier-protein] synthase, KASIII (EC 2.3.1.41)",Fatty acid biosynthesis (Biotin metabolism),-3.97
+BHI5,Cysteine synthase (EC 2.5.1.47),Cysteine and methionine metabolism,-0.39
+BHI5,Enoyl-[acyl-carrier-protein] reductase [NADH] (EC 1.3.1.9),Citrate cycle (TCA cycle),-3.66
+BHI5,4-Hydroxy-2-oxoglutarate aldolase (EC 4.1.3.16) / 2-dehydro-3-deoxyphosphogluconate aldolase (EC 4.1.2.14),Arginine and proline metabolism,-4.42
+BHI5,"ABC transporter, ATP-binding protein",Transporter,-4.82
+BHI5,Cell division topological specificity factor MinE,,-3.02
+BHI5,Transcriptional regulator SlyA,Transcription Regulator,-6.22
+BHI5,2-dehydro-3-deoxyphosphogalactonate aldolase (EC 4.1.2.21),Galactose metabolism,-1.98
+BHI5,3-methyl-2-oxobutanoate hydroxymethyltransferase (EC 2.1.2.11),Pantothenate and CoA biosynthesis,-5.64
+BHI5,"3-oxoacyl-[acyl-carrier-protein] synthase, KASI (EC 2.3.1.41)",Fatty acid biosynthesis (Biotin metabolism),-2.89
+BHI5,Superoxide dismutase [Fe] (EC 1.15.1.1),nickel superoxide dismutase,-0.49
+BHI5,"Glutamine ABC transporter, periplasmic glutamine-binding protein (TC 3.A.1.3.2)",Transporter,-0.67
+BHI5,Phosphoglucomutase (EC 5.4.2.2),Glycolysis / Gluconeogenesis,-3.61
+BHI5,Adenylosuccinate synthetase (EC 6.3.4.4),"Alanine, aspartate and glutamate metabolism",-3.82
+BHI5,Universal stress protein E,Universal Stress Protein,-3.81
+BHI5,NADPH-dependent broad range aldehyde dehydrogenase YqhD,,-6.56
+BHI5,2-Keto-3-deoxy-D-manno-octulosonate-8-phosphate synthase (EC 2.5.1.55),Lipopolysaccharide biosynthesis,-2.26
+BHI5,Septum site-determining protein MinD,,-2.85
+BHI5,Lysine-arginine-ornithine-binding periplasmic protein precursor (TC 3.A.1.3.1),Transporter,-3.28
+BHI5,Tryptophanyl-tRNA synthetase (EC 6.1.1.2),Aminoacyl-tRNA biosynthesis,-5.39
+BHI5,Serine hydroxymethyltransferase (EC 2.1.2.1),"Glycine, serine and threonine metabolism",-1.40
+BHI5,Aspartate carbamoyltransferase regulatory chain (PyrI),"Alanine, aspartate and glutamate metabolism",-5.85
+BHI5,"Fructosamine kinase family protein, At3g61080 homolog",,-4.17
+BHI5,"2,3-bisphosphoglycerate-independent phosphoglycerate mutase (EC 5.4.2.1)",Glycolysis / Gluconeogenesis,-5.56
+BHI5,Phosphoheptose isomerase 1 (EC 5.3.1.-),Capsule,-3.22
+BHI5,Phosphoribosylaminoimidazole-succinocarboxamide synthase (EC 6.3.2.6),Purine metabolism,-1.20
+BHI5,Acetate kinase (EC 2.7.2.1),Pyruvate metabolism,-2.01
+BHI5,Putative ACR protein,,-5.08
+BHI5,"TldE/PmbA protein, part of proposed TldE/TldD proteolytic complex (PMID 12029038)",,-7.08
+BHI5,Pyruvate kinase (EC 2.7.1.40),Glycolysis / Gluconeogenesis,-4.26
+BHI5,Universal stress protein F,Universal Stress Protein,0.88
+BHI5,"Molybdopterin biosynthesis Mog protein, molybdochelatase",,-9.24
+BHI5,3-oxoacyl-[acyl-carrier protein] reductase (EC 1.1.1.100),Fatty acid biosynthesis (Biotin metabolism),-4.73
+BHI5,"3-oxoacyl-[acyl-carrier-protein] synthase, KASII (EC 2.3.1.41)",Fatty acid biosynthesis (Biotin metabolism),-5.43
+BHI5,"Oligopeptide ABC transporter, periplasmic oligopeptide-binding protein OppA (TC 3.A.1.5.1)",Transporter,-2.55
+BHI5,Universal stress protein A,Universal Stress Protein,0.50
+BHI5,Phosphoribosylamine--glycine ligase (EC 6.3.4.13),Purine metabolism,-4.28
+BHI5,ATP synthase beta chain (EC 3.6.3.14),Oxidative phosphorylation,-2.42
+BHI5,Peptidase B (EC 3.4.11.23),Peptidase,-5.15
+BHI5,Glycerol dehydrogenase (EC 1.1.1.6),Glycerolipid metabolism,-6.25
+BHI5,Sigma cross-reacting protein 27A,,-4.82
+BHI5,ATP synthase delta chain (EC 3.6.3.14),Oxidative phosphorylation,-1.99
+BHI5,Methionine aminopeptidase (EC 3.4.11.18),Peptidase,-5.49
+BHI5,"Protein-N(5)-glutamine methyltransferase PrmB, methylates LSU ribosomal protein L3p",,-8.01
+BHI5,Succinate dehydrogenase iron-sulfur protein (EC 1.3.99.1),Citrate cycle (TCA cycle),-1.26
+BHI5,Nucleoside-specific channel-forming protein Tsx precursor,,-3.86
+BHI5,Glutamyl-tRNA synthetase (EC 6.1.1.17),Aminoacyl-tRNA biosynthesis,-4.91
+BHI5,"Selenide,water dikinase (EC 2.7.9.3)",Selenocompound metabolism,-4.76
+BHI5,Cytoplasmic protein YaiB,,-3.87
+BHI5,2-amino-3-ketobutyrate coenzyme A ligase (EC 2.3.1.29),"Glycine, serine and threonine metabolism",-6.05
+BHI5,FIG002208: Acetyltransferase (EC 2.3.1.-),,-4.52
+BHI5,Seryl-tRNA synthetase (EC 6.1.1.11),,-2.85
+BHI5,IMP cyclohydrolase (EC 3.5.4.10) / Phosphoribosylaminoimidazolecarboxamide formyltransferase (EC 2.1.2.3),Purine metabolism,-6.54
+BHI5,"Ribose ABC transport system, periplasmic ribose-binding protein RbsB (TC 3.A.1.2.1)",Transporter,-2.02
+BHI5,Dihydrolipoamide dehydrogenase of pyruvate dehydrogenase complex (EC 1.8.1.4) @ Dihydrolipoamide dehydrogenase (EC 1.8.1.4),,-1.41
+BHI5,Alkyl hydroperoxide reductase protein C (EC 1.6.4.-),,0.59
+BHI5,FIG00637942: hypothetical protein,,-3.72
+BHI5,Dihydrodipicolinate reductase (EC 1.3.1.26),"Glycine, serine and threonine metabolism",-5.87
+BHI5,"2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase (EC 2.3.1.117)",Lysine biosynthesis,-5.41
+BHI5,Succinate dehydrogenase flavoprotein subunit (EC 1.3.99.1),Citrate cycle (TCA cycle),-3.49
+BHI5,Glutathione S-transferase (EC 2.5.1.18),Glutathione metabolism,-5.89
+BHI5,Universal stress protein G,Universal Stress Protein,0.57
+BHI5,Nucleoside diphosphate kinase (EC 2.7.4.6),Purine metabolism,-3.07
+BHI5,Aminomethyltransferase (glycine cleavage system T protein) (EC 2.1.2.10),"Glycine, serine and threonine metabolism",-6.04
+BHI5,Succinyl-CoA ligase [ADP-forming] beta chain (EC 6.2.1.5),Citrate cycle (TCA cycle),-1.58
+BHI5,Carbamoyl-phosphate synthase small chain (EC 6.3.5.5),"Alanine, aspartate and glutamate metabolism",-7.17
+BHI5,Glutamine synthetase type I (EC 6.3.1.2),"Alanine, aspartate and glutamate metabolism",-3.33
+BHI5,2-oxoglutarate dehydrogenase E1 component (EC 1.2.4.2),Citrate cycle (TCA cycle),-5.12
+BHI5,Oxygen-insensitive NAD(P)H nitroreductase (EC 1.-.-.-) / Dihydropteridine reductase (EC 1.5.1.34),Folate biosynthesis,-4.39
+BHI5,Aconitate hydratase 2 (EC 4.2.1.3) @ 2-methylisocitrate dehydratase (EC 4.2.1.99),Citrate cycle (TCA cycle),-2.79
+BHI5,Catalase (EC 1.11.1.6) / Peroxidase (EC 1.11.1.7),Glyoxylate and dicarboxylate metabolism,-4.12
+BHI5,Isocitrate lyase (EC 4.1.3.1),Glyoxylate and dicarboxylate metabolism,-2.70
+BHI5,"Galactose/methyl galactoside ABC transport system, D-galactose-binding periplasmic protein MglB (TC 3.A.1.2.3)",Transporter,-3.33
+BHI5,Alpha-aspartyl dipeptidase Peptidase E (EC 3.4.13.21),"Alanine, aspartate and glutamate metabolism",-5.24
+BHI5,Glutamate Aspartate periplasmic binding protein precursor GltI (TC 3.A.1.3.4),Transporter,-2.41
+BHI5,Mannose-6-phosphate isomerase (EC 5.3.1.8),Fructose and mannose metabolism,-5.36
+BHI5,ATP synthase gamma chain (EC 3.6.3.14),Oxidative phosphorylation,-3.48
+BHI5,Ferritin-like protein 2,Iron?,-2.32
+BHI5,Methylglyoxal synthase (EC 4.2.3.3),Pyruvate metabolism,-4.32
+BHI5,Glucose-1-phosphatase (EC 3.1.3.10),Glycolysis / Gluconeogenesis,-2.28
+BHI5,Malate dehydrogenase (EC 1.1.1.37),Citrate cycle (TCA cycle),0.24
+BHI5,Succinyl-CoA ligase [ADP-forming] alpha chain (EC 6.2.1.5),Citrate cycle (TCA cycle),-0.93
+BHI5,D-3-phosphoglycerate dehydrogenase (EC 1.1.1.95),,-7.41
+BHI5,Dihydrolipoamide succinyltransferase component (E2) of 2-oxoglutarate dehydrogenase complex (EC 2.3.1.61),Lysine biosynthesis,-2.76
+BHI5,"PTS system, mannose-specific IIA component (EC 2.7.1.69) / PTS system, mannose-specific IIB component (EC 2.7.1.69)",Glycolysis / Gluconeogenesis,-3.73
+BHI5,"TonB-dependent receptor; Outer membrane receptor for ferric enterobactin and colicins B, D",,-4.01
+BHI5,Sulfite reductase [NADPH] hemoprotein beta-component (EC 1.8.1.2),Sulfur metabolism,-6.27
+BHI5,Phosphoenolpyruvate carboxykinase [ATP] (EC 4.1.1.49),Citrate cycle (TCA cycle),-3.58
+BHI5,FIG00638561: hypothetical protein,,-3.15
+BHI5,Isochorismatase (EC 3.3.2.1) [enterobactin] siderophore / Apo-aryl carrier domain of EntB,Biosynthesis of siderophore group nonribosomal peptide,-5.42
+BHI5,Tryptophanase (EC 4.1.99.1),Tryptophan metabolism,-4.15
+BHI5,"Fumarate hydratase class I, anaerobic (EC 4.2.1.2)",Citrate cycle (TCA cycle),-6.52
+BHI5,NADP-dependent malic enzyme (EC 1.1.1.40),Pyruvate metabolism,-4.13
+BHI5,"Histidine ABC transporter, histidine-binding periplasmic protein precursor HisJ (TC 3.A.1.3.1)",Transporter,-3.46
+BHI5,S-adenosylmethionine synthetase (EC 2.5.1.6),Cysteine and methionine metabolism,-5.05
+BHI5,Aspartate-semialdehyde dehydrogenase (EC 1.2.1.11),"Glycine, serine and threonine metabolism ; Cysteine and methionine metabolism ; Lysine biosynthesis",-7.55
+BHI5,"Phosphoenolpyruvate-dihydroxyacetone phosphotransferase (EC 2.7.1.121), subunit DhaM; DHA-specific IIA component / DHA-specific phosphocarrier protein HPr / DHA-specific EI component",transferase,-8.80
+BHI5,Isocitrate dehydrogenase [NADP] (EC 1.1.1.42),Citrate cycle (TCA cycle),-0.33
+BHI5,L-lactate dehydrogenase (EC 1.1.2.3),Pyruvate metabolism,
+BHI5,L-asparaginase (EC 3.5.1.1),"Alanine, aspartate and glutamate metabolism",-1.48
+BHI5,Galactonate dehydratase (EC 4.2.1.6),Galactose metabolism,-4.60
+BHI5,"Glycerophosphoryl diester phosphodiesterase, periplasmic (EC 3.1.4.46)",Glycerophospholipid metabolism,-3.04
+BHI5,3-oxoacyl-[acyl-carrier protein] reductase (EC 1.1.1.100),Fatty acid biosynthesis (Biotin metabolism),-3.08
+BHI5,"Maltose/maltodextrin ABC transporter, substrate binding periplasmic protein MalE",,-4.70
+BHI5,Outer membrane protein W precursor,Cell surface,-2.21
+BHI5,"Fumarate hydratase class I, aerobic (EC 4.2.1.2)",Citrate cycle (TCA cycle),-3.36
+BHI6,Protein ygiW precursor,Stress/biolfilm,-5.68
+BHI6,Osmotically inducible protein OsmY,Osmotic stuff,-4.51
+BHI6,Chaperone HdeB,Chaperon,-5.40
+BHI6,Chaperone HdeA,Chaperon,-10.52
+BHI6,PhnB protein; putative DNA binding 3-demethylubiquinone-9 3-methyltransferase domain protein,DNA binding,-8.06
+BHI6,Superoxide dismutase [Cu-Zn] precursor (EC 1.15.1.1),Oxidoreductases,
+BHI6,FIG00638941: hypothetical protein,,-2.39
+BHI6,Glutamate decarboxylase (EC 4.1.1.15),"Alanine, aspartate and glutamate metabolism",
+BHI6,UPF0337 protein yjbJ,,-2.72
+BHI6,"L,D-transpeptidase YnhG",Cell surface (peptidoglycan),-5.79
+BHI6,FIG00638559: hypothetical protein,,-4.47
+BHI6,FIG00639237: hypothetical protein,,
+BHI6,Bacterioferritin Ecoli_contig00041_3652_4128|Bacterioferritin,Iron,-3.14
+BHI6,FIG00638813: hypothetical protein,,-6.19
+BHI6,Glycoprotein-polysaccharide metabolism,,-7.19
+BHI6,FIG00638953: hypothetical protein,,-7.55
+BHI6,Chaperone protein hchA,Chaperon,-3.02
+BHI6,Osmotically inducible lipoprotein E precursor,Osmotic stuff,-1.14
+BHI6,Putative cytoplasmic protein,,-4.50
+BHI6,Osmotically inducible protein C,Osmotic stuff,-2.05
+BHI6,Uncharacterized membrane protein YqjD,,-2.25
+BHI6,Glutaredoxin 2,Glutaredoxin,-4.69
+BHI6,Non-specific DNA-binding protein Dps / Iron-binding ferritin-like antioxidant protein / Ferroxidase (EC 1.16.3.1),,-1.14
+BHI6,hypothetical protein,,-1.10
+BHI6,Uncharacterized membrane lipoprotein clustered with tellurite resistance proteins TehA/TehB,,-7.18
+BHI6,Phosphopentomutase (EC 5.4.2.7),Pentose phosphate pathway,-3.97
+BHI6,Glutathione peroxidase (EC 1.11.1.9),Glutaredoxin,-4.93
+BHI6,Protein of unknown function DUF541,,-5.32
+BHI6,"Putative Dihydrolipoamide dehydrogenase (EC 1.8.1.4); Mercuric ion reductase (EC 1.16.1.1); PF00070 family, FAD-dependent NAD(P)-disulphide oxidoreductase",Glycolysis / Gluconeogenesis; Citrate cycle (TCA cycle),-6.87
+BHI6,"Arginine ABC transporter, periplasmic arginine-binding protein ArtI",Transporter,-5.40
+BHI6,"Methylglyoxal reductase, acetol producing (EC 1.1.1.-) / 2,5-diketo-D-gluconate reductase A (EC 1.1.1.274)",Oxidoreductases,-4.57
+BHI6,Nicotinamidase family protein YcaC,,-5.21
+BHI6,Glutaredoxin 3 (Grx3),Glutaredoxin,-3.55
+BHI6,6-phosphogluconolactonase (EC 3.1.1.31),Pentose phosphate pathway,-5.07
+BHI6,S-ribosylhomocysteine lyase (EC 4.4.1.21) / Autoinducer-2 production protein LuxS,,-1.65
+BHI6,probable lipoprotein,,-5.14
+BHI6,FIG00639395: hypothetical protein,,-5.14
+BHI6,Chaperone protein DnaK,chaperone,-1.12
+BHI6,hypothetical protein,,-7.61
+BHI6,YciO family,,-4.83
+BHI6,Agmatinase (EC 3.5.3.11),Arginine and proline metabolism,-4.24
+BHI6,Uncharacterized protein YbeL / FIG002095: hypothetical protein,,-5.36
+BHI6,Outer membrane protein A precursor,,-0.90
+BHI6,Putative cytoplasmic protein,,-3.85
+BHI6,"Succinyl-CoA synthetase, alpha subunit-related enzymes",Citrate cycle (TCA cycle),-5.02
+BHI6,DNA-directed RNA polymerase omega subunit (EC 2.7.7.6),DNA binding,-3.77
+BHI6,Heat shock protein 60 family co-chaperone GroES,,-0.09
+BHI6,Aerobic respiration control protein arcA,,-2.80
+BHI6,Integration host factor alpha subunit,,-2.52
+BHI6,"PTS system, glucose-specific IIA component (EC 2.7.1.69)",Glycolysis / Gluconeogenesis,-0.34
+BHI6,FIG002060: uncharacterized protein YggL,,-5.37
+BHI6,"Ferredoxin, 2Fe-2S",,-4.39
+BHI6,FIG001943: hypothetical protein YajQ,,-2.89
+BHI6,Peptide deformylase (EC 3.5.1.88),Hydrolases,-4.84
+BHI6,DNA-binding protein H-NS,DNA binding,-4.46
+BHI6,Protein yciN,,-5.74
+BHI6,Peptidyl-prolyl cis-trans isomerase ppiA precursor (EC 5.2.1.8),,-4.02
+BHI6,Carbon storage regulator,,-3.16
+BHI6,Thioredoxin reductase (EC 1.8.1.9),Pyrimidine metabolism,-2.86
+BHI6,Cytidine deaminase (EC 3.5.4.5),Pyrimidine metabolism,
+BHI6,"3-oxoacyl-[acyl-carrier-protein] synthase, KASIII (EC 2.3.1.41)",Fatty acid biosynthesis (Biotin metabolism),-4.06
+BHI6,Cysteine synthase (EC 2.5.1.47),Cysteine and methionine metabolism,0.18
+BHI6,Enoyl-[acyl-carrier-protein] reductase [NADH] (EC 1.3.1.9),Citrate cycle (TCA cycle),-3.53
+BHI6,4-Hydroxy-2-oxoglutarate aldolase (EC 4.1.3.16) / 2-dehydro-3-deoxyphosphogluconate aldolase (EC 4.1.2.14),Arginine and proline metabolism,-4.26
+BHI6,"ABC transporter, ATP-binding protein",Transporter,-4.97
+BHI6,Cell division topological specificity factor MinE,,-3.41
+BHI6,Transcriptional regulator SlyA,Transcription Regulator,-5.95
+BHI6,2-dehydro-3-deoxyphosphogalactonate aldolase (EC 4.1.2.21),Galactose metabolism,-2.05
+BHI6,3-methyl-2-oxobutanoate hydroxymethyltransferase (EC 2.1.2.11),Pantothenate and CoA biosynthesis,-6.16
+BHI6,"3-oxoacyl-[acyl-carrier-protein] synthase, KASI (EC 2.3.1.41)",Fatty acid biosynthesis (Biotin metabolism),-2.49
+BHI6,Superoxide dismutase [Fe] (EC 1.15.1.1),nickel superoxide dismutase,0.04
+BHI6,"Glutamine ABC transporter, periplasmic glutamine-binding protein (TC 3.A.1.3.2)",Transporter,-0.90
+BHI6,Phosphoglucomutase (EC 5.4.2.2),Glycolysis / Gluconeogenesis,-3.36
+BHI6,Adenylosuccinate synthetase (EC 6.3.4.4),"Alanine, aspartate and glutamate metabolism",-3.41
+BHI6,Universal stress protein E,Universal Stress Protein,-3.92
+BHI6,NADPH-dependent broad range aldehyde dehydrogenase YqhD,,-5.77
+BHI6,2-Keto-3-deoxy-D-manno-octulosonate-8-phosphate synthase (EC 2.5.1.55),Lipopolysaccharide biosynthesis,-2.25
+BHI6,Septum site-determining protein MinD,,-3.61
+BHI6,Lysine-arginine-ornithine-binding periplasmic protein precursor (TC 3.A.1.3.1),Transporter,-3.61
+BHI6,Tryptophanyl-tRNA synthetase (EC 6.1.1.2),Aminoacyl-tRNA biosynthesis,-5.23
+BHI6,Serine hydroxymethyltransferase (EC 2.1.2.1),"Glycine, serine and threonine metabolism",-1.29
+BHI6,Aspartate carbamoyltransferase regulatory chain (PyrI),"Alanine, aspartate and glutamate metabolism",-4.65
+BHI6,"Fructosamine kinase family protein, At3g61080 homolog",,-3.56
+BHI6,"2,3-bisphosphoglycerate-independent phosphoglycerate mutase (EC 5.4.2.1)",Glycolysis / Gluconeogenesis,-5.37
+BHI6,Phosphoheptose isomerase 1 (EC 5.3.1.-),Capsule,-2.95
+BHI6,Phosphoribosylaminoimidazole-succinocarboxamide synthase (EC 6.3.2.6),Purine metabolism,-1.03
+BHI6,Acetate kinase (EC 2.7.2.1),Pyruvate metabolism,-1.98
+BHI6,Putative ACR protein,,-3.47
+BHI6,"TldE/PmbA protein, part of proposed TldE/TldD proteolytic complex (PMID 12029038)",,-7.76
+BHI6,Pyruvate kinase (EC 2.7.1.40),Glycolysis / Gluconeogenesis,-4.31
+BHI6,Universal stress protein F,Universal Stress Protein,1.27
+BHI6,"Molybdopterin biosynthesis Mog protein, molybdochelatase",,-9.13
+BHI6,3-oxoacyl-[acyl-carrier protein] reductase (EC 1.1.1.100),Fatty acid biosynthesis (Biotin metabolism),-4.81
+BHI6,"3-oxoacyl-[acyl-carrier-protein] synthase, KASII (EC 2.3.1.41)",Fatty acid biosynthesis (Biotin metabolism),-5.31
+BHI6,"Oligopeptide ABC transporter, periplasmic oligopeptide-binding protein OppA (TC 3.A.1.5.1)",Transporter,-2.53
+BHI6,Universal stress protein A,Universal Stress Protein,0.49
+BHI6,Phosphoribosylamine--glycine ligase (EC 6.3.4.13),Purine metabolism,-4.19
+BHI6,ATP synthase beta chain (EC 3.6.3.14),Oxidative phosphorylation,-2.50
+BHI6,Peptidase B (EC 3.4.11.23),Peptidase,-4.52
+BHI6,Glycerol dehydrogenase (EC 1.1.1.6),Glycerolipid metabolism,-7.01
+BHI6,Sigma cross-reacting protein 27A,,-4.47
+BHI6,ATP synthase delta chain (EC 3.6.3.14),Oxidative phosphorylation,-1.94
+BHI6,Methionine aminopeptidase (EC 3.4.11.18),Peptidase,-5.26
+BHI6,"Protein-N(5)-glutamine methyltransferase PrmB, methylates LSU ribosomal protein L3p",,-7.59
+BHI6,Succinate dehydrogenase iron-sulfur protein (EC 1.3.99.1),Citrate cycle (TCA cycle),-1.42
+BHI6,Nucleoside-specific channel-forming protein Tsx precursor,,-4.26
+BHI6,Glutamyl-tRNA synthetase (EC 6.1.1.17),Aminoacyl-tRNA biosynthesis,-4.88
+BHI6,"Selenide,water dikinase (EC 2.7.9.3)",Selenocompound metabolism,-4.76
+BHI6,Cytoplasmic protein YaiB,,-3.16
+BHI6,2-amino-3-ketobutyrate coenzyme A ligase (EC 2.3.1.29),"Glycine, serine and threonine metabolism",-4.82
+BHI6,FIG002208: Acetyltransferase (EC 2.3.1.-),,-4.38
+BHI6,Seryl-tRNA synthetase (EC 6.1.1.11),,-2.78
+BHI6,IMP cyclohydrolase (EC 3.5.4.10) / Phosphoribosylaminoimidazolecarboxamide formyltransferase (EC 2.1.2.3),Purine metabolism,-5.51
+BHI6,"Ribose ABC transport system, periplasmic ribose-binding protein RbsB (TC 3.A.1.2.1)",Transporter,-2.52
+BHI6,Dihydrolipoamide dehydrogenase of pyruvate dehydrogenase complex (EC 1.8.1.4) @ Dihydrolipoamide dehydrogenase (EC 1.8.1.4),,-1.50
+BHI6,Alkyl hydroperoxide reductase protein C (EC 1.6.4.-),,1.10
+BHI6,FIG00637942: hypothetical protein,,-3.25
+BHI6,Dihydrodipicolinate reductase (EC 1.3.1.26),"Glycine, serine and threonine metabolism",
+BHI6,"2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase (EC 2.3.1.117)",Lysine biosynthesis,-4.87
+BHI6,Succinate dehydrogenase flavoprotein subunit (EC 1.3.99.1),Citrate cycle (TCA cycle),-3.09
+BHI6,Glutathione S-transferase (EC 2.5.1.18),Glutathione metabolism,-4.92
+BHI6,Universal stress protein G,Universal Stress Protein,0.79
+BHI6,Nucleoside diphosphate kinase (EC 2.7.4.6),Purine metabolism,-3.59
+BHI6,Aminomethyltransferase (glycine cleavage system T protein) (EC 2.1.2.10),"Glycine, serine and threonine metabolism",-6.29
+BHI6,Succinyl-CoA ligase [ADP-forming] beta chain (EC 6.2.1.5),Citrate cycle (TCA cycle),-1.00
+BHI6,Carbamoyl-phosphate synthase small chain (EC 6.3.5.5),"Alanine, aspartate and glutamate metabolism",-6.49
+BHI6,Glutamine synthetase type I (EC 6.3.1.2),"Alanine, aspartate and glutamate metabolism",-2.89
+BHI6,2-oxoglutarate dehydrogenase E1 component (EC 1.2.4.2),Citrate cycle (TCA cycle),-4.35
+BHI6,Oxygen-insensitive NAD(P)H nitroreductase (EC 1.-.-.-) / Dihydropteridine reductase (EC 1.5.1.34),Folate biosynthesis,-3.88
+BHI6,Aconitate hydratase 2 (EC 4.2.1.3) @ 2-methylisocitrate dehydratase (EC 4.2.1.99),Citrate cycle (TCA cycle),-2.64
+BHI6,Catalase (EC 1.11.1.6) / Peroxidase (EC 1.11.1.7),Glyoxylate and dicarboxylate metabolism,-4.04
+BHI6,Isocitrate lyase (EC 4.1.3.1),Glyoxylate and dicarboxylate metabolism,-2.76
+BHI6,"Galactose/methyl galactoside ABC transport system, D-galactose-binding periplasmic protein MglB (TC 3.A.1.2.3)",Transporter,-4.31
+BHI6,Alpha-aspartyl dipeptidase Peptidase E (EC 3.4.13.21),"Alanine, aspartate and glutamate metabolism",-4.94
+BHI6,Glutamate Aspartate periplasmic binding protein precursor GltI (TC 3.A.1.3.4),Transporter,-3.24
+BHI6,Mannose-6-phosphate isomerase (EC 5.3.1.8),Fructose and mannose metabolism,-5.17
+BHI6,ATP synthase gamma chain (EC 3.6.3.14),Oxidative phosphorylation,-3.59
+BHI6,Ferritin-like protein 2,Iron?,-2.14
+BHI6,Methylglyoxal synthase (EC 4.2.3.3),Pyruvate metabolism,-4.50
+BHI6,Glucose-1-phosphatase (EC 3.1.3.10),Glycolysis / Gluconeogenesis,-2.92
+BHI6,Malate dehydrogenase (EC 1.1.1.37),Citrate cycle (TCA cycle),0.34
+BHI6,Succinyl-CoA ligase [ADP-forming] alpha chain (EC 6.2.1.5),Citrate cycle (TCA cycle),-1.00
+BHI6,D-3-phosphoglycerate dehydrogenase (EC 1.1.1.95),,-6.91
+BHI6,Dihydrolipoamide succinyltransferase component (E2) of 2-oxoglutarate dehydrogenase complex (EC 2.3.1.61),Lysine biosynthesis,-2.62
+BHI6,"PTS system, mannose-specific IIA component (EC 2.7.1.69) / PTS system, mannose-specific IIB component (EC 2.7.1.69)",Glycolysis / Gluconeogenesis,-4.87
+BHI6,"TonB-dependent receptor; Outer membrane receptor for ferric enterobactin and colicins B, D",,-4.00
+BHI6,Sulfite reductase [NADPH] hemoprotein beta-component (EC 1.8.1.2),Sulfur metabolism,-5.42
+BHI6,Phosphoenolpyruvate carboxykinase [ATP] (EC 4.1.1.49),Citrate cycle (TCA cycle),-3.18
+BHI6,FIG00638561: hypothetical protein,,-3.01
+BHI6,Isochorismatase (EC 3.3.2.1) [enterobactin] siderophore / Apo-aryl carrier domain of EntB,Biosynthesis of siderophore group nonribosomal peptide,-4.78
+BHI6,Tryptophanase (EC 4.1.99.1),Tryptophan metabolism,-3.61
+BHI6,"Fumarate hydratase class I, anaerobic (EC 4.2.1.2)",Citrate cycle (TCA cycle),-5.54
+BHI6,NADP-dependent malic enzyme (EC 1.1.1.40),Pyruvate metabolism,-3.94
+BHI6,"Histidine ABC transporter, histidine-binding periplasmic protein precursor HisJ (TC 3.A.1.3.1)",Transporter,-4.64
+BHI6,S-adenosylmethionine synthetase (EC 2.5.1.6),Cysteine and methionine metabolism,-4.56
+BHI6,Aspartate-semialdehyde dehydrogenase (EC 1.2.1.11),"Glycine, serine and threonine metabolism ; Cysteine and methionine metabolism ; Lysine biosynthesis",-6.98
+BHI6,"Phosphoenolpyruvate-dihydroxyacetone phosphotransferase (EC 2.7.1.121), subunit DhaM; DHA-specific IIA component / DHA-specific phosphocarrier protein HPr / DHA-specific EI component",transferase,-8.20
+BHI6,Isocitrate dehydrogenase [NADP] (EC 1.1.1.42),Citrate cycle (TCA cycle),-0.42
+BHI6,L-lactate dehydrogenase (EC 1.1.2.3),Pyruvate metabolism,-6.17
+BHI6,L-asparaginase (EC 3.5.1.1),"Alanine, aspartate and glutamate metabolism",-1.08
+BHI6,Galactonate dehydratase (EC 4.2.1.6),Galactose metabolism,-4.41
+BHI6,"Glycerophosphoryl diester phosphodiesterase, periplasmic (EC 3.1.4.46)",Glycerophospholipid metabolism,-2.63
+BHI6,3-oxoacyl-[acyl-carrier protein] reductase (EC 1.1.1.100),Fatty acid biosynthesis (Biotin metabolism),-3.23
+BHI6,"Maltose/maltodextrin ABC transporter, substrate binding periplasmic protein MalE",,-5.45
+BHI6,Outer membrane protein W precursor,Cell surface,-1.40
+BHI6,"Fumarate hydratase class I, aerobic (EC 4.2.1.2)",Citrate cycle (TCA cycle),-3.18
+BHI7,Protein ygiW precursor,Stress/biolfilm,
+BHI7,Osmotically inducible protein OsmY,Osmotic stuff,-6.84
+BHI7,Chaperone HdeB,Chaperon,-1.10
+BHI7,Chaperone HdeA,Chaperon,-6.42
+BHI7,PhnB protein; putative DNA binding 3-demethylubiquinone-9 3-methyltransferase domain protein,DNA binding,
+BHI7,Superoxide dismutase [Cu-Zn] precursor (EC 1.15.1.1),Oxidoreductases,
+BHI7,FIG00638941: hypothetical protein,,-4.84
+BHI7,Glutamate decarboxylase (EC 4.1.1.15),"Alanine, aspartate and glutamate metabolism",-3.44
+BHI7,UPF0337 protein yjbJ,,
+BHI7,"L,D-transpeptidase YnhG",Cell surface (peptidoglycan),
+BHI7,FIG00638559: hypothetical protein,,
+BHI7,FIG00639237: hypothetical protein,,
+BHI7,Bacterioferritin Ecoli_contig00041_3652_4128|Bacterioferritin,Iron,-7.10
+BHI7,FIG00638813: hypothetical protein,,
+BHI7,Glycoprotein-polysaccharide metabolism,,
+BHI7,FIG00638953: hypothetical protein,,
+BHI7,Chaperone protein hchA,Chaperon,-5.52
+BHI7,Osmotically inducible lipoprotein E precursor,Osmotic stuff,-3.01
+BHI7,Putative cytoplasmic protein,,-6.60
+BHI7,Osmotically inducible protein C,Osmotic stuff,-2.14
+BHI7,Uncharacterized membrane protein YqjD,,-5.10
+BHI7,Glutaredoxin 2,Glutaredoxin,-5.99
+BHI7,Non-specific DNA-binding protein Dps / Iron-binding ferritin-like antioxidant protein / Ferroxidase (EC 1.16.3.1),,-3.49
+BHI7,hypothetical protein,,-1.61
+BHI7,Uncharacterized membrane lipoprotein clustered with tellurite resistance proteins TehA/TehB,,-7.12
+BHI7,Phosphopentomutase (EC 5.4.2.7),Pentose phosphate pathway,-4.56
+BHI7,Glutathione peroxidase (EC 1.11.1.9),Glutaredoxin,-5.71
+BHI7,Protein of unknown function DUF541,,-5.62
+BHI7,"Putative Dihydrolipoamide dehydrogenase (EC 1.8.1.4); Mercuric ion reductase (EC 1.16.1.1); PF00070 family, FAD-dependent NAD(P)-disulphide oxidoreductase",Glycolysis / Gluconeogenesis; Citrate cycle (TCA cycle),
+BHI7,"Arginine ABC transporter, periplasmic arginine-binding protein ArtI",Transporter,
+BHI7,"Methylglyoxal reductase, acetol producing (EC 1.1.1.-) / 2,5-diketo-D-gluconate reductase A (EC 1.1.1.274)",Oxidoreductases,-5.79
+BHI7,Nicotinamidase family protein YcaC,,
+BHI7,Glutaredoxin 3 (Grx3),Glutaredoxin,-4.30
+BHI7,6-phosphogluconolactonase (EC 3.1.1.31),Pentose phosphate pathway,-5.38
+BHI7,S-ribosylhomocysteine lyase (EC 4.4.1.21) / Autoinducer-2 production protein LuxS,,-1.94
+BHI7,probable lipoprotein,,
+BHI7,FIG00639395: hypothetical protein,,-6.81
+BHI7,Chaperone protein DnaK,chaperone,-0.72
+BHI7,hypothetical protein,,-7.73
+BHI7,YciO family,,-4.67
+BHI7,Agmatinase (EC 3.5.3.11),Arginine and proline metabolism,-4.52
+BHI7,Uncharacterized protein YbeL / FIG002095: hypothetical protein,,-5.99
+BHI7,Outer membrane protein A precursor,,-1.43
+BHI7,Putative cytoplasmic protein,,-4.58
+BHI7,"Succinyl-CoA synthetase, alpha subunit-related enzymes",Citrate cycle (TCA cycle),-5.31
+BHI7,DNA-directed RNA polymerase omega subunit (EC 2.7.7.6),DNA binding,-3.66
+BHI7,Heat shock protein 60 family co-chaperone GroES,,0.13
+BHI7,Aerobic respiration control protein arcA,,-2.92
+BHI7,Integration host factor alpha subunit,,-2.64
+BHI7,"PTS system, glucose-specific IIA component (EC 2.7.1.69)",Glycolysis / Gluconeogenesis,-0.86
+BHI7,FIG002060: uncharacterized protein YggL,,-6.19
+BHI7,"Ferredoxin, 2Fe-2S",,-4.75
+BHI7,FIG001943: hypothetical protein YajQ,,-3.37
+BHI7,Peptide deformylase (EC 3.5.1.88),Hydrolases,-5.26
+BHI7,DNA-binding protein H-NS,DNA binding,-5.13
+BHI7,Protein yciN,,-5.28
+BHI7,Peptidyl-prolyl cis-trans isomerase ppiA precursor (EC 5.2.1.8),,-4.74
+BHI7,Carbon storage regulator,,-3.20
+BHI7,Thioredoxin reductase (EC 1.8.1.9),Pyrimidine metabolism,-3.28
+BHI7,Cytidine deaminase (EC 3.5.4.5),Pyrimidine metabolism,-9.49
+BHI7,"3-oxoacyl-[acyl-carrier-protein] synthase, KASIII (EC 2.3.1.41)",Fatty acid biosynthesis (Biotin metabolism),-3.99
+BHI7,Cysteine synthase (EC 2.5.1.47),Cysteine and methionine metabolism,-0.53
+BHI7,Enoyl-[acyl-carrier-protein] reductase [NADH] (EC 1.3.1.9),Citrate cycle (TCA cycle),-3.50
+BHI7,4-Hydroxy-2-oxoglutarate aldolase (EC 4.1.3.16) / 2-dehydro-3-deoxyphosphogluconate aldolase (EC 4.1.2.14),Arginine and proline metabolism,-4.84
+BHI7,"ABC transporter, ATP-binding protein",Transporter,-5.13
+BHI7,Cell division topological specificity factor MinE,,-2.99
+BHI7,Transcriptional regulator SlyA,Transcription Regulator,-5.90
+BHI7,2-dehydro-3-deoxyphosphogalactonate aldolase (EC 4.1.2.21),Galactose metabolism,-2.21
+BHI7,3-methyl-2-oxobutanoate hydroxymethyltransferase (EC 2.1.2.11),Pantothenate and CoA biosynthesis,-4.73
+BHI7,"3-oxoacyl-[acyl-carrier-protein] synthase, KASI (EC 2.3.1.41)",Fatty acid biosynthesis (Biotin metabolism),-2.79
+BHI7,Superoxide dismutase [Fe] (EC 1.15.1.1),nickel superoxide dismutase,-0.17
+BHI7,"Glutamine ABC transporter, periplasmic glutamine-binding protein (TC 3.A.1.3.2)",Transporter,-0.72
+BHI7,Phosphoglucomutase (EC 5.4.2.2),Glycolysis / Gluconeogenesis,-2.85
+BHI7,Adenylosuccinate synthetase (EC 6.3.4.4),"Alanine, aspartate and glutamate metabolism",-3.87
+BHI7,Universal stress protein E,Universal Stress Protein,-3.49
+BHI7,NADPH-dependent broad range aldehyde dehydrogenase YqhD,,-6.28
+BHI7,2-Keto-3-deoxy-D-manno-octulosonate-8-phosphate synthase (EC 2.5.1.55),Lipopolysaccharide biosynthesis,-2.36
+BHI7,Septum site-determining protein MinD,,-2.84
+BHI7,Lysine-arginine-ornithine-binding periplasmic protein precursor (TC 3.A.1.3.1),Transporter,-3.36
+BHI7,Tryptophanyl-tRNA synthetase (EC 6.1.1.2),Aminoacyl-tRNA biosynthesis,-5.20
+BHI7,Serine hydroxymethyltransferase (EC 2.1.2.1),"Glycine, serine and threonine metabolism",-0.91
+BHI7,Aspartate carbamoyltransferase regulatory chain (PyrI),"Alanine, aspartate and glutamate metabolism",-5.21
+BHI7,"Fructosamine kinase family protein, At3g61080 homolog",,-4.54
+BHI7,"2,3-bisphosphoglycerate-independent phosphoglycerate mutase (EC 5.4.2.1)",Glycolysis / Gluconeogenesis,-4.95
+BHI7,Phosphoheptose isomerase 1 (EC 5.3.1.-),Capsule,-2.92
+BHI7,Phosphoribosylaminoimidazole-succinocarboxamide synthase (EC 6.3.2.6),Purine metabolism,-1.25
+BHI7,Acetate kinase (EC 2.7.2.1),Pyruvate metabolism,-1.99
+BHI7,Putative ACR protein,,-3.43
+BHI7,"TldE/PmbA protein, part of proposed TldE/TldD proteolytic complex (PMID 12029038)",,-6.95
+BHI7,Pyruvate kinase (EC 2.7.1.40),Glycolysis / Gluconeogenesis,-4.16
+BHI7,Universal stress protein F,Universal Stress Protein,0.49
+BHI7,"Molybdopterin biosynthesis Mog protein, molybdochelatase",,-10.21
+BHI7,3-oxoacyl-[acyl-carrier protein] reductase (EC 1.1.1.100),Fatty acid biosynthesis (Biotin metabolism),-4.44
+BHI7,"3-oxoacyl-[acyl-carrier-protein] synthase, KASII (EC 2.3.1.41)",Fatty acid biosynthesis (Biotin metabolism),-5.34
+BHI7,"Oligopeptide ABC transporter, periplasmic oligopeptide-binding protein OppA (TC 3.A.1.5.1)",Transporter,-2.93
+BHI7,Universal stress protein A,Universal Stress Protein,0.51
+BHI7,Phosphoribosylamine--glycine ligase (EC 6.3.4.13),Purine metabolism,-4.30
+BHI7,ATP synthase beta chain (EC 3.6.3.14),Oxidative phosphorylation,-2.49
+BHI7,Peptidase B (EC 3.4.11.23),Peptidase,-4.58
+BHI7,Glycerol dehydrogenase (EC 1.1.1.6),Glycerolipid metabolism,-7.53
+BHI7,Sigma cross-reacting protein 27A,,-4.81
+BHI7,ATP synthase delta chain (EC 3.6.3.14),Oxidative phosphorylation,-2.20
+BHI7,Methionine aminopeptidase (EC 3.4.11.18),Peptidase,-4.88
+BHI7,"Protein-N(5)-glutamine methyltransferase PrmB, methylates LSU ribosomal protein L3p",,-7.72
+BHI7,Succinate dehydrogenase iron-sulfur protein (EC 1.3.99.1),Citrate cycle (TCA cycle),-0.95
+BHI7,Nucleoside-specific channel-forming protein Tsx precursor,,-4.58
+BHI7,Glutamyl-tRNA synthetase (EC 6.1.1.17),Aminoacyl-tRNA biosynthesis,-4.94
+BHI7,"Selenide,water dikinase (EC 2.7.9.3)",Selenocompound metabolism,-5.07
+BHI7,Cytoplasmic protein YaiB,,-3.37
+BHI7,2-amino-3-ketobutyrate coenzyme A ligase (EC 2.3.1.29),"Glycine, serine and threonine metabolism",-4.46
+BHI7,FIG002208: Acetyltransferase (EC 2.3.1.-),,-4.96
+BHI7,Seryl-tRNA synthetase (EC 6.1.1.11),,-2.41
+BHI7,IMP cyclohydrolase (EC 3.5.4.10) / Phosphoribosylaminoimidazolecarboxamide formyltransferase (EC 2.1.2.3),Purine metabolism,-4.49
+BHI7,"Ribose ABC transport system, periplasmic ribose-binding protein RbsB (TC 3.A.1.2.1)",Transporter,-3.01
+BHI7,Dihydrolipoamide dehydrogenase of pyruvate dehydrogenase complex (EC 1.8.1.4) @ Dihydrolipoamide dehydrogenase (EC 1.8.1.4),,-1.07
+BHI7,Alkyl hydroperoxide reductase protein C (EC 1.6.4.-),,0.59
+BHI7,FIG00637942: hypothetical protein,,-3.51
+BHI7,Dihydrodipicolinate reductase (EC 1.3.1.26),"Glycine, serine and threonine metabolism",
+BHI7,"2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase (EC 2.3.1.117)",Lysine biosynthesis,-5.09
+BHI7,Succinate dehydrogenase flavoprotein subunit (EC 1.3.99.1),Citrate cycle (TCA cycle),-2.14
+BHI7,Glutathione S-transferase (EC 2.5.1.18),Glutathione metabolism,-5.19
+BHI7,Universal stress protein G,Universal Stress Protein,0.70
+BHI7,Nucleoside diphosphate kinase (EC 2.7.4.6),Purine metabolism,-3.24
+BHI7,Aminomethyltransferase (glycine cleavage system T protein) (EC 2.1.2.10),"Glycine, serine and threonine metabolism",-4.67
+BHI7,Succinyl-CoA ligase [ADP-forming] beta chain (EC 6.2.1.5),Citrate cycle (TCA cycle),-0.49
+BHI7,Carbamoyl-phosphate synthase small chain (EC 6.3.5.5),"Alanine, aspartate and glutamate metabolism",-6.32
+BHI7,Glutamine synthetase type I (EC 6.3.1.2),"Alanine, aspartate and glutamate metabolism",-3.51
+BHI7,2-oxoglutarate dehydrogenase E1 component (EC 1.2.4.2),Citrate cycle (TCA cycle),-3.54
+BHI7,Oxygen-insensitive NAD(P)H nitroreductase (EC 1.-.-.-) / Dihydropteridine reductase (EC 1.5.1.34),Folate biosynthesis,-4.15
+BHI7,Aconitate hydratase 2 (EC 4.2.1.3) @ 2-methylisocitrate dehydratase (EC 4.2.1.99),Citrate cycle (TCA cycle),-2.07
+BHI7,Catalase (EC 1.11.1.6) / Peroxidase (EC 1.11.1.7),Glyoxylate and dicarboxylate metabolism,-3.54
+BHI7,Isocitrate lyase (EC 4.1.3.1),Glyoxylate and dicarboxylate metabolism,-2.36
+BHI7,"Galactose/methyl galactoside ABC transport system, D-galactose-binding periplasmic protein MglB (TC 3.A.1.2.3)",Transporter,-3.91
+BHI7,Alpha-aspartyl dipeptidase Peptidase E (EC 3.4.13.21),"Alanine, aspartate and glutamate metabolism",-4.53
+BHI7,Glutamate Aspartate periplasmic binding protein precursor GltI (TC 3.A.1.3.4),Transporter,-2.81
+BHI7,Mannose-6-phosphate isomerase (EC 5.3.1.8),Fructose and mannose metabolism,-5.15
+BHI7,ATP synthase gamma chain (EC 3.6.3.14),Oxidative phosphorylation,-3.86
+BHI7,Ferritin-like protein 2,Iron?,-1.93
+BHI7,Methylglyoxal synthase (EC 4.2.3.3),Pyruvate metabolism,-4.57
+BHI7,Glucose-1-phosphatase (EC 3.1.3.10),Glycolysis / Gluconeogenesis,-2.72
+BHI7,Malate dehydrogenase (EC 1.1.1.37),Citrate cycle (TCA cycle),0.41
+BHI7,Succinyl-CoA ligase [ADP-forming] alpha chain (EC 6.2.1.5),Citrate cycle (TCA cycle),-0.55
+BHI7,D-3-phosphoglycerate dehydrogenase (EC 1.1.1.95),,-6.24
+BHI7,Dihydrolipoamide succinyltransferase component (E2) of 2-oxoglutarate dehydrogenase complex (EC 2.3.1.61),Lysine biosynthesis,-2.14
+BHI7,"PTS system, mannose-specific IIA component (EC 2.7.1.69) / PTS system, mannose-specific IIB component (EC 2.7.1.69)",Glycolysis / Gluconeogenesis,-4.98
+BHI7,"TonB-dependent receptor; Outer membrane receptor for ferric enterobactin and colicins B, D",,-4.00
+BHI7,Sulfite reductase [NADPH] hemoprotein beta-component (EC 1.8.1.2),Sulfur metabolism,-5.73
+BHI7,Phosphoenolpyruvate carboxykinase [ATP] (EC 4.1.1.49),Citrate cycle (TCA cycle),-2.60
+BHI7,FIG00638561: hypothetical protein,,-3.04
+BHI7,Isochorismatase (EC 3.3.2.1) [enterobactin] siderophore / Apo-aryl carrier domain of EntB,Biosynthesis of siderophore group nonribosomal peptide,-4.18
+BHI7,Tryptophanase (EC 4.1.99.1),Tryptophan metabolism,-3.84
+BHI7,"Fumarate hydratase class I, anaerobic (EC 4.2.1.2)",Citrate cycle (TCA cycle),-5.79
+BHI7,NADP-dependent malic enzyme (EC 1.1.1.40),Pyruvate metabolism,-3.02
+BHI7,"Histidine ABC transporter, histidine-binding periplasmic protein precursor HisJ (TC 3.A.1.3.1)",Transporter,-5.07
+BHI7,S-adenosylmethionine synthetase (EC 2.5.1.6),Cysteine and methionine metabolism,-3.72
+BHI7,Aspartate-semialdehyde dehydrogenase (EC 1.2.1.11),"Glycine, serine and threonine metabolism ; Cysteine and methionine metabolism ; Lysine biosynthesis",-7.09
+BHI7,"Phosphoenolpyruvate-dihydroxyacetone phosphotransferase (EC 2.7.1.121), subunit DhaM; DHA-specific IIA component / DHA-specific phosphocarrier protein HPr / DHA-specific EI component",transferase,-7.72
+BHI7,Isocitrate dehydrogenase [NADP] (EC 1.1.1.42),Citrate cycle (TCA cycle),-0.17
+BHI7,L-lactate dehydrogenase (EC 1.1.2.3),Pyruvate metabolism,-4.46
+BHI7,L-asparaginase (EC 3.5.1.1),"Alanine, aspartate and glutamate metabolism",-1.54
+BHI7,Galactonate dehydratase (EC 4.2.1.6),Galactose metabolism,-4.03
+BHI7,"Glycerophosphoryl diester phosphodiesterase, periplasmic (EC 3.1.4.46)",Glycerophospholipid metabolism,-3.06
+BHI7,3-oxoacyl-[acyl-carrier protein] reductase (EC 1.1.1.100),Fatty acid biosynthesis (Biotin metabolism),-3.30
+BHI7,"Maltose/maltodextrin ABC transporter, substrate binding periplasmic protein MalE",,-5.81
+BHI7,Outer membrane protein W precursor,Cell surface,-2.28
+BHI7,"Fumarate hydratase class I, aerobic (EC 4.2.1.2)",Citrate cycle (TCA cycle),-2.81
+BHI8,Ecoli_contig00001_211037_211429,Protein ygiW precursor,-7.14
+BHI8,Ecoli_contig00045_35127_35732,Osmotically inducible protein OsmY,-5.19
+BHI8,Ecoli_contig00044_29629_29967,Chaperone HdeB,-0.96
+BHI8,Ecoli_contig00044_30071_30403,Chaperone HdeA,-5.64
+BHI8,Ecoli_contig00015_25505_25948,PhnB protein; putative DNA binding 3-demethylubiquinone-9 3-methyltransferase domain protein,
+BHI8,Ecoli_contig00022_5625_6146,Superoxide dismutase [Cu-Zn] precursor (EC 1.15.1.1),-7.50
+BHI8,Ecoli_contig00055_21093_21542,FIG00638941: hypothetical protein,-2.38
+BHI8,Ecoli_contig00050_590_1990,Glutamate decarboxylase (EC 4.1.1.15),-4.24
+BHI8,Ecoli_contig00023_22286_22495,UPF0337 protein yjbJ,-3.56
+BHI8,Ecoli_contig00022_39196_40200,"L,D-transpeptidase YnhG",-5.52
+BHI8,Ecoli_contig00002_143000_143332,FIG00638559: hypothetical protein,-4.52
+BHI8,Ecoli_contig00003_202553_202828,FIG00639237: hypothetical protein,-6.17
+BHI8,Ecoli_contig00041_3652_4128,Bacterioferritin Ecoli_contig00041_3652_4128|Bacterioferritin,-3.13
+BHI8,Ecoli_contig00014_31118_31516,FIG00638813: hypothetical protein,-6.59
+BHI8,Ecoli_contig00003_76107_76679,Glycoprotein-polysaccharide metabolism,-7.07
+BHI8,Ecoli_contig00006_31820_32260,FIG00638953: hypothetical protein,
+BHI8,Ecoli_contig00059_6428_7279,Chaperone protein hchA,-2.77
+BHI8,Ecoli_contig00008_108643_108981,Osmotically inducible lipoprotein E precursor,-1.76
+BHI8,Ecoli_contig00037_16112_16339,Putative cytoplasmic protein,-4.57
+BHI8,Ecoli_contig00026_23548_23979,Osmotically inducible protein C,-2.38
+BHI8,Ecoli_contig00001_126901_127206,Uncharacterized membrane protein YqjD,-2.01
+BHI8,Ecoli_contig00012_25898_26545,Glutaredoxin 2,-5.19
+BHI8,Ecoli_contig00010_26964_27467,Non-specific DNA-binding protein Dps / Iron-binding ferritin-like antioxidant protein / Ferroxidase (EC 1.16.3.1),-1.73
+BHI8,Ecoli_contig00069_85_366,hypothetical protein,-0.87
+BHI8,Ecoli_contig00029_32534_33202,Uncharacterized membrane lipoprotein clustered with tellurite resistance proteins TehA/TehB,-6.63
+BHI8,Ecoli_contig00040_5204_6427,Phosphopentomutase (EC 5.4.2.7),-3.86
+BHI8,Ecoli_contig00008_136790_137341,Glutathione peroxidase (EC 1.11.1.9),-5.67
+BHI8,Ecoli_contig00017_21328_22068,Protein of unknown function DUF541,-5.48
+BHI8,Ecoli_contig00091_1340_2665,"Putative Dihydrolipoamide dehydrogenase (EC 1.8.1.4); Mercuric ion reductase (EC 1.16.1.1); PF00070 family, FAD-dependent NAD(P)-disulphide oxidoreductase",-6.19
+BHI8,Ecoli_contig00010_81701_82432,"Arginine ABC transporter, periplasmic arginine-binding protein ArtI",-5.38
+BHI8,Ecoli_contig00001_223263_224090,"Methylglyoxal reductase, acetol producing (EC 1.1.1.-) / 2,5-diketo-D-gluconate reductase A (EC 1.1.1.274)",-5.22
+BHI8,Ecoli_contig00087_3350_3976,Nicotinamidase family protein YcaC,-4.21
+BHI8,Ecoli_contig00018_24926_25177,Glutaredoxin 3 (Grx3),-3.79
+BHI8,Ecoli_contig00036_17112_18107,6-phosphogluconolactonase (EC 3.1.1.31),-5.05
+BHI8,Ecoli_contig00055_3042_3557,S-ribosylhomocysteine lyase (EC 4.4.1.21) / Autoinducer-2 production protein LuxS,-1.75
+BHI8,Ecoli_contig00010_83396_83911,probable lipoprotein,-4.75
+BHI8,Ecoli_contig00028_9339_9539,FIG00639395: hypothetical protein,-5.62
+BHI8,Ecoli_contig00040_38339_40255,Chaperone protein DnaK,-0.69
+BHI8,Ecoli_contig00022_15245_15592,hypothetical protein,-7.52
+BHI8,Ecoli_contig00070_10744_11364,YciO family,-4.41
+BHI8,Ecoli_contig00017_36865_37785,Agmatinase (EC 3.5.3.11),-4.65
+BHI8,Ecoli_contig00019_14091_14573,Uncharacterized protein YbeL / FIG002095: hypothetical protein,-5.59
+BHI8,Ecoli_contig00039_29914_30978,Outer membrane protein A precursor,-1.17
+BHI8,Ecoli_contig00018_10600_10809,Putative cytoplasmic protein,-4.63
+BHI8,Ecoli_contig00039_21632_22045,"Succinyl-CoA synthetase, alpha subunit-related enzymes",-4.68
+BHI8,Ecoli_contig00018_59647_59922,DNA-directed RNA polymerase omega subunit (EC 2.7.7.6),-3.77
+BHI8,Ecoli_contig00058_19752_20045,Heat shock protein 60 family co-chaperone GroES,0.09
+BHI8,Ecoli_contig00040_24114_24830,Aerobic respiration control protein arcA,-3.92
+BHI8,Ecoli_contig00008_135347_135646,Integration host factor alpha subunit,-2.50
+BHI8,Ecoli_contig00004_10511_11020,"PTS system, glucose-specific IIA component (EC 2.7.1.69)",-0.87
+BHI8,Ecoli_contig00017_55807_56133,FIG002060: uncharacterized protein YggL,-5.36
+BHI8,Ecoli_contig00004_124412_124747,"Ferredoxin, 2Fe-2S",-4.13
+BHI8,Ecoli_contig00003_106892_107383,FIG001943: hypothetical protein YajQ,-3.02
+BHI8,Ecoli_contig00041_36179_36688,Peptide deformylase (EC 3.5.1.88),-4.48
+BHI8,Ecoli_contig00055_19384_19788,DNA-binding protein H-NS,-6.21
+BHI8,Ecoli_contig00076_4276_4527,Protein yciN,-5.96
+BHI8,Ecoli_contig00006_129169_129741,Peptidyl-prolyl cis-trans isomerase ppiA precursor (EC 5.2.1.8),-4.54
+BHI8,Ecoli_contig00021_674_859,Carbon storage regulator,-3.45
+BHI8,Ecoli_contig00010_110642_111607,Thioredoxin reductase (EC 1.8.1.9),-2.85
+BHI8,Ecoli_contig00002_70478_71362,Cytidine deaminase (EC 3.5.4.5),-8.98
+BHI8,Ecoli_contig00012_51248_52201,"3-oxoacyl-[acyl-carrier-protein] synthase, KASIII (EC 2.3.1.41)",-4.04
+BHI8,Ecoli_contig00004_7086_8057,Cysteine synthase (EC 2.5.1.47),-0.22
+BHI8,Ecoli_contig00046_20883_21671,Enoyl-[acyl-carrier-protein] reductase [NADH] (EC 1.3.1.9),-3.28
+BHI8,Ecoli_contig00013_1438_2079,4-Hydroxy-2-oxoglutarate aldolase (EC 4.1.3.16) / 2-dehydro-3-deoxyphosphogluconate aldolase (EC 4.1.2.14),-4.54
+BHI8,Ecoli_contig00040_13434_15101,"ABC transporter, ATP-binding protein",-4.83
+BHI8,Ecoli_contig00079_5225_5491,Cell division topological specificity factor MinE,-2.91
+BHI8,Ecoli_contig00022_1882_2316,Transcriptional regulator SlyA,-6.14
+BHI8,Ecoli_contig00067_9196_9813,2-dehydro-3-deoxyphosphogalactonate aldolase (EC 4.1.2.21),-2.18
+BHI8,Ecoli_contig00007_128045_128839,3-methyl-2-oxobutanoate hydroxymethyltransferase (EC 2.1.2.11),-5.01
+BHI8,Ecoli_contig00011_65794_67014,"3-oxoacyl-[acyl-carrier-protein] synthase, KASI (EC 2.3.1.41)",-2.52
+BHI8,Ecoli_contig00022_16869_17450,Superoxide dismutase [Fe] (EC 1.15.1.1),0.02
+BHI8,Ecoli_contig00010_25814_26560,"Glutamine ABC transporter, periplasmic glutamine-binding protein (TC 3.A.1.3.2)",-0.66
+BHI8,Ecoli_contig00049_16500_18140,Phosphoglucomutase (EC 5.4.2.2),-2.80
+BHI8,Ecoli_contig00009_92956_94254,Adenylosuccinate synthetase (EC 6.3.4.4),-3.46
+BHI8,Ecoli_contig00025_44742_45692,Universal stress protein E,-3.48
+BHI8,Ecoli_contig00001_224195_225358,NADPH-dependent broad range aldehyde dehydrogenase YqhD,-5.76
+BHI8,Ecoli_contig00043_300_1154,2-Keto-3-deoxy-D-manno-octulosonate-8-phosphate synthase (EC 2.5.1.55),-2.05
+BHI8,Ecoli_contig00079_4409_5221,Septum site-determining protein MinD,-3.26
+BHI8,Ecoli_contig00011_79636_80418,Lysine-arginine-ornithine-binding periplasmic protein precursor (TC 3.A.1.3.1),-2.97
+BHI8,Ecoli_contig00006_107825_108829,Tryptophanyl-tRNA synthetase (EC 6.1.1.2),-5.34
+BHI8,Ecoli_contig00004_151826_153079,Serine hydroxymethyltransferase (EC 2.1.2.1),-0.98
+BHI8,Ecoli_contig00009_20985_21446,Aspartate carbamoyltransferase regulatory chain (PyrI),-4.90
+BHI8,Ecoli_contig00008_122244_123104,"Fructosamine kinase family protein, At3g61080 homolog",-3.59
+BHI8,Ecoli_contig00018_25995_27539,"2,3-bisphosphoglycerate-independent phosphoglycerate mutase (EC 5.4.2.1)",-5.09
+BHI8,Ecoli_contig00051_5348_5926,Phosphoheptose isomerase 1 (EC 5.3.1.-),-2.74
+BHI8,Ecoli_contig00004_64646_65359,Phosphoribosylaminoimidazole-succinocarboxamide synthase (EC 6.3.2.6),-1.01
+BHI8,Ecoli_contig00011_92755_93957,Acetate kinase (EC 2.7.2.1),-1.80
+BHI8,Ecoli_contig00062_13108_13461,Putative ACR protein,-2.81
+BHI8,Ecoli_contig00009_33020_34372,"TldE/PmbA protein, part of proposed TldE/TldD proteolytic complex (PMID 12029038)",-6.77
+BHI8,Ecoli_contig00013_6972_8414,Pyruvate kinase (EC 2.7.1.40),-4.27
+BHI8,Ecoli_contig00025_30805_31239,Universal stress protein F,0.77
+BHI8,Ecoli_contig00040_35482_36069,"Molybdopterin biosynthesis Mog protein, molybdochelatase",-9.36
+BHI8,Ecoli_contig00012_53159_53893,3-oxoacyl-[acyl-carrier protein] reductase (EC 1.1.1.100),-4.70
+BHI8,Ecoli_contig00012_54428_55669,"3-oxoacyl-[acyl-carrier-protein] synthase, KASII (EC 2.3.1.41)",-5.16
+BHI8,Ecoli_contig00024_12834_14465,"Oligopeptide ABC transporter, periplasmic oligopeptide-binding protein OppA (TC 3.A.1.5.1)",-2.73
+BHI8,Ecoli_contig00044_14971_15405,Universal stress protein A,0.55
+BHI8,Ecoli_contig00054_26806_28095,Phosphoribosylamine--glycine ligase (EC 6.3.4.13),-3.91
+BHI8,Ecoli_contig00014_70053_71435,ATP synthase beta chain (EC 3.6.3.14),-2.36
+BHI8,Ecoli_contig00004_122859_124142,Peptidase B (EC 3.4.11.23),
+BHI8,Ecoli_contig00016_54484_55587,Glycerol dehydrogenase (EC 1.1.1.6),-6.48
+BHI8,Ecoli_contig00001_16768_17421,Sigma cross-reacting protein 27A,-4.62
+BHI8,Ecoli_contig00014_73930_74463,ATP synthase delta chain (EC 3.6.3.14),-2.19
+BHI8,Ecoli_contig00028_33958_34752,Methionine aminopeptidase (EC 3.4.11.18),-5.17
+BHI8,Ecoli_contig00011_58959_59891,"Protein-N(5)-glutamine methyltransferase PrmB, methylates LSU ribosomal protein L3p",-7.57
+BHI8,Ecoli_contig00034_28034_28750,Succinate dehydrogenase iron-sulfur protein (EC 1.3.99.1),-0.88
+BHI8,Ecoli_contig00003_120053_120937,Nucleoside-specific channel-forming protein Tsx precursor,-4.52
+BHI8,Ecoli_contig00092_501_1916,Glutamyl-tRNA synthetase (EC 6.1.1.17),-4.86
+BHI8,Ecoli_contig00008_82891_83934,"Selenide,water dikinase (EC 2.7.9.3)",-4.40
+BHI8,Ecoli_contig00003_150419_150679,Cytoplasmic protein YaiB,-3.50
+BHI8,Ecoli_contig00018_32090_33286,2-amino-3-ketobutyrate coenzyme A ligase (EC 2.3.1.29),-4.82
+BHI8,Ecoli_contig00001_66469_66972,FIG002208: Acetyltransferase (EC 2.3.1.-),-4.39
+BHI8,Ecoli_contig00010_118981_120273,Seryl-tRNA synthetase (EC 6.1.1.11),-2.41
+BHI8,Ecoli_contig00054_28107_29696,IMP cyclohydrolase (EC 3.5.4.10) / Phosphoribosylaminoimidazolecarboxamide formyltransferase (EC 2.1.2.3),-5.11
+BHI8,Ecoli_contig00014_90338_91228,"Ribose ABC transport system, periplasmic ribose-binding protein RbsB (TC 3.A.1.2.1)",-2.35
+BHI8,Ecoli_contig00007_107118_108575,Dihydrolipoamide dehydrogenase of pyruvate dehydrogenase complex (EC 1.8.1.4) @ Dihydrolipoamide dehydrogenase (EC 1.8.1.4),-0.76
+BHI8,Ecoli_contig00019_50085_50648,Alkyl hydroperoxide reductase protein C (EC 1.6.4.-),0.75
+BHI8,Ecoli_contig00013_59597_60262,FIG00637942: hypothetical protein,-3.45
+BHI8,Ecoli_contig00007_8887_9708,Dihydrodipicolinate reductase (EC 1.3.1.26),-7.36
+BHI8,Ecoli_contig00028_37517_38341,"2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase (EC 2.3.1.117)",-4.59
+BHI8,Ecoli_contig00034_26252_28018,Succinate dehydrogenase flavoprotein subunit (EC 1.3.99.1),-2.32
+BHI8,Ecoli_contig00085_296_901,Glutathione S-transferase (EC 2.5.1.18),-5.02
+BHI8,Ecoli_contig00019_47726_48154,Universal stress protein G,0.62
+BHI8,Ecoli_contig00004_112217_112648,Nucleoside diphosphate kinase (EC 2.7.4.6),-3.10
+BHI8,Ecoli_contig00017_3562_4656,Aminomethyltransferase (glycine cleavage system T protein) (EC 2.1.2.10),-5.05
+BHI8,Ecoli_contig00034_33350_34516,Succinyl-CoA ligase [ADP-forming] beta chain (EC 6.2.1.5),-0.44
+BHI8,Ecoli_contig00007_10164_11312,Carbamoyl-phosphate synthase small chain (EC 6.3.5.5),-6.60
+BHI8,Ecoli_contig00042_22445_23854,Glutamine synthetase type I (EC 6.3.1.2),-3.31
+BHI8,Ecoli_contig00034_28951_31752,2-oxoglutarate dehydrogenase E1 component (EC 1.2.4.2),-3.73
+BHI8,Ecoli_contig00066_11818_12471,Oxygen-insensitive NAD(P)H nitroreductase (EC 1.-.-.-) / Dihydropteridine reductase (EC 1.5.1.34),-3.77
+BHI8,Ecoli_contig00007_110932_113451,Aconitate hydratase 2 (EC 4.2.1.3) @ 2-methylisocitrate dehydratase (EC 4.2.1.99),-1.96
+BHI8,Ecoli_contig00016_50387_52567,Catalase (EC 1.11.1.6) / Peroxidase (EC 1.11.1.7),-3.92
+BHI8,Ecoli_contig00023_62818_64122,Isocitrate lyase (EC 4.1.3.1),-2.35
+BHI8,Ecoli_contig00002_62858_63856,"Galactose/methyl galactoside ABC transport system, D-galactose-binding periplasmic protein MglB (TC 3.A.1.2.3)",-3.40
+BHI8,Ecoli_contig00023_51604_52293,Alpha-aspartyl dipeptidase Peptidase E (EC 3.4.13.21),-4.37
+BHI8,Ecoli_contig00019_9781_10689,Glutamate Aspartate periplasmic binding protein precursor GltI (TC 3.A.1.3.4),-2.70
+BHI8,Ecoli_contig00005_19069_20244,Mannose-6-phosphate isomerase (EC 5.3.1.8),-5.64
+BHI8,Ecoli_contig00014_71462_72325,ATP synthase gamma chain (EC 3.6.3.14),-3.75
+BHI8,Ecoli_contig00013_57359_57856,Ferritin-like protein 2,-2.14
+BHI8,Ecoli_contig00039_22976_23434,Methylglyoxal synthase (EC 4.2.3.3),-3.96
+BHI8,Ecoli_contig00037_14833_16074,Glucose-1-phosphatase (EC 3.1.3.10),-2.85
+BHI8,Ecoli_contig00027_49668_50606,Malate dehydrogenase (EC 1.1.1.37),0.55
+BHI8,Ecoli_contig00034_34516_35385,Succinyl-CoA ligase [ADP-forming] alpha chain (EC 6.2.1.5),-0.16
+BHI8,Ecoli_contig00067_5696_6628,D-3-phosphoglycerate dehydrogenase (EC 1.1.1.95),-6.12
+BHI8,Ecoli_contig00034_31767_32984,Dihydrolipoamide succinyltransferase component (E2) of 2-oxoglutarate dehydrogenase complex (EC 2.3.1.61),-2.07
+BHI8,Ecoli_contig00008_27657_28628,"PTS system, mannose-specific IIA component (EC 2.7.1.69) / PTS system, mannose-specific IIB component (EC 2.7.1.69)",-4.18
+BHI8,Ecoli_contig00019_77100_79340,"TonB-dependent receptor; Outer membrane receptor for ferric enterobactin and colicins B, D",-3.96
+BHI8,Ecoli_contig00021_70220_71932,Sulfite reductase [NADPH] hemoprotein beta-component (EC 1.8.1.2),-5.81
+BHI8,Ecoli_contig00006_87075_88697,Phosphoenolpyruvate carboxykinase [ATP] (EC 4.1.1.49),-2.78
+BHI8,Ecoli_contig00029_53358_54419,FIG00638561: hypothetical protein,-3.04
+BHI8,Ecoli_contig00019_61043_61900,Isochorismatase (EC 3.3.2.1) [enterobactin] siderophore / Apo-aryl carrier domain of EntB,-4.86
+BHI8,Ecoli_contig00014_42781_44196,Tryptophanase (EC 4.1.99.1),-3.82
+BHI8,Ecoli_contig00015_4418_6064,"Fumarate hydratase class I, anaerobic (EC 4.2.1.2)",-5.67
+BHI8,Ecoli_contig00004_43839_46118,NADP-dependent malic enzyme (EC 1.1.1.40),-3.18
+BHI8,Ecoli_contig00011_80639_81421,"Histidine ABC transporter, histidine-binding periplasmic protein precursor HisJ (TC 3.A.1.3.1)",-4.10
+BHI8,Ecoli_contig00017_40694_41848,S-adenosylmethionine synthetase (EC 2.5.1.6),-3.93
+BHI8,Ecoli_contig00006_43547_44650,Aspartate-semialdehyde dehydrogenase (EC 1.2.1.11),-6.47
+BHI8,Ecoli_contig00043_20205_21623,"Phosphoenolpyruvate-dihydroxyacetone phosphotransferase (EC 2.7.1.121), subunit DhaM; DHA-specific IIA component / DHA-specific phosphocarrier protein HPr / DHA-specific EI component",-8.19
+BHI8,Ecoli_contig00012_96344_97594,Isocitrate dehydrogenase [NADP] (EC 1.1.1.42),0.16
+BHI8,Ecoli_contig00018_20606_21796,L-lactate dehydrogenase (EC 1.1.2.3),-4.18
+BHI8,Ecoli_contig00017_53682_54728,L-asparaginase (EC 3.5.1.1),-1.50
+BHI8,Ecoli_contig00067_8051_9199,Galactonate dehydratase (EC 4.2.1.6),-4.31
+BHI8,Ecoli_contig00020_44902_45978,"Glycerophosphoryl diester phosphodiesterase, periplasmic (EC 3.1.4.46)",-3.25
+BHI8,Ecoli_contig00004_18363_19154,3-oxoacyl-[acyl-carrier protein] reductase (EC 1.1.1.100),-3.08
+BHI8,Ecoli_contig00023_35313_36503,"Maltose/maltodextrin ABC transporter, substrate binding periplasmic protein MalE",-5.14
+BHI8,Ecoli_contig00070_666_1304,Outer membrane protein W precursor,-1.82
+BHI8,Ecoli_contig00005_20443_22089,"Fumarate hydratase class I, aerobic (EC 4.2.1.2)",-2.25
+BHI9,Ecoli_contig00001_211037_211429,Protein ygiW precursor,-3.33
+BHI9,Ecoli_contig00045_35127_35732,Osmotically inducible protein OsmY,-2.80
+BHI9,Ecoli_contig00044_29629_29967,Chaperone HdeB,-0.57
+BHI9,Ecoli_contig00044_30071_30403,Chaperone HdeA,-5.46
+BHI9,Ecoli_contig00015_25505_25948,PhnB protein; putative DNA binding 3-demethylubiquinone-9 3-methyltransferase domain protein,-6.06
+BHI9,Ecoli_contig00022_5625_6146,Superoxide dismutase [Cu-Zn] precursor (EC 1.15.1.1),-5.92
+BHI9,Ecoli_contig00055_21093_21542,FIG00638941: hypothetical protein,-0.90
+BHI9,Ecoli_contig00050_590_1990,Glutamate decarboxylase (EC 4.1.1.15),-5.35
+BHI9,Ecoli_contig00023_22286_22495,UPF0337 protein yjbJ,-1.32
+BHI9,Ecoli_contig00022_39196_40200,"L,D-transpeptidase YnhG",-3.83
+BHI9,Ecoli_contig00002_143000_143332,FIG00638559: hypothetical protein,-2.51
+BHI9,Ecoli_contig00003_202553_202828,FIG00639237: hypothetical protein,-3.71
+BHI9,Ecoli_contig00041_3652_4128,Bacterioferritin Ecoli_contig00041_3652_4128|Bacterioferritin,-1.08
+BHI9,Ecoli_contig00014_31118_31516,FIG00638813: hypothetical protein,
+BHI9,Ecoli_contig00003_76107_76679,Glycoprotein-polysaccharide metabolism,-6.35
+BHI9,Ecoli_contig00006_31820_32260,FIG00638953: hypothetical protein,-7.83
+BHI9,Ecoli_contig00059_6428_7279,Chaperone protein hchA,-1.44
+BHI9,Ecoli_contig00008_108643_108981,Osmotically inducible lipoprotein E precursor,-0.11
+BHI9,Ecoli_contig00037_16112_16339,Putative cytoplasmic protein,-3.11
+BHI9,Ecoli_contig00026_23548_23979,Osmotically inducible protein C,-2.12
+BHI9,Ecoli_contig00001_126901_127206,Uncharacterized membrane protein YqjD,-0.67
+BHI9,Ecoli_contig00012_25898_26545,Glutaredoxin 2,-4.22
+BHI9,Ecoli_contig00010_26964_27467,Non-specific DNA-binding protein Dps / Iron-binding ferritin-like antioxidant protein / Ferroxidase (EC 1.16.3.1),-0.11
+BHI9,Ecoli_contig00069_85_366,hypothetical protein,-0.42
+BHI9,Ecoli_contig00029_32534_33202,Uncharacterized membrane lipoprotein clustered with tellurite resistance proteins TehA/TehB,-6.85
+BHI9,Ecoli_contig00040_5204_6427,Phosphopentomutase (EC 5.4.2.7),-2.99
+BHI9,Ecoli_contig00008_136790_137341,Glutathione peroxidase (EC 1.11.1.9),-4.57
+BHI9,Ecoli_contig00017_21328_22068,Protein of unknown function DUF541,-4.20
+BHI9,Ecoli_contig00091_1340_2665,"Putative Dihydrolipoamide dehydrogenase (EC 1.8.1.4); Mercuric ion reductase (EC 1.16.1.1); PF00070 family, FAD-dependent NAD(P)-disulphide oxidoreductase",-6.35
+BHI9,Ecoli_contig00010_81701_82432,"Arginine ABC transporter, periplasmic arginine-binding protein ArtI",-4.25
+BHI9,Ecoli_contig00001_223263_224090,"Methylglyoxal reductase, acetol producing (EC 1.1.1.-) / 2,5-diketo-D-gluconate reductase A (EC 1.1.1.274)",-4.64
+BHI9,Ecoli_contig00087_3350_3976,Nicotinamidase family protein YcaC,-3.87
+BHI9,Ecoli_contig00018_24926_25177,Glutaredoxin 3 (Grx3),-3.07
+BHI9,Ecoli_contig00036_17112_18107,6-phosphogluconolactonase (EC 3.1.1.31),-4.06
+BHI9,Ecoli_contig00055_3042_3557,S-ribosylhomocysteine lyase (EC 4.4.1.21) / Autoinducer-2 production protein LuxS,-1.20
+BHI9,Ecoli_contig00010_83396_83911,probable lipoprotein,-3.62
+BHI9,Ecoli_contig00028_9339_9539,FIG00639395: hypothetical protein,-5.37
+BHI9,Ecoli_contig00040_38339_40255,Chaperone protein DnaK,-0.37
+BHI9,Ecoli_contig00022_15245_15592,hypothetical protein,-7.21
+BHI9,Ecoli_contig00070_10744_11364,YciO family,-3.92
+BHI9,Ecoli_contig00017_36865_37785,Agmatinase (EC 3.5.3.11),-3.62
+BHI9,Ecoli_contig00019_14091_14573,Uncharacterized protein YbeL / FIG002095: hypothetical protein,-4.86
+BHI9,Ecoli_contig00039_29914_30978,Outer membrane protein A precursor,-1.57
+BHI9,Ecoli_contig00018_10600_10809,Putative cytoplasmic protein,-4.60
+BHI9,Ecoli_contig00039_21632_22045,"Succinyl-CoA synthetase, alpha subunit-related enzymes",-4.26
+BHI9,Ecoli_contig00018_59647_59922,DNA-directed RNA polymerase omega subunit (EC 2.7.7.6),-3.80
+BHI9,Ecoli_contig00058_19752_20045,Heat shock protein 60 family co-chaperone GroES,0.62
+BHI9,Ecoli_contig00040_24114_24830,Aerobic respiration control protein arcA,-2.90
+BHI9,Ecoli_contig00008_135347_135646,Integration host factor alpha subunit,-1.89
+BHI9,Ecoli_contig00004_10511_11020,"PTS system, glucose-specific IIA component (EC 2.7.1.69)",-0.32
+BHI9,Ecoli_contig00017_55807_56133,FIG002060: uncharacterized protein YggL,-5.17
+BHI9,Ecoli_contig00004_124412_124747,"Ferredoxin, 2Fe-2S",-4.11
+BHI9,Ecoli_contig00003_106892_107383,FIG001943: hypothetical protein YajQ,-2.86
+BHI9,Ecoli_contig00041_36179_36688,Peptide deformylase (EC 3.5.1.88),-4.54
+BHI9,Ecoli_contig00055_19384_19788,DNA-binding protein H-NS,-5.02
+BHI9,Ecoli_contig00076_4276_4527,Protein yciN,-5.91
+BHI9,Ecoli_contig00006_129169_129741,Peptidyl-prolyl cis-trans isomerase ppiA precursor (EC 5.2.1.8),-4.87
+BHI9,Ecoli_contig00021_674_859,Carbon storage regulator,-3.21
+BHI9,Ecoli_contig00010_110642_111607,Thioredoxin reductase (EC 1.8.1.9),-3.47
+BHI9,Ecoli_contig00002_70478_71362,Cytidine deaminase (EC 3.5.4.5),-9.33
+BHI9,Ecoli_contig00012_51248_52201,"3-oxoacyl-[acyl-carrier-protein] synthase, KASIII (EC 2.3.1.41)",-4.14
+BHI9,Ecoli_contig00004_7086_8057,Cysteine synthase (EC 2.5.1.47),-0.40
+BHI9,Ecoli_contig00046_20883_21671,Enoyl-[acyl-carrier-protein] reductase [NADH] (EC 1.3.1.9),-3.53
+BHI9,Ecoli_contig00013_1438_2079,4-Hydroxy-2-oxoglutarate aldolase (EC 4.1.3.16) / 2-dehydro-3-deoxyphosphogluconate aldolase (EC 4.1.2.14),-4.57
+BHI9,Ecoli_contig00040_13434_15101,"ABC transporter, ATP-binding protein",-4.70
+BHI9,Ecoli_contig00079_5225_5491,Cell division topological specificity factor MinE,-3.27
+BHI9,Ecoli_contig00022_1882_2316,Transcriptional regulator SlyA,-6.64
+BHI9,Ecoli_contig00067_9196_9813,2-dehydro-3-deoxyphosphogalactonate aldolase (EC 4.1.2.21),-1.90
+BHI9,Ecoli_contig00007_128045_128839,3-methyl-2-oxobutanoate hydroxymethyltransferase (EC 2.1.2.11),-4.89
+BHI9,Ecoli_contig00011_65794_67014,"3-oxoacyl-[acyl-carrier-protein] synthase, KASI (EC 2.3.1.41)",-2.52
+BHI9,Ecoli_contig00022_16869_17450,Superoxide dismutase [Fe] (EC 1.15.1.1),-0.81
+BHI9,Ecoli_contig00010_25814_26560,"Glutamine ABC transporter, periplasmic glutamine-binding protein (TC 3.A.1.3.2)",-0.86
+BHI9,Ecoli_contig00049_16500_18140,Phosphoglucomutase (EC 5.4.2.2),-3.46
+BHI9,Ecoli_contig00009_92956_94254,Adenylosuccinate synthetase (EC 6.3.4.4),-3.64
+BHI9,Ecoli_contig00025_44742_45692,Universal stress protein E,-4.03
+BHI9,Ecoli_contig00001_224195_225358,NADPH-dependent broad range aldehyde dehydrogenase YqhD,
+BHI9,Ecoli_contig00043_300_1154,2-Keto-3-deoxy-D-manno-octulosonate-8-phosphate synthase (EC 2.5.1.55),-2.43
+BHI9,Ecoli_contig00079_4409_5221,Septum site-determining protein MinD,-2.88
+BHI9,Ecoli_contig00011_79636_80418,Lysine-arginine-ornithine-binding periplasmic protein precursor (TC 3.A.1.3.1),-2.86
+BHI9,Ecoli_contig00006_107825_108829,Tryptophanyl-tRNA synthetase (EC 6.1.1.2),-5.61
+BHI9,Ecoli_contig00004_151826_153079,Serine hydroxymethyltransferase (EC 2.1.2.1),-1.25
+BHI9,Ecoli_contig00009_20985_21446,Aspartate carbamoyltransferase regulatory chain (PyrI),-5.94
+BHI9,Ecoli_contig00008_122244_123104,"Fructosamine kinase family protein, At3g61080 homolog",-4.44
+BHI9,Ecoli_contig00018_25995_27539,"2,3-bisphosphoglycerate-independent phosphoglycerate mutase (EC 5.4.2.1)",-5.21
+BHI9,Ecoli_contig00051_5348_5926,Phosphoheptose isomerase 1 (EC 5.3.1.-),-2.97
+BHI9,Ecoli_contig00004_64646_65359,Phosphoribosylaminoimidazole-succinocarboxamide synthase (EC 6.3.2.6),-1.14
+BHI9,Ecoli_contig00011_92755_93957,Acetate kinase (EC 2.7.2.1),-2.26
+BHI9,Ecoli_contig00062_13108_13461,Putative ACR protein,-3.59
+BHI9,Ecoli_contig00009_33020_34372,"TldE/PmbA protein, part of proposed TldE/TldD proteolytic complex (PMID 12029038)",-6.89
+BHI9,Ecoli_contig00013_6972_8414,Pyruvate kinase (EC 2.7.1.40),-4.81
+BHI9,Ecoli_contig00025_30805_31239,Universal stress protein F,0.53
+BHI9,Ecoli_contig00040_35482_36069,"Molybdopterin biosynthesis Mog protein, molybdochelatase",-8.62
+BHI9,Ecoli_contig00012_53159_53893,3-oxoacyl-[acyl-carrier protein] reductase (EC 1.1.1.100),-4.77
+BHI9,Ecoli_contig00012_54428_55669,"3-oxoacyl-[acyl-carrier-protein] synthase, KASII (EC 2.3.1.41)",-5.65
+BHI9,Ecoli_contig00024_12834_14465,"Oligopeptide ABC transporter, periplasmic oligopeptide-binding protein OppA (TC 3.A.1.5.1)",-2.98
+BHI9,Ecoli_contig00044_14971_15405,Universal stress protein A,0.13
+BHI9,Ecoli_contig00054_26806_28095,Phosphoribosylamine--glycine ligase (EC 6.3.4.13),-4.19
+BHI9,Ecoli_contig00014_70053_71435,ATP synthase beta chain (EC 3.6.3.14),-2.38
+BHI9,Ecoli_contig00004_122859_124142,Peptidase B (EC 3.4.11.23),-4.83
+BHI9,Ecoli_contig00016_54484_55587,Glycerol dehydrogenase (EC 1.1.1.6),-7.05
+BHI9,Ecoli_contig00001_16768_17421,Sigma cross-reacting protein 27A,-4.85
+BHI9,Ecoli_contig00014_73930_74463,ATP synthase delta chain (EC 3.6.3.14),-2.38
+BHI9,Ecoli_contig00028_33958_34752,Methionine aminopeptidase (EC 3.4.11.18),-4.94
+BHI9,Ecoli_contig00011_58959_59891,"Protein-N(5)-glutamine methyltransferase PrmB, methylates LSU ribosomal protein L3p",-7.21
+BHI9,Ecoli_contig00034_28034_28750,Succinate dehydrogenase iron-sulfur protein (EC 1.3.99.1),-1.53
+BHI9,Ecoli_contig00003_120053_120937,Nucleoside-specific channel-forming protein Tsx precursor,-3.96
+BHI9,Ecoli_contig00092_501_1916,Glutamyl-tRNA synthetase (EC 6.1.1.17),-5.02
+BHI9,Ecoli_contig00008_82891_83934,"Selenide,water dikinase (EC 2.7.9.3)",-5.25
+BHI9,Ecoli_contig00003_150419_150679,Cytoplasmic protein YaiB,-4.25
+BHI9,Ecoli_contig00018_32090_33286,2-amino-3-ketobutyrate coenzyme A ligase (EC 2.3.1.29),-5.02
+BHI9,Ecoli_contig00001_66469_66972,FIG002208: Acetyltransferase (EC 2.3.1.-),-4.32
+BHI9,Ecoli_contig00010_118981_120273,Seryl-tRNA synthetase (EC 6.1.1.11),-2.90
+BHI9,Ecoli_contig00054_28107_29696,IMP cyclohydrolase (EC 3.5.4.10) / Phosphoribosylaminoimidazolecarboxamide formyltransferase (EC 2.1.2.3),-5.19
+BHI9,Ecoli_contig00014_90338_91228,"Ribose ABC transport system, periplasmic ribose-binding protein RbsB (TC 3.A.1.2.1)",-2.18
+BHI9,Ecoli_contig00007_107118_108575,Dihydrolipoamide dehydrogenase of pyruvate dehydrogenase complex (EC 1.8.1.4) @ Dihydrolipoamide dehydrogenase (EC 1.8.1.4),-1.64
+BHI9,Ecoli_contig00019_50085_50648,Alkyl hydroperoxide reductase protein C (EC 1.6.4.-),0.47
+BHI9,Ecoli_contig00013_59597_60262,FIG00637942: hypothetical protein,-3.76
+BHI9,Ecoli_contig00007_8887_9708,Dihydrodipicolinate reductase (EC 1.3.1.26),-6.23
+BHI9,Ecoli_contig00028_37517_38341,"2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase (EC 2.3.1.117)",-4.96
+BHI9,Ecoli_contig00034_26252_28018,Succinate dehydrogenase flavoprotein subunit (EC 1.3.99.1),-3.22
+BHI9,Ecoli_contig00085_296_901,Glutathione S-transferase (EC 2.5.1.18),-5.61
+BHI9,Ecoli_contig00019_47726_48154,Universal stress protein G,0.19
+BHI9,Ecoli_contig00004_112217_112648,Nucleoside diphosphate kinase (EC 2.7.4.6),-3.32
+BHI9,Ecoli_contig00017_3562_4656,Aminomethyltransferase (glycine cleavage system T protein) (EC 2.1.2.10),-5.42
+BHI9,Ecoli_contig00034_33350_34516,Succinyl-CoA ligase [ADP-forming] beta chain (EC 6.2.1.5),-1.99
+BHI9,Ecoli_contig00007_10164_11312,Carbamoyl-phosphate synthase small chain (EC 6.3.5.5),-5.88
+BHI9,Ecoli_contig00042_22445_23854,Glutamine synthetase type I (EC 6.3.1.2),-3.48
+BHI9,Ecoli_contig00034_28951_31752,2-oxoglutarate dehydrogenase E1 component (EC 1.2.4.2),-4.99
+BHI9,Ecoli_contig00066_11818_12471,Oxygen-insensitive NAD(P)H nitroreductase (EC 1.-.-.-) / Dihydropteridine reductase (EC 1.5.1.34),-4.49
+BHI9,Ecoli_contig00007_110932_113451,Aconitate hydratase 2 (EC 4.2.1.3) @ 2-methylisocitrate dehydratase (EC 4.2.1.99),-3.10
+BHI9,Ecoli_contig00016_50387_52567,Catalase (EC 1.11.1.6) / Peroxidase (EC 1.11.1.7),-4.87
+BHI9,Ecoli_contig00023_62818_64122,Isocitrate lyase (EC 4.1.3.1),-2.53
+BHI9,Ecoli_contig00002_62858_63856,"Galactose/methyl galactoside ABC transport system, D-galactose-binding periplasmic protein MglB (TC 3.A.1.2.3)",-3.15
+BHI9,Ecoli_contig00023_51604_52293,Alpha-aspartyl dipeptidase Peptidase E (EC 3.4.13.21),-4.76
+BHI9,Ecoli_contig00019_9781_10689,Glutamate Aspartate periplasmic binding protein precursor GltI (TC 3.A.1.3.4),-2.58
+BHI9,Ecoli_contig00005_19069_20244,Mannose-6-phosphate isomerase (EC 5.3.1.8),-5.79
+BHI9,Ecoli_contig00014_71462_72325,ATP synthase gamma chain (EC 3.6.3.14),-3.98
+BHI9,Ecoli_contig00013_57359_57856,Ferritin-like protein 2,-2.54
+BHI9,Ecoli_contig00039_22976_23434,Methylglyoxal synthase (EC 4.2.3.3),-4.40
+BHI9,Ecoli_contig00037_14833_16074,Glucose-1-phosphatase (EC 3.1.3.10),-2.56
+BHI9,Ecoli_contig00027_49668_50606,Malate dehydrogenase (EC 1.1.1.37),0.17
+BHI9,Ecoli_contig00034_34516_35385,Succinyl-CoA ligase [ADP-forming] alpha chain (EC 6.2.1.5),-0.37
+BHI9,Ecoli_contig00067_5696_6628,D-3-phosphoglycerate dehydrogenase (EC 1.1.1.95),-6.83
+BHI9,Ecoli_contig00034_31767_32984,Dihydrolipoamide succinyltransferase component (E2) of 2-oxoglutarate dehydrogenase complex (EC 2.3.1.61),-2.98
+BHI9,Ecoli_contig00008_27657_28628,"PTS system, mannose-specific IIA component (EC 2.7.1.69) / PTS system, mannose-specific IIB component (EC 2.7.1.69)",-4.42
+BHI9,Ecoli_contig00019_77100_79340,"TonB-dependent receptor; Outer membrane receptor for ferric enterobactin and colicins B, D",-4.10
+BHI9,Ecoli_contig00021_70220_71932,Sulfite reductase [NADPH] hemoprotein beta-component (EC 1.8.1.2),-6.27
+BHI9,Ecoli_contig00006_87075_88697,Phosphoenolpyruvate carboxykinase [ATP] (EC 4.1.1.49),-4.54
+BHI9,Ecoli_contig00029_53358_54419,FIG00638561: hypothetical protein,-3.37
+BHI9,Ecoli_contig00019_61043_61900,Isochorismatase (EC 3.3.2.1) [enterobactin] siderophore / Apo-aryl carrier domain of EntB,-5.19
+BHI9,Ecoli_contig00014_42781_44196,Tryptophanase (EC 4.1.99.1),-4.61
+BHI9,Ecoli_contig00015_4418_6064,"Fumarate hydratase class I, anaerobic (EC 4.2.1.2)",-6.77
+BHI9,Ecoli_contig00004_43839_46118,NADP-dependent malic enzyme (EC 1.1.1.40),-5.04
+BHI9,Ecoli_contig00011_80639_81421,"Histidine ABC transporter, histidine-binding periplasmic protein precursor HisJ (TC 3.A.1.3.1)",-3.15
+BHI9,Ecoli_contig00017_40694_41848,S-adenosylmethionine synthetase (EC 2.5.1.6),-4.33
+BHI9,Ecoli_contig00006_43547_44650,Aspartate-semialdehyde dehydrogenase (EC 1.2.1.11),-7.67
+BHI9,Ecoli_contig00043_20205_21623,"Phosphoenolpyruvate-dihydroxyacetone phosphotransferase (EC 2.7.1.121), subunit DhaM; DHA-specific IIA component / DHA-specific phosphocarrier protein HPr / DHA-specific EI component",-7.34
+BHI9,Ecoli_contig00012_96344_97594,Isocitrate dehydrogenase [NADP] (EC 1.1.1.42),-0.19
+BHI9,Ecoli_contig00018_20606_21796,L-lactate dehydrogenase (EC 1.1.2.3),-6.12
+BHI9,Ecoli_contig00017_53682_54728,L-asparaginase (EC 3.5.1.1),-2.42
+BHI9,Ecoli_contig00067_8051_9199,Galactonate dehydratase (EC 4.2.1.6),-4.73
+BHI9,Ecoli_contig00020_44902_45978,"Glycerophosphoryl diester phosphodiesterase, periplasmic (EC 3.1.4.46)",-3.98
+BHI9,Ecoli_contig00004_18363_19154,3-oxoacyl-[acyl-carrier protein] reductase (EC 1.1.1.100),-3.73
+BHI9,Ecoli_contig00023_35313_36503,"Maltose/maltodextrin ABC transporter, substrate binding periplasmic protein MalE",-4.44
+BHI9,Ecoli_contig00070_666_1304,Outer membrane protein W precursor,-2.15
+BHI9,Ecoli_contig00005_20443_22089,"Fumarate hydratase class I, aerobic (EC 4.2.1.2)",-2.77
+BHI10,Ecoli_contig00001_211037_211429,Protein ygiW precursor,-4.22
+BHI10,Ecoli_contig00045_35127_35732,Osmotically inducible protein OsmY,-3.42
+BHI10,Ecoli_contig00044_29629_29967,Chaperone HdeB,-0.48
+BHI10,Ecoli_contig00044_30071_30403,Chaperone HdeA,-5.82
+BHI10,Ecoli_contig00015_25505_25948,PhnB protein; putative DNA binding 3-demethylubiquinone-9 3-methyltransferase domain protein,-5.47
+BHI10,Ecoli_contig00022_5625_6146,Superoxide dismutase [Cu-Zn] precursor (EC 1.15.1.1),-4.91
+BHI10,Ecoli_contig00055_21093_21542,FIG00638941: hypothetical protein,-1.15
+BHI10,Ecoli_contig00050_590_1990,Glutamate decarboxylase (EC 4.1.1.15),-6.19
+BHI10,Ecoli_contig00023_22286_22495,UPF0337 protein yjbJ,-1.49
+BHI10,Ecoli_contig00022_39196_40200,"L,D-transpeptidase YnhG",-4.40
+BHI10,Ecoli_contig00002_143000_143332,FIG00638559: hypothetical protein,-3.09
+BHI10,Ecoli_contig00003_202553_202828,FIG00639237: hypothetical protein,-4.32
+BHI10,Ecoli_contig00041_3652_4128,Bacterioferritin Ecoli_contig00041_3652_4128|Bacterioferritin,-1.12
+BHI10,Ecoli_contig00014_31118_31516,FIG00638813: hypothetical protein,
+BHI10,Ecoli_contig00003_76107_76679,Glycoprotein-polysaccharide metabolism,
+BHI10,Ecoli_contig00006_31820_32260,FIG00638953: hypothetical protein,-7.64
+BHI10,Ecoli_contig00059_6428_7279,Chaperone protein hchA,-2.28
+BHI10,Ecoli_contig00008_108643_108981,Osmotically inducible lipoprotein E precursor,-1.52
+BHI10,Ecoli_contig00037_16112_16339,Putative cytoplasmic protein,-3.28
+BHI10,Ecoli_contig00026_23548_23979,Osmotically inducible protein C,-2.23
+BHI10,Ecoli_contig00001_126901_127206,Uncharacterized membrane protein YqjD,-1.78
+BHI10,Ecoli_contig00012_25898_26545,Glutaredoxin 2,-4.54
+BHI10,Ecoli_contig00010_26964_27467,Non-specific DNA-binding protein Dps / Iron-binding ferritin-like antioxidant protein / Ferroxidase (EC 1.16.3.1),-0.31
+BHI10,Ecoli_contig00069_85_366,hypothetical protein,-0.79
+BHI10,Ecoli_contig00029_32534_33202,Uncharacterized membrane lipoprotein clustered with tellurite resistance proteins TehA/TehB,-6.33
+BHI10,Ecoli_contig00040_5204_6427,Phosphopentomutase (EC 5.4.2.7),-3.55
+BHI10,Ecoli_contig00008_136790_137341,Glutathione peroxidase (EC 1.11.1.9),-5.11
+BHI10,Ecoli_contig00017_21328_22068,Protein of unknown function DUF541,-4.44
+BHI10,Ecoli_contig00091_1340_2665,"Putative Dihydrolipoamide dehydrogenase (EC 1.8.1.4); Mercuric ion reductase (EC 1.16.1.1); PF00070 family, FAD-dependent NAD(P)-disulphide oxidoreductase",-6.27
+BHI10,Ecoli_contig00010_81701_82432,"Arginine ABC transporter, periplasmic arginine-binding protein ArtI",-4.38
+BHI10,Ecoli_contig00001_223263_224090,"Methylglyoxal reductase, acetol producing (EC 1.1.1.-) / 2,5-diketo-D-gluconate reductase A (EC 1.1.1.274)",-4.21
+BHI10,Ecoli_contig00087_3350_3976,Nicotinamidase family protein YcaC,-3.98
+BHI10,Ecoli_contig00018_24926_25177,Glutaredoxin 3 (Grx3),-3.12
+BHI10,Ecoli_contig00036_17112_18107,6-phosphogluconolactonase (EC 3.1.1.31),-3.73
+BHI10,Ecoli_contig00055_3042_3557,S-ribosylhomocysteine lyase (EC 4.4.1.21) / Autoinducer-2 production protein LuxS,-1.21
+BHI10,Ecoli_contig00010_83396_83911,probable lipoprotein,-4.47
+BHI10,Ecoli_contig00028_9339_9539,FIG00639395: hypothetical protein,-6.03
+BHI10,Ecoli_contig00040_38339_40255,Chaperone protein DnaK,-0.43
+BHI10,Ecoli_contig00022_15245_15592,hypothetical protein,-7.64
+BHI10,Ecoli_contig00070_10744_11364,YciO family,-3.74
+BHI10,Ecoli_contig00017_36865_37785,Agmatinase (EC 3.5.3.11),-3.52
+BHI10,Ecoli_contig00019_14091_14573,Uncharacterized protein YbeL / FIG002095: hypothetical protein,-4.44
+BHI10,Ecoli_contig00039_29914_30978,Outer membrane protein A precursor,-2.02
+BHI10,Ecoli_contig00018_10600_10809,Putative cytoplasmic protein,-4.55
+BHI10,Ecoli_contig00039_21632_22045,"Succinyl-CoA synthetase, alpha subunit-related enzymes",-4.45
+BHI10,Ecoli_contig00018_59647_59922,DNA-directed RNA polymerase omega subunit (EC 2.7.7.6),-3.13
+BHI10,Ecoli_contig00058_19752_20045,Heat shock protein 60 family co-chaperone GroES,0.33
+BHI10,Ecoli_contig00040_24114_24830,Aerobic respiration control protein arcA,-2.42
+BHI10,Ecoli_contig00008_135347_135646,Integration host factor alpha subunit,-2.09
+BHI10,Ecoli_contig00004_10511_11020,"PTS system, glucose-specific IIA component (EC 2.7.1.69)",-0.66
+BHI10,Ecoli_contig00017_55807_56133,FIG002060: uncharacterized protein YggL,-5.15
+BHI10,Ecoli_contig00004_124412_124747,"Ferredoxin, 2Fe-2S",-3.95
+BHI10,Ecoli_contig00003_106892_107383,FIG001943: hypothetical protein YajQ,-2.70
+BHI10,Ecoli_contig00041_36179_36688,Peptide deformylase (EC 3.5.1.88),-4.35
+BHI10,Ecoli_contig00055_19384_19788,DNA-binding protein H-NS,-5.27
+BHI10,Ecoli_contig00076_4276_4527,Protein yciN,-4.81
+BHI10,Ecoli_contig00006_129169_129741,Peptidyl-prolyl cis-trans isomerase ppiA precursor (EC 5.2.1.8),-3.96
+BHI10,Ecoli_contig00021_674_859,Carbon storage regulator,-4.10
+BHI10,Ecoli_contig00010_110642_111607,Thioredoxin reductase (EC 1.8.1.9),-2.80
+BHI10,Ecoli_contig00002_70478_71362,Cytidine deaminase (EC 3.5.4.5),-10.21
+BHI10,Ecoli_contig00012_51248_52201,"3-oxoacyl-[acyl-carrier-protein] synthase, KASIII (EC 2.3.1.41)",-4.26
+BHI10,Ecoli_contig00004_7086_8057,Cysteine synthase (EC 2.5.1.47),0.57
+BHI10,Ecoli_contig00046_20883_21671,Enoyl-[acyl-carrier-protein] reductase [NADH] (EC 1.3.1.9),-3.14
+BHI10,Ecoli_contig00013_1438_2079,4-Hydroxy-2-oxoglutarate aldolase (EC 4.1.3.16) / 2-dehydro-3-deoxyphosphogluconate aldolase (EC 4.1.2.14),-4.49
+BHI10,Ecoli_contig00040_13434_15101,"ABC transporter, ATP-binding protein",-4.58
+BHI10,Ecoli_contig00079_5225_5491,Cell division topological specificity factor MinE,-2.85
+BHI10,Ecoli_contig00022_1882_2316,Transcriptional regulator SlyA,-5.34
+BHI10,Ecoli_contig00067_9196_9813,2-dehydro-3-deoxyphosphogalactonate aldolase (EC 4.1.2.21),-2.11
+BHI10,Ecoli_contig00007_128045_128839,3-methyl-2-oxobutanoate hydroxymethyltransferase (EC 2.1.2.11),-4.52
+BHI10,Ecoli_contig00011_65794_67014,"3-oxoacyl-[acyl-carrier-protein] synthase, KASI (EC 2.3.1.41)",-2.41
+BHI10,Ecoli_contig00022_16869_17450,Superoxide dismutase [Fe] (EC 1.15.1.1),-0.78
+BHI10,Ecoli_contig00010_25814_26560,"Glutamine ABC transporter, periplasmic glutamine-binding protein (TC 3.A.1.3.2)",-0.44
+BHI10,Ecoli_contig00049_16500_18140,Phosphoglucomutase (EC 5.4.2.2),-3.78
+BHI10,Ecoli_contig00009_92956_94254,Adenylosuccinate synthetase (EC 6.3.4.4),-3.59
+BHI10,Ecoli_contig00025_44742_45692,Universal stress protein E,-4.10
+BHI10,Ecoli_contig00001_224195_225358,NADPH-dependent broad range aldehyde dehydrogenase YqhD,-6.36
+BHI10,Ecoli_contig00043_300_1154,2-Keto-3-deoxy-D-manno-octulosonate-8-phosphate synthase (EC 2.5.1.55),-2.38
+BHI10,Ecoli_contig00079_4409_5221,Septum site-determining protein MinD,-3.55
+BHI10,Ecoli_contig00011_79636_80418,Lysine-arginine-ornithine-binding periplasmic protein precursor (TC 3.A.1.3.1),-3.16
+BHI10,Ecoli_contig00006_107825_108829,Tryptophanyl-tRNA synthetase (EC 6.1.1.2),-5.49
+BHI10,Ecoli_contig00004_151826_153079,Serine hydroxymethyltransferase (EC 2.1.2.1),-0.81
+BHI10,Ecoli_contig00009_20985_21446,Aspartate carbamoyltransferase regulatory chain (PyrI),-5.71
+BHI10,Ecoli_contig00008_122244_123104,"Fructosamine kinase family protein, At3g61080 homolog",-4.15
+BHI10,Ecoli_contig00018_25995_27539,"2,3-bisphosphoglycerate-independent phosphoglycerate mutase (EC 5.4.2.1)",-4.97
+BHI10,Ecoli_contig00051_5348_5926,Phosphoheptose isomerase 1 (EC 5.3.1.-),-2.73
+BHI10,Ecoli_contig00004_64646_65359,Phosphoribosylaminoimidazole-succinocarboxamide synthase (EC 6.3.2.6),-1.09
+BHI10,Ecoli_contig00011_92755_93957,Acetate kinase (EC 2.7.2.1),-2.09
+BHI10,Ecoli_contig00062_13108_13461,Putative ACR protein,-3.23
+BHI10,Ecoli_contig00009_33020_34372,"TldE/PmbA protein, part of proposed TldE/TldD proteolytic complex (PMID 12029038)",-6.63
+BHI10,Ecoli_contig00013_6972_8414,Pyruvate kinase (EC 2.7.1.40),-4.73
+BHI10,Ecoli_contig00025_30805_31239,Universal stress protein F,0.40
+BHI10,Ecoli_contig00040_35482_36069,"Molybdopterin biosynthesis Mog protein, molybdochelatase",-10.32
+BHI10,Ecoli_contig00012_53159_53893,3-oxoacyl-[acyl-carrier protein] reductase (EC 1.1.1.100),-4.53
+BHI10,Ecoli_contig00012_54428_55669,"3-oxoacyl-[acyl-carrier-protein] synthase, KASII (EC 2.3.1.41)",-5.55
+BHI10,Ecoli_contig00024_12834_14465,"Oligopeptide ABC transporter, periplasmic oligopeptide-binding protein OppA (TC 3.A.1.5.1)",-2.75
+BHI10,Ecoli_contig00044_14971_15405,Universal stress protein A,0.51
+BHI10,Ecoli_contig00054_26806_28095,Phosphoribosylamine--glycine ligase (EC 6.3.4.13),-4.09
+BHI10,Ecoli_contig00014_70053_71435,ATP synthase beta chain (EC 3.6.3.14),-2.71
+BHI10,Ecoli_contig00004_122859_124142,Peptidase B (EC 3.4.11.23),-4.10
+BHI10,Ecoli_contig00016_54484_55587,Glycerol dehydrogenase (EC 1.1.1.6),-7.10
+BHI10,Ecoli_contig00001_16768_17421,Sigma cross-reacting protein 27A,-4.83
+BHI10,Ecoli_contig00014_73930_74463,ATP synthase delta chain (EC 3.6.3.14),-2.19
+BHI10,Ecoli_contig00028_33958_34752,Methionine aminopeptidase (EC 3.4.11.18),-5.18
+BHI10,Ecoli_contig00011_58959_59891,"Protein-N(5)-glutamine methyltransferase PrmB, methylates LSU ribosomal protein L3p",-6.62
+BHI10,Ecoli_contig00034_28034_28750,Succinate dehydrogenase iron-sulfur protein (EC 1.3.99.1),-1.10
+BHI10,Ecoli_contig00003_120053_120937,Nucleoside-specific channel-forming protein Tsx precursor,-3.52
+BHI10,Ecoli_contig00092_501_1916,Glutamyl-tRNA synthetase (EC 6.1.1.17),-4.82
+BHI10,Ecoli_contig00008_82891_83934,"Selenide,water dikinase (EC 2.7.9.3)",-4.88
+BHI10,Ecoli_contig00003_150419_150679,Cytoplasmic protein YaiB,-3.77
+BHI10,Ecoli_contig00018_32090_33286,2-amino-3-ketobutyrate coenzyme A ligase (EC 2.3.1.29),-5.03
+BHI10,Ecoli_contig00001_66469_66972,FIG002208: Acetyltransferase (EC 2.3.1.-),-4.64
+BHI10,Ecoli_contig00010_118981_120273,Seryl-tRNA synthetase (EC 6.1.1.11),-2.62
+BHI10,Ecoli_contig00054_28107_29696,IMP cyclohydrolase (EC 3.5.4.10) / Phosphoribosylaminoimidazolecarboxamide formyltransferase (EC 2.1.2.3),-6.09
+BHI10,Ecoli_contig00014_90338_91228,"Ribose ABC transport system, periplasmic ribose-binding protein RbsB (TC 3.A.1.2.1)",-2.21
+BHI10,Ecoli_contig00007_107118_108575,Dihydrolipoamide dehydrogenase of pyruvate dehydrogenase complex (EC 1.8.1.4) @ Dihydrolipoamide dehydrogenase (EC 1.8.1.4),-1.97
+BHI10,Ecoli_contig00019_50085_50648,Alkyl hydroperoxide reductase protein C (EC 1.6.4.-),0.76
+BHI10,Ecoli_contig00013_59597_60262,FIG00637942: hypothetical protein,-3.54
+BHI10,Ecoli_contig00007_8887_9708,Dihydrodipicolinate reductase (EC 1.3.1.26),
+BHI10,Ecoli_contig00028_37517_38341,"2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase (EC 2.3.1.117)",-4.52
+BHI10,Ecoli_contig00034_26252_28018,Succinate dehydrogenase flavoprotein subunit (EC 1.3.99.1),-3.68
+BHI10,Ecoli_contig00085_296_901,Glutathione S-transferase (EC 2.5.1.18),-5.14
+BHI10,Ecoli_contig00019_47726_48154,Universal stress protein G,0.39
+BHI10,Ecoli_contig00004_112217_112648,Nucleoside diphosphate kinase (EC 2.7.4.6),-3.14
+BHI10,Ecoli_contig00017_3562_4656,Aminomethyltransferase (glycine cleavage system T protein) (EC 2.1.2.10),-6.19
+BHI10,Ecoli_contig00034_33350_34516,Succinyl-CoA ligase [ADP-forming] beta chain (EC 6.2.1.5),-2.36
+BHI10,Ecoli_contig00007_10164_11312,Carbamoyl-phosphate synthase small chain (EC 6.3.5.5),-5.10
+BHI10,Ecoli_contig00042_22445_23854,Glutamine synthetase type I (EC 6.3.1.2),-3.54
+BHI10,Ecoli_contig00034_28951_31752,2-oxoglutarate dehydrogenase E1 component (EC 1.2.4.2),-6.02
+BHI10,Ecoli_contig00066_11818_12471,Oxygen-insensitive NAD(P)H nitroreductase (EC 1.-.-.-) / Dihydropteridine reductase (EC 1.5.1.34),-4.35
+BHI10,Ecoli_contig00007_110932_113451,Aconitate hydratase 2 (EC 4.2.1.3) @ 2-methylisocitrate dehydratase (EC 4.2.1.99),-3.62
+BHI10,Ecoli_contig00016_50387_52567,Catalase (EC 1.11.1.6) / Peroxidase (EC 1.11.1.7),-4.84
+BHI10,Ecoli_contig00023_62818_64122,Isocitrate lyase (EC 4.1.3.1),-2.90
+BHI10,Ecoli_contig00002_62858_63856,"Galactose/methyl galactoside ABC transport system, D-galactose-binding periplasmic protein MglB (TC 3.A.1.2.3)",-3.26
+BHI10,Ecoli_contig00023_51604_52293,Alpha-aspartyl dipeptidase Peptidase E (EC 3.4.13.21),-4.83
+BHI10,Ecoli_contig00019_9781_10689,Glutamate Aspartate periplasmic binding protein precursor GltI (TC 3.A.1.3.4),-2.45
+BHI10,Ecoli_contig00005_19069_20244,Mannose-6-phosphate isomerase (EC 5.3.1.8),-5.54
+BHI10,Ecoli_contig00014_71462_72325,ATP synthase gamma chain (EC 3.6.3.14),-3.61
+BHI10,Ecoli_contig00013_57359_57856,Ferritin-like protein 2,-2.28
+BHI10,Ecoli_contig00039_22976_23434,Methylglyoxal synthase (EC 4.2.3.3),-3.91
+BHI10,Ecoli_contig00037_14833_16074,Glucose-1-phosphatase (EC 3.1.3.10),-2.93
+BHI10,Ecoli_contig00027_49668_50606,Malate dehydrogenase (EC 1.1.1.37),0.55
+BHI10,Ecoli_contig00034_34516_35385,Succinyl-CoA ligase [ADP-forming] alpha chain (EC 6.2.1.5),-0.52
+BHI10,Ecoli_contig00067_5696_6628,D-3-phosphoglycerate dehydrogenase (EC 1.1.1.95),-7.62
+BHI10,Ecoli_contig00034_31767_32984,Dihydrolipoamide succinyltransferase component (E2) of 2-oxoglutarate dehydrogenase complex (EC 2.3.1.61),-3.26
+BHI10,Ecoli_contig00008_27657_28628,"PTS system, mannose-specific IIA component (EC 2.7.1.69) / PTS system, mannose-specific IIB component (EC 2.7.1.69)",-4.06
+BHI10,Ecoli_contig00019_77100_79340,"TonB-dependent receptor; Outer membrane receptor for ferric enterobactin and colicins B, D",-3.99
+BHI10,Ecoli_contig00021_70220_71932,Sulfite reductase [NADPH] hemoprotein beta-component (EC 1.8.1.2),-5.37
+BHI10,Ecoli_contig00006_87075_88697,Phosphoenolpyruvate carboxykinase [ATP] (EC 4.1.1.49),-6.17
+BHI10,Ecoli_contig00029_53358_54419,FIG00638561: hypothetical protein,-3.00
+BHI10,Ecoli_contig00019_61043_61900,Isochorismatase (EC 3.3.2.1) [enterobactin] siderophore / Apo-aryl carrier domain of EntB,-4.28
+BHI10,Ecoli_contig00014_42781_44196,Tryptophanase (EC 4.1.99.1),-5.76
+BHI10,Ecoli_contig00015_4418_6064,"Fumarate hydratase class I, anaerobic (EC 4.2.1.2)",-6.49
+BHI10,Ecoli_contig00004_43839_46118,NADP-dependent malic enzyme (EC 1.1.1.40),-6.03
+BHI10,Ecoli_contig00011_80639_81421,"Histidine ABC transporter, histidine-binding periplasmic protein precursor HisJ (TC 3.A.1.3.1)",-3.89
+BHI10,Ecoli_contig00017_40694_41848,S-adenosylmethionine synthetase (EC 2.5.1.6),-3.22
+BHI10,Ecoli_contig00006_43547_44650,Aspartate-semialdehyde dehydrogenase (EC 1.2.1.11),-7.36
+BHI10,Ecoli_contig00043_20205_21623,"Phosphoenolpyruvate-dihydroxyacetone phosphotransferase (EC 2.7.1.121), subunit DhaM; DHA-specific IIA component / DHA-specific phosphocarrier protein HPr / DHA-specific EI component",-7.36
+BHI10,Ecoli_contig00012_96344_97594,Isocitrate dehydrogenase [NADP] (EC 1.1.1.42),-0.23
+BHI10,Ecoli_contig00018_20606_21796,L-lactate dehydrogenase (EC 1.1.2.3),
+BHI10,Ecoli_contig00017_53682_54728,L-asparaginase (EC 3.5.1.1),-2.12
+BHI10,Ecoli_contig00067_8051_9199,Galactonate dehydratase (EC 4.2.1.6),-4.92
+BHI10,Ecoli_contig00020_44902_45978,"Glycerophosphoryl diester phosphodiesterase, periplasmic (EC 3.1.4.46)",-3.87
+BHI10,Ecoli_contig00004_18363_19154,3-oxoacyl-[acyl-carrier protein] reductase (EC 1.1.1.100),-3.51
+BHI10,Ecoli_contig00023_35313_36503,"Maltose/maltodextrin ABC transporter, substrate binding periplasmic protein MalE",-4.78
+BHI10,Ecoli_contig00070_666_1304,Outer membrane protein W precursor,-1.71
+BHI10,Ecoli_contig00005_20443_22089,"Fumarate hydratase class I, aerobic (EC 4.2.1.2)",-3.17
+BHI11,Ecoli_contig00001_211037_211429,Protein ygiW precursor,-5.06
+BHI11,Ecoli_contig00045_35127_35732,Osmotically inducible protein OsmY,-4.18
+BHI11,Ecoli_contig00044_29629_29967,Chaperone HdeB,-0.73
+BHI11,Ecoli_contig00044_30071_30403,Chaperone HdeA,-5.83
+BHI11,Ecoli_contig00015_25505_25948,PhnB protein; putative DNA binding 3-demethylubiquinone-9 3-methyltransferase domain protein,-5.30
+BHI11,Ecoli_contig00022_5625_6146,Superoxide dismutase [Cu-Zn] precursor (EC 1.15.1.1),-4.46
+BHI11,Ecoli_contig00055_21093_21542,FIG00638941: hypothetical protein,-1.53
+BHI11,Ecoli_contig00050_590_1990,Glutamate decarboxylase (EC 4.1.1.15),-4.57
+BHI11,Ecoli_contig00023_22286_22495,UPF0337 protein yjbJ,-1.37
+BHI11,Ecoli_contig00022_39196_40200,"L,D-transpeptidase YnhG",-4.65
+BHI11,Ecoli_contig00002_143000_143332,FIG00638559: hypothetical protein,-2.81
+BHI11,Ecoli_contig00003_202553_202828,FIG00639237: hypothetical protein,-4.39
+BHI11,Ecoli_contig00041_3652_4128,Bacterioferritin Ecoli_contig00041_3652_4128|Bacterioferritin,-1.50
+BHI11,Ecoli_contig00014_31118_31516,FIG00638813: hypothetical protein,
+BHI11,Ecoli_contig00003_76107_76679,Glycoprotein-polysaccharide metabolism,-7.41
+BHI11,Ecoli_contig00006_31820_32260,FIG00638953: hypothetical protein,-8.43
+BHI11,Ecoli_contig00059_6428_7279,Chaperone protein hchA,-2.19
+BHI11,Ecoli_contig00008_108643_108981,Osmotically inducible lipoprotein E precursor,-1.00
+BHI11,Ecoli_contig00037_16112_16339,Putative cytoplasmic protein,-3.00
+BHI11,Ecoli_contig00026_23548_23979,Osmotically inducible protein C,-2.52
+BHI11,Ecoli_contig00001_126901_127206,Uncharacterized membrane protein YqjD,-1.17
+BHI11,Ecoli_contig00012_25898_26545,Glutaredoxin 2,-5.09
+BHI11,Ecoli_contig00010_26964_27467,Non-specific DNA-binding protein Dps / Iron-binding ferritin-like antioxidant protein / Ferroxidase (EC 1.16.3.1),-0.55
+BHI11,Ecoli_contig00069_85_366,hypothetical protein,-0.92
+BHI11,Ecoli_contig00029_32534_33202,Uncharacterized membrane lipoprotein clustered with tellurite resistance proteins TehA/TehB,-6.33
+BHI11,Ecoli_contig00040_5204_6427,Phosphopentomutase (EC 5.4.2.7),-3.52
+BHI11,Ecoli_contig00008_136790_137341,Glutathione peroxidase (EC 1.11.1.9),-4.79
+BHI11,Ecoli_contig00017_21328_22068,Protein of unknown function DUF541,-4.65
+BHI11,Ecoli_contig00091_1340_2665,"Putative Dihydrolipoamide dehydrogenase (EC 1.8.1.4); Mercuric ion reductase (EC 1.16.1.1); PF00070 family, FAD-dependent NAD(P)-disulphide oxidoreductase",-5.90
+BHI11,Ecoli_contig00010_81701_82432,"Arginine ABC transporter, periplasmic arginine-binding protein ArtI",-4.72
+BHI11,Ecoli_contig00001_223263_224090,"Methylglyoxal reductase, acetol producing (EC 1.1.1.-) / 2,5-diketo-D-gluconate reductase A (EC 1.1.1.274)",-4.48
+BHI11,Ecoli_contig00087_3350_3976,Nicotinamidase family protein YcaC,-4.73
+BHI11,Ecoli_contig00018_24926_25177,Glutaredoxin 3 (Grx3),-3.24
+BHI11,Ecoli_contig00036_17112_18107,6-phosphogluconolactonase (EC 3.1.1.31),-4.20
+BHI11,Ecoli_contig00055_3042_3557,S-ribosylhomocysteine lyase (EC 4.4.1.21) / Autoinducer-2 production protein LuxS,-1.32
+BHI11,Ecoli_contig00010_83396_83911,probable lipoprotein,-4.18
+BHI11,Ecoli_contig00028_9339_9539,FIG00639395: hypothetical protein,-5.53
+BHI11,Ecoli_contig00040_38339_40255,Chaperone protein DnaK,-0.51
+BHI11,Ecoli_contig00022_15245_15592,hypothetical protein,-7.66
+BHI11,Ecoli_contig00070_10744_11364,YciO family,-3.70
+BHI11,Ecoli_contig00017_36865_37785,Agmatinase (EC 3.5.3.11),-3.90
+BHI11,Ecoli_contig00019_14091_14573,Uncharacterized protein YbeL / FIG002095: hypothetical protein,-4.95
+BHI11,Ecoli_contig00039_29914_30978,Outer membrane protein A precursor,-1.73
+BHI11,Ecoli_contig00018_10600_10809,Putative cytoplasmic protein,-4.67
+BHI11,Ecoli_contig00039_21632_22045,"Succinyl-CoA synthetase, alpha subunit-related enzymes",-4.46
+BHI11,Ecoli_contig00018_59647_59922,DNA-directed RNA polymerase omega subunit (EC 2.7.7.6),-2.92
+BHI11,Ecoli_contig00058_19752_20045,Heat shock protein 60 family co-chaperone GroES,0.24
+BHI11,Ecoli_contig00040_24114_24830,Aerobic respiration control protein arcA,-2.54
+BHI11,Ecoli_contig00008_135347_135646,Integration host factor alpha subunit,-1.96
+BHI11,Ecoli_contig00004_10511_11020,"PTS system, glucose-specific IIA component (EC 2.7.1.69)",-0.42
+BHI11,Ecoli_contig00017_55807_56133,FIG002060: uncharacterized protein YggL,-4.71
+BHI11,Ecoli_contig00004_124412_124747,"Ferredoxin, 2Fe-2S",-4.40
+BHI11,Ecoli_contig00003_106892_107383,FIG001943: hypothetical protein YajQ,-3.43
+BHI11,Ecoli_contig00041_36179_36688,Peptide deformylase (EC 3.5.1.88),-4.89
+BHI11,Ecoli_contig00055_19384_19788,DNA-binding protein H-NS,-5.07
+BHI11,Ecoli_contig00076_4276_4527,Protein yciN,-4.79
+BHI11,Ecoli_contig00006_129169_129741,Peptidyl-prolyl cis-trans isomerase ppiA precursor (EC 5.2.1.8),-3.97
+BHI11,Ecoli_contig00021_674_859,Carbon storage regulator,-3.46
+BHI11,Ecoli_contig00010_110642_111607,Thioredoxin reductase (EC 1.8.1.9),-2.84
+BHI11,Ecoli_contig00002_70478_71362,Cytidine deaminase (EC 3.5.4.5),-9.49
+BHI11,Ecoli_contig00012_51248_52201,"3-oxoacyl-[acyl-carrier-protein] synthase, KASIII (EC 2.3.1.41)",-4.23
+BHI11,Ecoli_contig00004_7086_8057,Cysteine synthase (EC 2.5.1.47),-0.54
+BHI11,Ecoli_contig00046_20883_21671,Enoyl-[acyl-carrier-protein] reductase [NADH] (EC 1.3.1.9),-3.10
+BHI11,Ecoli_contig00013_1438_2079,4-Hydroxy-2-oxoglutarate aldolase (EC 4.1.3.16) / 2-dehydro-3-deoxyphosphogluconate aldolase (EC 4.1.2.14),-4.59
+BHI11,Ecoli_contig00040_13434_15101,"ABC transporter, ATP-binding protein",-4.77
+BHI11,Ecoli_contig00079_5225_5491,Cell division topological specificity factor MinE,-3.08
+BHI11,Ecoli_contig00022_1882_2316,Transcriptional regulator SlyA,-6.01
+BHI11,Ecoli_contig00067_9196_9813,2-dehydro-3-deoxyphosphogalactonate aldolase (EC 4.1.2.21),-1.93
+BHI11,Ecoli_contig00007_128045_128839,3-methyl-2-oxobutanoate hydroxymethyltransferase (EC 2.1.2.11),-4.25
+BHI11,Ecoli_contig00011_65794_67014,"3-oxoacyl-[acyl-carrier-protein] synthase, KASI (EC 2.3.1.41)",-2.57
+BHI11,Ecoli_contig00022_16869_17450,Superoxide dismutase [Fe] (EC 1.15.1.1),-0.72
+BHI11,Ecoli_contig00010_25814_26560,"Glutamine ABC transporter, periplasmic glutamine-binding protein (TC 3.A.1.3.2)",-0.90
+BHI11,Ecoli_contig00049_16500_18140,Phosphoglucomutase (EC 5.4.2.2),-2.90
+BHI11,Ecoli_contig00009_92956_94254,Adenylosuccinate synthetase (EC 6.3.4.4),-3.47
+BHI11,Ecoli_contig00025_44742_45692,Universal stress protein E,-3.56
+BHI11,Ecoli_contig00001_224195_225358,NADPH-dependent broad range aldehyde dehydrogenase YqhD,-6.54
+BHI11,Ecoli_contig00043_300_1154,2-Keto-3-deoxy-D-manno-octulosonate-8-phosphate synthase (EC 2.5.1.55),-2.14
+BHI11,Ecoli_contig00079_4409_5221,Septum site-determining protein MinD,-3.03
+BHI11,Ecoli_contig00011_79636_80418,Lysine-arginine-ornithine-binding periplasmic protein precursor (TC 3.A.1.3.1),-3.31
+BHI11,Ecoli_contig00006_107825_108829,Tryptophanyl-tRNA synthetase (EC 6.1.1.2),-5.04
+BHI11,Ecoli_contig00004_151826_153079,Serine hydroxymethyltransferase (EC 2.1.2.1),-0.74
+BHI11,Ecoli_contig00009_20985_21446,Aspartate carbamoyltransferase regulatory chain (PyrI),-5.67
+BHI11,Ecoli_contig00008_122244_123104,"Fructosamine kinase family protein, At3g61080 homolog",-4.35
+BHI11,Ecoli_contig00018_25995_27539,"2,3-bisphosphoglycerate-independent phosphoglycerate mutase (EC 5.4.2.1)",-4.97
+BHI11,Ecoli_contig00051_5348_5926,Phosphoheptose isomerase 1 (EC 5.3.1.-),-2.79
+BHI11,Ecoli_contig00004_64646_65359,Phosphoribosylaminoimidazole-succinocarboxamide synthase (EC 6.3.2.6),-1.28
+BHI11,Ecoli_contig00011_92755_93957,Acetate kinase (EC 2.7.2.1),-2.09
+BHI11,Ecoli_contig00062_13108_13461,Putative ACR protein,-2.91
+BHI11,Ecoli_contig00009_33020_34372,"TldE/PmbA protein, part of proposed TldE/TldD proteolytic complex (PMID 12029038)",-8.71
+BHI11,Ecoli_contig00013_6972_8414,Pyruvate kinase (EC 2.7.1.40),-4.19
+BHI11,Ecoli_contig00025_30805_31239,Universal stress protein F,0.04
+BHI11,Ecoli_contig00040_35482_36069,"Molybdopterin biosynthesis Mog protein, molybdochelatase",-8.75
+BHI11,Ecoli_contig00012_53159_53893,3-oxoacyl-[acyl-carrier protein] reductase (EC 1.1.1.100),-4.71
+BHI11,Ecoli_contig00012_54428_55669,"3-oxoacyl-[acyl-carrier-protein] synthase, KASII (EC 2.3.1.41)",-5.19
+BHI11,Ecoli_contig00024_12834_14465,"Oligopeptide ABC transporter, periplasmic oligopeptide-binding protein OppA (TC 3.A.1.5.1)",-2.81
+BHI11,Ecoli_contig00044_14971_15405,Universal stress protein A,0.20
+BHI11,Ecoli_contig00054_26806_28095,Phosphoribosylamine--glycine ligase (EC 6.3.4.13),-3.59
+BHI11,Ecoli_contig00014_70053_71435,ATP synthase beta chain (EC 3.6.3.14),-2.45
+BHI11,Ecoli_contig00004_122859_124142,Peptidase B (EC 3.4.11.23),-4.44
+BHI11,Ecoli_contig00016_54484_55587,Glycerol dehydrogenase (EC 1.1.1.6),-7.17
+BHI11,Ecoli_contig00001_16768_17421,Sigma cross-reacting protein 27A,-4.77
+BHI11,Ecoli_contig00014_73930_74463,ATP synthase delta chain (EC 3.6.3.14),-2.11
+BHI11,Ecoli_contig00028_33958_34752,Methionine aminopeptidase (EC 3.4.11.18),-4.74
+BHI11,Ecoli_contig00011_58959_59891,"Protein-N(5)-glutamine methyltransferase PrmB, methylates LSU ribosomal protein L3p",-6.41
+BHI11,Ecoli_contig00034_28034_28750,Succinate dehydrogenase iron-sulfur protein (EC 1.3.99.1),-1.51
+BHI11,Ecoli_contig00003_120053_120937,Nucleoside-specific channel-forming protein Tsx precursor,-3.62
+BHI11,Ecoli_contig00092_501_1916,Glutamyl-tRNA synthetase (EC 6.1.1.17),-4.85
+BHI11,Ecoli_contig00008_82891_83934,"Selenide,water dikinase (EC 2.7.9.3)",-5.40
+BHI11,Ecoli_contig00003_150419_150679,Cytoplasmic protein YaiB,-4.20
+BHI11,Ecoli_contig00018_32090_33286,2-amino-3-ketobutyrate coenzyme A ligase (EC 2.3.1.29),-5.00
+BHI11,Ecoli_contig00001_66469_66972,FIG002208: Acetyltransferase (EC 2.3.1.-),-4.89
+BHI11,Ecoli_contig00010_118981_120273,Seryl-tRNA synthetase (EC 6.1.1.11),-2.63
+BHI11,Ecoli_contig00054_28107_29696,IMP cyclohydrolase (EC 3.5.4.10) / Phosphoribosylaminoimidazolecarboxamide formyltransferase (EC 2.1.2.3),-4.15
+BHI11,Ecoli_contig00014_90338_91228,"Ribose ABC transport system, periplasmic ribose-binding protein RbsB (TC 3.A.1.2.1)",-2.24
+BHI11,Ecoli_contig00007_107118_108575,Dihydrolipoamide dehydrogenase of pyruvate dehydrogenase complex (EC 1.8.1.4) @ Dihydrolipoamide dehydrogenase (EC 1.8.1.4),-1.52
+BHI11,Ecoli_contig00019_50085_50648,Alkyl hydroperoxide reductase protein C (EC 1.6.4.-),0.60
+BHI11,Ecoli_contig00013_59597_60262,FIG00637942: hypothetical protein,-3.52
+BHI11,Ecoli_contig00007_8887_9708,Dihydrodipicolinate reductase (EC 1.3.1.26),
+BHI11,Ecoli_contig00028_37517_38341,"2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase (EC 2.3.1.117)",-4.83
+BHI11,Ecoli_contig00034_26252_28018,Succinate dehydrogenase flavoprotein subunit (EC 1.3.99.1),-3.11
+BHI11,Ecoli_contig00085_296_901,Glutathione S-transferase (EC 2.5.1.18),-5.06
+BHI11,Ecoli_contig00019_47726_48154,Universal stress protein G,0.11
+BHI11,Ecoli_contig00004_112217_112648,Nucleoside diphosphate kinase (EC 2.7.4.6),-3.30
+BHI11,Ecoli_contig00017_3562_4656,Aminomethyltransferase (glycine cleavage system T protein) (EC 2.1.2.10),-4.83
+BHI11,Ecoli_contig00034_33350_34516,Succinyl-CoA ligase [ADP-forming] beta chain (EC 6.2.1.5),-1.60
+BHI11,Ecoli_contig00007_10164_11312,Carbamoyl-phosphate synthase small chain (EC 6.3.5.5),-5.90
+BHI11,Ecoli_contig00042_22445_23854,Glutamine synthetase type I (EC 6.3.1.2),-3.31
+BHI11,Ecoli_contig00034_28951_31752,2-oxoglutarate dehydrogenase E1 component (EC 1.2.4.2),-4.87
+BHI11,Ecoli_contig00066_11818_12471,Oxygen-insensitive NAD(P)H nitroreductase (EC 1.-.-.-) / Dihydropteridine reductase (EC 1.5.1.34),-4.27
+BHI11,Ecoli_contig00007_110932_113451,Aconitate hydratase 2 (EC 4.2.1.3) @ 2-methylisocitrate dehydratase (EC 4.2.1.99),-2.82
+BHI11,Ecoli_contig00016_50387_52567,Catalase (EC 1.11.1.6) / Peroxidase (EC 1.11.1.7),-4.42
+BHI11,Ecoli_contig00023_62818_64122,Isocitrate lyase (EC 4.1.3.1),-2.44
+BHI11,Ecoli_contig00002_62858_63856,"Galactose/methyl galactoside ABC transport system, D-galactose-binding periplasmic protein MglB (TC 3.A.1.2.3)",-2.95
+BHI11,Ecoli_contig00023_51604_52293,Alpha-aspartyl dipeptidase Peptidase E (EC 3.4.13.21),-4.67
+BHI11,Ecoli_contig00019_9781_10689,Glutamate Aspartate periplasmic binding protein precursor GltI (TC 3.A.1.3.4),-2.52
+BHI11,Ecoli_contig00005_19069_20244,Mannose-6-phosphate isomerase (EC 5.3.1.8),-5.68
+BHI11,Ecoli_contig00014_71462_72325,ATP synthase gamma chain (EC 3.6.3.14),-3.70
+BHI11,Ecoli_contig00013_57359_57856,Ferritin-like protein 2,-1.99
+BHI11,Ecoli_contig00039_22976_23434,Methylglyoxal synthase (EC 4.2.3.3),-4.32
+BHI11,Ecoli_contig00037_14833_16074,Glucose-1-phosphatase (EC 3.1.3.10),-2.44
+BHI11,Ecoli_contig00027_49668_50606,Malate dehydrogenase (EC 1.1.1.37),0.16
+BHI11,Ecoli_contig00034_34516_35385,Succinyl-CoA ligase [ADP-forming] alpha chain (EC 6.2.1.5),-0.71
+BHI11,Ecoli_contig00067_5696_6628,D-3-phosphoglycerate dehydrogenase (EC 1.1.1.95),-6.53
+BHI11,Ecoli_contig00034_31767_32984,Dihydrolipoamide succinyltransferase component (E2) of 2-oxoglutarate dehydrogenase complex (EC 2.3.1.61),-2.80
+BHI11,Ecoli_contig00008_27657_28628,"PTS system, mannose-specific IIA component (EC 2.7.1.69) / PTS system, mannose-specific IIB component (EC 2.7.1.69)",-4.25
+BHI11,Ecoli_contig00019_77100_79340,"TonB-dependent receptor; Outer membrane receptor for ferric enterobactin and colicins B, D",-3.69
+BHI11,Ecoli_contig00021_70220_71932,Sulfite reductase [NADPH] hemoprotein beta-component (EC 1.8.1.2),-5.92
+BHI11,Ecoli_contig00006_87075_88697,Phosphoenolpyruvate carboxykinase [ATP] (EC 4.1.1.49),-3.57
+BHI11,Ecoli_contig00029_53358_54419,FIG00638561: hypothetical protein,-3.10
+BHI11,Ecoli_contig00019_61043_61900,Isochorismatase (EC 3.3.2.1) [enterobactin] siderophore / Apo-aryl carrier domain of EntB,-3.70
+BHI11,Ecoli_contig00014_42781_44196,Tryptophanase (EC 4.1.99.1),-4.45
+BHI11,Ecoli_contig00015_4418_6064,"Fumarate hydratase class I, anaerobic (EC 4.2.1.2)",-5.92
+BHI11,Ecoli_contig00004_43839_46118,NADP-dependent malic enzyme (EC 1.1.1.40),-4.14
+BHI11,Ecoli_contig00011_80639_81421,"Histidine ABC transporter, histidine-binding periplasmic protein precursor HisJ (TC 3.A.1.3.1)",-3.78
+BHI11,Ecoli_contig00017_40694_41848,S-adenosylmethionine synthetase (EC 2.5.1.6),-3.81
+BHI11,Ecoli_contig00006_43547_44650,Aspartate-semialdehyde dehydrogenase (EC 1.2.1.11),-7.37
+BHI11,Ecoli_contig00043_20205_21623,"Phosphoenolpyruvate-dihydroxyacetone phosphotransferase (EC 2.7.1.121), subunit DhaM; DHA-specific IIA component / DHA-specific phosphocarrier protein HPr / DHA-specific EI component",-7.54
+BHI11,Ecoli_contig00012_96344_97594,Isocitrate dehydrogenase [NADP] (EC 1.1.1.42),-0.05
+BHI11,Ecoli_contig00018_20606_21796,L-lactate dehydrogenase (EC 1.1.2.3),-5.83
+BHI11,Ecoli_contig00017_53682_54728,L-asparaginase (EC 3.5.1.1),-2.43
+BHI11,Ecoli_contig00067_8051_9199,Galactonate dehydratase (EC 4.2.1.6),-4.55
+BHI11,Ecoli_contig00020_44902_45978,"Glycerophosphoryl diester phosphodiesterase, periplasmic (EC 3.1.4.46)",-3.91
+BHI11,Ecoli_contig00004_18363_19154,3-oxoacyl-[acyl-carrier protein] reductase (EC 1.1.1.100),-3.98
+BHI11,Ecoli_contig00023_35313_36503,"Maltose/maltodextrin ABC transporter, substrate binding periplasmic protein MalE",-3.96
+BHI11,Ecoli_contig00070_666_1304,Outer membrane protein W precursor,-1.95
+BHI11,Ecoli_contig00005_20443_22089,"Fumarate hydratase class I, aerobic (EC 4.2.1.2)",-2.94
+BHI12,Ecoli_contig00001_211037_211429,Protein ygiW precursor,-1.49
+BHI12,Ecoli_contig00045_35127_35732,Osmotically inducible protein OsmY,-1.68
+BHI12,Ecoli_contig00044_29629_29967,Chaperone HdeB,-0.52
+BHI12,Ecoli_contig00044_30071_30403,Chaperone HdeA,-6.12
+BHI12,Ecoli_contig00015_25505_25948,PhnB protein; putative DNA binding 3-demethylubiquinone-9 3-methyltransferase domain protein,-4.36
+BHI12,Ecoli_contig00022_5625_6146,Superoxide dismutase [Cu-Zn] precursor (EC 1.15.1.1),-3.71
+BHI12,Ecoli_contig00055_21093_21542,FIG00638941: hypothetical protein,-0.32
+BHI12,Ecoli_contig00050_590_1990,Glutamate decarboxylase (EC 4.1.1.15),-4.63
+BHI12,Ecoli_contig00023_22286_22495,UPF0337 protein yjbJ,-0.35
+BHI12,Ecoli_contig00022_39196_40200,"L,D-transpeptidase YnhG",-3.16
+BHI12,Ecoli_contig00002_143000_143332,FIG00638559: hypothetical protein,-1.89
+BHI12,Ecoli_contig00003_202553_202828,FIG00639237: hypothetical protein,-2.53
+BHI12,Ecoli_contig00041_3652_4128,Bacterioferritin Ecoli_contig00041_3652_4128|Bacterioferritin,-0.73
+BHI12,Ecoli_contig00014_31118_31516,FIG00638813: hypothetical protein,-4.82
+BHI12,Ecoli_contig00003_76107_76679,Glycoprotein-polysaccharide metabolism,-3.99
+BHI12,Ecoli_contig00006_31820_32260,FIG00638953: hypothetical protein,-6.73
+BHI12,Ecoli_contig00059_6428_7279,Chaperone protein hchA,-0.79
+BHI12,Ecoli_contig00008_108643_108981,Osmotically inducible lipoprotein E precursor,0.11
+BHI12,Ecoli_contig00037_16112_16339,Putative cytoplasmic protein,-2.41
+BHI12,Ecoli_contig00026_23548_23979,Osmotically inducible protein C,-1.61
+BHI12,Ecoli_contig00001_126901_127206,Uncharacterized membrane protein YqjD,-0.74
+BHI12,Ecoli_contig00012_25898_26545,Glutaredoxin 2,-4.05
+BHI12,Ecoli_contig00010_26964_27467,Non-specific DNA-binding protein Dps / Iron-binding ferritin-like antioxidant protein / Ferroxidase (EC 1.16.3.1),0.38
+BHI12,Ecoli_contig00069_85_366,hypothetical protein,-0.56
+BHI12,Ecoli_contig00029_32534_33202,Uncharacterized membrane lipoprotein clustered with tellurite resistance proteins TehA/TehB,-4.34
+BHI12,Ecoli_contig00040_5204_6427,Phosphopentomutase (EC 5.4.2.7),-2.75
+BHI12,Ecoli_contig00008_136790_137341,Glutathione peroxidase (EC 1.11.1.9),-3.84
+BHI12,Ecoli_contig00017_21328_22068,Protein of unknown function DUF541,-4.24
+BHI12,Ecoli_contig00091_1340_2665,"Putative Dihydrolipoamide dehydrogenase (EC 1.8.1.4); Mercuric ion reductase (EC 1.16.1.1); PF00070 family, FAD-dependent NAD(P)-disulphide oxidoreductase",-4.42
+BHI12,Ecoli_contig00010_81701_82432,"Arginine ABC transporter, periplasmic arginine-binding protein ArtI",-3.52
+BHI12,Ecoli_contig00001_223263_224090,"Methylglyoxal reductase, acetol producing (EC 1.1.1.-) / 2,5-diketo-D-gluconate reductase A (EC 1.1.1.274)",-3.57
+BHI12,Ecoli_contig00087_3350_3976,Nicotinamidase family protein YcaC,-3.16
+BHI12,Ecoli_contig00018_24926_25177,Glutaredoxin 3 (Grx3),-3.46
+BHI12,Ecoli_contig00036_17112_18107,6-phosphogluconolactonase (EC 3.1.1.31),-3.59
+BHI12,Ecoli_contig00055_3042_3557,S-ribosylhomocysteine lyase (EC 4.4.1.21) / Autoinducer-2 production protein LuxS,-1.03
+BHI12,Ecoli_contig00010_83396_83911,probable lipoprotein,-3.38
+BHI12,Ecoli_contig00028_9339_9539,FIG00639395: hypothetical protein,-5.35
+BHI12,Ecoli_contig00040_38339_40255,Chaperone protein DnaK,-0.40
+BHI12,Ecoli_contig00022_15245_15592,hypothetical protein,-7.60
+BHI12,Ecoli_contig00070_10744_11364,YciO family,-3.60
+BHI12,Ecoli_contig00017_36865_37785,Agmatinase (EC 3.5.3.11),-4.03
+BHI12,Ecoli_contig00019_14091_14573,Uncharacterized protein YbeL / FIG002095: hypothetical protein,-4.79
+BHI12,Ecoli_contig00039_29914_30978,Outer membrane protein A precursor,-0.81
+BHI12,Ecoli_contig00018_10600_10809,Putative cytoplasmic protein,-4.22
+BHI12,Ecoli_contig00039_21632_22045,"Succinyl-CoA synthetase, alpha subunit-related enzymes",-4.13
+BHI12,Ecoli_contig00018_59647_59922,DNA-directed RNA polymerase omega subunit (EC 2.7.7.6),-3.44
+BHI12,Ecoli_contig00058_19752_20045,Heat shock protein 60 family co-chaperone GroES,0.34
+BHI12,Ecoli_contig00040_24114_24830,Aerobic respiration control protein arcA,-3.06
+BHI12,Ecoli_contig00008_135347_135646,Integration host factor alpha subunit,-1.84
+BHI12,Ecoli_contig00004_10511_11020,"PTS system, glucose-specific IIA component (EC 2.7.1.69)",-0.11
+BHI12,Ecoli_contig00017_55807_56133,FIG002060: uncharacterized protein YggL,-5.47
+BHI12,Ecoli_contig00004_124412_124747,"Ferredoxin, 2Fe-2S",-5.11
+BHI12,Ecoli_contig00003_106892_107383,FIG001943: hypothetical protein YajQ,-3.08
+BHI12,Ecoli_contig00041_36179_36688,Peptide deformylase (EC 3.5.1.88),-4.45
+BHI12,Ecoli_contig00055_19384_19788,DNA-binding protein H-NS,-5.73
+BHI12,Ecoli_contig00076_4276_4527,Protein yciN,-4.37
+BHI12,Ecoli_contig00006_129169_129741,Peptidyl-prolyl cis-trans isomerase ppiA precursor (EC 5.2.1.8),-4.27
+BHI12,Ecoli_contig00021_674_859,Carbon storage regulator,-4.06
+BHI12,Ecoli_contig00010_110642_111607,Thioredoxin reductase (EC 1.8.1.9),-3.03
+BHI12,Ecoli_contig00002_70478_71362,Cytidine deaminase (EC 3.5.4.5),-9.93
+BHI12,Ecoli_contig00012_51248_52201,"3-oxoacyl-[acyl-carrier-protein] synthase, KASIII (EC 2.3.1.41)",-4.32
+BHI12,Ecoli_contig00004_7086_8057,Cysteine synthase (EC 2.5.1.47),0.17
+BHI12,Ecoli_contig00046_20883_21671,Enoyl-[acyl-carrier-protein] reductase [NADH] (EC 1.3.1.9),-3.19
+BHI12,Ecoli_contig00013_1438_2079,4-Hydroxy-2-oxoglutarate aldolase (EC 4.1.3.16) / 2-dehydro-3-deoxyphosphogluconate aldolase (EC 4.1.2.14),-4.61
+BHI12,Ecoli_contig00040_13434_15101,"ABC transporter, ATP-binding protein",-4.81
+BHI12,Ecoli_contig00079_5225_5491,Cell division topological specificity factor MinE,-3.35
+BHI12,Ecoli_contig00022_1882_2316,Transcriptional regulator SlyA,-6.55
+BHI12,Ecoli_contig00067_9196_9813,2-dehydro-3-deoxyphosphogalactonate aldolase (EC 4.1.2.21),-2.03
+BHI12,Ecoli_contig00007_128045_128839,3-methyl-2-oxobutanoate hydroxymethyltransferase (EC 2.1.2.11),-4.70
+BHI12,Ecoli_contig00011_65794_67014,"3-oxoacyl-[acyl-carrier-protein] synthase, KASI (EC 2.3.1.41)",-2.40
+BHI12,Ecoli_contig00022_16869_17450,Superoxide dismutase [Fe] (EC 1.15.1.1),-0.60
+BHI12,Ecoli_contig00010_25814_26560,"Glutamine ABC transporter, periplasmic glutamine-binding protein (TC 3.A.1.3.2)",-0.81
+BHI12,Ecoli_contig00049_16500_18140,Phosphoglucomutase (EC 5.4.2.2),-3.13
+BHI12,Ecoli_contig00009_92956_94254,Adenylosuccinate synthetase (EC 6.3.4.4),-3.55
+BHI12,Ecoli_contig00025_44742_45692,Universal stress protein E,-3.75
+BHI12,Ecoli_contig00001_224195_225358,NADPH-dependent broad range aldehyde dehydrogenase YqhD,-6.59
+BHI12,Ecoli_contig00043_300_1154,2-Keto-3-deoxy-D-manno-octulosonate-8-phosphate synthase (EC 2.5.1.55),-2.55
+BHI12,Ecoli_contig00079_4409_5221,Septum site-determining protein MinD,-3.51
+BHI12,Ecoli_contig00011_79636_80418,Lysine-arginine-ornithine-binding periplasmic protein precursor (TC 3.A.1.3.1),-2.26
+BHI12,Ecoli_contig00006_107825_108829,Tryptophanyl-tRNA synthetase (EC 6.1.1.2),-5.18
+BHI12,Ecoli_contig00004_151826_153079,Serine hydroxymethyltransferase (EC 2.1.2.1),-1.18
+BHI12,Ecoli_contig00009_20985_21446,Aspartate carbamoyltransferase regulatory chain (PyrI),-6.23
+BHI12,Ecoli_contig00008_122244_123104,"Fructosamine kinase family protein, At3g61080 homolog",-4.17
+BHI12,Ecoli_contig00018_25995_27539,"2,3-bisphosphoglycerate-independent phosphoglycerate mutase (EC 5.4.2.1)",-4.99
+BHI12,Ecoli_contig00051_5348_5926,Phosphoheptose isomerase 1 (EC 5.3.1.-),-2.97
+BHI12,Ecoli_contig00004_64646_65359,Phosphoribosylaminoimidazole-succinocarboxamide synthase (EC 6.3.2.6),-1.25
+BHI12,Ecoli_contig00011_92755_93957,Acetate kinase (EC 2.7.2.1),-2.57
+BHI12,Ecoli_contig00062_13108_13461,Putative ACR protein,-3.48
+BHI12,Ecoli_contig00009_33020_34372,"TldE/PmbA protein, part of proposed TldE/TldD proteolytic complex (PMID 12029038)",-6.32
+BHI12,Ecoli_contig00013_6972_8414,Pyruvate kinase (EC 2.7.1.40),-4.02
+BHI12,Ecoli_contig00025_30805_31239,Universal stress protein F,0.08
+BHI12,Ecoli_contig00040_35482_36069,"Molybdopterin biosynthesis Mog protein, molybdochelatase",-9.40
+BHI12,Ecoli_contig00012_53159_53893,3-oxoacyl-[acyl-carrier protein] reductase (EC 1.1.1.100),-4.40
+BHI12,Ecoli_contig00012_54428_55669,"3-oxoacyl-[acyl-carrier-protein] synthase, KASII (EC 2.3.1.41)",-5.42
+BHI12,Ecoli_contig00024_12834_14465,"Oligopeptide ABC transporter, periplasmic oligopeptide-binding protein OppA (TC 3.A.1.5.1)",-3.11
+BHI12,Ecoli_contig00044_14971_15405,Universal stress protein A,-0.02
+BHI12,Ecoli_contig00054_26806_28095,Phosphoribosylamine--glycine ligase (EC 6.3.4.13),-3.99
+BHI12,Ecoli_contig00014_70053_71435,ATP synthase beta chain (EC 3.6.3.14),-2.68
+BHI12,Ecoli_contig00004_122859_124142,Peptidase B (EC 3.4.11.23),-4.41
+BHI12,Ecoli_contig00016_54484_55587,Glycerol dehydrogenase (EC 1.1.1.6),-6.90
+BHI12,Ecoli_contig00001_16768_17421,Sigma cross-reacting protein 27A,-4.95
+BHI12,Ecoli_contig00014_73930_74463,ATP synthase delta chain (EC 3.6.3.14),-2.57
+BHI12,Ecoli_contig00028_33958_34752,Methionine aminopeptidase (EC 3.4.11.18),-4.96
+BHI12,Ecoli_contig00011_58959_59891,"Protein-N(5)-glutamine methyltransferase PrmB, methylates LSU ribosomal protein L3p",-7.24
+BHI12,Ecoli_contig00034_28034_28750,Succinate dehydrogenase iron-sulfur protein (EC 1.3.99.1),-0.98
+BHI12,Ecoli_contig00003_120053_120937,Nucleoside-specific channel-forming protein Tsx precursor,-4.00
+BHI12,Ecoli_contig00092_501_1916,Glutamyl-tRNA synthetase (EC 6.1.1.17),-4.99
+BHI12,Ecoli_contig00008_82891_83934,"Selenide,water dikinase (EC 2.7.9.3)",-6.14
+BHI12,Ecoli_contig00003_150419_150679,Cytoplasmic protein YaiB,-4.32
+BHI12,Ecoli_contig00018_32090_33286,2-amino-3-ketobutyrate coenzyme A ligase (EC 2.3.1.29),-5.00
+BHI12,Ecoli_contig00001_66469_66972,FIG002208: Acetyltransferase (EC 2.3.1.-),-4.88
+BHI12,Ecoli_contig00010_118981_120273,Seryl-tRNA synthetase (EC 6.1.1.11),-2.49
+BHI12,Ecoli_contig00054_28107_29696,IMP cyclohydrolase (EC 3.5.4.10) / Phosphoribosylaminoimidazolecarboxamide formyltransferase (EC 2.1.2.3),-5.16
+BHI12,Ecoli_contig00014_90338_91228,"Ribose ABC transport system, periplasmic ribose-binding protein RbsB (TC 3.A.1.2.1)",-1.93
+BHI12,Ecoli_contig00007_107118_108575,Dihydrolipoamide dehydrogenase of pyruvate dehydrogenase complex (EC 1.8.1.4) @ Dihydrolipoamide dehydrogenase (EC 1.8.1.4),-0.98
+BHI12,Ecoli_contig00019_50085_50648,Alkyl hydroperoxide reductase protein C (EC 1.6.4.-),0.12
+BHI12,Ecoli_contig00013_59597_60262,FIG00637942: hypothetical protein,-4.12
+BHI12,Ecoli_contig00007_8887_9708,Dihydrodipicolinate reductase (EC 1.3.1.26),-6.44
+BHI12,Ecoli_contig00028_37517_38341,"2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase (EC 2.3.1.117)",-4.95
+BHI12,Ecoli_contig00034_26252_28018,Succinate dehydrogenase flavoprotein subunit (EC 1.3.99.1),-2.39
+BHI12,Ecoli_contig00085_296_901,Glutathione S-transferase (EC 2.5.1.18),-5.17
+BHI12,Ecoli_contig00019_47726_48154,Universal stress protein G,-0.49
+BHI12,Ecoli_contig00004_112217_112648,Nucleoside diphosphate kinase (EC 2.7.4.6),-3.53
+BHI12,Ecoli_contig00017_3562_4656,Aminomethyltransferase (glycine cleavage system T protein) (EC 2.1.2.10),-5.83
+BHI12,Ecoli_contig00034_33350_34516,Succinyl-CoA ligase [ADP-forming] beta chain (EC 6.2.1.5),-0.71
+BHI12,Ecoli_contig00007_10164_11312,Carbamoyl-phosphate synthase small chain (EC 6.3.5.5),-6.06
+BHI12,Ecoli_contig00042_22445_23854,Glutamine synthetase type I (EC 6.3.1.2),-3.49
+BHI12,Ecoli_contig00034_28951_31752,2-oxoglutarate dehydrogenase E1 component (EC 1.2.4.2),-3.83
+BHI12,Ecoli_contig00066_11818_12471,Oxygen-insensitive NAD(P)H nitroreductase (EC 1.-.-.-) / Dihydropteridine reductase (EC 1.5.1.34),-5.75
+BHI12,Ecoli_contig00007_110932_113451,Aconitate hydratase 2 (EC 4.2.1.3) @ 2-methylisocitrate dehydratase (EC 4.2.1.99),-1.81
+BHI12,Ecoli_contig00016_50387_52567,Catalase (EC 1.11.1.6) / Peroxidase (EC 1.11.1.7),-4.22
+BHI12,Ecoli_contig00023_62818_64122,Isocitrate lyase (EC 4.1.3.1),-2.57
+BHI12,Ecoli_contig00002_62858_63856,"Galactose/methyl galactoside ABC transport system, D-galactose-binding periplasmic protein MglB (TC 3.A.1.2.3)",-3.10
+BHI12,Ecoli_contig00023_51604_52293,Alpha-aspartyl dipeptidase Peptidase E (EC 3.4.13.21),-4.98
+BHI12,Ecoli_contig00019_9781_10689,Glutamate Aspartate periplasmic binding protein precursor GltI (TC 3.A.1.3.4),-2.22
+BHI12,Ecoli_contig00005_19069_20244,Mannose-6-phosphate isomerase (EC 5.3.1.8),-5.63
+BHI12,Ecoli_contig00014_71462_72325,ATP synthase gamma chain (EC 3.6.3.14),-4.08
+BHI12,Ecoli_contig00013_57359_57856,Ferritin-like protein 2,-3.19
+BHI12,Ecoli_contig00039_22976_23434,Methylglyoxal synthase (EC 4.2.3.3),-4.54
+BHI12,Ecoli_contig00037_14833_16074,Glucose-1-phosphatase (EC 3.1.3.10),-2.35
+BHI12,Ecoli_contig00027_49668_50606,Malate dehydrogenase (EC 1.1.1.37),0.29
+BHI12,Ecoli_contig00034_34516_35385,Succinyl-CoA ligase [ADP-forming] alpha chain (EC 6.2.1.5),-0.34
+BHI12,Ecoli_contig00067_5696_6628,D-3-phosphoglycerate dehydrogenase (EC 1.1.1.95),-6.61
+BHI12,Ecoli_contig00034_31767_32984,Dihydrolipoamide succinyltransferase component (E2) of 2-oxoglutarate dehydrogenase complex (EC 2.3.1.61),-2.12
+BHI12,Ecoli_contig00008_27657_28628,"PTS system, mannose-specific IIA component (EC 2.7.1.69) / PTS system, mannose-specific IIB component (EC 2.7.1.69)",-4.13
+BHI12,Ecoli_contig00019_77100_79340,"TonB-dependent receptor; Outer membrane receptor for ferric enterobactin and colicins B, D",-4.85
+BHI12,Ecoli_contig00021_70220_71932,Sulfite reductase [NADPH] hemoprotein beta-component (EC 1.8.1.2),-5.40
+BHI12,Ecoli_contig00006_87075_88697,Phosphoenolpyruvate carboxykinase [ATP] (EC 4.1.1.49),-3.71
+BHI12,Ecoli_contig00029_53358_54419,FIG00638561: hypothetical protein,-4.18
+BHI12,Ecoli_contig00019_61043_61900,Isochorismatase (EC 3.3.2.1) [enterobactin] siderophore / Apo-aryl carrier domain of EntB,-4.88
+BHI12,Ecoli_contig00014_42781_44196,Tryptophanase (EC 4.1.99.1),-4.52
+BHI12,Ecoli_contig00015_4418_6064,"Fumarate hydratase class I, anaerobic (EC 4.2.1.2)",-7.11
+BHI12,Ecoli_contig00004_43839_46118,NADP-dependent malic enzyme (EC 1.1.1.40),-3.56
+BHI12,Ecoli_contig00011_80639_81421,"Histidine ABC transporter, histidine-binding periplasmic protein precursor HisJ (TC 3.A.1.3.1)",-2.92
+BHI12,Ecoli_contig00017_40694_41848,S-adenosylmethionine synthetase (EC 2.5.1.6),-4.48
+BHI12,Ecoli_contig00006_43547_44650,Aspartate-semialdehyde dehydrogenase (EC 1.2.1.11),-7.62
+BHI12,Ecoli_contig00043_20205_21623,"Phosphoenolpyruvate-dihydroxyacetone phosphotransferase (EC 2.7.1.121), subunit DhaM; DHA-specific IIA component / DHA-specific phosphocarrier protein HPr / DHA-specific EI component",-7.34
+BHI12,Ecoli_contig00012_96344_97594,Isocitrate dehydrogenase [NADP] (EC 1.1.1.42),-0.74
+BHI12,Ecoli_contig00018_20606_21796,L-lactate dehydrogenase (EC 1.1.2.3),-4.67
+BHI12,Ecoli_contig00017_53682_54728,L-asparaginase (EC 3.5.1.1),-2.68
+BHI12,Ecoli_contig00067_8051_9199,Galactonate dehydratase (EC 4.2.1.6),-4.94
+BHI12,Ecoli_contig00020_44902_45978,"Glycerophosphoryl diester phosphodiesterase, periplasmic (EC 3.1.4.46)",-4.57
+BHI12,Ecoli_contig00004_18363_19154,3-oxoacyl-[acyl-carrier protein] reductase (EC 1.1.1.100),-4.58
+BHI12,Ecoli_contig00023_35313_36503,"Maltose/maltodextrin ABC transporter, substrate binding periplasmic protein MalE",-4.48
+BHI12,Ecoli_contig00070_666_1304,Outer membrane protein W precursor,-1.99
+BHI12,Ecoli_contig00005_20443_22089,"Fumarate hydratase class I, aerobic (EC 4.2.1.2)",-2.95

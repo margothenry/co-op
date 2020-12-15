@@ -1,0 +1,2 @@
+"paper","dataset_name","environment","generation","day","flask","selective_pressure","species","ploidy","strain_info","c_hyper","p_chisq","estimate","N_genes.notParallel","N_genes.parallel","parallel_genes","who_analyzed","func"
+"Monk2016","Monk2016","LB alternating with M9GBT (M9 + glucose + biotin + thiamine)",NA,"18",NA,"TAG amber codons replaced with TAA stop codons","Ecoli_K12","haploid",NA,53.231,0.005,0,1,1,"folA","TL","single_long"

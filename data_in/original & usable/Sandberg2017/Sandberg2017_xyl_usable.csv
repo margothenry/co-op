@@ -1,0 +1,51 @@
+gene,details,A1 F116 I1 R1,A2 F109 I1 R1,A3 F112 I1 R1,A4 F113 I1 R1
+crl,,1,1,1,1
+"insB1, insA",,,1,,1
+"ychE, oppA",intergenic (+254/‑485),,,,1
+"insA, uspC",intergenic (‑271/‑264),1,1,,1
+"gatC, gatC",intergenic (‑1/+1),1,1,1,1
+"glpR, glpR",intergenic (‑2/+1),1,1,1,1
+"gltP, yjcO",intergenic (+587/+55),1,1,1,1
+rho,R87L (CGC→CTC),,,1,
+"frmR, yaiO",intergenic (‑141/+47),,,,1
+mhpR,coding (568‑569/834 nt),,,,1
+rpoC,L770R (CTC→CGC),1,,,
+ybeX,D152Y (GAC→TAC),,,1,
+eutH,D116G (GAC→GGC),,,1,
+rpoA,G315S (GGC→AGC),,,1,
+"rph, rph",,1,1,1,1
+xylR,R121C (CGC→TGC),1,,,
+dnaG,G164A (GGC→GCC),,1,,
+rpoC,R1075L (CGT→CTT),,1,,
+rpoC,Q1367* (CAG→TAG),,1,,
+"fimE, fimA",intergenic (+297/‑185),,1,,
+rhsD,G672G (GGC→GGT),,,,1
+"fabI, ycjD",intergenic (‑157/+211),,,,1
+quuQ,I87M (ATC→ATG),,,,1
+ydhQ,E141G (GAG→GGG),,,,1
+ydiZ,T86T (ACG→ACA),,,,1
+"flhD, insB1",intergenic (‑243/+78),,,,1
+yeeJ,A2200T (GCC→ACC),,,,1
+yegX,coding (255/819 nt),,,,1
+cirA,P309S (CCG→TCG),,,,1
+upp,coding (439/627 nt),,,,1
+mutS,E186* (GAA→TAA),,,,1
+"queE, yqcG",intergenic (‑121/‑18),,,,1
+ygjK,N314D (AAC→GAC),,,,1
+kdsD,coding (842/987 nt),,,,1
+gspF,A21A (GCT→GCC),,,,1
+livM,coding (456/1278 nt),,,,1
+"nikR, rhsB",intergenic (+161/‑42),,,,1
+rhsB,T1036T (ACG→ACA),,,,1
+rhsB,R1041R (AGG→AGA),,,,1
+rhsB,S1042T (AGC→ACC),,,,1
+xylR,T9A (ACA→GCA),,,,1
+lldP,T46M (ACG→ATG),,,,1
+viaA,A225V (GCC→GTC),,,,1
+rho,G46D (GGC→GAC),,,,1
+yihL,L158L (CTT→CTC),,,,1
+yjcC,M148V (ATG→GTG),,,,1
+ytfT,coding (865/1026 nt),,,,1
+treC,coding (547/1656 nt),,,,1
+opgB,W652R (TGG→CGG),,,,1
+"yjjG, prfC",intergenic (+13/‑78),,,,1

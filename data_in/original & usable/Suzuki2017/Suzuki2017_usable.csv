@@ -1,0 +1,223 @@
+selective_pressure,population,gene,details,frequency
+AMK & CP,1,ybeX,M165L (ATG?TTG) ,1
+AMK & CP,1,pspF,Q117K (CAG?AAG) ,1
+AMK & CP,1,yojL,coding (902/1056 nt),1
+AMK & CP,2,sapB,A218V (GCG?GTG) ,1
+AMK & CP,2,rsxD,coding (254/1059 nt),1
+AMK & CP,2,yecE,A221E (GCG?GAG) ,1
+AMK & CP,3,yafS,G135E (GGA?GAA) ,1
+AMK & CP,3,rssB,coding (601/1014 nt),1
+AMK & CP,3,rssB,Y201F (TAT?TTT) ,1
+AMK & CP,4,yojL,coding (544?545/1056 nt),1
+AMK & CP,5,clpX,coding (72/1275 nt),1
+AMK & CP,5,ybeX,H164R (CAC?CGC) ,1
+AMK & CP,5,adhE,G465D (GGC?GAC) ,1
+AMK & CP,5,rpoS,coding (368?435/993 nt),1
+AMK & CP,6,rsxC,coding (1344?1346/2223 nt),1
+AMK & CP,6,yfaL,G495G (GGC?GGT) ,1
+AMK & CP,7,rne,coding (1854/3186 nt),1
+AMK & CP,7,rcsC,M919R (ATG?AGG) ,1
+AMK & ENX,1,acrR,R22C (CGT?TGT) ,1
+AMK & ENX,1,rsxA,coding (45?62/582 nt),1
+AMK & ENX,1,cyaA,coding (1067/2547 nt),1
+AMK & ENX,2,cyoB,coding (651/1992 nt),1
+AMK & ENX,2,yheM,coding (175/360 nt),1
+AMK & ENX,2,rfe,coding (828?833/1104 nt),1
+AMK & ENX,2,cyaA,coding (1492?1549/2547 nt),1
+AMK & ENX,3,acrR,Y49C (TAC?TGC) ,1
+AMK & ENX,3,ompF,coding (1068/1089 nt),1
+AMK & ENX,3,nuoM,coding (415?417/1530 nt),1
+AMK & ENX,3,ptsP,coding (1192?1193/2247 nt),1
+AMK & ENX,3,nudH,Y144C (TAC?TGC) ,1
+AMK & ENX,3,fusA,coding (1925?1930/2115 nt),1
+AMK & ENX,3,cyaA,coding (1442/2547 nt),1
+AMK & ENX,3,yjeP,coding (614?626/3324 nt),1
+AMK & ENX,4,cyoB,coding (1667/1992 nt),1
+AMK & ENX,4,rssB,coding (909?918/1014 nt),1
+AMK & ENX,4,yedP,coding (49?50/816 nt),1
+AMK & ENX,4,ptsP,L596R (CTG?CGG) ,1
+AMK & ENX,4,rpsS,coding (47?49/279 nt),1
+AMK & ENX,4,cpxA,R412G (CGT?GGT) ,1
+AMK & ENX,5,ftsZ,coding (58/1152 nt),1
+AMK & ENX,5,cyoD,coding (274?279/330 nt),1
+AMK & ENX,5,ybiU / ybiV,intergenic (?30/+122),1
+AMK & ENX,5,rssB,coding (901?905/1014 nt),1
+AMK & ENX,5,gshA,coding (968?969/1557 nt),1
+AMK & ENX,5,pnp,D513Y (GAT?TAT) ,1
+AMK & ENX,6,cyoB,coding (1262/1992 nt),1
+AMK & ENX,6,nuoG,coding (655?656/2733 nt),1
+AMK & ENX,6,yqcC,coding (41?42/330 nt),1
+AMK & ENX,6,fusA,A678S (GCA?TCA) ,1
+AMK & ENX,6,fusA,A592V (GCG?GTG) ,1
+AMK & ENX,6,pitA,coding (1392/1500 nt),1
+AMK & ENX,6,rfaB,coding (812/1110 nt),1
+AMK & ENX,6,rfe,coding (778/1104 nt),1
+AMK & ENX,7,cyoE,A261T (GCG?ACG) ,1
+AMK & ENX,7,glnV,,1
+AMK & ENX,7,glnU,,1
+AMK & ENX,7,ompF,coding (471?483/1089 nt),1
+AMK & ENX,7,pntA-ydgH,,1
+AMK & ENX,7,yhfA / crp,intergenic (?124/?166),1
+AMK & ENX,7,cpxR,E156K (GAG?AAG) ,1
+CP & ENX,1,acrR,coding (47?56/648 nt),1
+CP & ENX,1,ompF,coding (704/1089 nt),1
+CP & ENX,1,yddV,coding (931?934/1044 nt),1
+CP & ENX,1,ribC / mdtK,intergenic (?162/?47),1
+CP & ENX,1,atpA,coding (1374/1542 nt),1
+CP & ENX,1,murB,coding (432?434/1029 nt),1
+CP & ENX,1,yjjK,coding (1349?1358/1668 nt),1
+CP & ENX,2,rrlH / rrfH,intergenic (+13/?81),1
+CP & ENX,2,acrR,coding (567/648 nt),1
+CP & ENX,2,mrdA,G324W (GGG?TGG) ,1
+CP & ENX,2,valZ-lysQ,,1
+CP & ENX,2,ompF,coding (424/1089 nt),1
+CP & ENX,2,rssB,coding (903/1014 nt),1
+CP & ENX,2,rsxC,,1
+CP & ENX,2,atpD,coding (830?839/1383 nt),1
+CP & ENX,2,glyX-glyY,,1
+CP & ENX,3,mltD,coding (1216?1217/1359 nt),1
+CP & ENX,3,ompF,coding (400?421/1089 nt),1
+CP & ENX,3,rne,coding (1973/3186 nt),1
+CP & ENX,3,atpF,coding (432?433/471 nt),1
+CP & ENX,4,acrR-kefA,,1
+CP & ENX,4,ompF,coding (563?564/1089 nt),1
+CP & ENX,4,marR,duplication,1
+CP & ENX,4,ygaZ,coding (158/738 nt),1
+CP & ENX,4,atpF,coding (293/471 nt),1
+CP & ENX,4,ppc / argE,intergenic (?497/+101),1
+CP & ENX,4,rpoB,R1301S (CGT?AGT) ,1
+CP & ENX,4,glyX-glyY,,1
+CP & ENX,5,ompF,coding (472?488/1089 nt),1
+CP & ENX,5,norR,Q122K (CAA?AAA) ,1
+CP & ENX,5,atpB,coding (461?552/816 nt),1
+CP & ENX,5,glyX-glyY,,1
+CP & ENX,6,ybgH,G351A (GGC?GCC) ,1
+CP & ENX,6,aroA,E378K (GAG?AAG) ,1
+CP & ENX,6,ompF,coding (991/1089 nt),1
+CP & ENX,6,plsX,A149D (GCC?GAC) ,1
+CP & ENX,6,rsxC,G68D (GGC?GAC) ,1
+CP & ENX,6,rsxC,G114S (GGT?AGT) ,1
+CP & ENX,6,rffH,L195Q (CTG?CAG) ,1
+CP & ENX,7,acrR-kefA,,1
+CP & ENX,7,ompF,coding (192/1089 nt),1
+CP & ENX,7,marR,coding (359/435 nt),1
+CP & ENX,7,ygaZ,coding (240?253/738 nt),1
+CP & ENX,7,ygaH,coding (142?154/336 nt),1
+CP & ENX,7,atpD,coding (844/1383 nt),1
+CP & ENX,7,glyX-glyY,,1
+AMK,1,cyoE,T220M (ACG?ATG) ,1
+AMK,1,ybhQ,L125* (TTA?TGA) ,1
+AMK,1,nuoL,coding (981/1842 nt),1
+AMK,1,fusA,I158N (ATC?AAC) ,1
+AMK,1,arcA,L69Q (CTG?CAG) ,1
+AMK,2,cyoE,coding (178/891 nt),1
+AMK,2,nuoI,coding (338?351/543 nt),1
+AMK,2,rplF,R95L (CGT?CTT) ,1
+AMK,2,crp,R181S (CGT?AGT) ,1
+AMK,2,dgoT,P10P (CCG?CCA) ,1
+AMK,2,cpxA,R234S (CGC?AGC) ,1
+AMK,3,cyoB,coding (839/1992 nt),1
+AMK,3,sapA,A456T (GCA?ACA) ,1
+AMK,3,ydiO,T250T (ACC?ACT) ,1
+AMK,3,rpsO,L3L (CTA?TTA) ,1
+AMK,3,atpG,Y206D (TAC?GAC) ,1
+AMK,4,serX,,1
+AMK,4,yfgB,E59* (GAG?TAG) ,1
+AMK,4,yjbA,F34C (TTC?TGC) ,1
+AMK,5,metQ,coding (436?438/816 nt),1
+AMK,5,cyoB,G395V (GGG?GTG) ,1
+AMK,5,nuoG,coding (1915/2733 nt),1
+AMK,5,clpB,L566R (CTG?CGG) ,1
+AMK,5,ptsP,coding (1226/2247 nt),1
+AMK,5,cyaA,duplication,1
+AMK,6,metQ,coding (436?438/816 nt),1
+AMK,6,yafS,Q76* (CAG?TAG) ,1
+AMK,6,yebT-yebU,,1
+AMK,6,nuoM,coding (415/1530 nt),1
+AMK,6,pta,P624R (CCG?CGG) ,1
+AMK,6,tktB,A440T (GCC?ACC) ,1
+AMK,7,yafT / yafU,intergenic (+434/+192),1
+AMK,7,cyoD,A80E (GCG?GAG) ,1
+AMK,7,mrdB,G170C (GGT?TGT) ,1
+AMK,7,htpX,coding (93?96/882 nt),1
+AMK,7,pyrG,A414T (GCG?ACG) ,1
+AMK,7,arcB,coding (1260?1265/2337 nt),1
+AMK,7,rplB,G138D (GGT?GAT) ,1
+AMK,7,yjjK,D469N (GAC?AAC) ,1
+CP,1,yajG / bolA,intergenic (?249/?56),1
+CP,1,acrB,V127G (GTG?GGG) ,1
+CP,1,ompF,Y179* (TAC?TAA) ,1
+CP,2,guaA,coding (567?572/1578 nt),1
+CP,2,gyrB,D6Y (GAC?TAC) ,1
+CP,2,atpB,P72L (CCA?CTA) ,1
+CP,3,rne,K556* (AAA?TAA) ,1
+CP,3,nudE,E74* (GAA?TAA) ,1
+CP,4,acrB,Q125K (CAA?AAA) ,1
+CP,4,rssB,coding (363/1014 nt),1
+CP,4,atpA,E7* (GAA?TAA) ,1
+CP,5,murD,coding (826?834/1317 nt),1
+CP,5,marC / marR,intergenic (?192/?1),1
+CP,5,ygaX / ygaZ,intergenic (+952/?83),1
+CP,5,rrlA,noncoding (1335/2905 nt),1
+CP,6,crr,G103V (GGC?GTC) ,1
+CP,6,atpF,coding (375/471 nt),1
+CP,6,rffH,T18M (ACG?ATG) ,1
+CP,7,ompF,coding (346/1089 nt),1
+CP,7,rsmB,W60* (TGG?TGA) ,1
+CP,7,atpE,coding (1/240 nt),1
+ENX,1,clpX,coding (894/1275 nt),1
+ENX,1,lysY / lysZ,intergenic (+1/?146),1
+ENX,1,lysY / lysZ,intergenic (+5/?142),1
+ENX,1,helD,coding (1299/2055 nt),1
+ENX,1,ygbE,coding (287/324 nt),1
+ENX,1,yhiJ,N249S (AAC?AGC) ,1
+ENX,1,yicO / ade,intergenic (?66/?109),1
+ENX,1,gyrB,R789C (CGT?TGT) ,1
+ENX,1,pepA,coding (311?321/1512 nt),1
+ENX,2,rssB,coding (911/1014 nt),1
+ENX,2,ynfC,coding (58?76/711 nt),1
+ENX,2,dcm,coding (588?597/1419 nt),1
+ENX,2,iscR,coding (486/489 nt),1
+ENX,2,atpC,coding (392/420 nt),1
+ENX,2,atpD,T3T (ACT?ACC) ,1
+ENX,2,soxR,L112Q (CTG?CAG) ,1
+ENX,2,glyX-glyY,,1
+ENX,3,acrR,coding (292/648 nt),1
+ENX,3,ycbC,coding (254?257/780 nt),1
+ENX,3,lsrF-ydgH,,1
+ENX,3,yejB,coding (644/1095 nt),1
+ENX,3,rrfD / rrlD,intergenic (?67/+26),1
+ENX,3,rrfD / rrlD,intergenic (?80/+13),1
+ENX,3,trmE,coding (867/1365 nt),1
+ENX,3,trkH,coding (480?494/1452 nt),1
+ENX,3,rrlE / rrfE,intergenic (+13/?81),1
+ENX,3,rrlE / rrfE,intergenic (+27/?67),1
+ENX,4,clpA,coding (1432/2277 nt),1
+ENX,4,sulA-yccR,,1
+ENX,4,marR,coding (258/435 nt),1
+ENX,4,mprA,coding (95?101/531 nt),1
+ENX,4,plsC,duplication,1
+ENX,4,envZ,A51V (GCG?GTG) ,1
+ENX,4,atpC,coding (399?413/420 nt),1
+ENX,4,rffE,coding (727?735/1131 nt),1
+ENX,4,bipA,coding (891?899/1824 nt),1
+ENX,5,secA,coding (2573/2706 nt),1
+ENX,5,ybeA,coding (261?268/468 nt),1
+ENX,5,rssB,coding (911/1014 nt),1
+ENX,5,mipA,coding (723?731/747 nt),1
+ENX,5,rfaC,coding (398/960 nt),1
+ENX,5,gidA,coding (291?314/1890 nt),1
+ENX,5,glyX-glyY,,1
+ENX,6,clpX,C37Y (TGC?TAC) ,1
+ENX,6,yfgA,coding (971/1014 nt),1
+ENX,6,prmA / dusB,intergenic (+291/?38),1
+ENX,6,nusG,P124S (CCG?TCG) ,1
+ENX,7,dnaK,coding (1706/1917 nt),1
+ENX,7,rssA-rssB,,1
+ENX,7,yciH,K78I (AAA?ATA) ,1
+ENX,7,lpp,coding (131?133/237 nt),1
+ENX,7,lpp,coding (135/237 nt),1
+ENX,7,gyrA,P608A (CCG?GCG) ,1
+ENX,7,bcsE,E125D (GAG?GAT) ,1
+ENX,7,gidA,coding (1218?1221/1890 nt),1
+ENX,7,rob,R156S (CGC?AGC) ,1

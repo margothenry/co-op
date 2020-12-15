@@ -1,0 +1,18 @@
+population,gene,details,frequency
+BW4218,insC-isrC,intergenic,1
+BW4218,rpoS leader,intergenic,1
+BW4218,valS,Valyl-tRNA synthetase,1
+BW4223,hfq,RNA-binding protein,1
+BW4223,lysZ,tRNA (lys),1
+BW4227,insC-isrC,intergenic,1
+BW4227,rpoS  ,RNA polymerase ?S,1
+BW4227,valS,Valyl-tRNA synthetase,1
+BW4236,insC-isrC,intergenic,1
+BW4236,spoT,Bifunctional (p)ppGpp synthetase II,1
+BW4236,valS,Valyl-tRNA synthetase,1
+BW4239,menD,Bifunctional 2-oxoglutarate decarboxylase,1
+BW4239,gabD,Succinate-semialdehyde dehydrogenase I,1
+BW4239,rpoS,RNA polymerase ?S,1
+BW4239,trkH,Potassium transporter,1
+BW4239,purH-rrsE,intergenic,1
+BW4239,trkG,Potassium transporter subunit,1
