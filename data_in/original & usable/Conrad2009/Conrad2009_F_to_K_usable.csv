@@ -1,0 +1,33 @@
+population,gene,details,frequency
+LactF,rph-pyrE,RNase PH/orotate phosphoribosyltransferase,1
+LactF,kdtA,KDO transferase,1
+LactF,rpoC,RNA polymerase,1
+LactF,argS,Arginyl-tRNA synthetase,1
+LactG,rph-pyrE,RNase PH/orotate phosphoribosyltransferase,1
+LactG,trpB,Tryptophan synthase,1
+LactG,nadB,NAD biosynthesis,1
+LactG,rpoB,RNA polymerase,1
+LactG,rpoS,?S,1
+LactG,kdtA,KDO transferase,1
+LactG,osmF,ABC transporter involved in osmoprotection,1
+LactG,proQ,Predicted structural transport element,1
+LactH,rph-pyrE,RNase PH/orotate phosphoribosyltransferase,1
+LactH,pdxB,Erythronate-4-phosphate dehydrogenase,1
+LactH,ilvG_1,Acetolactate synthase II (pseudogene),1
+LactH,rpoB,RNA polymerase,1
+LactH,kdtA,KDO transferase,1
+LactH,wcaA,Glycosyl transferase,1
+LactI,rph-pyrE,RNase PH/orotate phosphoribosyltransferase,1
+LactI,relA,ppGpp synthetase,1
+LactI,proQ,Predicted structural transport element,1
+LactJ,rph-pyrE,RNase PH/orotate phosphoribosyltransferase,1
+LactJ,mrdA,"Peptidoglycan synthetase, PBP2",1
+LactJ,rpsA,30S ribosomal subunit,1
+LactJ,kgtP,Á-ketoglutarate MFS transporter,1
+LactJ,kgtP,,1
+LactK,ppsA,Phosphoenolpyruvate synthase,1
+LactK,rpoC,RNA polymerase,1
+LactK,ryhA,Small RNA that interacts with Hfq,1
+LactK,treA,Trehalase,1
+LactK,secE,Sec protein secretion complex,1
+LactK,secF,Sec protein secretion complex,1

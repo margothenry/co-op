@@ -1,0 +1,30 @@
+ALE1,ALE2,ALE3,ALE4,ALE5,ALE6,ALE7,ALE8,ALE9,ALE10,count,details,gene
+0,1,0,0,0,1,0,0,0,0,2,intergenic,pyrE / rph
+0,0,0,0,0,1,0,0,0,0,1,N48H (AAC?CAC) ,hfq
+0,1,0,0,1,0,0,0,0,0,2,25 gene deletion,prophage
+0,0,0,0,1,0,0,0,0,0,1,coding (2443?2444/2598 nt),acnB
+0,0,0,0,1,0,0,0,0,0,1,R296C (CGT?TGT) ,fruK
+0,0,0,0,1,0,0,0,0,0,1,intergenic,rrlE/rrfE
+0,0,0,0,1,0,0,0,0,0,1,intergenic,rrlE/ rrfE
+0,1,1,0,0,0,1,1,1,0,4,intergenic,sthA/fabR
+0,0,0,0,0,0,0,1,1,0,2,G73C (GGC?TGC) ,nagC
+1,0,0,0,0,0,0,1,1,0,2,G20S (GGC?AGC) ,sthA
+0,0,1,1,0,0,0,0,0,0,1,R205H (CGT?CAT) ,cpxR
+0,0,0,0,0,0,0,1,0,0,1,Q392P (CAG?CCG) ,cyaA
+1,0,0,0,0,0,0,0,0,0,1,P56L (CCT?CTT) ,fabZ
+0,0,0,0,0,0,0,1,0,0,1,coding (215?229/297 nt),fis
+0,0,0,0,0,0,0,0,0,1,1,L220R (CTC?CGC) ,ispU
+0,0,0,0,0,0,1,0,0,0,1,A88E (GCG?GAG) ,mrdB
+0,1,0,0,0,0,1,0,0,0,1,coding (677?687/1533 nt),pntA
+0,0,0,1,0,0,0,0,0,1,1,coding (682/1389 nt),pntB
+1,0,0,0,0,0,0,0,0,0,1,I81S (ATC?AGC) ,rep
+0,0,1,0,0,1,0,0,0,1,1,T285I (ACC?ATC) ,rpoA
+1,0,0,0,0,0,0,0,1,0,1,N677S (AAC?AGC) ,rpoB
+1,0,0,0,0,0,0,0,0,0,1,R1174S (CGT?AGT) ,rpoC
+0,1,1,1,1,1,1,0,0,0,4,coding (841/993 nt),rpoS
+0,0,0,1,1,0,0,0,0,0,1,intergenic,trxB/ lrp
+0,0,0,0,0,0,0,1,0,0,1,coding (960/1824 nt),typA
+0,0,0,1,0,0,0,0,0,0,1,coding (297/999 nt),yfeH
+0,0,1,0,0,0,0,0,0,0,1,L227R (CTG?CGG) ,yiiD
+0,0,0,0,0,0,0,0,0,1,1,coding (64/816 nt),ysgA
+0,0,0,0,0,0,0,0,1,0,1,A22A (GCG?GCA) ,zwf

@@ -1,0 +1,40 @@
+"Population	",Gene,Details,Frequency
+"E2	",FZO1/DTR1,intergenic,1
+"E2	",GID7,Coding sequence,1
+"E2	",YCR101/2,intergenic,1
+"E2		",MAK21,Coding sequence,1
+"E2		",FOB1/ALT2,intergenic,1
+"E2		",MCM6,Coding sequence,1
+"E2			",tG(GCC)G1,tRNA,1
+"E2		",YAP3/tRNA-Val,intergenic,1
+"E2		",YHR112C,Coding sequence,1
+"E2		",NVJ1,Coding sequence,1
+"E2	",CYR1,Coding sequence,1
+"E2			",RPS29A,5' UTR,1
+"E2		",YMR209C,Coding sequence,1
+"E2		",AVO1,Coding sequence,1
+"E2		",SGO1,Coding sequence,1
+"E2		",AEP3,Coding sequence,1
+"E2		",AEP3,Coding sequence,1
+"E2		",AEP3,Coding sequence,1
+"E3		",RAD61,Coding sequence,1
+"E3		",SBE2,Coding sequence,1
+"E3		",PES4,Coding sequence,1
+"E3	",MET10,Coding sequence,1
+"E3		",GPA1,Coding sequence,1
+"E3		",RTT107,Coding sequence,1
+"E3	","YIL029C	",Coding sequence,1
+"E3		",CTK3/BUL2,intergenic,1
+"E3	",ORC5,Coding sequence,1
+"E3		",ALR1,Coding sequence,1
+"E3		",AEP3,Coding sequence,1
+"E5		",ZIP2,Coding sequence,1
+"E5		",MDS3,Coding sequence,1
+"E5		",STR3,Coding sequence,1
+"E5		",YHRCdelta10,LTR,1
+"E5		",MOB1,Intron,1
+"E5		",TOR1,Coding sequence,1
+"E5		",SIR1/FLO10,intergenic,1
+"E5		",YLR407W,Coding sequence,1
+"E5		",GAL11,Coding sequence,1
+"E5		",ALG8,Coding sequence,1

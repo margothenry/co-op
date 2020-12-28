@@ -1,4 +1,0 @@
-paper,environment,generations,c_hyper,p_chisq,estimate,N_genes.notParallel,N_genes.parallel,parallel_genes
-Sandberg2016, Davids minimal medium,Flask 23,16.152,0.005,0.002,3,3,"pyrE/rph, rhsE, rpoB"
-Sandberg2016, Davids minimal medium,Flask 58,37.758,0.005,0.002,5,2,"pyrE/rph, rpoB"
-Sandberg2016, Davids minimal medium,Flask 133,29.202,0.005,0.005,12,4,"hns/tdk, pyrE/rph, rhsE, rpoB"

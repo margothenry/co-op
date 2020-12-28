@@ -1,0 +1,74 @@
+Population,Notes,Details,Gene,Distance to gene,Frequency
+0,,non,CDC40,,1
+0,,syn,MYO4,,1
+0,,stop,UBP14,,1
+0,,stop,ZIP2,,1
+1,,non,REV3,,1
+1,,non,TMA64,,1
+1,,non,HSP104,,1
+1,,syn,USO1,,1
+1,,non,IRA2,,1
+1,,non,YLR278C,,1
+1,,syn,SYF1,,1
+1,,intergenic,none,,1
+1,,prom,HXT13,178,1
+1,,prom,YFR016C,332,1
+1,,non,ENT3,,1
+1,,syn,UME1,,1
+1,,non,SUP35,,1
+1,,non,YLR072W,,1
+1,,non,YRM1,,1
+6,,stop,WHI2,,1
+6,,non,ATG8,,1
+6,,prom,TRP1,119,1
+6,,non,YMR1,,1
+6,,non,OSW5,,1
+6,,prom,MKK2,121,1
+6,,non,YDR222W,,1
+6,,intergenic,none,,1
+6,,non,AMD1,,1
+6,not used,non,CCW12,,1
+6,not used,intergenic,none,,1
+6,not used,syn,SET3,,1
+6,not used,prom,YSH1,321,1
+8,,prom,GPI19,183,1
+8,,non,MOT3,,1
+8,,intergenic,none,,1
+8,,prom,DNA2,24,1
+8,,prom,YMR244C-A,305,1
+8,,prom,PRM8,132,1
+8,,syn,SKO1,,1
+8,,non,RPO41,,1
+8,,syn,PRI2,,1
+8,,non,IRA2,,1
+8,,prom,RAD61,132,1
+8,,prom,SPP1,190,1
+8,,prom,HEM14,40,1
+8,,intergenic,none,,1
+8,,intron,RPS14B,,1
+8,,intergenic,none,,1
+8,,prom,TSA2,151,1
+8,,prom,SNO1,161,1
+8,,prom,FUI1,125,1
+8,,complex-non,TRA1,,1
+8,,complex-non,TRA1,,1
+8,,non,YMR310C,,1
+8,,non,MSP1,,1
+8,,non,TCB2,,1
+8,,syn,SMC2,,1
+8,,syn,PXL1,,1
+8,,prom,YOR338W,88,1
+11,not used,non,RPA190,,1
+11,not used,syn,RPL12A,,1
+11,not used,syn,ALG9,,1
+11,not used,non,IRA2,,1
+11,not used,non,MNN10,,1
+11,not used,syn,NAN1,,1
+11,not used,non,BAT2,,1
+11,not used,syn,CDC39,,1
+11,not used,syn,FUN12,,1
+11,not used,prom,HAP5,119,1
+11,not used,syn,WBP1,,1
+11,not used,prom,NST1,157,1
+11,not used,syn,NOB1,,1
+11,not used,non,RRP17,,1

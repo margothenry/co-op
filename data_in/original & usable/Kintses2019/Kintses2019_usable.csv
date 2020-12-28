@@ -1,0 +1,21 @@
+population,gene,details,frequency
+HBD3_10 ,basR ,Response regulator in two component regulatory system with BasS ,1
+HBD3_10 ,mlaE ,ABC transporter maintaining OM lipid asymmetry ,1
+HBD3_10 ,rpoC ,"RNA polymerase, beta prime subunit ",1
+HBD3_10 ,waaY,Lipopolysaccharide core biosynthesis protein ,1
+HBD3_3,[insI1]–insA ,intergenic,1
+HBD3_3,mlaD ,ABC transporter maintaining OM lipid asymmetry ,1
+HBD3_3 ,basS,Sensory histidine kinase in two component regulatory system with BasR,1
+HBD3_3 ,nirB ,"Nitrite reductase, large subunit, NAD(P)H binding ",1
+HBD3_3 ,tnaB ,Tryptophan transporter of low affinity ,1
+HBD3_3 ,waaY,Lipopolysaccharide core biosynthesis protein ,1
+HBD3_6,lptG ,Lipopolysaccharide export ABC permease of the LptBFGC export complex ,1
+HBD3_6 ,basR ,Response regulator in two component regulatory system with BasS,1
+HBD3_6 ,tldD ,Putative peptidase ,1
+HBD3_6 ,yneO ? / ? l srK,"Pseudogene, AidA homolog/autoinducer2 (AI2) kinase",1
+HBD3_8,[insI1]–insA ,intergenic,1
+HBD3_8,mlaB ,ABC transporter maintaining OM lipid asymmetry ,1
+HBD3_8 ,basR ,Response regulator in two component regulatory system with BasS,1
+HBD3_8 ,cvrA ,Putative cation/proton antiporter ,1
+HBD3_8 ,wcaE ,Putative glycosyl transferase ,1
+HBD3_8 ,yciM ,Envelope integrity maintenance protein ,1

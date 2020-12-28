@@ -1,0 +1,56 @@
+selective_pressure,population,gene,details,frequency
+RDM20,i,sdaC,+9 insert (IS1),1
+RDM20,i,yqiG,A?>?G,1
+RDM20,i,envZ,M58R,1
+RDM20,ii,ydeT,A?>?C,1
+RDM20,ii,waaO,+9 insert (IS1),1
+RDM20,ii,mtdL,A324T,1
+RDM20,ii,cyaA,?78,1
+RDM20,ii,dnaA/rpmH,?6,1
+RDM20,iii,opgG,Q314tag,1
+RDM20,iii,clsA,+9 (IS1),1
+RDM20,iii,sdaC,A383V,1
+RDM20,iii,yghG,G63V,1
+RDM20,iii,envZ,F107C,1
+RDM20,iii,ykgM/ykgR,+9 (IS1),1
+RDM19,i,opgG,+9 insert (IS1),1
+RDM19,i,ycjO,?87,1
+RDM19,i,waaO,+4 insert (IS5),1
+RDM19,i,ycaA,?1,1
+RDM19,ii,yahF,K208R,1
+RDM19,ii,dosP,I282I,1
+RDM19,ii,uspC-yecH,?10333 (IS1),1
+RDM19,ii,lhgO,R346W,1
+RDM19,ii,yqeK,L30(tga),1
+RDM19,ii,crp,F137L,1
+RDM19,ii,tauA/tauB,G?>?T,1
+RDM19,iii,hofC,S27R,1
+RDM19,iii,uspC-yecA,?12537 (IS1),1
+RDM19,iii,ppx,?1,1
+RDM19,iii,rrlD,C?>?T,1
+RDM19,iii,envZ,G85V,1
+RDM19,iii,dnaA,?54,1
+RDM19,iii,cyaA,R160L,1
+RDM19,iii,rrlD,C?>?T,1
+RDM19,iii,yihU/yihV,G?>?T,1
+RDM13,i,flgJ,+9 insert (IS1),1
+RDM13,i,uspC-tyrP,?10976,1
+RDM13,i,rpoD,P97L,1
+RDM13,i,mtr,?6,1
+RDM13,i,waaP,4,1
+RDM13,i,cyaA,D231V,1
+RDM13,ii,pykF,I264T,1
+RDM13,ii,uspC-tyrP,?11298 (IS1),1
+RDM13,ii,sanA,+9 (IS1),1
+RDM13,ii,mtr,?6,1
+RDM13,ii,ompR,M57L,1
+RDM13,ii,yibA,+9 (IS1),1
+RDM13,ii,waaQ/waaA,C-T,1
+RDM13,iii,yaiT,A?>?C,1
+RDM13,iii,ompF,+9 (IS1),1
+RDM13,iii,cysB,?1,1
+RDM13,iii,uspC-tyrP,?11018 (IS1),1
+RDM13,iii,mtr,?6,1
+RDM13,iii,glpD,+9 (IS1),1
+RDM13,iii,cyaA,P301L,1
+RDM13,iii,yiiQ,K74taa,1

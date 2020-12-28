@@ -1,0 +1,26 @@
+gene,details,A1 F56 I1 R1,A2 F57 I1 R1,A3 F53 I1 R1,A4 F55 I1 R1
+crl,,1,1,1,1
+"insA, uspC",intergenic,,1,,
+"gatC, gatC",intergenic,1,1,1,1
+"glpR, glpR",intergenic,1,1,1,1
+"gltP, yjcO",intergenic,1,1,1,1
+"rph, rph",,,1,,
+yeaR,coding (115‑120/360 nt),1,,,
+fliK,V359I (GTC→ATC),1,,1,1
+glf,D108E (GAT→GAA),1,,,
+"ebgR, ebgA",intergenic,1,,,
+tnaA,coding (1346‑1349/1416 nt),1,,1,1
+rho,R102C (CGC→TGC),1,,,
+fimA,coding (494‑499/549 nt),1,,,
+rho,S84I (AGC→ATC),,,1,1
+icd,H366H (CAC→CAT),,,1,
+icd,T370T (ACC→ACT),,,1,
+icd,L375M (TTA→CTG),,,1,
+icd,L375M (TTA→CTG),,,1,
+ptsP,E564* (GAA→TAA),,,1,
+ybjT,G349G (GGC→GGT),,1,,
+flgD,E71* (GAA→TAA),,1,,
+"cspC, yobF",intergenic,,1,,
+yegJ,coding (39/462 nt),,1,,
+gcvT,W124* (TGG→TAG),,1,,
+rsmC,E298* (GAG→TAG),,1,,

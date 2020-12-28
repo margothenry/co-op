@@ -1,0 +1,2 @@
+"paper","dataset_name","environment","generation","day","flask","selective_pressure","species","ploidy","strain_info","c_hyper","p_chisq","estimate","N_genes.notParallel","N_genes.parallel","parallel_genes","who_analyzed","func"
+"Kryazhimskiy2014","Kryazhimskiy2014_S121","YPD","500",NA,NA,"YPD","Sac","haploid","Founder S121",0.341,0.01,0.206,74,2,"HMG1, WHI2","TL","single_long"

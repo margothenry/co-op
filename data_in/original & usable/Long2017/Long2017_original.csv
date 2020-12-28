@@ -1,0 +1,60 @@
+position,mutation,1-0_start,ALE-1,ALE-2,ALE-3,ALE-4,ALE-5,ALE-6,ALE-7,ALE-8,ALE-9,ALE-10,count,annotation,gene,gene alt.,description
+"3,813,833",?1 bp,,,X,,,,X,,,,,2,intergenic (?42/+53),pyrE ? / ? rph,,orotate phosphoribosyltransferase/defective ribonuclease PH
+"4,545,327",?2 :: IS186 (+) +7 bp :: ?1,,,,,,,X,,,,,1,coding (2209?2215/2637 nt),fimD ?,,"outer membrane usher protein, type 1 fimbrial synthesis"
+"4,398,452",A?C,,,,,,,X,,,,,1,N48H (AAC?CAC) ,hfq ?,,"global sRNA chaperone; HF?I, host factor for RNA phage Q beta replication"
+"3,438,093",?20 bp,,,,,,,X,,,,,1,coding (940?959/990 nt),rpoA ?,,"RNA polymerase, alpha subunit"
+"2,864,977",(TTGCTCT)1?2,,,,,,,X,,,,,1,coding (597/993 nt),rpoS ?,,"RNA polymerase, sigma S (sigma 38) factor"
+"2,534,334",?1 :: IS186 (+) +6 bp :: ?1,,,X,,X,X,,X,,,X,5,coding (479?484/510 nt),crr ?,,glucose?specific enzyme IIA component of PTS
+"1,195,479",25 gene deletion,,,X,,,X,,,,,,2,25 gene deletion,e14 prophage,,e14 prophage
+"1,195,443",C?T,,,X,,,X,,,,,,2,H366H (CAC?CAT) ,icd ?,,"e14 prophage; isocitrate dehydrogenase, specific for NADP+"
+"1,195,455",C?T,,,X,,,X,,,,,,2,T370T (ACC?ACT) ,icd ?,,"e14 prophage; isocitrate dehydrogenase, specific for NADP+"
+"1,195,468",T?C,,,X,,,X,,,,,,2,L375L (TTA?CTA) ,icd ?,,"e14 prophage; isocitrate dehydrogenase, specific for NADP+"
+"1,195,470",A?G,,,X,,,X,,,,,,2,L375L (TTA?TTG) ,icd ?,,"e14 prophage; isocitrate dehydrogenase, specific for NADP+"
+"134,057",2 bp?CT,,,,,,X,,,,,,1,coding (2443?2444/2598 nt),acnB ?,,bifunctional aconitate hydratase 2/2?methylisocitrate dehydratase
+"2,259,502",G?A,,,,,,X,,,,,,1,R296C (CGT?TGT) ,fruK ?,,fructose?1?phosphate kinase
+"2,864,724",?1 bp,,,,,,X,,,,,,1,coding (850/993 nt),rpoS ?,,"RNA polymerase, sigma S (sigma 38) factor"
+"4,210,982",G?C,,,,,,X,,,,,,1,intergenic (+13/?81),rrlE ? / ? rrfE,,23S ribosomal RNA of rrnE operon/5S ribosomal RNA of rrnE operon
+"4,210,996",?1 bp,,,,,,X,,,,,,1,intergenic (+27/?67),rrlE ? / ? rrfE,,23S ribosomal RNA of rrnE operon/5S ribosomal RNA of rrnE operon
+"931,808",G?A,,,,,,X,,,,,,1,intergenic (?535/?10),trxB ? / ? lrp,,"thioredoxin reductase, FAD/NAD(P)?binding/DNA?binding transcriptional dual regulator, leucine?binding"
+"4,158,877",C?T,,,X,,,,,X,X,X,,4,intergenic (?64/?270),sthA ? / ? fabR,udhA / fabR,"pyridine nucleotide transhydrogenase, soluble/DNA?binding transcriptional repressor"
+"700,601",C?A,,,,,,,,,X,X,,2,G73C (GGC?TGC) ,nagC ?,,"DNA?binding transcriptional dual regulator, repressor of N?acetylglucosamine"
+"4,158,756",C?T,,,,,,,,,X,X,,2,G20S (GGC?AGC) ,sthA ?,udhA,"pyridine nucleotide transhydrogenase, soluble"
+"4,103,080",C?T,,,,X,,,,,,,,1,R205H (CGT?CAT) ,cpxR ?,,DNA?binding response regulator in two?component regulatory system with CpxA
+"4,103,106",?4 bp,,,,,X,,,,,,,1,coding (585?588/699 nt),cpxR ?,,DNA?binding response regulator in two?component regulatory system with CpxA
+"3,990,350",A?C,,,,,,,,,X,,,1,Q392P (CAG?CCG) ,cyaA ?,,adenylate cyclase
+"202,267",C?T,,X,,,,,,,,,,1,P56L (CCT?CTT) ,fabZ ?,,(3R)?hydroxymyristol acyl carrier protein dehydratase
+"3,409,507",?15 bp,,,,,,,,,X,,,1,coding (215?229/297 nt),fis ?,,global DNA?binding transcriptional dual regulator
+"195,561",T?G,,,,,,,,,,,X,1,L220R (CTC?CGC) ,ispU ?,,undecaprenyl pyrophosphate synthase
+"2,373,850",IS186 (–) +4 bp,,,,,,,,,,X,,1,coding (132?135/963 nt),menC ?,,O?succinylbenzoyl?CoA synthase
+"665,274",G?T,,,,,,,,X,,,,1,A88E (GCG?GAG) ,mrdB ?,rodA,cell wall shape?determining protein
+"1,675,241",?11 bp,,,,,,,,X,,,,1,coding (677?687/1533 nt),pntA ?,,"pyridine nucleotide transhydrogenase, alpha subunit"
+"1,675,731",G?T,,,X,,,,,,,,,1,S66* (TCA?TAA) ,pntA ?,,"pyridine nucleotide transhydrogenase, alpha subunit"
+"1,676,002",IS5 (+) +4 bp,,X,,,,,,,,,,1,intergenic (?75/?446),pntA ? / ? ydgH,,"pyridine nucleotide transhydrogenase, alpha subunit/hypothetical protein"
+"1,673,703",(AGCCGC)2?3,,,,,,,,,,,X,1,coding (682/1389 nt),pntB ?,,"pyridine nucleotide transhydrogenase, beta subunit"
+"1,673,955",?1 bp,,,,,X,,,,,,,1,coding (430/1389 nt),pntB ?,,"pyridine nucleotide transhydrogenase, beta subunit"
+"3,958,941",T?G,,X,,,,,,,,,,1,I81S (ATC?AGC) ,rep ?,,DNA helicase and single?stranded DNA?dependent ATPase
+"3,438,198",G?A,,,,X,,,,,,,,1,T285I (ACC?ATC) ,rpoA ?,,"RNA polymerase, alpha subunit"
+"3,438,247",A?G,,,,,,,,,,,X,1,C269R (TGC?CGC) ,rpoA ?,,"RNA polymerase, alpha subunit"
+"4,181,297",A?G,,,,,,,,,,X,,1,N677S (AAC?AGC) ,rpoB ?,,"RNA polymerase, beta subunit"
+"4,182,991",A?C,,X,,,,,,,,,,1,K1242Q (AAG?CAG) ,rpoB ?,,"RNA polymerase, beta subunit"
+"4,186,892",C?A,,X,,,,,,,,,,1,R1174S (CGT?AGT) ,rpoC ?,,"RNA polymerase, beta prime subunit"
+"2,864,733",?1 bp,,,,,X,,,,,,,1,coding (841/993 nt),rpoS ?,,"RNA polymerase, sigma S (sigma 38) factor"
+"2,864,738",C?A,,,,X,,,,,,,,1,G279V (GGT?GTT) ,rpoS ?,,"RNA polymerase, sigma S (sigma 38) factor"
+"2,864,745",G?A,,,,,,,,X,,,,1,R277* (CGA?TGA) ,rpoS ?,,"RNA polymerase, sigma S (sigma 38) factor"
+"2,864,979",(TTGCTCTGC)1?2,,,X,,,,,,,,,1,coding (595/993 nt),rpoS ?,,"RNA polymerase, sigma S (sigma 38) factor"
+"3,943,612","2.3x DUP, Length 94190",,,,,,,,,,X,,1,large duplicaiton,"hdfR, yifE, yifB, ilvL, ilvX, ilvG, ilvM, ilvE, ilvD, ilvA, ilvY, ilvC, ppiC, yifN, rep, gpp, rhlB, trxA, rho, wecA, wzzE, wecB, wecC, rffG, rffH, wecD, wecE, wzxE, wecF, wzyE, wecG, yifK, aslB, aslA, hemY, hemX, hemD, hemC, cyaA, cyaY, yifL, dapF, yigA, xerC, yigB, uvrD, yigE, corA, yigF , yigG, rarD, yigI, pldA, recQ, rhtC, rhtB, pldB, yigL, yigM, metR, metE, ysgA, udp, rmuC, ubiE, ubiJ, ubiB, tatA, tatB, tatC, tatD, rfaH, ubiD, fre, fadA, fadB, pepQ, yigZ, trkH, hemG",,"large duplication (3943612 - 4037802), length 94190, multiplicity 2.3 over fit mean depth"
+"4,157,865",T?C,,X,,,,,,,,,,1,S317G (AGC?GGC) ,sthA ?,udhA,"pyridine nucleotide transhydrogenase, soluble"
+"4,158,877",C?A,,,,X,,,,,,,,1,intergenic (?64/?270),sthA ? / ? fabR,udhA / fabR,"pyridine nucleotide transhydrogenase, soluble/DNA?binding transcriptional repressor"
+"931,811",A?C,,,,,X,,,,,,,1,intergenic (?538/?7),trxB ? / ? lrp,,"thioredoxin reductase, FAD/NAD(P)?binding/DNA?binding transcriptional dual regulator, leucine?binding"
+"4,057,389",+T,,,,,,,,,X,,,1,coding (960/1824 nt),typA ?,bipA,GTP?binding protein
+"2,525,264",?1 bp,,,,,X,,,,,,,1,coding (297/999 nt),yfeH ?,,putative inner membrane protein
+"4,076,151",T?G,,,,X,,,,,,,,1,L227R (CTG?CGG) ,yiiD ?,,putative acetyltransferase
+"4,014,129",(GGGTCTG)1?2,,,,,,,,,,,X,1,coding (64/816 nt),ysgA ?,,putative hydrolase
+"1,934,273",C?T,,,,,,,,,,X,,1,A22A (GCG?GCA) ,zwf ?,,glucose?6?phosphate 1?dehydrogenase
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,IS element mutations,,,,,,,,,,TOTAL,67,,,,,
+,Previously reported,,,,,,,,,,Unique,52,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+NOTES:,ylbE was not included in the sheet as it is a former reference error (ylbE was reported in the 2010 Charusanti et al.),,,,,,,,,,,,,,,,

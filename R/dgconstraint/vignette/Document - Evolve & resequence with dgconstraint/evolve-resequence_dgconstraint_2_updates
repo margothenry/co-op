@@ -1,0 +1,79 @@
+--------------------------------------------------------------------
+UPDATES (v2):
+_ "rmarkdown::html_vignette:" to "rmarkdown::html_document:".
+_ Some parts are re-written for clarity.
+_ Some reformatting (title, scrolling Table of contents, & theme).
+_ Minor fixes (spelling mistakes, etc.).
+--------------------------------------------------------------------
+
+Line 2: "title: "Evolve-and-resequence experiment parallelism with dgconstraint"" to "title: <center> Evolve-and-resequence experiment parallelism with dgconstraint </center>".
+Line 4 (Important): "rmarkdown::html_vignette:" to "rmarkdown::html_document:".
+Line 7: Omit the original version's Line 7. Add "toc_float: true" and "theme: flatly" under Line 5, each having its own line.
+
+## The line numbers from here on are from the original Rmd. Add 1 for v2 of the Rmd.
+Line 17: "Once you have found useful data it needs" to "Useful data is saved in"."
+Line 18: "data-in" to "data_in"; ", analysis will be written to the `data_out` folder" to "and the analysis will be written to the `data_out` folder."
+Line 20: "Population information is located in the column header." to "Population information are column headers."
+Line 21: "population information" to "Population information".
+Line 22: "in a separate column for each. population information" to "in a separate column for each generation or treatment. Population information"
+Line 23: "Generation/treatment is indicated in a single column. population information is located in a single column." to "There is only one column for generation/treatment and one for population information."
+Line 28: "Not all of the data that you will come across will fit the function requirements. Most of the time the format that a dataset has been published in will need to be manipulated at least a little bit to make the functions work." to "Most of the time, datasets will need to be re-organized before being fed into your functions. Here are some requirements your data should meet:"
+Line 30: "require a column labelled **gene**." to "require a column labelled **gene**".
+Line 31: "Some datasets record mutations at this level, while others record the specific mutation within a gene. The functiotns will automatically collapse all mutations within a gene for purpose of this analysis." to "Some datasets record mutations at this level, while others record the specific (i.e. base-pair level) mutations within a gene. For this analysis, the functions will automatically collapse all mutations within a gene."
+Line 34: "(or how to computationally consider them) for now" to "(or how to computationally consider them), for now".
+Line 38: "This following data set used X's to indicate mutation presence and the blank squares to indicate absence." to "This dataset used X's to indicate mutation presence and blank squares to indicate absence."
+Line 43: "Here coloured boxes" to "Here, coloured boxes".
+Line 48: "The functions require that mutation presence and absence is recorded numerically by 1 (presence) or 0 (absence). This can be done by hand, e.g., in excel, or programatically in R." to "The functions require that mutation presence/absence is recorded numerically by 1 (presence) or 0 (absence). This can be done by hand (e.g. in excel) or programatically in R."
+Line 51: "for our puposes" to "for our purposes".
+Line 53: "Example1: This dataset sequenced multiple clones from the same population (e.g., *A1 F1 I1 R1* and *A1 F1 I2 R1*)" to "Example 1: This dataset sequenced multiple clones from the same population (e.g. *A1 F1 I1 R1* and *A1 F1 I2 R1*)"
+Line 59 (Consider - not sure if right image): "Manipulated dataset:" to 
+"Manipulated dataset: 
+```{r, echo=FALSE, out.width = '100%', fig.pos = "H", fig.align="center"}
+knitr::include_graphics("figures/Wannier_1.png")
+```"
+Line 62: "Here the column names contain a lot of information, including the population (e.g., A1), the generation (e.g., 500), clones (e.g., I1) and the number of replicates (e.g., R1)." to "Here, the column names contain a lot of information, including the population (e.g. A1), the generation (e.g. 500), clones (e.g. I1), and the number of replicates (e.g. R1)."
+Line 149: "This is a wrapper function to calculate" to "This is a wrapper function. It is used to calculate"; "data set" to "dataset".
+Line 152: "The dataset should be a wide datset with a column for *gene* and separate columns for each population. This data represents only one generation, typically the experimental end point." to "The dataset should have a column for *gene* and separate columns for each population. This data represents only one generation, typically at the end of the experiment."
+Line 154: "e.g.,:" to "e.g. For the paper by [*Sanderg et al., 2014*](https://academic.oup.com/mbe/article/31/10/2647/1011712)".
+Line 160: "Example useage:" to "Example usage:".
+Line 169: Omit entire line.
+Line 176: "This is a wrapper function to calculate" to "This is a wrapper function. It is used to calculate"; "data set" to "dataset".
+Line 179: "The dataset should be a long dataset with a column for *gene* a single column specifying the *population* and column that indicates mutation presence or absence (*frequency*)." to "The dataset should have a column for *gene*, a single column specifying the *population*, and a single column that indicates mutation presence/absence (*frequency*)."
+Line 183: Omit "i.e:".
+Line 188: "Example useage:" to "Example usage:".
+Line 197: Omit entire line.
+Line 203: "This is a wrapper function to calculate" to "This is a wrapper function. It is used to calculate"; "data set" to "dataset"; "separate columnns" to "separate columns".
+Line 206: "contain with the columns" to "contain the columns"; "indicates mutation presence or absence" to "indicate mutation presence/absence".
+Line 208: "e.g.," to "e.g.".
+Line 215: "Example useage:" to "Example usage:".
+Line 223: "a multi-row table containing..." to "a multi-row table. Each row contains...".
+Line 225: Omit entire line.
+Line 230: "Calculations for Multiple Long Dataset" to "`multiple_long`".
+Line 231: "This is a wrapper function to calculate" to "This is a wrapper function. It is used to calculate"; "data set" to "dataset"; "in a single columnn" to "in a single column".
+Line 234: "*frequency* and *selective_pressure*" to "*frequency*, and *selective_pressure*".
+Line 236: "e.g.," to "e.g.".
+Line 240: "gene *AFI1*" to "Gene *AFI1*"; "Selective_pressure HT" to "HT as the selective pressure".
+Line 242: "Example useage:" to "Example usage:".
+Line 249: "a multi-row table containing" to "a multi-row table. Each row contains"; "(or generations)" to "(or generation)".
+Line 251: Omit entire line.
+Line 256: "4: Walk-Through" to "3: Walk-through".
+Line 259: "Here we will use..." to "Here, we will use".
+Line 265: Add "This sets the parameters to be used by the function:"
+Line 266: Omit "set the parameter"; ""Author2019"" to ""Author2019"."".
+Line 267: Omit "set the parameter"; "*generations* to the number of generations in the dataset in a vector format, lets say c("0", "100", "500", "1000", "1500")" to "`generations`: A vector of the generations in the dataset e.g. c("0", "100", "500", "1000", "1500")."
+Line 268: Omit "set the parameter"; "`environment` to the base environment used in the experiment, e.g.," to "`environment`: The base environment used in the experiment e.g. "YPD""; "meta data)" to "metadata).".
+Line 269: Omit "set the parameter"; "`species`. This is used to spepcify the number of genes" to "`species`: The number of genes"; "enter the number of genes" to "enter the number of genes."
+Line 271: "In  this case your function will look like:" to "In this case, your function will look like this:".
+Line 276: "After the function is run the resulting analysis will be saved into the data_out" to "After the function is run, the resulting analysis will be saved into the `data_out`"; "*Author2018_Analysis.csv*" to "*Author2019_Analysis.csv*"; "a multiple generation example" to "a multiple-generation example"; "for each generation; each will include" to "for each generation. Each will include"; "genes and frequencies" to "genes, and frequencies"; "It will also be saved in the data_out" to "It will also be saved in the `data_out`"; "*Author2018_g.csv*. In this case there will be five different files, one for each generation [0, 100, 500, 1000, 1500]" to "*Author2019_g.csv* (g corresponds to the generation; in this case, there will be five different files, one for each generation [0, 100, 500, 1000, 1500])"
+Line 278: "5: Solving Errors" to "4: Trouble-shooting".
+Line 281: "your data." to "your data. Wide-format functions can't run long-format datasets and vice versa.".
+Line 283: "correct, it is easy to forget to change a column name gene to the needed one *gene*. The code is ran in a way that it will recognize *gene* and not gene. Same goes for *population*, *frequency* and *selective_pressure*." to "correct. R is case-sensitive!".
+Line 284: "that could occur if" to "it might be because".
+
+# Future updates for v3:
+## Combine with things from "finding a paper - v2".
+## Finish the "Under construction" section.
+## Add image for the "Manipulated dataset" section in the Wannier example.
+## Change tab title.
+## Look at the different options for "theme".
+## Look into ways of customizing the floating table of contents - current version expands/collapses too fast, move toc_float further to the left.

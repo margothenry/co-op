@@ -1,0 +1,24 @@
+selective_pressure,population,details,gene,frequency 
+?pvdJ spent media ,pvdJ1,coding,mprA,1
+,pvdJ1,coding,mprA,1
+,pvdJ2,pseudogene,stfE,1
+,pvdJ2,coding,mprA,1
+,pvdJ2,intergenic,gltP/yjcO,1
+,pvdJ2,coding,mprA,1
+,pvdJ2,IS1-mediated,[yhhW]-yrhA,1
+,pvdJ2,intergenic,gltP/yjcO,1
+,pvdJ2,G257A,appA,1
+,pvdJ2,coding,mprA,1
+,pvdJ2,IS1-mediated,yhhY-yrhA,1
+,pvdJ3,coding,acrR,1
+,pvdJ3,D109A,mprA,1
+,pvdJ3,coding,acrR,1
+,pvdJ3,intergenic,yncH/rhsE,1
+,pvdJ3,D109A,mprA,1
+,pvdJ3,intergenic,purH/rrsE,1
+,pvdJ3,D109A,mprA,1
+,pvdJ3,G381G,ggt,1
+,pvdJ3,A397P,xylB,1
+,pvdJ3,V162G,nusG,1
+,pvdJ3,intergenic,purH/rrsE,1
+,pvdJ3,intergenic,gltP/yjcO,1

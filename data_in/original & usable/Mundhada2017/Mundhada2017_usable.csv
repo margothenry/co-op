@@ -1,0 +1,37 @@
+Gene,Details,A3 F50 I1 R1,A3 F50 I2 R1,A4 F50 I1 R1,A4 F50 I2 R1,A5 F50 I1 R1,A5 F50 I2 R1
+crl,,1,1,1,1,1,1
+"insB1, insA",,1,1,1,1,1,1
+"ychE, oppA",intergenic,1,,1,,1,1
+thrA,Y356C (TAC→TGC),,,,,1,1
+cyoB,W190* (TGG→TAG),,,1,1,1,1
+ybhN,L26L (TTG→TTA),,,,,1,1
+lrp,D143G (GAC→GGC),,,,,1,1
+chbF,V133E (GTA→GAA),1,1,1,1,1,1
+"insA, uspC",intergenic,1,1,1,1,1,1
+"gatC, gatC",intergenic,1,1,1,1,1,1
+frc,coding (924‑932/1251 nt),,,,,1,1
+eno,L193Q (CTG→CAG),1,1,1,1,1,1
+eno,V164L (GTT→CTT),,,,,1,1
+argP,Q132K (CAG→AAG),,,,,1,1
+tufA,G19V (GGC→GTC),,,,,1,1
+"glpR, glpR",intergenic,1,1,1,1,1,1
+"trxA, rho",intergenic,,,,,1,1
+"gltP, yjcO",intergenic,1,1,1,1,1,1
+cycA,I220V (ATA→GTA),,,,,1,1
+thrA,S357R (AGC→CGC),1,1,,,,
+aroP,coding (31‑34/1374 nt),1,1,,,,
+pykF,E250* (GAA→TAA),1,1,,,,
+yodD,S8R (AGC→CGC),1,1,,,,
+"dapA, gcvR",intergenic,1,1,1,1,,
+"gcvA, ygdI",intergenic,1,1,,,,
+malT,Q420* (CAA→TAA),1,,,,,
+rpoB,P520L (CCG→CTG),1,1,,,,
+thrA,S359R (AGT→AGA),,,1,1,,
+"trxB, lrp",intergenic,,,1,1,,
+yojI,D334H (GAT→CAT),,,,1,,
+"gcvA, ygdI",intergenic,,,1,1,,
+rpe,I202T (ATC→ACC),,,1,1,,
+rho,R87L (CGC→CTC),,,1,1,,
+"ytfB, fklB",intergenic,,,1,1,,
+gshA,A178V (GCG→GTG),,1,,,,
+lamB,Q112* (CAG→TAG),,1,,,,

@@ -1,0 +1,2 @@
+"paper","dataset_name","environment","generation","day","flask","selective_pressure","species","ploidy","strain_info","c_hyper","p_chisq","estimate","N_genes.notParallel","N_genes.parallel","parallel_genes","who_analyzed","func"
+"Dai2018","Dai2018","Minimal glucose medium",NA,"40",NA,"Minimal glucose medium","Sac","haploid",NA,35.723,0.005,0.004,12,6,"GPD1, HXK2, MED2, MED3, MHO1, SIW14","TL","single_long"

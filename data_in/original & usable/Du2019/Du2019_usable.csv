@@ -1,0 +1,25 @@
+Gene,Details,Flask,value,AA1,AA2,AA3,AA4,AA5,AA6
+yejH,D105E (GAT?GAG),intermediate,1,1,,,,,
+rho,R102S (CGC?AGC),late,1,1,,,,,
+tam,coding (5-16/759 nt),late,1,1,,,,,
+ilvL,coding (33-34/99 nt),late,1,1,,,,,
+rpoC,A397E (GCG?GAG),late,1,,1,,,,
+rpoC,G444A (GGT?GCT),intermediate,1,,,1,,,
+rpoC,G444A (GGT?GCT),late,1,,,1,,,
+yraJ,coding (1893-1896/2517 nt),intermediate,1,,,1,,,
+yiaA,coding (16-20/438 nt),late,1,,,1,,,
+nagA,S90* (TCA?TGA),intermediate,1,,,,1,,
+ycjX,G207G (GGG?GGT),intermediate,1,,,,1,,
+rpoC,coding (4106-4112/4224 nt),late,1,,,,1,,
+ilvL/ilvX,intergenic,intermediate,1,,,,,1,
+yjcB,R12H (CGC?CAC),intermediate,1,,,,,1,
+rpoC,coding (4111/4224 nt) ,late,1,,,,,1,
+metF/katG,intergenic,late,1,,,,,1,
+csgD/csgB,intergenic,late,1,,,,,1,
+ydhY/ydhZ,intergenic,intermediate,1,,,,,,1
+ydhY/ydhZ,intergenic,intermediate,1,,,,,,1
+nagA,R149H (CGT?CAT),intermediate,1,,,,,,1
+phoQ,P208R (CCG?CGG) ,intermediate,1,,,,,,1
+rho,R102C (CGC?TGC),late,1,,,,,,1
+rpoC,S539F (TCT?TTT),late,1,,,,,,1
+ycgJ,coding (1-5/369 nt),late,1,,,,,,1
