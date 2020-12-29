@@ -15,14 +15,14 @@ thrA,a3,2
 aroP,a3,2
 pykF,a3,2
 yodD,a3,2
-malT,a3,0
+malT,a3,1
 rpoB,a3,2
 thrA,a3,0
 yojI,a3,0
 rpe,a3,0
 rho,a3,0
-gshA,a3,0
-lamB,a3,0
+gshA,a3,1
+lamB,a3,1
 crl,a4,2
 thrA,a4,0
 cyoB,a4,2
@@ -42,7 +42,7 @@ yodD,a4,0
 malT,a4,0
 rpoB,a4,0
 thrA,a4,2
-yojI,a4,0
+yojI,a4,1
 rpe,a4,2
 rho,a4,2
 gshA,a4,0

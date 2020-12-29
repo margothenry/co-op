@@ -532,8 +532,19 @@ if (length(Creamer2016_out) > 0) {
 } 
 Creamer2016 <- Creamer2016 %>% 
   transmute(gene = gene, details = details, 
-           "a1" =  a1_1, 'a3' = a3_1, "b1" = b1_1, "c1" = c1_1, c3 = rowSums(Creamer2016[, 5:6]), "d5" = d5_1, a5 = rowSums(Creamer2016[, 8:9]), 
-            e1 = rowSums(Creamer2016[, 10:11]), "h1" = h1_1, "h3" = h3_1, "g3" = g3_1, g5 = rowSums(Creamer2016[, 15:16]))
+           "a1" =  a1_1,
+           'a3' = a3_1,
+           "b1" = b1_1,
+           "c1" = c1_1,
+           c3 = rowSums(Creamer2016[, 5:6], na.rm = TRUE),
+           "d5" = d5_1,
+           a5 = rowSums(Creamer2016[, 8:9], na.rm = TRUE), 
+           e1 = rowSums(Creamer2016[, 10:11], na.rm = TRUE),
+           "h1" = h1_1,
+           "h3" = h3_1,
+           "g3" = g3_1,
+           g5 = rowSums(Creamer2016[, 15:16], na.rm = TRUE)
+           )
 Creamer2016 <- gather(Creamer2016, population, frequency, "a1" : "g5", factor_key=TRUE)
 Creamer2016 <- Creamer2016 %>%
   select(gene, population, frequency)
@@ -707,8 +718,11 @@ if (length(Sandberg2017_glu_ac_out) > 0) {
 ### (TL): transmute() here is used to collapse the clones & replicates from the same population.
 Sandberg2017_glu_ac <- Sandberg2017_glu_ac %>% 
   transmute(gene = gene, details = details, 
-            a7 = rowSums(Sandberg2017_glu_ac[, 4:15]), a8 = rowSums(Sandberg2017_glu_ac[, 16:28]), 
-            a9 = rowSums(Sandberg2017_glu_ac[, 29:38]))
+            a7 = rowSums(Sandberg2017_glu_ac[, 4:15], na.rm=TRUE),
+            a8 = rowSums(Sandberg2017_glu_ac[, 16:28], na.rm=TRUE), 
+            a9 = rowSums(Sandberg2017_glu_ac[, 29:38], na.rm=TRUE)
+  )
+
 Sandberg2017_glu_ac <- gather(Sandberg2017_glu_ac, population, frequency, "a7" : "a9", factor_key=TRUE)
 Sandberg2017_glu_ac <- Sandberg2017_glu_ac %>%
   select(gene, population, frequency)
@@ -731,8 +745,10 @@ if (length(Sandberg2017_glu_gly_out) > 0) {
 } 
 Sandberg2017_glu_gly <- Sandberg2017_glu_gly %>% 
   transmute(gene = gene, details = details, 
-            a4 = rowSums(Sandberg2017_glu_gly[, 4:7]), a5 = rowSums(Sandberg2017_glu_gly[, 8:12]), 
-            a6 = rowSums(Sandberg2017_glu_gly[, 13:16]))
+            a4 = rowSums(Sandberg2017_glu_gly[, 4:7], na.rm=TRUE),
+            a5 = rowSums(Sandberg2017_glu_gly[, 8:12], na.rm=TRUE), 
+            a6 = rowSums(Sandberg2017_glu_gly[, 13:16], na.rm=TRUE)
+            )
 Sandberg2017_glu_gly <- gather(Sandberg2017_glu_gly, population, frequency, "a4" : "a6", factor_key=TRUE)
 Sandberg2017_glu_gly <- Sandberg2017_glu_gly %>%
   select(gene, population, frequency)
@@ -754,8 +770,11 @@ if (length(Sandberg2017_glu_xyl_out) > 0) {
 } 
 Sandberg2017_glu_xyl <- Sandberg2017_glu_xyl %>% 
   transmute(gene = gene, details = details, 
-            a0 = rowSums(Sandberg2017_glu_xyl[, 3]), a1 = rowSums(Sandberg2017_glu_xyl[, 4:13]), 
-            a2 = rowSums(Sandberg2017_glu_xyl[, 14:19]), a3 = rowSums(Sandberg2017_glu_xyl[, 20:ncol(Sandberg2017_glu_xyl)]))
+            a0 = rowSums(Sandberg2017_glu_xyl[, 3], na.rm=TRUE),
+            a1 = rowSums(Sandberg2017_glu_xyl[, 4:13], na.rm=TRUE), 
+            a2 = rowSums(Sandberg2017_glu_xyl[, 14:19], na.rm=TRUE),
+            a3 = rowSums(Sandberg2017_glu_xyl[, 20:ncol(Sandberg2017_glu_xyl)], na.rm=TRUE)
+            )
 Sandberg2017_glu_xyl <- gather(Sandberg2017_glu_xyl, population, frequency, "a1" : "a3", factor_key=TRUE)
 Sandberg2017_glu_xyl <- Sandberg2017_glu_xyl %>%
   select(gene, population, frequency)
@@ -1268,9 +1287,12 @@ if (length(Mundhada2017_out) > 0) {
   Mundhada2017 <- Mundhada2017[-Mundhada2017_out,] 
 } 
 Mundhada2017 <- Mundhada2017 %>% 
-  transmute(gene = gene, details = details, 
-            a3 = rowSums(Mundhada2017[, 3:4]), a4 = rowSums(Mundhada2017[, 5:6]), 
-            a5 = rowSums(Mundhada2017[, 7:8])) %>%
+  transmute(gene = gene, 
+            details = details, 
+            a3 = rowSums(Mundhada2017[, 3:4], na.rm = TRUE),
+            a4 = rowSums(Mundhada2017[, 5:6], na.rm = TRUE), 
+            a5 = rowSums(Mundhada2017[, 7:8], na.rm = TRUE)
+            ) %>%
   gather(population, frequency, "a3" : "a5", factor_key=TRUE) %>%
   select(gene, population, frequency)
 Mundhada2017 <- Mundhada2017 %>%
@@ -1606,8 +1628,11 @@ if (length(He2017_out) > 0) {
 } 
 He2017 <- He2017 %>% 
   transmute(gene = gene, details = details, 
-            b11 = rowSums(He2017[,1:2]), f9 = rowSums(He2017[, 3:4]), 
-            f11 = rowSums(He2017[, 5:6]), h9 = rowSums(He2017[, 7:8]))
+            b11 = rowSums(He2017[,1:2], na.rm = TRUE),
+            f9 = rowSums(He2017[, 3:4], na.rm = TRUE), 
+            f11 = rowSums(He2017[, 5:6], na.rm = TRUE),
+            h9 = rowSums(He2017[, 7:8], na.rm = TRUE)
+            )
 He2017 <- gather(He2017, population, frequency, "b11" : "h9", factor_key=TRUE)
 He2017 <- He2017 %>%
   select(gene, population, frequency)
