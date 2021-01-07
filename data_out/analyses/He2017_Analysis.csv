@@ -1,2 +1,2 @@
 "paper","dataset_name","environment","generation","day","flask","selective_pressure","species","ploidy","strain_info","c_hyper","p_chisq","estimate","N_genes.notParallel","N_genes.parallel","parallel_genes","who_analyzed","func"
-"He2017","He2017","Malic acid-supplemented LBK","2000",NA,NA,"pH 4.6 - 4.8","Ecoli_K12","haploid",NA,8,0.005,0.008,11,3,"icd, rpoC, yejM","TL","single_long"
+"He2017","He2017","Malic acid-supplemented LBK","2000",NA,NA,"pH 4.6 - 4.8","Ecoli_K12","haploid",NA,11.587,0.005,0.013,21,4,"cadC, icd, rpoC, yejM","TL","single_long"
