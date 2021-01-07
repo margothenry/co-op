@@ -23,26 +23,30 @@
 #' @return A table with all the calculated information.
 #' @export
 ###########################
-install.packages("Hmisc")
-install.packages("plyr")
-install.packages("naniar")
-library(here)
-library(dgconstraint)
-library(tidyverse)
-library(R.utils)
-library(janitor)
-library(tidyverse)
-library(readr)
-library(devtools)
-library(Hmisc)
-library(naniar)
+if( !require( "pacman" ) ) { install.packages( "pacman" ) }
+pacman::p_load(
+  here,
+  tidyverse,
+  here,
+  dgconstraint,
+  R.utils,
+  janitor,
+  readr,
+  devtools,
+  Hmisc,
+  naniar
+)
 ########################### Only the libraries below are needed for the function to work. The ones above are for the data-cleaning steps in the examples.
-library(dplyr)
-library(sjmisc)
+
+if( !require( "pacman" ) ) { install.packages( "pacman" ) }
+pacman::p_load(
+  sjmisc
+)
 source("R/dgconstraint/functions/single_long.R")
 source("R/dgconstraint/functions/single_wide.R")
 source("R/dgconstraint/functions/multiple_long.R")
 source("R/dgconstraint/functions/multiple_wide.R")
+
 ###########################
 
 ERConstraint <- function(
