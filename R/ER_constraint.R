@@ -43,7 +43,6 @@ pacman::p_load(
   sjmisc
 )
 source("R/dgconstraint/functions/single_long.R")
-source("R/dgconstraint/functions/single_wide.R")
 source("R/dgconstraint/functions/multiple_long.R")
 source("R/dgconstraint/functions/multiple_wide.R")
 
@@ -79,23 +78,6 @@ ERConstraint <- function(
       ploidy = ploidy,
       numgenes = numgenes, 
       strain_info = strain_info,
-      days = days,
-      flasks = flasks,
-      who_analyzed = who_analyzed
-      )
-  }
-  if (timepoint_pressure_info == "single" & structure == "wide"){
-    .single_wide(
-      paper = paper,
-      dataset_name = dataset_name,
-      environment = environment,
-      generations = generations,
-      selective_pressure = selective_pressure,
-      species = species,
-      ploidy = ploidy,
-      numgenes = numgenes, 
-      strain_info = strain_info,
-      population = population,
       days = days,
       flasks = flasks,
       who_analyzed = who_analyzed
@@ -510,6 +492,14 @@ Deatherage2017_out <- c(
 if (length(Deatherage2017_out) > 0) {   
   Deatherage2017 <- Deatherage2017[-Deatherage2017_out,] 
 } 
+
+Deatherage2017 = Deatherage2017 %>% tidyr::replace_na(
+  list(
+    f1_i1_r1 = 0,
+    f1_i2_r1 = 0,
+    f1_i3_r1 = 0
+  )
+) 
 
 Deatherage2017 <- Deatherage2017 %>%
   transmute(
@@ -1431,6 +1421,8 @@ Keane2014 <- read_csv(
   here("data_in", "original & usable", "Keane2014", "Keane2014_usable.csv")
   )
 
+Keane2014 = Keane2014 %>% filter(details != "intergenic")
+
 Keane2014 <- clean_names(Keane2014, case = "snake")
 
 colnames(Keane2014) <- tolower(colnames(Keane2014))
@@ -1446,24 +1438,20 @@ if (length(Keane2014_out) > 0) {
   Keane2014 <- Keane2014[-Keane2014_out,] 
 } 
 
+Keane2014$`0`[Keane2014$`0` == "-"] = 0
+Keane2014$`0`[Keane2014$`0` != 0] = 1
+Keane2014$`440`[Keane2014$`440` != 0] = 1
+Keane2014$`1100`[Keane2014$`1100` != 0] = 1
+Keane2014$`1540`[Keane2014$`1540` != 0] = 1
+Keane2014$`1980`[Keane2014$`1980` != 0] = 1
+Keane2014$`2200`[Keane2014$`2200` != 0] = 1
+
+
 Keane2014 <- Keane2014 %>%
-  replace_with_na(
-    replace = list(
-      "440" = 0,
-      "1100" = 0,
-      "1540" = 0,
-      "1980" = 0,
-      "2200" = 0
-      )
-    ) %>%
   as.data.frame() %>%
-  select(gene, population, "440", "1100", "1540", "1980", "2200")
+  select(gene, population, "0","440", "1100", "1540", "1980", "2200")
 
-Keane2014[, 3:ncol(Keane2014)] <- Keane2014[, 3:ncol(Keane2014)] %>%
-  replace(!is.na(.), 1)
-
-Keane2014 <- Keane2014 %>%
-  replace_na(value = 0)
+Keane2014 = Keane2014 %>% filter(`0` == "0")
 
 Keane2014$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Keane2014$gene)
 
@@ -3445,6 +3433,33 @@ if (length(Tenaillon2016_out) > 0) {
   Tenaillon2016 <- Tenaillon2016[-Tenaillon2016_out,]
 }
 
+Tenaillon2016 = Tenaillon2016 %>% tidyr::replace_na(
+  list(
+    x500_i1_r1 = 0,
+    x500_i2_r1 = 0,
+    x1000_i1_r1 = 0,
+    x1000_i2_r1 = 0,
+    x1500_i1_r1 = 0,
+    x1500_i2_r1 = 0,
+    x2000_i1_r1 = 0,
+    x2000_i2_r1 = 0,
+    x5000_i1_r1 = 0,
+    x5000_i2_r1 = 0,
+    x10000_i1_r1 = 0,
+    x10000_i2_r1 = 0,
+    x15000_i1_r1 = 0,
+    x15000_i2_r1 = 0,
+    x20000_i1_r1 = 0,
+    x20000_i2_r1 = 0,
+    x30000_i1_r1 = 0,
+    x30000_i2_r1 = 0,
+    x40000_i1_r1 = 0,
+    x40000_i2_r1 = 0,
+    x50000_i1_r1 = 0,
+    x50000_i2_r1 = 0
+  )
+) 
+
 Tenaillon2016 <- Tenaillon2016 %>% 
   transmute(gene,
             population,
@@ -3460,9 +3475,6 @@ Tenaillon2016 <- Tenaillon2016 %>%
             "40000"=`x40000_i1_r1`+`x40000_i2_r1`,
             "50000"=`x50000_i1_r1`+`x50000_i2_r1`
             ) 
-
-Tenaillon2016 <- Tenaillon2016 %>%
-  replace_na(value = 0)
 
 Tenaillon2016$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Tenaillon2016$gene)
 
@@ -3538,6 +3550,39 @@ if (length(Wannier2018_out) > 0) {
   Wannier2018 <- Wannier2018[-Wannier2018_out,] 
 } 
 
+Wannier2018 = Wannier2018 %>% tidyr::replace_na(
+  list(
+    a1_f1_i1_r1 = 0,
+    a1_f1_i2_r1 = 0,
+    a2_f1_i1_r1 = 0,
+    a2_f1_i2_r1 = 0,
+    a3_f1_i1_r1 = 0,
+    a3_f1_i2_r1 = 0, 
+    a4_f1_i1_r1 = 0,
+    a4_f1_i2_r1 = 0,
+    a5_f1_i1_r1 = 0,
+    a5_f1_i2_r1 = 0,
+    a6_f1_i1_r1 = 0,
+    a6_f1_i2_r1 = 0,  
+    a7_f1_i1_r1 = 0,
+    a7_f1_i2_r1 = 0,
+    a8_f1_i1_r1 = 0,
+    a8_f1_i2_r1 = 0,
+    a9_f1_i1_r1 = 0,
+    a9_f1_i2_r1 = 0, 
+    a10_f1_i1_r1 = 0,
+    a10_f1_i2_r1 = 0,
+    a11_f1_i1_r1 = 0,
+    a11_f1_i2_r1 = 0,
+    a12_f1_i1_r1 = 0,
+    a12_f1_i2_r1 = 0,  
+    a13_f1_i1_r1 = 0,
+    a13_f1_i2_r1 = 0,
+    a14_f1_i1_r1 = 0,
+    a14_f1_i2_r1 = 0
+  )
+) 
+
 Wannier2018 <- Wannier2018 %>%
   transmute(
     gene = gene,
@@ -3558,9 +3603,6 @@ Wannier2018 <- Wannier2018 %>%
     ) %>%
   gather(population, frequency, "a1" : "a14", factor_key = TRUE) %>%
   select(gene, population, frequency)
-
-Wannier2018 <- Wannier2018 %>%
-  replace_na(value = 0)
 
 Wannier2018$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Wannier2018$gene)
 
