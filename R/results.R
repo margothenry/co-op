@@ -157,8 +157,18 @@ multiple_estimate_species = ggplot() +
       scales = "free"
       )
 
-violin_multiple_chyper_species = ggplot(multiple_wide_ds, aes(species, c_hyper)) + geom_violin()
-violin_multiple_estimate_species = ggplot(multiple_wide_ds, aes(species, estimate)) + geom_violin()
+violin_multiple_chyper_species = ggplot(
+  multiple_wide_ds, aes(species, c_hyper)
+  ) + geom_violin() + geom_point()
 
-violin_multiple_chyper_paper = ggplot(multiple_wide_ds, aes(c_hyper, paper)) + geom_violin()
-violin_multiple_estimate_paper = ggplot(multiple_wide_ds, aes(estimate, paper)) + geom_violin()
+violin_multiple_estimate_species = ggplot(
+  multiple_wide_ds, aes(species, estimate)
+  ) + geom_violin() + geom_point()
+
+violin_multiple_chyper_paper = ggplot(
+  multiple_wide_ds, aes(c_hyper, paper)
+  ) + geom_violin() + geom_point()
+
+violin_multiple_estimate_paper = ggplot(
+  multiple_wide_ds, aes(estimate, paper)
+  ) + geom_violin() + geom_point()
