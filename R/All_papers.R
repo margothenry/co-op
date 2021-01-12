@@ -2302,46 +2302,6 @@ ERConstraint(
   ploidy = "haploid",
   strain_info = "Evo"
 )
-# Monk2016
-Monk2016 <- read_csv(
-  here("data_in", "original & usable", "Monk2016", "Monk2016_usable.csv")
-)
-
-Monk2016 <- clean_names(Monk2016, case = "snake")
-
-colnames(Monk2016) <- tolower(colnames(Monk2016))
-
-Monk2016_out <- c(
-  grep(out_patterns_column_gene, Monk2016$gene),
-  grep(out_patterns_column_details, Monk2016$details)
-)
-
-if (length(Monk2016_out) > 0) {   
-  Monk2016 <- Monk2016[-Monk2016_out,] 
-} 
-
-Monk2016 <- Monk2016 %>%
-  select(gene, population, frequency)
-
-Monk2016 <- Monk2016 %>%
-  replace_na(value = 0)
-
-Monk2016$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Monk2016$gene)
-
-write_csv(Monk2016, here("data_in", "for_func", "Monk2016.csv"))
-
-ERConstraint(
-  paper = "Monk2016",
-  dataset_name = "Monk2016",
-  timepoint_pressure_info = "single",
-  structure = "long",
-  environment = "LB alternating with M9GBT (M9 + glucose + biotin + thiamine)",
-  days = "18", 
-  selective_pressure = "TAG amber codons replaced with TAA stop codons",
-  species = "Ecoli_K12",
-  who_analyzed = "TL",
-  ploidy = "haploid"
-)
 
 # Morgenthaler2019
 Morgenthaler2019 <- read_csv(
@@ -2432,73 +2392,6 @@ ERConstraint(
   species = "Ecoli_K12",
   who_analyzed = "TL",
   ploidy = "haploid"
-)
-
-# Payen2016
-Payen2016 <- read_csv(here("data_in", "original & usable", "Payen2016", "Payen2016_usable.csv"))
-
-Payen2016 <- clean_names(Payen2016, case = "snake")
-
-colnames(Payen2016) <- tolower(colnames(Payen2016))
-
-Payen2016_out <- c(
-  grep(out_patterns_column_gene, Payen2016$gene),
-  grep(out_patterns_column_details, Payen2016$details)
-)
-
-if (length(Payen2016_out) > 0) {   
-  Payen2016 <- Payen2016[-Payen2016_out,] 
-}
-
-Payen2016 <- Payen2016 %>%  
-  filter(frequency != "clone", frequency != "0")
-
-Payen2016 <- Payen2016 %>%
-  replace_na(value = 0)
-
-Payen2016$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Payen2016$gene)
-
-## Payen2016_dip:
-Payen2016_dip <- Payen2016 %>%
-  filter(ploidy == "diploid") %>%
-  select(gene, population, selective_pressure, frequency)
-
-write_csv(Payen2016_dip, here("data_in", "for_func", "Payen2016_dip.csv"))
-
-ERConstraint(
-  paper = "Payen2016",
-  dataset_name = "Payen2016_dip",
-  timepoint_pressure_info = "multiple",
-  structure = "long",
-  environment = "phosphate",
-  generations = "20",
-  selective_pressure = c("phosphate"),
-  species = "Sac", 
-  who_analyzed = "MH",
-  ploidy = "diploid",
-  strain_info = "diploid"
-)
-
-
-## Payen2016_hap:
-Payen2016_hap <- Payen2016 %>%
-  filter(ploidy == "haploid") %>%
-  select(gene, population, selective_pressure, frequency)
-
-write_csv(Payen2016_hap, here("data_in", "for_func", "Payen2016_hap.csv"))
-
-ERConstraint(
-  paper = "Payen2016",
-  dataset_name = "Payen2016_hap",
-  timepoint_pressure_info = "multiple",
-  structure = "long",
-  environment = "LB",
-  generations = "20",
-  selective_pressure = c("phosphate"),
-  species = "Sac", 
-  who_analyzed = "MH",
-  ploidy = "haploid",
-  strain_info = "haploid"
 )
 
 # Sandberg2014
