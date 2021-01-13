@@ -1,2 +1,7 @@
 "paper","dataset_name","environment","generation","day","flask","selective_pressure","species","ploidy","strain_info","c_hyper","p_chisq","estimate","N_genes.notParallel","N_genes.parallel","parallel_genes","who_analyzed","func"
-"Avrani2017","Avrani2017","LB",NA,"11",NA,"Resource exhaustion","Ecoli_K12","haploid",NA,30.109,0.005,0.004,9,5,"cytR, deoR, rhaT, rpoB, rpoC","TL","single_long"
+"Avrani2017","Avrani2017","LB","11",NA,NA,"Resource exhaustion","Ecoli_K12","haploid",NA,30.109,0.005,0.004,9,5,"cytR, deoR, rhaT, rpoB, rpoC","TL","multiple_wide"
+"Avrani2017","Avrani2017","LB","22",NA,NA,"Resource exhaustion","Ecoli_K12","haploid",NA,12.942,0.005,0.025,30,3,"atoS, fadR, rpoC","TL","multiple_wide"
+"Avrani2017","Avrani2017","LB","32",NA,NA,"Resource exhaustion","Ecoli_K12","haploid",NA,16.111,0.005,0.029,45,6,"oppA, paaX, putP, rpoB, rpoC, sstT","TL","multiple_wide"
+"Avrani2017","Avrani2017","LB","42",NA,NA,"Resource exhaustion","Ecoli_K12","haploid",NA,15.151,0.005,0.034,55,10,"cytR, deoR, dppA, gcvA, paaX, proQ, putP, rpoA, rpoB, sstT","TL","multiple_wide"
+"Avrani2017","Avrani2017","LB","64",NA,NA,"Resource exhaustion","Ecoli_K12","haploid",NA,22.518,0.005,0.029,62,17,"clpA, cytR, dacA, dctA, dppA, gatC, mutS, paaX, prc, proQ, putA, putP, rimJ, rpoB, rpoC, rpoD, sstT","TL","multiple_wide"
+"Avrani2017","Avrani2017","LB","127",NA,NA,"Resource exhaustion","Ecoli_K12","haploid",NA,15.728,0.005,0.361,390,25,"clpA, crp, dcuA, dppA, fusA, gntU, kdgR, mutS, prc, proQ, putA, putP, rimJ, rpoA, rpoB, rpoC, sstT, thiL, uspE, xdhD, ybjD, ydcI, ydiS, ygdQ, ynaJ","TL","multiple_wide"

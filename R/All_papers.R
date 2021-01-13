@@ -55,31 +55,33 @@ Avrani2017 <- clean_names(Avrani2017, case = "snake")
 colnames(Avrani2017) <- tolower(colnames(Avrani2017))
 
 Avrani2017_out <- c(
-  grep(out_patterns_column_gene, Avrani2017$gene),
   grep(out_patterns_column_details, Avrani2017$details)
 )
 
-if (length(Avrani2017_out) > 0) {   
-  Avrani2017 <- Avrani2017[-Avrani2017_out,] 
-} 
+if (length(Avrani2017_out) > 0) {
+  Avrani2017 <- Avrani2017[-Avrani2017_out,]
+}
 
 Avrani2017 <- Avrani2017 %>%
-  select(gene, population, frequency)
+  select( -details )
 
-Avrani2017 <- Avrani2017 %>%
-  replace_na(value = 0)
+Avrani2017 = Avrani2017 %>% spread(
+  key = day,
+  value = frequency,
+  fill = "0"
+)
 
-Avrani2017$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Avrani2017$gene)
+Avrani2017$gene = substr(Avrani2017$gene,1,4)
 
 write_csv(Avrani2017, here("data_in", "for_func", "Avrani2017.csv"))
 
 ERConstraint(
   paper = "Avrani2017",
   dataset_name = "Avrani2017",
-  timepoint_pressure_info = "single",
-  structure = "long",
+  timepoint_pressure_info = "multiple",
+  structure = "wide",
   environment = "LB",
-  days = "11", 
+  generations = c("11", "22", "32", "42", "64", "127"), 
   selective_pressure = "Resource exhaustion",
   species = "Ecoli_K12",
   who_analyzed = "TL",
@@ -436,22 +438,22 @@ Du2019 <- spread(Du2019, flask, value)
 Du2019 <- gather(Du2019, population, frequency, "aa1" : "aa6", factor_key=TRUE)
 
 Du2019 <- Du2019 %>%
-  select(gene, population, "intermediate", "late")
+  select(gene, population, "late")
 
 Du2019 <- Du2019 %>%
   replace_na(value = 0)
 
 Du2019$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Du2019$gene)
+Du2019 = Du2019 %>% select(-late)
 
 write_csv(Du2019, here("data_in", "for_func", "Du2019.csv"))
 
 ERConstraint(
   paper = "Du2019",
   dataset_name = "Du2019",
-  timepoint_pressure_info = "multiple",
-  structure = "wide",
+  timepoint_pressure_info = "single",
+  structure = "long",
   environment = "Minimal glucose medium",
-  flasks = c("intermediate", "late"), 
   selective_pressure = "pH 5.5",
   species = "Ecoli_K12",
   who_analyzed = "L",
@@ -3477,7 +3479,7 @@ ERConstraint(
   timepoint_pressure_info = "single",
   structure = "long",
   environment = "Lysogeny broth",
-  generations = "10", 
+  days = "10", 
   selective_pressure = "Lysogeny broth",
   species = "Ecoli_K12",
   who_analyzed = "MH",

@@ -1,61 +1,980 @@
-﻿population,details,gene,frequency
-1,A722G (GCC->GGC) ,recB ,1
-1,K334Q (AAA->CAA) ,rpoC ,1
-1,K334Q (AAA->CAA) ,rpoC ,1
-1,K334Q (AAA->CAA) ,rpoC ,1
-1,T222P (ACC->CCC) ,putA ,1
-1,E1272V (GAG->GTG) ,rpoB ,1
-1,pseudogene (1790-1794/5323 nt),yneO ,1
-1,K334T (AAA->ACA) ,rpoC ,1
-1,H1237Q (CAC->CAG) ,rpoB ,1
-1,K334Q (AAA->CAA) ,rpoC ,1
-1,T95P (ACC->CCC) ,deoR ,1
-1,A24E (GCG->GAG) ,cytR ,1
-1,E1272V (GAG->GTG) ,rpoB ,1
-1,K334Q (AAA->CAA) ,rpoC ,1
-2,K334Q (AAA->CAA) ,rpoC ,1
-2,D41E (GAT->GAA) ,deoR ,1
-2,coding (950-958/1026 nt),cytR ,1
-2,D90N (GAT->AAT) ,sanA ,1
-2,I72F (ATC->TTC) ,rpsI ,1
-2,K334Q (AAA->CAA) ,rpoC ,1
-2,R107H (CGT->CAT) ,minC ,1
-2,V129E (GTG->GAG) ,pgsA ,1
-2,R73L (CGA->CTA) ,rhaT ,1
-2,K334Q (AAA->CAA) ,rpoC ,1
-2,G142C (GGT->TGT) ,deoR ,1
-2,coding (224-287/1026 nt),cytR ,1
-2,T428S (ACT->TCT) ,rpoC ,1
-2,P475S (CCA->TCA) ,rne ,1
-2,intergenic,psuK  /  fruA,1
-2,R73L (CGA->CTA) ,rhaT ,1
-2,K334Q (AAA->CAA) ,rpoC ,1
-3,T428S (ACT->AGT) ,rpoC ,1
-3,coding (495/759 nt),deoR ,1
-3,coding (541-549/1026 nt),cytR ,1
-3,K334Q (AAA->CAA) ,rpoC ,1
-3,coding (495/759 nt),deoR ,1
-3,coding (541-549/1026 nt),cytR ,1
-3,E1272A (GAG->GCG) ,rpoB ,1
-3,K334Q (AAA->CAA) ,rpoC ,1
-3,coding (495/759 nt),deoR ,1
-3,coding (541-549/1026 nt),cytR ,1
-3,T428S (ACT->AGT) ,rpoC ,1
-3,T428S (ACT->AGT) ,rpoC ,1
-3,K334Q (AAA->CAA) ,rpoC ,1
-4,H1237Q (CAC->CAA) ,rpoB ,1
-4,T294N (ACC->AAC) ,mreB ,1
-4,R73L (CGA->CTA) ,rhaT ,1
-4,K334Q (AAA->CAA) ,rpoC ,1
-4,K334Q (AAA->CAA) ,rpoC ,1
-4,K334Q (AAA->CAA) ,rpoC ,1
-4,R73Q (CGA->CAA) ,rhaT ,1
-4,K334T (AAA->ACA) ,rpoC ,1
-4,H1237Q (CAC->CAG) ,rpoB ,1
-5,K334Q (AAA->CAA) ,rpoC ,1
-5,K334Q (AAA->CAA) ,rpoC ,1
-5,T428S (ACT->AGT) ,rpoC ,1
-5,T428S (ACT->AGT) ,rpoC ,1
-5,T428S (ACT->AGT) ,rpoC ,1
-5,K334Q (AAA->CAA) ,rpoC ,1
-5,T428S (ACT->AGT) ,rpoC ,1
+population,day,details,gene,frequency
+1,11,A24E (GCG->GAG),cytR <-,1
+1,11,T95P (ACC->CCC),deoR <-,1
+1,11,T222P (ACC->CCC),putA <-,1
+1,11,A722G (GCC->GGC),recB <-,1
+1,11,E1272V (GAG->GTG),rpoB ->,1
+1,11,K334Q (AAA->CAA),rpoC ->,1
+1,11,pseudogene (1790-1794/5323 nt),yneO <-,1
+1,22,S247N (AGT->AAT),atoS ->,1
+1,22,intergenic (+25/-38),eaeH -> / -> insE1,1
+1,22,G42D (GGC->GAC),fadR ->,1
+1,22,intergenic (-141/+307),gcvT <- / <- ubiI,1
+1,22,intergenic (-60/+3),nanS <- / <- nanM,1
+1,22,coding (706/951 nt),paaX ->,1
+1,22,K257R (AAG->AGG),rho ->,1
+1,22,T428S (ACT->AGT),rpoC ->,1
+1,32,intergenic (+25/-38),eaeH -> / -> insE1,1
+1,32,intergenic (-141/+307),gcvT <- / <- ubiI,1
+1,32,S273R (AGC->AGA),oppA ->,1
+1,32,intergenic (+18/-9),paaJ -> / -> paaK,1
+1,32,S328I (AGC->ATC),paaK ->,1
+1,32,coding (195/951 nt),paaX ->,1
+1,32,T222P (ACC->CCC),putA <-,1
+1,32,coding (735/1509 nt),putP ->,1
+1,32,E1272V (GAG->GTG),rpoB ->,1
+1,32,T428S (ACT->AGT),rpoC ->,1
+1,42,intergenic (+107/-188),cysB -> / -> ymiA,1
+1,42,A24E (GCG->GAG),cytR <-,1
+1,42,T95P (ACC->CCC),deoR <-,1
+1,42,Y53N (TAT->AAT),dppA <-,1
+1,42,intergenic (+182/-127),fklB -> / -> cycA,1
+1,42,intergenic (-68/+283),gcvA <- / <- ygdI,1
+1,42,intergenic (-141/+307),gcvT <- / <- ubiI,1
+1,42,intergenic (-53/-198),lptD <- / -> djlA,1
+1,42,E30* (GAA->TAA),proQ <-,1
+1,42,T222P (ACC->CCC),putA <-,1
+1,42,L60M (CTG->ATG),putP ->,1
+1,42,D233G (GAC->GGC),rpoA <-,1
+1,42,E1272V (GAG->GTG),rpoB ->,1
+1,42,T428S (ACT->AGT),rpoC ->,1
+1,42,P82P (CCA->CCC),rsmG <-,1
+1,42,A301T (GCG->ACG),sstT ->,1
+1,42,coding (115-120/360 nt),yeaR <-,1
+1,64,intergenic (-109/+508),atpI <- / <- rsmG,1
+1,64,V96A (GTT->GCT),dctA <-,1
+1,64,intergenic (-20/+163),dctA <- / <- yhjK,1
+1,64,intergenic (+182/-127),fklB -> / -> cycA,1
+1,64,intergenic (-68/+283),gcvA <- / <- ygdI,1
+1,64,intergenic (-141/+307),gcvT <- / <- ubiI,1
+1,64,Q129* (CAG->TAG),paaX ->,1
+1,64,K281E (AAA->GAA),prc <-,1
+1,64,E30* (GAA->TAA),proQ <-,1
+1,64,T222P (ACC->CCC),putA <-,1
+1,64,L60M (CTG->ATG),putP ->,1
+1,64,E1272V (GAG->GTG),rpoB ->,1
+1,64,T428S (ACT->AGT),rpoC ->,1
+1,64,intergenic (+117/-91),yiiR -> / -> yiiS,1
+1,127,IS5-mediated,[yejO]-[rcsB],1
+1,127,intergenic (+44/-353),agaI -> / -> yraH,1
+1,127,M19I (ATG->ATA),atoC ->,1
+1,127,H20R (CAC->CGC),crp ->,1
+1,127,Y53N (TAT->AAT),dppA <-,1
+1,127,P68T (CCG->ACG),fadR ->,1
+1,127,intergenic (+299/-10),fklB -> / -> cycA,1
+1,127,intergenic (-167/+35),flhB <- / <- cheZ,1
+1,127,G361C (GGT->TGT),fusA <-,1
+1,127,intergenic (-141/+307),gcvT <- / <- ubiI,1
+1,127,pseudogene (886-890/1158 nt),intQ ->,1
+1,127,coding (10/2049 nt),prc <-,1
+1,127,coding (72/699 nt),proQ <-,1
+1,127,T222P (ACC->CCC),putA <-,1
+1,127,L60M (CTG->ATG),putP ->,1
+1,127,coding (42-46/585 nt),rimJ ->,1
+1,127,E1272V (GAG->GTG),rpoB ->,1
+1,127,T428S (ACT->AGT),rpoC ->,1
+1,127,intergenic (-582/-87),stpA <- / -> alaE,1
+1,127,G331A (GGT->GCT),sucC ->,1
+1,127,R292C (CGC->TGC),ydeP <-,1
+1,127,coding,NA,1
+2,11,coding (950-958/1026 nt),cytR <-,1
+2,11,D41E (GAT->GAA),deoR <-,1
+2,11,R107H (CGT->CAT),minC <-,1
+2,11,V129E (GTG->GAG),pgsA <-,1
+2,11,intergenic (-126/+297),psuK <- / <- fruA,1
+2,11,R73L (CGA->CTA),rhaT <-,1
+2,11,P475S (CCA->TCA),rne <-,1
+2,11,K334Q (AAA->CAA),rpoC ->,1
+2,11,I72F (ATC->TTC),rpsI <-,1
+2,11,D90N (GAT->AAT),sanA ->,1
+2,22,intergenic (+124/-241),argR -> / -> yhcN,1
+2,22,G224D (GGC->GAC),atoS ->,1
+2,22,A187T (GCA->ACA),bglB <-,1
+2,22,intergenic (-205/+366),dcuB <- / <- dcuR,1
+2,22,Y193H (TAC->CAC),fadR ->,1
+2,22,A192A (GCT->GCC),fliC <-,1
+2,22,intergenic (-329/-96),glpF <- / -> zapB,1
+2,22,I368F (ATC->TTC),glpT <-,1
+2,22,A325V (GCC->GTC),hisS <-,1
+2,22,intergenic (-534/+166),iraM <- / <- ycgX,1
+2,22,A227T (GCA->ACA),mcrC <-,1
+2,22,R255R (CGT->CGC),mngA ->,1
+2,22,T300K (ACG->AAG),mutS ->,1
+2,22,L210L (CTG->TTG),narK ->,1
+2,22,R4R (AGA->AGG),pcm <-,1
+2,22,A232T (GCC->ACC),phnM <-,1
+2,22,T218T (ACG->ACA),psd <-,1
+2,22,coding (251/1026 nt),purR ->,1
+2,22,E1272G (GAG->GGG),rpoB ->,1
+2,22,A353A (GCG->GCA),sppA ->,1
+2,22,A360A (GCG->GCA),tktA <-,1
+2,22,P352P (CCC->CCT),trmA <-,1
+2,22,T115A (ACC->GCC),uidB <-,1
+2,22,G22G (GGC->GGT),valS <-,1
+2,22,intergenic (-515/-101),yaiS <- / -> tauA,1
+2,22,K134K (AAG->AAA),ybhL ->,1
+2,22,A316V (GCA->GTA),yfgF <-,1
+2,22,A1145V (GCG->GTG),yfhM <-,1
+2,22,intergenic (+354/+669),yhaC -> / <- garK,1
+2,22,F95S (TTT->TCT),yigG <-,1
+2,22,intergenic (+13/-78),yjjG -> / -> prfC,1
+2,22,V246A (GTT->GCT),znuA <-,1
+2,32,intergenic (+356/-43),alx -> / -> sstT,1
+2,32,intergenic (+23/+64),bcsG -> / <- ldrD,1
+2,32,V187V (GTC->GTT),bioB ->,1
+2,32,A977A (GCG->GCA),cusA ->,1
+2,32,V96A (GTT->GCT),dctA <-,1
+2,32,intergenic (-23/+160),dctA <- / <- yhjK,1
+2,32,intergenic (+182/-127),fklB -> / -> cycA,1
+2,32,V289I (GTC->ATC),flhB <-,1
+2,32,intergenic (-141/+307),gcvT <- / <- ubiI,1
+2,32,M16V (ATG->GTG),glrK <-,1
+2,32,intergenic (-101/+229),insH1 <- / <- lnt,1
+2,32,G218S (GGC->AGC),modC ->,1
+2,32,coding (1005/1245 nt),mtr <-,1
+2,32,T300K (ACG->AAG),mutS ->,1
+2,32,intergenic (-82/+27),nlpI <- / <- pnp,1
+2,32,Y88C (TAC->TGC),nrfD ->,1
+2,32,S126F (TCT->TTT),oppA ->,1
+2,32,Q195* (CAA->TAA),paaX ->,1
+2,32,coding (251/1026 nt),purR ->,1
+2,32,L282Q (CTG->CAG),putP ->,1
+2,32,A32V (GCG->GTG),rimJ ->,1
+2,32,E1272G (GAG->GGG),rpoB ->,1
+2,32,K334Q (AAA->CAA),rpoC ->,1
+2,32,G34D (GGT->GAT),smg <-,1
+2,32,T92A (ACC->GCC),sstT ->,1
+2,32,V117D (GTT->GAT),tam ->,1
+2,32,coding (928-930/1854 nt),yacH <-,1
+2,32,G97S (GGT->AGT),yadS <-,1
+2,32,G193G (GGG->GGA),yciW <-,1
+2,32,intergenic (+71/+202),yegQ -> / <- ogrK,1
+2,32,pseudogene (237/2253 nt),ygaQ ->,1
+2,32,F650Y (TTC->TAC),yghJ <-,1
+2,32,F95S (TTT->TCT),yigG <-,1
+2,32,V198A (GTG->GCG),yigL ->,1
+2,32,intergenic (-173/+42),yoeI <- / <- yeeY,1
+2,42,intergenic (-73/+61),adhP <- / <- maeA,1
+2,42,N360S (AAC->AGC),aldB <-,1
+2,42,intergenic (+303/-96),alx -> / -> sstT,1
+2,42,C251Y (TGC->TAC),cytR <-,1
+2,42,S42S (TCT->TCC),dapB ->,1
+2,42,coding (521-529/759 nt),deoR <-,1
+2,42,intergenic (+182/-127),fklB -> / -> cycA,1
+2,42,intergenic (-141/+47),frmR <- / <- yaiO,1
+2,42,G71D (GGC->GAC),galP ->,1
+2,42,I127T (ATC->ACC),gcvA <-,1
+2,42,S270G (AGT->GGT),htpX <-,1
+2,42,pseudogene (295/984 nt),ilvG ->,1
+2,42,intergenic (-101/+229),insH1 <- / <- lnt,1
+2,42,coding (804/1848 nt),ldtD ->,1
+2,42,noncoding (72/87 nt),leuV <-,1
+2,42,T211R (ACG->AGG),mnmC ->,1
+2,42,T954T (ACC->ACT),mscM <-,1
+2,42,T300K (ACG->AAG),mutS ->,1
+2,42,L86L (TTG->TTA),narX <-,1
+2,42,Y88C (TAC->TGC),nrfD ->,1
+2,42,coding (280/951 nt),paaX ->,1
+2,42,intergenic (-32/-239),ppiA <- / -> tsgA,1
+2,42,E289E (GAG->GAA),pspF <-,1
+2,42,coding (251/1026 nt),purR ->,1
+2,42,R179R (CGC->CGT),ribC <-,1
+2,42,Q176* (CAA->TAA),rimJ ->,1
+2,42,E1272G (GAG->GGG),rpoB ->,1
+2,42,T92A (ACC->GCC),sstT ->,1
+2,42,R348H (CGT->CAT),sucC ->,1
+2,42,L590L (CTC->CTA),xdhA ->,1
+2,42,coding (928-930/1854 nt),yacH <-,1
+2,42,coding (105/855 nt),yagM <-,1
+2,42,pseudogene (100/108 nt),ycgI ->,1
+2,42,G193G (GGG->GGA),yciW <-,1
+2,42,intergenic (-79/-478),ydhZ <- / -> pykF,1
+2,42,T63A (ACG->GCG),yiaT <-,1
+2,42,F95S (TTT->TCT),yigG <-,1
+2,64,Y531H (TAT->CAT),arpA <-,1
+2,64,coding (690-692/2277 nt),clpA ->,1
+2,64,E56K (GAG->AAG),crp ->,1
+2,64,coding (1015/1212 nt),dacA <-,1
+2,64,A314D (GCC->GAC),edd <-,1
+2,64,intergenic (+193/-116),fklB -> / -> cycA,1
+2,64,pseudogene (910-911/914 nt),gatC <-,1
+2,64,intergenic (-141/+307),gcvT <- / <- ubiI,1
+2,64,intergenic (-101/+229),insH1 <- / <- lnt,1
+2,64,T300K (ACG->AAG),mutS ->,1
+2,64,Y88C (TAC->TGC),nrfD ->,1
+2,64,R335C (CGT->TGT),prc <-,1
+2,64,E132* (GAA->TAA),proQ <-,1
+2,64,intergenic (-43/-215),purL <- / -> mltF,1
+2,64,coding (251/1026 nt),purR ->,1
+2,64,A208T (GCC->ACC),putA <-,1
+2,64,L282Q (CTG->CAG),putP ->,1
+2,64,intergenic (-7/-14),relB <- / -> ydfV,1
+2,64,coding (198/585 nt),rimJ ->,1
+2,64,S198P (TCC->CCC),rnhB ->,1
+2,64,E1272G (GAG->GGG),rpoB ->,1
+2,64,T428S (ACT->TCT),rpoC ->,1
+2,64,I72F (ATC->TTC),rpsI <-,1
+2,64,G62D (GGC->GAC),talA ->,1
+2,64,coding (928-930/1854 nt),yacH <-,1
+2,64,G193G (GGG->GGA),yciW <-,1
+2,64,R196Q (CGG->CAG),ydcI <-,1
+2,64,F95S (TTT->TCT),yigG <-,1
+2,64,intergenic (-44/-95),yobA <- / -> holE,1
+2,64,G51A (GGG->GCG),yodC <-,1
+2,127,pseudogene (1022/1134 nt),aaaE ->,1
+2,127,E378K (GAA->AAA),abgT <-,1
+2,127,R130R (CGT->CGC),aceA ->,1
+2,127,I348I (ATT->ATC),acnB ->,1
+2,127,V531A (GTA->GCA),acrB <-,1
+2,127,Q139Q (CAG->CAA),acrE ->,1
+2,127,F352L (TTC->CTC),acrF ->,1
+2,127,coding (464-466/1650 nt),actP <-,1
+2,127,intergenic (-73/+61),adhP <- / <- maeA,1
+2,127,T567A (ACG->GCG),alaS <-,1
+2,127,A160V (GCC->GTC),aldA ->,1
+2,127,intergenic (+251/-148),alx -> / -> sstT,1
+2,127,V347A (GTG->GCG),amn ->,1
+2,127,G371D (GGC->GAC),amtB ->,1
+2,127,coding (77/1017 nt),ansA ->,1
+2,127,intergenic (-65/+61),araJ <- / <- sbcC,1
+2,127,E140G (GAA->GGA),arfB ->,1
+2,127,G149G (GGC->GGT),argB ->,1
+2,127,P216S (CCA->TCA),argC ->,1
+2,127,G41D (GGC->GAC),arnD ->,1
+2,127,L192F (CTT->TTT),aroB <-,1
+2,127,G94G (GGA->GGG),aroE <-,1
+2,127,N343S (AAC->AGC),aslB ->,1
+2,127,R260R (CGC->CGT),asnB <-,1
+2,127,intergenic (+145/-51),atoC -> / -> atoD,1
+2,127,E689K (GAA->AAA),bamA ->,1
+2,127,A439S (GCG->TCG),bcsC <-,1
+2,127,A322T (GCC->ACC),bepA ->,1
+2,127,E150E (GAG->GAA),bglB <-,1
+2,127,P100T (CCG->ACG),bioA <-,1
+2,127,A301V (GCT->GTT),brnQ ->,1
+2,127,coding (744/801 nt),btuF <-,1
+2,127,coding (487/1539 nt),cadC <-,1
+2,127,coding (1237/1554 nt),caiC <-,1
+2,127,G341D (GGC->GAC),carB ->,1
+2,127,intergenic (+5/-84),cbeA -> / -> cbtA,1
+2,127,G180G (GGG->GGA),cbpA <-,1
+2,127,coding (290/738 nt),ccmC <-,1
+2,127,coding (55/210 nt),ccmD <-,1
+2,127,A149T (GCG->ACG),cheB <-,1
+2,127,coding (345/681 nt),citB ->,1
+2,127,A314V (GCG->GTG),citC <-,1
+2,127,intergenic (+52/-136),clpX -> / -> lon,1
+2,127,P159L (CCA->CTA),clsC ->,1
+2,127,A254V (GCT->GTT),cobT <-,1
+2,127,coding (1314/1437 nt),cpsB <-,1
+2,127,coding (365/408 nt),cptA <-,1
+2,127,E56K (GAG->AAG),crp ->,1
+2,127,S790L (TCG->TTG),cyaA ->,1
+2,127,intergenic (+16/+24),cyaA -> / <- cyaY,1
+2,127,intergenic (-83/-233),cysJ <- / -> queD,1
+2,127,V50I (GTC->ATC),cysM <-,1
+2,127,intergenic (-36/+268),cysP <- / <- ucpA,1
+2,127,C251Y (TGC->TAC),cytR <-,1
+2,127,coding (688/1167 nt),dacD <-,1
+2,127,intergenic (+128/+258),dadX -> / <- cvrA,1
+2,127,coding (57/1302 nt),dcuA <-,1
+2,127,intergenic (-129/-460),dcuC <- / -> pagP,1
+2,127,D66D (GAT->GAC),dcuR <-,1
+2,127,G179R (GGG->AGG),ddlA <-,1
+2,127,coding (521-529/759 nt),deoR <-,1
+2,127,P43P (CCA->CCG),dgoA <-,1
+2,127,Q193R (CAG->CGG),dgoR <-,1
+2,127,intergenic (-129/-149),dgoR <- / -> yidX,1
+2,127,T129A (ACT->GCT),dhaK <-,1
+2,127,coding (105/189 nt),dicB ->,1
+2,127,coding (36/231 nt),dicC <-,1
+2,127,intergenic (+35/-160),dnaG -> / -> rpoD,1
+2,127,coding (1914/1917 nt),dnaK ->,1
+2,127,G180D (GGT->GAT),dnaQ ->,1
+2,127,Y53N (TAT->AAT),dppA <-,1
+2,127,intergenic (-70/+841),dppA <- / <- proK,1
+2,127,A462V (GCG->GTG),dsbD <-,1
+2,127,intergenic (+64/-43),dut -> / -> slmA,1
+2,127,Y14Y (TAC->TAT),ebgC ->,1
+2,127,P25P (CCC->CCT),ecpC <-,1
+2,127,V147M (GTG->ATG),ecpD <-,1
+2,127,coding (1225/1272 nt),efeB ->,1
+2,127,P286S (CCT->TCT),elfC ->,1
+2,127,coding (418/621 nt),entD <-,1
+2,127,coding (629/1404 nt),eutA <-,1
+2,127,G509G (GGT->GGC),fadB <-,1
+2,127,H27Y (CAC->TAC),fadH ->,1
+2,127,A206E (GCA->GAA),fbaA <-,1
+2,127,G972G (GGT->GGC),fdoG <-,1
+2,127,I85I (ATT->ATC),fecD <-,1
+2,127,intergenic (+197/-285),fimE -> / -> fimA,1
+2,127,intergenic (+182/-127),fklB -> / -> cycA,1
+2,127,coding (805/813 nt),fkpA <-,1
+2,127,G132G (GGC->GGA),flgN <-,1
+2,127,coding (138/1659 nt),fliF ->,1
+2,127,T32A (ACC->GCC),fliI ->,1
+2,127,intergenic (-353/+53),focA <- / <- ycaO,1
+2,127,intergenic (+36/+2),focB -> / <- yfgO,1
+2,127,S97S (AGC->AGT),folB <-,1
+2,127,intergenic (-22/+72),frmB <- / <- frmA,1
+2,127,intergenic (-141/+47),frmR <- / <- yaiO,1
+2,127,T42I (ACT->ATT),frvB <-,1
+2,127,T362S (ACT->TCT),frvR <-,1
+2,127,N359S (AAT->AGT),frwC ->,1
+2,127,V115A (GTC->GCC),ftsH <-,1
+2,127,Y401Y (TAT->TAC),ftsI ->,1
+2,127,P174P (CCC->CCT),ftsP <-,1
+2,127,V26I (GTC->ATC),fucK ->,1
+2,127,I418I (ATC->ATT),fusA <-,1
+2,127,coding (105/528 nt),gadE ->,1
+2,127,intergenic (+69/-270),gadE -> / -> mdtE,1
+2,127,intergenic (-207/+161),gadW <- / <- gadX,1
+2,127,A21T (GCT->ACT),gapA ->,1
+2,127,coding (23/1335 nt),garP <-,1
+2,127,coding (390/1263 nt),gatZ <-,1
+2,127,intergenic (-334/+17),gcvA <- / <- ygdI,1
+2,127,intergenic (-141/+307),gcvT <- / <- ubiI,1
+2,127,M48I (ATG->ATA),gdhA ->,1
+2,127,A42V (GCT->GTT),ghrA ->,1
+2,127,A457A (GCA->GCG),glgA <-,1
+2,127,F90L (TTC->CTC),glgC <-,1
+2,127,G294V (GGC->GTC),glgX <-,1
+2,127,E358K (GAA->AAA),glpC ->,1
+2,127,A399V (GCC->GTC),glpD ->,1
+2,127,D202D (GAC->GAT),glpQ <-,1
+2,127,Y233Y (TAC->TAT),glsA ->,1
+2,127,M172I (ATG->ATA),gltJ <-,1
+2,127,T169T (ACC->ACT),gltK <-,1
+2,127,G420G (GGT->GGC),gltX <-,1
+2,127,pseudogene (1329/1617 nt),glvC <-,1
+2,127,intergenic (-185/-143),glyA <- / -> hmp,1
+2,127,intergenic (+181/-182),gmhB -> / -> rrsH,1
+2,127,coding (57/174 nt),gnsB <-,1
+2,127,M178I (ATG->ATA),gntU <-,1
+2,127,G140D (GGC->GAC),gshA <-,1
+2,127,K456K (AAA->AAG),guaB <-,1
+2,127,coding (1074/1341 nt),gudX <-,1
+2,127,coding (459/1362 nt),hcaE ->,1
+2,127,intergenic (-69/-186),hdeA <- / -> hdeD,1
+2,127,coding (378/687 nt),hisQ <-,1
+2,127,E186E (GAG->GAA),hisS <-,1
+2,127,N307N (AAC->AAT),holB ->,1
+2,127,L647L (CTG->TTG),hsdR <-,1
+2,127,intergenic (-181/+11),htpX <- / <- prc,1
+2,127,G231S (GGC->AGC),hyfG ->,1
+2,127,C81Y (TGT->TAT),hyfH ->,1
+2,127,C343C (TGT->TGC),hypD ->,1
+2,127,T7A (ACC->GCC),ileS ->,1
+2,127,V230I (GTT->ATT),ilvA ->,1
+2,127,G212G (GGC->GGT),ilvD ->,1
+2,127,W208* (TGG->TAG),ilvY <-,1
+2,127,A275T (GCG->ACG),insD1 <-,1
+2,127,intergenic (-101/+229),insH1 <- / <- lnt,1
+2,127,pseudogene (147/258 nt),insN ->,1
+2,127,pseudogene (299/567 nt),insZ <-,1
+2,127,intergenic (+253/-79),intB -> / -> insC1,1
+2,127,E143K (GAA->AAA),intS ->,1
+2,127,intergenic (-85/+615),iraM <- / <- ycgX,1
+2,127,T321T (ACC->ACT),ispG <-,1
+2,127,coding (1627/1674 nt),kdpA <-,1
+2,127,E204K (GAA->AAA),kdpE <-,1
+2,127,coding (678/1806 nt),kefB <-,1
+2,127,T151I (ACC->ATC),lacA <-,1
+2,127,coding (309/2142 nt),ldcC ->,1
+2,127,coding (629/1005 nt),ldtE <-,1
+2,127,S123S (TCC->TCA),lgt <-,1
+2,127,S1296S (AGT->AGC),lhr ->,1
+2,127,coding (1260/1683 nt),ligB <-,1
+2,127,coding (954/1194 nt),lplT <-,1
+2,127,L273F (CTC->TTC),lptG ->,1
+2,127,I53I (ATC->ATT),luxS <-,1
+2,127,L195F (CTC->TTC),lyxK ->,1
+2,127,coding (1180/1698 nt),maeA <-,1
+2,127,intergenic (-608/-4),malP <- / -> malT,1
+2,127,L301L (TTG->TTA),manA ->,1
+2,127,coding (673/1233 nt),mdfA ->,1
+2,127,I466I (ATC->ATT),mdtP <-,1
+2,127,pseudogene (1270/1287 nt),mdtQ <-,1
+2,127,S184G (AGC->GGC),menD <-,1
+2,127,V207V (GTG->GTT),metB ->,1
+2,127,G351D (GGC->GAC),metH ->,1
+2,127,coding (204/459 nt),mgsA <-,1
+2,127,intergenic (+63/-78),mgtL -> / -> mgtA,1
+2,127,coding (474/1098 nt),mltA <-,1
+2,127,coding (1199/1236 nt),moeA <-,1
+2,127,coding (291/531 nt),mprA ->,1
+2,127,S269S (AGC->AGT),mrdA <-,1
+2,127,L141L (CTG->CTA),mscM <-,1
+2,127,intergenic (-39/+59),mutM <- / <- rpmG,1
+2,127,T300K (ACG->AAG),mutS ->,1
+2,127,intergenic (+3/+213),mutT -> / <- yacG,1
+2,127,I184V (ATT->GTT),nac <-,1
+2,127,V125V (GTC->GTT),nanK <-,1
+2,127,F45L (TTT->CTT),napH <-,1
+2,127,A143T (GCC->ACC),narG ->,1
+2,127,V35I (GTT->ATT),narL <-,1
+2,127,coding (3508/3741 nt),narZ <-,1
+2,127,G156E (GGA->GAA),nei ->,1
+2,127,E642G (GAA->GGA),nfrA <-,1
+2,127,coding (58/654 nt),nfsB <-,1
+2,127,N229N (AAT->AAC),nikB ->,1
+2,127,V214M (GTG->ATG),nirB ->,1
+2,127,intergenic (-90/-132),nlpA <- / -> yicS,1
+2,127,C179Y (TGC->TAC),nrdA ->,1
+2,127,Y88C (TAC->TGC),nrfD ->,1
+2,127,coding (763/1659 nt),nrfE ->,1
+2,127,F148L (TTC->CTC),nuoB <-,1
+2,127,L544L (CTG->CTA),nuoL <-,1
+2,127,coding (178/219 nt),ogrK <-,1
+2,127,intergenic (-199/+158),ompA <- / <- sulA,1
+2,127,coding (113-117/1104 nt),ompC <-,1
+2,127,L64S (TTA->TCA),opgB <-,1
+2,127,N68N (AAC->AAT),pal ->,1
+2,127,C127Y (TGT->TAT),panM ->,1
+2,127,E91E (GAA->GAG),pdxY <-,1
+2,127,G77D (GGT->GAT),pepA <-,1
+2,127,intergenic (-61/-35),perR <- / -> insN,1
+2,127,E328E (GAA->GAG),pfo <-,1
+2,127,H95Y (CAC->TAC),pgaC <-,1
+2,127,E47E (GAG->GAA),pheS <-,1
+2,127,G350S (GGC->AGC),phnM <-,1
+2,127,I337V (ATT->GTT),phoE <-,1
+2,127,intergenic (-49/+120),phoP <- / <- purB,1
+2,127,G141D (GGC->GAC),pinR <-,1
+2,127,P310L (CCG->CTG),prc <-,1
+2,127,A128A (GCG->GCA),preA ->,1
+2,127,E342E (GAA->GAG),prfA ->,1
+2,127,E132* (GAA->TAA),proQ <-,1
+2,127,intergenic (+41/-172),pspE -> / -> ycjM,1
+2,127,I170V (ATC->GTC),pstC <-,1
+2,127,T308A (ACC->GCC),pstS <-,1
+2,127,M500I (ATG->ATA),pta ->,1
+2,127,R381H (CGT->CAT),ptsP <-,1
+2,127,P12P (CCG->CCA),purF <-,1
+2,127,coding (251/1026 nt),purR ->,1
+2,127,R629H (CGC->CAC),putA <-,1
+2,127,L282Q (CTG->CAG),putP ->,1
+2,127,S31S (AGC->AGT),pyrE <-,1
+2,127,intergenic (-98/-41),queE <- / -> yqcG,1
+2,127,R76L (CGT->CTT),radA ->,1
+2,127,intergenic (-20/-112),ratA <- / -> smpB,1
+2,127,A51V (GCC->GTC),rbn ->,1
+2,127,A97D (GCC->GAC),rbsA ->,1
+2,127,G647V (GGT->GTT),recB <-,1
+2,127,E83* (GAA->TAA),recD <-,1
+2,127,H239Y (CAT->TAT),rfbB <-,1
+2,127,H38Y (CAC->TAC),rhaA <-,1
+2,127,coding (278/1035 nt),rhaT <-,1
+2,127,coding (1251/4281 nt),rhsD ->,1
+2,127,intergenic (+63/-26),ribD -> / -> ribE,1
+2,127,coding (483/585 nt),rimJ ->,1
+2,127,V59V (GTA->GTG),rplA ->,1
+2,127,T102A (ACT->GCT),rplX <-,1
+2,127,E288G (GAG->GGG),rpoA <-,1
+2,127,E1272G (GAG->GGG),rpoB ->,1
+2,127,intergenic (+23/-54),rpoB -> / -> rpoC,1
+2,127,T428S (ACT->TCT),rpoC ->,1
+2,127,G411D (GGC->GAC),rpoN ->,1
+2,127,R156W (CGG->TGG),rpoS <-,1
+2,127,intergenic (+13/-80),rrlB -> / -> rrfB,1
+2,127,noncoding (2410/2904 nt),rrlC ->,1
+2,127,A63V (GCA->GTA),rseB <-,1
+2,127,H145H (CAT->CAC),rsmB ->,1
+2,127,intergenic (-30/-73),rsmC <- / -> holD,1
+2,127,coding (514/906 nt),rssA ->,1
+2,127,I209I (ATT->ATC),rsxC ->,1
+2,127,T213A (ACG->GCG),rtcB <-,1
+2,127,R618Q (CGG->CAG),sbcC <-,1
+2,127,intergenic (+105/-2),sbp -> / -> cdh,1
+2,127,S417S (AGC->AGT),scpC ->,1
+2,127,coding (239/1290 nt),sdaC ->,1
+2,127,L197L (CTA->CTG),selA <-,1
+2,127,coding (376/633 nt),sfmZ <-,1
+2,127,coding (245/432 nt),sgcA <-,1
+2,127,F277F (TTC->TTT),sgcC <-,1
+2,127,Y71H (TAC->CAC),slyD <-,1
+2,127,P211P (CCA->CCG),srlE ->,1
+2,127,coding (362/846 nt),sseA ->,1
+2,127,H13Y (CAC->TAC),ssnA ->,1
+2,127,A301T (GCG->ACG),sstT ->,1
+2,127,E251G (GAA->GGA),sucB ->,1
+2,127,A52V (GCA->GTA),tap <-,1
+2,127,P134S (CCC->TCC),tcdA <-,1
+2,127,A227V (GCC->GTC),thiL ->,1
+2,127,Y199H (TAT->CAT),torS <-,1
+2,127,intergenic (-315/+73),torY <- / <- cutC,1
+2,127,S207S (AGC->AGT),torZ <-,1
+2,127,T224T (ACT->ACC),trmH ->,1
+2,127,L400I (CTT->ATT),trpC <-,1
+2,127,G148D (GGC->GAC),trpE <-,1
+2,127,E227K (GAA->AAA),uacT ->,1
+2,127,coding (1265/1392 nt),uhpT <-,1
+2,127,V38M (GTG->ATG),ulaC ->,1
+2,127,G17D (GGC->GAC),usg <-,1
+2,127,coding (641-649/951 nt),uspE <-,1
+2,127,E96E (GAA->GAG),uspG <-,1
+2,127,Q178H (CAA->CAT),waaG <-,1
+2,127,intergenic (-147/+28),wcaN <- / <- wcaM,1
+2,127,L232F (CTC->TTC),wecA ->,1
+2,127,L274L (TTA->TTG),wecB ->,1
+2,127,L245L (CTA->CTG),wecF ->,1
+2,127,H106Y (CAC->TAC),wzb <-,1
+2,127,intergenic (-1/+5),wzb <- / <- wza,1
+2,127,P231L (CCG->CTG),xapR <-,1
+2,127,V408V (GTT->GTC),xdhD ->,1
+2,127,Q378Q (CAG->CAA),xseA ->,1
+2,127,coding (917/1323 nt),xylA <-,1
+2,127,pseudogene (562/579 nt),yabP ->,1
+2,127,coding (928-930/1854 nt),yacH <-,1
+2,127,V131A (GTC->GCC),yaeF <-,1
+2,127,intergenic (-97/-198),yagA <- / -> yagE,1
+2,127,Q35Q (CAG->CAA),yahE ->,1
+2,127,coding (644/816 nt),yahL ->,1
+2,127,A84V (GCC->GTC),yaiE ->,1
+2,127,intergenic (+89/+227),ybaQ -> / <- copA,1
+2,127,A459S (GCA->TCA),ybbP ->,1
+2,127,Y277C (TAT->TGT),ybbY ->,1
+2,127,intergenic (+239/-226),ybcK -> / -> ybcL,1
+2,127,P25S (CCT->TCT),ybdF <-,1
+2,127,V86V (GTA->GTG),ybdG <-,1
+2,127,T171T (ACC->ACT),ybfD ->,1
+2,127,coding (179/729 nt),ybgP <-,1
+2,127,L554P (CTC->CCC),ybgQ <-,1
+2,127,G23D (GGC->GAC),ybiO <-,1
+2,127,intergenic (-23/+238),ybiO <- / <- glnQ,1
+2,127,G34D (GGT->GAT),ybjD ->,1
+2,127,D331N (GAT->AAT),ybjJ <-,1
+2,127,E135K (GAA->AAA),ybjT <-,1
+2,127,N4N (AAT->AAC),ycaN <-,1
+2,127,intergenic (+231/-169),ycfP -> / -> ndh,1
+2,127,intergenic (-160/-102),ycfT <- / -> lolC,1
+2,127,E42K (GAA->AAA),ycfZ <-,1
+2,127,A32T (GCA->ACA),ycgG ->,1
+2,127,pseudogene (80/2648 nt),ycgH ->,1
+2,127,Q70Q (CAA->CAG),ychE ->,1
+2,127,intergenic (-97/-16),ychJ <- / -> rssA,1
+2,127,K548R (AAA->AGA),yciQ ->,1
+2,127,G193G (GGG->GGA),yciW <-,1
+2,127,G151D (GGT->GAT),ycjY <-,1
+2,127,E135E (GAA->GAG),ydaN ->,1
+2,127,coding (110/423 nt),ydaT ->,1
+2,127,V135F (GTT->TTT),ydaV ->,1
+2,127,V316A (GTA->GCA),ydcC ->,1
+2,127,Q108* (CAG->TAG),ydcF ->,1
+2,127,R196Q (CGG->CAG),ydcI <-,1
+2,127,A234V (GCG->GTG),ydcR ->,1
+2,127,L291L (CTG->TTG),ydcU ->,1
+2,127,H142H (CAT->CAC),yddE <-,1
+2,127,S395N (AGC->AAC),ydhK ->,1
+2,127,intergenic (-80/-23),ydhL <- / -> nemR,1
+2,127,intergenic (-449/-108),ydhZ <- / -> pykF,1
+2,127,coding (338-342/357 nt),ydiL ->,1
+2,127,coding (610/912 nt),ydiP <-,1
+2,127,A118T (GCC->ACC),ydiS ->,1
+2,127,coding (797/837 nt),ydjI <-,1
+2,127,coding (617/1182 nt),yeaN ->,1
+2,127,intergenic (+357/-235),yedS -> / -> hchA,1
+2,127,coding (1866/7077 nt),yeeJ ->,1
+2,127,pseudogene (946/1053 nt),yeeL <-,1
+2,127,H407Y (CAT->TAT),yehB <-,1
+2,127,D255V (GAT->GTT),yehI ->,1
+2,127,N23S (AAT->AGT),yehX <-,1
+2,127,coding (854-855/1761 nt),yejH ->,1
+2,127,pseudogene (3464/4605 nt),yfaS <-,1
+2,127,coding (295/456 nt),yfbV <-,1
+2,127,L20L (TTG->TTA),yfcH ->,1
+2,127,intergenic (-111/+570),yfcV <- / <- sixA,1
+2,127,V26A (GTT->GCT),yfdF ->,1
+2,127,A216T (GCC->ACC),ygbK ->,1
+2,127,V746I (GTC->ATC),ygcB <-,1
+2,127,intergenic (-33/-286),ygcW <- / -> yqcE,1
+2,127,A48T (GCG->ACG),ygdD <-,1
+2,127,E106K (GAA->AAA),ygdQ ->,1
+2,127,A134T (GCG->ACG),ygfK ->,1
+2,127,pseudogene (79/420 nt),yghX <-,1
+2,127,intergenic (-70/-136),yghX <- / -> gpr,1
+2,127,G211G (GGC->GGT),ygiQ <-,1
+2,127,P67S (CCA->TCA),ygiZ <-,1
+2,127,intergenic (+50/-27),ygjP -> / -> ygjQ,1
+2,127,T274I (ACA->ATA),yhaC ->,1
+2,127,intergenic (+615/+408),yhaC -> / <- garK,1
+2,127,V29I (GTC->ATC),yhcM <-,1
+2,127,S975L (TCA->TTA),yhdP <-,1
+2,127,L150F (CTC->TTC),yhfZ <-,1
+2,127,coding (1170/1218 nt),yhhS <-,1
+2,127,coding (471/1038 nt),yhhX <-,1
+2,127,coding (479/1179 nt),yhhZ ->,1
+2,127,pseudogene (296/483 nt),yhiS ->,1
+2,127,S171P (TCC->CCC),yiaD ->,1
+2,127,pseudogene (72/87 nt),yibU ->,1
+2,127,intergenic (+54/-111),yibV -> / -> yibU,1
+2,127,pseudogene (202-206/282 nt),yibW ->,1
+2,127,coding (110/2319 nt),yicI <-,1
+2,127,T315A (ACT->GCT),yicO <-,1
+2,127,P242S (CCT->TCT),yidA <-,1
+2,127,L254L (CTG->TTG),yidE <-,1
+2,127,T306A (ACC->GCC),yidJ <-,1
+2,127,F95S (TTT->TCT),yigG <-,1
+2,127,intergenic (+114/-98),yiiR -> / -> yiiS,1
+2,127,intergenic (+82/-105),yjaG -> / -> hupA,1
+2,127,coding (4/690 nt),yjcO <-,1
+2,127,A175T (GCG->ACG),yjdC <-,1
+2,127,L23L (CTG->CTA),yjfF ->,1
+2,127,G43E (GGA->GAA),yjgH <-,1
+2,127,coding (243/1197 nt),yjgN ->,1
+2,127,R27R (CGT->CGC),yjiL <-,1
+2,127,coding (1313/2151 nt),yjiY <-,1
+2,127,G148E (GGA->GAA),ykfM <-,1
+2,127,coding (8-12/102 nt),ylcH ->,1
+2,127,coding (45/105 nt),ymiB ->,1
+2,127,IS5-mediated,ynaJ-[trkG],1
+2,127,V180V (GTT->GTC),yneJ ->,1
+2,127,P4S (CCA->TCA),yneK ->,1
+2,127,intergenic (-30/-74),ynfC <- / -> ynfD,1
+2,127,coding (1002/2424 nt),ynfF ->,1
+2,127,R214* (CGA->TGA),ynfL <-,1
+2,127,*207* (TAA->TGA),ynjF <-,1
+2,127,intergenic (-56/+72),ynjI <- / <- topB,1
+2,127,Q511* (CAA->TAA),yoaE <-,1
+2,127,intergenic (-173/+42),yoeI <- / <- yeeY,1
+2,127,V154I (GTT->ATT),ypdE <-,1
+2,127,coding (233/276 nt),ypdI ->,1
+2,127,G90D (GGC->GAC),ypeC ->,1
+2,127,G270S (GGC->AGC),yqhD ->,1
+2,127,coding (531/1065 nt),yqiI ->,1
+2,127,coding (237/630 nt),yqiJ ->,1
+2,127,L305L (CTC->CTT),yraQ <-,1
+2,127,A39T (GCT->ACT),znuA <-,1
+3,11,coding (541-549/1026 nt),cytR <-,1
+3,11,coding (495/759 nt),deoR <-,1
+3,11,E1272A (GAG->GCG),rpoB ->,1
+3,11,T428S (ACT->AGT),rpoC ->,1
+3,64,intergenic (+251/-148),alx -> / -> sstT,1
+3,64,Y53N (TAT->AAT),dppA <-,1
+3,64,intergenic (+182/-127),fklB -> / -> cycA,1
+3,64,intergenic (-141/+47),frmR <- / <- yaiO,1
+3,64,intergenic (-68/+283),gcvA <- / <- ygdI,1
+3,64,intergenic (-141/+307),gcvT <- / <- ubiI,1
+3,64,V527V (GTG->GTA),hsdM <-,1
+3,64,intergenic (-92/+238),insH1 <- / <- lnt,1
+3,64,A163V (GCA->GTA),lrhA <-,1
+3,64,M139T (ATG->ACG),mhpF ->,1
+3,64,coding (21/2562 nt),mutS ->,1
+3,64,P92S (CCT->TCT),nudL ->,1
+3,64,S273R (AGC->CGC),oppA ->,1
+3,64,V419D (GTC->GAC),prc <-,1
+3,64,intergenic (-38/+54),proK <- / <- eptB,1
+3,64,coding (394/699 nt),proQ <-,1
+3,64,R339L (CGC->CTC),putA <-,1
+3,64,intergenic (-284/-139),putA <- / -> putP,1
+3,64,L282Q (CTG->CAG),putP ->,1
+3,64,E1272G (GAG->GGG),rpoB ->,1
+3,64,T428S (ACT->AGT),rpoC ->,1
+3,64,N461D (AAC->GAC),rpoD ->,1
+3,64,E40G (GAA->GGA),rpsG <-,1
+3,64,T92A (ACC->GCC),sstT ->,1
+3,64,A159A (GCC->GCT),sucA ->,1
+3,64,D196D (GAC->GAT),trmI <-,1
+3,64,V249A (GTC->GCC),yahB <-,1
+3,64,H18R (CAC->CGC),yebV ->,1
+3,64,intergenic (-256/-116),yfcZ <- / -> fadL,1
+3,64,T106K (ACG->AAG),ygcS <-,1
+3,64,coding (732/1128 nt),yhcM <-,1
+3,64,intergenic (-63/-76),yobA <- / -> holE,1
+3,64,coding,NA,1
+3,127,intergenic (+251/-148),alx -> / -> sstT,1
+3,127,coding (1891-1895/2277 nt),clpA ->,1
+3,127,L180P (CTG->CCG),cpdA <-,1
+3,127,E56K (GAG->AAG),crp ->,1
+3,127,intergenic (-257/-62),cspD <- / -> clpS,1
+3,127,coding (514/1212 nt),dacA <-,1
+3,127,coding (718-722/1302 nt),dcuA <-,1
+3,127,intergenic (-25/+89),dcuA <- / <- aspA,1
+3,127,R417C (CGT->TGT),djlB ->,1
+3,127,Y53N (TAT->AAT),dppA <-,1
+3,127,coding (352/612 nt),emtA ->,1
+3,127,A311V (GCC->GTC),envZ <-,1
+3,127,S248S (AGC->AGT),eutT <-,1
+3,127,intergenic (+182/-127),fklB -> / -> cycA,1
+3,127,intergenic (-141/+47),frmR <- / <- yaiO,1
+3,127,intergenic (-68/+283),gcvA <- / <- ygdI,1
+3,127,intergenic (-141/+307),gcvT <- / <- ubiI,1
+3,127,M204V (ATG->GTG),gltI <-,1
+3,127,V527V (GTG->GTA),hsdM <-,1
+3,127,intergenic (-39/+291),insH1 <- / <- lnt,1
+3,127,coding (13-17/792 nt),kdgR <-,1
+3,127,intergenic (-226/-6),mdtH <- / -> rimJ,1
+3,127,L391L (CTG->CTA),mdtM <-,1
+3,127,intergenic (-165/-44),mltA <- / -> metZ,1
+3,127,coding (21/2562 nt),mutS ->,1
+3,127,I662T (ATC->ACC),prc <-,1
+3,127,coding (60/699 nt),proQ <-,1
+3,127,R339L (CGC->CTC),putA <-,1
+3,127,intergenic (-284/-139),putA <- / -> putP,1
+3,127,V205A (GTC->GCC),putP ->,1
+3,127,coding (538-542/585 nt),rimJ ->,1
+3,127,E1272G (GAG->GGG),rpoB ->,1
+3,127,T428S (ACT->AGT),rpoC ->,1
+3,127,T92A (ACC->GCC),sstT ->,1
+3,127,A159A (GCC->GCT),sucA ->,1
+3,127,H24R (CAC->CGC),sucD ->,1
+3,127,D196D (GAC->GAT),trmI <-,1
+3,127,G229S (GGC->AGC),wcaM <-,1
+3,127,V249A (GTC->GCC),yahB <-,1
+3,127,A183V (GCG->GTG),ybjD ->,1
+3,127,R196Q (CGG->CAG),ydcI <-,1
+3,127,intergenic (-21/+230),ydeT <- / <- yneL,1
+3,127,H18R (CAC->CGC),yebV ->,1
+3,127,IS5-mediated,ynaJ-[trkG],1
+3,127,coding,NA,1
+4,11,T294N (ACC->AAC),mreB <-,1
+4,11,R73L (CGA->CTA),rhaT <-,1
+4,11,H1237Q (CAC->CAA),rpoB ->,1
+4,11,K334Q (AAA->CAA),rpoC ->,1
+4,22,I129S (ATC->AGC),atoC ->,1
+4,22,A152E (GCG->GAG),cytR <-,1
+4,22,coding (397/759 nt),deoR <-,1
+4,22,T44M (ACG->ATG),fadR ->,1
+4,22,H145R (CAT->CGT),inaA <-,1
+4,22,T428S (ACT->AGT),rpoC ->,1
+4,22,E6D (GAA->GAC),ymfE <-,1
+4,32,T318M (ACG->ATG),barA ->,1
+4,32,Q211Q (CAA->CAG),chbR <-,1
+4,32,A152E (GCG->GAG),cytR <-,1
+4,32,coding (317-326/759 nt),deoR <-,1
+4,32,H302Y (CAC->TAC),dinB ->,1
+4,32,V437I (GTT->ATT),dtpA ->,1
+4,32,I165L (ATC->CTC),flgI ->,1
+4,32,I106T (ATT->ACT),gcvA <-,1
+4,32,intergenic (-141/+307),gcvT <- / <- ubiI,1
+4,32,G43G (GGC->GGT),hemA ->,1
+4,32,intergenic (-27/+303),insH1 <- / <- lnt,1
+4,32,noncoding (72/87 nt),leuV <-,1
+4,32,coding (214-300/1848 nt),mutL ->,1
+4,32,S273R (AGC->CGC),oppA ->,1
+4,32,C168* (TGT->TGA),paaX ->,1
+4,32,I120I (ATT->ATA),phoR ->,1
+4,32,A44A (GCC->GCT),proC <-,1
+4,32,R109H (CGC->CAC),rho ->,1
+4,32,intergenic (+47/-80),rlmB -> / -> yjfI,1
+4,32,V97A (GTA->GCA),rlmM <-,1
+4,32,intergenic (-69/-66),rluD <- / -> bamD,1
+4,32,H1237Q (CAC->CAA),rpoB ->,1
+4,32,T92A (ACC->GCC),sstT ->,1
+4,32,G331S (GGT->AGT),sucC ->,1
+4,32,S66P (TCT->CCT),tsaD <-,1
+4,32,N147S (AAC->AGC),tyrR ->,1
+4,32,N64N (AAC->AAT),uxuB ->,1
+4,32,pseudogene (3199/3497 nt),ydbA ->,1
+4,32,A327A (GCG->GCA),ydcO <-,1
+4,32,intergenic (-249/-67),ydiP <- / -> ydiQ,1
+4,32,G351G (GGT->GGC),ynfE ->,1
+4,32,D226D (GAT->GAC),ytfL <-,1
+4,42,intergenic (-73/+61),adhP <- / <- maeA,1
+4,42,intergenic (+251/-148),alx -> / -> sstT,1
+4,42,intergenic (+5/-257),carB -> / -> caiF,1
+4,42,T127T (ACC->ACT),cdsA ->,1
+4,42,H119Y (CAT->TAT),cfa ->,1
+4,42,G126V (GGC->GTC),cytR <-,1
+4,42,Y53N (TAT->AAT),dppA <-,1
+4,42,F6L (TTT->CTT),emtA ->,1
+4,42,Y713C (TAC->TGC),fadB <-,1
+4,42,intergenic (+182/-127),fklB -> / -> cycA,1
+4,42,intergenic (+105/+91),flgL -> / <- rne,1
+4,42,E395G (GAA->GGA),gabP ->,1
+4,42,E158K (GAA->AAA),gcvA <-,1
+4,42,intergenic (-317/-11),glyA <- / -> hmp,1
+4,42,D75N (GAT->AAT),hisJ <-,1
+4,42,intergenic (-27/+303),insH1 <- / <- lnt,1
+4,42,intergenic (+6/-7),ispU -> / -> cdsA,1
+4,42,G441G (GGT->GGC),lpoA ->,1
+4,42,A194V (GCG->GTG),malE <-,1
+4,42,noncoding (51/77 nt),metZ ->,1
+4,42,T50A (ACC->GCC),mocA ->,1
+4,42,coding (214-300/1848 nt),mutL ->,1
+4,42,A85T (GCT->ACT),nagZ ->,1
+4,42,G765G (GGC->GGT),nfrA <-,1
+4,42,intergenic (-15/+342),ompA <- / <- sulA,1
+4,42,intergenic (-338/+29),ompN <- / <- pfo,1
+4,42,Q204* (CAG->TAG),paaX ->,1
+4,42,I120I (ATT->ATA),phoR ->,1
+4,42,coding (60/699 nt),proQ <-,1
+4,42,intergenic (-370/+53),psuK <- / <- fruA,1
+4,42,I254T (ATT->ACT),putP ->,1
+4,42,coding (1052/1068 nt),rffG ->,1
+4,42,intergenic (-69/-66),rluD <- / -> bamD,1
+4,42,I81T (ATC->ACC),rpoA <-,1
+4,42,E1272G (GAG->GGG),rpoB ->,1
+4,42,E373G (GAA->GGA),rseP ->,1
+4,42,T92A (ACC->GCC),sstT ->,1
+4,42,N147S (AAC->AGC),tyrR ->,1
+4,42,intergenic (-41/+97),uhpT <- / <- uhpC,1
+4,42,Y559C (TAT->TGT),xdhD ->,1
+4,42,R134C (CGT->TGT),yadS <-,1
+4,42,pseudogene (3199/3497 nt),ydbA ->,1
+4,42,A327A (GCG->GCA),ydcO <-,1
+4,42,F20F (TTC->TTT),yfgF <-,1
+4,42,coding (234/714 nt),ygdQ ->,1
+4,42,A153V (GCC->GTC),yhcM <-,1
+4,42,A309V (GCC->GTC),yhjA <-,1
+4,42,L143P (CTG->CCG),yigM ->,1
+4,42,G351G (GGT->GGC),ynfE ->,1
+4,64,coding (696/1413 nt),bglB <-,1
+4,64,T127T (ACC->ACT),cdsA ->,1
+4,64,coding (1687-1689/2277 nt),clpA ->,1
+4,64,coding (274-278/321 nt),clpS ->,1
+4,64,G126D (GGC->GAC),cytR <-,1
+4,64,intergenic (+182/-127),fklB -> / -> cycA,1
+4,64,intergenic (+105/+91),flgL -> / <- rne,1
+4,64,intergenic (-45/-170),fliE <- / -> fliF,1
+4,64,E395G (GAA->GGA),gabP ->,1
+4,64,pseudogene (913-914/914 nt),gatC <-,1
+4,64,I106T (ATT->ACT),gcvA <-,1
+4,64,D75N (GAT->AAT),hisJ <-,1
+4,64,intergenic (+6/-7),ispU -> / -> cdsA,1
+4,64,F226F (TTC->TTT),lacZ <-,1
+4,64,G441G (GGT->GGC),lpoA ->,1
+4,64,C388R (TGT->CGT),malQ <-,1
+4,64,S219G (AGT->GGT),mdtA ->,1
+4,64,noncoding (51/77 nt),metZ ->,1
+4,64,intergenic (-442/-74),minC <- / -> ycgJ,1
+4,64,coding (214-300/1848 nt),mutL ->,1
+4,64,coding (758-759/1389 nt),narU <-,1
+4,64,D258N (GAC->AAC),nuoM <-,1
+4,64,intergenic (-15/+342),ompA <- / <- sulA,1
+4,64,V303A (GTG->GCG),prc <-,1
+4,64,Q118* (CAA->TAA),proQ <-,1
+4,64,intergenic (-278/-145),putA <- / -> putP,1
+4,64,V205A (GTC->GCC),putP ->,1
+4,64,W115* (TGG->TGA),rimJ ->,1
+4,64,V97A (GTA->GCA),rlmM <-,1
+4,64,I81T (ATC->ACC),rpoA <-,1
+4,64,E1272G (GAG->GGG),rpoB ->,1
+4,64,E373G (GAA->GGA),rseP ->,1
+4,64,T92A (ACC->GCC),sstT ->,1
+4,64,K355R (AAG->AGG),trkH ->,1
+4,64,A62T (GCT->ACT),typA ->,1
+4,64,N147S (AAC->AGC),tyrR ->,1
+4,64,M134V (ATG->GTG),uspA ->,1
+4,64,Y559C (TAT->TGT),xdhD ->,1
+4,64,R134C (CGT->TGT),yadS <-,1
+4,64,A551T (GCT->ACT),ybhF <-,1
+4,64,pseudogene (3199/3497 nt),ydbA ->,1
+4,64,pseudogene (1453/2847 nt),yehH ->,1
+4,64,coding (234/714 nt),ygdQ ->,1
+4,64,pseudogene (190/261 nt),ygeN <-,1
+4,64,A309V (GCC->GTC),yhjA <-,1
+4,64,N154K (AAC->AAA),yidJ <-,1
+4,64,G351G (GGT->GGC),ynfE ->,1
+4,64,intergenic (-17/-122),yobA <- / -> holE,1
+4,64,E314K (GAG->AAG),yqeG ->,1
+4,127,intergenic (-73/+61),adhP <- / <- maeA,1
+4,127,coding (181-183/450 nt),alaE ->,1
+4,127,intergenic (+251/-148),alx -> / -> sstT,1
+4,127,T127T (ACC->ACT),cdsA ->,1
+4,127,Q709* (CAG->TAG),clpA ->,1
+4,127,coding (772-776/1302 nt),dcuA <-,1
+4,127,Y53N (TAT->AAT),dppA <-,1
+4,127,intergenic (-157/+211),fabI <- / <- ycjD,1
+4,127,intergenic (+182/-127),fklB -> / -> cycA,1
+4,127,intergenic (+105/+91),flgL -> / <- rne,1
+4,127,E395G (GAA->GGA),gabP ->,1
+4,127,T277A (ACC->GCC),gcd <-,1
+4,127,E158K (GAA->AAA),gcvA <-,1
+4,127,coding (408/1359 nt),glpT <-,1
+4,127,coding (421-425/1323 nt),hipA <-,1
+4,127,intergenic (-27/+303),insH1 <- / <- lnt,1
+4,127,intergenic (+6/-7),ispU -> / -> cdsA,1
+4,127,intergenic (-35/+163),lepA <- / <- rseC,1
+4,127,T107A (ACG->GCG),lldD ->,1
+4,127,G441G (GGT->GGC),lpoA ->,1
+4,127,W108* (TGG->TAG),mutH ->,1
+4,127,coding (214-300/1848 nt),mutL ->,1
+4,127,intergenic (-82/-1374),nanC <- / -> fimB,1
+4,127,intergenic (+503/-108),nth -> / -> dtpA,1
+4,127,S273R (AGC->AGA),oppA ->,1
+4,127,G19D (GGC->GAC),paaX ->,1
+4,127,P85S (CCG->TCG),pdhR ->,1
+4,127,S7C (AGT->TGT),pepE <-,1
+4,127,I120I (ATT->ATA),phoR ->,1
+4,127,I662S (ATC->AGC),prc <-,1
+4,127,Q102* (CAG->TAG),proQ <-,1
+4,127,intergenic (-24/+69),proQ <- / <- msrC,1
+4,127,G237C (GGT->TGT),psd <-,1
+4,127,intergenic (-42/-216),purL <- / -> mltF,1
+4,127,M73L (ATG->CTG),ravA <-,1
+4,127,R21P (CGT->CCT),rimJ ->,1
+4,127,intergenic (-69/-66),rluD <- / -> bamD,1
+4,127,I81T (ATC->ACC),rpoA <-,1
+4,127,E1272G (GAG->GGG),rpoB ->,1
+4,127,K17R (AAG->AGG),rpsG <-,1
+4,127,E373G (GAA->GGA),rseP ->,1
+4,127,T69A (ACG->GCG),rutG <-,1
+4,127,T92A (ACC->GCC),sstT ->,1
+4,127,L71F (CTC->TTC),tatB ->,1
+4,127,L88L (CTG->CTA),thiL ->,1
+4,127,N147S (AAC->AGC),tyrR ->,1
+4,127,Y559C (TAT->TGT),xdhD ->,1
+4,127,coding (1254/1455 nt),xylB <-,1
+4,127,R134C (CGT->TGT),yadS <-,1
+4,127,G70G (GGG->GGA),ychQ ->,1
+4,127,pseudogene (3199/3497 nt),ydbA ->,1
+4,127,A327A (GCG->GCA),ydcO <-,1
+4,127,T136A (ACG->GCG),ydiK ->,1
+4,127,L170Q (CTG->CAG),ydiS ->,1
+4,127,coding (331-332/369 nt),yffN ->,1
+4,127,L17F (CTT->TTT),yfgF <-,1
+4,127,coding (234/714 nt),ygdQ ->,1
+4,127,I162I (ATC->ATA),ygfB <-,1
+4,127,coding (303-307/552 nt),ygiL ->,1
+4,127,R93H (CGT->CAT),ylbF ->,1
+4,127,G351G (GGT->GGC),ynfE ->,1
+5,11,K334Q (AAA->CAA),rpoC ->,1
+5,64,F110V (TTC->GTC),actP <-,1
+5,64,coding (959/1026 nt),cytR <-,1
+5,64,coding (958/1212 nt),dacA <-,1
+5,64,I334S (ATC->AGC),dctA <-,1
+5,64,intergenic (-26/+157),dctA <- / <- yhjK,1
+5,64,A200E (GCG->GAG),deoR <-,1
+5,64,Y53N (TAT->AAT),dppA <-,1
+5,64,intergenic (-1/+1),gatC <- / <- gatC,1
+5,64,intergenic (-141/+307),gcvT <- / <- ubiI,1
+5,64,coding (563-566/576 nt),lptC ->,1
+5,64,S328I (AGC->ATC),paaK ->,1
+5,64,L250* (TTG->TAG),paaX ->,1
+5,64,W498* (TGG->TGA),prc <-,1
+5,64,coding (87/699 nt),proQ <-,1
+5,64,intergenic (-126/+297),psuK <- / <- fruA,1
+5,64,D1263E (GAT->GAA),putA <-,1
+5,64,A149V (GCG->GTG),putP ->,1
+5,64,H1237Q (CAC->CAG),rpoB ->,1
+5,64,T428S (ACT->AGT),rpoC ->,1
+5,64,V98E (GTA->GAA),rpoD ->,1
+5,64,coding (232-236/717 nt),yhcF ->,1
+5,64,intergenic (-49/-90),yobA <- / -> holE,1
+5,127,L311F (CTC->TTC),clpA ->,1
+5,127,A96V (GCT->GTT),crp ->,1
+5,127,I334S (ATC->AGC),dctA <-,1
+5,127,intergenic (-26/+157),dctA <- / <- yhjK,1
+5,127,V114I (GTT->ATT),dcuA <-,1
+5,127,Y53N (TAT->AAT),dppA <-,1
+5,127,coding (494-499/549 nt),fimA ->,1
+5,127,intergenic (+299/-10),fklB -> / -> cycA,1
+5,127,A399A (GCG->GCA),frlA ->,1
+5,127,intergenic (-208/+136),gcvA <- / <- ygdI,1
+5,127,intergenic (-141/+307),gcvT <- / <- ubiI,1
+5,127,T412T (ACC->ACG),gntU <-,1
+5,127,intergenic (-92/+238),insH1 <- / <- lnt,1
+5,127,coding (758-762/792 nt),kdgR <-,1
+5,127,coding (1-5/495 nt),lrp ->,1
+5,127,A190A (GCG->GCT),pgi ->,1
+5,127,A214E (GCA->GAA),prc <-,1
+5,127,coding (87/699 nt),proQ <-,1
+5,127,intergenic (-21/+69),proQ <- / <- msrC,1
+5,127,A270D (GCC->GAC),putA <-,1
+5,127,A149V (GCG->GTG),putP ->,1
+5,127,coding (74-78/585 nt),rimJ ->,1
+5,127,intergenic (+178/-138),rplL -> / -> rpoB,1
+5,127,T428S (ACT->AGT),rpoC ->,1
+5,127,A301T (GCG->ACG),sstT ->,1
+5,127,coding (283-287/951 nt),uspE <-,1
