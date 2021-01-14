@@ -1,2 +1,2 @@
 "paper","dataset_name","environment","generation","day","flask","selective_pressure","species","ploidy","strain_info","c_hyper","p_chisq","estimate","N_genes.notParallel","N_genes.parallel","parallel_genes","who_analyzed","func"
-"Echenique2019","Echenique2019_HXK2","YPD","500",NA,NA,"YPD","Sac","haploid","HXK2 deleted",8.527,0.005,0.006,9,1,"ATP2","TL","single_long"
+"Echenique2019","Echenique2019_HXK2","YPD","500",NA,NA,"YPD","Sac","haploid","HXK2 deleted",8.527,0.01,0.006,9,1,"ATP2","TL","single_long"

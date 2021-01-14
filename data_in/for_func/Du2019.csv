@@ -1,61 +1,61 @@
-gene,details,population,frequency
-ilvL,coding (33-34/99 nt),aa1,1
-rho,R102C (CGC?TGC),aa1,0
-rpoC,A397E (GCG?GAG),aa1,0
-rpoC,coding (4106-4112/4224 nt),aa1,0
-rpoC,coding (4111/4224 nt),aa1,0
-rpoC,G444A (GGT?GCT),aa1,0
-rpoC,S539F (TCT?TTT),aa1,0
-tam,coding (5-16/759 nt),aa1,1
-ycgJ,coding (1-5/369 nt),aa1,0
-yiaA,coding (16-20/438 nt),aa1,0
-ilvL,coding (33-34/99 nt),aa2,0
-rho,R102C (CGC?TGC),aa2,0
-rpoC,A397E (GCG?GAG),aa2,1
-rpoC,coding (4106-4112/4224 nt),aa2,0
-rpoC,coding (4111/4224 nt),aa2,0
-rpoC,G444A (GGT?GCT),aa2,0
-rpoC,S539F (TCT?TTT),aa2,0
-tam,coding (5-16/759 nt),aa2,0
-ycgJ,coding (1-5/369 nt),aa2,0
-yiaA,coding (16-20/438 nt),aa2,0
-ilvL,coding (33-34/99 nt),aa3,0
-rho,R102C (CGC?TGC),aa3,0
-rpoC,A397E (GCG?GAG),aa3,0
-rpoC,coding (4106-4112/4224 nt),aa3,0
-rpoC,coding (4111/4224 nt),aa3,0
-rpoC,G444A (GGT?GCT),aa3,1
-rpoC,S539F (TCT?TTT),aa3,0
-tam,coding (5-16/759 nt),aa3,0
-ycgJ,coding (1-5/369 nt),aa3,0
-yiaA,coding (16-20/438 nt),aa3,1
-ilvL,coding (33-34/99 nt),aa4,0
-rho,R102C (CGC?TGC),aa4,0
-rpoC,A397E (GCG?GAG),aa4,0
-rpoC,coding (4106-4112/4224 nt),aa4,1
-rpoC,coding (4111/4224 nt),aa4,0
-rpoC,G444A (GGT?GCT),aa4,0
-rpoC,S539F (TCT?TTT),aa4,0
-tam,coding (5-16/759 nt),aa4,0
-ycgJ,coding (1-5/369 nt),aa4,0
-yiaA,coding (16-20/438 nt),aa4,0
-ilvL,coding (33-34/99 nt),aa5,0
-rho,R102C (CGC?TGC),aa5,0
-rpoC,A397E (GCG?GAG),aa5,0
-rpoC,coding (4106-4112/4224 nt),aa5,0
-rpoC,coding (4111/4224 nt),aa5,1
-rpoC,G444A (GGT?GCT),aa5,0
-rpoC,S539F (TCT?TTT),aa5,0
-tam,coding (5-16/759 nt),aa5,0
-ycgJ,coding (1-5/369 nt),aa5,0
-yiaA,coding (16-20/438 nt),aa5,0
-ilvL,coding (33-34/99 nt),aa6,0
-rho,R102C (CGC?TGC),aa6,1
-rpoC,A397E (GCG?GAG),aa6,0
-rpoC,coding (4106-4112/4224 nt),aa6,0
-rpoC,coding (4111/4224 nt),aa6,0
-rpoC,G444A (GGT?GCT),aa6,0
-rpoC,S539F (TCT?TTT),aa6,1
-tam,coding (5-16/759 nt),aa6,0
-ycgJ,coding (1-5/369 nt),aa6,1
-yiaA,coding (16-20/438 nt),aa6,0
+gene,population
+ilvL,aa1
+rho,aa1
+rpoC,aa1
+rpoC,aa1
+rpoC,aa1
+rpoC,aa1
+rpoC,aa1
+tam,aa1
+ycgJ,aa1
+yiaA,aa1
+ilvL,aa2
+rho,aa2
+rpoC,aa2
+rpoC,aa2
+rpoC,aa2
+rpoC,aa2
+rpoC,aa2
+tam,aa2
+ycgJ,aa2
+yiaA,aa2
+ilvL,aa3
+rho,aa3
+rpoC,aa3
+rpoC,aa3
+rpoC,aa3
+rpoC,aa3
+rpoC,aa3
+tam,aa3
+ycgJ,aa3
+yiaA,aa3
+ilvL,aa4
+rho,aa4
+rpoC,aa4
+rpoC,aa4
+rpoC,aa4
+rpoC,aa4
+rpoC,aa4
+tam,aa4
+ycgJ,aa4
+yiaA,aa4
+ilvL,aa5
+rho,aa5
+rpoC,aa5
+rpoC,aa5
+rpoC,aa5
+rpoC,aa5
+rpoC,aa5
+tam,aa5
+ycgJ,aa5
+yiaA,aa5
+ilvL,aa6
+rho,aa6
+rpoC,aa6
+rpoC,aa6
+rpoC,aa6
+rpoC,aa6
+rpoC,aa6
+tam,aa6
+ycgJ,aa6
+yiaA,aa6

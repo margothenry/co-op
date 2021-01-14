@@ -2306,6 +2306,7 @@ ERConstraint(
 )
 
 # Morgenthaler2019
+## Morgenthaler2019 time series
 Morgenthaler2019 <- read_csv(
   here("data_in", "original & usable", "Morgenthaler2019", "Morgenthaler2019_usable.csv")
 )
@@ -2344,6 +2345,46 @@ ERConstraint(
   selective_pressure = "M9", 
   species = "Ecoli_K12",
   who_analyzed = "TL",
+  ploidy = "haploid"
+)
+
+## Morgenthaler2019 end point
+Morgenthaler2019 <- read_csv(
+  here("data_in", "original & usable", "Morgenthaler2019", "Morgenthaler2019_usable2.csv")
+)
+
+Morgenthaler2019 <- clean_names(Morgenthaler2019, case = "snake")
+
+colnames(Morgenthaler2019) <- tolower(colnames(Morgenthaler2019))
+
+Morgenthaler2019_out <- c(
+  grep(out_patterns_column_gene, Morgenthaler2019$gene),
+  grep(out_patterns_column_details, Morgenthaler2019$details)
+)
+
+if (length(Morgenthaler2019_out) > 0) {   
+  Morgenthaler2019 <- Morgenthaler2019[-Morgenthaler2019_out,] 
+}
+
+Morgenthaler2019 <- Morgenthaler2019 %>%
+  replace_na(value = 0)
+
+Morgenthaler2019$gene <- gsub("[^[:alnum:][:blank:]&/\\-]", "", Morgenthaler2019$gene)
+
+Morgenthaler2019 = Morgenthaler2019 %>% select( -details )
+
+write_csv(Morgenthaler2019, here("data_in", "for_func", "Morgenthaler2019_endpoint.csv"))
+
+ERConstraint(
+  paper = "Morgenthaler2019",
+  dataset_name = "Morgenthaler2019_endpoint",
+  timepoint_pressure_info = "single",
+  structure = "long",
+  environment = "M9",
+  days = "42",
+  selective_pressure = "M9", 
+  species = "Ecoli_K12",
+  who_analyzed = "MH",
   ploidy = "haploid"
 )
 

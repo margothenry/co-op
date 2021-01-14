@@ -1,4 +1,4 @@
 "paper","dataset_name","environment","generation","day","flask","selective_pressure","species","ploidy","strain_info","c_hyper","p_chisq","estimate","N_genes.notParallel","N_genes.parallel","parallel_genes","who_analyzed","func"
 "Tack2018","Tack2018_addicted","Rich defined media","2000",NA,NA,"RDM20","Ecoli_K12","haploid",NA,11.338,0.005,0.005,8,2,"envZ, sdaC","TL","multiple_long"
-"Tack2018","Tack2018_addicted","Rich defined media","2000",NA,NA,"RDM19","Ecoli_K12","haploid",NA,0,0.03,1,15,0,"","TL","multiple_long"
+"Tack2018","Tack2018_addicted","Rich defined media","2000",NA,NA,"RDM19","Ecoli_K12","haploid",NA,0,0.01,1,15,0,"","TL","multiple_long"
 "Tack2018","Tack2018_addicted","Rich defined media","2000",NA,NA,"RDM13","Ecoli_K12","haploid",NA,15.527,0.005,0.007,12,2,"cyaA, mtr","TL","multiple_long"
