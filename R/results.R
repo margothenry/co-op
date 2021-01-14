@@ -101,6 +101,38 @@ end_point_chyper_plot = ggplot(
     legend.position = "bottom"
   ) 
 
+gen_end_point_ds = end_point_ds %>% 
+  drop_na(
+    generation
+  ) %>% filter(
+    paper != "Tenaillon2016"
+  )
+
+gen_end_point_chyper_plot = ggplot() +
+  geom_point(
+    data = gen_end_point_ds, 
+    aes(x = generation, y = c_hyper, color = paper),
+    show.legend = TRUE
+  ) + theme(
+    axis.text.x = element_text(angle = 90),
+    legend.position = "bottom"
+  ) + facet_wrap(
+    .~species,
+    scales = "free"
+  )+
+  ylim(c(0,57))
+
+gen_end_point_chyper_plot = ggplot() +
+  geom_point(
+    data = gen_end_point_ds, 
+    aes(x = generation, y = c_hyper, color = species),
+    show.legend = TRUE
+  ) + theme(
+    axis.text.x = element_text(angle = 90),
+    legend.position = "bottom"
+  ) +
+  ylim(c(0,57))
+
 #multiple wide - generation analysis
 multiple_wide_ds = master_ds %>% 
   filter(
@@ -121,6 +153,19 @@ multiple_chyper_plot = ggplot() +
   )+
   ylim(c(0,36))
 
+multiple_chyper_plot = ggplot() +
+  geom_point(
+    data = multiple_wide_ds, 
+    aes(x = generation, y = c_hyper, color = paper),
+    show.legend = TRUE
+  ) + theme(
+    axis.text.x = element_text(angle = 90),
+    legend.position = "bottom"
+  ) + facet_wrap(
+    .~species,
+    scales = "free"
+  )+
+  ylim(c(0,36))
 
 violin_multiple_chyper_species = ggplot(
   multiple_wide_ds, aes(species, c_hyper)
@@ -137,3 +182,91 @@ violin_multiple_estimate_species = ggplot(
 ) 
 
 # generation by chyper by species
+gen_ds = master_ds %>% 
+  drop_na(
+    generation
+  )
+
+gen_ds = gen_ds %>% filter(
+  paper != "Tenaillon2016"
+)
+
+gen_chyper_plot = ggplot() +
+  geom_point(
+    data = gen_ds, 
+    aes(x = generation, y = c_hyper, color = paper),
+    show.legend = TRUE
+  ) + theme(
+    axis.text.x = element_text(angle = 90),
+    legend.position = "bottom"
+  )
+
+gen_chyper_plot = ggplot() +
+  geom_point(
+    data = gen_ds, 
+    aes(x = generation, y = c_hyper, color = species),
+    show.legend = TRUE
+  ) + theme(
+    axis.text.x = element_text(angle = 90),
+    legend.position = "bottom"
+  )
+
+gen_chyper_plot = ggplot() +
+  geom_point(
+    data = gen_ds, 
+    aes(
+      x = generation, 
+      y = c_hyper, 
+      color = paper
+      ),
+    show.legend = TRUE
+  ) + theme(
+    axis.text.x = element_text(angle = 90),
+    legend.position = "bottom"
+  ) + facet_wrap(
+    .~species,
+    scales = "free"
+  )
+
+#days
+day_ds = master_ds %>% 
+  drop_na(
+    day
+  )
+
+day_chyper_plot = ggplot() +
+  geom_point(
+    data = day_ds, 
+    aes(x = day, y = c_hyper, color = paper),
+    show.legend = TRUE
+  ) + theme(
+    axis.text.x = element_text(angle = 90),
+    legend.position = "bottom"
+  )
+
+day_chyper_plot = ggplot() +
+  geom_point(
+    data = day_ds, 
+    aes(x = day, y = c_hyper, color = species),
+    show.legend = TRUE
+  ) + theme(
+    axis.text.x = element_text(angle = 90),
+    legend.position = "bottom"
+  )
+
+day_chyper_plot = ggplot() +
+  geom_point(
+    data = day_ds, 
+    aes(
+      x = day, 
+      y = c_hyper, 
+      color = paper
+    ),
+    show.legend = TRUE
+  ) + theme(
+    axis.text.x = element_text(angle = 90),
+    legend.position = "bottom"
+  ) + facet_wrap(
+    .~species,
+    scales = "free"
+  )
