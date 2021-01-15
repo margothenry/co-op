@@ -220,20 +220,26 @@ gen_chyper_plot = ggplot() +
   theme_bw()
 
 #lm generations
-# lm_fit = lm(c_hyper ~ generation , data = multiple_wide_ds)
 
-multiple_chyper_plot = ggplot() +
-  geom_point(
+
+multiple_chyper_plot = ggplot(    
     data = multiple_wide_ds, 
     aes(x = generation, y = c_hyper, color = species)
-  ) + stat_smooth(method="lm") +
+  ) +
+  geom_point(
+    alpha = 0.9
+  ) + stat_smooth(
+    method = "lm",
+    se = FALSE,
+    linetype = "dashed",
+    size = 0.5
+  ) +
   facet_wrap(
     .~paper,
     scales = "free",
     nrow = 2,
     ncol = 4
   )+
-  # geom_abline(slope = coef(lm_fit)[[2]], intercept = coef(lm_fit)[[1]])+
   ylim(c(0,37)) +
   scale_color_manual(
     values = c("cyan4","darkorange","purple"),
@@ -250,3 +256,59 @@ multiple_chyper_plot = ggplot() +
     axis.text.x = element_text(angle = 90),
     legend.position = "bottom"
   ) 
+
+#flynn
+flynn = multiple_wide_ds %>% filter(
+  paper == "Flynn2014"
+)
+lm_fit <- lm(c_hyper ~ generation , data = flynn)
+summary(lm_fit)
+#not significant
+
+#kacar
+kacar = multiple_wide_ds %>% filter(
+  paper == "Kacar2017"
+)
+lm_fit <- lm(c_hyper ~ generation , data = kacar)
+summary(lm_fit)
+#not significant
+
+#keane
+keane = multiple_wide_ds %>% filter(
+  paper == "Keane2014"
+)
+lm_fit <- lm(c_hyper ~ generation , data = keane)
+summary(lm_fit)
+#not significant
+
+#lang
+lang = multiple_wide_ds %>% filter(
+  paper == "Lang2013"
+)
+lm_fit <- lm(c_hyper ~ generation , data = lang)
+summary(lm_fit)
+#significant
+
+#sherlock2013
+sherlock2013 = multiple_wide_ds %>% filter(
+  paper == "Sherlock2013"
+)
+lm_fit <- lm(c_hyper ~ generation , data = sherlock2013)
+summary(lm_fit)
+#not significant
+
+#sherlock2019
+sherlock2019 = multiple_wide_ds %>% filter(
+  paper == "Sherlock2019"
+)
+lm_fit <- lm(c_hyper ~ generation , data = sherlock2019)
+summary(lm_fit)
+#not significant
+
+#tenaillon
+tenaillon = multiple_wide_ds %>% filter(
+  paper == "Tenaillon2016"
+)
+lm_fit <- lm(c_hyper ~ generation , data = tenaillon)
+summary(lm_fit)
+#significant
