@@ -3,7 +3,8 @@ if( !require( "pacman" ) ) { install.packages( "pacman" ) }
 pacman::p_load(
   tidyverse,
   here,
-  ggforce
+  ggforce,
+  ggtext
 )
 
 master_ds <- read.csv(
@@ -59,7 +60,7 @@ Sherlock2019_end = master_ds %>% filter(
 
 Tenaillon2016_end = master_ds %>% filter(
   paper == "Tenaillon2016" &
-    generation == "50000"
+    generation == "2000"
 )
 
 Wielgoss2016_end = master_ds %>% filter(
@@ -87,51 +88,95 @@ end_point_ds = rbind(
   Wielgoss2016_end
 )
 
+
+end_point_ds$kingdom[end_point_ds$species == "Sac"] <- "fungi"
+end_point_ds$kingdom[end_point_ds$species != "Sac"] <- "bacteria"
+
+lm_fit <- lm(c_hyper ~ generation + kingdom , data = end_point_ds)
+
 end_point_chyper_plot = ggplot(
   data = end_point_ds, 
-  aes(x = species, y = c_hyper, color = species),
+  aes(x = kingdom, y = c_hyper),
   show.legend = FALSE
 ) +
-  geom_sina(
-    stat = "sina",
-    position = "dodge"
-  ) +
-  theme(
-    axis.text.x = element_text(angle = 90),
-    legend.position = "bottom"
-  ) 
+  geom_boxplot(
+    outlier.shape = NA,
+    varwidth = 0.2
+    ) +
+  geom_jitter(
+    aes(
+      color = species),
+    alpha = 0.5,
+    show.legend = FALSE,
+    position = position_jitter(width = 0.2, seed = 0),
+    size = 2
+    ) +
+  scale_color_manual(values = c("cyan4","darkorange","purple")) +
+ylab("Genetic repeatability") +
+  theme_bw()
 
-gen_end_point_ds = end_point_ds %>% 
-  drop_na(
-    generation
-  ) %>% filter(
-    paper != "Tenaillon2016"
+gen_end_point_ds = end_point_ds
+#############
+#italic and change names and send
+#plot again with teniallon gen ~ 2000
+#time series with linear regression line
+gen_end_point_ds$species = factor(
+  gen_end_point_ds$species,
+  levels = c(
+    "Ecoli_K12",
+    "Sac",
+    "P_aeruginosa_PA14"
+  ),
+  labels = c(
+    "E. coli",
+    "S. cerevisiae",
+    "P. aeruginosa"
   )
 
+) 
 gen_end_point_chyper_plot = ggplot() +
   geom_point(
     data = gen_end_point_ds, 
-    aes(x = generation, y = c_hyper, color = paper),
-    show.legend = TRUE
-  ) + theme(
-    axis.text.x = element_text(angle = 90),
-    legend.position = "bottom"
-  ) + facet_wrap(
-    .~species,
-    scales = "free"
-  )+
-  ylim(c(0,57))
+    aes(x = generation, y = c_hyper, color = species),
+    size = 2,
+    alpha = 0.7
+  ) +
+scale_color_manual(
+  values = c("cyan4","darkorange","purple"),
+  labels = c(
+    expression(italic("E. coli")),
+    expression(italic("S. cerevisiae")),
+    expression(italic("P. aeruginosa")))
+  ) +
+  ylab("Genetic repeatability") +
+  xlab("Generation") +
+  theme_bw() +
+  theme(
+    legend.text.align = 0
+  ) 
+
 
 gen_end_point_chyper_plot = ggplot() +
   geom_point(
     data = gen_end_point_ds, 
     aes(x = generation, y = c_hyper, color = species),
-    show.legend = TRUE
-  ) + theme(
-    axis.text.x = element_text(angle = 90),
-    legend.position = "bottom"
+    size = 2,
+    alpha = 0.7
   ) +
-  ylim(c(0,57))
+  scale_color_manual(
+    values = c("cyan4","darkorange","purple"),
+    labels = c(
+      expression(italic("E. coli")),
+      expression(italic("S. cerevisiae")),
+      expression(italic("P. aeruginosa")))
+  ) +
+  ylab("Genetic repeatability") +
+  xlab("Generation") +
+  theme_bw() +
+  theme(
+    legend.text.align = 0
+  ) 
+
 
 #multiple wide - generation analysis
 multiple_wide_ds = master_ds %>% 
@@ -139,134 +184,69 @@ multiple_wide_ds = master_ds %>%
     func == "multiple_wide"
   ) %>% drop_na(generation)
 
-multiple_chyper_plot = ggplot() +
+
+ten_chyper_plot = ggplot() +
   geom_point(
     data = multiple_wide_ds, 
-    aes(x = generation, y = c_hyper, color = species),
-    show.legend = TRUE
+    aes(x = generation, y = c_hyper, colour = species),
+    show.legend = FALSE,
+    size = 2
   ) + theme(
     axis.text.x = element_text(angle = 90),
     legend.position = "bottom"
-  ) + facet_wrap(
+  ) + 
+  ylim(c(0,30)) +
+  scale_color_manual(values = c("cyan4")) +
+  ylab("Genetic repeatability") +
+  theme_bw() + 
+  geom_abline(slope = coef(lm_fit)[[2]], intercept = coef(lm_fit)[[1]])+
+  geom_smooth(
+    method = "lm"
+  )
+
+gen_chyper_plot = ggplot() +
+  geom_point(
+    data = multiple_wide_ds, 
+    aes(x = generation, y = c_hyper, colour = species),
+    show.legend = FALSE,
+    size = 2
+  ) + theme(
+    axis.text.x = element_text(angle = 90),
+    legend.position = "bottom"
+  ) + 
+  ylim(c(0,37)) +
+  scale_color_manual(values = c("darkorange","purple","cyan4")) +
+  ylab("Genetic repeatability") +
+  theme_bw()
+
+#lm generations
+# lm_fit = lm(c_hyper ~ generation , data = multiple_wide_ds)
+
+multiple_chyper_plot = ggplot() +
+  geom_point(
+    data = multiple_wide_ds, 
+    aes(x = generation, y = c_hyper, color = species)
+  ) + stat_smooth(method="lm") +
+  facet_wrap(
     .~paper,
-    scales = "free"
+    scales = "free",
+    nrow = 2,
+    ncol = 4
   )+
-  ylim(c(0,36))
-
-multiple_chyper_plot = ggplot() +
-  geom_point(
-    data = multiple_wide_ds, 
-    aes(x = generation, y = c_hyper, color = paper),
-    show.legend = TRUE
-  ) + theme(
+  # geom_abline(slope = coef(lm_fit)[[2]], intercept = coef(lm_fit)[[1]])+
+  ylim(c(0,37)) +
+  scale_color_manual(
+    values = c("cyan4","darkorange","purple"),
+    labels = c(
+      expression(italic("E. coli")),
+      expression(italic("S. cerevisiae")),
+      expression(italic("P. aeruginosa")))
+  ) +
+  ylab("Genetic repeatability") +
+  xlab("Generation") +
+  theme_bw() +
+  theme(
+    legend.text.align = 0,
     axis.text.x = element_text(angle = 90),
     legend.position = "bottom"
-  ) + facet_wrap(
-    .~species,
-    scales = "free"
-  )+
-  ylim(c(0,36))
-
-violin_multiple_chyper_species = ggplot(
-  multiple_wide_ds, aes(species, c_hyper)
-) + geom_sina(
-  stat = "sina",
-  position = "dodge"
-) 
-
-violin_multiple_estimate_species = ggplot(
-  multiple_wide_ds, aes(species, estimate)
-) +  geom_sina(
-  stat = "sina",
-  position = "dodge"
-) 
-
-# generation by chyper by species
-gen_ds = master_ds %>% 
-  drop_na(
-    generation
-  )
-
-gen_ds = gen_ds %>% filter(
-  paper != "Tenaillon2016"
-)
-
-gen_chyper_plot = ggplot() +
-  geom_point(
-    data = gen_ds, 
-    aes(x = generation, y = c_hyper, color = paper),
-    show.legend = TRUE
-  ) + theme(
-    axis.text.x = element_text(angle = 90),
-    legend.position = "bottom"
-  )
-
-gen_chyper_plot = ggplot() +
-  geom_point(
-    data = gen_ds, 
-    aes(x = generation, y = c_hyper, color = species),
-    show.legend = TRUE
-  ) + theme(
-    axis.text.x = element_text(angle = 90),
-    legend.position = "bottom"
-  )
-
-gen_chyper_plot = ggplot() +
-  geom_point(
-    data = gen_ds, 
-    aes(
-      x = generation, 
-      y = c_hyper, 
-      color = paper
-      ),
-    show.legend = TRUE
-  ) + theme(
-    axis.text.x = element_text(angle = 90),
-    legend.position = "bottom"
-  ) + facet_wrap(
-    .~species,
-    scales = "free"
-  )
-
-#days
-day_ds = master_ds %>% 
-  drop_na(
-    day
-  )
-
-day_chyper_plot = ggplot() +
-  geom_point(
-    data = day_ds, 
-    aes(x = day, y = c_hyper, color = paper),
-    show.legend = TRUE
-  ) + theme(
-    axis.text.x = element_text(angle = 90),
-    legend.position = "bottom"
-  )
-
-day_chyper_plot = ggplot() +
-  geom_point(
-    data = day_ds, 
-    aes(x = day, y = c_hyper, color = species),
-    show.legend = TRUE
-  ) + theme(
-    axis.text.x = element_text(angle = 90),
-    legend.position = "bottom"
-  )
-
-day_chyper_plot = ggplot() +
-  geom_point(
-    data = day_ds, 
-    aes(
-      x = day, 
-      y = c_hyper, 
-      color = paper
-    ),
-    show.legend = TRUE
-  ) + theme(
-    axis.text.x = element_text(angle = 90),
-    legend.position = "bottom"
-  ) + facet_wrap(
-    .~species,
-    scales = "free"
-  )
+  ) 
