@@ -58,7 +58,7 @@ Sherlock2019_end = master_ds %>% filter(
 
 Tenaillon2016_end = master_ds %>% filter(
   paper == "Tenaillon2016" &
-    generation == "2000"
+    generation == "50000"
 )
 
 Wielgoss2016_end = master_ds %>% filter(
@@ -132,26 +132,26 @@ gen_end_point_ds$species = factor(
   )
 
 ) 
-gen_end_point_chyper_plot = ggplot() +
-  geom_point(
-    data = gen_end_point_ds, 
-    aes(x = generation, y = c_hyper, color = species),
-    size = 2,
-    alpha = 0.7
-  ) +
-scale_color_manual(
-  values = c("cyan4","darkorange","purple"),
-  labels = c(
-    expression(italic("E. coli")),
-    expression(italic("S. cerevisiae")),
-    expression(italic("P. aeruginosa")))
-  ) +
-  ylab("Genetic repeatability") +
-  xlab("Generation") +
-  theme_bw() +
-  theme(
-    legend.text.align = 0
-  ) 
+# gen_end_point_chyper_plot = ggplot() +
+#   geom_point(
+#     data = gen_end_point_ds, 
+#     aes(x = generation, y = c_hyper, color = species),
+#     size = 2,
+#     alpha = 0.7
+#   ) +
+# scale_color_manual(
+#   values = c("cyan4","darkorange","purple"),
+#   labels = c(
+#     expression(italic("E. coli")),
+#     expression(italic("S. cerevisiae")),
+#     expression(italic("P. aeruginosa")))
+#   ) +
+#   ylab("Genetic repeatability") +
+#   xlab("Generation") +
+#   theme_bw() +
+#   theme(
+#     legend.text.align = 0
+#   ) 
 
 
 gen_end_point_chyper_plot = ggplot() +
@@ -162,7 +162,7 @@ gen_end_point_chyper_plot = ggplot() +
     alpha = 0.7
   ) +
   scale_color_manual(
-    values = c("cyan4","darkorange","purple"),
+    values = c("cyan4","purple", "darkorange"),
     labels = c(
       expression(italic("E. coli")),
       expression(italic("S. cerevisiae")),
@@ -173,7 +173,17 @@ gen_end_point_chyper_plot = ggplot() +
   theme_bw() +
   theme(
     legend.text.align = 0
-  ) 
+  ) +
+  ylim(c(0,57)) +
+  ggsave(
+    "new_endpoint_tenaillon_full.png",
+    device = "png",
+    scale = 1,
+    width = 200,
+    height = 100,
+    units = c("mm"),
+    dpi = 1000
+  )
 
 
 #multiple wide - generation analysis
