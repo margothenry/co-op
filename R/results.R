@@ -2,9 +2,7 @@
 if( !require( "pacman" ) ) { install.packages( "pacman" ) }
 pacman::p_load(
   tidyverse,
-  here,
-  ggforce,
-  ggtext
+  here
 )
 
 master_ds <- read.csv(
@@ -220,7 +218,20 @@ gen_chyper_plot = ggplot() +
   theme_bw()
 
 #lm generations
-
+multiple_wide_ds$species = factor(
+  multiple_wide_ds$species,
+  levels = c(
+    "Ecoli_K12",
+    "Sac",
+    "P_aeruginosa_PA14"
+  ),
+  labels = c(
+    "E. coli",
+    "S. cerevisiae",
+    "P. aeruginosa"
+  )
+  
+)
 
 multiple_chyper_plot = ggplot(    
     data = multiple_wide_ds, 
@@ -312,3 +323,11 @@ tenaillon = multiple_wide_ds %>% filter(
 lm_fit <- lm(c_hyper ~ generation , data = tenaillon)
 summary(lm_fit)
 #significant
+
+#tenaillon
+tenaillon = multiple_wide_ds %>% filter(
+  paper == "Tenaillon2016.2"
+)
+lm_fit <- lm(c_hyper ~ generation , data = tenaillon)
+summary(lm_fit)
+# not significant
