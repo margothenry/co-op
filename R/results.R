@@ -252,7 +252,7 @@ multiple_chyper_plot = ggplot(
   ) + stat_smooth(
     method = "lm",
     se = FALSE,
-    linetype = "dashed",
+    linetype = "solid",
     size = 0.5
   ) +
   facet_wrap(
@@ -263,7 +263,7 @@ multiple_chyper_plot = ggplot(
   )+
   ylim(c(0,37)) +
   scale_color_manual(
-    values = c("cyan4","darkorange","purple"),
+    values = c("cyan4", "purple", "darkorange"),
     labels = c(
       expression(italic("E. coli")),
       expression(italic("S. cerevisiae")),
@@ -276,7 +276,16 @@ multiple_chyper_plot = ggplot(
     legend.text.align = 0,
     axis.text.x = element_text(angle = 90),
     legend.position = "bottom"
-  ) 
+  ) +
+  ggsave(
+    "new_gen_solid_line.png",
+    device = "png",
+    scale = 1,
+    width = 200,
+    height = 100,
+    units = c("mm"),
+    dpi = 1000
+  )
 
 #flynn
 flynn = multiple_wide_ds %>% filter(
