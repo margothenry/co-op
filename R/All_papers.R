@@ -3312,6 +3312,38 @@ ERConstraint(
   ploidy = "haploid"
 )
 
+# Topak2012
+Toprak2012 <- read_csv(
+  here("data_in", "original & usable", "Toprak2012", "Toprak2012_usable.csv")
+)
+
+Toprak2012 <- clean_names(Toprak2012, case = "snake")
+
+colnames(Toprak2012) <- tolower(colnames(Toprak2012))
+
+Toprak2012 = Toprak2012 %>% rename(
+  population = line,
+  selective_pressure = environment
+) 
+
+Toprak2012$population = substr(Toprak2012$population, 5,6)
+Toprak2012$frequency = 1
+
+write_csv(Toprak2012, here("data_in", "for_func", "Toprak2012.csv"))
+
+ERConstraint(
+  paper = "Toprak2012",
+  dataset_name = "Toprak2012",
+  timepoint_pressure_info = "multiple",
+  structure = "long",
+  environment = "M9 minimal medium supplemented with 0.4% glucose and 0.2% amicase; one of 3 antibiotics",
+  days = "20",
+  selective_pressure = c("Trimethoprim","Chloramphenicol","Doxycycline"), 
+  species = "Ecoli_K12",
+  who_analyzed = "MH",
+  ploidy = "haploid"
+)
+
 # Wang2010
 Wang2010 <- read_csv(
   here("data_in", "original & usable", "Wang2010", "Wang2010_usable.csv")

@@ -58,7 +58,7 @@ Sherlock2019_end = master_ds %>% filter(
 
 Tenaillon2016_end = master_ds %>% filter(
   paper == "Tenaillon2016" &
-    generation == "50000"
+    generation == "2000"
 )
 
 Wielgoss2016_end = master_ds %>% filter(
@@ -107,7 +107,7 @@ end_point_chyper_plot = ggplot(
     alpha = 0.5,
     show.legend = FALSE,
     position = position_jitter(width = 0.2, seed = 0),
-    size = 2
+    size = 3
     ) +
   scale_color_manual(values = c("cyan4","darkorange","purple")) +
 ylab("Genetic repeatability") +
@@ -158,7 +158,7 @@ gen_end_point_chyper_plot = ggplot() +
   geom_point(
     data = gen_end_point_ds, 
     aes(x = generation, y = c_hyper, color = species),
-    size = 2,
+    size = 3,
     alpha = 0.7
   ) +
   scale_color_manual(
@@ -174,9 +174,8 @@ gen_end_point_chyper_plot = ggplot() +
   theme(
     legend.text.align = 0
   ) +
-  ylim(c(0,57)) +
   ggsave(
-    "new_endpoint_tenaillon_full.png",
+    "new_endpoint_tenaillon_updated.png",
     device = "png",
     scale = 1,
     width = 200,

@@ -1,0 +1,15 @@
+"selective_pressure","population","gene","frequency"
+"Chloramphenicol",2,"acrB",1
+"Chloramphenicol",1,"acrB",1
+"Chloramphenicol",4,"acrB",1
+"Chloramphenicol",3,"acrB",1
+"Chloramphenicol",5,"acrB",1
+"Chloramphenicol",3,"cmr",1
+"Chloramphenicol",5,"cmr",1
+"Chloramphenicol",4,"cmr",1
+"Chloramphenicol",5,"cmr",1
+"Chloramphenicol",1,"isrC",1
+"Chloramphenicol",1,"marR",1
+"Chloramphenicol",3,"ompR",1
+"Chloramphenicol",4,"rob",1
+"Chloramphenicol",4,"rplD",1

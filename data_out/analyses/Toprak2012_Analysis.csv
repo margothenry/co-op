@@ -1,0 +1,4 @@
+"paper","dataset_name","environment","generation","day","flask","selective_pressure","species","ploidy","strain_info","c_hyper","p_chisq","estimate","N_genes.notParallel","N_genes.parallel","parallel_genes","who_analyzed","func"
+"Toprak2012","Toprak2012","M9 minimal medium supplemented with 0.4% glucose and 0.2% amicase; one of 3 antibiotics",NA,"20",NA,"Trimethoprim","Ecoli_K12","haploid",NA,52.917,0.005,0.001,3,1,"folA","MH","multiple_long"
+"Toprak2012","Toprak2012","M9 minimal medium supplemented with 0.4% glucose and 0.2% amicase; one of 3 antibiotics",NA,"20",NA,"Chloramphenicol","Ecoli_K12","haploid",NA,36.321,0.005,0.002,5,2,"acrB, cmr","MH","multiple_long"
+"Toprak2012","Toprak2012","M9 minimal medium supplemented with 0.4% glucose and 0.2% amicase; one of 3 antibiotics",NA,"20",NA,"Doxycycline","Ecoli_K12","haploid",NA,20.703,0.005,0.002,5,2,"acrR, marR","MH","multiple_long"
