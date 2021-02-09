@@ -175,7 +175,7 @@ gen_end_point_chyper_plot = ggplot() +
     legend.text.align = 0
   ) +
   ggsave(
-    "new_endpoint_tenaillon_updated.png",
+    "endpoint_tenaillon_adapted.png",
     device = "png",
     scale = 1,
     width = 200,
